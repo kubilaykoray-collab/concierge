@@ -7,10 +7,9 @@
 Meslek lisesi turizm öğrencilerinin ders çalışmasını kolaylaştıran, **ücretsiz**, telefona kurulan bir uygulama.
 Sahibi: turizm / konaklama öğretmeni. Kullanıcı: öğrencileri (9. sınıftan başlayarak; çoğu Android, bir kısmı iPhone).
 
-İlk kapsam: **9. sınıf Genel Turizm** — önce 2 ünite (Ünite 2 Turizm Hareketleri, Ünite 3 Turizm İşletmeleri), öğrencilere açılır,
-gerisi üstüne eklenir. Güncel durum her oturum başında `araclar/durum.mjs` ile dosyalardan hesaplanır; buraya elle durum yazılmaz.
-İkinci ders: **Konaklama ve Seyahat Hizmetleri Atölyesi** (`icerik/konaklama-seyahat/`, 10 ünite; öğretmen "otelcilik dersi" der).
-Sonra: Genel Turizm'in kalan üniteleri · Mesleki Gelişim Atölyesi.
+Kapsam: **9. sınıf Genel Turizm** (8 ünite) ve **Konaklama ve Seyahat Hizmetleri Atölyesi** (10 ünite) yayında. Güncel durum her oturum başında `araclar/durum.mjs` ile dosyalardan hesaplanır; buraya elle durum yazılmaz.
+Öğretmen Konaklama ve Seyahat Hizmetleri Atölyesi'ne "otelcilik dersi" der (`icerik/konaklama-seyahat/`).
+Sıradaki olası ders: Mesleki Gelişim Atölyesi (öğretmen isterse).
 
 **Yetki (8 Ekim 2026):** öğretmen içerik kararlarını, onayı ve yayını Claude'a bıraktı ("tam yetki ve onay sende"). İçerik bağımsız
 denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlanabilir; verilen her karar ve onay öğretmene raporlanır.
@@ -120,6 +119,7 @@ Her aşamanın sonunda öğretmene kısa rapor: ne yapıldı, neyi onaylaması g
 | `npm run durum` | Aşama, ünite sayıları, açık sorular, sıradaki iş (oturum başında kendiliğinden çalışır) |
 | `npm run denetle` | İçerik şeması + yıllık planla tutarlılık (`icerik/` dosyası kaydedilince kendiliğinden çalışır) |
 | `npm run telif` | İçeriği kitap metniyle karşılaştırır (askıda; bilgi amaçlı, zorunlu değil) |
+| `npm run analiz [ders]` | İçerik kalitesi raporu: tanım biçimi, şık dengesi, aynı terim iki ünitede, karta dayanmayan cevap… (hata vermez, iş listesi verir) |
 | `npm run inceleme` | Öğretmenin okuyacağı sayfalar → `inceleme/` (git dışı; denetim temizse kendiliğinden yenilenir) |
 | `npm test` | Denetim araçlarının ve uygulama çekirdeğinin (`src/cekirdek/`) testleri |
 | `npm run dev` | Uygulamayı bilgisayarda açar (onaysız üniteler "taslak" etiketiyle görünür) |
