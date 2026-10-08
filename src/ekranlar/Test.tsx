@@ -7,9 +7,12 @@ import { bugun } from "../cekirdek/leitner";
 import { guncelle } from "../depo";
 import { uniteBul } from "../veri";
 
+// Soru havuzu büyük olan birimlerde her deneme havuzdan rastgele bu kadar soru çeker.
+const TEST_BOYU = 24;
+
 export function Test({ uniteAnahtari }: { uniteAnahtari: string }) {
   const unite = uniteBul(uniteAnahtari);
-  const [sorular, sorularAyarla] = useState(() => testHazirla(unite?.sorular ?? []));
+  const [sorular, sorularAyarla] = useState(() => testHazirla(unite?.sorular ?? []).slice(0, TEST_BOYU));
   const [konum, konumAyarla] = useState(-1); // -1: giriş ekranı
   const [secim, secimAyarla] = useState<number | null>(null);
   const [cevaplar, cevaplarAyarla] = useState<number[]>([]);
@@ -25,7 +28,7 @@ export function Test({ uniteAnahtari }: { uniteAnahtari: string }) {
           <p className="ust-etiket">Ünite testi</p>
           <h1>{unite.baslik}</h1>
           <p className="sonuc-metin">
-            {sorular.length} soru. Her cevaptan sonra doğrusunu ve nedenini göreceksin. Süre yok; acele etme, düşün.
+            {sorular.length} soru{unite.sorular.length > sorular.length ? ` (${unite.sorular.length} soruluk havuzdan; her denemede değişir)` : ""}. Her cevaptan sonra doğrusunu ve nedenini göreceksin. Süre yok; acele etme, düşün.
           </p>
           <div className="sonuc-sayilar">
             <div><strong>{sorular.length}</strong><span>soru</span></div>
@@ -43,7 +46,7 @@ export function Test({ uniteAnahtari }: { uniteAnahtari: string }) {
     const gecti = sonuc >= GECME_NOTU;
     const yanlislar = sorular.filter((s, i) => cevaplar[i] !== s.dogru);
     const yeniden = () => {
-      sorularAyarla(testHazirla(unite.sorular));
+      sorularAyarla(testHazirla(unite.sorular).slice(0, TEST_BOYU));
       cevaplarAyarla([]);
       secimAyarla(null);
       konumAyarla(0);

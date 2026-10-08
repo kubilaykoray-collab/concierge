@@ -1,0 +1,67 @@
+{
+  "ders": "otelcilik-seyahat",
+  "sinif": 9,
+  "dersAdi": "Otelcilik ve Seyahat Hizmetleri",
+  "kisaAd": "Otelcilik",
+  "sira": 1,
+  "kaynak": "2026-2027 ders kitabı (ISBN 978-625-5498-17-5) — konu sırası ve kazanımlar",
+  "uniteler": [
+    {
+      "unite": 1,
+      "baslik": "Kişisel Hijyen Kuralları",
+      "konular": [
+        { "no": "1.1", "baslik": "Kişisel Hijyen", "kazanim": "Kişisel bakım yapar." },
+        { "no": "1.2", "baslik": "İş Kıyafeti", "kazanim": "İşe uygun iş kıyafetlerini giyer." },
+        { "no": "1.3", "baslik": "Vücut Mekaniklerine Göre Hareket Etme", "kazanim": "Vücut mekaniklerine göre hareket eder." }
+      ]
+    },
+    {
+      "unite": 2,
+      "baslik": "İletişim Teknikleri",
+      "konular": [
+        { "no": "2.1", "baslik": "İletişim Teknikleri", "kazanim": "Doğru iletişim teknikleri ile çalışma arkadaşları ile olumlu ilişkiler kurar." },
+        { "no": "2.2", "baslik": "İletişimde Beden Dili", "kazanim": "Doğru iletişim teknikleri ile beden dilini doğru kullanır." },
+        { "no": "2.3", "baslik": "Toplum İçinde Uyulması Gereken Nezaket ve Görgü Kuralları", "kazanim": "Toplum içinde nezaket ve görgü kurallarını uygular." }
+      ]
+    },
+    {
+      "unite": 3,
+      "baslik": "Temel Konaklama Hizmetleri",
+      "konular": [
+        { "no": "3.1", "baslik": "Konaklama İşletmelerinde Organizasyon Yapısı", "kazanim": "Konaklama işletmelerinin ana departmanlarını ve birbirleriyle ilişkilerini açıklar." },
+        { "no": "3.2", "baslik": "Ön Büro Hizmetleri", "kazanim": "Ön büro departmanında temel düzeydeki iş ve işlemleri yürütür." },
+        { "no": "3.3", "baslik": "Kat Hizmetleri", "kazanim": "Kat hizmetleri departmanında temel düzeydeki iş ve işlemleri yürütür." },
+        { "no": "3.4", "baslik": "Etkinlik Hizmetleri", "kazanim": "Eğlence hizmetleri departmanında temel düzeydeki iş ve işlemleri yürütür." },
+        { "no": "3.5", "baslik": "İş Planı", "kazanim": "Konaklama işletmelerinde departmanların özelliğine göre iş planı yapar." }
+      ]
+    },
+    {
+      "unite": 4,
+      "baslik": "Seyahat Acenteliği Hizmetleri",
+      "konular": [
+        { "no": "4.1", "baslik": "Seyahat Acentelerinin Organizasyon Yapısı", "kazanim": "Seyahat acentelerinin organizasyon yapısını açıklar; seyahat acentelerinde çalışan personelin sorumluluklarını sıralar." },
+        { "no": "4.2", "baslik": "Seyahat Acentelerinin Operasyonel Süreçleri", "kazanim": "Seyahat acentelerinin operasyonel süreçlerini açıklar; seyahat acentelerini yasal, yapısal ve fonksiyonel olarak sınıflandırır." },
+        { "no": "4.3", "baslik": "Seyahat Acenteliğinin Hukuki Çerçevesi", "kazanim": "Seyahat acenteliğinin hukuki çerçevesini açıklar." },
+        { "no": "4.4", "baslik": "Seyahat Acentelerinin İş Birliği Yaptığı Kurum / Kuruluşlarla İlişkileri", "kazanim": "Seyahat acentelerinin iş birliği yaptığı kurum / kuruluşlarla ilişkilerini açıklar." },
+        { "no": "4.5", "baslik": "Seyahat Formaliteleri", "kazanim": "Seyahat formalitelerini açıklar." }
+      ]
+    },
+    {
+      "unite": 5,
+      "baslik": "Konuk İlişkileri",
+      "konular": [
+        { "no": "5.1", "baslik": "Konuk Tipleri", "kazanim": "Konuk tiplerinin özelliklerini açıklar; farklı konuk tiplerine uygun olarak doğru iletişim kurar; konuk memnuniyetinin nasıl sağlanması gerektiğini açıklar; konuğun sorunlarına çözüm bulur." },
+        { "no": "5.2", "baslik": "Olağan Dışı Durumlar ve Olaylara Göre Hareket Etme", "kazanim": "Olağan dışı durumları sıralar; olağan dışı durumlarda uygun çözüm yollarını uygular; olağan dışı durumlarda örnek senaryolarla konuğa yardımcı olur; müdahale edilmesi mümkün olmayan durumlarda örnek senaryolarla konuğa yardımcı olur." }
+      ]
+    },
+    {
+      "unite": 6,
+      "baslik": "Astlarla İlgili Çalışmalar",
+      "konular": [
+        { "no": "6.1", "baslik": "Yönetsel Sorumluluklar", "kazanim": "Yönetsel sorumlulukları yerine getirir." },
+        { "no": "6.2", "baslik": "Personelin Moral ve Motivasyonu", "kazanim": "Personelin moral ve motivasyonunu artırmaya yönelik yöntemleri uygular." },
+        { "no": "6.3", "baslik": "Denetim İşlemleri", "kazanim": "Denetim işlemlerini yapar." }
+      ]
+    }
+  ]
+}

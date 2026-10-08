@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 const VARSAYILAN_KOK = join(dirname(fileURLToPath(import.meta.url)), "..", "icerik");
 const SORU_TURLERI = ["coktan-secmeli", "dogru-yanlis", "senaryo"];
 const UNITE_ALANLARI = ["ders", "sinif", "unite", "baslik", "onay", "kazanimlar", "soz", "dersler", "kavramlar", "sorular"];
-const KAVRAM_ALANLARI = ["id", "konu", "terim", "ingilizce", "tanim", "ornek", "sektor", "iliskili", "kontrol"];
+const KAVRAM_ALANLARI = ["id", "konu", "terim", "ingilizce", "tanim", "ornek", "sektor", "iliskili", "kontrol", "kitapDisi", "gorsel"];
 const SORU_ALANLARI = ["id", "tur", "durum", "soru", "secenekler", "dogru", "aciklama"];
 
 const dolu = (v) => typeof v === "string" && v.trim().length > 0;
@@ -14,7 +14,7 @@ const doluYaDaNull = (v) => v === null || dolu(v);
 const fazlaAlan = (nesne, izinli) => Object.keys(nesne).filter((a) => !izinli.includes(a));
 
 // plan: uniteler.json içindeki ünite kaydı (yoksa undefined)
-function uniteDogrula(yol, u, plan, hatalar, uyarilar) {
+function uniteDogrula(yol, u, plan, hatalar, uyarilar, gorseller) {
   const hata = (m) => hatalar.push(`${yol}: ${m}`);
   const uyari = (m) => uyarilar.push(`${yol}: ${m}`);
 
@@ -48,6 +48,9 @@ function uniteDogrula(yol, u, plan, hatalar, uyarilar) {
       if (!doluYaDaNull(k[alan])) hata(`${k.id}: ${alan} metin ya da null olmalı`);
     }
     if (!Array.isArray(k.iliskili)) hata(`${k.id}: iliskili liste olmalı`);
+    // kitapDisi: ders kitabında olmayan uluslararası sektör terimi (uygulamada "Sektör" etiketiyle görünür)
+    if (k.kitapDisi !== undefined && k.kitapDisi !== true) hata(`${k.id}: kitapDisi yalnız true olabilir (değilse alan yazılmaz)`);
+    if (k.gorsel !== undefined && !gorseller.has(k.gorsel)) hata(`${k.id}: gorsel "${k.gorsel}" icerik/gorseller.json içinde yok`);
     for (const a of fazlaAlan(k, KAVRAM_ALANLARI)) hata(`${k.id}: bilinmeyen alan: ${a}`);
 
     if (dolu(k.terim)) {
@@ -125,6 +128,20 @@ export function icerigiDenetle(icerikKok = VARSAYILAN_KOK) {
   const uyarilar = [];
   const uniteler = [];
 
+  // Künyesi olan görseller: kartlar yalnız bunlara başvurabilir.
+  const gorseller = new Set();
+  const gorselYolu = join(icerikKok, "gorseller.json");
+  if (existsSync(gorselYolu)) {
+    try {
+      for (const g of JSON.parse(readFileSync(gorselYolu, "utf8"))) {
+        if (!dolu(g.anahtar) || !dolu(g.alt) || !dolu(g.fotografci) || !dolu(g.kaynak) || !dolu(g.lisans)) hatalar.push(`gorseller.json: "${g.anahtar}" künyesi eksik (alt, fotografci, kaynak, lisans zorunlu)`);
+        gorseller.add(g.anahtar);
+      }
+    } catch (e) {
+      hatalar.push(`gorseller.json: okunamadı — ${e.message}`);
+    }
+  }
+
   for (const ders of readdirSync(icerikKok, { withFileTypes: true })) {
     if (!ders.isDirectory()) continue;
     const dersKok = join(icerikKok, ders.name);
@@ -153,7 +170,7 @@ export function icerigiDenetle(icerikKok = VARSAYILAN_KOK) {
       if (u.ders !== ders.name) hatalar.push(`${yol}: ders alanı klasör adıyla aynı olmalı`);
       if (ad !== `unite-${u.unite}.json`) hatalar.push(`${yol}: unite alanı dosya adıyla uyuşmuyor`);
       if (planlar.size > 0 && !planlar.has(u.unite)) hatalar.push(`${yol}: uniteler.json içinde ünite ${u.unite} yok`);
-      const ozet = uniteDogrula(yol, u, planlar.get(u.unite), hatalar, uyarilar);
+      const ozet = uniteDogrula(yol, u, planlar.get(u.unite), hatalar, uyarilar, gorseller);
       uniteler.push({ yol, ders: ders.name, unite: u.unite, baslik: u.baslik, ...ozet });
     }
   }

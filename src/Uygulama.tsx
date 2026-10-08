@@ -5,6 +5,7 @@ import { Bugun } from "./ekranlar/Bugun";
 import { Ders } from "./ekranlar/Ders";
 import { Dersler, UniteEkrani } from "./ekranlar/Dersler";
 import { Ilerleme } from "./ekranlar/Ilerleme";
+import { Kunye } from "./ekranlar/Kunye";
 import { Oyun } from "./ekranlar/Oyun";
 import { Sozluk } from "./ekranlar/Sozluk";
 import { Tekrar } from "./ekranlar/Tekrar";
@@ -46,8 +47,8 @@ function Ekran() {
   if (bolum === "oyun") return <Oyun key={yol.join("/")} uniteAnahtari={uniteAnahtari} />;
   if (bolum === "vaka") return <Vaka key={yol.join("/")} uniteAnahtari={uniteAnahtari} />;
 
-  const BILINEN = ["dersler", "unite", "sozluk", "ilerleme"];
-  const sekme = bolum === "unite" ? "dersler" : BILINEN.includes(bolum) ? bolum : "";
+  const BILINEN = ["dersler", "unite", "sozluk", "ilerleme", "kunye"];
+  const sekme = bolum === "unite" ? "dersler" : bolum === "kunye" ? "ilerleme" : BILINEN.includes(bolum) ? bolum : "";
   return (
     <div className="kabuk">
       <main className="sayfa">
@@ -56,6 +57,7 @@ function Ekran() {
         {bolum === "unite" && <UniteEkrani anahtar={uniteAnahtari} />}
         {bolum === "sozluk" && <Sozluk secili={a} />}
         {bolum === "ilerleme" && <Ilerleme />}
+        {bolum === "kunye" && <Kunye />}
       </main>
       <nav className="sekmeler" aria-label="Ana menü">
         {SEKMELER.map((s) => (

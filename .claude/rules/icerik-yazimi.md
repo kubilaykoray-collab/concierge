@@ -70,6 +70,12 @@ kavram, sonra parçaları. Ders başlığı kısa ve merak uyandırıcı olur ("
 3. Öğretmen yetki verdiyse (CLAUDE.md §1 "Yetki") denetimden geçen üniteyi `onay: true` yap; verdiğin kararları raporla.
    Yetki yoksa `inceleme/` sayfasının yolunu ve açık soruları ver, onayı bekle.
 
+## Öğretmenin sözlüğünden gelen kartlar (`kaynak/claude-projesi/veri/kavramlar-*.json`)
+
+Öğretmenin claude.ai projesinde hazırladığı kavram sözlükleri doğrudan kart kaynağıdır. Bu kartlarda `terim`, `ingilizce`, `tanim` AYNEN
+alınır (tanım biçimi kuralları — tek cümle, "-dır" bitişi — bunlara uygulanmaz); `ornek`, `sektor`, `iliskili`, `gorsel` bizde yazılır.
+Tanım olgu olarak yanlış görünüyorsa değiştirilmez, `kontrol` notu düşülür. `kitap_disi: true` olanlar `kitapDisi: true` olur.
+
 ## Öğretmen kararları
 
 Öğretmenin verdiği, sonraki üniteleri de bağlayan kararlar. Tarih ve hangi karttan çıktığıyla birlikte yaz.
@@ -95,6 +101,12 @@ bıraktı. Aşağıdakiler o yetkiyle verilen kararlardır; öğretmen sonradan 
   Öğretmen aksini isterse kendi kararıyla ekletir.
 - **Öğretmenin iki notu birbiriyle çelişirse** sınav notu (en güncel "FINAL" dosya) geçer; çelişki öğretmene raporlanır
   (ör. kayıp eşya bekleme süresi 90 gün / quiz'de 1 yıl; bez renk kodunda mavi–yeşil; kodlama tablosunda L ve J harfleri).
+- **Kalıcı tercihler (9 Ekim 2026, Claude projesinden aktarıldı):** doğruluğundan emin olunmayan bilgi eklenmez · her kavramın
+  İngilizcesi İngiliz (British) yazımıyla verilir, Türkçe harflerle okunuş yazılmaz · MEB içeriğine uluslararası otelcilik terimleri
+  `kitapDisi` etiketiyle eklenir · kilit kavramlar lisanslı ve künyeli fotoğrafla desteklenir (`gorsel`) · görünüm EHL kalitesinde ·
+  teslimden önce baştan sona hata kontrolü.
+- **Müfredat 2026-2027'ye göredir:** yeni Maarif Modeli kitapları esas alınır; eski müfredat içeriği arşivdir. Mesleki Gelişim Atölyesi'nin
+  kitabı elde yok: yalnız öğretim programındaki anahtar kavramlar ve genel kabul görmüş bilgi yazılır.
 - **Kurum adı değiştiyse** güncel ad ile kitaptaki eski ad birlikte verilir (Dünya Turizm Örgütü: UN Tourism / UNWTO). (gt-2-055)
 - **Kitapta olmayıp öğretmen notunda olan konular** (iç / gelen / giden turizm, Schengen, e-Vize, seyahat sigortası, gümrük) içerikte kalır.
 - Turizmin ayırt edici özelliklerine **mevsimlik olma** eklendi. (gt-3-034)

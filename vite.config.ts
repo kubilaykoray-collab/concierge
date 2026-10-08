@@ -31,9 +31,14 @@ function icerikEklentisi(): Plugin {
         }
       }
       const yayin = uniteler.filter((u) => u.onay === true || gelistirme);
+      const gorselYolu = join(kok, "gorseller.json");
+      this.addWatchFile(gorselYolu);
+      // Yalnız yayındaki bir kartın kullandığı görsellerin künyesi pakete girer.
+      const kullanilan = new Set((yayin as { kavramlar?: { gorsel?: string }[] }[]).flatMap((u) => (u.kavramlar ?? []).map((k) => k.gorsel)));
+      const gorseller = (JSON.parse(readFileSync(gorselYolu, "utf8")) as { anahtar: string }[]).filter((g) => kullanilan.has(g.anahtar));
       // Büyük veri JS nesnesi olarak değil JSON metni olarak gömülür: tarayıcı JSON'u çok daha hızlı ayrıştırır (yavaş telefon).
       const metin = (veri: unknown) => `JSON.parse(${JSON.stringify(JSON.stringify(veri))})`;
-      return `export const planlar = ${metin(planlar)};\nexport const dosyalar = ${metin(yayin)};`;
+      return `export const planlar = ${metin(planlar)};\nexport const dosyalar = ${metin(yayin)};\nexport const gorseller = ${metin(gorseller)};`;
     },
   };
 }
@@ -47,7 +52,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["simge.svg", "apple-touch-icon.png"],
-      workbox: { globPatterns: ["**/*.{js,css,html,svg,png,webmanifest,woff2}"] },
+      workbox: { globPatterns: ["**/*.{js,css,html,svg,png,webmanifest,woff2,webp}"] },
       manifest: {
         name: "CONCIERGE — Hospitality Academy",
         short_name: "CONCIERGE",

@@ -1,0 +1,123 @@
+{
+  "ders": "mesleki-gelisim",
+  "sinif": 9,
+  "dersAdi": "Mesleki Gelişim Atölyesi",
+  "kisaAd": "Mesleki Gelişim",
+  "sira": 3,
+  "kaynak": "2026 Mesleki Gelişim Atölyesi Dersi Öğretim Programı — ünite adları, içerik çerçevesi ve öğrenme çıktıları (ders kitabı ISBN 978-625-5496-27-0; kitap metni elde yok)",
+  "uniteler": [
+    {
+      "unite": 1,
+      "baslik": "İletişimin Gücü",
+      "konular": [
+        { "no": "1.1", "baslik": "İletişim Süreci", "kazanim": "Farklı iletişim tarzlarının mesleki başarı ve iş ilişkileri üzerindeki etkilerini karşılaştırabilme." },
+        { "no": "1.2", "baslik": "Sözlü, Yazılı ve Sözsüz İletişim", "kazanim": "İletişim engellerini aşmaya yönelik çıkarım yapabilme." },
+        { "no": "1.3", "baslik": "İletişim Tarzları", "kazanim": "Farklı iletişim tarzlarının mesleki başarı ve iş ilişkileri üzerindeki etkilerini karşılaştırabilme." },
+        { "no": "1.4", "baslik": "Etkili İletişim ve Aktif Dinleme", "kazanim": "Farklı iletişim tarzlarının mesleki başarı ve iş ilişkileri üzerindeki etkilerini karşılaştırabilme." },
+        { "no": "1.5", "baslik": "İletişim Engelleri", "kazanim": "İletişim engellerini aşmaya yönelik çıkarım yapabilme." },
+        { "no": "1.6", "baslik": "İletişim Stratejileri ve Paydaşlar", "kazanim": "İletişim stratejilerini, paydaşların beklenti ve duygusal durumlarını dikkate alarak tartışabilme." },
+        { "no": "1.7", "baslik": "Stres Yönetimi ve Öz Değerlendirme", "kazanim": "İletişim süreçlerini etkileyen faktörleri yansıtabilme." },
+        { "no": "1.8", "baslik": "Çatışma Yönetimi", "kazanim": "İletişim süreçlerinde ortaya çıkabilecek çatışmaları doğru yapılandırabilme." }
+      ]
+    },
+    {
+      "unite": 2,
+      "baslik": "Meslek Etiği ve Ahilik Kültürü",
+      "konular": [
+        { "no": "2.1", "baslik": "İş Hayatında Kuralların Gerekliliği", "kazanim": "Kuralların gerekliliğini ve işlevini değerlendirebilme." },
+        { "no": "2.2", "baslik": "Ahlak ve Mesleki Etik", "kazanim": "Kuralların gerekliliğini ve işlevini değerlendirebilme." },
+        { "no": "2.3", "baslik": "Ahilik Teşkilatı ve Eğitim Modeli", "kazanim": "Ahilik teşkilatının yapısını ve işleyişini çözümleyebilme." },
+        { "no": "2.4", "baslik": "Ahilikte Dayanışma, Meslek Ahlakı", "kazanim": "Ahilik kültürünün toplum düzenine ve iş yaşamına katkılarını yorumlayabilme." },
+        { "no": "2.5", "baslik": "Güncel İş Dünyası ve Ahilik Temelli Çözümler", "kazanim": "İş hayatındaki ahlaki bir sorun için Ahilik kültürü doğrultusunda çözümleyici bir plan yapılandırabilme." }
+      ]
+    },
+    {
+      "unite": 3,
+      "baslik": "İş Sağlığı ve Güvenliği",
+      "konular": [
+        { "no": "3.1", "baslik": "Güvenlik Kültürü ve Temel İSG Kavramları", "kazanim": "İş sağlığı ve güvenliğini (İSG) tehdit eden riskleri ve uygulanan güvenlik tedbirlerini İSG standartları doğrultusunda gözlemleyebilme." },
+        { "no": "3.2", "baslik": "Meslek Hastalıkları", "kazanim": "Meslek hastalıklarının nedenlerini ve bu hastalıkların ortaya çıkmasını önlemeye yönelik tedbirleri çözümleyebilme." },
+        { "no": "3.3", "baslik": "İSG Standartları ve Yasal Yükümlülükler", "kazanim": "İş sağlığı ve güvenliğini (İSG) tehdit eden riskleri ve uygulanan güvenlik tedbirlerini İSG standartları doğrultusunda gözlemleyebilme." },
+        { "no": "3.4", "baslik": "Risk Analizi ve Önleyici Tedbirler", "kazanim": "Sağlık ve güvenliği tehdit eden unsurlara yönelik bir çözüm planı yapılandırabilme." },
+        { "no": "3.5", "baslik": "Güvenlik Donanımları ve İşaretleri", "kazanim": "İş sağlığı ve güvenliğine ilişkin bir probleme ve çözüm stratejilerine yönelik eleştirel düşünebilme." },
+        { "no": "3.6", "baslik": "Acil Durumların Yönetimi", "kazanim": "Acil durumlara müdahale süreçlerinde oluşabilecek problemleri çözebilme." }
+      ]
+    },
+    {
+      "unite": 4,
+      "baslik": "Çevre Koruma",
+      "konular": [
+        { "no": "4.1", "baslik": "Atık Oluşumu ve Atık Yönetimi", "kazanim": "Atık oluşumunu ve atık yönetimi uygulamalarını gözlemleyebilme." },
+        { "no": "4.2", "baslik": "Çevre Kirliliği ve Mesleki Sorumluluk", "kazanim": "İnsan faaliyetlerinin çevre üzerindeki etkilerini çözümleyebilme." },
+        { "no": "4.3", "baslik": "Küresel Çevre Sorunları ve Yeşil Dönüşüm", "kazanim": "Küresel çevre sorunlarını yeşil dönüşüm ilkeleri bağlamında değerlendirebilme." },
+        { "no": "4.4", "baslik": "Sürdürülebilir Kalkınma ve Mesleklerin Rolü", "kazanim": "İnsan faaliyetlerinin çevre üzerindeki etkilerini çözümleyebilme." },
+        { "no": "4.5", "baslik": "Sürdürülebilirlik ve Çevresel Çözüm Stratejileri", "kazanim": "Çevre kirliliği ile ilgili bir probleme yönelik çözüm stratejileri yapılandırabilme." },
+        { "no": "4.6", "baslik": "Döngüsel Ekonomi, Kaynak Verimliliği ve Çevre Mevzuatı", "kazanim": "İşletmelerde kaynak kullanımı ve atık yönetimi problemlerini döngüsel ekonomi stratejileri çerçevesinde çözebilme." }
+      ]
+    },
+    {
+      "unite": 5,
+      "baslik": "Girişimcilik: Fikirler, İş Kurma ve Yürütme",
+      "konular": [
+        { "no": "5.1", "baslik": "Girişimcilik", "kazanim": "Girişimcilik süreçleri ile ekonomi arasındaki ilişkiyi yorumlayabilme." },
+        { "no": "5.2", "baslik": "Yenilikçi Düşünme ve İnovasyon", "kazanim": "Başarılı iş fikirlerinin özelliklerini çözümleyebilme." },
+        { "no": "5.3", "baslik": "Tasarım Odaklı Düşünme", "kazanim": "Tasarım odaklı düşünme yaklaşımının girişimcilikteki işlevini değerlendirebilme." },
+        { "no": "5.4", "baslik": "İş Fikri Geliştirme", "kazanim": "Özgün bir iş modeli yapılandırabilme." },
+        { "no": "5.5", "baslik": "İşletme Yönetimi ve Yasal Sorumluluklar", "kazanim": "İşletme kurma ve yürütme süreçlerini yansıtabilme." }
+      ]
+    },
+    {
+      "unite": 6,
+      "baslik": "Fikrî ve Sınai Mülkiyet Hakları",
+      "konular": [
+        { "no": "6.1", "baslik": "Fikrî ve Sınai Mülkiyet Hakları", "kazanim": "Fikrî ve sınai mülkiyet haklarını ürün ve hizmet örnekleri ile çözümleyebilme." },
+        { "no": "6.2", "baslik": "Mülkiyet Haklarının Etik ve Ekonomik Boyutu", "kazanim": "Özgün bir fikrin veya ürünün korunmasının önemini değerlendirebilme." },
+        { "no": "6.3", "baslik": "Ulusal ve Uluslararası Koruma Sistemleri", "kazanim": "Fikrî ve sınai mülkiyet haklarını ürün ve hizmet örnekleri ile çözümleyebilme." },
+        { "no": "6.4", "baslik": "Patent Bilgisi ve Veri Tabanı Kullanımı", "kazanim": "Patent bilgi kaynaklarını kullanarak bir buluşun mevcut teknolojilerle ilişkisini ve ekonomik etkilerini sorgulayabilme." },
+        { "no": "6.5", "baslik": "Fikrî ve Sınai Mülkiyet Koruma Başvurusu ve Eylem Planı", "kazanim": "Fikrî veya sınai mülkiyet hakkı başvuru sürecini yapılandırabilme." }
+      ]
+    },
+    {
+      "unite": 7,
+      "baslik": "Teknolojik Gelişmeler ve Endüstriyel Dönüşüm",
+      "konular": [
+        { "no": "7.1", "baslik": "Endüstriyel Dönüşüm ve Teknolojik Dinamikler", "kazanim": "Endüstriyel dönüşümün ve teknolojik gelişmelerin, iş gücü piyasasındaki etkileri üzerine çıkarım yapabilme." },
+        { "no": "7.2", "baslik": "Dijital İş Yaşamı ve İletişim Etiği", "kazanim": "Dijital ve endüstriyel dönüşüm süreçlerinin ortaya çıkardığı yeni çalışma biçimlerini ve etkilerini yorumlayabilme." },
+        { "no": "7.3", "baslik": "Geleceğin Meslekleri ve Yeni Yetkinlik Alanları", "kazanim": "Endüstriyel dönüşümün ve teknolojik gelişmelerin, iş gücü piyasasındaki etkileri üzerine çıkarım yapabilme." },
+        { "no": "7.4", "baslik": "Yenilikçi Üretim Teknolojileri", "kazanim": "Endüstriyel dönüşümün ve teknolojik gelişmelerin, iş gücü piyasasındaki etkileri üzerine çıkarım yapabilme." },
+        { "no": "7.5", "baslik": "Yenilikçi Model Tasarımı ve Millî Teknoloji Hamlesi", "kazanim": "Yenilikçi bir ürün veya hizmet modeli geliştirme deneyimlerini yansıtabilme." }
+      ]
+    },
+    {
+      "unite": 8,
+      "baslik": "İnovasyonla Öğrenme Alışkanlıklarını Dönüştürme",
+      "konular": [
+        { "no": "8.1", "baslik": "Öğrenmede Yenilikçi Yaklaşımlar", "kazanim": "Geleneksel öğrenme yöntemleri ile yenilikçi öğrenme yaklaşımlarını karşılaştırabilme." },
+        { "no": "8.2", "baslik": "Bireysel Yetkinlik Dönüşümü ve Öğrenme Stratejileri", "kazanim": "Mesleki gelişim hedefleri doğrultusunda yetkinlik dönüşüm ihtiyaçlarına yönelik çıkarım yapabilme." },
+        { "no": "8.3", "baslik": "Teknoloji Destekli Öğrenme", "kazanim": "Mesleki gelişim hedeflerine yönelik öğrenme rotası yapılandırabilme." },
+        { "no": "8.4", "baslik": "Öğrenmede Motivasyon ve Zaman Yönetimi Teknikleri", "kazanim": "Mesleki gelişim hedefleri doğrultusunda yetkinlik dönüşüm ihtiyaçlarına yönelik çıkarım yapabilme." },
+        { "no": "8.5", "baslik": "Öğrenme Sürecini Tasarlama", "kazanim": "Mesleki gelişim hedeflerine yönelik öğrenme rotası yapılandırabilme." }
+      ]
+    },
+    {
+      "unite": 9,
+      "baslik": "Yeşil Dönüşüm, Dijital Dönüşüm ve İkiz Dönüşüm",
+      "konular": [
+        { "no": "9.1", "baslik": "Sürdürülebilirlik", "kazanim": "Yeşil, dijital ve ikiz dönüşümün iş gücü piyasasına ve çalışma hayatına olası etkilerini yorumlayabilme." },
+        { "no": "9.2", "baslik": "Yeşil Dönüşüm", "kazanim": "Bir iş sürecini yeşil, dijital ve ikiz dönüşüm bağlamında çözümleyebilme." },
+        { "no": "9.3", "baslik": "Dijital Dönüşüm", "kazanim": "Bir iş modelini yeşil, dijital ve ikiz dönüşüm bağlamında yapılandırabilme." },
+        { "no": "9.4", "baslik": "Geleceğin Meslekleri ve İkiz Dönüşüm", "kazanim": "Yeşil, dijital ve ikiz dönüşümün iş gücü piyasası üzerindeki etkilerini tartışabilme." }
+      ]
+    },
+    {
+      "unite": 10,
+      "baslik": "Finansal Okuryazarlık",
+      "konular": [
+        { "no": "10.1", "baslik": "Bireysel Finansal Yönetim", "kazanim": "Mesleki hedefleri doğrultusunda finansal durumunu ekonomik veriler bağlamında tahmin edebilme." },
+        { "no": "10.2", "baslik": "Girişimcilik Finansmanı", "kazanim": "İş fikrinin finansal uygulanabilirliğini değerlendirebilme." },
+        { "no": "10.3", "baslik": "İşletme Finansmanı ve Sürdürülebilirlik", "kazanim": "Bir iş sürecinin sürdürülebilirliği için finansal bir plan yapılandırabilme." },
+        { "no": "10.4", "baslik": "Finansal Karar Verme", "kazanim": "Bir iş sürecinin sürdürülebilirliği için finansal bir plan yapılandırabilme." }
+      ]
+    }
+  ]
+}

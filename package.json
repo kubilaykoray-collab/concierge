@@ -13,7 +13,8 @@
     "onizle": "vite preview",
     "deneme": "node araclar/ekran-denemesi.mjs",
     "simge": "node araclar/simge-uret.mjs",
-    "analiz": "node araclar/icerik-analiz.mjs"
+    "analiz": "node araclar/icerik-analiz.mjs",
+    "gorsel": "node araclar/gorsel-hazirla.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",
@@ -25,6 +26,7 @@
     "@vitejs/plugin-react": "^6.1.2",
     "puppeteer-core": "^25.13.0",
     "qrcode": "^1.5.4",
+    "sharp": "^0.35.5",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
     "vite-plugin-pwa": "^2.0.0",

@@ -3,7 +3,9 @@ import type { DersParcasi, DersTanimi, Kavram, Plan, Unite, UniteDosyasi } from 
 const DERS_BOYU = 5;
 
 // Ünite dosyasındaki ders tanımına göre, yoksa sırayla beşer kartlık bölümlere ayırır.
-export function dersleriBol(uniteAnahtari: string, kavramlar: Kavram[], tanimlar?: DersTanimi[]): DersParcasi[] {
+export function dersleriBol(uniteAnahtari: string, kavramlar: Kavram[], tanimlar?: DersTanimi[], konular: { no: string }[] = []): DersParcasi[] {
+  // Kartın "1.2.3" konusu plandaki "1.2" ana konusuna bağlanır.
+  const anaKonu = (k?: Kavram) => konular.find((p) => k && (k.konu === p.no || k.konu.startsWith(p.no + ".")))?.no ?? null;
   const baslangiclar: { baslik: string; konum: number }[] = [];
   for (const d of tanimlar ?? []) {
     const konum = kavramlar.findIndex((k) => k.id === d.ilk);
@@ -17,6 +19,7 @@ export function dersleriBol(uniteAnahtari: string, kavramlar: Kavram[], tanimlar
     }
   }
   return baslangiclar.map((b, i) => ({
+    konu: anaKonu(kavramlar[b.konum]),
     anahtar: `${uniteAnahtari}/${i + 1}`,
     sira: i + 1,
     baslik: b.baslik,
@@ -30,6 +33,7 @@ export function uniteleriKur(planlar: Plan[], dosyalar: UniteDosyasi[], taslakDa
     .filter((d) => d.onay === true || taslakDahil)
     .map((d) => {
       const anahtar = `${d.ders}/${d.unite}`;
+      const konular = planlar.find((p) => p.ders === d.ders)?.uniteler.find((u) => u.unite === d.unite)?.konular ?? [];
       return {
         anahtar,
         ders: d.ders,
@@ -43,7 +47,8 @@ export function uniteleriKur(planlar: Plan[], dosyalar: UniteDosyasi[], taslakDa
         kavramlar: d.kavramlar,
         sorular: d.sorular.filter((s) => s.tur !== "senaryo"),
         vakalar: d.sorular.filter((s) => s.tur === "senaryo"),
-        dersler: dersleriBol(anahtar, d.kavramlar, d.dersler),
+        konular: konular.map((k) => ({ no: k.no, baslik: k.baslik })),
+        dersler: dersleriBol(anahtar, d.kavramlar, d.dersler, konular),
       };
     })
     .sort((a, b) => a.ders.localeCompare(b.ders) || a.no - b.no);

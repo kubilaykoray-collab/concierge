@@ -3,7 +3,7 @@ import { rutbe, seri } from "../cekirdek/ilerleme";
 import { bugun, USTA_KUTU, vadesiGelenler } from "../cekirdek/leitner";
 import { DERS_CIZIMI, KoseSusu, OtelCizimi } from "../cizimler";
 import { useIlerleme } from "../depo";
-import { DERS_LISTESI, DERSLER, kavramBul, KAVRAMLAR, UNITELER } from "../veri";
+import { DERS_LISTESI, DERSLER, GUNCEL_KAVRAMLAR as KAVRAMLAR, GUNCEL_UNITELER as UNITELER, kavramBul } from "../veri";
 
 const AYLAR = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
 const GUNLER = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
@@ -32,8 +32,9 @@ export function Bugun() {
   const bitmemis = DERSLER.filter((d) => !ilerleme.dersler[d.ders.anahtar]);
   // Öğrenci en son hangi dersi çalıştıysa oradan devam eder.
   const siradaki = bitmemis.find((d) => d.unite.ders === ilerleme.sonDers) ?? bitmemis[0];
-  const ogrenilen = Object.keys(ilerleme.kartlar).filter((id) => kavramBul(id)).length;
-  const usta = Object.entries(ilerleme.kartlar).filter(([id, k]) => kavramBul(id) && k.kutu >= USTA_KUTU).length;
+  const guncelKimlikler = new Set(KAVRAMLAR.map((k) => k.id));
+  const ogrenilen = Object.keys(ilerleme.kartlar).filter((id) => guncelKimlikler.has(id)).length;
+  const usta = Object.entries(ilerleme.kartlar).filter(([id, k]) => guncelKimlikler.has(id) && k.kutu >= USTA_KUTU).length;
   const gunSerisi = seri(ilerleme.gunler, gun);
   const kavram = gununKavrami(gun);
   const vaka = gununVakasi(gun);

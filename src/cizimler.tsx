@@ -59,7 +59,29 @@ export function DunyaCizimi({ className }: { className?: string }) {
   );
 }
 
+// Pusula gülü: Mesleki Gelişim Atölyesi'nin imzası (yönünü bulan meslek insanı).
+export function PusulaCizimi({ className }: { className?: string }) {
+  const kollar = [0, 45, 90, 135, 180, 225, 270, 315];
+  return (
+    <svg className={className} viewBox="0 0 360 170" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <g transform="translate(200 88)">
+        <circle r="64" opacity=".9" />
+        <circle r="52" strokeDasharray="1 7" opacity=".6" />
+        <circle r="84" opacity=".28" />
+        {kollar.map((a) => (
+          <path key={a} transform={`rotate(${a})`} d={a % 90 === 0 ? "M0 -60 L9 -9 L0 0 L-9 -9 Z" : "M0 -38 L6 -6 L0 0 L-6 -6 Z"} opacity={a % 90 === 0 ? 0.9 : 0.5} />
+        ))}
+        <circle r="4" fill="currentColor" stroke="none" />
+        <path d="M0 -76v-10M0 76v10M-76 0h-10M76 0h10" opacity=".7" />
+      </g>
+    </svg>
+  );
+}
+
 export const DERS_CIZIMI: Record<string, typeof OtelCizimi> = {
+  "otelcilik-seyahat": OtelCizimi,
+  "genel-turizm-2026": DunyaCizimi,
+  "mesleki-gelisim": PusulaCizimi,
   "konaklama-seyahat": OtelCizimi,
   "genel-turizm": DunyaCizimi,
 };
@@ -85,6 +107,26 @@ const PIKTOGRAMLAR = {
 export type PiktogramAdi = keyof typeof PIKTOGRAMLAR;
 
 const UNITE_PIKTOGRAMI: Record<string, PiktogramAdi> = {
+  "otelcilik-seyahat/1": "damla",
+  "otelcilik-seyahat/2": "sohbet",
+  "otelcilik-seyahat/3": "anahtar",
+  "otelcilik-seyahat/4": "bavul",
+  "otelcilik-seyahat/5": "konuk",
+  "otelcilik-seyahat/6": "papyon",
+  "genel-turizm-2026/1": "pusula",
+  "genel-turizm-2026/2": "bina",
+  "genel-turizm-2026/3": "harita",
+  "genel-turizm-2026/4": "parilti",
+  "mesleki-gelisim/1": "sohbet",
+  "mesleki-gelisim/2": "kalkan",
+  "mesleki-gelisim/3": "siren",
+  "mesleki-gelisim/4": "damla",
+  "mesleki-gelisim/5": "parilti",
+  "mesleki-gelisim/6": "anahtar",
+  "mesleki-gelisim/7": "telefon",
+  "mesleki-gelisim/8": "pusula",
+  "mesleki-gelisim/9": "harita",
+  "mesleki-gelisim/10": "bina",
   "konaklama-seyahat/1": "damla",
   "konaklama-seyahat/2": "kalkan",
   "konaklama-seyahat/3": "papyon",

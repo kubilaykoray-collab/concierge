@@ -789,6 +789,19 @@ button {
 .durak-bitti:not(:last-child)::before,
 .basamak-gecildi:not(:last-child)::before { background: var(--altin); }
 
+/* Kitabın konu başlığı: o konunun ilk dersinin üstünde görünür */
+.durak-konu-basi { margin-top: 44px; }
+.durak-konu-basi:first-child { margin-top: 30px; }
+
+.durak-konu-basi::after {
+  content: attr(data-konu);
+  position: absolute;
+  left: 0;
+  top: -30px;
+  font: 600 1.02rem/1.2 var(--serif);
+  color: var(--altin-yazi);
+}
+
 .durak-isaret {
   position: relative;
   flex: none;
@@ -804,14 +817,40 @@ button {
 }
 
 .durak-bitti .durak-isaret,
-.basamak-gecildi .durak-isaret {
+.basamak-gecildi /* Kitabın konu başlığı: o konunun ilk dersinin üstünde görünür */
+.durak-konu-basi { margin-top: 44px; }
+.durak-konu-basi:first-child { margin-top: 30px; }
+
+.durak-konu-basi::after {
+  content: attr(data-konu);
+  position: absolute;
+  left: 0;
+  top: -30px;
+  font: 600 1.02rem/1.2 var(--serif);
+  color: var(--altin-yazi);
+}
+
+.durak-isaret {
   background: var(--altin);
   border-color: var(--altin);
   color: var(--kagit);
 }
 
 .durak-sirada .durak-isaret,
-.basamak-simdi .durak-isaret {
+.basamak-simdi /* Kitabın konu başlığı: o konunun ilk dersinin üstünde görünür */
+.durak-konu-basi { margin-top: 44px; }
+.durak-konu-basi:first-child { margin-top: 30px; }
+
+.durak-konu-basi::after {
+  content: attr(data-konu);
+  position: absolute;
+  left: 0;
+  top: -30px;
+  font: 600 1.02rem/1.2 var(--serif);
+  color: var(--altin-yazi);
+}
+
+.durak-isaret {
   background: var(--lacivert);
   border-color: var(--lacivert);
   color: #cdae74;
@@ -963,6 +1002,37 @@ button {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+/* Karttaki fotoğraf: kartın üst kenarına oturur */
+.kavram-gorsel {
+  display: block;
+  width: calc(100% + 44px);
+  max-width: none;
+  height: auto;
+  aspect-ratio: 720 / 446;
+  object-fit: cover;
+  margin: -26px -22px 6px;
+  border-radius: var(--kose) var(--kose) 0 0;
+  background: var(--altin-hafif);
+}
+
+.cekmece .kavram-gorsel {
+  width: 100%;
+  margin: 0 0 6px;
+  border-radius: 14px;
+}
+
+.sektor-etiketi {
+  align-self: flex-start;
+  padding: 4px 10px;
+  border-radius: 99px;
+  background: var(--lacivert);
+  color: #cdae74;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .kavram-ingilizce {
@@ -1401,6 +1471,33 @@ button {
   right: 16px;
   background: var(--zemin);
 }
+
+/* Görsel künyesi */
+.kunye-listesi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kunye {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+}
+
+.kunye img {
+  flex: none;
+  width: 96px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.kunye a { color: var(--altin-yazi); font-weight: 650; text-decoration: underline; }
 
 /* ---------- İlerleme ---------- */
 

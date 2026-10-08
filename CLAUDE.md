@@ -7,9 +7,16 @@
 Meslek lisesi turizm öğrencilerinin ders çalışmasını kolaylaştıran, **ücretsiz**, telefona kurulan bir uygulama.
 Sahibi: turizm / konaklama öğretmeni. Kullanıcı: öğrencileri (9. sınıftan başlayarak; çoğu Android, bir kısmı iPhone).
 
-Kapsam: **9. sınıf Genel Turizm** (8 ünite) ve **Konaklama ve Seyahat Hizmetleri Atölyesi** (10 ünite) yayında. Güncel durum her oturum başında `araclar/durum.mjs` ile dosyalardan hesaplanır; buraya elle durum yazılmaz.
-Öğretmen Konaklama ve Seyahat Hizmetleri Atölyesi'ne "otelcilik dersi" der (`icerik/konaklama-seyahat/`).
-Sıradaki olası ders: Mesleki Gelişim Atölyesi (öğretmen isterse).
+**Müfredat (2026-2027, Maarif Modeli kitapları) — güncel dersler:**
+`icerik/otelcilik-seyahat/` Otelcilik ve Seyahat Hizmetleri 9 (6 öğrenme birimi; eski "KSHA"nın yerine) ·
+`icerik/genel-turizm-2026/` Genel Turizm 9 (4 birim) · `icerik/mesleki-gelisim/` Mesleki Gelişim Atölyesi 9 (10 ünite; kitabı internette yok, kaynak öğretim programı).
+Eski müfredat (2025-2026): `icerik/genel-turizm/` (8 ünite) ve `icerik/konaklama-seyahat/` (10 ünite) — `uniteler.json` içinde `arsiv: true`;
+silinmez, uygulamada "Arşiv" altında durur. Eski kartların yeni birimlere eşlemesi ve geçiş sırası: `icerik/gecis-2026.md`.
+Yeni yapıda ünite dosyası = öğrenme birimi; birim büyük olabilir (100+ kart), uygulama ders yolunu kitabın konu başlıklarıyla böler. Güncel durum her oturum başında `araclar/durum.mjs` ile dosyalardan hesaplanır; buraya elle durum yazılmaz.
+Öğretmen "otelcilik dersi" derken Otelcilik ve Seyahat Hizmetleri'ni kasteder.
+Takvim (2026-2027): 1. hafta 14–18 Eylül; 10. hafta (16–20 Kasım) ara tatil. Otelcilik: 1–2. hafta 1.1 · 3–4. hafta 1.2 · 5–6. hafta 1.3 ·
+7–9. hafta 2. birim. Genel Turizm (taslak): 3. hafta 1.3 · 4. hafta 1.4 · 5. hafta 1.5 · 6. hafta 1.5.2 ve ölçme. Mesleki Gelişim: resmî plan yok.
+İçerik önceliği öğretmenin o hafta işlediği konudur.
 
 **Yetki (8 Ekim 2026):** öğretmen içerik kararlarını, onayı ve yayını Claude'a bıraktı ("tam yetki ve onay sende"). İçerik bağımsız
 denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlanabilir; verilen her karar ve onay öğretmene raporlanır.
@@ -17,6 +24,7 @@ denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlana
 
 ## 2. Değişmez kurallar
 
+0. **Doğruluğundan emin olunmayan bilgi eklenmez; önce kontrol.** Teslimden önce baştan sona hata kontrolü yapılır (öğretmenin kalıcı kuralı).
 1. **İçerik kendi cümlelerimizle yazılır.** Kavramlar öğretim programındaki kazanımlara göre, öğrencinin anlayacağı dille yeniden
    anlatılır; kitap cümlesi yapıştırmak iyi kart üretmez. Ders kitabı bilgi kaynağı olarak serbestçe kullanılır.
    (8 Ekim 2026: öğretmen telif denetimini askıya aldı — `npm run telif` artık zorunlu adım değil, yalnız bilgi verir.)
@@ -26,6 +34,11 @@ denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlana
 4. **İçerik onaysız yayınlanmaz.** Her içerik dosyasında `onay: false / true` alanı; `false` olan
    yayın derlemesine girmez. Yapay zekâ hızlı yazar ama yanlış da yazar — editör öğretmendir.
 5. **`kaynak/` klasörü git'e GİRMEZ** (`.gitignore`); kitap ve kişisel ders dosyaları GitHub'a yüklenmez.
+   `kaynak/claude-projesi/` öğretmenin claude.ai'daki "TURIZM OTELCILIK" projesinden aktarılan pakettir (kavram sözlükleri, sunum metinleri,
+   fotoğraflar, tercih notları; önce `OKU-BENI.md`). Paketteki `gorseller/kitap-gorselleri/` MEB kitabından alınmıştır: uygulamada ve depoda KULLANILMAZ.
+8. **Her kavramın İngilizcesi olur, İngiliz (British) yazımıyla** (colour, centre, organise, programme). İngilizcenin Türkçe harflerle okunuşu YAZILMAZ.
+9. **MEB içeriğine uluslararası otelcilik literatürü eklenir, ama ayrı etiketle:** kitapta olmayan terim kartta `kitapDisi: true` taşır ve
+   uygulamada "Sektör terimi" etiketiyle görünür.
 6. Öğretmenin asıl ders klasörüne (`C:\Users\pc\OneDrive\Masaüstü\TURIZM OTELCILIK`) **dokunulmaz**; buradaki `kaynak/` onun kopyasıdır.
 7. Bilinmeyen şey uydurulmaz: bir tanımdan emin değilsen `kontrol: "..."` notu düş, öğretmene sor.
 
@@ -52,7 +65,8 @@ denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlana
   "kavramlar": [
     { "id": "gt-1-001", "konu": "1.1.1", "terim": "Turizm", "ingilizce": "Tourism",
       "tanim": "kendi cümlemizle, 1–2 cümle", "ornek": "sektörden somut örnek",
-      "sektor": "otelde / acentede nasıl kullanılır (varsa)", "iliskili": ["gt-1-002"], "kontrol": null }
+      "sektor": "otelde / acentede nasıl kullanılır (varsa)", "iliskili": ["gt-1-002"], "kontrol": null,
+      "kitapDisi": true, "gorsel": "kumsal" }
   ],
   "sorular": [
     { "id": "gt-1-s01", "tur": "coktan-secmeli", "soru": "…", "secenekler": ["…"], "dogru": 0, "aciklama": "neden" },
@@ -62,7 +76,8 @@ denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlana
 }
 ```
 
-`ornek`, `sektor`, `kontrol` boşsa `null`. Soru `tur`: `coktan-secmeli` (4 seçenek), `dogru-yanlis` (2 seçenek) ya da `senaryo`
+`ornek`, `sektor`, `kontrol` boşsa `null`. `kitapDisi` (yalnız `true`) ve `gorsel` isteğe bağlıdır; `gorsel` anahtarı `icerik/gorseller.json` içinde olmalıdır.
+Kimlik ön eki ders klasörünün baş harfleridir: `otelcilik-seyahat` → `os-`, `genel-turizm-2026` → `gt2-`, `mesleki-gelisim` → `mg-`. Soru `tur`: `coktan-secmeli` (4 seçenek), `dogru-yanlis` (2 seçenek) ya da `senaryo`
 (4 seçenek + `durum`; uygulamada "Vaka" olarak ayrı oynanır, ünite testine girmez). `dersler` üniteyi 2–7 kartlık derslere böler:
 her ders `ilk` kartından bir sonraki dersin `ilk` kartına kadar sürer.
 Şemada olmayan alan hatadır; alan eklenecekse önce `araclar/icerik-dogrula.mjs` ve testi güncellenir.
@@ -73,7 +88,12 @@ ve `konu` numaraları buna uymak zorundadır.
 
 Uygulamanın adı **CONCIERGE — Hospitality Academy** (İngilizce, büyük harf; öğretmenin isteği). Görsel dil "sessiz lüks":
 fildişi kâğıt, İsviçre laciverti, şampanya altını; Playfair Display başlık + Inter gövde (dosyaları `src/yazitipleri/` içinde,
-ağdan yüklenmez); çizimler elde yazılmış SVG (`src/cizimler.tsx`). Fotoğraf ve dış görsel kullanılmaz.
+ağdan yüklenmez); çizimler elde yazılmış SVG (`src/cizimler.tsx`).
+**Fotoğraf (9 Ekim 2026 kararı):** kilit kavramlar fotoğrafla desteklenir — öğretmenin kalıcı tercihi: "görsel olmadan öğrencinin dikkati
+çekilmiyor". Yalnız lisansı açık (CC BY) ve künyesi tam fotoğraf kullanılır; kartta `gorsel: "<anahtar>"`. Hat: seçim `icerik/gorsel-secimi.json`
+→ `npm run gorsel` (`araclar/gorsel-hazirla.mjs`: küçültür, `public/gorseller/*.webp` ve künyeyi `icerik/gorseller.json` olarak yazar) →
+uygulamada "Görsel künyesi" ekranı (fotoğrafçı, kaynak, lisans; CC BY şartı). Seçim ölçütü: yer, nesne ve ortam fotoğrafları; tanınabilir
+yakın yüz, silah, mayolu insan, siyasetçi / resmî kişi fotoğrafı kullanılmaz. Fotoğraflar uygulamayla birlikte gelir, ağdan çekilmez.
 **Vaka çalışması:** `senaryo` soruları ünitenin "Vaka" modunda oynanır — öğrenci otelde bir sahnenin içine konur ve karar verir.
 Öğretme mantığı: ders = birkaç kavram; her yeni karttan sonra bir önceki kart sorulur (öğren → hatırla), yanlışlar ders sonunda
 yeniden gelir; biten dersin kartları aralıklı tekrara (Leitner, 1-2-4-8-16 gün) girer; ünite sonunda test; puanla otel kariyeri
@@ -120,6 +140,7 @@ Her aşamanın sonunda öğretmene kısa rapor: ne yapıldı, neyi onaylaması g
 | `npm run denetle` | İçerik şeması + yıllık planla tutarlılık (`icerik/` dosyası kaydedilince kendiliğinden çalışır) |
 | `npm run telif` | İçeriği kitap metniyle karşılaştırır (askıda; bilgi amaçlı, zorunlu değil) |
 | `npm run analiz [ders]` | İçerik kalitesi raporu: tanım biçimi, şık dengesi, aynı terim iki ünitede, karta dayanmayan cevap… (hata vermez, iş listesi verir) |
+| `npm run gorsel` | Seçilen fotoğrafları küçültür, künyeyi üretir (paket `kaynak/claude-projesi/` içinde olmalı) |
 | `npm run inceleme` | Öğretmenin okuyacağı sayfalar → `inceleme/` (git dışı; denetim temizse kendiliğinden yenilenir) |
 | `npm test` | Denetim araçlarının ve uygulama çekirdeğinin (`src/cekirdek/`) testleri |
 | `npm run dev` | Uygulamayı bilgisayarda açar (onaysız üniteler "taslak" etiketiyle görünür) |
@@ -129,6 +150,8 @@ Her aşamanın sonunda öğretmene kısa rapor: ne yapıldı, neyi onaylaması g
 - `main` dalına her gönderimde `.github/workflows/yayin.yml` denetim + test + derleme yapar ve GitHub Pages'e yayınlar.
 - Her commit'ten önce `araclar/yayin-kontrol.mjs` çalışır (git kancası): `kaynak/`, `inceleme/`, PDF ya da hatalı içerik varsa commit durur.
   Depo yeniden klonlanırsa bir kez: `git config core.hooksPath araclar/git-kancalari`.
+- Büyük birimler parça parça yazılır: `araclar/paket-iskelet.mjs` (öğretmen sözlüğünden iskelet) → ajanlar parça dosyası yazar →
+  `araclar/parca-birlestir.mjs` (konu sırasına dizer, öğretmenin terim / tanımı değişmiş mi bakar) → bağımsız editör denetimi.
 - İş akışları `.claude/skills/` altında: **unite-yaz** (yeni ünite) · **duzeltme-isle** (öğretmen düzeltmesi / onayı) · **yayinla** (commit + push).
 - `.claude/agents/icerik-denetci` — içeriği öğretmene gitmeden önce bağımsız gözle inceler.
 - `.claude/rules/icerik-yazimi.md` (içerik üslubu + **öğretmen kararları**) ve `.claude/rules/uygulama-kodu.md` ilgili dosyalara dokununca yüklenir.

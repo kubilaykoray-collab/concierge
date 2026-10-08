@@ -18,7 +18,7 @@ function Vardiya({ uniteAnahtari, yeniden }: { uniteAnahtari: string; yeniden: (
   // Önce henüz çözülmemiş sahneler gelir; şıklar her seferinde karışır.
   const [sahneler] = useState(() => {
     const karisik = testHazirla(unite?.vakalar ?? []);
-    return [...karisik.filter((s) => !ilerleme.vakalar[s.id]), ...karisik.filter((s) => ilerleme.vakalar[s.id])];
+    return [...karisik.filter((s) => !ilerleme.vakalar[s.id]), ...karisik.filter((s) => ilerleme.vakalar[s.id])].slice(0, 8);
   });
   const [konum, konumAyarla] = useState(0);
   const [secim, secimAyarla] = useState<number | null>(null);

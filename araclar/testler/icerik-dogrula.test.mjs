@@ -35,6 +35,7 @@ function denetle(degistir = () => {}) {
   degistir(u);
   writeFileSync(join(kok, "ornek-ders", "uniteler.json"), JSON.stringify(PLAN));
   writeFileSync(join(kok, "ornek-ders", "unite-1.json"), JSON.stringify(u));
+  writeFileSync(join(kok, "gorseller.json"), JSON.stringify([{ anahtar: "kumsal", alt: "Kumsal", fotografci: "A", baslik: null, kaynak: "https://ornek", lisans: "CC BY 2.0" }]));
   return icerigiDenetle(kok);
 }
 
@@ -68,6 +69,12 @@ hataBekle("ders olmayan kartla başlıyor", (u) => { u.dersler[0].ilk = "od-1-77
 hataBekle("ilk ders ilk kartla başlamıyor", (u) => { u.dersler[0].ilk = "od-1-002"; }, /ilk kartıyla başlamalı/);
 hataBekle("senaryo sorusunda durum yok", (u) => { u.sorular[0].tur = "senaryo"; }, /durum alanı/);
 hataBekle("senaryo olmayan soruda durum var", (u) => { u.sorular[0].durum = "Lobi kalabalık."; }, /durum alanı/);
+hataBekle("künyesi olmayan görsel", (u) => { u.kavramlar[0].gorsel = "yok-boyle"; }, /gorseller\.json içinde yok/);
+hataBekle("kitapDisi false yazılmış", (u) => { u.kavramlar[0].kitapDisi = false; }, /kitapDisi yalnız true/);
+test("künyeli görsel ve sektör terimi kabul edilir", () => {
+  const { hatalar } = denetle((u) => { u.kavramlar[0].gorsel = "kumsal"; u.kavramlar[0].kitapDisi = true; });
+  assert.deepEqual(hatalar, []);
+});
 hataBekle("açık notla onay", (u) => { u.onay = true; u.kavramlar[0].kontrol = "Emin değilim."; }, /kontrol notu açık/);
 
 test("kavramı olmayan konu uyarı verir", () => {

@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { Kavram } from "./cekirdek/tipler";
+import { gorselAdresi, gorselBul } from "./veri";
 
 const CIZIMLER = {
   zil: <><path d="M5 17a7 7 0 0 1 14 0" /><path d="M3 17h18" /><path d="M12 10V8" /><path d="M10 8h4" /><path d="M6 20h12" /></>,
@@ -84,7 +85,11 @@ export function AkisBasligi({ oran, etiket, cikis }: { oran: number; etiket: str
 export function KavramGovdesi({ kavram, buyuk = false }: { kavram: Kavram; buyuk?: boolean }) {
   return (
     <div className={buyuk ? "kavram kavram-buyuk" : "kavram"}>
-      <p className="kavram-ingilizce">{kavram.ingilizce}</p>
+      {gorselBul(kavram.gorsel) && (
+        <img className="kavram-gorsel" src={gorselAdresi(kavram.gorsel!)} alt={gorselBul(kavram.gorsel)!.alt} width={720} height={446} loading="lazy" />
+      )}
+      {kavram.kitapDisi && <span className="sektor-etiketi" title="Ders kitabında yok; uluslararası otelcilik terimi">Sektör terimi</span>}
+      <p className="kavram-ingilizce" lang="en">{kavram.ingilizce}</p>
       <h2 className="kavram-terim">{kavram.terim}</h2>
       <div className="altin-cizgi" />
       <p className="kavram-tanim">{kavram.tanim}</p>

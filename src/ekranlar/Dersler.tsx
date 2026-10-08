@@ -2,13 +2,13 @@ import { BosDurum, dakika, Madalyon, romen, Simge } from "../bilesenler";
 import { GECME_NOTU } from "../cekirdek/ilerleme";
 import { DERS_CIZIMI, OtelCizimi, Piktogram } from "../cizimler";
 import { useIlerleme } from "../depo";
-import { DERS_LISTESI, uniteBul, UNITELER } from "../veri";
+import { ARSIV_DERSLERI, DERS_LISTESI, TUM_DERSLER, uniteBul, UNITELER } from "../veri";
 
 export function Dersler({ secili }: { secili?: string }) {
   const ilerleme = useIlerleme();
   if (UNITELER.length === 0) return <BosDurum baslik="Henüz yayınlanmış ünite yok" metin="Onaylanan üniteler burada görünecek." />;
 
-  const ders = DERS_LISTESI.find((d) => d.ders === secili) ?? DERS_LISTESI.find((d) => d.ders === ilerleme.sonDers) ?? DERS_LISTESI[0];
+  const ders = TUM_DERSLER.find((d) => d.ders === secili) ?? DERS_LISTESI.find((d) => d.ders === ilerleme.sonDers) ?? DERS_LISTESI[0];
   const Cizim = DERS_CIZIMI[ders.ders] ?? OtelCizimi;
 
   return (
@@ -28,9 +28,13 @@ export function Dersler({ secili }: { secili?: string }) {
 
       <div className="ders-afisi">
         <Cizim className="ders-afisi-cizim" />
-        <span className="ust-etiket">{ders.sinif}. sınıf · {ders.uniteler.length} ünite</span>
+        <span className="ust-etiket">{ders.sinif}. sınıf · {ders.uniteler.length} ünite{ders.arsiv ? " · 2025-2026 müfredatı" : ""}</span>
         <h2>{ders.ad}</h2>
       </div>
+
+      {ders.arsiv && (
+        <p className="ipucu">Bu ders önceki yılın kitabına göre hazırlandı. Kartlar doğru, ama ünite sırası bu yılın kitabıyla aynı değil.</p>
+      )}
 
       <div className="unite-kartlari">
         {ders.uniteler.map((u) => {
@@ -53,6 +57,23 @@ export function Dersler({ secili }: { secili?: string }) {
           );
         })}
       </div>
+
+      {ARSIV_DERSLERI.length > 0 && (
+        <section>
+          <h3 className="bolum-basligi">Arşiv · önceki müfredat</h3>
+          <div className="liste">
+            {ARSIV_DERSLERI.map((d) => (
+              <a key={d.ders} className="satir" href={`#/dersler/${d.ders}`}>
+                <div className="satir-govde">
+                  <strong>{d.ad}</strong>
+                  <span>{d.uniteler.length} ünite · {d.uniteler.reduce((t, u) => t + u.kavramlar.length, 0)} kavram</span>
+                </div>
+                <Simge ad="ok" boyut={18} />
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
     </>
   );
 }
@@ -87,11 +108,14 @@ export function UniteEkrani({ anahtar }: { anahtar: string }) {
 
       <h3 className="bolum-basligi">Ders yolu</h3>
       <ol className="yol">
-        {unite.dersler.map((d) => {
+        {unite.dersler.map((d, i) => {
           const bitti = ilerleme.dersler[d.anahtar];
           const sirada = siradaki?.anahtar === d.anahtar;
+          // Büyük birimlerde ders yolu kitabın konu başlıklarıyla bölünür.
+          const yeniKonu = unite.konular.length > 1 && d.konu !== null && d.konu !== unite.dersler[i - 1]?.konu;
+          const konu = unite.konular.find((k) => k.no === d.konu);
           return (
-            <li key={d.anahtar} className={bitti ? "durak durak-bitti" : sirada ? "durak durak-sirada" : "durak"}>
+            <li key={d.anahtar} className={[bitti ? "durak durak-bitti" : sirada ? "durak durak-sirada" : "durak", yeniKonu ? "durak-konu-basi" : ""].join(" ")} data-konu={yeniKonu && konu ? `${konu.no} · ${konu.baslik}` : undefined}>
               <span className="durak-isaret">{bitti ? <Simge ad="tik" boyut={16} /> : d.sira}</span>
               <a className="durak-kart" href={`#/ders/${d.anahtar}`}>
                 <div className="satir-govde">

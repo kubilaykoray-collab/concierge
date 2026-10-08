@@ -94,6 +94,15 @@ export function Ilerleme() {
         <p>Kurduktan sonra internet olmadan da çalışır.</p>
       </div>
 
+      <h3 className="bolum-basligi">Görseller</h3>
+      <a className="satir" href="#/kunye">
+        <div className="satir-govde">
+          <strong>Görsel künyesi</strong>
+          <span>Kartlardaki fotoğrafların fotoğrafçıları, kaynakları ve lisansı</span>
+        </div>
+        <Simge ad="ok" boyut={18} />
+      </a>
+
       <h3 className="bolum-basligi">Gizlilik</h3>
       <div className="kagit bilgi">
         <p>CONCIERGE senden hiçbir bilgi istemez ve toplamaz. Hesap, reklam, takip yok. İlerlemen yalnız bu telefonda durur; telefon ya da tarayıcı değiştirirsen sıfırdan başlar.</p>

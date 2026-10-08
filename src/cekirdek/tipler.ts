@@ -8,6 +8,8 @@ export interface Kavram {
   sektor: string | null;
   iliskili: string[];
   kontrol: string | null;
+  kitapDisi?: true; // ders kitabında olmayan uluslararası sektör terimi
+  gorsel?: string; // icerik/gorseller.json içindeki anahtar
 }
 
 export interface Soru {
@@ -42,10 +44,24 @@ export interface Plan {
   ders: string;
   sinif: number;
   dersAdi: string;
+  kisaAd?: string;
+  sira?: number;
+  arsiv?: boolean; // eski müfredat: uygulamada "Arşiv" altında durur
   uniteler: { unite: number; baslik: string; konular: { no: string; baslik: string; kazanim: string }[] }[];
 }
 
+export interface Gorsel {
+  anahtar: string;
+  alt: string;
+  fotografci: string;
+  baslik: string | null;
+  kaynak: string;
+  lisans: string;
+  lisansAdresi?: string;
+}
+
 export interface DersParcasi {
+  konu: string | null; // plandaki ana konu ("1.2"); ders yolu buna göre gruplanır
   anahtar: string; // "genel-turizm/2/3"
   sira: number; // 1'den başlar
   baslik: string;
@@ -65,5 +81,6 @@ export interface Unite {
   kavramlar: Kavram[];
   sorular: Soru[]; // ünite testi: bilgi soruları
   vakalar: Soru[]; // senaryo soruları
+  konular: { no: string; baslik: string }[]; // plandaki ana konular
   dersler: DersParcasi[];
 }

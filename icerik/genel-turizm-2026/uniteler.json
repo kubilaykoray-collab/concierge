@@ -1,0 +1,48 @@
+{
+  "ders": "genel-turizm-2026",
+  "sinif": 9,
+  "dersAdi": "Genel Turizm",
+  "kisaAd": "Genel Turizm",
+  "sira": 2,
+  "kaynak": "2026-2027 ders kitabı (ISBN 978-625-91665-4-4) — konu sırası ve kazanımlar",
+  "uniteler": [
+    {
+      "unite": 1,
+      "baslik": "Turizmle İlgili Temel Unsurlar",
+      "konular": [
+        { "no": "1.1", "baslik": "Turizmle İlgili Temel Kavramlar", "kazanim": "Turizm, turist, iç ve dış turizm tanımlarını yapar." },
+        { "no": "1.2", "baslik": "Turizmin Tarihsel Gelişimi", "kazanim": "Turizmin tarihsel gelişimini açıklar." },
+        { "no": "1.3", "baslik": "İnsanları Turizm Hareketlerine Yönelten Sebepler", "kazanim": "İnsanları turizme yönelten sebepleri açıklar." },
+        { "no": "1.4", "baslik": "Turizm Çeşitleri", "kazanim": "Turizm çeşitlerini ayırt eder." },
+        { "no": "1.5", "baslik": "Turizmin Etkileri", "kazanim": "Turizm hareketlerinin sosyal, ekonomik ve toplumsal etkilerini ayırt eder." }
+      ]
+    },
+    {
+      "unite": 2,
+      "baslik": "Turizm Endüstrisi",
+      "konular": [
+        { "no": "2.1", "baslik": "Turizm Endüstrisinde Yer Alan İşletmeler", "kazanim": "Konaklama, seyahat, ulaştırma, yiyecek içecek ve eğlence işletmelerini tanımlar ve sınıflandırır; turizm endüstrisinde yer alan işletmeler arasındaki ilişkileri açıklar; turizm endüstrisini diğer endüstrilerden ayıran özellikleri karşılaştırır." },
+        { "no": "2.2", "baslik": "Turizm Endüstrisindeki Yeni Yaklaşımlar", "kazanim": "Turizm endüstrisindeki yeni yaklaşımlara yönelik çıkarımlar yapar; ekoturizm, sürdürülebilir turizm, dijital turizm, sanal müzeler ve uzay turizmini açıklar." }
+      ]
+    },
+    {
+      "unite": 3,
+      "baslik": "Türkiye'nin Turistik Merkezleri",
+      "konular": [
+        { "no": "3.1", "baslik": "Türkiye Coğrafyasının Temel Özellikleri", "kazanim": "Türkiye'nin dünya üzerindeki yerini, önemini ve sınır komşularını açıklar; Türkiye coğrafyasının kıyı ve iç kesimler olarak temel özelliklerini açıklar." },
+        { "no": "3.2", "baslik": "Türkiye'nin Kıyı Kesimlerindeki Turistik Değerleri", "kazanim": "Türkiye'nin kıyı kesimlerindeki temel turistik değerleri ve merkezleri tanıtır." },
+        { "no": "3.3", "baslik": "Türkiye'nin İç Kesimlerindeki Turistik Değerleri", "kazanim": "Türkiye'nin iç kesimlerindeki tarihî, kültürel ve doğal turistik değerleri tanıtır." }
+      ]
+    },
+    {
+      "unite": 4,
+      "baslik": "Turizmle İlgili Çevre Dostu Uygulamalar",
+      "konular": [
+        { "no": "4.1", "baslik": "Atık Yönetimi", "kazanim": "Atık, atık yönetimi, atıkların ayrıştırılması, geri dönüşüm ve yeniden kullanım kavramlarını ayırt eder." },
+        { "no": "4.2", "baslik": "Su Yönetimi", "kazanim": "Su tasarruf yöntemlerini açıklar." },
+        { "no": "4.3", "baslik": "Enerji Yönetimi", "kazanim": "Enerji tasarruf yöntemlerini açıklar." },
+        { "no": "4.4", "baslik": "Çevre Dostuyla İlgili Diğer Uygulamalar", "kazanim": "Çevre dostu uygulamaları açıklar." }
+      ]
+    }
+  ]
+}
