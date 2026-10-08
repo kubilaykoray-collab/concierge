@@ -1,0 +1,31 @@
+{
+  "name": "turizm-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "denetle": "node araclar/icerik-dogrula.mjs",
+    "telif": "node araclar/telif-kontrol.mjs",
+    "inceleme": "node araclar/inceleme-belgesi.mjs",
+    "durum": "node araclar/durum.mjs",
+    "test": "node --test \"araclar/testler/*.test.mjs\" && vitest run",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "onizle": "vite preview",
+    "deneme": "node araclar/ekran-denemesi.mjs",
+    "simge": "node araclar/simge-uret.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "puppeteer-core": "^25.13.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.3"
+  }
+}

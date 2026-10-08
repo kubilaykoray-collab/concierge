@@ -7,7 +7,8 @@
 Meslek lisesi turizm öğrencilerinin ders çalışmasını kolaylaştıran, **ücretsiz**, telefona kurulan bir uygulama.
 Sahibi: turizm / konaklama öğretmeni. Kullanıcı: öğrencileri (9. sınıftan başlayarak; çoğu Android, bir kısmı iPhone).
 
-İlk kapsam: **9. sınıf Genel Turizm** — önce 2 ünite, öğrencilere açılır, gerisi üstüne eklenir.
+İlk kapsam: **9. sınıf Genel Turizm** — önce 2 ünite (Ünite 2 Turizm Hareketleri, Ünite 3 Turizm İşletmeleri), öğrencilere açılır,
+gerisi üstüne eklenir. Güncel durum her oturum başında `araclar/durum.mjs` ile dosyalardan hesaplanır; buraya elle durum yazılmaz.
 Sonraki dersler (sırayla, öğretmen karar verir): Konaklama ve Seyahat Hizmetleri Atölyesi · Mesleki Gelişim Atölyesi.
 
 ## 2. Değişmez kurallar
@@ -33,14 +34,14 @@ Sonraki dersler (sırayla, öğretmen karar verir): Konaklama ve Seyahat Hizmetl
   iPhone'da Safari → Paylaş → "Ana Ekrana Ekle".
 - Kurulu: git 2.55 · node 24 · gh 2.101. Paketler `npm` ile.
 
-## 4. İçerik şeması (taslak — ilk ünitede kesinleşir)
+## 4. İçerik şeması
 
 ```json
 {
   "ders": "genel-turizm", "sinif": 9, "unite": 1, "baslik": "…", "onay": false,
   "kazanimlar": ["…"],
   "kavramlar": [
-    { "id": "gt-1-001", "terim": "Turizm", "ingilizce": "Tourism",
+    { "id": "gt-1-001", "konu": "1.1.1", "terim": "Turizm", "ingilizce": "Tourism",
       "tanim": "kendi cümlemizle, 1–2 cümle", "ornek": "sektörden somut örnek",
       "sektor": "otelde / acentede nasıl kullanılır (varsa)", "iliskili": ["gt-1-002"], "kontrol": null }
   ],
@@ -50,7 +51,17 @@ Sonraki dersler (sırayla, öğretmen karar verir): Konaklama ve Seyahat Hizmetl
 }
 ```
 
+`ornek`, `sektor`, `kontrol` boşsa `null`. Soru `tur`: `coktan-secmeli` (4 seçenek) ya da `dogru-yanlis` (2 seçenek).
+Şemada olmayan alan hatadır; alan eklenecekse önce `araclar/icerik-dogrula.mjs` ve testi güncellenir.
+`icerik/<ders>/uniteler.json` yıllık plandan çıkarılan ünite / konu / kazanım listesidir; ünite dosyalarının başlığı, kazanımları
+ve `konu` numaraları buna uymak zorundadır.
+
 ## 5. Ekranlar (ilk sürüm)
+
+Uygulamanın adı **Lobi — Turizm Akademisi**. Görsel dil: fildişi kâğıt, lacivert mürekkep, pirinç vurgu, serif başlık.
+Öğretme mantığı: ders = birkaç kavram; her yeni karttan sonra bir önceki kart sorulur (öğren → hatırla), yanlışlar ders sonunda
+yeniden gelir; biten dersin kartları aralıklı tekrara (Leitner, 1-2-4-8-16 gün) girer; ünite sonunda test; puanla otel kariyeri
+basamakları (Stajyer → Genel Müdür). Alıştırmalar kartın kendi içeriğinden üretilir, onaysız yeni bilgi eklemez.
 
 Dersler → Üniteler → **Kavram kartları** (çevir: terim ↔ tanım; Türkçe ↔ İngilizce) · **Tekrar** (bilinmeyen kart daha sık;
 basit Leitner kutuları) · **Test** (ünite sonu, karışık) · **Sözlük** (tüm terimlerde arama) · **İlerleme** (telefonda).
@@ -82,3 +93,29 @@ Her aşamanın sonunda öğretmene kısa rapor: ne yapıldı, neyi onaylaması g
 - Küçük adımlar; her adımda çalışan bir şey. Test önce yazılır (içerik şeması doğrulaması dahil).
 - Commit ve push: öğretmen "yayınla" deyince. İlk GitHub deposunu açmadan önce depo adını ve herkese açık olacağını söyle.
 - Öğretmen teknik değil: komutları onun yerine çalıştır; ondan yalnız içerik onayı ve karar iste.
+- Aynı anda tek oturum: iki Claude oturumu aynı dosyalara yazarsa birbirini ezer.
+- "Bitti" demek = ilgili denetim bu oturumda çalıştı ve çıktısı görüldü. Çalıştırılmayan şey "bitti" diye raporlanmaz.
+
+## 9. Düzen: komutlar ve otomatik denetimler
+
+| Komut | Ne yapar |
+|---|---|
+| `npm run durum` | Aşama, ünite sayıları, açık sorular, sıradaki iş (oturum başında kendiliğinden çalışır) |
+| `npm run denetle` | İçerik şeması + yıllık planla tutarlılık (`icerik/` dosyası kaydedilince kendiliğinden çalışır) |
+| `npm run telif` | İçeriği kitap metniyle karşılaştırır; 8+ kelime birebir aynıysa hata |
+| `npm run inceleme` | Öğretmenin okuyacağı sayfalar → `inceleme/` (git dışı; denetim temizse kendiliğinden yenilenir) |
+| `npm test` | Denetim araçlarının ve uygulama çekirdeğinin (`src/cekirdek/`) testleri |
+| `npm run dev` | Uygulamayı bilgisayarda açar (onaysız üniteler "taslak" etiketiyle görünür) |
+| `npm run build` | Yayın derlemesi → `dist/` (yalnız `onay: true` üniteler pakete girer) |
+| `npm run deneme` | Derlenmiş uygulamayı telefon boyutunda baştan sona kullanır, ekran görüntülerini `inceleme/ekranlar/` altına yazar |
+
+- `main` dalına her gönderimde `.github/workflows/yayin.yml` denetim + test + derleme yapar ve GitHub Pages'e yayınlar.
+- Her commit'ten önce `araclar/yayin-kontrol.mjs` çalışır (git kancası): `kaynak/`, `inceleme/`, PDF ya da hatalı içerik varsa commit durur.
+  Depo yeniden klonlanırsa bir kez: `git config core.hooksPath araclar/git-kancalari`.
+- İş akışları `.claude/skills/` altında: **unite-yaz** (yeni ünite) · **duzeltme-isle** (öğretmen düzeltmesi / onayı) · **yayinla** (commit + push).
+- `.claude/agents/icerik-denetci` — içeriği öğretmene gitmeden önce bağımsız gözle inceler.
+- `.claude/rules/icerik-yazimi.md` (içerik üslubu + **öğretmen kararları**) ve `.claude/rules/uygulama-kodu.md` ilgili dosyalara dokununca yüklenir.
+
+**Sistem kendini böyle geliştirir:** aynı hata ikinci kez olmasın diye her düzeltme kalıcı bir yere yazılır —
+öğretmenin içerik kararı → `icerik-yazimi.md` "Öğretmen kararları" · makinenin yakalayabileceği hata → `icerik-dogrula.mjs` + testi ·
+tekrar eden iş adımı → ilgili skill · proje geneli kural → bu dosya. Bu dosya kısa tutulur; ayrıntı ilgili kural / skill dosyasına gider.

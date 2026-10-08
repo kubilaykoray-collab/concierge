@@ -4,3 +4,5 @@ dist/
 .env
 *.log
 
+inceleme/
+.claude/settings.local.json

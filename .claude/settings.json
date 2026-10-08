@@ -1,0 +1,57 @@
+{
+  "language": "turkish",
+  "permissions": {
+    "allow": [
+      "Bash(node araclar/*)",
+      "Bash(npm run *)",
+      "Bash(npm test*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "PowerShell(node araclar/*)",
+      "PowerShell(npm run *)",
+      "PowerShell(npm test*)",
+      "PowerShell(git status*)",
+      "PowerShell(git diff*)",
+      "PowerShell(git log*)"
+    ],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(gh repo create*)",
+      "PowerShell(git push*)",
+      "PowerShell(gh repo create*)"
+    ],
+    "deny": [
+      "Edit(kaynak/**)",
+      "Edit(//c/Users/pc/OneDrive/Masaüstü/TURIZM OTELCILIK/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "node \"$CLAUDE_PROJECT_DIR/araclar/durum.mjs\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "node \"$CLAUDE_PROJECT_DIR/araclar/kanca-icerik.mjs\"",
+            "timeout": 30,
+            "statusMessage": "İçerik denetleniyor…"
+          }
+        ]
+      }
+    ]
+  }
+}

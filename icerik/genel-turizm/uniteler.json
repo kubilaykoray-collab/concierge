@@ -1,0 +1,105 @@
+{
+  "ders": "genel-turizm",
+  "sinif": 9,
+  "dersAdi": "Genel Turizm",
+  "kaynak": "2025-2026 ünitelendirilmiş yıllık plan (konu sırası ve kazanımlar)",
+  "uniteler": [
+    {
+      "unite": 1,
+      "baslik": "İletişim Teknikleri",
+      "konular": [
+        { "no": "1.1", "baslik": "Çalışma Arkadaşları ile İletişim", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak çalışma arkadaşlarıyla olumlu ilişkiler kurar." },
+        { "no": "1.2", "baslik": "İletişimde Beden Dilini Kullanma", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak beden dilini doğru kullanır." }
+      ]
+    },
+    {
+      "unite": 2,
+      "baslik": "Turizm Hareketleri",
+      "konular": [
+        { "no": "2.1", "baslik": "Turizm Çeşitleri", "kazanim": "Ulusal ve uluslararası literatüre göre turizm çeşitlerini açıklar." },
+        { "no": "2.2", "baslik": "Turizmin Ülke ve Dünya Ekonomisine Etkileri", "kazanim": "Ulusal ve uluslararası literatüre göre turizmin etkilerini açıklar." }
+      ],
+      "dersler": [
+        { "baslik": "Turizm ve Turist", "ilk": "gt-2-001" },
+        { "baslik": "Turizm Hareketinin Yönü", "ilk": "gt-2-006" },
+        { "baslik": "Turizmin Tarihçesi", "ilk": "gt-2-009" },
+        { "baslik": "İnsanlar Neden Seyahat Eder?", "ilk": "gt-2-014" },
+        { "baslik": "Doğa ve Mevsim Turizmi", "ilk": "gt-2-017" },
+        { "baslik": "Kongre, Golf ve Deniz Yolculukları", "ilk": "gt-2-023" },
+        { "baslik": "Kültür, İnanç ve Sağlık", "ilk": "gt-2-027" },
+        { "baslik": "Özel İlgi Alanları", "ilk": "gt-2-031" },
+        { "baslik": "Gelire ve Yaşa Göre Turizm", "ilk": "gt-2-034" },
+        { "baslik": "Kişi Sayısına Göre Turizm", "ilk": "gt-2-039" },
+        { "baslik": "Turizmin İşlevleri", "ilk": "gt-2-042" },
+        { "baslik": "Döviz ve Ödemeler Dengesi", "ilk": "gt-2-048" },
+        { "baslik": "İstihdam, Gelir ve Altyapı", "ilk": "gt-2-051" }
+      ]
+    },
+    {
+      "unite": 3,
+      "baslik": "Turizm İşletmeleri",
+      "konular": [
+        { "no": "3.1", "baslik": "Turizm Endüstrisinde Yer Alan İşletmeler", "kazanim": "Ulusal ve uluslararası literatüre göre turizm endüstrisinde yer alan işletmeleri açıklar." },
+        { "no": "3.2", "baslik": "Turizm Hareketine Katılan Konukların Seyahat Formaliteleri", "kazanim": "Ulusal ve uluslararası literatüre göre turizm hareketine katılan konukların seyahat formalitelerini açıklar." }
+      ],
+      "dersler": [
+        { "baslik": "Endüstri, Acente ve Tur Operatörü", "ilk": "gt-3-001" },
+        { "baslik": "Acentenin Hizmetleri", "ilk": "gt-3-006" },
+        { "baslik": "Konaklama İşletmeleri I", "ilk": "gt-3-009" },
+        { "baslik": "Konaklama İşletmeleri II", "ilk": "gt-3-015" },
+        { "baslik": "Yiyecek-İçecek İşletmeleri", "ilk": "gt-3-021" },
+        { "baslik": "Ulaştırma, Alışveriş ve Rekreasyon", "ilk": "gt-3-027" },
+        { "baslik": "Endüstrinin Özellikleri ve Pasaport", "ilk": "gt-3-033" },
+        { "baslik": "Pasaport Türleri", "ilk": "gt-3-037" },
+        { "baslik": "Vize ve Türleri", "ilk": "gt-3-043" },
+        { "baslik": "Schengen, Sigorta ve Gümrük", "ilk": "gt-3-049" }
+      ]
+    },
+    {
+      "unite": 4,
+      "baslik": "Ön Büro (Front Office) Hizmetleri",
+      "konular": [
+        { "no": "4.1", "baslik": "Ön Büronun Organizasyon Yapısı", "kazanim": "İşletme prosedürüne uygun olarak ön büronun organizasyon yapısını açıklar." },
+        { "no": "4.2", "baslik": "Konaklama İşletmelerinde Oda Tipleri", "kazanim": "Ulusal mevzuatlara ve standartlara uygun olarak konaklama işletmelerindeki oda tiplerini açıklar." },
+        { "no": "4.3", "baslik": "Ön Büroda Kullanılan Donanımlar ve Formlar", "kazanim": "Ulusal standartlara ve işletme prosedürüne uygun olarak ön büroda kullanılan donanımları ve formları açıklar." }
+      ]
+    },
+    {
+      "unite": 5,
+      "baslik": "Kat Hizmetleri (Housekeeping)",
+      "konular": [
+        { "no": "5.1", "baslik": "Kat Hizmetlerinde Organizasyon Yapısı", "kazanim": "İşletme prosedürüne uygun olarak kat hizmetlerinde organizasyon yapısını açıklar." },
+        { "no": "5.2", "baslik": "Astlar ile İlgili Çalışmalar", "kazanim": "Ulusal standartlara ve işletme prosedürüne uygun olarak astları ile ilgili çalışmaları yapar." },
+        { "no": "5.3", "baslik": "İş Planı", "kazanim": "Ulusal standartlara ve işletme prosedürüne uygun olarak iş planı oluşturur." }
+      ]
+    },
+    {
+      "unite": 6,
+      "baslik": "Seyahat Acenteciliği İşletmeleri",
+      "konular": [
+        { "no": "6.1", "baslik": "Seyahat Acenteciliği İşletmelerinin Organizasyon Yapısı", "kazanim": "Ulusal standartlara uygun olarak seyahat acentelerinin organizasyon yapısını açıklar." },
+        { "no": "6.2", "baslik": "Seyahat Acentelerinin İrtibatta Bulunduğu Kuruluşlarla İlişkileri", "kazanim": "Ulusal standartlara uygun olarak seyahat acentelerinin irtibatta bulunduğu kurum/kuruluşlarla ilişkilerini açıklar." }
+      ]
+    },
+    {
+      "unite": 7,
+      "baslik": "Animasyon Hizmetleri",
+      "konular": [
+        { "no": "7.1", "baslik": "Turizmde Animasyon", "kazanim": "Ulusal literatüre uygun olarak turizmde animasyonu açıklar." },
+        { "no": "7.2", "baslik": "Konaklama Tesislerinde Eğlence Hizmetleri", "kazanim": "Ulusal literatüre uygun olarak konaklama tesislerinde eğlence hizmetleri bölümünü açıklar." },
+        { "no": "7.3", "baslik": "Animasyon Uygulama Alanları", "kazanim": "Turizm işletme yapısına uygun olarak animasyonun uygulama alanlarını açıklar." },
+        { "no": "7.4", "baslik": "Çocuk Kulübü", "kazanim": "Standardına uygun olarak çocuk kulübünü açıklar." },
+        { "no": "7.5", "baslik": "Ulusal ve Uluslararası Literatüre Göre Çocuk Kulübü Aktiviteleri", "kazanim": "Ulusal literatüre uygun olarak çocuk kulübü aktivitelerini açıklar." }
+      ]
+    },
+    {
+      "unite": 8,
+      "baslik": "Türkiye'nin Turistik Bölgeleri",
+      "konular": [
+        { "no": "8.1", "baslik": "Türkiye Coğrafyası", "kazanim": "Ulusal literatüre uygun olarak Türkiye coğrafyasını açıklar." },
+        { "no": "8.2", "baslik": "Türkiye'nin Kıyı Bölgeleri", "kazanim": "Ulusal literatüre uygun olarak Türkiye'nin kıyı bölgelerini tanıtır." },
+        { "no": "8.3", "baslik": "Türkiye'nin İç Bölgeleri", "kazanim": "Ulusal literatüre uygun olarak Türkiye'nin iç bölgelerini tanıtır." }
+      ]
+    }
+  ]
+}
