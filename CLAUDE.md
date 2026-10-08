@@ -28,6 +28,8 @@ Sonraki dersler (sırayla, öğretmen karar verir): Konaklama ve Seyahat Hizmetl
 
 - **Telefona kurulan web uygulaması (PWA)** — mağaza yok, ücret yok, Android + iPhone aynı kod.
   Vite + React + TypeScript · `vite-plugin-pwa` (internetsiz çalışma) · yönlendirme hash tabanlı (GitHub Pages uyumlu).
+- **Yayın adresi:** https://kubilaykoray-collab.github.io/lobi/ · depo: `kubilaykoray-collab/lobi` (herkese açık).
+  Yayından sonra `node araclar/canli-kontrol.mjs` canlı adresi doğrular ve karekodu `inceleme/karekod.png` olarak üretir.
 - **Yayın:** GitHub Pages (ücretsiz), `gh` kurulu. Depo herkese açık olacağı için içinde yalnız kendi yazdığımız içerik bulunur.
 - **İçerik = düz dosya**, kod değil: `icerik/<ders>/<unite>.json`. Uygulama derlemede bunları okur.
 - Sonradan istenirse Google Play (tek sefer 25 $; Bubblewrap / TWA). App Store (yılda 99 $) planlanmıyor;
