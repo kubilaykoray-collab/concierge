@@ -29,7 +29,8 @@ for (const ders of readdirSync(join(kok, "icerik"), { withFileTypes: true })) {
 
     const sorular = u.sorular.map((s, i) => `
       <div class="kart">
-        <h3>${i + 1}. ${k(s.soru)} <span class="no">${k(s.id)}</span></h3>
+        <h3>${i + 1}. ${s.tur === "senaryo" ? "[Vaka] " : ""}${k(s.soru)} <span class="no">${k(s.id)}</span></h3>
+        ${s.durum ? `<p class="kontrol">${k(s.durum)}</p>` : ""}
         <ul>${s.secenekler.map((sec, j) => `<li class="${j === s.dogru ? "dogru" : ""}">${s.secenekler.length === 2 ? "" : HARF[j] + ") "}${k(sec)}${j === s.dogru ? " ✓" : ""}</li>`).join("")}</ul>
         <p><b>Açıklama:</b> ${k(s.aciklama)}</p>
       </div>`).join("");
@@ -48,6 +49,8 @@ for (const ders of readdirSync(join(kok, "icerik"), { withFileTypes: true })) {
 <h1>Ünite ${u.unite}: ${k(u.baslik)}</h1>
 <p>${u.kavramlar.length} kavram · ${u.sorular.length} soru · onay: <b>${u.onay ? "verildi" : "bekliyor"}</b></p>
 <p>${u.kazanimlar.map(k).join("<br>")}</p>
+${u.soz ? `<p><i>“${k(u.soz)}”</i></p>` : ""}
+${u.dersler ? `<h2>Dersler</h2><ol>${u.dersler.map((x) => `<li>${k(x.baslik)}</li>`).join("")}</ol>` : ""}
 ${notlar.length ? `<h2>Önce bunlara bakın: size ${notlar.length} sorum var</h2>
 <ol>${notlar.map((x) => `<li><b>${k(x.terim)}:</b> ${k(x.kontrol)}</li>`).join("")}</ol>` : ""}
 <h2>Kavram kartları</h2>${kavramlar}

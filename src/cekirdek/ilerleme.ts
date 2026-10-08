@@ -7,14 +7,16 @@ export interface Ilerleme {
   dersler: Record<string, true>;
   testler: Record<string, { enIyi: number; deneme: number }>;
   oyunlar: Record<string, number>; // en iyi süre (ms)
+  vakalar: Record<string, true>; // doğru çözülen senaryolar
+  sonDers: string | null; // en son çalışılan ders (ör. "konaklama-seyahat")
   puan: number;
   gunler: string[]; // çalışılan günler
   tema: "oto" | "acik" | "koyu";
 }
 
-export const BOS: Ilerleme = { surum: 1, kartlar: {}, dersler: {}, testler: {}, oyunlar: {}, puan: 0, gunler: [], tema: "oto" };
+export const BOS: Ilerleme = { surum: 1, kartlar: {}, dersler: {}, testler: {}, oyunlar: {}, vakalar: {}, sonDers: null, puan: 0, gunler: [], tema: "oto" };
 
-export const PUAN = { yeniKart: 10, tekrarDogru: 3, oyun: 15 };
+export const PUAN = { yeniKart: 10, tekrarDogru: 3, oyun: 15, vaka: 8 };
 export const GECME_NOTU = 70;
 
 const gunIsle = (gunler: string[], gun: string) => (gunler.includes(gun) ? gunler : [...gunler, gun].sort());
@@ -28,7 +30,14 @@ export function dersBitti(d: Ilerleme, dersAnahtari: string, kartIdleri: string[
       yeni++;
     }
   }
-  return { ...d, kartlar, dersler: { ...d.dersler, [dersAnahtari]: true }, puan: d.puan + yeni * PUAN.yeniKart, gunler: gunIsle(d.gunler, gun) };
+  return {
+    ...d,
+    kartlar,
+    dersler: { ...d.dersler, [dersAnahtari]: true },
+    sonDers: dersAnahtari.split("/")[0],
+    puan: d.puan + yeni * PUAN.yeniKart,
+    gunler: gunIsle(d.gunler, gun),
+  };
 }
 
 // vadeli=false serbest tekrardır: puan verir ama kutuyu ve tarihi değiştirmez, yoksa aralıklı tekrar bozulur.
@@ -62,6 +71,17 @@ export function oyunBitti(d: Ilerleme, uniteAnahtari: string, sureMs: number, gu
   };
 }
 
+// Senaryo yalnız ilk doğru çözümde puan verir; yanlış cevap kaydedilmez, öğrenci yeniden deneyebilir.
+export function vakaCevabi(d: Ilerleme, soruId: string, dogru: boolean, gun: string): Ilerleme {
+  const yeni = dogru && !d.vakalar[soruId];
+  return {
+    ...d,
+    vakalar: yeni ? { ...d.vakalar, [soruId]: true } : d.vakalar,
+    puan: d.puan + (yeni ? PUAN.vaka : 0),
+    gunler: gunIsle(d.gunler, gun),
+  };
+}
+
 // Bugün ya da dün biten kesintisiz gün zinciri. Bugün henüz çalışılmadıysa dünkü seri bozulmuş sayılmaz.
 export function seri(gunler: string[], gun: string): number {
   const kume = new Set(gunler);
@@ -76,11 +96,11 @@ export function seri(gunler: string[], gun: string): number {
 
 export const RUTBELER = [
   { ad: "Stajyer", esik: 0, soz: "Her kariyer ilk günle başlar." },
-  { ad: "Bellboy", esik: 150, soz: "Konuğu ilk karşılayan sensin." },
-  { ad: "Resepsiyonist", esik: 400, soz: "Otelin yüzü, ön büronun sesi." },
-  { ad: "Ön Büro Şefi", esik: 800, soz: "Ekibin sana bakarak öğreniyor." },
-  { ad: "Departman Müdürü", esik: 1400, soz: "Artık standartları sen belirliyorsun." },
-  { ad: "Genel Müdür", esik: 2200, soz: "Otelin anahtarı sende." },
+  { ad: "Bellboy", esik: 200, soz: "Konuğu ilk karşılayan sensin." },
+  { ad: "Resepsiyonist", esik: 600, soz: "Otelin yüzü, ön büronun sesi." },
+  { ad: "Ön Büro Şefi", esik: 1400, soz: "Ekibin sana bakarak öğreniyor." },
+  { ad: "Departman Müdürü", esik: 2800, soz: "Artık standartları sen belirliyorsun." },
+  { ad: "Genel Müdür", esik: 5000, soz: "Otelin anahtarı sende." },
 ] as const;
 
 export function rutbe(puan: number) {

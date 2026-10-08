@@ -96,7 +96,7 @@ export function Ilerleme() {
 
       <h3 className="bolum-basligi">Gizlilik</h3>
       <div className="kagit bilgi">
-        <p>Bu uygulama senden hiçbir bilgi istemez ve toplamaz. Hesap, reklam, takip yok. İlerlemen yalnız bu telefonda durur; telefon ya da tarayıcı değiştirirsen sıfırdan başlar.</p>
+        <p>CONCIERGE senden hiçbir bilgi istemez ve toplamaz. Hesap, reklam, takip yok. İlerlemen yalnız bu telefonda durur; telefon ya da tarayıcı değiştirirsen sıfırdan başlar.</p>
         {onay ? (
           <div className="ikili-dugme">
             <button className="dugme dugme-ikincil" onClick={() => onayAyarla(false)}>Vazgeç</button>

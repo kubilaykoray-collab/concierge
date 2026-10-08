@@ -8,6 +8,22 @@
     "Ulusal ve uluslararası literatüre göre turizm çeşitlerini açıklar.",
     "Ulusal ve uluslararası literatüre göre turizmin etkilerini açıklar."
   ],
+  "soz": "Turizm, insanın merakıyla başlar; bir ülkenin ekonomisinde biter.",
+  "dersler": [
+    { "baslik": "Turizm ve Turist", "ilk": "gt-2-001" },
+    { "baslik": "Turizm Hareketinin Yönü", "ilk": "gt-2-006" },
+    { "baslik": "Turizmin Tarihçesi", "ilk": "gt-2-009" },
+    { "baslik": "İnsanlar Neden Seyahat Eder?", "ilk": "gt-2-014" },
+    { "baslik": "Doğa ve Mevsim Turizmi", "ilk": "gt-2-017" },
+    { "baslik": "Kongre, Golf ve Deniz Yolculukları", "ilk": "gt-2-023" },
+    { "baslik": "Kültür, İnanç ve Sağlık", "ilk": "gt-2-027" },
+    { "baslik": "Özel İlgi Alanları", "ilk": "gt-2-031" },
+    { "baslik": "Gelire ve Yaşa Göre Turizm", "ilk": "gt-2-034" },
+    { "baslik": "Kişi Sayısına Göre Turizm", "ilk": "gt-2-039" },
+    { "baslik": "Turizmin İşlevleri", "ilk": "gt-2-042" },
+    { "baslik": "Döviz ve Ödemeler Dengesi", "ilk": "gt-2-048" },
+    { "baslik": "İstihdam, Gelir ve Altyapı", "ilk": "gt-2-051" }
+  ],
   "kavramlar": [
     { "id": "gt-2-001", "konu": "2.1.1", "terim": "Turizm", "ingilizce": "Tourism",
       "tanim": "İnsanların sürekli yaşadıkları yerden geçici olarak ayrılıp, gittikleri yerde ücretli bir işte çalışma ya da yerleşme amacı olmadan yaptıkları geziler ve bu gezilerden doğan ilişkilerin bütünüdür.",

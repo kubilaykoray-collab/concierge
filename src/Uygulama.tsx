@@ -8,6 +8,7 @@ import { Ilerleme } from "./ekranlar/Ilerleme";
 import { Oyun } from "./ekranlar/Oyun";
 import { Sozluk } from "./ekranlar/Sozluk";
 import { Tekrar } from "./ekranlar/Tekrar";
+import { Vaka } from "./ekranlar/Vaka";
 import { Test } from "./ekranlar/Test";
 
 const SEKMELER: { yol: string; ad: string; simge: SimgeAdi }[] = [
@@ -33,13 +34,15 @@ export function Uygulama() {
   if (bolum === "tekrar") return <Tekrar key={yol.join("/")} serbest={a === "serbest"} />;
   if (bolum === "test") return <Test key={yol.join("/")} uniteAnahtari={uniteAnahtari} />;
   if (bolum === "oyun") return <Oyun key={yol.join("/")} uniteAnahtari={uniteAnahtari} />;
+  if (bolum === "vaka") return <Vaka key={yol.join("/")} uniteAnahtari={uniteAnahtari} />;
 
-  const sekme = bolum === "unite" ? "dersler" : bolum;
+  const BILINEN = ["dersler", "unite", "sozluk", "ilerleme"];
+  const sekme = bolum === "unite" ? "dersler" : BILINEN.includes(bolum) ? bolum : "";
   return (
     <div className="kabuk">
       <main className="sayfa">
-        {bolum === "" && <Bugun />}
-        {bolum === "dersler" && <Dersler />}
+        {sekme === "" && <Bugun />}
+        {bolum === "dersler" && <Dersler secili={a} />}
         {bolum === "unite" && <UniteEkrani anahtar={uniteAnahtari} />}
         {bolum === "sozluk" && <Sozluk secili={a} />}
         {bolum === "ilerleme" && <Ilerleme />}

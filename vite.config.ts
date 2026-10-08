@@ -13,7 +13,7 @@ function icerikEklentisi(): Plugin {
   return {
     name: "icerik",
     configResolved(ayar) {
-      gelistirme = ayar.command === "serve";
+      gelistirme = ayar.command === "serve" || process.env.VITE_TASLAK === "1"; // VITE_TASLAK=1: onaysız içerikle önizleme derlemesi (yayınlanmaz)
     },
     resolveId: (id) => (id === ID ? "\0" + ID : undefined),
     load(id) {
@@ -45,11 +45,11 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["simge.svg", "apple-touch-icon.png"],
-      workbox: { globPatterns: ["**/*.{js,css,html,svg,png,webmanifest}"] },
+      workbox: { globPatterns: ["**/*.{js,css,html,svg,png,webmanifest,woff2}"] },
       manifest: {
-        name: "Lobi — Turizm Akademisi",
-        short_name: "Lobi",
-        description: "Turizm ve otelcilik kavramlarını ders ders öğren, tekrar et, kendini sına.",
+        name: "CONCIERGE — Hospitality Academy",
+        short_name: "CONCIERGE",
+        description: "Otelcilik ve turizm kavramlarını ders ders öğren, vakalarla dene, kendini sına.",
         lang: "tr",
         start_url: ".",
         scope: ".",

@@ -1,0 +1,93 @@
+{
+  "ders": "konaklama-seyahat",
+  "sinif": 9,
+  "dersAdi": "Konaklama ve Seyahat Hizmetleri Atölyesi",
+  "kaynak": "2025-2026 ünitelendirilmiş yıllık plan (konu sırası ve kazanımlar)",
+  "uniteler": [
+    {
+      "unite": 1,
+      "baslik": "Kişisel Hijyen",
+      "konular": [
+        { "no": "1.1", "baslik": "Kişisel Bakım", "kazanim": "Tekniğine uygun kişisel bakımını yapar." },
+        { "no": "1.2", "baslik": "İş Kıyafetlerini Giyme", "kazanim": "Tekniğine uygun iş kıyafetlerini giyer." },
+        { "no": "1.3", "baslik": "Vücut Mekaniklerine Göre Hareket Etme", "kazanim": "Tekniğine uygun olarak vücut mekaniklerine göre hareket eder." }
+      ]
+    },
+    {
+      "unite": 2,
+      "baslik": "Hijyen ve Sanitasyon",
+      "konular": [
+        { "no": "2.1", "baslik": "Mevzuat ve Sistemler", "kazanim": "Ulusal ve uluslararası mevzuata göre hijyen ve sanitasyon ile ilgili mevzuat ve sistemleri açıklar." },
+        { "no": "2.2", "baslik": "Gıda Hijyeni", "kazanim": "Ulusal ve uluslararası mevzuata göre gıda hijyenini sağlar." },
+        { "no": "2.3", "baslik": "Çalışma Ortamı Hijyeni", "kazanim": "Ulusal ve uluslararası mevzuata göre çalışma ortamı hijyenini sağlar." },
+        { "no": "2.4", "baslik": "Ekipman Hijyeni", "kazanim": "Ulusal ve uluslararası mevzuata göre ekipman hijyenini sağlar." }
+      ]
+    },
+    {
+      "unite": 3,
+      "baslik": "Protokol ve Görgü Kuralları",
+      "konular": [
+        { "no": "3.1", "baslik": "Protokol Kurallarına Uyma", "kazanim": "Protokol kurallarına uygun davranır." },
+        { "no": "3.2", "baslik": "Nezaket ve Görgü Kurallarına Uyma", "kazanim": "Nezaket ve görgü kurallarına uygun davranır." }
+      ]
+    },
+    {
+      "unite": 4,
+      "baslik": "Konuk Tiplerine Göre Davranma",
+      "konular": [
+        { "no": "4.1", "baslik": "Konuk Tiplerinin Özelliklerine Göre Davranma", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak konuk tiplerinin özelliklerine göre davranır." },
+        { "no": "4.2", "baslik": "Konuk Memnuniyetini Sağlama", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak konuk memnuniyetini sağlar." },
+        { "no": "4.3", "baslik": "Konuğun Sorunlarına Çözüm Bulma", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak konuğun sorunlarına çözüm bulur." }
+      ]
+    },
+    {
+      "unite": 5,
+      "baslik": "Konukları Karşılama",
+      "konular": [
+        { "no": "5.1", "baslik": "Konukları Girişte Karşılama", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak konukları girişte karşılar." },
+        { "no": "5.2", "baslik": "Bagaj Hizmetlerini Yürütme", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak bagaj hizmetlerini yürütür." }
+      ]
+    },
+    {
+      "unite": 6,
+      "baslik": "Olağan Dışı Durumlar ve Olaylara Göre Davranma",
+      "konular": [
+        { "no": "6.1", "baslik": "Olağan Dışı Durumlarda Konuğa Yardımcı Olma", "kazanim": "İş sağlığı ve güvenliği standartlarına uygun olarak olağan dışı durumlarda konuğa yardımcı olur." },
+        { "no": "6.2", "baslik": "Müdahale Edilmesi Mümkün Olmayan Durumlarda Konuğa Yardımcı Olma", "kazanim": "İş sağlığı ve güvenliği standartlarına uygun olarak müdahale edilmesi mümkün olmayan durumlarda konuğa yardımcı olur." }
+      ]
+    },
+    {
+      "unite": 7,
+      "baslik": "Telefon Hizmetleri",
+      "konular": [
+        { "no": "7.1", "baslik": "Telefon ile İletişim", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak telefon ile iletişimi sağlar." },
+        { "no": "7.2", "baslik": "Telefon ile Gelen Mesajları İletme", "kazanim": "Nezaket ve görgü kuralları ile işletme prosedürüne uygun olarak telefon ile gelen mesajları iletir." }
+      ]
+    },
+    {
+      "unite": 8,
+      "baslik": "Kat Hizmetlerinde Konuk İşlemleri",
+      "konular": [
+        { "no": "8.1", "baslik": "Kayıp ve Bulunmuş Eşya İşlemleri", "kazanim": "Ulusal standartlara ve işletme prosedürüne uygun olarak kayıp ve bulunmuş eşya işlemlerini yapar." },
+        { "no": "8.2", "baslik": "Özel Durumu Olan Konukların İşlemleri", "kazanim": "Ulusal standartlara ve işletme prosedürüne uygun olarak özel durumu olan konukların işlemlerini yapar." }
+      ]
+    },
+    {
+      "unite": 9,
+      "baslik": "Yüzey ve Zemin Temizliği",
+      "konular": [
+        { "no": "9.1", "baslik": "Yüzey ve Zemin Temizliği Ön Hazırlığı", "kazanim": "İşletme prosedürüne uygun olarak yüzey ve zemin temizliği ön hazırlığını yapar." },
+        { "no": "9.2", "baslik": "Yüzey ve Zemin Temizliği Yapma", "kazanim": "İşletme prosedürüne uygun yüzey ve zemin temizliği yapar." }
+      ]
+    },
+    {
+      "unite": 10,
+      "baslik": "Animasyon Uygulamalarına Hazırlık",
+      "konular": [
+        { "no": "10.1", "baslik": "Yetişkin Animasyon Uygulamalarına Hazırlık", "kazanim": "Konaklama tesisinin özelliğine ve aktivite türüne göre yetişkin animasyon uygulamalarına hazırlık yapar." },
+        { "no": "10.2", "baslik": "Gençlik Kulübü Uygulamalarına Hazırlık", "kazanim": "Konaklama tesisinin özelliğine ve aktivite türüne göre gençlik kulübü uygulamalarına hazırlık yapar." },
+        { "no": "10.3", "baslik": "Animasyon Aktivite Programlarına Hazırlık", "kazanim": "Konaklama tesisinin özelliğine ve aktivite türüne göre Animasyon aktivite programlarına hazırlık yapar." }
+      ]
+    }
+  ]
+}

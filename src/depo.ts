@@ -43,9 +43,13 @@ const parcala = () => location.hash.replace(/^#\/?/, "").split("/").filter(Boole
 export function useYol(): string[] {
   const [yol, yolAyarla] = useState(parcala);
   useEffect(() => {
+    let onceki = parcala()[0];
     const degisti = () => {
-      yolAyarla(parcala());
-      window.scrollTo(0, 0);
+      const yeni = parcala();
+      // Sözlükte kavram açıp kapatmak aynı sayfanın içinde kalır; liste başa sarmaz.
+      if (!(yeni[0] === "sozluk" && onceki === "sozluk")) window.scrollTo(0, 0);
+      onceki = yeni[0];
+      yolAyarla(yeni);
     };
     window.addEventListener("hashchange", degisti);
     return () => window.removeEventListener("hashchange", degisti);

@@ -17,6 +17,7 @@ const PLAN = {
 const gecerli = () => ({
   ders: "ornek-ders", sinif: 9, unite: 1, baslik: "Deneme", onay: false,
   kazanimlar: ["Birinci kazanım.", "İkinci kazanım."],
+  dersler: [{ baslik: "İlk ders", ilk: "od-1-001" }],
   kavramlar: [
     { id: "od-1-001", konu: "1.1.1", terim: "Bir", ingilizce: "One", tanim: "Tanım.", ornek: null, sektor: null, iliskili: ["od-1-002"], kontrol: null },
     { id: "od-1-002", konu: "1.2", terim: "İki", ingilizce: "Two", tanim: "Tanım.", ornek: "Örnek.", sektor: null, iliskili: [], kontrol: null },
@@ -62,6 +63,11 @@ hataBekle("kazanım plandan farklı", (u) => { u.kazanimlar[0] = "Başka."; }, /
 hataBekle("üç seçenekli soru", (u) => { u.sorular[0].secenekler.pop(); }, /4 seçenek/);
 hataBekle("aralık dışı doğru cevap", (u) => { u.sorular[0].dogru = 4; }, /dogru geçersiz/);
 hataBekle("aynı seçenek iki kez", (u) => { u.sorular[0].secenekler[1] = "a"; }, /aynı seçenek/);
+hataBekle("ders tanımı yok", (u) => { delete u.dersler; }, /dersler eksik/);
+hataBekle("ders olmayan kartla başlıyor", (u) => { u.dersler[0].ilk = "od-1-777"; }, /bulunamadı/);
+hataBekle("ilk ders ilk kartla başlamıyor", (u) => { u.dersler[0].ilk = "od-1-002"; }, /ilk kartıyla başlamalı/);
+hataBekle("senaryo sorusunda durum yok", (u) => { u.sorular[0].tur = "senaryo"; }, /durum alanı/);
+hataBekle("senaryo olmayan soruda durum var", (u) => { u.sorular[0].durum = "Lobi kalabalık."; }, /durum alanı/);
 hataBekle("açık notla onay", (u) => { u.onay = true; u.kavramlar[0].kontrol = "Emin değilim."; }, /kontrol notu açık/);
 
 test("kavramı olmayan konu uyarı verir", () => {

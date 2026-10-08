@@ -8,6 +8,19 @@
     "Ulusal ve uluslararası literatüre göre turizm endüstrisinde yer alan işletmeleri açıklar.",
     "Ulusal ve uluslararası literatüre göre turizm hareketine katılan konukların seyahat formalitelerini açıklar."
   ],
+  "soz": "Turist tek bir tatil yaşar; o tatili onlarca işletme birlikte kurar.",
+  "dersler": [
+    { "baslik": "Endüstri, Acente ve Tur Operatörü", "ilk": "gt-3-001" },
+    { "baslik": "Acentenin Hizmetleri", "ilk": "gt-3-006" },
+    { "baslik": "Konaklama İşletmeleri I", "ilk": "gt-3-009" },
+    { "baslik": "Konaklama İşletmeleri II", "ilk": "gt-3-015" },
+    { "baslik": "Yiyecek-İçecek İşletmeleri", "ilk": "gt-3-021" },
+    { "baslik": "Ulaştırma, Alışveriş ve Rekreasyon", "ilk": "gt-3-027" },
+    { "baslik": "Endüstrinin Özellikleri ve Pasaport", "ilk": "gt-3-033" },
+    { "baslik": "Pasaport Türleri", "ilk": "gt-3-037" },
+    { "baslik": "Vize ve Türleri", "ilk": "gt-3-043" },
+    { "baslik": "Schengen, Sigorta ve Gümrük", "ilk": "gt-3-049" }
+  ],
   "kavramlar": [
     { "id": "gt-3-001", "konu": "3.1.1", "terim": "Turizm endüstrisi", "ingilizce": "Tourism industry",
       "tanim": "Turistin seyahati boyunca ortaya çıkan ihtiyaçlarını karşılayan, birbirini tamamlayan işletmelerin oluşturduğu bütündür.",

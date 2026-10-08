@@ -1,13 +1,15 @@
 import { BosDurum, dakika, Madalyon, romen, Simge } from "../bilesenler";
 import { GECME_NOTU } from "../cekirdek/ilerleme";
+import { DERS_CIZIMI, OtelCizimi, Piktogram } from "../cizimler";
 import { useIlerleme } from "../depo";
-import { uniteBul, UNITELER } from "../veri";
+import { DERS_LISTESI, uniteBul, UNITELER } from "../veri";
 
-export function Dersler() {
+export function Dersler({ secili }: { secili?: string }) {
   const ilerleme = useIlerleme();
-  const dersler = [...new Set(UNITELER.map((u) => u.ders))];
+  if (UNITELER.length === 0) return <BosDurum baslik="Henüz yayınlanmış ünite yok" metin="Onaylanan üniteler burada görünecek." />;
 
-  if (UNITELER.length === 0) return <BosDurum baslik="Henüz yayınlanmış ünite yok" metin="Öğretmenin onayladığı üniteler burada görünecek." />;
+  const ders = DERS_LISTESI.find((d) => d.ders === secili) ?? DERS_LISTESI.find((d) => d.ders === ilerleme.sonDers) ?? DERS_LISTESI[0];
+  const Cizim = DERS_CIZIMI[ders.ders] ?? OtelCizimi;
 
   return (
     <>
@@ -15,34 +17,42 @@ export function Dersler() {
         <p className="ust-etiket">Müfredat</p>
         <h1>Dersler</h1>
       </header>
-      {dersler.map((ders) => {
-        const uniteler = UNITELER.filter((u) => u.ders === ders);
-        return (
-          <section key={ders}>
-            <h3 className="bolum-basligi">{uniteler[0].dersAdi} · {uniteler[0].sinif}. sınıf</h3>
-            <div className="unite-kartlari">
-              {uniteler.map((u) => {
-                const biten = u.dersler.filter((d) => ilerleme.dersler[d.anahtar]).length;
-                const test = ilerleme.testler[u.anahtar];
-                return (
-                  <a key={u.anahtar} className="unite-karti" href={`#/unite/${u.anahtar}`}>
-                    <Madalyon no={u.no} oran={biten / u.dersler.length} boyut={72} />
-                    <div className="satir-govde">
-                      <span className="ust-etiket">Ünite {romen(u.no)}{u.taslak ? " · taslak" : ""}</span>
-                      <strong>{u.baslik}</strong>
-                      <span>{u.dersler.length} ders · {u.kavramlar.length} kavram · {u.sorular.length} soruluk test</span>
-                      <span className="unite-durum">
-                        {biten === 0 ? "Başlanmadı" : biten === u.dersler.length ? "Dersler tamamlandı" : `${biten}/${u.dersler.length} ders tamamlandı`}
-                        {test ? ` · test %${test.enIyi}` : ""}
-                      </span>
-                    </div>
-                  </a>
-                );
-              })}
-            </div>
-          </section>
-        );
-      })}
+
+      {DERS_LISTESI.length > 1 && (
+        <div className="parcali" style={{ gridTemplateColumns: `repeat(${DERS_LISTESI.length}, 1fr)` }}>
+          {DERS_LISTESI.map((d) => (
+            <a key={d.ders} className={d.ders === ders.ders ? "parca parca-secili" : "parca"} href={`#/dersler/${d.ders}`}>{d.kisaAd}</a>
+          ))}
+        </div>
+      )}
+
+      <div className="ders-afisi">
+        <Cizim className="ders-afisi-cizim" />
+        <span className="ust-etiket">{ders.sinif}. sınıf · {ders.uniteler.length} ünite</span>
+        <h2>{ders.ad}</h2>
+      </div>
+
+      <div className="unite-kartlari">
+        {ders.uniteler.map((u) => {
+          const biten = u.dersler.filter((d) => ilerleme.dersler[d.anahtar]).length;
+          const test = ilerleme.testler[u.anahtar];
+          return (
+            <a key={u.anahtar} className="unite-karti" href={`#/unite/${u.anahtar}`}>
+              <Madalyon no={u.no} oran={biten / u.dersler.length} boyut={68} />
+              <div className="satir-govde">
+                <span className="ust-etiket">Ünite {romen(u.no)}{u.taslak ? " · taslak" : ""}</span>
+                <strong>{u.baslik}</strong>
+                <span>{u.dersler.length} ders · {u.kavramlar.length} kavram{u.vakalar.length ? ` · ${u.vakalar.length} vaka` : ""}</span>
+                <span className="unite-durum">
+                  {biten === 0 ? "Başlanmadı" : biten === u.dersler.length ? "Dersler tamamlandı" : `${biten}/${u.dersler.length} ders tamamlandı`}
+                  {test ? ` · test %${test.enIyi}` : ""}
+                </span>
+              </div>
+              <Piktogram unite={u.anahtar} boyut={44} className="unite-karti-piktogram" />
+            </a>
+          );
+        })}
+      </div>
     </>
   );
 }
@@ -56,15 +66,18 @@ export function UniteEkrani({ anahtar }: { anahtar: string }) {
   const siradaki = unite.dersler.find((d) => !ilerleme.dersler[d.anahtar]);
   const test = ilerleme.testler[unite.anahtar];
   const rekor = ilerleme.oyunlar[unite.anahtar];
+  const cozulenVaka = unite.vakalar.filter((v) => ilerleme.vakalar[v.id]).length;
 
   return (
     <>
-      <a className="geri-baglanti" href="#/dersler"><Simge ad="geri" boyut={18} /> Dersler</a>
+      <a className="geri-baglanti" href={`#/dersler/${unite.ders}`}><Simge ad="geri" boyut={18} /> {unite.dersAdi}</a>
       <header className="unite-basligi">
+        <Piktogram unite={unite.anahtar} boyut={180} className="unite-basligi-filigran" />
         <Madalyon no={unite.no} oran={biten / unite.dersler.length} boyut={96} />
-        <p className="ust-etiket">{unite.dersAdi} · Ünite {romen(unite.no)}</p>
+        <p className="ust-etiket">Ünite {romen(unite.no)}</p>
         <h1>{unite.baslik}</h1>
-        <p>{biten}/{unite.dersler.length} ders tamamlandı</p>
+        {unite.soz && <blockquote className="soz">{unite.soz}</blockquote>}
+        <p className="unite-basligi-durum">{biten}/{unite.dersler.length} ders · {unite.kavramlar.length} kavram</p>
       </header>
 
       <details className="kazanimlar">
@@ -92,19 +105,33 @@ export function UniteEkrani({ anahtar }: { anahtar: string }) {
         })}
       </ol>
 
-      <h3 className="bolum-basligi">Kendini sına</h3>
-      <div className="ikili">
+      <h3 className="bolum-basligi">Sahaya çık</h3>
+      <div className="eylemler">
+        {unite.vakalar.length > 0 && (
+          <a className="eylem-karti eylem-karti-koyu" href={`#/vaka/${unite.anahtar}`}>
+            <Simge ad="zil" boyut={26} />
+            <div className="satir-govde">
+              <strong>Vaka çalışması</strong>
+              <span>Kendini otelde bul, kararı sen ver · {unite.vakalar.length} sahne</span>
+            </div>
+            <em>{cozulenVaka}/{unite.vakalar.length}</em>
+          </a>
+        )}
         <a className="eylem-karti" href={`#/test/${unite.anahtar}`}>
           <Simge ad="belge" boyut={26} />
-          <strong>Ünite testi</strong>
-          <span>{unite.sorular.length} soru · geçme notu %{GECME_NOTU}</span>
-          <em>{test ? `En iyi: %${test.enIyi}` : "Henüz çözülmedi"}</em>
+          <div className="satir-govde">
+            <strong>Ünite testi</strong>
+            <span>{unite.sorular.length} soru · geçme notu %{GECME_NOTU}</span>
+          </div>
+          <em>{test ? `%${test.enIyi}` : "—"}</em>
         </a>
         <a className="eylem-karti" href={`#/oyun/${unite.anahtar}`}>
           <Simge ad="esle" boyut={26} />
-          <strong>Eşleştirme</strong>
-          <span>Türkçe – İngilizce, süreye karşı</span>
-          <em>{rekor ? `Rekor: ${(rekor / 1000).toFixed(1)} sn` : "Henüz oynanmadı"}</em>
+          <div className="satir-govde">
+            <strong>Eşleştirme</strong>
+            <span>Türkçe – İngilizce, süreye karşı</span>
+          </div>
+          <em>{rekor ? `${(rekor / 1000).toFixed(1)} sn` : "—"}</em>
         </a>
       </div>
     </>

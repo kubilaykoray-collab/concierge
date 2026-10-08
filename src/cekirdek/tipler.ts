@@ -12,11 +12,17 @@ export interface Kavram {
 
 export interface Soru {
   id: string;
-  tur: "coktan-secmeli" | "dogru-yanlis";
+  tur: "coktan-secmeli" | "dogru-yanlis" | "senaryo";
+  durum?: string; // yalnız senaryo: otelde geçen sahne
   soru: string;
   secenekler: string[];
   dogru: number;
   aciklama: string;
+}
+
+export interface DersTanimi {
+  baslik: string;
+  ilk: string; // dersin ilk kartının id'si
 }
 
 export interface UniteDosyasi {
@@ -26,22 +32,17 @@ export interface UniteDosyasi {
   baslik: string;
   onay: boolean;
   kazanimlar: string[];
+  soz?: string;
+  dersler?: DersTanimi[];
   kavramlar: Kavram[];
   sorular: Soru[];
-}
-
-export interface PlanUnite {
-  unite: number;
-  baslik: string;
-  konular: { no: string; baslik: string; kazanim: string }[];
-  dersler?: { baslik: string; ilk: string }[];
 }
 
 export interface Plan {
   ders: string;
   sinif: number;
   dersAdi: string;
-  uniteler: PlanUnite[];
+  uniteler: { unite: number; baslik: string; konular: { no: string; baslik: string; kazanim: string }[] }[];
 }
 
 export interface DersParcasi {
@@ -59,8 +60,10 @@ export interface Unite {
   no: number;
   baslik: string;
   taslak: boolean;
+  soz: string | null;
   kazanimlar: string[];
   kavramlar: Kavram[];
-  sorular: Soru[];
+  sorular: Soru[]; // ünite testi: bilgi soruları
+  vakalar: Soru[]; // senaryo soruları
   dersler: DersParcasi[];
 }

@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import puppeteer from "puppeteer-core";
 import QRCode from "qrcode";
 
-const ADRES = "https://kubilaykoray-collab.github.io/lobi/";
+const ADRES = "https://kubilaykoray-collab.github.io/concierge/";
 const cikti = join(dirname(fileURLToPath(import.meta.url)), "..", "inceleme");
 const TARAYICILAR = ["C:/Program Files/Google/Chrome/Application/chrome.exe", "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"];
 const bekle = (ms) => new Promise((c) => setTimeout(c, ms));

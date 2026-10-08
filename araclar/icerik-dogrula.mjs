@@ -4,10 +4,10 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const VARSAYILAN_KOK = join(dirname(fileURLToPath(import.meta.url)), "..", "icerik");
-const SORU_TURLERI = ["coktan-secmeli", "dogru-yanlis"];
-const UNITE_ALANLARI = ["ders", "sinif", "unite", "baslik", "onay", "kazanimlar", "kavramlar", "sorular"];
+const SORU_TURLERI = ["coktan-secmeli", "dogru-yanlis", "senaryo"];
+const UNITE_ALANLARI = ["ders", "sinif", "unite", "baslik", "onay", "kazanimlar", "soz", "dersler", "kavramlar", "sorular"];
 const KAVRAM_ALANLARI = ["id", "konu", "terim", "ingilizce", "tanim", "ornek", "sektor", "iliskili", "kontrol"];
-const SORU_ALANLARI = ["id", "tur", "soru", "secenekler", "dogru", "aciklama"];
+const SORU_ALANLARI = ["id", "tur", "durum", "soru", "secenekler", "dogru", "aciklama"];
 
 const dolu = (v) => typeof v === "string" && v.trim().length > 0;
 const doluYaDaNull = (v) => v === null || dolu(v);
@@ -66,15 +66,19 @@ function uniteDogrula(yol, u, plan, hatalar, uyarilar) {
     }
   }
   if (kavramIdleri.size === 0) hata("hiç kavram yok");
-  // Planda ders bölümleri tanımlıysa her biri var olan bir kartla başlamalı, ilki de ilk kartla.
-  if (plan?.dersler) {
-    const sira = plan.dersler.map((d) => kavramlar.findIndex((k) => k.id === d.ilk));
-    plan.dersler.forEach((d, i) => {
-      if (!dolu(d.baslik)) hata(`uniteler.json ders ${i + 1}: baslik boş`);
-      if (sira[i] < 0) hata(`uniteler.json ders "${d.baslik}": ilk kart "${d.ilk}" bulunamadı`);
-      else if (i > 0 && sira[i] <= sira[i - 1]) hata(`uniteler.json ders "${d.baslik}": kart sırasına göre dizilmemiş`);
+  // Ders bölümleri: her biri var olan bir kartla başlar, kart sırasını izler, ilki ilk kartla başlar.
+  if (u.soz !== undefined && !dolu(u.soz)) hata("soz boş olamaz");
+  if (!Array.isArray(u.dersler) || u.dersler.length === 0) hata("dersler eksik (her ders: baslik + ilk kart id'si)");
+  else {
+    const sira = u.dersler.map((d) => kavramlar.findIndex((k) => k.id === d.ilk));
+    u.dersler.forEach((d, i) => {
+      if (!dolu(d.baslik)) hata(`ders ${i + 1}: baslik boş`);
+      if (sira[i] < 0) hata(`ders "${d.baslik}": ilk kart "${d.ilk}" bulunamadı`);
+      else if (i > 0 && sira[i] <= sira[i - 1]) hata(`ders "${d.baslik}": kart sırasına göre dizilmemiş`);
+      const boy = (sira[i + 1] ?? kavramlar.length) - sira[i];
+      if (sira[i] >= 0 && (sira[i + 1] ?? 0) >= 0 && (boy < 2 || boy > 7)) uyari(`ders "${d.baslik}": ${boy} kart (2–7 arası olmalı)`);
     });
-    if (sira[0] !== 0) hata("uniteler.json: ilk ders ünitenin ilk kartıyla başlamalı");
+    if (sira[0] !== 0) hata("ilk ders ünitenin ilk kartıyla başlamalı");
   }
   for (const p of plan?.konular ?? []) {
     if (!kavramlar.some((k) => dolu(k.konu) && (k.konu === p.no || k.konu.startsWith(p.no + ".")))) {
@@ -93,6 +97,7 @@ function uniteDogrula(yol, u, plan, hatalar, uyarilar) {
     const sec = s.secenekler;
     if (!Array.isArray(sec) || !sec.every(dolu)) hata(`${s.id}: secenekler eksik`);
     else {
+      if (s.tur === "senaryo" ? !dolu(s.durum) : s.durum !== undefined) hata(`${s.id}: durum alanı yalnız senaryo sorusunda olur ve orada zorunludur`);
       const beklenen = s.tur === "dogru-yanlis" ? 2 : 4;
       if (sec.length !== beklenen) hata(`${s.id}: ${beklenen} seçenek olmalı`);
       if (new Set(sec).size !== sec.length) hata(`${s.id}: aynı seçenek iki kez yazılmış`);

@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { alistirmaUret, dersAdimlari, karistir, maskele, testHazirla, yuzde } from "./alistirma";
 import { ara, duzle } from "./arama";
 import { dersleriBol, uniteleriKur } from "./icerik";
-import { BOS, dersBitti, oku, oyunBitti, rutbe, seri, tekrarCevabi, testBitti } from "./ilerleme";
+import { BOS, dersBitti, oku, oyunBitti, rutbe, seri, tekrarCevabi, testBitti, vakaCevabi } from "./ilerleme";
 import { bugun, cevapla, gunEkle, vadesiGelenler, yeniKart } from "./leitner";
 import type { Kavram, Plan, Soru, UniteDosyasi } from "./tipler";
 
@@ -31,19 +31,24 @@ describe("icerik", () => {
   });
 
   it("plandaki ders tanımına göre böler ve hiçbir kartı dışarıda bırakmaz", () => {
-    const dersler = dersleriBol("ornek/1", kavramlar, {
-      unite: 1, baslik: "x", konular: [],
-      dersler: [{ baslik: "İlk", ilk: "od-1-001" }, { baslik: "İkinci", ilk: "od-1-004" }],
-    });
+    const dersler = dersleriBol("ornek/1", kavramlar, [{ baslik: "İlk", ilk: "od-1-001" }, { baslik: "İkinci", ilk: "od-1-004" }]);
     expect(dersler.map((d) => [d.anahtar, d.baslik, d.kavramlar.length])).toEqual([["ornek/1/1", "İlk", 3], ["ornek/1/2", "İkinci", 4]]);
   });
 
-  it("ders tanımı yoksa altışar kartlık bölümler üretir", () => {
-    expect(dersleriBol("ornek/1", kavramlar).map((d) => d.kavramlar.length)).toEqual([6, 1]);
+  it("ders tanımı yoksa beşer kartlık bölümler üretir", () => {
+    expect(dersleriBol("ornek/1", kavramlar).map((d) => d.kavramlar.length)).toEqual([5, 2]);
+  });
+
+  it("senaryo soruları ünite testinden ayrılır, vaka olarak sunulur", () => {
+    const soru = (id: string, tur: Soru["tur"]): Soru => ({ id, tur, soru: "?", secenekler: ["a", "b", "c", "d"], dogru: 0, aciklama: ".", ...(tur === "senaryo" ? { durum: "Lobi." } : {}) });
+    const [u] = uniteleriKur([plan], [{ ...dosya(1, true), soz: "Söz.", sorular: [soru("s1", "coktan-secmeli"), soru("s2", "senaryo"), soru("s3", "dogru-yanlis")] }], false);
+    expect(u.sorular.map((s) => s.id)).toEqual(["s1", "s3"]);
+    expect(u.vakalar.map((s) => s.id)).toEqual(["s2"]);
+    expect(u.soz).toBe("Söz.");
   });
 
   it("ders tanımı ilk kartı kapsamıyorsa otomatik bölmeye döner", () => {
-    const dersler = dersleriBol("ornek/1", kavramlar, { unite: 1, baslik: "x", konular: [], dersler: [{ baslik: "Geç", ilk: "od-1-003" }] });
+    const dersler = dersleriBol("ornek/1", kavramlar, [{ baslik: "Geç", ilk: "od-1-003" }]);
     expect(dersler.flatMap((d) => d.kavramlar)).toHaveLength(7);
   });
 });
@@ -151,6 +156,7 @@ describe("ilerleme", () => {
     const bir = dersBitti(BOS, "ornek/1/1", ["a", "b"], GUN);
     expect(bir.puan).toBe(20);
     expect(bir.kartlar.a).toEqual({ kutu: 1, sonraki: "2026-10-09" });
+    expect(bir.sonDers).toBe("ornek");
     const iki = dersBitti({ ...bir, kartlar: { ...bir.kartlar, a: { kutu: 4, sonraki: "2026-11-01" } } }, "ornek/1/1", ["a", "b"], GUN);
     expect(iki.puan).toBe(20);
     expect(iki.kartlar.a.kutu).toBe(4);
@@ -181,6 +187,14 @@ describe("ilerleme", () => {
     expect([d.oyunlar["ornek/1"], d.puan]).toEqual([30000, 15]);
   });
 
+  it("vaka yalnız ilk doğru çözümde puan verir; yanlış cevap kaydedilmez", () => {
+    let d = vakaCevabi(BOS, "s1", false, GUN);
+    expect([d.puan, d.vakalar.s1, d.gunler]).toEqual([0, undefined, [GUN]]);
+    d = vakaCevabi(d, "s1", true, GUN);
+    d = vakaCevabi(d, "s1", true, GUN);
+    expect([d.puan, d.vakalar.s1]).toEqual([8, true]);
+  });
+
   it("seri kesintisiz günleri sayar; bugün çalışılmadıysa dünkü seri sürer", () => {
     expect(seri(["2026-10-06", "2026-10-07", "2026-10-08"], GUN)).toBe(3);
     expect(seri(["2026-10-06", "2026-10-07"], GUN)).toBe(2);
@@ -189,8 +203,8 @@ describe("ilerleme", () => {
   });
 
   it("rütbe eşikleri", () => {
-    expect(rutbe(0)).toMatchObject({ ad: "Stajyer", sonraki: "Bellboy", kalan: 150, oran: 0 });
-    expect(rutbe(150).ad).toBe("Bellboy");
+    expect(rutbe(0)).toMatchObject({ ad: "Stajyer", sonraki: "Bellboy", kalan: 200, oran: 0 });
+    expect(rutbe(200).ad).toBe("Bellboy");
     expect(rutbe(99999)).toMatchObject({ ad: "Genel Müdür", sonraki: null, oran: 1 });
   });
 
@@ -198,6 +212,6 @@ describe("ilerleme", () => {
     expect(oku(null)).toBe(BOS);
     expect(oku("{bozuk")).toBe(BOS);
     expect(oku('{"surum":9}')).toBe(BOS);
-    expect(oku('{"surum":1,"kartlar":{},"puan":40}')).toMatchObject({ puan: 40, tema: "oto", gunler: [] });
+    expect(oku('{"surum":1,"kartlar":{},"puan":40}')).toMatchObject({ puan: 40, tema: "oto", gunler: [], vakalar: {}, sonDers: null });
   });
 });

@@ -1,13 +1,14 @@
 // Derlenmiş uygulamayı telefon boyutunda gerçek tarayıcıda baştan sona kullanır: node araclar/ekran-denemesi.mjs
 // Önce `npm run build`. Ekran görüntüleri inceleme/ekranlar/ altına yazılır (git dışı). Hata varsa 1 koduyla çıkar.
 import { spawn } from "node:child_process";
-import { existsSync, mkdirSync } from "node:fs";
+import { existsSync, mkdirSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import puppeteer from "puppeteer-core";
 
 const kok = join(dirname(fileURLToPath(import.meta.url)), "..");
 const cikti = join(kok, "inceleme", "ekranlar");
+rmSync(cikti, { recursive: true, force: true });
 mkdirSync(cikti, { recursive: true });
 
 const TARAYICILAR = [
@@ -70,11 +71,18 @@ try {
   await cek("ders-tamamlandi");
 
   // 3. Ünite ve dersler
-  await git("/unite/genel-turizm/2");
+  const ilkDers = await sayfa.evaluate(() => Object.keys(JSON.parse(localStorage.getItem("lobi.ilerleme.v1")).dersler)[0]);
+  const [ilkKurs, ilkUnite] = ilkDers.split("/");
+  await git(`/unite/${ilkKurs}/${ilkUnite}`);
   await cek("unite", true);
   await dogrula(var_(".durak-bitti"), "biten ders işaretlendi");
   await git("/dersler");
-  await cek("dersler");
+  await cek("dersler", true);
+  const kurslar = await sayfa.$$eval(".parcali .parca", (p) => p.map((x) => x.getAttribute("href")));
+  for (const k of kurslar) {
+    await git(k.slice(1));
+    await dogrula(sayfa.$$eval(".unite-karti", (u) => u.length > 0), `derste ünite var: ${k}`);
+  }
 
   // 4. Tekrar: kartların vadesi düne çekilir (bir gün geçmiş gibi)
   await sayfa.evaluate(() => {
@@ -98,6 +106,27 @@ try {
   await cek("tekrar-bitti");
   const kutular = await sayfa.evaluate(() => Object.values(JSON.parse(localStorage.getItem("lobi.ilerleme.v1")).kartlar).map((k) => k.kutu).sort().join(""));
   await dogrula(Promise.resolve(/^12+$/.test(kutular)), `tekrar sonrası kutular (bir kart 1'de, diğerleri 2'de): ${kutular}`);
+
+  // 4b. Vaka çalışması (senaryosu olan ilk ünite)
+  await git("/dersler/konaklama-seyahat");
+  const vakaYolu = await sayfa.evaluate(async () => {
+    for (const a of document.querySelectorAll(".unite-karti")) if (a.textContent.includes("vaka")) return a.getAttribute("href").replace("#/unite/", "/vaka/");
+    return null;
+  });
+  if (vakaYolu) {
+    await git(vakaYolu);
+    await cek("vaka-sahne");
+    for (let i = 0; i < 30 && !(await var_(".sonuc")); i++) {
+      if (await var_(".secenek:not(:disabled)")) {
+        await sayfa.click(".secenek:nth-child(2)");
+        await bekle(120);
+        if (i === 0) await cek("vaka-geri-bildirim");
+      }
+      await tikla(".alt-eylem .dugme");
+    }
+    await dogrula(var_(".sonuc"), "vaka çalışması bitti");
+    await cek("vaka-bitti");
+  }
 
   // 5. Ünite testi
   await git("/test/genel-turizm/2");
@@ -163,15 +192,15 @@ try {
   await git("/dersler");
   await sayfa.reload({ waitUntil: "domcontentloaded" });
   await bekle(800);
-  await dogrula(sayfa.$$eval(".unite-karti", (k) => k.length === 2), "internetsiz yeniden yüklemede üniteler göründü");
+  await dogrula(sayfa.$$eval(".unite-karti", (k) => k.length > 0), "internetsiz yeniden yüklemede üniteler göründü");
   await cek("internetsiz-dersler");
   await sayfa.setOfflineMode(false);
   agAcik = true;
 
   // 10. Yatay taşma: hiçbir ekranda sayfa sağa kaymamalı
-  for (const yol of ["/", "/dersler", "/unite/genel-turizm/3", "/sozluk", "/ilerleme"]) {
+  for (const yol of ["/", "/dersler", "/dersler/genel-turizm", "/unite/genel-turizm/3", "/unite/konaklama-seyahat/1", "/sozluk", "/ilerleme"]) {
     await git(yol);
-    await dogrula(sayfa.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), `yatay taşma yok: ${yol}`);
+    await dogrula(sayfa.evaluate(() => Math.max(document.documentElement.scrollWidth, document.body.scrollWidth) <= 390), `yatay taşma yok: ${yol}`);
   }
 } catch (hata) {
   sorunlar.push("DENEME YARIDA KALDI: " + hata.message);

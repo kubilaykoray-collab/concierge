@@ -18,21 +18,6 @@
       "konular": [
         { "no": "2.1", "baslik": "Turizm Çeşitleri", "kazanim": "Ulusal ve uluslararası literatüre göre turizm çeşitlerini açıklar." },
         { "no": "2.2", "baslik": "Turizmin Ülke ve Dünya Ekonomisine Etkileri", "kazanim": "Ulusal ve uluslararası literatüre göre turizmin etkilerini açıklar." }
-      ],
-      "dersler": [
-        { "baslik": "Turizm ve Turist", "ilk": "gt-2-001" },
-        { "baslik": "Turizm Hareketinin Yönü", "ilk": "gt-2-006" },
-        { "baslik": "Turizmin Tarihçesi", "ilk": "gt-2-009" },
-        { "baslik": "İnsanlar Neden Seyahat Eder?", "ilk": "gt-2-014" },
-        { "baslik": "Doğa ve Mevsim Turizmi", "ilk": "gt-2-017" },
-        { "baslik": "Kongre, Golf ve Deniz Yolculukları", "ilk": "gt-2-023" },
-        { "baslik": "Kültür, İnanç ve Sağlık", "ilk": "gt-2-027" },
-        { "baslik": "Özel İlgi Alanları", "ilk": "gt-2-031" },
-        { "baslik": "Gelire ve Yaşa Göre Turizm", "ilk": "gt-2-034" },
-        { "baslik": "Kişi Sayısına Göre Turizm", "ilk": "gt-2-039" },
-        { "baslik": "Turizmin İşlevleri", "ilk": "gt-2-042" },
-        { "baslik": "Döviz ve Ödemeler Dengesi", "ilk": "gt-2-048" },
-        { "baslik": "İstihdam, Gelir ve Altyapı", "ilk": "gt-2-051" }
       ]
     },
     {
@@ -41,18 +26,6 @@
       "konular": [
         { "no": "3.1", "baslik": "Turizm Endüstrisinde Yer Alan İşletmeler", "kazanim": "Ulusal ve uluslararası literatüre göre turizm endüstrisinde yer alan işletmeleri açıklar." },
         { "no": "3.2", "baslik": "Turizm Hareketine Katılan Konukların Seyahat Formaliteleri", "kazanim": "Ulusal ve uluslararası literatüre göre turizm hareketine katılan konukların seyahat formalitelerini açıklar." }
-      ],
-      "dersler": [
-        { "baslik": "Endüstri, Acente ve Tur Operatörü", "ilk": "gt-3-001" },
-        { "baslik": "Acentenin Hizmetleri", "ilk": "gt-3-006" },
-        { "baslik": "Konaklama İşletmeleri I", "ilk": "gt-3-009" },
-        { "baslik": "Konaklama İşletmeleri II", "ilk": "gt-3-015" },
-        { "baslik": "Yiyecek-İçecek İşletmeleri", "ilk": "gt-3-021" },
-        { "baslik": "Ulaştırma, Alışveriş ve Rekreasyon", "ilk": "gt-3-027" },
-        { "baslik": "Endüstrinin Özellikleri ve Pasaport", "ilk": "gt-3-033" },
-        { "baslik": "Pasaport Türleri", "ilk": "gt-3-037" },
-        { "baslik": "Vize ve Türleri", "ilk": "gt-3-043" },
-        { "baslik": "Schengen, Sigorta ve Gümrük", "ilk": "gt-3-049" }
       ]
     },
     {

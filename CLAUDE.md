@@ -9,16 +9,22 @@ Sahibi: turizm / konaklama öğretmeni. Kullanıcı: öğrencileri (9. sınıfta
 
 İlk kapsam: **9. sınıf Genel Turizm** — önce 2 ünite (Ünite 2 Turizm Hareketleri, Ünite 3 Turizm İşletmeleri), öğrencilere açılır,
 gerisi üstüne eklenir. Güncel durum her oturum başında `araclar/durum.mjs` ile dosyalardan hesaplanır; buraya elle durum yazılmaz.
-Sonraki dersler (sırayla, öğretmen karar verir): Konaklama ve Seyahat Hizmetleri Atölyesi · Mesleki Gelişim Atölyesi.
+İkinci ders: **Konaklama ve Seyahat Hizmetleri Atölyesi** (`icerik/konaklama-seyahat/`, 10 ünite; öğretmen "otelcilik dersi" der).
+Sonra: Genel Turizm'in kalan üniteleri · Mesleki Gelişim Atölyesi.
+
+**Yetki (8 Ekim 2026):** öğretmen içerik kararlarını, onayı ve yayını Claude'a bıraktı ("tam yetki ve onay sende"). İçerik bağımsız
+denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlanabilir; verilen her karar ve onay öğretmene raporlanır.
+Öğretmen bir kararı değiştirirse onun sözü geçer.
 
 ## 2. Değişmez kurallar
 
-1. **MEB ders kitabının metni ve görselleri KOPYALANMAZ** (telif). Kavramlar öğretim programındaki kazanımlara göre
-   **kendi cümlelerimizle** yazılır. `kaynak/` altındaki kitap PDF'i yalnız konu sırası ve kapsam için okunur.
+1. **İçerik kendi cümlelerimizle yazılır.** Kavramlar öğretim programındaki kazanımlara göre, öğrencinin anlayacağı dille yeniden
+   anlatılır; kitap cümlesi yapıştırmak iyi kart üretmez. Ders kitabı bilgi kaynağı olarak serbestçe kullanılır.
+   (8 Ekim 2026: öğretmen telif denetimini askıya aldı — `npm run telif` artık zorunlu adım değil, yalnız bilgi verir.)
 2. **Öğrenciden kişisel veri toplanmaz.** Giriş, hesap, isim, e-posta, analitik, çerez takibi YOK. İlerleme yalnız telefonda
    (`localStorage` / IndexedDB). Sunucu / veritabanı YOK.
 3. **Reklam yok. Ücretli servis yok.** Uygulama içinde canlı yapay zekâ çağrısı YOK (her soru para; ayrıca denetimsiz içerik).
-4. **İçerik öğretmen onayından geçmeden yayınlanmaz.** Her içerik dosyasında `onay: false / true` alanı; `false` olan
+4. **İçerik onaysız yayınlanmaz.** Her içerik dosyasında `onay: false / true` alanı; `false` olan
    yayın derlemesine girmez. Yapay zekâ hızlı yazar ama yanlış da yazar — editör öğretmendir.
 5. **`kaynak/` klasörü git'e GİRMEZ** (`.gitignore`); kitap ve kişisel ders dosyaları GitHub'a yüklenmez.
 6. Öğretmenin asıl ders klasörüne (`C:\Users\pc\OneDrive\Masaüstü\TURIZM OTELCILIK`) **dokunulmaz**; buradaki `kaynak/` onun kopyasıdır.
@@ -28,7 +34,7 @@ Sonraki dersler (sırayla, öğretmen karar verir): Konaklama ve Seyahat Hizmetl
 
 - **Telefona kurulan web uygulaması (PWA)** — mağaza yok, ücret yok, Android + iPhone aynı kod.
   Vite + React + TypeScript · `vite-plugin-pwa` (internetsiz çalışma) · yönlendirme hash tabanlı (GitHub Pages uyumlu).
-- **Yayın adresi:** https://kubilaykoray-collab.github.io/lobi/ · depo: `kubilaykoray-collab/lobi` (herkese açık).
+- **Yayın adresi:** https://kubilaykoray-collab.github.io/concierge/ · depo: `kubilaykoray-collab/concierge` (herkese açık).
   Yayından sonra `node araclar/canli-kontrol.mjs` canlı adresi doğrular ve karekodu `inceleme/karekod.png` olarak üretir.
 - **Yayın:** GitHub Pages (ücretsiz), `gh` kurulu. Depo herkese açık olacağı için içinde yalnız kendi yazdığımız içerik bulunur.
 - **İçerik = düz dosya**, kod değil: `icerik/<ders>/<unite>.json`. Uygulama derlemede bunları okur.
@@ -42,25 +48,34 @@ Sonraki dersler (sırayla, öğretmen karar verir): Konaklama ve Seyahat Hizmetl
 {
   "ders": "genel-turizm", "sinif": 9, "unite": 1, "baslik": "…", "onay": false,
   "kazanimlar": ["…"],
+  "soz": "üniteyi özetleyen, akılda kalan tek cümle (isteğe bağlı)",
+  "dersler": [ { "baslik": "kısa ders adı", "ilk": "gt-1-001" } ],
   "kavramlar": [
     { "id": "gt-1-001", "konu": "1.1.1", "terim": "Turizm", "ingilizce": "Tourism",
       "tanim": "kendi cümlemizle, 1–2 cümle", "ornek": "sektörden somut örnek",
       "sektor": "otelde / acentede nasıl kullanılır (varsa)", "iliskili": ["gt-1-002"], "kontrol": null }
   ],
   "sorular": [
-    { "id": "gt-1-s01", "tur": "coktan-secmeli", "soru": "…", "secenekler": ["…"], "dogru": 0, "aciklama": "neden" }
+    { "id": "gt-1-s01", "tur": "coktan-secmeli", "soru": "…", "secenekler": ["…"], "dogru": 0, "aciklama": "neden" },
+    { "id": "gt-1-s02", "tur": "senaryo", "durum": "otelde geçen kısa bir sahne", "soru": "Ne yaparsın?",
+      "secenekler": ["…"], "dogru": 0, "aciklama": "neden" }
   ]
 }
 ```
 
-`ornek`, `sektor`, `kontrol` boşsa `null`. Soru `tur`: `coktan-secmeli` (4 seçenek) ya da `dogru-yanlis` (2 seçenek).
+`ornek`, `sektor`, `kontrol` boşsa `null`. Soru `tur`: `coktan-secmeli` (4 seçenek), `dogru-yanlis` (2 seçenek) ya da `senaryo`
+(4 seçenek + `durum`; uygulamada "Vaka" olarak ayrı oynanır, ünite testine girmez). `dersler` üniteyi 2–7 kartlık derslere böler:
+her ders `ilk` kartından bir sonraki dersin `ilk` kartına kadar sürer.
 Şemada olmayan alan hatadır; alan eklenecekse önce `araclar/icerik-dogrula.mjs` ve testi güncellenir.
 `icerik/<ders>/uniteler.json` yıllık plandan çıkarılan ünite / konu / kazanım listesidir; ünite dosyalarının başlığı, kazanımları
 ve `konu` numaraları buna uymak zorundadır.
 
 ## 5. Ekranlar (ilk sürüm)
 
-Uygulamanın adı **Lobi — Turizm Akademisi**. Görsel dil: fildişi kâğıt, lacivert mürekkep, pirinç vurgu, serif başlık.
+Uygulamanın adı **CONCIERGE — Hospitality Academy** (İngilizce, büyük harf; öğretmenin isteği). Görsel dil "sessiz lüks":
+fildişi kâğıt, İsviçre laciverti, şampanya altını; Playfair Display başlık + Inter gövde (dosyaları `src/yazitipleri/` içinde,
+ağdan yüklenmez); çizimler elde yazılmış SVG (`src/cizimler.tsx`). Fotoğraf ve dış görsel kullanılmaz.
+**Vaka çalışması:** `senaryo` soruları ünitenin "Vaka" modunda oynanır — öğrenci otelde bir sahnenin içine konur ve karar verir.
 Öğretme mantığı: ders = birkaç kavram; her yeni karttan sonra bir önceki kart sorulur (öğren → hatırla), yanlışlar ders sonunda
 yeniden gelir; biten dersin kartları aralıklı tekrara (Leitner, 1-2-4-8-16 gün) girer; ünite sonunda test; puanla otel kariyeri
 basamakları (Stajyer → Genel Müdür). Alıştırmalar kartın kendi içeriğinden üretilir, onaysız yeni bilgi eklemez.
@@ -104,7 +119,7 @@ Her aşamanın sonunda öğretmene kısa rapor: ne yapıldı, neyi onaylaması g
 |---|---|
 | `npm run durum` | Aşama, ünite sayıları, açık sorular, sıradaki iş (oturum başında kendiliğinden çalışır) |
 | `npm run denetle` | İçerik şeması + yıllık planla tutarlılık (`icerik/` dosyası kaydedilince kendiliğinden çalışır) |
-| `npm run telif` | İçeriği kitap metniyle karşılaştırır; 8+ kelime birebir aynıysa hata |
+| `npm run telif` | İçeriği kitap metniyle karşılaştırır (askıda; bilgi amaçlı, zorunlu değil) |
 | `npm run inceleme` | Öğretmenin okuyacağı sayfalar → `inceleme/` (git dışı; denetim temizse kendiliğinden yenilenir) |
 | `npm test` | Denetim araçlarının ve uygulama çekirdeğinin (`src/cekirdek/`) testleri |
 | `npm run dev` | Uygulamayı bilgisayarda açar (onaysız üniteler "taslak" etiketiyle görünür) |

@@ -15,8 +15,11 @@ Her kartı ve her soruyu tek tek değerlendir:
 1. **Doğruluk.** Tanım, örnek, sektör notu doğru mu? Yanlış ya da tartışmalı olanı, yanlış olan kısmı ve doğrusunu yazarak bildir.
    Emin olamadığın şeyi "doğrulanmalı" diye ayrı işaretle; tahminini gerçek gibi sunma. Türkiye mevzuatına dayanan bilgilerde
    (pasaport türleri, belge sınıfları, acente grupları) özellikle dikkatli ol.
-2. **Telif.** `npm run telif` çalıştır, çıktısını aktar. Kitaptan birebir geçen ya da kitabın madde listesini aynı sırayla izleyen metni bildir.
-3. **Sorular.** Tek bir doğru cevap var mı? Doğru cevap bir karttaki bilgiyle destekleniyor mu? İkinci bir şık da savunulabilir mi?
+2. **Özgünlük.** Kitap cümlesinin aynen yapıştırıldığı, öğrencinin anlamayacağı kadar ağır kalmış kartları bildir (telif denetimi askıda;
+   ölçüt artık "daha açık ve kısa anlatılabilir miydi").
+3. **Senaryolar.** `senaryo` sorularında doğru şık gerçekten sektördeki doğru davranış mı? Başka bir şık da savunulabilir mi?
+   Sahne gerçekçi mi? Doğru şık hep en uzun şık mı?
+3b. **Sorular.** Tek bir doğru cevap var mı? Doğru cevap bir karttaki bilgiyle destekleniyor mu? İkinci bir şık da savunulabilir mi?
    `dogru` dizini gerçekten doğru şıkkı mı gösteriyor? Açıklama cevabı gerekçelendiriyor mu?
 4. **Dil.** 15 yaşındaki öğrenci için ağır cümle, açıklanmamış terim, tanımda terimin kendisini kullanma.
 5. **Kapsam.** Yıllık plandaki konulardan atlanan var mı? Kazanımla ilgisiz kart var mı?

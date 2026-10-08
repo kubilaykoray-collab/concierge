@@ -1,11 +1,11 @@
-import type { DersParcasi, Kavram, Plan, PlanUnite, Unite, UniteDosyasi } from "./tipler";
+import type { DersParcasi, DersTanimi, Kavram, Plan, Unite, UniteDosyasi } from "./tipler";
 
-const DERS_BOYU = 6;
+const DERS_BOYU = 5;
 
-// Planda ders tanımı varsa ona göre, yoksa sırayla altışar kartlık bölümlere ayırır.
-export function dersleriBol(uniteAnahtari: string, kavramlar: Kavram[], plan?: PlanUnite): DersParcasi[] {
+// Ünite dosyasındaki ders tanımına göre, yoksa sırayla beşer kartlık bölümlere ayırır.
+export function dersleriBol(uniteAnahtari: string, kavramlar: Kavram[], tanimlar?: DersTanimi[]): DersParcasi[] {
   const baslangiclar: { baslik: string; konum: number }[] = [];
-  for (const d of plan?.dersler ?? []) {
+  for (const d of tanimlar ?? []) {
     const konum = kavramlar.findIndex((k) => k.id === d.ilk);
     if (konum >= 0) baslangiclar.push({ baslik: d.baslik, konum });
   }
@@ -24,25 +24,26 @@ export function dersleriBol(uniteAnahtari: string, kavramlar: Kavram[], plan?: P
   }));
 }
 
-// Yayına yalnız öğretmenin onayladığı üniteler girer; taslakDahil yalnız geliştirme içindir.
+// Yayına yalnız onaylı üniteler girer; taslakDahil yalnız geliştirme içindir.
 export function uniteleriKur(planlar: Plan[], dosyalar: UniteDosyasi[], taslakDahil: boolean): Unite[] {
   return dosyalar
     .filter((d) => d.onay === true || taslakDahil)
     .map((d) => {
-      const plan = planlar.find((p) => p.ders === d.ders);
       const anahtar = `${d.ders}/${d.unite}`;
       return {
         anahtar,
         ders: d.ders,
-        dersAdi: plan?.dersAdi ?? d.ders,
+        dersAdi: planlar.find((p) => p.ders === d.ders)?.dersAdi ?? d.ders,
         sinif: d.sinif,
         no: d.unite,
         baslik: d.baslik,
         taslak: d.onay !== true,
+        soz: d.soz ?? null,
         kazanimlar: d.kazanimlar,
         kavramlar: d.kavramlar,
-        sorular: d.sorular,
-        dersler: dersleriBol(anahtar, d.kavramlar, plan?.uniteler.find((u) => u.unite === d.unite)),
+        sorular: d.sorular.filter((s) => s.tur !== "senaryo"),
+        vakalar: d.sorular.filter((s) => s.tur === "senaryo"),
+        dersler: dersleriBol(anahtar, d.kavramlar, d.dersler),
       };
     })
     .sort((a, b) => a.ders.localeCompare(b.ders) || a.no - b.no);
