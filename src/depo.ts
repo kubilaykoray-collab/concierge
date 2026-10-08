@@ -1,5 +1,5 @@
 import { useEffect, useState, useSyncExternalStore } from "react";
-import { BOS, oku, type Ilerleme } from "./cekirdek/ilerleme";
+import { BOS, oku, rutbe, type Ilerleme } from "./cekirdek/ilerleme";
 
 // İlerleme yalnız bu cihazın localStorage'ında durur. Ağ çağrısı yoktur.
 const ANAHTAR = "lobi.ilerleme.v1";
@@ -15,8 +15,29 @@ function yukle(): Ilerleme {
 let durum = yukle();
 const dinleyiciler = new Set<() => void>();
 
+// Puan bir üst unvanın eşiğini geçince bir kez gösterilecek kutlama.
+let terfi: string | null = null;
+const terfiDinleyicileri = new Set<() => void>();
+
+export function useTerfi(): [string | null, () => void] {
+  const deger = useSyncExternalStore(
+    (d) => {
+      terfiDinleyicileri.add(d);
+      return () => terfiDinleyicileri.delete(d);
+    },
+    () => terfi,
+  );
+  return [deger, () => { terfi = null; terfiDinleyicileri.forEach((d) => d()); }];
+}
+
 export function guncelle(degistir: (d: Ilerleme) => Ilerleme) {
+  const onceki = rutbe(durum.puan);
   durum = degistir(durum);
+  const yeni = rutbe(durum.puan);
+  if (yeni.sira > onceki.sira) {
+    terfi = yeni.ad;
+    terfiDinleyicileri.forEach((d) => d());
+  }
   try {
     localStorage.setItem(ANAHTAR, JSON.stringify(durum));
   } catch {

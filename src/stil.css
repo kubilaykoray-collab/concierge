@@ -292,9 +292,16 @@ button {
 
 .marka {
   display: flex;
-  flex-direction: column;
-  gap: 3px;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 34px;
+  color: #cdae74;
+}
+
+.marka > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .marka strong {
@@ -1477,7 +1484,117 @@ button {
 
 .bilgi strong { color: var(--murekkep); }
 
+/* Günün vakası */
+.gunun-vakasi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px 18px;
+  border-radius: 22px;
+  background: linear-gradient(150deg, #101b30, #1d2f4e);
+  border: 1px solid rgb(205 174 116 / 28%);
+  color: #f4eee2;
+  box-shadow: var(--golge);
+}
+
+.gunun-vakasi .ust-etiket { color: #cdae74; }
+
+.gunun-vakasi p {
+  font: 1.02rem/1.55 var(--serif);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.gunun-vakasi strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #cdae74;
+  font-size: 0.95rem;
+}
+
+/* Terfi kutlaması */
+.perde-orta {
+  align-items: center;
+  padding: 24px;
+  z-index: 20;
+}
+
+.terfi {
+  width: min(100%, 380px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 34px 26px 24px;
+  border-radius: 28px;
+  background: var(--kagit);
+  border: 1px solid var(--altin);
+  box-shadow: 0 24px 80px rgb(0 0 0 / 40%);
+  animation: muhur 0.5s cubic-bezier(0.2, 1.3, 0.4, 1);
+}
+
+.terfi h2 { font-size: 2rem; }
+.terfi p:not(.ust-etiket) { color: var(--soluk); }
+.terfi .dugme { align-self: stretch; margin-top: 12px; }
+.terfi .muhur { box-shadow: 0 0 0 5px var(--kagit), 0 0 0 6.5px var(--altin); }
+
+/* Sertifika */
+.sertifika {
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0 10px;
+  padding: 26px 20px 24px;
+  border-radius: 6px;
+  background: var(--kagit);
+  border: 1px solid var(--altin);
+  outline: 1px solid var(--altin);
+  outline-offset: -7px;
+  color: var(--altin-yazi);
+  box-shadow: var(--golge);
+  overflow: hidden;
+}
+
+.sertifika > * { position: relative; }
+.sertifika .ust-etiket { font-size: 0.62rem; letter-spacing: 0.22em; }
+.sertifika strong { font: 600 1.45rem/1.2 var(--serif); color: var(--murekkep); }
+.sertifika > span:last-child { font-size: 0.8rem; color: var(--soluk); }
+
+.sertifika-kose {
+  position: absolute !important;
+  width: 90px;
+  color: var(--altin);
+  opacity: 0.45;
+}
+
+.sertifika-kose-1 { right: 0; bottom: 0; }
+.sertifika-kose-2 { left: 0; top: 0; transform: rotate(180deg); }
+
+/* Mühür etrafında yayılan halka: tamamlanma anının küçük kutlaması */
+.muhur-buyuk { position: relative; }
+
+.muhur-buyuk::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 1.5px solid var(--altin);
+  animation: yayil 1.4s ease-out 0.35s 2 both;
+}
+
 /* ---------- Hareket ---------- */
+
+@keyframes yayil {
+  from { transform: scale(1); opacity: 0.8; }
+  to { transform: scale(1.75); opacity: 0; }
+}
 
 @keyframes belir {
   from { opacity: 0; transform: translateY(6px); }

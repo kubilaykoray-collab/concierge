@@ -2,21 +2,22 @@ import { useMemo, useState } from "react";
 import { KavramGovdesi, romen, Simge } from "../bilesenler";
 import { ara } from "../cekirdek/arama";
 import { useIlerleme } from "../depo";
-import { kavramBul, KAVRAMLAR } from "../veri";
+import { DERS_LISTESI, kavramBul, KAVRAMLAR } from "../veri";
 
 const SIRALI = [...KAVRAMLAR].sort((a, b) => a.terim.localeCompare(b.terim, "tr"));
 
 export function Sozluk({ secili }: { secili?: string }) {
   const [sorgu, sorguAyarla] = useState("");
+  const [ders, dersAyarla] = useState<string | null>(null);
   const ilerleme = useIlerleme();
-  const sonuclar = useMemo(() => ara(SIRALI, sorgu), [sorgu]);
+  const sonuclar = useMemo(() => ara(ders ? SIRALI.filter((k) => k.unite.ders === ders) : SIRALI, sorgu), [sorgu, ders]);
   const kavram = secili ? kavramBul(secili) : undefined;
 
   let sonHarf = "";
   return (
     <>
       <header className="sayfa-basligi">
-        <p className="ust-etiket">{KAVRAMLAR.length} kavram</p>
+        <p className="ust-etiket">{sonuclar.length === KAVRAMLAR.length ? `${KAVRAMLAR.length} kavram` : `${sonuclar.length} / ${KAVRAMLAR.length} kavram`}</p>
         <h1>Sözlük</h1>
       </header>
 
@@ -24,6 +25,15 @@ export function Sozluk({ secili }: { secili?: string }) {
         <Simge ad="ara" boyut={20} />
         <input type="search" value={sorgu} onChange={(e) => sorguAyarla(e.target.value)} placeholder="Türkçe ya da İngilizce ara" aria-label="Sözlükte ara" autoComplete="off" />
       </label>
+
+      {DERS_LISTESI.length > 1 && (
+        <div className="etiketler">
+          <button className={ders === null ? "hap" : "hap hap-cizgili"} onClick={() => dersAyarla(null)}>Tümü</button>
+          {DERS_LISTESI.map((x) => (
+            <button key={x.ders} className={ders === x.ders ? "hap" : "hap hap-cizgili"} onClick={() => dersAyarla(x.ders)}>{x.kisaAd}</button>
+          ))}
+        </div>
+      )}
 
       {sonuclar.length === 0 && <p className="ipucu ortala">"{sorgu}" için sonuç yok. Başka bir yazımla dene.</p>}
 

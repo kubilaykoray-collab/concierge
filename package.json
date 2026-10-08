@@ -12,7 +12,8 @@
     "build": "tsc && vite build",
     "onizle": "vite preview",
     "deneme": "node araclar/ekran-denemesi.mjs",
-    "simge": "node araclar/simge-uret.mjs"
+    "simge": "node araclar/simge-uret.mjs",
+    "analiz": "node araclar/icerik-analiz.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",

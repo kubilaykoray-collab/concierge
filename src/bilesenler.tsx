@@ -17,6 +17,7 @@ const CIZIMLER = {
   esle: <><rect x="3.500" y="4" width="7" height="6.500" rx="1.500" /><rect x="13.500" y="13.500" width="7" height="6.500" rx="1.500" /><path d="M10.500 7.200h3.500a2 2 0 0 1 2 2v4.300" /></>,
   gunes: <><circle cx="12" cy="12" r="4" /><path d="M12 2.500v2M12 19.500v2M2.500 12h2M19.500 12h2M5.300 5.300l1.400 1.400M17.300 17.300l1.400 1.400M5.300 18.700l1.400-1.400M17.300 6.700l1.400-1.400" /></>,
   ay: <path d="M20 14.500A8 8 0 0 1 9.500 4a8 8 0 1 0 10.500 10.500z" />,
+  anahtarlar: <><g transform="rotate(-38 12 12.5)"><path d="M12 4v11.500M12 5.500h2.800M12 8h2" /><circle cx="12" cy="18" r="2.500" /></g><g transform="rotate(38 12 12.5)"><path d="M12 4v11.500M12 5.500H9.200M12 8h-2" /><circle cx="12" cy="18" r="2.500" /></g></>,
   kilit: <><rect x="5.500" y="10.500" width="13" height="9.500" rx="2" /><path d="M8.500 10.500V8a3.500 3.500 0 0 1 7 0v2.500" /></>,
 } as const;
 
@@ -103,6 +104,15 @@ export function KavramGovdesi({ kavram, buyuk = false }: { kavram: Kavram; buyuk
   );
 }
 
+// Android'de kısa dokunsal geri bildirim; desteklemeyen cihazda sessizce geçilir.
+export function titret(dogru: boolean) {
+  try {
+    navigator.vibrate?.(dogru ? 14 : [28, 50, 28]);
+  } catch {
+    // titreşim izni yoksa önemsiz
+  }
+}
+
 export type SecenekDurumu = "bos" | "dogru" | "yanlis" | "soluk";
 
 export function Secenekler({ secenekler, dogru, secim, sec }: { secenekler: string[]; dogru: number; secim: number | null; sec: (i: number) => void }) {
@@ -114,7 +124,7 @@ export function Secenekler({ secenekler, dogru, secim, sec }: { secenekler: stri
   return (
     <div className="secenekler">
       {secenekler.map((metin, i) => (
-        <button key={i} className={`secenek secenek-${durum(i)}`} disabled={secim !== null} onClick={() => sec(i)}>
+        <button key={i} className={`secenek secenek-${durum(i)}`} disabled={secim !== null} onClick={() => { titret(i === dogru); sec(i); }}>
           <span className="secenek-harf">{secenekler.length === 2 ? "" : "ABCD"[i]}</span>
           <span>{metin}</span>
           {durum(i) === "dogru" && <Simge ad="tik" boyut={20} />}
@@ -136,6 +146,20 @@ export function BosDurum({ baslik, metin, children }: { baslik: string; metin: s
       <h2>{baslik}</h2>
       <p>{metin}</p>
       {children}
+    </div>
+  );
+}
+
+export function TerfiPerdesi({ unvan, kapat }: { unvan: string; kapat: () => void }) {
+  return (
+    <div className="perde perde-orta" onClick={kapat}>
+      <div className="terfi" role="dialog" aria-label="Terfi" onClick={(e) => e.stopPropagation()}>
+        <div className="muhur muhur-buyuk"><Simge ad="anahtarlar" boyut={48} /></div>
+        <p className="ust-etiket">Terfi ettin</p>
+        <h2>{unvan}</h2>
+        <p>Yeni unvanın hayırlı olsun. Emek verdin, karşılığını aldın.</p>
+        <button className="dugme" onClick={kapat}>Göreve devam</button>
+      </div>
     </div>
   );
 }

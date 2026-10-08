@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { Simge, type SimgeAdi } from "./bilesenler";
-import { useIlerleme, useYol } from "./depo";
+import { Simge, TerfiPerdesi, type SimgeAdi } from "./bilesenler";
+import { useIlerleme, useTerfi, useYol } from "./depo";
 import { Bugun } from "./ekranlar/Bugun";
 import { Ders } from "./ekranlar/Ders";
 import { Dersler, UniteEkrani } from "./ekranlar/Dersler";
@@ -19,6 +19,16 @@ const SEKMELER: { yol: string; ad: string; simge: SimgeAdi }[] = [
 ];
 
 export function Uygulama() {
+  const [terfi, terfiKapat] = useTerfi();
+  return (
+    <>
+      <Ekran />
+      {terfi && <TerfiPerdesi unvan={terfi} kapat={terfiKapat} />}
+    </>
+  );
+}
+
+function Ekran() {
   const yol = useYol();
   const { tema } = useIlerleme();
 

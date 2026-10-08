@@ -42,7 +42,7 @@
       "sektor": "Otellerde bu kuralların yazılı hâline 'grooming standartları' denir. İşe yeni başlayan herkese ilk gün anlatılır; çünkü bakımlı personel, bakımlı otel demektir.",
       "iliskili": ["ks-1-002", "ks-1-006", "ks-1-007", "ks-1-013", "ks-1-022", "ks-1-028", "ks-1-032"], "kontrol": null },
     { "id": "ks-1-004", "konu": "1.1.1", "terim": "Kişisel hijyenin amaçları", "ingilizce": "Purposes of personal hygiene",
-      "tanim": "Kişisel temizlikle ulaşılmak istenen sonuçlardır: vücuttaki kiri, teri ve mikropları uzaklaştırmak, kötü kokuyu gidermek, kas gerginliğini azaltıp dinlenmek, deri sağlığını korumak ve öz güveni artırmaktır.",
+      "tanim": "Düzenli temizlikle ulaşılmak istenen; kiri, teri ve mikropları uzaklaştırma, kötü kokuyu giderme, kasları gevşetip dinlenme, deri sağlığını koruma ve öz güveni artırma hedefleridir.",
       "ornek": "Yoğun bir akşam servisinden sonra alınan duş hem teri ve kokuyu atar hem de gerilen kasları gevşetir; ertesi sabah işe daha dinç gelirsin.",
       "sektor": "Kendini temiz hisseden çalışan konuğun yanına rahatça yaklaşır, gözünün içine bakarak konuşur. Öz güven, konuğun en çabuk fark ettiği şeydir.",
       "iliskili": ["ks-1-002", "ks-1-009"], "kontrol": null },
@@ -94,12 +94,12 @@
       "sektor": "El yıkamak, bulaşıcı hastalıkların yayılmasını önlemenin en basit yollarından biridir. Otel gibi kalabalık yerlerde tek bir kişinin eli pek çok konuğa ulaşır.",
       "iliskili": ["ks-1-003", "ks-1-014", "ks-1-015", "ks-1-016", "ks-1-017"], "kontrol": null },
     { "id": "ks-1-014", "konu": "1.1.3", "terim": "Ellerin yıkanması gereken durumlar", "ingilizce": "When to wash hands",
-      "tanim": "Ellerin mutlaka su ve sabunla yıkanması gereken anlardır: yemekten ve yemek hazırlamaktan önce ve sonra, tuvaletten sonra, hapşırıp öksürdükten sonra, paraya, çöpe ya da kirli yüzeye dokunduktan sonra, eldiven takmadan önce ve çıkardıktan sonradır.",
+      "tanim": "Yemekten ve yemek hazırlamaktan önce ve sonra; tuvaletten, hapşırıp öksürmekten, paraya, çöpe ya da kirli yüzeye dokunmaktan sonra gelen, su ve sabunun şart olduğu anlardır.",
       "ornek": "Kasada para üstü veren görevli, hemen ardından konuğa kurabiye ikram edecekse önce ellerini yıkar.",
-      "sektor": "Dışarıdan işe gelince, ortak kullanılan yüzeylere ya da hayvanlara dokununca ve eller gözle görülür biçimde kirlenince de yıkanır. Bunların hiçbiri olmasa bile eller gün içinde sık sık yıkanır.",
+      "sektor": "Eldiven takmadan önce ve çıkardıktan sonra, dışarıdan işe gelince, ortak kullanılan yüzeylere ya da hayvanlara dokununca ve eller gözle görülür biçimde kirlenince de yıkanır. Bunların hiçbiri olmasa bile eller gün içinde sık sık yıkanır.",
       "iliskili": ["ks-1-013", "ks-1-015", "ks-1-039"], "kontrol": null },
     { "id": "ks-1-015", "konu": "1.1.3", "terim": "El yıkama tekniği", "ingilizce": "Handwashing technique",
-      "tanim": "Ellerin her yüzeyine ulaşmak için izlenen sıradır: elleri ve bilekleri ıslatmak, sabunu köpürtmek, avuç içlerini, el sırtlarını, parmak aralarını, başparmakları ve parmak uçlarını ovmak, bol suyla durulamak ve kâğıt havluyla kurulamaktır.",
+      "tanim": "Elleri ve bilekleri ıslatıp sabunu köpürtme, avuç içlerini, el sırtlarını, parmak aralarını, başparmakları ve parmak uçlarını ovma, bol suyla durulama ve kâğıt havluyla kurulama sırasıdır.",
       "ornek": "Servise çıkmadan önce lavabo başında: sabunu köpürt, parmak aralarını ve başparmağını unutma, durula, kâğıt havluyla kurula.",
       "sektor": "Ovma en az 20 saniye sürer; en çok unutulan yerler parmak araları, başparmak ve parmak uçlarıdır. Kâğıt havluyla kurulamak, sürtünme sayesinde temizliği sürdürür; ortak kullanılan nemli bez havlu ise eli yeniden kirletir.",
       "iliskili": ["ks-1-013", "ks-1-014", "ks-1-016", "ks-1-017"], "kontrol": null },
@@ -464,7 +464,7 @@
     { "id": "ks-1-s31", "tur": "senaryo",
       "durum": "Saat 16.00, rezervasyon ofisi. Üç saattir yerinden kalkmadan ekrana bakıyorsun. Gözlerin yanıyor, boynun tutuldu. Cevap bekleyen e-postalar da var.",
       "soru": "Hangisi doğru davranıştır?",
-      "secenekler": ["E-postalar bitene kadar yerimden kalkmam; mola vermek işi yalnızca geciktirir.", "Yazıları daha rahat görmek için ekrana doğru eğilip yüzümü yaklaştırırım.", "Kısa bir mola verip gözlerimi dinlendirir, boynumu yavaşça esnetirim.", "Boynumu bir sağa bir sola hızla çevirip çıtlatır, hemen işe dönerim."],
+      "secenekler": ["Mola işi geciktirir diye e-postalar bitene kadar yerimden hiç kalkmam.", "Yazıları daha rahat görmek için ekrana doğru eğilip yüzümü yaklaştırırım.", "Kısa bir mola verip gözlerimi dinlendirir, boynumu yavaşça esnetirim.", "Boynumu bir sağa bir sola hızla çevirip çıtlatır, hemen işe dönerim."],
       "dogru": 2, "aciklama": "Uzun süre aynı biçimde oturulmaz; kısa mola, gözleri dinlendirmek ve yavaş esnetme hareketleri verimi artırır. Hiç kalkmamak yorgunluğu ve hata riskini büyütür. Ekrana eğilmek duruşu bozar; ani ve zorlayıcı boyun hareketi ise sakatlayabilir." }
   ]
 }

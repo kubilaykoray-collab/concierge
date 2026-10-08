@@ -31,7 +31,9 @@ function icerikEklentisi(): Plugin {
         }
       }
       const yayin = uniteler.filter((u) => u.onay === true || gelistirme);
-      return `export const planlar = ${JSON.stringify(planlar)};\nexport const dosyalar = ${JSON.stringify(yayin)};`;
+      // Büyük veri JS nesnesi olarak değil JSON metni olarak gömülür: tarayıcı JSON'u çok daha hızlı ayrıştırır (yavaş telefon).
+      const metin = (veri: unknown) => `JSON.parse(${JSON.stringify(JSON.stringify(veri))})`;
+      return `export const planlar = ${metin(planlar)};\nexport const dosyalar = ${metin(yayin)};`;
     },
   };
 }

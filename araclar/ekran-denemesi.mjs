@@ -43,7 +43,15 @@ try {
     await sayfa.screenshot({ path: join(cikti, `${String(++no).padStart(2, "0")}-${ad}.png`), fullPage: tam });
   };
   const git = async (yol) => { await sayfa.evaluate((y) => { location.hash = y; }, yol); await bekle(250); };
-  const tikla = async (secici) => { await sayfa.waitForSelector(secici, { timeout: 4000 }); await sayfa.click(secici); await bekle(120); };
+  // Terfi kutlaması her ekranın üstünde açılır; görülünce kaydedilir ve kapatılır.
+  let terfiGoruldu = false;
+  const terfiKapat = async () => {
+    if (!(await sayfa.$(".terfi"))) return;
+    if (!terfiGoruldu) { terfiGoruldu = true; await cek("terfi"); }
+    await sayfa.click(".terfi .dugme");
+    await bekle(150);
+  };
+  const tikla = async (secici) => { await terfiKapat(); await sayfa.waitForSelector(secici, { timeout: 4000 }); await sayfa.click(secici); await bekle(120); };
   const var_ = (secici) => sayfa.$(secici).then((e) => e !== null);
   const metin = (secici) => sayfa.$eval(secici, (e) => e.textContent);
   const dogrula = async (kosul, mesaj) => { if (!(await kosul)) sorunlar.push("BEKLENEN OLMADI: " + mesaj); };
@@ -88,11 +96,13 @@ try {
   await sayfa.evaluate(() => {
     const d = JSON.parse(localStorage.getItem("lobi.ilerleme.v1"));
     for (const k of Object.values(d.kartlar)) k.sonraki = "2000-01-01";
+    d.puan = 198; // bir sonraki doğru cevap unvan eşiğini (200) geçirsin
     localStorage.setItem("lobi.ilerleme.v1", JSON.stringify(d));
   });
   await sayfa.reload({ waitUntil: "networkidle0" });
   await git("/");
   await cek("bugun-tekrar-var", true);
+  await dogrula(var_(".gunun-vakasi"), "açılışta günün vakası var");
   await tikla(".one-cikan");
   await cek("tekrar-on-yuz");
   await tikla(".cevir-yuz");
@@ -103,6 +113,8 @@ try {
     await tikla(ilk ? ".dugme-kirmizi" : ".dugme-yesil");
     ilk = false;
   }
+  await terfiKapat();
+  await dogrula(Promise.resolve(terfiGoruldu), "unvan eşiği geçilince terfi kutlaması göründü");
   await cek("tekrar-bitti");
   const kutular = await sayfa.evaluate(() => Object.values(JSON.parse(localStorage.getItem("lobi.ilerleme.v1")).kartlar).map((k) => k.kutu).sort().join(""));
   await dogrula(Promise.resolve(/^12+$/.test(kutular)), `tekrar sonrası kutular (bir kart 1'de, diğerleri 2'de): ${kutular}`);
@@ -141,6 +153,7 @@ try {
     }
     await tikla(".alt-eylem .dugme");
   }
+  await terfiKapat();
   await cek("test-sonuc", true);
   await dogrula(sayfa.evaluate(() => JSON.parse(localStorage.getItem("lobi.ilerleme.v1")).testler["genel-turizm/2"]?.deneme === 1), "test sonucu kaydedildi");
 
@@ -166,6 +179,7 @@ try {
   await cek("sozluk");
   await sayfa.type(".arama input", "pasaport");
   await cek("sozluk-arama");
+  await dogrula(sayfa.$$eval(".etiketler .hap", (h) => h.length >= 3), "sözlükte ders filtresi var");
   await dogrula(sayfa.$$eval(".sozluk-satiri", (s) => s.length >= 5 && s.length < 20), "aramada pasaport sonuçları");
   await tikla(".sozluk-satiri");
   await cek("sozluk-ayrinti");

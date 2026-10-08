@@ -3,7 +3,7 @@ import { rutbe, seri } from "../cekirdek/ilerleme";
 import { bugun, USTA_KUTU, vadesiGelenler } from "../cekirdek/leitner";
 import { DERS_CIZIMI, KoseSusu, OtelCizimi } from "../cizimler";
 import { useIlerleme } from "../depo";
-import { DERS_LISTESI, DERSLER, kavramBul, KAVRAMLAR } from "../veri";
+import { DERS_LISTESI, DERSLER, kavramBul, KAVRAMLAR, UNITELER } from "../veri";
 
 const AYLAR = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
 const GUNLER = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
@@ -13,6 +13,14 @@ function gununKavrami(gun: string) {
   if (KAVRAMLAR.length === 0) return undefined;
   const sayi = [...gun].reduce((t, h) => (t * 31 + h.charCodeAt(0)) % 100003, 7);
   return KAVRAMLAR[sayi % KAVRAMLAR.length];
+}
+
+// Günün vakası da tarihten türetilir; her gün başka bir ünitenin sahnesi öne çıkar.
+function gununVakasi(gun: string) {
+  const hepsi = UNITELER.flatMap((u) => u.vakalar.map((v) => ({ unite: u, vaka: v })));
+  if (hepsi.length === 0) return undefined;
+  const sayi = [...gun].reduce((t, h) => (t * 37 + h.charCodeAt(0)) % 99991, 11);
+  return hepsi[sayi % hepsi.length];
 }
 
 export function Bugun() {
@@ -28,6 +36,7 @@ export function Bugun() {
   const usta = Object.entries(ilerleme.kartlar).filter(([id, k]) => kavramBul(id) && k.kutu >= USTA_KUTU).length;
   const gunSerisi = seri(ilerleme.gunler, gun);
   const kavram = gununKavrami(gun);
+  const vaka = gununVakasi(gun);
   const yeni = ogrenilen === 0;
 
   return (
@@ -35,8 +44,11 @@ export function Bugun() {
       <header className="vitrin">
         <OtelCizimi className="vitrin-cizim" />
         <div className="marka">
-          <strong lang="en">CONCIERGE</strong>
-          <span lang="en">HOSPITALITY ACADEMY</span>
+          <Simge ad="anahtarlar" boyut={30} />
+          <div>
+            <strong lang="en">CONCIERGE</strong>
+            <span lang="en">HOSPITALITY ACADEMY</span>
+          </div>
         </div>
         <p className="ust-etiket">{GUNLER[simdi.getDay()]} · {simdi.getDate()} {AYLAR[simdi.getMonth()]}</p>
         <h1>{yeni ? "Hoş geldin, meslektaş." : gunSerisi > 1 ? `${gunSerisi} gündür buradasın.` : "Tekrar hoş geldin."}</h1>
@@ -108,6 +120,17 @@ export function Bugun() {
           })}
         </div>
       </section>
+
+      {vaka && (
+        <section>
+          <h3 className="bolum-basligi">Günün vakası</h3>
+          <a className="gunun-vakasi" href={`#/vaka/${vaka.unite.anahtar}`}>
+            <span className="ust-etiket"><Simge ad="zil" boyut={14} /> {vaka.unite.baslik}</span>
+            <p>{vaka.vaka.durum}</p>
+            <strong>{vaka.vaka.soru} <Simge ad="ok" boyut={16} /></strong>
+          </a>
+        </section>
+      )}
 
       {kavram && (
         <section>

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { AkisBasligi, AltEylem, BosDurum, Halka, Secenekler } from "../bilesenler";
+import { AkisBasligi, AltEylem, BosDurum, Halka, Secenekler, Simge } from "../bilesenler";
+import { KoseSusu } from "../cizimler";
 import { testHazirla, yuzde } from "../cekirdek/alistirma";
 import { GECME_NOTU, testBitti } from "../cekirdek/ilerleme";
 import { bugun } from "../cekirdek/leitner";
@@ -52,6 +53,16 @@ export function Test({ uniteAnahtari }: { uniteAnahtari: string }) {
       <div className="akis">
         <div className="sonuc">
           <Halka oran={sonuc / 100}><strong>%{sonuc}</strong><span>{dogru}/{sorular.length} doğru</span></Halka>
+          {gecti && (
+            <div className="sertifika">
+              <KoseSusu className="sertifika-kose sertifika-kose-1" />
+              <KoseSusu className="sertifika-kose sertifika-kose-2" />
+              <Simge ad="anahtarlar" boyut={34} />
+              <span className="ust-etiket" lang="en">CERTIFICATE OF ACHIEVEMENT</span>
+              <strong>{unite.baslik}</strong>
+              <span>{unite.dersAdi} · %{sonuc} · {new Date().toLocaleDateString("tr-TR")}</span>
+            </div>
+          )}
           <p className="ust-etiket">{gecti ? "Ünite sertifikası" : "Biraz daha çalışmalı"}</p>
           <h1>{gecti ? "Geçtin, tebrikler." : "Bu sefer olmadı."}</h1>
           <p className="sonuc-metin">
