@@ -120,7 +120,7 @@ try {
   await dogrula(Promise.resolve(/^12+$/.test(kutular)), `tekrar sonrası kutular (bir kart 1'de, diğerleri 2'de): ${kutular}`);
 
   // 4b. Vaka çalışması (senaryosu olan ilk ünite)
-  await git("/dersler/konaklama-seyahat");
+  await git("/dersler/otelcilik-seyahat");
   const vakaYolu = await sayfa.evaluate(async () => {
     for (const a of document.querySelectorAll(".unite-karti")) if (a.textContent.includes("vaka")) return a.getAttribute("href").replace("#/unite/", "/vaka/");
     return null;
@@ -141,7 +141,7 @@ try {
   }
 
   // 5. Ünite testi
-  await git("/test/genel-turizm/2");
+  await git("/test/otelcilik-seyahat/2");
   await cek("test-giris");
   await tikla(".alt-eylem .dugme");
   await cek("test-soru");
@@ -155,10 +155,10 @@ try {
   }
   await terfiKapat();
   await cek("test-sonuc", true);
-  await dogrula(sayfa.evaluate(() => JSON.parse(localStorage.getItem("lobi.ilerleme.v1")).testler["genel-turizm/2"]?.deneme === 1), "test sonucu kaydedildi");
+  await dogrula(sayfa.evaluate(() => JSON.parse(localStorage.getItem("lobi.ilerleme.v1")).testler["otelcilik-seyahat/2"]?.deneme === 1), "test sonucu kaydedildi");
 
   // 6. Eşleştirme oyunu: her sol taş için sağdakiler sırayla denenir
-  await git("/oyun/genel-turizm/3");
+  await git("/oyun/genel-turizm-2026/1");
   await cek("oyun");
   for (let sol = 1; sol <= 6; sol++) {
     for (let sag = 1; sag <= 6; sag++) {
@@ -185,13 +185,28 @@ try {
   await cek("sozluk-ayrinti");
   await dogrula(var_(".cekmece"), "kavram ayrıntısı açıldı");
 
+  // 7b. Fotoğraflı kart, sektör etiketi ve görsel künyesi
+  await sayfa.keyboard.press("Escape");
+  await git("/unite/genel-turizm-2026/1");
+  await git("/sozluk");
+  await sayfa.$eval(".arama input", (g) => { g.value = ""; });
+  await sayfa.type(".arama input", "kongre turizmi");
+  await tikla(".sozluk-satiri");
+  await bekle(600);
+  await cek("fotografli-kart");
+  await dogrula(var_(".kavram-gorsel"), "kavram ayrıntısında fotoğraf var");
+  await dogrula(sayfa.$eval(".kavram-gorsel img, img.kavram-gorsel", (g) => g.complete && g.naturalWidth > 0).catch(() => false), "fotoğraf yüklendi");
+  await git("/kunye");
+  await cek("gorsel-kunyesi", true);
+  await dogrula(sayfa.evaluate(() => document.body.textContent.includes("CC BY")), "künye ekranında lisans yazıyor");
+
   // 8. İlerleme ve karanlık tema
   await git("/ilerleme");
   await cek("ilerleme", true);
   await sayfa.evaluate(() => [...document.querySelectorAll(".parca")].find((p) => p.textContent === "Karanlık").click());
   await git("/");
   await cek("karanlik-bugun", true);
-  await git("/ders/genel-turizm/3/3");
+  await git("/ders/mesleki-gelisim/1/3");
   await cek("karanlik-kavram-karti");
   await tikla(".alt-eylem .dugme");
   await tikla(".alt-eylem .dugme");
@@ -212,7 +227,7 @@ try {
   agAcik = true;
 
   // 10. Yatay taşma: hiçbir ekranda sayfa sağa kaymamalı
-  for (const yol of ["/", "/dersler", "/dersler/genel-turizm", "/unite/genel-turizm/3", "/unite/konaklama-seyahat/1", "/sozluk", "/ilerleme"]) {
+  for (const yol of ["/", "/dersler", "/dersler/genel-turizm-2026", "/dersler/mesleki-gelisim", "/unite/otelcilik-seyahat/1", "/unite/genel-turizm-2026/1", "/unite/konaklama-seyahat/1", "/sozluk", "/ilerleme", "/kunye"]) {
     await git(yol);
     await dogrula(sayfa.evaluate(() => Math.max(document.documentElement.scrollWidth, document.body.scrollWidth) <= 390), `yatay taşma yok: ${yol}`);
   }

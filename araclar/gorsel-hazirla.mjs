@@ -6,6 +6,8 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
+// Künye metinlerindeki HTML kalıntılarını (&#x27; &amp; …) düz yazıya çevirir.
+const duz = (m) => m && m.replace(/&#x([0-9a-f]+);/gi, (_, k) => String.fromCodePoint(parseInt(k, 16))).replace(/&#(d+);/g, (_, k) => String.fromCodePoint(Number(k))).replace(/&quot;/g, '"').replace(/&amp;/g, "&");
 const kok = join(dirname(fileURLToPath(import.meta.url)), "..");
 const paket = join(kok, "kaynak", "claude-projesi");
 const cikis = join(kok, "public", "gorseller");
@@ -31,7 +33,7 @@ for (const [anahtar, s] of Object.entries(secim)) {
   if (k.lisans !== CC_BY || !k.fotografci || !k.kaynak_url) throw new Error(`${anahtar}: lisansı ya da künyesi eksik, kullanılamaz`);
   if (!/^[a-z0-9-]+$/.test(anahtar)) throw new Error(`${anahtar}: anahtar küçük harf, rakam ve tire olmalı`);
   await sharp(join(paket, k.dosya)).rotate().resize({ width: GENISLIK, height: Math.round(GENISLIK * 0.62), fit: "cover", position: s.odak ?? "attention" }).webp({ quality: 68 }).toFile(join(cikis, `${anahtar}.webp`));
-  kayitlar.push({ anahtar, alt: s.alt, fotografci: k.fotografci, baslik: k.baslik, kaynak: k.kaynak_url, lisans: "CC BY 2.0", lisansAdresi: CC_BY });
+  kayitlar.push({ anahtar, alt: s.alt, fotografci: duz(k.fotografci), baslik: duz(k.baslik), kaynak: k.kaynak_url, lisans: "CC BY 2.0", lisansAdresi: CC_BY });
 }
 
 kayitlar.sort((a, b) => a.anahtar.localeCompare(b.anahtar));

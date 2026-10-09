@@ -110,3 +110,9 @@ bıraktı. Aşağıdakiler o yetkiyle verilen kararlardır; öğretmen sonradan 
 - **Kurum adı değiştiyse** güncel ad ile kitaptaki eski ad birlikte verilir (Dünya Turizm Örgütü: UN Tourism / UNWTO). (gt-2-055)
 - **Kitapta olmayıp öğretmen notunda olan konular** (iç / gelen / giden turizm, Schengen, e-Vize, seyahat sigortası, gümrük) içerikte kalır.
 - Turizmin ayırt edici özelliklerine **mevsimlik olma** eklendi. (gt-3-034)
+- **2026-2027 ilk beş ünitenin denetiminde verilen kararlar (9 Ekim 2026):** öğretmenin sözlüğündeki tanım kitapla ya da güncel bilgiyle
+  tam örtüşmüyorsa tanım aynen kalır, fark `sektor` notunda "ders kitabında … diye geçer; …" biçiminde açıklanır (1883 demir yolu, MÖ 4000
+  tekerlek, lisanslı acente, portör muayenesi, enfeksiyon hastalığı, üniforma "belirlediği tip") · aynı terim iki birimde farklı tanımla
+  yer almaz; ikincisi konuya özgü adla anılır ("İletişimde ilk izlenim") · Ahilik tarihi gibi kaynağı tartışmalı konularda kesin hüküm
+  yerine "kabul edilir / anlatılır" · vakalarda doğru şık stajyeri arkadaşıyla yüzleşmeye ya da kendi başına soruşturmaya itmez: dürüst
+  davranır ve amirine bildirir · Genel Turizm 1.5'te kitapta olmayan "çevresel / olumsuz etki" başlığı açılmadı.
