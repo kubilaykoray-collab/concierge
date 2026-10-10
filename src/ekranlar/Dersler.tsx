@@ -1,4 +1,5 @@
 import { BosDurum, dakika, Madalyon, romen, Simge } from "../bilesenler";
+import type { DersParcasi } from "../cekirdek/tipler";
 import { GECME_NOTU } from "../cekirdek/ilerleme";
 import { DERS_CIZIMI, OtelCizimi, Piktogram } from "../cizimler";
 import { useIlerleme } from "../depo";
@@ -108,12 +109,10 @@ export function UniteEkrani({ anahtar }: { anahtar: string }) {
       </details>
 
       <h3 className="bolum-basligi">Ders yolu</h3>
-      <ol className="yol">
-        {unite.dersler.map((d, i) => {
+      {(() => {
+        const durak = (d: DersParcasi, yeniKonu: boolean) => {
           const bitti = ilerleme.dersler[d.anahtar];
           const sirada = siradaki?.anahtar === d.anahtar;
-          // Büyük birimlerde ders yolu kitabın konu başlıklarıyla bölünür.
-          const yeniKonu = unite.konular.length > 1 && d.konu !== null && d.konu !== unite.dersler[i - 1]?.konu;
           const konu = unite.konular.find((k) => k.no === d.konu);
           return (
             <li key={d.anahtar} className={[bitti ? "durak durak-bitti" : sirada ? "durak durak-sirada" : "durak", yeniKonu ? "durak-konu-basi" : ""].join(" ")} data-konu={yeniKonu && konu ? `${konu.no} · ${konu.baslik}` : undefined}>
@@ -127,8 +126,33 @@ export function UniteEkrani({ anahtar }: { anahtar: string }) {
               </a>
             </li>
           );
-        })}
-      </ol>
+        };
+        // Çok büyük birimlerde (ör. Türkiye'nin turistik merkezleri, 180+ ders) yol konu konu katlanır;
+        // yalnız sıradaki dersin bulunduğu konu açık gelir. Küçük birimlerde yol tek parça akar.
+        const gruplar: { konu: string | null; dersler: DersParcasi[] }[] = [];
+        for (const d of unite.dersler) {
+          const son = gruplar[gruplar.length - 1];
+          if (son && son.konu === d.konu) son.dersler.push(d);
+          else gruplar.push({ konu: d.konu, dersler: [d] });
+        }
+        if (unite.dersler.length <= 30 || gruplar.length < 2) {
+          return <ol className="yol">{unite.dersler.map((d, i) => durak(d, unite.konular.length > 1 && d.konu !== null && d.konu !== unite.dersler[i - 1]?.konu))}</ol>;
+        }
+        return gruplar.map((g, gi) => {
+          const konu = unite.konular.find((k) => k.no === g.konu);
+          const bitenGrup = g.dersler.filter((d) => ilerleme.dersler[d.anahtar]).length;
+          const acik = siradaki ? g.dersler.some((d) => d.anahtar === siradaki.anahtar) : gi === 0;
+          return (
+            <details key={g.konu ?? gi} className="konu-grubu" open={acik}>
+              <summary>
+                <span className="ust-etiket">{konu ? `${konu.no} · ${konu.baslik}` : "Dersler"}</span>
+                <span className="konu-grubu-durum">{bitenGrup}/{g.dersler.length} ders</span>
+              </summary>
+              <ol className="yol">{g.dersler.map((d) => durak(d, false))}</ol>
+            </details>
+          );
+        });
+      })()}
 
       <h3 className="bolum-basligi">Sahaya çık</h3>
       <div className="eylemler">

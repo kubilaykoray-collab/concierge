@@ -867,6 +867,30 @@ button {
 }
 
 .yol,
+/* Büyük birimlerde konu konu katlanan ders yolu */
+.konu-grubu {
+  margin-bottom: 10px;
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+  background: var(--kagit);
+}
+
+.konu-grubu > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.konu-grubu > summary::-webkit-details-marker { display: none; }
+.konu-grubu > summary::after { content: "⌄"; font-size: 1.1rem; color: var(--soluk); transition: transform 0.2s; }
+.konu-grubu[open] > summary::after { transform: rotate(180deg); }
+.konu-grubu-durum { font-size: 0.8rem; color: var(--soluk); white-space: nowrap; }
+.konu-grubu > .yol { padding: 0 12px 8px; }
+
 .basamaklar {
   list-style: none;
   display: flex;
