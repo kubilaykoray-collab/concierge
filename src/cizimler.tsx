@@ -86,15 +86,15 @@ export function Amblem({ className, boyut = 48 }: { className?: string; boyut?: 
       <circle cx="0" cy="17" r="5.200" />
       <circle cx="0" cy="17" r="1.600" />
       <path d="M0 11.800V-15" />
-      <path d="M0-15h6.200M0-11h4.600M0-7h5.400" />
+      <path d="M0-15h-6.200M0-11h-4.600M0-7h-5.400" />
     </>
   );
   return (
     <svg className={className} width={boyut} height={boyut} viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="2.200" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <circle cx="32" cy="32" r="29.500" strokeWidth="1.300" opacity="0.55" />
       <circle cx="32" cy="32" r="25.500" strokeWidth="0.800" opacity="0.35" />
-      <g transform="translate(32 34) rotate(-28)">{anahtar}</g>
-      <g transform="translate(32 34) rotate(28) scale(-1 1)">{anahtar}</g>
+      <g transform="translate(32 35) rotate(-33)">{anahtar}</g>
+      <g transform="translate(32 35) rotate(33) scale(-1 1)">{anahtar}</g>
     </svg>
   );
 }

@@ -120,7 +120,8 @@ export function Ilerleme() {
       <h3 className="bolum-basligi">Hakkında</h3>
       <div className="kagit bilgi">
         <p><strong lang="en">CONCIERGE · Hospitality Academy</strong></p>
-        <p>Meslek lisesi turizm öğrencileri için hazırlanmış, ücretsiz ve reklamsız bir ders çalışma uygulaması. Turizm öğretmeni Koray Kubilay tarafından, öğrencileri için geliştirilmiştir. Kavramlar MEB ders kitaplarına ve dünya otelcilik literatürüne dayanır; fotoğraflar açık lisanslıdır.</p>
+        <p>Turizm öğretmeni Koray Kubilay'ın öğrencileri için geliştirdiği, ücretsiz ve reklamsız bir ders çalışma uygulamasıdır. Meslek liselerinin Konaklama ve Seyahat Hizmetleri alanına yöneliktir.</p>
+        <p>Kavramlar Millî Eğitim Bakanlığının ders kitaplarına ve uluslararası otelcilik literatürüne dayanır; fotoğraflar açık lisanslı kaynaklardan alınmıştır.</p>
       </div>
 
       <h3 className="bolum-basligi">Gizlilik</h3>

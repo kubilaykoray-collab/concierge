@@ -1,14 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <rect width="512" height="512" rx="112" fill="#152238"/>
-  <rect x="34" y="34" width="444" height="444" rx="84" fill="none" stroke="#CDAE74" stroke-width="5" opacity=".5"/>
-  <g fill="none" stroke="#CDAE74" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
-    <g transform="rotate(-38 256 268)">
-      <path d="M256 104v212M256 128h52M256 172h36"/>
-      <circle cx="256" cy="362" r="46"/>
-    </g>
-    <g transform="rotate(38 256 268)">
-      <path d="M256 104v212M256 128h-52M256 172h-36"/>
-      <circle cx="256" cy="362" r="46"/>
+  <g fill="none" stroke="#CDAE74" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="256" r="214" stroke-width="7" opacity=".55"/>
+    <circle cx="256" cy="256" r="186" stroke-width="4" opacity=".35"/>
+    <g stroke-width="2.4">
+      <g transform="translate(256 278) rotate(-33) scale(7.2)">
+        <circle cx="0" cy="17" r="5.2"/><circle cx="0" cy="17" r="1.6"/>
+        <path d="M0 11.8V-15M0-15h-6.2M0-11h-4.6M0-7h-5.4"/>
+      </g>
+      <g transform="translate(256 278) rotate(33) scale(-7.2 7.2)">
+        <circle cx="0" cy="17" r="5.2"/><circle cx="0" cy="17" r="1.6"/>
+        <path d="M0 11.8V-15M0-15h-6.2M0-11h-4.6M0-7h-5.4"/>
+      </g>
     </g>
   </g>
 </svg>

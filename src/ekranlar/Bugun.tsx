@@ -84,22 +84,22 @@ export function Bugun() {
     <>
       <header className="vitrin">
         <OtelCizimi className="vitrin-cizim" />
-        <div className="marka">
-          <Amblem className="marka-amblem" boyut={52} />
-          <div>
-            <strong lang="en">CONCIERGE</strong>
-            <span lang="en">Hospitality Academy</span>
-          </div>
+        <div className="masthead">
+          <Amblem className="masthead-amblem" boyut={92} />
+          <strong lang="en">CONCIERGE</strong>
+          <span lang="en"><i />Hospitality Academy<i /></span>
         </div>
-        <p className="ust-etiket">{GUNLER[simdi.getDay()]} · {simdi.getDate()} {AYLAR[simdi.getMonth()]}</p>
-        <h1>{yeni ? "Hoş geldin, meslektaş." : gunSerisi > 1 ? `${gunSerisi} gündür buradasın.` : "Yeniden hoş geldin."}</h1>
-        <p className="vitrin-alt">{yeni ? "Otelciliğin dilini ilk dersten itibaren bir profesyonel gibi öğreneceksin." : r.soz}</p>
-        {!yeni && (
-          <p className="vitrin-not">
-            <Simge ad={bugunCalisti ? "tik" : "alev"} boyut={15} />
-            {bugunCalisti ? "Bugünkü çalışmanı tamamladın; gerisi bonus." : gunSerisi > 0 ? `${gunSerisi} günlük serini korumak için bugün bir ders yeter.` : "Bugün bir dersle yeniden başla; serin yeniden başlasın."}
-          </p>
-        )}
+        <div className="vitrin-metin">
+          <p className="ust-etiket">{GUNLER[simdi.getDay()]} · {simdi.getDate()} {AYLAR[simdi.getMonth()]}</p>
+          <h1>{yeni ? "Hoş geldin, meslektaş." : gunSerisi > 1 ? `${gunSerisi} gündür buradasın.` : "Yeniden hoş geldin."}</h1>
+          <p className="vitrin-alt">{yeni ? "Otelciliğin dilini ilk dersten itibaren bir profesyonel gibi öğreneceksin." : r.soz}</p>
+          {!yeni && (
+            <p className="vitrin-not">
+              <Simge ad={bugunCalisti ? "tik" : "alev"} boyut={15} />
+              {bugunCalisti ? "Bugünkü çalışmanı tamamladın; gerisi bonus." : gunSerisi > 0 ? `${gunSerisi} günlük serini korumak için bugün bir ders yeter.` : "Bugün bir dersle yeniden başla; serin yeniden başlasın."}
+            </p>
+          )}
+        </div>
         <a className="rutbe-seridi" href="#/ilerleme">
           <div>
             <span className="ust-etiket">Unvanın</span>
@@ -250,7 +250,7 @@ export function Bugun() {
         <Amblem boyut={22} />
         <p>
           <span lang="en">CONCIERGE · Hospitality Academy</span>
-          <br />Turizm öğretmeni Koray Kubilay tarafından öğrencileri için hazırlanmıştır.
+          <br />Turizm öğretmeni Koray Kubilay'ın öğrencileri için hazırladığı ücretsiz ders uygulaması.
         </p>
       </footer>
     </>
