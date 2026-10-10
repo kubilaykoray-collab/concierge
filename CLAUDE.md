@@ -9,7 +9,8 @@ Sahibi: turizm / konaklama öğretmeni. Kullanıcı: öğrencileri (9. sınıfta
 
 **Müfredat (2026-2027, Maarif Modeli kitapları) — güncel dersler:**
 `icerik/otelcilik-seyahat/` Otelcilik ve Seyahat Hizmetleri 9 (6 öğrenme birimi; eski "KSHA"nın yerine) ·
-`icerik/genel-turizm-2026/` Genel Turizm 9 (4 birim) · `icerik/mesleki-gelisim/` Mesleki Gelişim Atölyesi 9 (10 ünite; kitabı internette yok, kaynak öğretim programı).
+`icerik/genel-turizm-2026/` Genel Turizm 9 (4 birim) · `icerik/mesleki-gelisim/` Mesleki Gelişim Atölyesi 9 (10 ünite; kitabı internette yok, kaynak öğretim programı) ·
+`icerik/global-otelcilik/` Global Otelcilik (MEB dışı ek ders, 3 ünite; dünya otelcilik okullarının açık kaynaklarından, her kart `kitapDisi`; kuralları `taslak/GLOBAL.md`).
 Eski müfredat (2025-2026): `icerik/genel-turizm/` (8 ünite) ve `icerik/konaklama-seyahat/` (10 ünite) — `uniteler.json` içinde `arsiv: true`;
 silinmez, uygulamada "Arşiv" altında durur. Eski kartların yeni birimlere eşlemesi ve geçiş sırası: `icerik/gecis-2026.md`.
 Yeni yapıda ünite dosyası = öğrenme birimi; birim büyük olabilir (100+ kart), uygulama ders yolunu kitabın konu başlıklarıyla böler. Güncel durum her oturum başında `araclar/durum.mjs` ile dosyalardan hesaplanır; buraya elle durum yazılmaz.
@@ -102,6 +103,9 @@ ağdan yüklenmez); çizimler elde yazılmış SVG (`src/cizimler.tsx`).
 → `npm run gorsel` (`araclar/gorsel-hazirla.mjs`: küçültür, `public/gorseller/*.webp` ve künyeyi `icerik/gorseller.json` olarak yazar) →
 uygulamada "Görsel künyesi" ekranı (fotoğrafçı, kaynak, lisans; CC BY şartı). Seçim ölçütü: yer, nesne ve ortam fotoğrafları; tanınabilir
 yakın yüz, silah, mayolu insan, siyasetçi / resmî kişi fotoğrafı kullanılmaz. Fotoğraflar uygulamayla birlikte gelir, ağdan çekilmez.
+İkinci kaynak (10 Ekim 2026): Openverse'ten CC0 / CC BY fotoğraf havuzu `taslak/gorsel-havuzu/` (git dışı; `kunye.json` = `kunye-sektor.json` +
+`kunye-turkiye.json`); `npm run gorsel` iki kaynağı birlikte işler. Toplama kuralları `taslak/GORSEL-HAVUZU.md`, kartlara bağlama kuralları
+`taslak/GORSEL-ESLEME.md`. Havuz bu bilgisayardadır; başka makinede `public/gorseller/` ve `icerik/gorseller.json` olduğu gibi korunur.
 **Vaka çalışması:** `senaryo` soruları ünitenin "Vaka" modunda oynanır — öğrenci otelde bir sahnenin içine konur ve karar verir.
 Öğretme mantığı: ders = birkaç kavram; her yeni karttan sonra bir önceki kart sorulur (öğren → hatırla), yanlışlar ders sonunda
 yeniden gelir; biten dersin kartları aralıklı tekrara (Leitner, 1-2-4-8-16 gün) girer; ünite sonunda test; puanla otel kariyeri

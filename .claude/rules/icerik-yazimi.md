@@ -124,6 +124,12 @@ bıraktı. Aşağıdakiler o yetkiyle verilen kararlardır; öğretmen sonradan 
   farklı) · B ve C grubu acente Genel Turizm 2'de yazılmadı (kitabın o bölümünde yok, öğretmen notları tutarsız); Otelcilik 4'te kitaptaki
   biçimiyle var · Mesleki Gelişim'de kanun adı / numarası dışında oran, tutar, süre, ceza yazılmaz; finans örneklerindeki rakamlar yuvarlak
   ve zamandan bağımsızdır · Yeşil Yıldız, Mavi Bayrak, Yeşil Anahtar yalnız ne olduklarıyla anlatılır (ölçüt, sayı, yıl yok).
+- **10 Ekim 2026 — "her şey eksiksiz" turu:** kitapta adı geçen her turistik değer kart olur; bilgisi az olan yer için kart kısa tutulur,
+  yalnız kitabın söylediği ve kesin bilinen yazılır, ilçeden emin olunmazsa yalnız il yazılır · kitabın gerçekle çelişen ifadesi alınmaz,
+  çelişki `sektor` notunda "ders kitabı … der; …" biçiminde anlatılır (Hasankeyf Ilısu / Ilıca, Ani "Urartu başkenti", "Baskı" → Baksı,
+  Palu kitabesi Asur / Urartu, Kadıoğlu mozaikleri Çaycuma'da) · aynı ildeki aynı adlı yerler il adıyla ayrılır ("Samsun Kapıkaya Kanyonu") ·
+  Global Otelcilik dersinde marka adı yalnız örnek düzeyinde ve övgüsüz, okul için ücret / sıralama / yıl yok, milliyet genellemesi yerine
+  "bazı kültürlerde" · farklı derslerde aynı terim olabilir ama tanımlar çelişmez; aynı derste olmaz.
 - **2026-2027 ilk beş ünitenin denetiminde verilen kararlar (9 Ekim 2026):** öğretmenin sözlüğündeki tanım kitapla ya da güncel bilgiyle
   tam örtüşmüyorsa tanım aynen kalır, fark `sektor` notunda "ders kitabında … diye geçer; …" biçiminde açıklanır (1883 demir yolu, MÖ 4000
   tekerlek, lisanslı acente, portör muayenesi, enfeksiyon hastalığı, üniforma "belirlediği tip") · aynı terim iki birimde farklı tanımla
