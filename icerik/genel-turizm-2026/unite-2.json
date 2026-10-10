@@ -1,0 +1,2667 @@
+{
+  "ders": "genel-turizm-2026",
+  "sinif": 9,
+  "unite": 2,
+  "baslik": "Turizm Endüstrisi",
+  "onay": true,
+  "kazanimlar": [
+    "Konaklama, seyahat, ulaştırma, yiyecek içecek ve eğlence işletmelerini tanımlar ve sınıflandırır; turizm endüstrisinde yer alan işletmeler arasındaki ilişkileri açıklar; turizm endüstrisini diğer endüstrilerden ayıran özellikleri karşılaştırır.",
+    "Turizm endüstrisindeki yeni yaklaşımlara yönelik çıkarımlar yapar; ekoturizm, sürdürülebilir turizm, dijital turizm, sanal müzeler ve uzay turizmini açıklar."
+  ],
+  "soz": "Turizm bir zincirdir; konuk onu en zayıf halkasıyla hatırlar.",
+  "dersler": [
+    {
+      "baslik": "Bir Tatil Kaç İşletmeden Geçer?",
+      "ilk": "gt2-2-001"
+    },
+    {
+      "baslik": "Her Otel Aynı Otel Değil",
+      "ilk": "gt2-2-006"
+    },
+    {
+      "baslik": "Yıldızı Kim Verir?",
+      "ilk": "gt2-2-013"
+    },
+    {
+      "baslik": "Motel Adı Nereden Gelir?",
+      "ilk": "gt2-2-017"
+    },
+    {
+      "baslik": "Çadırdan Dağ Evine",
+      "ilk": "gt2-2-020"
+    },
+    {
+      "baslik": "Toptancı Kim, Perakendeci Kim?",
+      "ilk": "gt2-2-027"
+    },
+    {
+      "baslik": "Acentede Bir Gün",
+      "ilk": "gt2-2-031"
+    },
+    {
+      "baslik": "Uçak Dolmasa da Kalkar mı?",
+      "ilk": "gt2-2-037"
+    },
+    {
+      "baslik": "Karadan mı, Denizden mi?",
+      "ilk": "gt2-2-042"
+    },
+    {
+      "baslik": "Raylarda Türkiye",
+      "ilk": "gt2-2-046"
+    },
+    {
+      "baslik": "Yolculuğun Bıraktığı İz",
+      "ilk": "gt2-2-053"
+    },
+    {
+      "baslik": "Tatili Anıya Çeviren İşletmeler",
+      "ilk": "gt2-2-056"
+    },
+    {
+      "baslik": "Kuver Ne Demek?",
+      "ilk": "gt2-2-063"
+    },
+    {
+      "baslik": "Menüden mi, Büfeden mi?",
+      "ilk": "gt2-2-066"
+    },
+    {
+      "baslik": "Bir Tabak Bir Şehri Tanıtır mı?",
+      "ilk": "gt2-2-126"
+    },
+    {
+      "baslik": "Turizm Bir Zincirdir",
+      "ilk": "gt2-2-074"
+    },
+    {
+      "baslik": "Müze Kapanırsa Ne Olur?",
+      "ilk": "gt2-2-078"
+    },
+    {
+      "baslik": "Boş Oda Yarına Saklanmaz",
+      "ilk": "gt2-2-081"
+    },
+    {
+      "baslik": "Hizmeti Makine Değil, İnsan Verir",
+      "ilk": "gt2-2-086"
+    },
+    {
+      "baslik": "Yazın Dolu, Kışın Boş",
+      "ilk": "gt2-2-090"
+    },
+    {
+      "baslik": "Tatil Yarına da Kalsın",
+      "ilk": "gt2-2-094"
+    },
+    {
+      "baslik": "Doğada İz Bırakmadan",
+      "ilk": "gt2-2-098"
+    },
+    {
+      "baslik": "Evden Çıkmadan Müze Gezmek",
+      "ilk": "gt2-2-105"
+    },
+    {
+      "baslik": "Gözlüğü Tak, Tarihe Gir",
+      "ilk": "gt2-2-108"
+    },
+    {
+      "baslik": "Tatil Artık Telefonda Başlıyor",
+      "ilk": "gt2-2-111"
+    },
+    {
+      "baslik": "Bir Paylaşım Kaç Turist Getirir?",
+      "ilk": "gt2-2-115"
+    },
+    {
+      "baslik": "Ekrandan Herkese Açılan Kapı",
+      "ilk": "gt2-2-118"
+    },
+    {
+      "baslik": "Yeni Destinasyon: Uzay",
+      "ilk": "gt2-2-121"
+    }
+  ],
+  "kavramlar": [
+    {
+      "id": "gt2-2-001",
+      "konu": "2.1",
+      "terim": "Turizm endüstrisi",
+      "ingilizce": "Tourism industry",
+      "tanim": "İnsanların gezmek, dinlenmek ve yeni yerler tanımak için yaptığı seyahatlerde ihtiyaç duyduğu hizmetleri üreten, birbirini tamamlayan işletmelerin oluşturduğu bütündür.",
+      "ornek": "Bir haftalık Bodrum tatili: bileti acente keser, uçak taşır, otel ağırlar, restoran doyurur, tekne turu eğlendirir. Beş ayrı işletme tek bir tatil için çalışmıştır.",
+      "sektor": "Konuk bu işletmeleri ayrı ayrı değil, ‘tatilim’ diye tek parça hatırlar. Halkalardan biri aksarsa en iyi otelin emeği de gölgede kalır.",
+      "iliskili": [
+        "gt2-2-002",
+        "gt2-2-074",
+        "gt2-2-081"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-002",
+      "konu": "2.1",
+      "terim": "Turizm işletmesi",
+      "ingilizce": "Tourism enterprise",
+      "tanim": "Turistlerin seyahatleri boyunca ortaya çıkan farklı ihtiyaç ve isteklerini karşılamak için kurulmuş işletmedir.",
+      "ornek": "Kapadokya’da bir sokak: yan yana bir mağara otel, bir seyahat acentesi, bir testi kebabı restoranı ve balon turu satan bir büro. Dördü de turizm işletmesidir.",
+      "sektor": "Ders kitabı turizm işletmelerini beş grupta toplar: konaklama, seyahat, ulaştırma, eğlence ve yiyecek içecek işletmeleri. Staj ve iş ararken karşına çıkacak kapılar bunlardır.",
+      "iliskili": [
+        "gt2-2-001",
+        "gt2-2-003",
+        "gt2-2-027"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-003",
+      "konu": "2.1",
+      "terim": "Konaklama işletmesi",
+      "ingilizce": "Accommodation establishment",
+      "tanim": "Turistlerin seyahatleri süresince geceleme ihtiyacını karşılamak üzere kurulmuş işletmedir.",
+      "ornek": "Gece 22.30, Amasra: otobüsten inen bir çift önceden ayırttığı pansiyona yerleşir. Sabah kahvaltıdan sonra gezmeye çıkacaklardır.",
+      "sektor": "Turizm endüstrisinin temel ögelerindendir: gecelenecek yer yoksa turist o bölgede kalamaz. Seyahat nedenleri farklı olduğu için konaklama işletmeleri de çeşit çeşittir.",
+      "iliskili": [
+        "gt2-2-004",
+        "gt2-2-005",
+        "gt2-2-006"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-004",
+      "konu": "2.1",
+      "terim": "Asli konaklama tesisleri",
+      "ingilizce": "Main accommodation facilities",
+      "tanim": "Turistin barınma ve yemek gibi en temel ihtiyaçlarını tam kapsamlı ve profesyonel bir standartta karşılamayı ilk amaç edinen tesislerdir.",
+      "ornek": "Antalya’ya gelen bir aile odasını, kahvaltısını, akşam yemeğini ve havuzunu aynı otelde bulur; hiçbir ihtiyacı için dışarı çıkmak zorunda kalmaz.",
+      "sektor": "Ders kitabında temel konaklama işletmeleri diye de anılır ve dört tür sayılır: otel, tatil köyü, butik otel ve motel.",
+      "iliskili": [
+        "gt2-2-003",
+        "gt2-2-005",
+        "gt2-2-006"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-005",
+      "konu": "2.1",
+      "terim": "Özel konaklama ve kırsal turizm tesisleri",
+      "ingilizce": "Supplementary accommodation facilities",
+      "tanim": "Barınmanın yanında doğa, spor ya da düşük bütçe gibi özel ilgi alanlarına hitap eden, hizmet yapısı daha esnek olan tamamlayıcı tesislerdir.",
+      "ornek": "Üniversiteli dört arkadaş Olimpos’ta kamping alanına çadır kurar; emekli bir çift ise Afyonkarahisar’da bir termal tesiste kür yapar.",
+      "sektor": "Ders kitabında yardımcı konaklama işletmeleri diye de anılır: pansiyon, gençlik yurdu (hostel), kamping, apart otel, termal ve sağlık (SPA) tesisleri. Acentede iş, konuğun beklentisine uyanı önermektir.",
+      "iliskili": [
+        "gt2-2-004",
+        "gt2-2-020",
+        "gt2-2-022"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-006",
+      "konu": "2.1",
+      "terim": "Otel",
+      "ingilizce": "Hotel",
+      "tanim": "Asıl işi geceleme ihtiyacını karşılamak olan, bunun yanında yeme içme ve eğlence gibi hizmetleri belli kurallar ve prosedürler içinde sunan, kâr amaçlı konaklama işletmesidir.",
+      "ornek": "Saat 14.00, İzmir’de bir otel: konuk resepsiyonda kaydını yaptırır, odasına çıkar, akşam otelin restoranında yemek yer.",
+      "sektor": "‘Belli kurallar ve prosedürler’ sözü otelin özüdür: konuk her gelişinde aynı düzeni ve aynı özeni bulacağını bilir. Bu güven, otelin sattığı şeyin yarısıdır.",
+      "iliskili": [
+        "gt2-2-003",
+        "gt2-2-007",
+        "gt2-2-013"
+      ],
+      "kontrol": null,
+      "gorsel": "luks-otel"
+    },
+    {
+      "id": "gt2-2-007",
+      "konu": "2.1",
+      "terim": "Otellerin sınıflandırılması",
+      "ingilizce": "Classification of hotels",
+      "tanim": "Bulundukları yere, çalışma süresine, karşıladıkları konaklama ihtiyacına, hizmet kalitesine ve belgelendirme türüne göre otellerin gruplara ayrılmasıdır.",
+      "ornek": "Aynı tesis birkaç gruba birden girer: Belek’te yalnız yazın açık, beş yıldızlı bir resort otel hem mevsimlik hem resort hem de beş yıldızlı oteldir.",
+      "sektor": "Sınıf, konuğa otelden ne bekleyeceğini önceden söyler. Acentede doğru oteli önermenin yolu, konuğun ihtiyacını bu gruplarla eşleştirmektir.",
+      "iliskili": [
+        "gt2-2-006",
+        "gt2-2-008",
+        "gt2-2-013"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-008",
+      "konu": "2.1",
+      "terim": "Havalimanı oteli",
+      "ingilizce": "Airport hotel",
+      "tanim": "Havalimanının içinde ya da hemen yakınında kurulan, uçuş öncesinde ve sonrasında kısa süreli konaklayan yolculara hizmet veren oteldir.",
+      "ornek": "Gece 01.00, İstanbul: aktarma uçağı sabaha kalan bir yolcu havalimanındaki otelde birkaç saat uyur ve 06.00’da uçuş kapısına yürür.",
+      "sektor": "Bulunduğu yere göre yapılan sınıflandırmanın örneğidir; istasyon oteli de aynı gruptadır. Konuk kısa kalır ve saatle yarışır: hızlı giriş çıkış ve günün her saatinde hizmet beklenir.",
+      "iliskili": [
+        "gt2-2-007",
+        "gt2-2-010",
+        "gt2-2-038"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-009",
+      "konu": "2.1",
+      "terim": "Mevsimlik otel",
+      "ingilizce": "Seasonal hotel",
+      "tanim": "Yılın yalnız belli bir döneminde, turist talebinin yoğun olduğu sezonda açık olan oteldir.",
+      "ornek": "Marmaris’te bir sahil oteli nisan sonunda kapılarını açar, ekim sonunda kapatır; kış aylarında bakım ve onarım yapılır.",
+      "sektor": "Çalışma süresine göre yapılan sınıflandırmada şehir otelinin karşısında yer alır. Otel mevsimlik olunca iş de mevsimlik olur: personelin bir bölümü sezon bitince işten ayrılır.",
+      "iliskili": [
+        "gt2-2-007",
+        "gt2-2-010",
+        "gt2-2-090"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-010",
+      "konu": "2.1",
+      "terim": "Şehir oteli",
+      "ingilizce": "City hotel",
+      "tanim": "Kent merkezinde kurulan, yılın her mevsiminde açık olan ve çoğunlukla iş ya da kısa ziyaret için gelen konuklara hizmet veren oteldir.",
+      "ornek": "Salı sabahı Ankara: toplantı için gelen bir mühendis Kızılay’daki otelde tek gece kalır, çarşamba akşamı evine döner.",
+      "sektor": "Konuğu çoğunlukla kısa kalır ve işi vardır; hızlı internet, erken kahvaltı ve merkezî konum bekler. Tatil otelindeki animasyonun yerini burada toplantı salonu alır.",
+      "iliskili": [
+        "gt2-2-007",
+        "gt2-2-009",
+        "gt2-2-011"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-011",
+      "konu": "2.1",
+      "terim": "Resort otel",
+      "ingilizce": "Resort hotel",
+      "tanim": "Tatil ve dinlenme amacıyla gelen konuklara hizmet veren, çoğunlukla deniz, göl ya da dağ gibi doğal güzelliklerin yakınında kurulan oteldir.",
+      "ornek": "Temmuz, Side: dört kişilik bir aile on gece kalır; gün havuzda ve plajda, akşam animasyon gösterisinde geçer.",
+      "sektor": "Karşıladığı konaklama ihtiyacına göre yapılan sınıflandırmanın örneğidir. Konuk uzun kalır ve zamanının çoğunu tesiste geçirir; bu yüzden havuz, spor ve eğlence hizmetleri oda kadar önemlidir.",
+      "iliskili": [
+        "gt2-2-007",
+        "gt2-2-010",
+        "gt2-2-017"
+      ],
+      "kontrol": null,
+      "gorsel": "resort"
+    },
+    {
+      "id": "gt2-2-012",
+      "konu": "2.1",
+      "terim": "Kongre oteli",
+      "ingilizce": "Convention hotel",
+      "tanim": "Kongre, toplantı ve seminer için gelen kalabalık gruplara büyük salonlar ve teknik donanımla hizmet veren oteldir.",
+      "ornek": "Kasım ayı, Antalya: bir hekim derneğinin kongresi için gelen yüzlerce katılımcı aynı otelde kalır; sabah oturumlara, öğlen aynı salonda yemeğe girer.",
+      "sektor": "Toplantılar çoğunlukla tatil sezonunun dışında yapılır; bu yüzden kongre konuğu oteli sakin aylarda doldurur. Ses sistemi, perde ve kahve molası dakikasında hazır olmalıdır.",
+      "iliskili": [
+        "gt2-2-007",
+        "gt2-2-010",
+        "gt2-2-090"
+      ],
+      "kontrol": null,
+      "gorsel": "kongre"
+    },
+    {
+      "id": "gt2-2-013",
+      "konu": "2.1",
+      "terim": "Yıldız sınıflandırması",
+      "ingilizce": "Star rating",
+      "tanim": "Otellerin sundukları hizmetin ve imkânların düzeyine göre birden beşe kadar yıldızla derecelendirilmesidir.",
+      "ornek": "İstanbul’a gidecek bir çift aynı semtte üç yıldızlı ve beş yıldızlı iki otelin fiyatını karşılaştırır; yıldız, aradaki hizmet farkını ilk bakışta anlatır.",
+      "sektor": "Yıldız sayısı arttıkça beklenti de artar: beş yıldızlı otelde küçük bir özensizlik, üç yıldızlı oteldekinden çok daha büyük görünür. Türkiye’de yıldızı Kültür ve Turizm Bakanlığı verir.",
+      "iliskili": [
+        "gt2-2-006",
+        "gt2-2-007",
+        "gt2-2-014"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-014",
+      "konu": "2.1",
+      "terim": "Turizm işletmesi belgesi",
+      "ingilizce": "Tourism operation licence",
+      "tanim": "Bir tesisin Kültür ve Turizm Bakanlığının aradığı nitelikleri taşıdığını gösteren, Bakanlıkça verilen ve denetlenen belgedir.",
+      "ornek": "Otelin girişindeki levhada belge bilgisi ve yıldız sayısı yer alır; konuk kapıdan girmeden tesisin belgeli olduğunu görür.",
+      "sektor": "Ders kitabında oteller yetkili kuruma göre de ayrılır: turizm işletmesi belgeli tesisler ve basit konaklama belgeli tesisler. Belge konuk için güvence, işletme için sorumluluktur: denetimde standardı tutturamayan tesis sınıfını koruyamaz.",
+      "iliskili": [
+        "gt2-2-007",
+        "gt2-2-013",
+        "gt2-2-006"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-015",
+      "konu": "2.1",
+      "terim": "Sultan Hanı",
+      "ingilizce": "Sultan Han (Seljuk caravanserai)",
+      "tanim": "Aksaray–Konya yolu üzerinde bulunan, Selçuklu döneminde kervanların güvenle gecelemesi için yapılmış büyük kervansaraydır.",
+      "ornek": "Bugün Aksaray’dan Konya’ya giden bir tur otobüsü Sultanhanı’nda mola verir; rehber yüksek taş duvarları ve anıtsal kapıyı gösterip yapının yüzyıllar önce kervanları ağırladığını anlatır.",
+      "sektor": "Kervansaraylar yolcuya barınma, yemek ve güvenliği belli bir düzen içinde sunan ilk yapılar sayılır; bugünkü otelciliğin tarihsel temelidir. Barışta pazar yeri, savaşta kale gibi de kullanılmışlardır.",
+      "iliskili": [
+        "gt2-2-006",
+        "gt2-2-003",
+        "gt2-2-060"
+      ],
+      "kontrol": null,
+      "gorsel": "kervan"
+    },
+    {
+      "id": "gt2-2-016",
+      "konu": "2.1",
+      "terim": "Zincir otel",
+      "ingilizce": "Hotel chain",
+      "tanim": "Aynı ad ve aynı hizmet standartlarıyla birden çok şehirde ya da ülkede faaliyet gösteren otellerin oluşturduğu gruptur.",
+      "ornek": "İş için sık yolculuk eden bir konuk İzmir’de de Trabzon’da da aynı zincirin otelini seçer: oda düzeni, kahvaltı ve karşılama iki şehirde de tanıdıktır.",
+      "sektor": "Zincirin gücü tutarlılıktır: konuk hiç gitmediği şehirde bile ne bulacağını bilir. Çalışan için de fırsattır; aynı zincirin başka şehirdeki ya da ülkedeki otelinde kariyer yolu açılır.",
+      "iliskili": [
+        "gt2-2-006",
+        "gt2-2-013",
+        "gt2-2-017"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-017",
+      "konu": "2.1",
+      "terim": "Tatil köyü",
+      "ingilizce": "Holiday village",
+      "tanim": "Çoğunlukla deniz kenarında ya da turistik merkezlerde, doğayla iç içe ve geniş bir alana yayılan; konaklamanın yanında yeme içme, eğlence, spor ve alışveriş hizmetlerini bir arada sunan tesistir.",
+      "ornek": "Sabah 10.00, Kemer’de bir tatil köyü: çocuklar mini kulüpte, anne su jimnastiğinde, baba tenis kortundadır; öğle yemeğinde hepsi aynı restoranda buluşur.",
+      "sektor": "Konuk tesisten çıkmadan bütün ihtiyaçlarını karşılar. Bu yüzden animasyon, spor ve yiyecek içecek bölümleri kalabalık ekiplerle çalışır; turizm öğrencilerinin staj yaptığı tesislerin başında gelir.",
+      "iliskili": [
+        "gt2-2-004",
+        "gt2-2-011",
+        "gt2-2-006"
+      ],
+      "kontrol": null,
+      "gorsel": "tatil-koyu"
+    },
+    {
+      "id": "gt2-2-018",
+      "konu": "2.1",
+      "terim": "Butik otel",
+      "ingilizce": "Boutique hotel",
+      "tanim": "Yapısı, mimarisi ve dekorasyonuyla özgün bir karakter taşıyan; az sayıda odasıyla konuğa yüksek standartta, kişiye özel ve samimi hizmet veren oteldir.",
+      "ornek": "Alaçatı’da eski bir taş ev otele çevrilmiştir: her odanın dekoru farklıdır, kahvaltıda ev sahibi konuklara reçelleri kendi anlatır.",
+      "sektor": "Büyük otelde konuk bir oda numarasıdır; butik otelde adıyla tanınır. Personel konuğun kahvesini nasıl içtiğini hatırlar; satılan şey bu ilgidir.",
+      "iliskili": [
+        "gt2-2-004",
+        "gt2-2-006",
+        "gt2-2-016"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-019",
+      "konu": "2.1",
+      "terim": "Motel",
+      "ingilizce": "Motel (motor hotel)",
+      "tanim": "Çoğunlukla işlek kara yolları üzerinde kurulan, araçla yolculuk edenlerin mola verip gecelediği ve otoparkı bulunan küçük oteldir.",
+      "ornek": "Gece 23.00, Ankara–Adana yolu: uzun yoldan yorulan bir aile aracını motelin kapısına park eder, sabah erkenden yola devam eder.",
+      "sektor": "Adı ‘motor’ ve ‘hotel’ kelimelerinin birleşmesinden gelir. Konuk tek gece kalır ve dinlenmek ister: temiz yatak, güvenli otopark ve hızlı giriş çıkış motelin vitrinidir.",
+      "iliskili": [
+        "gt2-2-004",
+        "gt2-2-006",
+        "gt2-2-042"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-020",
+      "konu": "2.1",
+      "terim": "Pansiyon",
+      "ingilizce": "Guesthouse",
+      "tanim": "Yönetimi basit, az odalı ve ekonomik; konaklamanın yanında yemek verilebilen ya da konuğun kendi yemeğini hazırlayabildiği konaklama işletmesidir.",
+      "ornek": "Kaş’ta bir aile pansiyonu: kahvaltıyı ev sahibi hazırlar, akşam konuklar ortak mutfakta kendi balığını pişirir.",
+      "sektor": "Çoğu zaman bir ailenin işlettiği, konuğun ev sıcaklığı bulduğu yerdir. Dikkat: otelcilikte ‘pansiyon’ sözcüğü fiyata hangi öğünlerin dâhil olduğunu da anlatır; buradaki anlamı işletme türüdür.",
+      "iliskili": [
+        "gt2-2-005",
+        "gt2-2-021",
+        "gt2-2-023"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-021",
+      "konu": "2.1",
+      "terim": "Hostel (gençlik yurdu)",
+      "ingilizce": "Hostel (youth hostel)",
+      "tanim": "Fiyatı uygun olduğu için daha çok gençlerin kaldığı; yemek verilen ya da konuğun kendi yemeğini hazırlayabildiği konaklama tesisidir.",
+      "ornek": "İstanbul Sultanahmet’te bir hostel: sırt çantalı gezginler çok yataklı odada kalır, akşam ortak mutfakta makarna pişirip yol hikâyelerini paylaşır.",
+      "sektor": "Gençlik turizmine hizmet eder. Çok yataklı odalarda çoğu zaman oda değil, yatak kiralanır; fiyatı düşük tutan budur. Ortak alanlar gezginlerin tanıştığı yerdir.",
+      "iliskili": [
+        "gt2-2-005",
+        "gt2-2-020",
+        "gt2-2-022"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-022",
+      "konu": "2.1",
+      "terim": "Kamping",
+      "ingilizce": "Campsite",
+      "tanim": "Kara yolu güzergâhında ya da deniz, göl gibi doğal güzelliklerin yakınında kurulan, konukların ihtiyaçlarını kendilerinin karşıladığı konaklama tesisidir.",
+      "ornek": "Ağustos, Kabak Koyu: bir grup arkadaş çadırını çam ağaçlarının altına kurar, yemeğini kendi ocağında pişirir, duş ve tuvalet için ortak alanı kullanır.",
+      "sektor": "Tesis yeri ve ortak alanları sağlar; çadırı ya da karavanı çoğunlukla konuk getirir. Şehrin karmaşasından uzak, açık havada ve doğayla iç içe kalmak isteyen konuğa önerilir.",
+      "iliskili": [
+        "gt2-2-005",
+        "gt2-2-021",
+        "gt2-2-098"
+      ],
+      "kontrol": null,
+      "gorsel": "kamp"
+    },
+    {
+      "id": "gt2-2-023",
+      "konu": "2.1",
+      "terim": "Apart otel",
+      "ingilizce": "Aparthotel",
+      "tanim": "Bağımsız daire ya da villa biçiminde olan, konuğun kendi yemeğini hazırlayabilmesi için gerekli donanımı bulunan ve ev konforu sağlayan tesistir.",
+      "ornek": "Bodrum’da iki haftalık tatile gelen beş kişilik aile apart otelde kalır: sabah pazardan alışveriş yapar, akşam yemeğini kendi mutfağında pişirir.",
+      "sektor": "Uzun kalan ve kalabalık gelen konuklar tercih eder: mutfak hem bütçeyi rahatlatır hem ev düzenini sürdürür. Bir turizm kompleksinin içinde de, tek başına da kurulabilir.",
+      "iliskili": [
+        "gt2-2-005",
+        "gt2-2-020",
+        "gt2-2-006"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-024",
+      "konu": "2.1",
+      "terim": "Termal ve sağlık (SPA) tesisi",
+      "ingilizce": "Thermal and spa facility",
+      "tanim": "Sıcak ve mineralli doğal sulardan ya da suyla yapılan bakım ve dinlenme uygulamalarından yararlanmak isteyen konuklara konaklama ile birlikte hizmet veren tesistir.",
+      "ornek": "Ocak ayı, Afyonkarahisar: emekli bir çift termal otelde bir hafta kalır; sabah termal havuza girer, öğleden sonra dinlenir.",
+      "sektor": "Konuk buraya eğlenmekten çok iyileşmek ve dinlenmek için gelir; sessizlik, hijyen ve güler yüz ön plandadır. Kış aylarında da dolduğu için yıl boyu iş demektir.",
+      "iliskili": [
+        "gt2-2-005",
+        "gt2-2-009",
+        "gt2-2-090"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-025",
+      "konu": "2.1",
+      "terim": "Oberj (dağ evi)",
+      "ingilizce": "Mountain lodge",
+      "tanim": "Dağlık bölgede, doğaya uyumlu yapılmış; kayak, yürüyüş gibi etkinlikler için gelenlerin kaldığı küçük konaklama tesisidir.",
+      "ornek": "Şubat, Kaçkar Dağları: yürüyüşten dönen grup dağ evinin sobasının başında toplanır, ıslak botlarını kurutur, ertesi günün rotasını konuşur.",
+      "sektor": "Kış ve doğa sporları için gelen konuklara hizmet verir. Konuk buraya odanın lüksü için değil, kapının önündeki dağ için gelir; sıcak bir yemek ve güvenli bir gece yeter.",
+      "iliskili": [
+        "gt2-2-005",
+        "gt2-2-022",
+        "gt2-2-098"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-026",
+      "konu": "2.1",
+      "terim": "Yüzer tesis",
+      "ingilizce": "Floating facility",
+      "tanim": "Su üzerinde yüzen bir yapıda konaklama, yeme içme ya da eğlence hizmeti veren tesistir.",
+      "ornek": "Yaz akşamı, İstanbul Boğazı: kıyıya bağlı yüzer bir restoranda konuklar yemeğini dalga sesi eşliğinde yer.",
+      "sektor": "Yüzer otel ve yüzer restoran başlıca örnekleridir. Karadaki tesisten farkı, konuğun hizmeti su üstünde almasıdır; bu yüzden can güvenliği kuralları ayrıca önem taşır.",
+      "iliskili": [
+        "gt2-2-005",
+        "gt2-2-045",
+        "gt2-2-063"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-027",
+      "konu": "2.1",
+      "terim": "Seyahat işletmesi",
+      "ingilizce": "Travel business",
+      "tanim": "Turistin seyahat öncesindeki ve seyahat sırasındaki planlama, bilgilendirme ve organizasyon ihtiyaçlarını karşılayan işletmedir.",
+      "ornek": "Nisan ayı, Eskişehir: yaz tatili için acenteye giren bir aile kapıdan çıkarken uçuşu, oteli, transferi ve gezileri tek dosyada ayarlanmış olur.",
+      "sektor": "Ulaşım, konaklama, gezi ve rehberlik hizmetlerini bir araya getirir. İki temel türü tur operatörü ve seyahat acentesidir; internet üzerinden çalışan çevrim içi acenteler de bu yapının parçasıdır.",
+      "iliskili": [
+        "gt2-2-028",
+        "gt2-2-031",
+        "gt2-2-077"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-028",
+      "konu": "2.1",
+      "terim": "Toptancı ve perakendeci",
+      "ingilizce": "Wholesaler and retailer",
+      "tanim": "Seyahat işletmelerinde iki rolü anlatan ayrımdır: tur operatörü hizmetleri önceden toplu alıp paketleyen toptancı, seyahat acentesi bu ürünleri komisyon karşılığında turiste satan perakendecidir.",
+      "ornek": "Bir tur operatörü kış aylarında Antalya otelleriyle anlaşıp yaz paketini hazırlar; mahalledeki seyahat acentesi bu paketi vitrinine koyar ve müşterisine satar.",
+      "sektor": "Tur operatörü talep oluşmadan anlaşma yaptığı için riski üstlenir: paketi satamazsa zarar eder. Acentenin kazancı ise sattığı hizmetten aldığı komisyondur.",
+      "iliskili": [
+        "gt2-2-027",
+        "gt2-2-029",
+        "gt2-2-030"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-029",
+      "konu": "2.1",
+      "terim": "A grubu seyahat acentesi",
+      "ingilizce": "Group A travel agency",
+      "tanim": "Seyahat acenteliği hizmetlerinin tümünü yapabilen, tur düzenleyip satabilen ve Türkiye’de tur operatörlüğü işini de yürüten acentedir.",
+      "ornek": "Bir A grubu acente Karadeniz yaylaları için beş günlük tur hazırlar: otelleri ayırtır, otobüsü kiralar, rehberi görevlendirir ve turu kendi adına satar.",
+      "sektor": "Türkiye’de tur operatörü ile seyahat acentesini ayıran hukuki bir ayrım yoktur; turu planlayan da satan da seyahat acentesi belgesi taşır. Bu yüzden ‘operatör’ sözü bizde bir belgeyi değil, yapılan işi anlatır.",
+      "iliskili": [
+        "gt2-2-027",
+        "gt2-2-028",
+        "gt2-2-031"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-030",
+      "konu": "2.1",
+      "terim": "Kontenjan (allotment)",
+      "ingilizce": "Allotment",
+      "tanim": "Otelin, bir tur operatörüne ya da acenteye belirli bir dönem için satması amacıyla önceden ayırdığı oda sayısıdır.",
+      "ornek": "Bir Alanya oteli yaz sezonu için odalarının bir bölümünü anlaşmalı tur operatörüne ayırır; operatör bu odaları paket turun içinde satar.",
+      "sektor": "Anlaşmada bir geri bırakma tarihi bulunur: o güne kadar satılmayan odalar otele döner ve otel bunları kendisi satabilir. Rezervasyon bölümü bu tarihleri gün gün izler.",
+      "iliskili": [
+        "gt2-2-028",
+        "gt2-2-027",
+        "gt2-2-085"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-031",
+      "konu": "2.1",
+      "terim": "Acente operasyonu",
+      "ingilizce": "Agency operations",
+      "tanim": "Satılan seyahatin sahada sorunsuz yürümesi için acentenin yaptığı rezervasyon, transfer, rehberlik ve gezi düzenleme işlerinin bütünüdür.",
+      "ornek": "Sabah 05.30, Dalaman Havalimanı: acentenin görevlisi elinde isim listesiyle grubu karşılar, bagajları sayar ve konukları otellerine giden araçlara bindirir.",
+      "sektor": "Satış sözü verir, operasyon sözü tutar. Konuk acenteyi broşürdeki fotoğrafla değil, havalimanında kendisini bekleyen görevliyle hatırlar.",
+      "iliskili": [
+        "gt2-2-027",
+        "gt2-2-032",
+        "gt2-2-043"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-032",
+      "konu": "2.1",
+      "terim": "Biletleme",
+      "ingilizce": "Ticketing",
+      "tanim": "Acentenin müşterisi adına uçak, otobüs, tren ya da gemi bileti düzenlemesi işidir.",
+      "ornek": "Saat 11.00, acente bankosu: görevli müşterinin kimliğine bakarak adını yazar, İzmir–Berlin uçuşunu seçer, bileti düzenleyip e-postayla gönderir.",
+      "sektor": "Sektörde İngilizce adıyla ‘ticketing’ denir. Biletteki ad, kimlikteki ya da pasaporttaki adla harfi harfine aynı olmalıdır; tek harflik hata yolcuyu uçuş kapısında bırakabilir.",
+      "iliskili": [
+        "gt2-2-031",
+        "gt2-2-033",
+        "gt2-2-039"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-033",
+      "konu": "2.1",
+      "terim": "Vize işlemleri",
+      "ingilizce": "Visa services",
+      "tanim": "Acentenin, yurt dışına çıkacak müşterisine vize başvurusu için gereken belgeleri bildirmesi ve başvuru sürecinde yardımcı olması hizmetidir.",
+      "ornek": "İtalya turuna yazılan bir aileye acente görevlisi belge listesini verir, randevu tarihini hatırlatır ve dosyayı birlikte kontrol eder.",
+      "sektor": "Vizeyi acente değil, gidilecek ülkenin temsilciliği verir; acente ‘kesin çıkar’ diye söz veremez. Eksik belge, parası ödenmiş bir turun kaçması demektir; kontrol listesi bu yüzden tek tek işaretlenir.",
+      "iliskili": [
+        "gt2-2-031",
+        "gt2-2-032",
+        "gt2-2-035"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-034",
+      "konu": "2.1",
+      "terim": "Araç kiralama",
+      "ingilizce": "Car hire",
+      "tanim": "Turistin gezisi sırasında kendi kullanması için belirli bir süreliğine otomobil kiralanması hizmetidir.",
+      "ornek": "Dalaman’a inen bir çift havalimanında adına ayrılmış aracı teslim alır; bir hafta boyunca Fethiye ve Kaş koylarını kendi programına göre gezer.",
+      "sektor": "Sektörde ‘rent a car’ diye anılır. Aracı teslim ederken sürücü belgesi görülür, araçtaki çizikler ve yakıt durumu birlikte kontrol edilip yazılır; sonradan çıkacak tartışmayı bu kayıt önler.",
+      "iliskili": [
+        "gt2-2-031",
+        "gt2-2-042",
+        "gt2-2-043"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-035",
+      "konu": "2.1",
+      "terim": "Enformasyon",
+      "ingilizce": "Information service",
+      "tanim": "Turiste gideceği yer, ulaşım, fiyatlar, gezilecek yerler ve gerekli belgeler hakkında doğru bilgi verme hizmetidir.",
+      "ornek": "Acenteye giren bir müşteri Kapadokya’da balon turunun hangi saatte yapıldığını sorar; görevli güncel programa bakar ve sabah gün doğumunda uçulduğunu söyler.",
+      "sektor": "Acentenin başlıca işlerinden biridir. Altın kural: emin olmadığın bilgiyi söyleme, kontrol et. Yanlış söylenen bir müze saati konuğun yarım gününü, acentenin güvenini götürür.",
+      "iliskili": [
+        "gt2-2-031",
+        "gt2-2-033",
+        "gt2-2-036"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-036",
+      "konu": "2.1",
+      "terim": "Voucher (hizmet belgesi)",
+      "ingilizce": "Voucher",
+      "tanim": "Acentenin müşterisine verdiği, konaklama ya da tur gibi bir hizmetin onun adına ayrıldığını gösteren hizmet belgesidir.",
+      "ornek": "Saat 14.30, resepsiyon: konuk telefonundaki voucher’ı gösterir; görevli konuğun adını, giriş çıkış tarihlerini ve oda tipini sistemdeki rezervasyonla karşılaştırır.",
+      "sektor": "Üzerinde konuğun adı, tarihler, hizmetin içeriği ve acentenin adı yazar. Belgeyle sistemdeki kayıt uyuşmazsa görevli tahminle hareket etmez; amirine haber verir, acenteyle teyit edilir.",
+      "iliskili": [
+        "gt2-2-031",
+        "gt2-2-035",
+        "gt2-2-027"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-037",
+      "konu": "2.1",
+      "terim": "Ulaştırma işletmesi",
+      "ingilizce": "Transport operator",
+      "tanim": "Turistleri bir yerden başka bir yere hava, kara, deniz ya da demir yoluyla taşıyan işletmedir.",
+      "ornek": "Almanya’dan gelen bir konuk İstanbul’a uçakla iner, Bursa’ya deniz otobüsü ve otobüsle geçer: tek yolculukta üç ayrı ulaştırma işletmesinden hizmet alır.",
+      "sektor": "Sunulan hizmetin fiziksel ortamına göre dört grupta incelenir: hava yolu, kara yolu, deniz yolu ve demir yolu. Günümüzde sektör hız, konfor, teknoloji ve çevre duyarlılığı yönünde değişmektedir.",
+      "iliskili": [
+        "gt2-2-038",
+        "gt2-2-042",
+        "gt2-2-046"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-038",
+      "konu": "2.1",
+      "terim": "Hava yolu taşımacılığı",
+      "ingilizce": "Air transport",
+      "tanim": "Yolcuların uçakla taşınmasıdır; hızı ve güvenliği nedeniyle özellikle uzun mesafeli yolculuklarda tercih edilir.",
+      "ornek": "İstanbul’dan Van’a otobüsle bir günü bulan yol uçakla yaklaşık iki saatte aşılır; üç günlük tatili olan öğretmen bu yüzden uçağı seçer.",
+      "sektor": "Bir zamanlar pahalı ve küçük bir kesime özgüyken bugün geniş kitlelerin kullandığı ulaşım biçimidir. Hizmetin sunuluşuna göre ikiye ayrılır: tarifeli seferler ve charter seferler.",
+      "iliskili": [
+        "gt2-2-037",
+        "gt2-2-039",
+        "gt2-2-040"
+      ],
+      "kontrol": null,
+      "gorsel": "ucak"
+    },
+    {
+      "id": "gt2-2-039",
+      "konu": "2.1",
+      "terim": "Tarifeli sefer",
+      "ingilizce": "Scheduled flight",
+      "tanim": "Hava yolu şirketinin önceden ilan ettiği takvime bağlı kalarak, uçağın dolup dolmadığına bakmadan yaptığı düzenli uçuştur.",
+      "ornek": "Her sabah 07.00’de kalkan Ankara–İstanbul uçağı o gün yarı boş olsa da saatinde havalanır.",
+      "sektor": "Kalkış yeri, varış yeri ve saati aylar öncesinden bellidir; bireysel yolcunun standart ulaşım yoludur. Günü ve saati kesin olması gereken yolcuya acentede bu sefer önerilir.",
+      "iliskili": [
+        "gt2-2-038",
+        "gt2-2-040",
+        "gt2-2-032"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-040",
+      "konu": "2.1",
+      "terim": "Charter (sözleşmeli) sefer",
+      "ingilizce": "Charter flight",
+      "tanim": "Belirli bir uçuş programına bağlı olmayan; çoğunlukla tur operatörü ya da acentenin bir grup veya tur için uçak kiralamasıyla yapılan uçuştur.",
+      "ornek": "Haziran, cumartesi sabahı: bir tur operatörünün kiraladığı uçak Düsseldorf’tan Antalya’ya paket tur yolcularını getirir, aynı uçak tatili biten grubu geri götürür.",
+      "sektor": "Tatil dönemindeki yoğun talebi karşılamak ve kişi başı maliyeti düşürmek için tercih edilir. Uçak dolmazsa boş koltuğun zararı kiralayana kalır; otelde girişler aynı saate yığılır.",
+      "iliskili": [
+        "gt2-2-038",
+        "gt2-2-039",
+        "gt2-2-028"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-041",
+      "konu": "2.1",
+      "terim": "Düşük maliyetli hava yolu",
+      "ingilizce": "Low-cost carrier (budget airline)",
+      "tanim": "Bilet fiyatını düşük tutmak için yemek, bagaj, koltuk seçimi gibi hizmetleri bilet fiyatının dışında bırakıp ayrıca ücretlendiren hava yolu şirketidir.",
+      "ornek": "Hafta sonu için ucuz bilet bulan bir öğrenci yalnız sırt çantasıyla uçar; bavul ve uçakta sandviç isteyen yolcu bunların ücretini ayrıca öder.",
+      "sektor": "Uçmayı geniş kitlelere açan iş modelidir. Acentede bilet keserken fiyata nelerin dâhil olmadığını baştan söylemek gerekir; yoksa konuk bagaj ücretini havalimanında sürpriz olarak öğrenir.",
+      "iliskili": [
+        "gt2-2-038",
+        "gt2-2-039",
+        "gt2-2-032"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-042",
+      "konu": "2.1",
+      "terim": "Kara yolu taşımacılığı",
+      "ingilizce": "Road transport",
+      "tanim": "Yolcuların otobüs, otomobil gibi araçlarla kara yolundan taşınmasıdır; ulaşılabilirliği en yüksek ve en çok kullanılan ulaşım şeklidir.",
+      "ornek": "Bayram tatili, İstanbul otogarı: aileler Karadeniz’e, Ege’ye, İç Anadolu’ya giden otobüslere biner; uçağın ve trenin gitmediği ilçeye de otobüs gider.",
+      "sektor": "Turistik amaçlı kara yolu ulaşımı üç şekilde yapılır: otobüs seferleri, araç kiralama ve özel transfer. Kapıdan kapıya ulaştırdığı için tur programlarının omurgasıdır.",
+      "iliskili": [
+        "gt2-2-037",
+        "gt2-2-043",
+        "gt2-2-034"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-043",
+      "konu": "2.1",
+      "terim": "Özel transfer",
+      "ingilizce": "Private transfer",
+      "tanim": "Konuğun havalimanı, otogar ya da liman ile oteli arasında, yalnız kendisine ya da grubuna ayrılmış araçla taşınmasıdır.",
+      "ornek": "Gece 02.15, Antalya Havalimanı: sürücü çıkışta konuğun adının yazılı olduğu kartla bekler, bavulları araca yükler ve aileyi doğrudan otele götürür.",
+      "sektor": "Konuk başka yolcuları beklemez, başka otellere uğramaz. Uçuş gecikirse araç da ona göre yönlendirilir; bu yüzden uçuş bilgisi operasyon ekibinde eksiksiz bulunmalıdır.",
+      "iliskili": [
+        "gt2-2-042",
+        "gt2-2-031",
+        "gt2-2-034"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-044",
+      "konu": "2.1",
+      "terim": "Deniz yolu taşımacılığı",
+      "ingilizce": "Sea transport",
+      "tanim": "Yolcuların gemi, feribot ve yat gibi deniz araçlarıyla taşınmasıdır; turizmde yat ve kruvaziyer olarak iki grupta ele alınır.",
+      "ornek": "Yaz sabahı, Bodrum limanı: bir grup günlük tekne turuna çıkarken yan iskeleye yanaşan büyük bir yolcu gemisinden yüzlerce ziyaretçi şehre iner.",
+      "sektor": "Deniz yolunda yolculuğun kendisi tatilin parçasıdır: yolcu yalnız bir yere varmaz, yolda sosyalleşir ve eğlenir. Karada bulunmayan bu heyecan, deniz yolunu turizmde ayrı bir yere koyar.",
+      "iliskili": [
+        "gt2-2-037",
+        "gt2-2-045",
+        "gt2-2-055"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-045",
+      "konu": "2.1",
+      "terim": "Kruvaziyer gemisi",
+      "ingilizce": "Cruise ship",
+      "tanim": "Yolcularına konaklama, yeme içme ve eğlence hizmetlerini gemide sunarak onları limandan limana gezdiren büyük yolcu gemisidir.",
+      "ornek": "Sabah 08.00, Kuşadası limanı: gemiden inen yolcular otobüslerle Efes’e gider, akşamüstü gemiye döner; gemi gece boyunca bir sonraki limana yol alır.",
+      "sektor": "Yüzen bir otel gibi çalışır: resepsiyonu, kat hizmetleri, mutfağı ve animasyon ekibi vardır. Geminin yanaştığı gün liman şehrindeki rehber, esnaf ve restoran için yoğun iş günüdür.",
+      "iliskili": [
+        "gt2-2-044",
+        "gt2-2-026",
+        "gt2-2-006"
+      ],
+      "kontrol": null,
+      "gorsel": "kruvaziyer"
+    },
+    {
+      "id": "gt2-2-046",
+      "konu": "2.1",
+      "terim": "Demir yolu taşımacılığı",
+      "ingilizce": "Rail transport",
+      "tanim": "Yolcuların trenle taşınmasıdır; gelişen teknolojiyle hızlı, güvenli, konforlu ve ekonomik bir ulaşım seçeneği hâline gelmiştir.",
+      "ornek": "Cuma akşamı, Ankara Garı: hafta sonunu Konya’da geçirecek bir aile trene biner; çocuklar pencereden bozkırı izlerken yolculuk kendiliğinden geziye dönüşür.",
+      "sektor": "Toplu taşıma olduğu için kişi başına çevreye verdiği zarar düşüktür; sürdürülebilir turizmle birlikte anılmasının nedeni budur. Şehirler arasında olduğu kadar şehir içinde de kullanılır.",
+      "iliskili": [
+        "gt2-2-037",
+        "gt2-2-048",
+        "gt2-2-052"
+      ],
+      "kontrol": null,
+      "gorsel": "lokomotif"
+    },
+    {
+      "id": "gt2-2-047",
+      "konu": "2.1",
+      "terim": "Şehir içi raylı sistemler",
+      "ingilizce": "Urban rail systems",
+      "tanim": "Metro ve tramvay gibi, şehir içinde raylar üzerinde çalışan toplu taşıma araçlarıdır.",
+      "ornek": "İstanbul’a gelen bir turist Sultanahmet’ten Kapalıçarşı’ya tramvayla gider; trafikte beklemez, durak adlarını haritadan kolayca izler.",
+      "sektor": "Hızlı, güvenli ve ekonomik oldukları için turistler şehir gezisinde önce bunları tercih eder. Resepsiyonda en çok sorulan sorulardan biri ‘En yakın durak nerede?’ sorusudur; cevabını bilmek hizmettir.",
+      "iliskili": [
+        "gt2-2-046",
+        "gt2-2-037",
+        "gt2-2-035"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-048",
+      "konu": "2.1",
+      "terim": "Yüksek Hızlı Tren (YHT)",
+      "ingilizce": "High-speed train",
+      "tanim": "Şehirler arası ulaşımı hızlandıran, kendine özgü hatlarda yüksek hızla sefer yapan modern trendir.",
+      "ornek": "Sabah Ankara’dan binen bir yolcu öğle olmadan Konya’ya varır, Mevlâna Müzesi’ni gezip akşam treniyle geri döner.",
+      "sektor": "Türkiye’deki dört yolcu treni grubundan biridir. Yolculuğu kısalttığı için günübirlik ve hafta sonu gezilerini artırır; hattın ulaştığı şehrin müzesi ve lokantası yeni ziyaretçi kazanır.",
+      "iliskili": [
+        "gt2-2-046",
+        "gt2-2-049",
+        "gt2-2-050"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-049",
+      "konu": "2.1",
+      "terim": "Ana hat treni",
+      "ingilizce": "Mainline train",
+      "tanim": "Şehirler arasında uzun mesafelerde yolcu taşıyan trendir.",
+      "ornek": "Ankara’dan akşam kalkan bir ana hat treninde yolcular yataklı vagonda uyur, sabah başka bir bölgede uyanır.",
+      "sektor": "Uzun yolculukta tren yalnız araç değil, mekândır: yataklı ve yemekli vagonlar konaklama ile yeme içme hizmetini raylara taşır. Doğu Ekspresi bir ana hat trenidir.",
+      "iliskili": [
+        "gt2-2-046",
+        "gt2-2-048",
+        "gt2-2-052"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-050",
+      "konu": "2.1",
+      "terim": "Bölgesel tren",
+      "ingilizce": "Regional train",
+      "tanim": "Birbirine yakın şehirler ya da ilçeler arasında işleyen trendir.",
+      "ornek": "Sabah 07.30: Adana ile Mersin arasında çalışan trene öğrenciler, işe gidenler ve günübirlik gezenler birlikte biner.",
+      "sektor": "Kısa mesafede sık sefer yapar. Turist için de fırsattır: konakladığı şehirden komşu ilçeye günübirlik geziye ucuza ve trafiğe takılmadan gider.",
+      "iliskili": [
+        "gt2-2-046",
+        "gt2-2-049",
+        "gt2-2-051"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-051",
+      "konu": "2.1",
+      "terim": "Uluslararası tren",
+      "ingilizce": "International train",
+      "tanim": "Ülkeler arasında sefer yapan, yolcusunu sınırın öte yanına taşıyan trendir.",
+      "ornek": "Bir yolcu ülkeler arasında sefer yapan bir trene biner; sınır kapısında pasaport kontrolünden geçtikten sonra yolculuk komşu ülkede sürer.",
+      "sektor": "Sınır geçildiği için pasaport ve gerekiyorsa vize şarttır. Bilet satan görevli yolcuya bunu önceden hatırlatır; belgesi eksik yolcu sınırı geçemez.",
+      "iliskili": [
+        "gt2-2-046",
+        "gt2-2-050",
+        "gt2-2-033"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-052",
+      "konu": "2.1",
+      "terim": "Doğu Ekspresi",
+      "ingilizce": "Eastern Express",
+      "tanim": "Ankara ile Kars arasında sefer yapan; İç Anadolu ve Doğu Anadolu’dan geçen, yolculuğu bir günü bulan ana hat trenidir.",
+      "ornek": "Ocak ayı: Ankara’dan binen üniversiteli bir grup kompartımanını ışıklarla süsler, karlı dağları pencereden izler ve ertesi gün Kars’a varır.",
+      "sektor": "Özellikle kışın turistik amaçla yoğun ilgi görür. Trenin geçtiği illerde otel, lokanta ve esnaf bu yolculardan kazanır; hat, demir yolu turizminin ve doğaya duyarlı seyahatin Türkiye’deki simgesidir.",
+      "iliskili": [
+        "gt2-2-049",
+        "gt2-2-046",
+        "gt2-2-053"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-053",
+      "konu": "2.1",
+      "terim": "Ulaşımın karbon ayak izi",
+      "ingilizce": "Carbon footprint of transport",
+      "tanim": "Bir yolculukta kullanılan ulaşım aracının atmosfere saldığı karbondioksit ve diğer sera gazlarının toplamıdır.",
+      "ornek": "Aynı iki şehir arasını bir yolcu tek başına otomobille, öteki trenle gider: trendeki yolcunun karbon ayak izi daha küçüktür.",
+      "sektor": "Karbon ayak izi, bir kişinin, kurumun ya da faaliyetin saldığı sera gazlarının toplamıdır; yakıt kullanan her ulaşım aracı bu izi büyütür. Uçak ve özel araç daha fazla, toplu taşıma ve tren kişi başına daha az salım yapar; çevreye duyarlı konuk ulaşımını da buna göre seçmeye başlamıştır.",
+      "iliskili": [
+        "gt2-2-046",
+        "gt2-2-054",
+        "gt2-2-055"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-054",
+      "konu": "2.1",
+      "terim": "Paylaşımlı ulaşım",
+      "ingilizce": "Shared mobility",
+      "tanim": "Bir aracın ya da yolculuğun, dijital platformlar aracılığıyla birden çok kişi tarafından ortak kullanılmasıdır.",
+      "ornek": "Aynı konsere gidecek dört kişi bir uygulama üzerinden buluşur, tek otomobille yola çıkar ve yakıt masrafını bölüşür.",
+      "sektor": "Kaynakların daha verimli kullanılmasını sağlar: yola daha az araç çıkar, kişi başına maliyet ve salım düşer. Elektrikli ve hibrit araçlarla birlikte ulaşımdaki çevreci değişimin parçasıdır.",
+      "iliskili": [
+        "gt2-2-053",
+        "gt2-2-042",
+        "gt2-2-055"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-055",
+      "konu": "2.1",
+      "terim": "Ulaşım türü seçme ölçütleri",
+      "ingilizce": "Criteria for choosing a mode of transport",
+      "tanim": "Yolcunun ulaşım aracını seçerken karşılaştırdığı süre, maliyet, konfor, karbon ayak izi, güvenlik, esneklik ve yolculuk deneyimi gibi özelliklerdir.",
+      "ornek": "İstanbul’dan Venedik’e gidecek bir yolcu düşünür: uçak çok hızlı ama pahalıdır ve salımı yüksektir; gemi yavaş ama manzaralıdır.",
+      "sektor": "Her ölçütte en iyi olan tek bir araç yoktur; doğru seçim yolcunun önceliğine bağlıdır. Acentede iyi danışman ‘En ucuzu hangisi?’ sorusundan önce ‘Sizin için en önemlisi ne?’ diye sorar.",
+      "iliskili": [
+        "gt2-2-053",
+        "gt2-2-038",
+        "gt2-2-044"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-056",
+      "konu": "2.1",
+      "terim": "Eğlence işletmesi",
+      "ingilizce": "Leisure and entertainment business",
+      "tanim": "Turistlerin seyahatleri süresince boş zamanlarını değerlendirmesine olanak sağlayan ve turistik deneyimi zenginleştiren işletmedir.",
+      "ornek": "Antalya’da tatil yapan bir aile bir gününü akvaryumda, bir akşamını açık hava konserinde geçirir; dönüşte en çok bu iki günü anlatır.",
+      "sektor": "Bir bölgenin çekiciliğini artırır ve turistin orada daha uzun kalmasını sağlar; uzayan her gün otele, restorana ve esnafa gelir demektir. Kültürel değerlerin tanıtılmasına ve korunmasına da katkı sunar.",
+      "iliskili": [
+        "gt2-2-057",
+        "gt2-2-058",
+        "gt2-2-059"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-057",
+      "konu": "2.1",
+      "terim": "Rekreasyon",
+      "ingilizce": "Recreation",
+      "tanim": "İnsanın boş zamanında dinlenmek, eğlenmek ve yenilenmek için kendi isteğiyle katıldığı etkinliklerdir.",
+      "ornek": "Pazar sabahı, Belgrad Ormanı: kimi koşar, kimi bisiklete biner, kimi göl kenarında kitap okur.",
+      "sektor": "Kelime ‘canlanma, kendine gelme’ anlamı taşır. Yürüyüş parkuru, bisiklet yolu, spor sahası gibi spor ve rekreasyon alanları eğlence işletmelerinin faaliyet alanları arasındadır.",
+      "iliskili": [
+        "gt2-2-056",
+        "gt2-2-058",
+        "gt2-2-062"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-058",
+      "konu": "2.1",
+      "terim": "Tema parkı",
+      "ingilizce": "Theme park",
+      "tanim": "Belirli bir konu çevresinde tasarlanmış; oyuncakları, gösterileri ve mekânlarıyla ziyaretçiye eğlence ve heyecan sunan büyük eğlence alanıdır.",
+      "ornek": "Cumartesi günü bir tema parkı: çocuklar masal şatosunun önünde fotoğraf çektirir, gençler hız treni kuyruğuna girer.",
+      "sektor": "Ziyaretçi burada saatler, bazen günler geçirir; yemek, hediyelik eşya ve çevredeki oteller de bundan kazanır. Kalabalıkta işin ilk kuralı güvenliktir: oyuncaklardaki boy ve yaş sınırlarından taviz verilmez.",
+      "iliskili": [
+        "gt2-2-056",
+        "gt2-2-057",
+        "gt2-2-061"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-059",
+      "konu": "2.1",
+      "terim": "Müze",
+      "ingilizce": "Museum",
+      "tanim": "Tarihî, kültürel, sanatsal ya da bilimsel değeri olan eserlerin korunduğu, sergilendiği ve ziyaretçilere tanıtıldığı kurumdur.",
+      "ornek": "Ankara’da Anadolu Medeniyetleri Müzesi: bir okul grubu rehber eşliğinde salonları sırayla gezer ve Anadolu’nun binlerce yıllık geçmişini eserlerden okur.",
+      "sektor": "Tarihî ve kültürel mirası tanıtarak turistin öğrenmesini sağlar; bir şehre gelmenin başlıca nedenlerinden biri olabilir. Tur programı hazırlanırken müzenin açık olduğu gün ve saat mutlaka kontrol edilir.",
+      "iliskili": [
+        "gt2-2-056",
+        "gt2-2-060",
+        "gt2-2-105"
+      ],
+      "kontrol": null,
+      "gorsel": "muze"
+    },
+    {
+      "id": "gt2-2-060",
+      "konu": "2.1",
+      "terim": "Ören yeri",
+      "ingilizce": "Archaeological site",
+      "tanim": "Eski uygarlıklardan kalan kent, tapınak, tiyatro gibi yapıların kalıntılarının bulunduğu, ziyarete açılmış tarihî ve arkeolojik alandır.",
+      "ornek": "Sabah 09.00, Efes: grup rehberin ardından mermer caddede yürür, antik tiyatronun basamaklarına oturup anlatılanları dinler.",
+      "sektor": "Müzeden farkı, eserlerin bulunduğu yerde ve çoğunlukla açık havada gezilmesidir. Yazın sıcağında tur sabah erken saate alınır; konuğa şapka, su ve rahat ayakkabı hatırlatılır.",
+      "iliskili": [
+        "gt2-2-056",
+        "gt2-2-059",
+        "gt2-2-015"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-061",
+      "konu": "2.1",
+      "terim": "Gösteri ve etkinlik merkezi",
+      "ingilizce": "Performance and events venue",
+      "tanim": "Konser, tiyatro, dans gösterisi gibi etkinliklerin düzenlendiği ve turistlerin boş zamanlarını değerlendirdiği mekândır.",
+      "ornek": "Yaz akşamı, Aspendos Antik Tiyatrosu: binlerce izleyici taş basamaklarda yıldızların altında bir opera gösterisi izler.",
+      "sektor": "Etkinlik takvimi otelin doluluğunu doğrudan etkiler: büyük bir konser gecesinde şehirde boş oda kalmayabilir. Resepsiyon görevlisi şehirdeki etkinlikleri bilirse konuğa gerçek bir öneri sunar.",
+      "iliskili": [
+        "gt2-2-056",
+        "gt2-2-062",
+        "gt2-2-058"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-062",
+      "konu": "2.1",
+      "terim": "Yerel festival",
+      "ingilizce": "Local festival",
+      "tanim": "Bir yörenin kültürünü, sanatını ve geleneklerini tanıtan; belli tarihlerde yinelenen ve ziyaretçilere eğlenceli deneyimler sunan etkinliktir.",
+      "ornek": "İlkbahar, Alaçatı Ot Festivali: sokaklara tezgâhlar kurulur, ziyaretçiler yöre otlarından yapılan yemekleri tadar.",
+      "sektor": "Festival günlerinde bölgeye olağandan çok ziyaretçi gelir; otel, restoran ve esnaf birlikte kazanır. Sakin dönemde düzenlenen festival sezonu uzatır, yörenin adını da duyurur.",
+      "iliskili": [
+        "gt2-2-056",
+        "gt2-2-061",
+        "gt2-2-072"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-063",
+      "konu": "2.1",
+      "terim": "Yiyecek içecek işletmesi",
+      "ingilizce": "Food and beverage (F&B) establishment",
+      "tanim": "Bir konaklama tesisinin içinde ya da bağımsız olarak kurulan, insanların yeme içme ihtiyacını karşılayan işletmedir.",
+      "ornek": "Gaziantep’e gelen bir çift öğle yemeğini çarşıdaki kebapçıda, akşam yemeğini ise kaldığı otelin restoranında yer: ilki bağımsız, ikincisi otel bünyesindedir.",
+      "sektor": "Turistin beslenme gibi en temel ihtiyacını karşılayarak seyahat deneyimini tamamlar. Otelde bu bölüme kısaca F&B denir; konuk tatilini çoğu zaman yediği yemekle hatırlar.",
+      "iliskili": [
+        "gt2-2-064",
+        "gt2-2-065",
+        "gt2-2-066"
+      ],
+      "kontrol": null,
+      "gorsel": "restoran"
+    },
+    {
+      "id": "gt2-2-064",
+      "konu": "2.1",
+      "terim": "Yiyecek içecek işletmelerinin sınıflandırılması",
+      "ingilizce": "Classification of food and beverage establishments",
+      "tanim": "Büyüklüğüne, hukuki durumuna, bulunduğu yere ve servis şekline göre yiyecek içecek işletmelerinin gruplara ayrılmasıdır.",
+      "ornek": "Bir şehir otelinin çatısındaki restoran: otel bünyesindedir, Bakanlık belgelidir ve alakart servis yapar. Aynı işletme üç ayrı ölçüte göre üç ayrı gruba girer.",
+      "sektor": "Büyüklükte kuver sayısına bakılır. Hukuki durumda belge belediyeden ya da Bakanlıktan alınır. Yere göre işletme otel bünyesinde ya da bağımsızdır. Servis şekilleri alakart, tabldot, açık büfe ve fast food’dur.",
+      "iliskili": [
+        "gt2-2-063",
+        "gt2-2-065",
+        "gt2-2-066"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-065",
+      "konu": "2.1",
+      "terim": "Kuver",
+      "ingilizce": "Cover",
+      "tanim": "Bir yiyecek içecek işletmesinde hizmet verilen kişi sayısını ve masada bir kişi için servise hazırlanan takımı anlatan terimdir.",
+      "ornek": "Saat 18.30, restoran: şef ‘Bu akşam on iki kişilik masaya on iki kuver açın’ der; stajyer her sandalyenin önüne tabak, çatal, bıçak, bardak ve peçete yerleştirir.",
+      "sektor": "İşletmenin büyüklüğü kuver sayısıyla ölçülür: küçük, orta ve büyük işletme ayrımı buna göre yapılır. Masada eksik kuver, konuğun oturup beklemesi demektir.",
+      "iliskili": [
+        "gt2-2-063",
+        "gt2-2-064",
+        "gt2-2-066"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-066",
+      "konu": "2.1",
+      "terim": "Alakart servis",
+      "ingilizce": "À la carte service",
+      "tanim": "Konuğun menüdeki yemekler arasından dilediğini seçtiği ve her ürün için ayrı ücret ödediği servis türüdür.",
+      "ornek": "Akşam 20.00, balık restoranı: konuk menüyü inceler, önce mevsim salatası, ardından ızgara levrek ister; hesapta ikisi ayrı ayrı yazar.",
+      "sektor": "Yemek sipariş üzerine hazırlandığı için servis daha uzun sürer, ama konuk tam istediğini yer. Garsonun menüyü iyi bilmesi gerekir: konuk ‘Bunun içinde ne var?’ diye mutlaka sorar.",
+      "iliskili": [
+        "gt2-2-064",
+        "gt2-2-067",
+        "gt2-2-068"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-067",
+      "konu": "2.1",
+      "terim": "Tabldot servis",
+      "ingilizce": "Table d’hôte (set menu) service",
+      "tanim": "İçeriği önceden belirlenmiş, sabit fiyatlı ve genellikle günlük olarak değişen menünün sunulduğu servis türüdür.",
+      "ornek": "Öğle arası, bir iş yeri yemekhanesi: herkese aynı menü çıkar; çorba, ana yemek, pilav ve tatlı. Fiyat bellidir, seçim yoktur.",
+      "sektor": "Tur gruplarına ve toplu yemeklere uygundur: mutfak ne pişireceğini ve kaç porsiyon çıkaracağını önceden bilir; servis hızlanır, israf azalır.",
+      "iliskili": [
+        "gt2-2-064",
+        "gt2-2-066",
+        "gt2-2-068"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-068",
+      "konu": "2.1",
+      "terim": "Açık büfe",
+      "ingilizce": "Buffet service",
+      "tanim": "Yemeklerin bir büfede sergilendiği ve konuğun istediği yemeği istediği kadar kendisinin aldığı servis türüdür.",
+      "ornek": "Sabah 08.00, otel restoranı: konuklar tabaklarını alıp büfeyi dolaşır; biri peynir ve zeytin, öteki omlet ve meyve alır.",
+      "sektor": "Kalabalık konuk kısa sürede ağırlanır. Servis personelinin işi bitmez, değişir: boş tabakları toplar, büfede azalan yemeği zamanında tazeler, büfenin düzenini ve hijyenini korur.",
+      "iliskili": [
+        "gt2-2-064",
+        "gt2-2-066",
+        "gt2-2-069"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-069",
+      "konu": "2.1",
+      "terim": "Fast food servis",
+      "ingilizce": "Fast food (quick service)",
+      "tanim": "Hızlı hazırlanan ve hızlı servis edilen, çoğunlukla tezgâhtan alınan yiyeceklerin sunulduğu servis türüdür.",
+      "ornek": "Otogarda otobüsüne yirmi dakika kalan bir yolcu tezgâhtan dürüm ve ayran alır, ücretini siparişte öder ve yemeğini ayakta bitirir.",
+      "sektor": "Vakti dar olan yolcuya ve gezgine hizmet eder. Hız esastır ama hijyen ve güler yüzden ödün verilmez; kısa süren hizmet de bir izlenim bırakır.",
+      "iliskili": [
+        "gt2-2-064",
+        "gt2-2-066",
+        "gt2-2-068"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-126",
+      "konu": "2.1",
+      "terim": "Gastronomi turizminin yöreye katkısı",
+      "ingilizce": "Contribution of gastronomy tourism to a destination",
+      "tanim": "Bir bölgenin yemeklerini tatmak ve mutfak kültürünü tanımak için yapılan gezilerin yerel lezzetleri koruması, yerel üreticiyi desteklemesi ve bölgenin gelirini artırmasıdır.",
+      "ornek": "Hafta sonu Gaziantep: İstanbul’dan gelen bir grup sabah çarşıda yerel peynir ve baharat alır, öğlen bir mutfak atölyesine katılır, akşam yöresel yemeklerle sofraya oturur.",
+      "sektor": "Gastronomi turizmi yalnız seçkin restoranları değil, şehirlerin kimliğini yansıtan lezzet pazarlarını ve sokak mutfaklarını da kapsar. Yöresel ürün alan otel ve restoran, kazancını yerel üreticiyle paylaşır; lezzetiyle tanınan yer markalaşır. Gastronomi turizminin genel tanımı 1. öğrenme biriminde verilmiştir.",
+      "iliskili": [
+        "gt2-2-070",
+        "gt2-2-071",
+        "gt2-2-072"
+      ],
+      "kontrol": null,
+      "gorsel": "kebap"
+    },
+    {
+      "id": "gt2-2-070",
+      "konu": "2.1",
+      "terim": "Gastronomi müzesi",
+      "ingilizce": "Gastronomy museum",
+      "tanim": "Bir bölgenin mutfak kültürünün tarihini, yöresel araç gerecini ve yemek geleneklerini sergileyen müzedir.",
+      "ornek": "Gaziantep’te Emine Göğüş Mutfak Müzesi: ziyaretçiler eski bakır kapları, sofra düzenini ve yöre yemeklerinin nasıl hazırlandığını görür.",
+      "sektor": "Yemeği yalnız tattırmaz, hikâyesini de anlatır; mutfak kültürünü kültürel miras olarak korur. Müze çıkışında ziyaretçi o yemeği tatmak ister: müze ile restoran birbirine konuk gönderir.",
+      "iliskili": [
+        "gt2-2-059",
+        "gt2-2-071",
+        "gt2-2-072"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-071",
+      "konu": "2.1",
+      "terim": "Yöresel ürün",
+      "ingilizce": "Local produce",
+      "tanim": "Bir bölgenin iklimine, toprağına ve geleneğine özgü olan; o yörede yetiştirilen ya da yöreye özgü yöntemle hazırlanan yiyecek ve içecektir.",
+      "ornek": "Kars’a gelen tren yolcuları otele yerleşir yerleşmez gravyer ve kaşar almak için peynirci çarşısına gider.",
+      "sektor": "Yöresel ürünler ve geleneksel pişirme yöntemleri gastronomi turizminin temelidir. Otel kahvaltısına yörenin peynirini, balını koymak hem konuğa aradığı deneyimi verir hem yerel üreticiyi destekler.",
+      "iliskili": [
+        "gt2-2-070",
+        "gt2-2-072",
+        "gt2-2-073"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-072",
+      "konu": "2.1",
+      "terim": "Destinasyon markalaşması",
+      "ingilizce": "Destination branding",
+      "tanim": "Bir yerin, kendisini başka yerlerden ayıran bir özellikle tanınması ve o özellikle akla gelir hâle gelmesidir.",
+      "ornek": "‘Baklava’ denince Gaziantep, ‘balon’ denince Kapadokya akla gelir; turist daha yola çıkmadan orada ne yaşayacağını bilir.",
+      "sektor": "Yerel lezzetler markalaşmanın güçlü araçlarındandır: şehirlerin kimliğini yansıtan lezzet pazarları ve sokak mutfakları da bu deneyimin parçasıdır. Marka olan yerin oteli de restoranı da daha kolay dolar.",
+      "iliskili": [
+        "gt2-2-071",
+        "gt2-2-062",
+        "gt2-2-073"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-073",
+      "konu": "2.1",
+      "terim": "Coğrafi işaret",
+      "ingilizce": "Geographical indication",
+      "tanim": "Bir ürünün belirli bir yöreye ait olduğunu ve niteliğini o yöreden aldığını gösteren, resmî olarak tescil edilen işarettir.",
+      "ornek": "Gaziantep baklavası, Aydın inciri ve Ezine peyniri coğrafi işaretli ürünlerdir; ambalajdaki amblem ürünün gerçekten o yöreye ait olduğunu gösterir.",
+      "sektor": "Türkiye’de coğrafi işaretleri Türk Patent ve Marka Kurumu tescil eder. İşaret ürünü taklitten korur, üreticinin emeğini güvenceye alır; menüde coğrafi işaretli ürünü belirtmek konuğa güven verir.",
+      "iliskili": [
+        "gt2-2-071",
+        "gt2-2-072",
+        "gt2-2-070"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-074",
+      "konu": "2.1.1",
+      "terim": "Hizmet zinciri",
+      "ingilizce": "Service chain",
+      "tanim": "Konaklama, ulaştırma, seyahat, eğlence ve yeme içme işletmelerinin birbirini tamamlayarak turistik ürünü birlikte oluşturduğu, halkaları birbirine bağlı sistemdir.",
+      "ornek": "Bir Kapadokya turu: acente satar, otobüs götürür, otel ağırlar, restoran doyurur, balon şirketi uçurur. Beş halkadan biri koparsa tur tamamlanmaz.",
+      "sektor": "‘Turizm bir zincirdir’ sözü buradan gelir; turizm endüstrisine bu yüzden zincirleme hizmet sistemi denir. Konuk zinciri en zayıf halkasıyla hatırlar; kendi halkanı sağlam tutmak mesleğin onurudur.",
+      "iliskili": [
+        "gt2-2-075",
+        "gt2-2-076",
+        "gt2-2-078"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-075",
+      "konu": "2.1.1",
+      "terim": "Turistin seyahat süreci",
+      "ingilizce": "Tourist journey",
+      "tanim": "Bir seyahatin satın alınmasından eve dönüşe kadar, turistin turizm işletmelerinden sırayla hizmet aldığı aşamaların bütünüdür.",
+      "ornek": "Mart ayında acenteden tur alan bir çift temmuzda uçakla Dalaman’a iner, otele yerleşir; tatil boyunca restoranlarda yer, tekne turuna katılır, rehberle Kaunos’u gezer.",
+      "sektor": "Süreç çoğunlukla acentede tur satın almakla başlar; ardından ulaştırma, konaklama, yeme içme, eğlence ve rehberlik hizmetleri gelir. Her işletme konuğu bir öncekinden devralır, bir sonrakine teslim eder.",
+      "iliskili": [
+        "gt2-2-074",
+        "gt2-2-076",
+        "gt2-2-077"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-076",
+      "konu": "2.1.1",
+      "terim": "Karşılıklı bağımlılık",
+      "ingilizce": "Interdependence",
+      "tanim": "Turizm işletmelerinden her birinin faaliyetini sürdürebilmesi için ötekilerin sunduğu hizmete ihtiyaç duymasıdır.",
+      "ornek": "Kar fırtınası yüzünden Erzurum uçuşları iptal olur; aynı gün Palandöken’deki otellerde odalar boş kalır, kayak hocaları öğrenci bekler.",
+      "sektor": "Otel turist olmadan hizmet veremez; turist de ulaştırma ve seyahat işletmeleri olmadan otele ulaşamaz. Ulaşımdaki bir aksama otelin doluluğunu, eğlencenin yetersizliği bölgenin çekiciliğini düşürür.",
+      "iliskili": [
+        "gt2-2-074",
+        "gt2-2-078",
+        "gt2-2-080"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-077",
+      "konu": "2.1.1",
+      "terim": "Seyahat işletmelerinin bağlayıcı rolü",
+      "ingilizce": "Linking role of travel businesses",
+      "tanim": "Tur operatörü ve seyahat acentelerinin, öteki turizm işletmeleriyle anlaşmalar yaparak hizmetleri bir araya getirmesi ve turisti bu işletmelere yönlendirmesidir.",
+      "ornek": "Bir acente aynı tur için hava yoluyla, otelle, restoranla ve müze rehberiyle ayrı ayrı anlaşır; konuk ise tek bir kişiyle, acentedeki danışmanıyla konuşur.",
+      "sektor": "Seyahat işletmeleri bu yüzden endüstrinin merkezinde gösterilir: turistle işletmeler arasında köprüdür. Seyahat acentesi öteki bütün turizm işletmeleriyle doğrudan bağlantı içinde çalışır.",
+      "iliskili": [
+        "gt2-2-027",
+        "gt2-2-074",
+        "gt2-2-078"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-078",
+      "konu": "2.1.1",
+      "terim": "İş birliği ve koordinasyon",
+      "ingilizce": "Co-operation and co-ordination",
+      "tanim": "Turizm işletmelerinin ortak hedef için birlikte çalışması ve işlerini birbirine haber vererek uyum içinde yürütmesidir.",
+      "ornek": "Acente otele haber verir: ‘Grubun uçağı üç saat gecikti.’ Resepsiyon mutfağa, mutfak servise bildirir; gece yarısı gelen grup sıcak yemek ve hazır oda bulur.",
+      "sektor": "Turizmde başarı işletmeler arasındaki sağlıklı iş birliğine bağlıdır; bu bütünlük destinasyonun rekabet gücünü artırır. Kural basittir: öğrendiğin gecikmeyi, değişikliği ya da sorunu hemen amirine ilet.",
+      "iliskili": [
+        "gt2-2-074",
+        "gt2-2-076",
+        "gt2-2-080"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-079",
+      "konu": "2.1.1",
+      "terim": "Tedarikçi",
+      "ingilizce": "Supplier",
+      "tanim": "Bir işletmenin hizmet verebilmesi için ihtiyaç duyduğu ürün ve malzemeyi sağlayan kişi ya da firmadır.",
+      "ornek": "Sabah 06.00, otelin mal kabul kapısı: manavın kamyoneti sebzeyi, fırıncı ekmeği, sütçü sütü getirir; satın alma görevlisi her ürünü tartıp kontrol ederek teslim alır.",
+      "sektor": "Zincirin görünmeyen halkasıdır: çiftçi ürün getirmezse mutfak, mutfak çalışmazsa restoran durur. Yerel üreticiden alım yapan otel, kazancını bulunduğu yöreyle paylaşır.",
+      "iliskili": [
+        "gt2-2-074",
+        "gt2-2-076",
+        "gt2-2-093"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-080",
+      "konu": "2.1.1",
+      "terim": "Yedek plan",
+      "ingilizce": "Contingency plan",
+      "tanim": "Beklenmedik bir sorun çıktığında hizmetin aksamaması için önceden düşünülmüş ikinci çözüm yoludur.",
+      "ornek": "Tur programındaki müze o sabah beklenmedik biçimde kapanır; rehber acenteyle görüşür ve grubu yakındaki ören yerine götürür, müze başka bir güne alınır.",
+      "sektor": "Yol kapanabilir, uçuş iptal olabilir, tedarikçi gecikebilir. Konuk sorunun kendisinden çok nasıl çözüldüğünü hatırlar. Kararı yetkili verir; stajyerin işi durumu hemen bildirmek ve konuğu bilgisiz bırakmamaktır.",
+      "iliskili": [
+        "gt2-2-076",
+        "gt2-2-078",
+        "gt2-2-091"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-081",
+      "konu": "2.1.2",
+      "terim": "Bacasız sanayi",
+      "ingilizce": "Smokeless industry",
+      "tanim": "Fabrika kurup baca tüttürmeden, mal yerine hizmet satarak büyük gelir ve iş imkânı sağladığı için turizm sektörüne verilen addır.",
+      "ornek": "Bir kıyı kasabasında fabrika yoktur; ama oteller, restoranlar, tekneler ve dükkânlar binlerce kişiye iş verir.",
+      "sektor": "Satılan şey mal değil, hizmettir: konuk evine valizinde bir ürünle değil, bir anıyla döner. ‘Bacasız’ sözü turizmin çevreye hiç zarar vermediği anlamına gelmez; özensiz turizm doğayı tüketir.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-084",
+        "gt2-2-093"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-082",
+      "konu": "2.1.2",
+      "terim": "Turizm endüstrisinin ayırt edici özellikleri",
+      "ingilizce": "Distinctive features of the tourism industry",
+      "tanim": "Hizmetin soyut olması, depolanamaması, üretildiği yerde ve anda tüketilmesi, insana dayanması ve talebin mevsimlik olması gibi, turizmi öteki endüstrilerden ayıran özelliklerdir.",
+      "ornek": "Bir buzdolabı fabrikası bugün satamadığı ürünü depoya koyar, gelecek ay satar. Otel bu geceki boş odasını yarına saklayamaz.",
+      "sektor": "Bu özellikler işin yapılış biçimini belirler: fiyat sezona göre değişir, personel sayısı talebe göre ayarlanır, kaliteyi makine değil insan belirler. Turizm ayrıca büyük sermaye ister ve dış olaylardan çabuk etkilenir.",
+      "iliskili": [
+        "gt2-2-084",
+        "gt2-2-085",
+        "gt2-2-090"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-083",
+      "konu": "2.1.2",
+      "terim": "Turizm talebinin kaynağı",
+      "ingilizce": "Source of tourism demand",
+      "tanim": "Turizmi doğuran isteğin zorunlu bir ihtiyaçtan değil, insanların dinlenme, merak ve yeni yerler keşfetme arzusundan gelmesidir.",
+      "ornek": "Ekmek her gün alınır; tatil ise canı çektiğinde ve imkân bulduğunda yapılır. Aile bütçesi daralınca ilk ertelenen şeylerden biri tatildir.",
+      "sektor": "Sanayi ve tarım gibi sektörler ihtiyacı karşılamaya odaklanır; turizm ise isteğe hitap eder. İstek vazgeçilebilir olduğu için konuğu kazanmak da kaybetmek de kolaydır: beklentisi boşa çıkan konuk bir daha gelmez.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-090",
+        "gt2-2-091"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-084",
+      "konu": "2.1.2",
+      "terim": "Soyut olma",
+      "ingilizce": "Intangibility",
+      "tanim": "Turizmde satın alınan şeyin elle tutulan bir mal değil, bir hizmet ve deneyim olmasıdır.",
+      "ornek": "Bir hafta otelde kalan konuk ayrılırken odayı yanında götüremez; yanında yalnız fotoğraflar ve anılar vardır.",
+      "sektor": "Konuk ürünü satın almadan önce deneyemez; fotoğrafa, yoruma ve verilen söze güvenir. Tanıtımda gösterilenle karşılaşılan aynı değilse hayal kırıklığı büyük olur. Dürüst tanıtım bu yüzden işin temelidir.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-085",
+        "gt2-2-087"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-085",
+      "konu": "2.1.2",
+      "terim": "Depolanamama",
+      "ingilizce": "Perishability",
+      "tanim": "Turizm hizmetinin saklanıp sonradan satılamamasıdır; satılmayan zaman bir daha geri getirilemez.",
+      "ornek": "Bu gece boş kalan otel odası ve boş kalkan uçak koltuğu yarın yeniden satılamaz; o gecenin ve o uçuşun geliri kaybolmuştur.",
+      "sektor": "Oteller boş oda kalmasın diye erken rezervasyon indirimi ve son dakika fırsatı sunar. İptal edilen bir rezervasyonun sisteme hemen işlenmesi önemlidir: geç işlenen iptal, satılabilecek odayı boş bırakır.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-086",
+        "gt2-2-030"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-086",
+      "konu": "2.1.2",
+      "terim": "Üretim ve tüketimin eş zamanlılığı",
+      "ingilizce": "Inseparability of production and consumption",
+      "tanim": "Hizmetin, personel onu sunduğu anda konuk tarafından tüketilmesidir; üretim ile tüketim aynı anda gerçekleşir.",
+      "ornek": "Garson çorbayı masaya koyarken hizmet hem üretilir hem tüketilir; fabrikadaki gibi önce üretip kontrol ettikten sonra satma imkânı yoktur.",
+      "sektor": "Hata konuğun gözü önünde yapılır; hatalı hizmet geri çağrılıp onarılamaz. Bu yüzden turizmde iş ilk seferde doğru yapılır; eğitim ve hazırlık konuk gelmeden tamamlanır.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-085",
+        "gt2-2-088"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-087",
+      "konu": "2.1.2",
+      "terim": "Yerinde tüketim",
+      "ingilizce": "Consumption at the point of production",
+      "tanim": "Turistik ürünün turistin bulunduğu yere götürülememesi, turistin ürünün bulunduğu yere gelmesinin gerekmesidir.",
+      "ornek": "Pamukkale travertenleri kamyona yüklenip başka şehre gönderilemez; görmek isteyen Denizli’ye gelir.",
+      "sektor": "Hizmet depolanamadığı gibi taşınamaz da. Ürün yerinde kaldığı için yol, havalimanı ve ulaşım hizmetleri belirleyicidir: ulaşılamayan güzellik satılamaz.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-085",
+        "gt2-2-076"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-088",
+      "konu": "2.1.2",
+      "terim": "İnsan odaklılık",
+      "ingilizce": "People-centred service",
+      "tanim": "Turizm hizmetinin insan emeğiyle üretilmesi ve kalitesini çalışanın tutumunun, ilgisinin ve güler yüzünün belirlemesidir.",
+      "ornek": "Aynı otelde aynı oda: konuk bir gün güler yüzle, ertesi gün yüzüne bile bakılmadan karşılanır. Oda değişmemiştir; konuğun otel hakkındaki düşüncesi değişir.",
+      "sektor": "Turizm emek yoğun bir sektördür; makine yatağı yapabilir ama konuğa ‘Hoş geldiniz’ diyemez. Binayı her yatırımcı yaptırabilir; farkı yaratan, içindeki insandır. O insan sensin.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-086",
+        "gt2-2-089"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-089",
+      "konu": "2.1.2",
+      "terim": "Hizmetin değişkenliği",
+      "ingilizce": "Variability of service",
+      "tanim": "Aynı hizmetin, onu sunan kişiye, zamana ve koşullara göre her seferinde farklı kalitede ortaya çıkabilmesidir.",
+      "ornek": "Aynı restoranda sabah vardiyasındaki garson siparişi dakikasında getirir; akşam vardiyasındaki unutur. Konuk iki ayrı restorana gitmiş gibi olur.",
+      "sektor": "Fabrikada bantlardan çıkan ürünler birbirinin aynıdır; hizmette iki sunum aynı olmaz. Oteller bu farkı azaltmak için standartlar yazar ve personelini eğitir: kim sunarsa sunsun konuk aynı özeni bulmalıdır.",
+      "iliskili": [
+        "gt2-2-088",
+        "gt2-2-086",
+        "gt2-2-084"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-090",
+      "konu": "2.1.2",
+      "terim": "Talebin mevsimlik olması",
+      "ingilizce": "Seasonality of demand",
+      "tanim": "Turizm talebinin yıl boyunca eşit dağılmaması; yaz tatili, bayram gibi belirli dönemlerde yoğunlaşmasıdır.",
+      "ornek": "Ağustos ayında Çeşme’de boş oda bulmak zordur; şubat ayında aynı sokaktaki otellerin çoğu kapalıdır.",
+      "sektor": "Yoğun dönemde fiyat yükselir, personel alınır; sakin dönemde tesis boş kalır, iş azalır. İşletmeler kongre, termal ve kış turizmi gibi seçeneklerle sezonu uzatmaya çalışır.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-009",
+        "gt2-2-085"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-091",
+      "konu": "2.1.2",
+      "terim": "Öngörülemeyen değişkenlerden etkilenme",
+      "ingilizce": "Sensitivity to external events",
+      "tanim": "Önceden kestirilemeyen çevresel, ekonomik ve politik olayların turizmi öteki sektörlerden daha çok etkilemesidir.",
+      "ornek": "Bir bölgede orman yangını çıktığı haberi yayılır; yangın otellere uzak olsa bile o hafta rezervasyon iptalleri art arda gelir.",
+      "sektor": "Tatil vazgeçilebilir bir istek olduğu için turist en küçük risk haberinde planını değiştirir. İşletmeler bu yüzden tek pazara ve tek sezona bağlı kalmamaya, kötü günler için hazırlıklı olmaya çalışır.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-083",
+        "gt2-2-080"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-092",
+      "konu": "2.1.2",
+      "terim": "Büyük sermaye gereksinimi",
+      "ingilizce": "High capital requirement",
+      "tanim": "Turizm yatırımlarının arsa, bina, donanım ve personel için öteki sektörlere göre büyük para gerektirmesidir.",
+      "ornek": "Bir tatil köyü kurmak için arazi alınır, yüzlerce oda, havuzlar ve mutfaklar yapılır, mobilya döşenir; ilk konuk gelmeden önce büyük harcama yapılmıştır.",
+      "sektor": "Yatırım kendini yıllar içinde geri öder; bu yüzden boş geçen her gece pahalıdır. Çalışanın eşyayı ve binayı özenle kullanması, bu büyük yatırımı korumak demektir.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-085",
+        "gt2-2-093"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-093",
+      "konu": "2.1.2",
+      "terim": "Sektörlerle bütünleşik yapı",
+      "ingilizce": "Integration with other sectors",
+      "tanim": "Turizmin tarım, inşaat, tekstil, enerji ve teknoloji gibi birçok sektörle iç içe çalışması, onları doğrudan ya da dolaylı etkilemesidir.",
+      "ornek": "Bir otelin tek günü: kahvaltıdaki peynir çiftçiden, havlular tekstil atölyesinden, mobilya marangozdan, rezervasyon sistemi yazılım firmasından gelir.",
+      "sektor": "Turizm canlanınca ona mal ve hizmet satan sektörler de canlanır; turistik işletme bu yolla bulunduğu yerin kalkınmasına yardım eder. Oteller yerel çiftçiden almayı bırakırsa ilk zararı bölge tarımı görür.",
+      "iliskili": [
+        "gt2-2-082",
+        "gt2-2-079",
+        "gt2-2-081"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-094",
+      "konu": "2.2",
+      "terim": "Turizmde yeni yaklaşımlar",
+      "ingilizce": "New approaches in tourism",
+      "tanim": "Çevre sorunları, teknolojideki gelişmeler ve turist beklentilerindeki değişim sonucunda ortaya çıkan; doğayı korumayı, teknolojiden yararlanmayı ve turizmin uzun süre sürmesini amaçlayan anlayışlardır.",
+      "ornek": "Bir aile tatilini telefondan planlar, gideceği müzeyi önce internetten gezer ve kalabalık bir sahil yerine doğa içinde küçük bir tesis seçer.",
+      "sektor": "Ders kitabı beş başlık sayar: sürdürülebilir turizm, ekoturizm, sanal müzeler, dijital turizm ve uzay turizmi. Bugünün konuğu yalnız gezip dinlenmek istemez; doğaya zarar vermeyen ve farklı bir deneyim arar.",
+      "iliskili": [
+        "gt2-2-095",
+        "gt2-2-111",
+        "gt2-2-121"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-095",
+      "konu": "2.2.1",
+      "terim": "Sürdürülebilirlik",
+      "ingilizce": "Sustainability",
+      "tanim": "Bugünün ihtiyaçlarını karşılarken gelecek nesillerin kendi ihtiyaçlarını karşılama imkânından ve doğal kaynaklardan ödün vermemektir.",
+      "ornek": "Bir köy ormanından her yıl ancak yeniden yetişebilecek kadar ağaç keser; torunları da aynı ormandan yararlanır.",
+      "sektor": "Dünyanın kaynakları sınırsız değildir: doğa, su, toprak ve kültürel değerler birer mirastır. Sürdürülebilirlik doğa, toplum ve ekonomi arasında hassas bir denge kurmaktır; denge bozulursa ekonomi de zarar görür.",
+      "iliskili": [
+        "gt2-2-096",
+        "gt2-2-098",
+        "gt2-2-099"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-096",
+      "konu": "2.2.1",
+      "terim": "Sürdürülebilir turizm uygulamaları",
+      "ingilizce": "Sustainable tourism practices",
+      "tanim": "Turizmin doğaya, kültürel değerlere ve yerel yaşama zarar vermeden yapılması için işletmelerin ve turistlerin yerine getirdiği somut davranışlardır.",
+      "ornek": "Bir kasabaya gelen turist hediyeliğini köy pazarındaki kadın üreticiden alır, yöre lokantasında yer, çöpünü ayırarak atar.",
+      "sektor": "Başlıcaları: su ve elektriği tasarruflu kullanmak, atıkları geri dönüşüme ayırmak, tarihî yapıları korumak, yerel halktan alışveriş yapmak ve yöre insanına iş vermek. Böylece turizmin geliri yörede kalır, turizm de uzun yıllar sürer.",
+      "iliskili": [
+        "gt2-2-095",
+        "gt2-2-097",
+        "gt2-2-098"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-097",
+      "konu": "2.2.1",
+      "terim": "Çevre dostu konaklama işletmesi",
+      "ingilizce": "Eco-friendly accommodation",
+      "tanim": "Suyu ve enerjiyi tasarruflu kullanan, atığını azaltıp ayrıştıran ve bulunduğu doğal çevreyi koruyarak hizmet veren konaklama tesisidir.",
+      "ornek": "Bir otelde sıcak su güneş enerjisiyle ısıtılır, yağmur suyu toplanıp bahçe sulamada kullanılır, odalarda tek kullanımlık plastik yerine yeniden doldurulan şişeler bulunur.",
+      "sektor": "Birçok otel banyoya bir kart koyar: konuk havlusunu askıya asarsa havlu değiştirilmez, yere bırakırsa değiştirilir. Kat görevlisi bu standarda uyar; asılı havluyu değiştirmek suyu, deterjanı ve enerjiyi boşa harcamaktır.",
+      "iliskili": [
+        "gt2-2-096",
+        "gt2-2-095",
+        "gt2-2-102"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-098",
+      "konu": "2.2.1",
+      "terim": "Ekoturizm",
+      "ingilizce": "Ecotourism",
+      "tanim": "Sürdürülebilir turizmin doğayla ilgili bölümüdür; doğayı doğrudan deneyimlemeyi, biyolojik çeşitliliğe zarar vermemeyi ve çevre bilinci kazanmayı amaçlar.",
+      "ornek": "Hafta sonu, bir yayla: küçük bir grup rehber eşliğinde orman yolunda yürür, bitkileri tanır, akşam doğaya zarar vermeden kamp kurar.",
+      "sektor": "İnsanlar orman, dağ, göl ve millî park gibi alanlarda doğaya zarar vermeden vakit geçirir. Gruplar küçük tutulur, rehber yöreyi iyi bilen biridir; kazanç yöre halkıyla paylaşılır.",
+      "iliskili": [
+        "gt2-2-099",
+        "gt2-2-100",
+        "gt2-2-102"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-099",
+      "konu": "2.2.1",
+      "terim": "Ekoturizm ile sürdürülebilir turizm farkı",
+      "ingilizce": "Ecotourism versus sustainable tourism",
+      "tanim": "Sürdürülebilir turizmin bütün turizm türlerine uygulanabilen genel bir yaklaşım, ekoturizmin ise onun doğada yapılan bölümü olmasıdır.",
+      "ornek": "Şehir merkezindeki bir otelin su tasarrufu yapması sürdürülebilir turizmdir ama ekoturizm değildir; göl kenarında kuşlara zarar vermeden gözlem yapmak ise ikisidir.",
+      "sektor": "Akılda tutmanın yolu: her ekoturizm faaliyeti sürdürülebilir olmak zorundadır, ama her sürdürülebilir turizm faaliyeti ekoturizm değildir. İkisinin ortak amacı çevreyi korumak, yerel halkı desteklemek ve kültürel mirası yaşatmaktır.",
+      "iliskili": [
+        "gt2-2-098",
+        "gt2-2-096",
+        "gt2-2-095"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-100",
+      "konu": "2.2.1",
+      "terim": "Ekoturizmde biyolojik çeşitliliğin korunması",
+      "ingilizce": "Protecting biodiversity in ecotourism",
+      "tanim": "Ekoturizmin dayandığı bitki ve hayvan türlerinin ve yaşam ortamlarının, ziyaretçilerin davranışıyla ve koruma kurallarıyla zarar görmeden sürdürülmesidir.",
+      "ornek": "Balıkesir’deki Manyas Kuş Cenneti’nde ziyaretçiler gözlem kulesinden dürbünle çok sayıda kuş türünü izler.",
+      "sektor": "Ekoturizmin sattığı şey doğanın bu zenginliğidir: kuşu, çiçeği, ormanı görmeye gelinir. Tür azalırsa ziyaretçi de azalır; doğayı korumak burada işin kendisini korumaktır. Biyolojik çeşitlilik kavramı 4. öğrenme biriminde ayrıca işlenir.",
+      "iliskili": [
+        "gt2-2-098",
+        "gt2-2-101",
+        "gt2-2-102"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-101",
+      "konu": "2.2.1",
+      "terim": "Ekoturizm alanları",
+      "ingilizce": "Ecotourism areas",
+      "tanim": "Orman, dağ, göl ve millî park gibi, ziyaretçilerin doğaya zarar vermeden vakit geçirdiği doğal alanlardır.",
+      "ornek": "Antalya’daki Köprülü Kanyon Millî Parkı’na gelen ziyaretçiler giriş kapısında kuralları öğrenir, işaretli parkurda yürür ve çöplerini yanlarında geri götürür.",
+      "sektor": "Millî park, devletin koruma altına aldığı doğa alanıdır; orada koruma önceliklidir: nerede yürüneceği, nerede kamp kurulacağı ve ateş yakılıp yakılamayacağı kurallarla belirlenir; rehber ve tesis çalışanı bu kuralları bilir ve hatırlatır.",
+      "iliskili": [
+        "gt2-2-098",
+        "gt2-2-100",
+        "gt2-2-102"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-102",
+      "konu": "2.2.1",
+      "terim": "Ekoturistin davranış kuralları",
+      "ingilizce": "Code of conduct for ecotourists",
+      "tanim": "Doğada vakit geçiren ziyaretçinin çöpünü toplaması, bitkilere zarar vermemesi ve yaban hayatını rahatsız etmemesi gibi uyması beklenen temel davranışlardır.",
+      "ornek": "Yürüyüş molasında grup yediklerinin ambalajını çantasına koyar; kimse çiçek koparmaz, kuş yuvasına yaklaşmaz, yüksek sesle müzik açmaz.",
+      "sektor": "Kısaca: geldiğin gibi bırak. Kurala uymayan konuk görülürse kırıcı olmadan, nazikçe hatırlatılır ve rehbere haber verilir. Koparılan tek çiçek küçük görünür; ama aynı yoldan her yıl binlerce kişi geçer.",
+      "iliskili": [
+        "gt2-2-098",
+        "gt2-2-100",
+        "gt2-2-101"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-103",
+      "konu": "2.2.1",
+      "terim": "Agroturizm (çiftlik turizmi)",
+      "ingilizce": "Agritourism",
+      "tanim": "Ziyaretçilerin bir çiftlikte ya da köy evinde konakladığı, tarım ve hayvancılık işlerini yerinde görüp bunlara katıldığı turizm türüdür.",
+      "ornek": "Ekim ayı, Ege’de bir köy: şehirden gelen bir aile zeytin hasadına katılır, akşam köy evinde kendi topladığı zeytinin yağıyla hazırlanan yemeği yer.",
+      "sektor": "Gelir doğrudan üreticiye ve köye kalır; şehirli konuk sofrasındaki ürünün nereden geldiğini öğrenir. Kırsal turizm tesislerinin sunduğu deneyimin özüdür: satılan şey lüks değil, köy yaşamının kendisidir.",
+      "iliskili": [
+        "gt2-2-098",
+        "gt2-2-096",
+        "gt2-2-071"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-104",
+      "konu": "2.2.1",
+      "terim": "Yavaş şehir (Cittaslow)",
+      "ingilizce": "Cittaslow (slow city)",
+      "tanim": "Yerel kimliğini, mutfağını, el sanatlarını ve sakin yaşamını korumayı taahhüt eden küçük kentlerin oluşturduğu, İtalya’da doğmuş uluslararası ağın üyesi olan kenttir.",
+      "ornek": "İzmir’in Seferihisar ilçesi Türkiye’nin ilk yavaş şehirlerinden biridir; ziyaretçiler üretici pazarında köylü kadınların tezgâhlarından alışveriş yapar.",
+      "sektor": "Amblemi salyangozdur. Hız ve kalabalık yerine yerel üretimi, yöre mutfağını ve çevreyi öne çıkarır; bu yönüyle sürdürülebilir turizmin kent ölçeğindeki örneğidir. Unvan kazanan kentin tanınırlığı ve ziyaretçisi artar.",
+      "iliskili": [
+        "gt2-2-096",
+        "gt2-2-095",
+        "gt2-2-072"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-105",
+      "konu": "2.2.2",
+      "terim": "Sanal müze",
+      "ingilizce": "Virtual museum",
+      "tanim": "Müzelerde bulunan eserlerin dijital ortama aktarılmasıyla oluşturulan, internet üzerinden gezilebilen çevrim içi müzedir.",
+      "ornek": "Hakkâri’de bir öğrenci evindeki bilgisayardan İstanbul’daki bir müzenin salonlarını dolaşır, eserleri yakınlaştırarak inceler.",
+      "sektor": "Uzaklık, maddi imkânsızlık ya da fiziksel engel nedeniyle müzeye gidemeyenler için büyük kolaylıktır. Turizmi de besler: gideceği şehrin müzesini önceden gezen kişi bilgi sahibi olur ve gerçeğini görme isteği duyar.",
+      "iliskili": [
+        "gt2-2-106",
+        "gt2-2-107",
+        "gt2-2-059"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-106",
+      "konu": "2.2.2",
+      "terim": "Duvarsız müze",
+      "ingilizce": "Museum without walls",
+      "tanim": "Müzenin yalnız binasıyla sınırlı kalmayıp dijital ortam sayesinde her yerden ulaşılabilir hâle gelmesini anlatan anlayıştır.",
+      "ornek": "Müze akşam 17.00’de kapısını kilitler; ama internetteki salonları gece yarısı da açıktır ve başka bir ülkeden gezilmektedir.",
+      "sektor": "Müzelerde teknoloji önce güvenlik için kullanılan kamera ve bilgisayar sistemleriyle başladı; sonra tanıtım ve bilgi verme amacıyla gelişti. Bugün müze çok daha fazla kişiye ulaşır ve kültürel değerlere erişim kolaylaşır.",
+      "iliskili": [
+        "gt2-2-105",
+        "gt2-2-107",
+        "gt2-2-120"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-107",
+      "konu": "2.2.2",
+      "terim": "Bakanlığın sanal müze uygulaması",
+      "ingilizce": "Ministry of Culture and Tourism virtual museum platform",
+      "tanim": "Kültür ve Turizm Bakanlığının, Türkiye’deki müze ve ören yerlerinin internet üzerinden gezilmesini sağlayan çevrim içi hizmetidir.",
+      "ornek": "Tarih dersinde öğretmen akıllı tahtada sanalmuze.gov.tr adresini açar; sınıf bir müzenin salonlarını yerinden kalkmadan dolaşır.",
+      "sektor": "Turizm çalışanı için de kaynaktır: konuğa önereceğin müzeyi önce buradan gezersen ne anlatacağını bilirsin. Sanal gezi gerçeğinin yerini tutmaz; çoğu zaman gerçeğini görme isteğini artırır.",
+      "iliskili": [
+        "gt2-2-105",
+        "gt2-2-106",
+        "gt2-2-060"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-108",
+      "konu": "2.2.2",
+      "terim": "Sanal gerçeklik (VR)",
+      "ingilizce": "Virtual reality (VR)",
+      "tanim": "Özel bir gözlük aracılığıyla kullanıcıyı bütünüyle dijital olarak oluşturulmuş bir ortamın içindeymiş gibi hissettiren teknolojidir.",
+      "ornek": "Müzede gözlüğü takan ziyaretçi kendini antik bir tapınağın ortasında bulur; başını çevirdikçe sütunları, tavanı ve avluyu görür.",
+      "sektor": "Ziyaretçi gerçekte dokunması yasak olan bir eseri her açıdan inceleyebilir. Oteller ve acenteler de kullanır: konuk odayı ya da gideceği yeri satın almadan önce içinde dolaşır gibi görebilir.",
+      "iliskili": [
+        "gt2-2-109",
+        "gt2-2-110",
+        "gt2-2-118"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-109",
+      "konu": "2.2.2",
+      "terim": "Artırılmış gerçeklik (AR)",
+      "ingilizce": "Augmented reality (AR)",
+      "tanim": "Telefon ya da tablet kamerasıyla bakılan gerçek görüntünün üzerine dijital bilgi, resim ya da animasyon ekleyen teknolojidir.",
+      "ornek": "Müzede telefonunu bir fosile tutan çocuk, ekranda o fosilin canlanıp yürüyen bir dinozora dönüştüğünü görür.",
+      "sektor": "Sanal gerçeklikten farkı: gerçek dünya kaybolmaz, üstüne bilgi eklenir. Ören yerinde yıkık bir tapınağa telefonla bakan ziyaretçi yapının sağlam hâlini görebilir; öğrenme oyuna dönüşür.",
+      "iliskili": [
+        "gt2-2-108",
+        "gt2-2-110",
+        "gt2-2-105"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-110",
+      "konu": "2.2.2",
+      "terim": "Metaverse (sanal evren)",
+      "ingilizce": "Metaverse",
+      "tanim": "Sanal gerçeklik ve artırılmış gerçeklik gibi teknolojileri bir araya getiren, insanların dijital karakterleriyle içinde buluşup etkileşim kurduğu çevrim içi dijital evrendir.",
+      "ornek": "Farklı ülkelerdeki üç arkadaş kendi seçtikleri dijital karakterlerle aynı sanal müzede buluşur, rehberi birlikte dinler ve sergi hakkında sohbet eder.",
+      "sektor": "Kullanıcının seçtiği dijital karaktere avatar denir. Müzeler böylece eserlerin durduğu sessiz salonlar olmaktan çıkar, ziyaretçiyi merkeze alan etkileşimli keşif alanlarına dönüşür.",
+      "iliskili": [
+        "gt2-2-108",
+        "gt2-2-109",
+        "gt2-2-105"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-111",
+      "konu": "2.2.3",
+      "terim": "Dijital turizm",
+      "ingilizce": "Digital tourism",
+      "tanim": "Seyahat öncesinde, seyahat sırasında ve sonrasında yapılan işlemlerin telefon, bilgisayar ve internet gibi dijital araçlarla gerçekleştirilmesidir.",
+      "ornek": "Bir çift otelini telefondan ayırtır, şehirde harita uygulamasıyla yolunu bulur, dönüşte fotoğraflarını paylaşıp otele yorum yazar.",
+      "sektor": "Dijital sistemler turizmi daha hızlı ve ulaşılabilir kılmıştır: konuk zamandan kazanır, seçenekleri karşılaştırır. Turist artık yalnız hizmet alan değil, deneyimini paylaşarak sürece katılan kişidir.",
+      "iliskili": [
+        "gt2-2-112",
+        "gt2-2-113",
+        "gt2-2-115"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-112",
+      "konu": "2.2.3",
+      "terim": "Dijital turizmin üç aşaması",
+      "ingilizce": "Three stages of digital tourism",
+      "tanim": "Seyahatin öncesinde planlama ve rezervasyonda, sırasında yön bulma ve bilgi almada, sonrasında paylaşım ve yorumda dijital araçların kullanılmasıdır.",
+      "ornek": "Öncesi: uçuş ve otel fiyatlarını karşılaştırmak. Sırası: müzede karekodu okutup eserin bilgisini dinlemek. Sonrası: restorana puan vermek.",
+      "sektor": "Otel konuğuyla üç aşamada da dijital ortamda karşılaşır: rezervasyon alırken, konaklama sırasında mesajına cevap verirken ve ayrıldıktan sonra yorumunu okurken. Hizmet artık kapıdan girmeden başlar, çıktıktan sonra da sürer.",
+      "iliskili": [
+        "gt2-2-111",
+        "gt2-2-113",
+        "gt2-2-116"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-113",
+      "konu": "2.2.3",
+      "terim": "Çevrim içi rezervasyon",
+      "ingilizce": "Online booking",
+      "tanim": "Otel odası, uçak bileti ya da tur gibi hizmetlerin internet üzerinden, yüz yüze görüşmeden ayırtılmasıdır.",
+      "ornek": "Gece 23.00: bir öğretmen evindeki koltuktan üç oteli karşılaştırır, birini seçer ve birkaç dakikada rezervasyonunu tamamlar.",
+      "sektor": "Konuk günün her saatinde işlem yapar; resepsiyona düşen kayıtların büyük bölümü buradan gelir. İnternetten gelen rezervasyon da telefonla alınan kadar özenle kontrol edilir: tarih, kişi sayısı ve oda tipi doğru mu?",
+      "iliskili": [
+        "gt2-2-111",
+        "gt2-2-112",
+        "gt2-2-114"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-114",
+      "konu": "2.2.3",
+      "terim": "E-bilet",
+      "ingilizce": "E-ticket",
+      "tanim": "Kâğıda basılmadan, yolcunun bilgileriyle birlikte elektronik ortamda kayıtlı tutulan bilettir.",
+      "ornek": "Yolcu telefonuna gelen bileti havalimanında görevliye gösterir; kimliği kontrol edilir ve uçuş kartı verilir.",
+      "sektor": "Kaybolmaz, evde unutulmaz; değişiklik ve iptal sistem üzerinden yapılır. Kayıt yolcunun adına tutulduğu için kimlik ya da pasaport yine yanında olmalı ve bilgiler birbirini tutmalıdır.",
+      "iliskili": [
+        "gt2-2-113",
+        "gt2-2-032",
+        "gt2-2-111"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "gt2-2-115",
+      "konu": "2.2.3",
+      "terim": "Sosyal medyanın seyahat tercihine etkisi",
+      "ingilizce": "Influence of social media on travel choices",
+      "tanim": "İnsanların gezdikleri yerlerle ilgili paylaşımlarının, başkalarının nereye gideceği konusundaki kararını etkilemesi ve bazı yerleri daha popüler hâle getirmesidir.",
+      "ornek": "Bir yayladaki salıncağın fotoğrafı sosyal medyada yayılır; ertesi yaz o yaylaya gelen ziyaretçi sayısı belirgin biçimde artar.",
+      "sektor": "Konuk artık işletmenin gönüllü tanıtımcısıdır: güzel bir kahvaltı masası da özensiz bir oda da fotoğrafıyla birlikte binlerce kişiye ulaşır. Her ayrıntı görülecekmiş gibi hazırlanır.",
+      "iliskili": [
+        "gt2-2-111",
+        "gt2-2-116",
+        "gt2-2-117"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-116",
+      "konu": "2.2.3",
+      "terim": "Çevrim içi yorum",
+      "ingilizce": "Online review",
+      "tanim": "Konukların aldıkları hizmetle ilgili görüş ve puanlarını internetteki platformlarda herkesin görebileceği biçimde yazmasıdır.",
+      "ornek": "Tatil planlayan bir aile iki otel arasında kalır; yorumlarında ‘personel çok ilgili’ yazan oteli seçer.",
+      "sektor": "Yeni konuk karar verirken önce yorumlara bakar; yorum yoksa karar vermek zorlaşır. Yorumları işletme adına yalnız yetkili kişi yanıtlar. Çalışan kendi hesabından cevap yazmaz; gördüğü yorumu amirine iletir.",
+      "iliskili": [
+        "gt2-2-115",
+        "gt2-2-117",
+        "gt2-2-112"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-117",
+      "konu": "2.2.3",
+      "terim": "Dijital tanıtım",
+      "ingilizce": "Digital marketing",
+      "tanim": "Turizm işletmelerinin web sitesi ve sosyal medya aracılığıyla hizmetlerini çok sayıda insana duyurmasıdır.",
+      "ornek": "Küçük bir Ayvalık pansiyonu odalarının fotoğraflarını ve kahvaltı sofrasını sosyal medyada paylaşır; rezervasyonların çoğu bu sayfadan gelmeye başlar.",
+      "sektor": "Küçük işletmeyi de büyüklerle aynı vitrine çıkarır ve rekabette güçlendirir. Sosyal medyada bulunmayan işletme özellikle genç konuğa ulaşmakta zorlanır. Fotoğraf gerçeği göstermelidir: abartılı tanıtım hayal kırıklığı getirir.",
+      "iliskili": [
+        "gt2-2-115",
+        "gt2-2-116",
+        "gt2-2-111"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-118",
+      "konu": "2.2.3",
+      "terim": "Sanal tur",
+      "ingilizce": "Virtual tour",
+      "tanim": "Bir otelin, müzenin ya da şehrin, ekranda her yöne dönülerek gezilebilen dijital görüntüsüdür.",
+      "ornek": "Düğün için salon arayan bir çift otelin web sitesindeki sanal turla balo salonunu ve bahçeyi dolaşır, görüşmeye öyle gelir.",
+      "sektor": "Konuk satın almadan önce göremediği ürünü kısmen görmüş olur; soyut olan hizmet biraz somutlaşır. Odayı önceden gören konuğun beklentisi gerçeğe yakın olur, şikâyet azalır.",
+      "iliskili": [
+        "gt2-2-108",
+        "gt2-2-105",
+        "gt2-2-113"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-119",
+      "konu": "2.2.3",
+      "terim": "Yapay zekâ destekli rehber",
+      "ingilizce": "AI-powered guide",
+      "tanim": "Turistin sorularını yanıtlayan, gezdiği yer hakkında bilgi veren ve öneride bulunan, yapay zekâyla çalışan dijital uygulamadır.",
+      "ornek": "Müzede bir ziyaretçi telefonundaki uygulamaya eserin adını sorar; uygulama eserin hangi döneme ait olduğunu kendi dilinde anlatır.",
+      "sektor": "Günün her saatinde ve birçok dilde bilgi verebilir. İnsanın yerini tutmaz: konuğun yüzündeki yorgunluğu gören, programı ona göre esneten ve güven veren yine insandır.",
+      "iliskili": [
+        "gt2-2-111",
+        "gt2-2-118",
+        "gt2-2-120"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-120",
+      "konu": "2.2.3",
+      "terim": "Dijital turizmde kapsayıcılık",
+      "ingilizce": "Inclusivity in digital tourism",
+      "tanim": "Fiziksel olarak seyahat edemeyen ya da zorlanan kişilerin sanal ortamlar sayesinde turistik yerlere ulaşabilmesi, turizmin daha çok insanı içine almasıdır.",
+      "ornek": "Tekerlekli sandalye kullanan bir kişi basamaklarla çıkılan bir antik tiyatroyu sanal turla gezer; ziyaretinden önce hangi bölümlerin kendisi için uygun olduğunu da öğrenir.",
+      "sektor": "Dijital turizm engelli bireyler için önemli bir fırsattır. Web sitesinde rampa, asansör ve engelli odası bilgisini açıkça yazan otel, bu konuğun güvenini daha gelmeden kazanır.",
+      "iliskili": [
+        "gt2-2-111",
+        "gt2-2-105",
+        "gt2-2-118"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-121",
+      "konu": "2.2.4",
+      "terim": "Uzay turizmi",
+      "ingilizce": "Space tourism",
+      "tanim": "İnsanların uzayı keşfetmek ve benzersiz bir deneyim yaşamak amacıyla uzaya yaptığı seyahatlerdir.",
+      "ornek": "Bilimsel görevi olmayan bir yolcu, yalnız Dünya’yı uzaydan görmek ve ağırlıksız kalmayı yaşamak için bir uzay aracında yerini alır.",
+      "sektor": "Bir zamanlar yalnız bilim insanlarının yaptığı yolculuk, turizmin yeni bir alanı olmuştur; uzay artık yeni bir destinasyon olarak görülür. Gemi ve uçak turizmi nasıl değiştirdiyse uzay araçları da benzer bir değişimin başlangıcıdır.",
+      "iliskili": [
+        "gt2-2-122",
+        "gt2-2-123",
+        "gt2-2-125"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-122",
+      "konu": "2.2.4",
+      "terim": "Yörünge altı uçuş",
+      "ingilizce": "Suborbital flight",
+      "tanim": "Uzay aracının Dünya’nın çevresinde tam bir tur atmadan uzayın sınırına çıkıp kısa sürede geri döndüğü uçuştur.",
+      "ornek": "Araç yükselir, yolcular birkaç dakika boyunca ağırlıksız kalıp pencereden Dünya’nın eğimini izler; sonra araç yeryüzüne geri iner.",
+      "sektor": "Bugünkü uzay turizmi uçuşlarının önemli bölümü bu türdendir: yolculuk kısa sürer ve yolcu uzay aracında kalır. Yörüngede daha uzun kalan uçuşlar ve uzay otelleri ise daha ileri hedeflerdir.",
+      "iliskili": [
+        "gt2-2-121",
+        "gt2-2-123",
+        "gt2-2-125"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-123",
+      "konu": "2.2.4",
+      "terim": "Uzay simülasyonu",
+      "ingilizce": "Space simulation",
+      "tanim": "Sanal gerçeklik gibi teknolojilerle uzay yolculuğunun yeryüzünde, gerçeğine benzer biçimde yaşatılmasıdır.",
+      "ornek": "Bir bilim merkezinde ziyaretçi gözlüğü takar; uzayda süzülür, Dünya’yı uzaktan izler ve kendini bir uzay aracının içindeymiş gibi hisseder.",
+      "sektor": "Uzaya gitmek henüz herkes için mümkün değildir; simülasyon bu deneyimi geniş kitlelere açar. Uzay temalı merkezler ve sergiler bu sayede bugünden turist çeken eğlence işletmeleri hâline gelmiştir.",
+      "iliskili": [
+        "gt2-2-121",
+        "gt2-2-108",
+        "gt2-2-122"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-124",
+      "konu": "2.2.4",
+      "terim": "Alper Gezeravcı",
+      "ingilizce": "Alper Gezeravcı (first Turkish astronaut)",
+      "tanim": "Türkiye’nin uzaya çıkan ilk astronotudur; 2024 yılının ocak ayında başlayan görevle Uluslararası Uzay İstasyonu’na ulaşan ilk Türk vatandaşı olmuştur.",
+      "ornek": "Görev süresince Türkiye adına bilimsel deneyler yaptı; bu deneylerde uzay ortamının canlılar ve maddeler üzerindeki etkileri incelendi.",
+      "sektor": "Dikkat: Gezeravcı uzay turisti değildir, bilimsel görev yapan bir astronottur. Bu görev gençlerin uzaya ve bilime ilgisini artırmış, Türkiye’nin uzay çalışmalarına dikkat çekmiştir.",
+      "iliskili": [
+        "gt2-2-121",
+        "gt2-2-122",
+        "gt2-2-125"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "gt2-2-125",
+      "konu": "2.2.4",
+      "terim": "Uzay turizminin kısıtları",
+      "ingilizce": "Constraints on space tourism",
+      "tanim": "Çok yüksek maliyet, fırlatmaların çevreye etkisi, uzun ve zorlu hazırlık ile uzayda konaklama imkânının yetersizliği gibi, uzay turizminin yaygınlaşmasını zorlaştıran etkenlerdir.",
+      "ornek": "Uzaya gitmek isteyen bir kişi önce sağlık kontrolünden ve özel bir eğitimden geçer; biletin bedeli ise çoğu insanın karşılayamayacağı kadar yüksektir.",
+      "sektor": "Bu yüzden uzay turizmi bugün çok küçük bir kesime hitap eder. Teknoloji geliştikçe daha güvenli ve ulaşılabilir olması beklenir; çevreye etkisini azaltmak için daha temiz yakıtlar hedeflenmektedir.",
+      "iliskili": [
+        "gt2-2-121",
+        "gt2-2-122",
+        "gt2-2-053"
+      ],
+      "kontrol": null
+    }
+  ],
+  "sorular": [
+    {
+      "id": "gt2-2-s01",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdakilerden hangisi asli (temel) konaklama tesislerinden biridir?",
+      "secenekler": [
+        "Pansiyon",
+        "Kamping",
+        "Butik otel",
+        "Apart otel"
+      ],
+      "dogru": 2,
+      "aciklama": "Asli konaklama tesisleri otel, tatil köyü, butik otel ve moteldir. Pansiyon, kamping ve apart otel özel konaklama (yardımcı) tesisleri arasındadır."
+    },
+    {
+      "id": "gt2-2-s02",
+      "tur": "coktan-secmeli",
+      "soru": "İşlek kara yolları üzerinde kurulan, araçla yolculuk edenlerin mola verip gecelediği, otoparkı olan küçük otel hangisidir?",
+      "secenekler": [
+        "Motel",
+        "Hostel",
+        "Oberj",
+        "Pansiyon"
+      ],
+      "dogru": 0,
+      "aciklama": "Motelin adı ‘motor’ ve ‘hotel’ kelimelerinden gelir; yolcu aracını kapıya park eder, bir gece dinlenir ve yola devam eder."
+    },
+    {
+      "id": "gt2-2-s03",
+      "tur": "coktan-secmeli",
+      "soru": "Bağımsız daire ya da villa biçiminde olan ve konuğun kendi yemeğini hazırlayabilmesi için gerekli donanımı bulunan tesis hangisidir?",
+      "secenekler": [
+        "Butik otel",
+        "Kongre oteli",
+        "Havalimanı oteli",
+        "Apart otel"
+      ],
+      "dogru": 3,
+      "aciklama": "Apart otel ev konforu sağlar; mutfağı olduğu için uzun kalan ve kalabalık gelen konuklar tercih eder."
+    },
+    {
+      "id": "gt2-2-s04",
+      "tur": "coktan-secmeli",
+      "soru": "Yalnız yaz sezonunda açık olan ‘mevsimlik otel’, otellerin hangi ölçüte göre sınıflandırılmasının örneğidir?",
+      "secenekler": [
+        "Bulunduğu yer",
+        "Çalışma süresi",
+        "Hizmet kalitesi",
+        "Belgelendirme türü"
+      ],
+      "dogru": 1,
+      "aciklama": "Mevsimlik oteller ile yıl boyu açık şehir otelleri çalışma süresine göre ayrılır. Havalimanı oteli bulunduğu yere, yıldız ise hizmet kalitesine göre sınıflandırmanın örneğidir."
+    },
+    {
+      "id": "gt2-2-s05",
+      "tur": "dogru-yanlis",
+      "soru": "Türkiye’de otellerin kaç yıldızlı olacağına belediyeler karar verir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Yıldızı Kültür ve Turizm Bakanlığı verir; tesis Bakanlığın aradığı nitelikleri taşıdığı sürece sınıfını korur."
+    },
+    {
+      "id": "gt2-2-s06",
+      "tur": "coktan-secmeli",
+      "soru": "Butik oteli büyük otellerden ayıran temel özellik hangisidir?",
+      "secenekler": [
+        "Yalnız yaz aylarında hizmet vermesi",
+        "Az odayla kişiye özel hizmet sunması",
+        "Kara yolu kenarında kurulmuş olması",
+        "Konuğun yemeğini kendisinin pişirmesi"
+      ],
+      "dogru": 1,
+      "aciklama": "Butik otel özgün mimarisi ve dekorasyonuyla, sınırlı sayıda odasıyla konuğa kişiye özel ve samimi hizmet verir."
+    },
+    {
+      "id": "gt2-2-s07",
+      "tur": "coktan-secmeli",
+      "soru": "Tur operatörü için aşağıdakilerden hangisi doğrudur?",
+      "secenekler": [
+        "Hizmetleri önceden toplu alıp paketleyen toptancıdır.",
+        "Yalnız vize işlemleriyle uğraşan bir danışmanlık bürosudur.",
+        "Turisti yalnız kendi otelinde ağırlayan işletmedir.",
+        "Hava yolu şirketlerinin bilet fiyatını belirleyen kurumdur."
+      ],
+      "dogru": 0,
+      "aciklama": "Tur operatörü talep oluşmadan işletmelerle anlaşır, hizmetleri paket hâline getirir; toptancıdır. Seyahat acentesi ise bu ürünleri turiste satan perakendecidir."
+    },
+    {
+      "id": "gt2-2-s08",
+      "tur": "coktan-secmeli",
+      "soru": "Seyahat acentesi, turist ile hizmeti üreten işletme arasında aracılık yaptığında kazancını ne olarak alır?",
+      "secenekler": [
+        "Kira",
+        "Bahşiş",
+        "Komisyon",
+        "Vergi iadesi"
+      ],
+      "dogru": 2,
+      "aciklama": "Acente perakendecidir; sattığı hizmetin bedeli üzerinden komisyon alır."
+    },
+    {
+      "id": "gt2-2-s09",
+      "tur": "coktan-secmeli",
+      "soru": "Türkiye’de tur düzenleyip satabilen ve tur operatörlüğü işini de yürüten işletme hangisidir?",
+      "secenekler": [
+        "Belediye turizm bürosu",
+        "Hava yolu şirketi",
+        "Otelin rezervasyon bölümü",
+        "A grubu seyahat acentesi"
+      ],
+      "dogru": 3,
+      "aciklama": "Türkiye’de tur operatörü ile seyahat acentesini ayıran hukuki bir ayrım yoktur; operatörlük işini A grubu seyahat acenteleri yapar."
+    },
+    {
+      "id": "gt2-2-s10",
+      "tur": "coktan-secmeli",
+      "soru": "Biletleme yapılırken en çok dikkat edilmesi gereken nokta hangisidir?",
+      "secenekler": [
+        "Biletin mutlaka kâğıda basılıp imzalanması",
+        "Adın kimlikteki ya da pasaporttaki adla aynı yazılması",
+        "Yolcuya her zaman en pahalı koltuğun önerilip satılması",
+        "Biletin yolculuk günü havalimanında düzenlenmesi"
+      ],
+      "dogru": 1,
+      "aciklama": "Biletteki ad kimlik ya da pasaporttaki adla harfi harfine aynı olmalıdır; tek harflik hata yolcunun uçağa alınmamasına yol açabilir."
+    },
+    {
+      "id": "gt2-2-s11",
+      "tur": "dogru-yanlis",
+      "soru": "Tarifeli sefer, uçak dolmasa bile önceden ilan edilen gün ve saatte yapılır.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Tarifeli seferde kalkış yeri, varış yeri ve saati önceden bellidir; uçağın dolup dolmadığına bakılmaz."
+    },
+    {
+      "id": "gt2-2-s12",
+      "tur": "coktan-secmeli",
+      "soru": "Bir tur operatörünün paket tur yolcuları için uçak kiralamasıyla yapılan, belirli bir uçuş programına bağlı olmayan uçuş hangisidir?",
+      "secenekler": [
+        "Charter sefer",
+        "Tarifeli sefer",
+        "Aktarmalı sefer",
+        "Bölgesel sefer"
+      ],
+      "dogru": 0,
+      "aciklama": "Charter (sözleşmeli) seferde uçak bir grup ya da tur için kiralanır; tatil dönemindeki yoğun talebi karşılamak ve maliyeti düşürmek için tercih edilir."
+    },
+    {
+      "id": "gt2-2-s13",
+      "tur": "coktan-secmeli",
+      "soru": "Ulaşılabilirliği en yüksek olan ve en çok kullanılan ulaşım şekli hangisidir?",
+      "secenekler": [
+        "Hava yolu",
+        "Deniz yolu",
+        "Kara yolu",
+        "Demir yolu"
+      ],
+      "dogru": 2,
+      "aciklama": "Kara yolu uçağın ve trenin gitmediği yere de ulaşır; otobüs seferleri, araç kiralama ve özel transfer turistik kara yolu ulaşımının üç biçimidir."
+    },
+    {
+      "id": "gt2-2-s14",
+      "tur": "coktan-secmeli",
+      "soru": "Doğu Ekspresi hangi iki şehir arasında sefer yapar?",
+      "secenekler": [
+        "İstanbul ile Van",
+        "Ankara ile Kars",
+        "İzmir ile Erzurum",
+        "Ankara ile Sivas"
+      ],
+      "dogru": 1,
+      "aciklama": "Doğu Ekspresi Ankara ile Kars arasında çalışan bir ana hat trenidir; özellikle kış aylarında turistik amaçla yoğun ilgi görür."
+    },
+    {
+      "id": "gt2-2-s15",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdakilerden hangisi dijital turizmin ‘seyahat sonrası’ aşamasına örnektir?",
+      "secenekler": [
+        "Uçuş fiyatlarını karşılaştırmak",
+        "Otel odasını internetten ayırtmak",
+        "Şehirde harita uygulamasıyla yol bulmak",
+        "Otel hakkında çevrim içi yorum yazmak"
+      ],
+      "dogru": 3,
+      "aciklama": "Dijital araçlar seyahat öncesinde planlama ve rezervasyonda, sırasında yön bulma ve bilgi almada, sonrasında paylaşım ve yorumda kullanılır."
+    },
+    {
+      "id": "gt2-2-s16",
+      "tur": "dogru-yanlis",
+      "soru": "Tren ve toplu taşıma, kişi başına uçak ve özel araçtan daha fazla sera gazı salar.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Tersi doğrudur: uçak ve özel araç daha fazla salım yapar; toplu taşıma ve tren çevreye daha az zarar verir."
+    },
+    {
+      "id": "gt2-2-s17",
+      "tur": "coktan-secmeli",
+      "soru": "Karbon ayak izi neyi anlatır?",
+      "secenekler": [
+        "Bir bölgeye bir yıl içinde gelen yerli ve yabancı turist sayısını",
+        "Bir yolculukta harcanan toplam yakıt ücretini",
+        "Bir kişi ya da faaliyetin saldığı sera gazlarının toplamını",
+        "Bir tesisin kapladığı toplam arazi büyüklüğünü"
+      ],
+      "dogru": 2,
+      "aciklama": "Karbon ayak izi; bir kişinin, kurumun ya da faaliyetin atmosfere saldığı karbondioksit ve diğer sera gazlarının toplamıdır."
+    },
+    {
+      "id": "gt2-2-s18",
+      "tur": "coktan-secmeli",
+      "soru": "Eski uygarlıklardan kalan yapıların kalıntılarının bulunduğu yerde, çoğunlukla açık havada gezildiği alan hangisidir?",
+      "secenekler": [
+        "Ören yeri",
+        "Tema parkı",
+        "Gastronomi müzesi",
+        "Millî park"
+      ],
+      "dogru": 0,
+      "aciklama": "Ören yeri tarihî ve arkeolojik alandır; müzeden farkı eserlerin bulunduğu yerde gezilmesidir. Efes buna örnektir."
+    },
+    {
+      "id": "gt2-2-s19",
+      "tur": "coktan-secmeli",
+      "soru": "Eğlence işletmelerinin bir turizm bölgesine sağladığı başlıca katkı hangisidir?",
+      "secenekler": [
+        "Turistin geceleme ihtiyacını doğrudan karşılar.",
+        "Turistin vize işlemlerini yürütür.",
+        "Turisti havalimanından otele taşır.",
+        "Turistin bölgede daha uzun kalmasını sağlar."
+      ],
+      "dogru": 3,
+      "aciklama": "Eğlence işletmeleri bölgenin çekiciliğini artırır ve turistin daha uzun kalmasını sağlar; bu da turizm gelirini yükseltir."
+    },
+    {
+      "id": "gt2-2-s20",
+      "tur": "coktan-secmeli",
+      "soru": "Konuğun menüdeki yemekler arasından dilediğini seçtiği ve her ürün için ayrı ücret ödediği servis türü hangisidir?",
+      "secenekler": [
+        "Tabldot",
+        "Alakart",
+        "Açık büfe",
+        "Fast food"
+      ],
+      "dogru": 1,
+      "aciklama": "Alakart serviste yemek sipariş üzerine hazırlanır ve her ürün ayrı fiyatlandırılır. Tabldotta menü ve fiyat önceden bellidir."
+    },
+    {
+      "id": "gt2-2-s21",
+      "tur": "coktan-secmeli",
+      "soru": "Tabldot servisi tur grupları ve toplu yemekler için uygun kılan özellik hangisidir?",
+      "secenekler": [
+        "Konuğun yemeğini büfeden kendisinin alması",
+        "Her yemeğin ayrı ayrı fiyatlandırılması",
+        "Menünün ve fiyatın önceden belli olması",
+        "Yemeklerin tezgâhtan ayakta alınması"
+      ],
+      "dogru": 2,
+      "aciklama": "Tabldotta içerik önceden belirlenmiş ve fiyat sabittir: mutfak ne pişireceğini ve kaç porsiyon çıkaracağını bilir, servis hızlanır, israf azalır."
+    },
+    {
+      "id": "gt2-2-s22",
+      "tur": "coktan-secmeli",
+      "soru": "Yiyecek içecek işletmelerinde ‘kuver’ ne anlama gelir?",
+      "secenekler": [
+        "Hizmet verilen kişi sayısı ve bir kişilik servis takımı",
+        "Garsonun yemekten sonra masaya getirdiği hesap pusulasının adı",
+        "Mutfakta bir günde pişirilen yemek çeşidi sayısı",
+        "Açık büfede yemeklerin sergilendiği uzun masa"
+      ],
+      "dogru": 0,
+      "aciklama": "Kuver hem hizmet verilen kişi sayısını hem de masada bir kişi için hazırlanan takımı anlatır; işletmenin büyüklüğü kuver sayısıyla ölçülür."
+    },
+    {
+      "id": "gt2-2-s23",
+      "tur": "dogru-yanlis",
+      "soru": "Ulaştırma hizmetlerinde yaşanan bir aksama, konaklama işletmelerinin doluluğunu etkileyebilir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Turizm işletmeleri birbirine bağlıdır: turist ulaşamazsa otel boş kalır. Bu duruma karşılıklı bağımlılık denir."
+    },
+    {
+      "id": "gt2-2-s24",
+      "tur": "coktan-secmeli",
+      "soru": "Turizm endüstrisine neden ‘zincirleme hizmet sistemi’ denir?",
+      "secenekler": [
+        "Otellerin çoğu büyük bir otel zincirine bağlı olarak çalıştığı için",
+        "İşletmeler birbirini tamamlayıp ürünü birlikte oluşturduğu için",
+        "Turistler her yıl aynı tatil yerine gittiği için",
+        "Hizmetler yalnız tek bir işletmeden alındığı için"
+      ],
+      "dogru": 1,
+      "aciklama": "Konaklama, ulaştırma, seyahat, eğlence ve yeme içme işletmeleri birlikte çalışarak turistik ürünü oluşturur; bir halkadaki aksama bütün deneyimi etkiler."
+    },
+    {
+      "id": "gt2-2-s25",
+      "tur": "coktan-secmeli",
+      "soru": "Seyahat işletmeleri neden turizm endüstrisinin merkezinde gösterilir?",
+      "secenekler": [
+        "En çok personeli onlar çalıştırdığı için",
+        "En büyük binalara ve arazilere onlar sahip olduğu için",
+        "Yalnız yaz aylarında çalıştıkları için",
+        "Turistle öteki işletmeler arasında köprü olduğu için"
+      ],
+      "dogru": 3,
+      "aciklama": "Tur operatörü ve acenteler öteki işletmelerle anlaşmalar yapar, hizmetleri bir araya getirir ve turisti bu işletmelere yönlendirir."
+    },
+    {
+      "id": "gt2-2-s26",
+      "tur": "coktan-secmeli",
+      "soru": "‘Bu gece boş kalan oda yarın yeniden satılamaz.’ Bu cümle turizmin hangi özelliğini anlatır?",
+      "secenekler": [
+        "Soyut olma",
+        "Yerinde tüketim",
+        "Depolanamama",
+        "İnsan odaklılık"
+      ],
+      "dogru": 2,
+      "aciklama": "Hizmet saklanıp sonradan satılamaz; satılmayan zaman geri getirilemez. Erken rezervasyon ve son dakika indirimleri bu yüzden yapılır."
+    },
+    {
+      "id": "gt2-2-s27",
+      "tur": "coktan-secmeli",
+      "soru": "Konuk otelden ayrılırken odayı yanında götüremez; satın aldığı şey bir deneyimdir. Bu durum hangi özellikle açıklanır?",
+      "secenekler": [
+        "Soyut olma",
+        "Depolanamama",
+        "Büyük sermaye gereksinimi",
+        "Talebin mevsimlik olması"
+      ],
+      "dogru": 0,
+      "aciklama": "Turizmde satın alınan şey elle tutulan bir mal değil, hizmet ve deneyimdir. Konuk önceden deneyemediği için tanıtıma ve verilen söze güvenir."
+    },
+    {
+      "id": "gt2-2-s28",
+      "tur": "coktan-secmeli",
+      "soru": "Pamukkale’yi görmek isteyen kişinin Denizli’ye gelmek zorunda olması turizmin hangi özelliğidir?",
+      "secenekler": [
+        "İnsan odaklılık",
+        "Yerinde tüketim",
+        "Bacasız sanayi",
+        "Hizmetin değişkenliği"
+      ],
+      "dogru": 1,
+      "aciklama": "Turistik ürün turiste götürülemez; turist ürünün bulunduğu yere gelir. Ulaşım hizmetleri bu yüzden belirleyicidir."
+    },
+    {
+      "id": "gt2-2-s29",
+      "tur": "dogru-yanlis",
+      "soru": "Turizm talebinin yaz tatili ve bayram gibi belirli dönemlerde yoğunlaşması, turizmi öteki endüstrilerden ayıran özelliklerden biridir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Talebin mevsimlik olması ayırt edici özelliklerdendir: yoğun dönemde fiyat ve personel artar, sakin dönemde tesis boş kalır."
+    },
+    {
+      "id": "gt2-2-s30",
+      "tur": "coktan-secmeli",
+      "soru": "Hizmetin kalitesini çalışanın tutumunun ve güler yüzünün belirlemesi hangi özelliği anlatır?",
+      "secenekler": [
+        "Yerinde tüketim",
+        "Depolanamama",
+        "Soyut olma",
+        "İnsan odaklılık"
+      ],
+      "dogru": 3,
+      "aciklama": "Turizm emek yoğun bir sektördür; hizmeti insan üretir. Aynı odada kalan konuğun düşüncesini, karşılaştığı personelin tutumu değiştirir."
+    },
+    {
+      "id": "gt2-2-s31",
+      "tur": "coktan-secmeli",
+      "soru": "Ekoturizm ile sürdürülebilir turizm arasındaki ilişkiyi hangisi doğru anlatır?",
+      "secenekler": [
+        "Her ekoturizm sürdürülebilirdir; her sürdürülebilir turizm ekoturizm değildir.",
+        "Her sürdürülebilir turizm ekoturizmdir; her ekoturizm sürdürülebilir değildir.",
+        "İkisi aynı anlama gelir; aralarında kapsam bakımından bir fark yoktur.",
+        "İkisi birbirinin karşıtıdır; biri doğayı, öteki yalnız ekonomiyi önemser."
+      ],
+      "dogru": 0,
+      "aciklama": "Ekoturizm sürdürülebilir turizmin doğayla ilgili bölümüdür. Şehir otelindeki su tasarrufu sürdürülebilir turizmdir ama ekoturizm değildir."
+    },
+    {
+      "id": "gt2-2-s32",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdakilerden hangisi çevre dostu bir konaklama işletmesinin uygulamasıdır?",
+      "secenekler": [
+        "Odalarda tek kullanımlık plastik ürünleri çoğaltmak",
+        "Asılı havluları da her gün yenisiyle değiştirmek",
+        "Yağmur suyunu toplayıp bahçe sulamada kullanmak",
+        "Bahçeyi genişletmek için çevredeki ağaçları kesmek"
+      ],
+      "dogru": 2,
+      "aciklama": "Çevre dostu tesis suyu ve enerjiyi tasarruflu kullanır, atığını azaltır. Asılı havluyu değiştirmek ve tek kullanımlık plastik bunun tersidir."
+    },
+    {
+      "id": "gt2-2-s33",
+      "tur": "coktan-secmeli",
+      "soru": "Sanal müze nedir?",
+      "secenekler": [
+        "Yalnız sanal gerçeklik gözlüğü satan müze mağazası",
+        "Eserlerin dijital ortama aktarılmasıyla oluşan çevrim içi müze",
+        "Girişi ücretsiz olan ve gece de açık kalan müze binası",
+        "Yalnız dijital sanat eserlerinin sergilendiği özel bir sanat galerisi"
+      ],
+      "dogru": 1,
+      "aciklama": "Sanal müze, müzedeki eserlerin dijital ortama aktarılmasıyla oluşur ve internet üzerinden gezilir; müzeye gidemeyenler için büyük kolaylıktır."
+    },
+    {
+      "id": "gt2-2-s34",
+      "tur": "coktan-secmeli",
+      "soru": "Telefon kamerasıyla bakılan gerçek görüntünün üzerine dijital bilgi ve animasyon ekleyen teknoloji hangisidir?",
+      "secenekler": [
+        "Sanal gerçeklik",
+        "Uzay simülasyonu",
+        "Çevrim içi rezervasyon",
+        "Artırılmış gerçeklik"
+      ],
+      "dogru": 3,
+      "aciklama": "Artırılmış gerçeklikte (AR) gerçek dünya kaybolmaz, üstüne bilgi eklenir. Sanal gerçeklikte (VR) ise kullanıcı bütünüyle dijital bir ortama girer."
+    },
+    {
+      "id": "gt2-2-s35",
+      "tur": "dogru-yanlis",
+      "soru": "Dijital turizm yalnız seyahat öncesinde yapılan rezervasyon işlemlerini kapsar.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Dijital turizm seyahatin öncesini, sırasını ve sonrasını kapsar: planlama, yön bulma, paylaşım ve yorum bunun parçalarıdır."
+    },
+    {
+      "id": "gt2-2-s36",
+      "tur": "coktan-secmeli",
+      "soru": "Alper Gezeravcı için aşağıdakilerden hangisi doğrudur?",
+      "secenekler": [
+        "Türkiye’nin uzaya çıkan ilk uzay turistidir.",
+        "Uzay simülasyonu geliştiren bir yazılımcıdır.",
+        "Bilimsel görev yapan bir astronottur.",
+        "Yörünge altı uçuş yapan bir pilottur."
+      ],
+      "dogru": 2,
+      "aciklama": "Gezeravcı Türkiye’nin ilk astronotudur ve Uluslararası Uzay İstasyonu’nda bilimsel deneyler yapmıştır; uzay turisti değildir."
+    },
+    {
+      "id": "gt2-2-s37",
+      "tur": "senaryo",
+      "durum": "Seyahat acentesinde stajyersin; danışmanın yanındasın. Bir aile otomobiliyle İstanbul’dan Hatay’a gidecek. Yolu ikiye bölmek, şehir merkezine girmeden bir gece dinlenip sabah erkenden devam etmek istiyorlar. Danışman sana dönüp ‘Sen ne önerirdin?’ diye soruyor.",
+      "soru": "Hangi öneriyi yaparsın?",
+      "secenekler": [
+        "Yol üzerinde, otoparkı olan bir motel öneririm.",
+        "Şehir merkezinde büyük bir kongre oteli öneririm.",
+        "Sahilde geniş bir tatil köyü öneririm.",
+        "Yolu hiç durmadan bitirmelerini öneririm."
+      ],
+      "dogru": 0,
+      "aciklama": "Motel tam da bu ihtiyaç için vardır: kara yolu üzerindedir, otoparkı bulunur, yolcu tek gece dinlenip yola devam eder. Kongre oteli ve tatil köyü başka ihtiyaçlara hizmet eder; yorgun sürücüye durmamasını söylemek ise güvenli değildir."
+    },
+    {
+      "id": "gt2-2-s38",
+      "tur": "senaryo",
+      "durum": "Pazar akşamı resepsiyonda stajyersin. Bir konuk yarın sabah şehirdeki arkeoloji müzesini gezmek istediğini söylüyor ve müzenin pazartesi günü açık olup olmadığını soruyor. Cevabı bilmiyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Büyük olasılıkla açıktır diyerek konuğu gönderirim.",
+        "Emin olmadığımı söyler, kontrol edip bilgi veririm.",
+        "Bilmediğimi söyler, konuğun internete bakmasını isterim.",
+        "Müzeler pazartesi hep kapalıdır diye kesin konuşurum."
+      ],
+      "dogru": 1,
+      "aciklama": "Enformasyonun altın kuralı: emin olmadığın bilgiyi söyleme, kontrol et. Tahminle verilen bir saat konuğun yarım gününü boşa harcatır; ‘internete bakın’ demek ise hizmeti konuğa bırakmaktır."
+    },
+    {
+      "id": "gt2-2-s39",
+      "tur": "senaryo",
+      "durum": "Acentede stajyersin. Danışmanın bir müşteriye yurt dışı uçak bileti düzenledi. Çıktıyı dosyaya koyarken müşterinin soyadındaki bir harfin, masadaki pasaport fotokopisindekinden farklı yazıldığını fark ediyorsun. Müşteri ayağa kalkmış, çıkmak üzere.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Tek harften sorun çıkmaz diye düşünür, susarım.",
+        "Müşteriye bunu havalimanında düzelttirmesini söylerim.",
+        "Farkı müşteri çıkmadan hemen danışmana gösteririm.",
+        "Kaydı sistemden kendim düzeltmeye çalışırım."
+      ],
+      "dogru": 2,
+      "aciklama": "Biletteki ad pasaporttaki adla harfi harfine aynı olmalıdır; tek harflik fark yolcuyu uçuş kapısında bırakabilir. Stajyer gördüğünü hemen yetkiliye bildirir; kaydı kendi başına değiştirmez, sorunu müşteriye de yüklemez."
+    },
+    {
+      "id": "gt2-2-s40",
+      "tur": "senaryo",
+      "durum": "Saat 19.00, resepsiyonda stajyersin; vardiya şefin arka ofiste. Telefon çalıyor: acente, bu akşam gelecek kırk kişilik grubun uçağının geciktiğini ve grubun otele ancak 23.30’da varacağını bildiriyor. Akşam yemeği 20.00 için hazırlanıyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Grup gelince anlaşılır diye düşünür, beklerim.",
+        "Mutfağı kendim arar, yemeği iptal ettiririm.",
+        "Bilgiyi bir kâğıda yazıp bankoya bırakırım.",
+        "Notu alır, hemen vardiya şefime bildiririm."
+      ],
+      "dogru": 3,
+      "aciklama": "Turizmde işletmeler ve bölümler birbirine bağlıdır: gecikme bilgisi zamanında iletilirse mutfak ve kat hizmetleri hazırlığını ona göre yapar. Karar vermek şefin işidir; stajyerin işi bilgiyi eksiksiz ve gecikmeden ulaştırmaktır. Bankoda unutulan not kimseye ulaşmaz."
+    },
+    {
+      "id": "gt2-2-s41",
+      "tur": "senaryo",
+      "durum": "Saat 15.00, resepsiyonda stajyersin; yanındaki görevli başka bir konukla ilgileniyor. Uzun yoldan gelmiş yorgun bir çift telefonundaki voucher’ı gösteriyor. Sistemde bu adla bir rezervasyon bulamıyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Konuğa oturacak yer gösterir, amirime haber veririm.",
+        "Kaydınız yok, acentenizi arayın diyerek geri çeviririm.",
+        "Boş bir odayı kendim açar, konuğu yerleştiririm.",
+        "Belgenin geçersiz olabileceğini konuğa söylerim."
+      ],
+      "dogru": 0,
+      "aciklama": "Voucher ile sistemdeki kayıt uyuşmazsa görevli tahminle hareket etmez; amirine haber verir, acenteyle teyit edilir. Konuk bu sırada ayakta ve bilgisiz bırakılmaz. Yetkisiz oda açmak ya da konuğu suçlamak sorunu büyütür."
+    },
+    {
+      "id": "gt2-2-s42",
+      "tur": "senaryo",
+      "durum": "Öğleden sonra 16.00, rezervasyon bölümünde stajyersin; ofis çok yoğun. Telefonda bir konuk bu geceki rezervasyonunu iptal etmek istediğini söylüyor. Otel bu gece neredeyse dolu ve oda arayanlar var.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Yoğunluk bitince işlerim diye bir kenara not alırım.",
+        "Bilgiyi not alır, hemen rezervasyon sorumlusuna iletirim.",
+        "Zaten bu saatten sonra oda satılmaz diye üzerinde durmam.",
+        "Konuğa iptal için yarın yeniden aramasını söylerim."
+      ],
+      "dogru": 1,
+      "aciklama": "Otel odası depolanamaz: bu gece boş kalan oda yarın satılamaz. İptal hemen işlenirse oda yeniden satışa açılabilir; geç işlenen iptal, satılabilecek odayı boş bırakır."
+    },
+    {
+      "id": "gt2-2-s43",
+      "tur": "senaryo",
+      "durum": "Sabah 09.15, otelin kahvaltı salonunda stajyersin. Açık büfedeki peynir tabağında birkaç dilim kalmış; büfeye doğru yeni bir aile geliyor. Kahvaltı servisi 10.30’a kadar sürecek.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Servisin bitmesine az kaldı diye dokunmadan bırakırım.",
+        "Sıradaki konuğa peynirin bittiğini söyler, geçerim.",
+        "Azalan tabağı şefime bildirir, tazelenmesini sağlarım.",
+        "Öteki tabaklardan artanları toplayıp bu tabağa koyarım."
+      ],
+      "dogru": 2,
+      "aciklama": "Açık büfede servis personelinin işi azalan yemeği zamanında tazeletmek, büfenin düzenini ve hijyenini korumaktır. Boş tabak özensizlik izlenimi verir; tabaklar arasında yemek aktarmak ise hijyen kuralına aykırıdır."
+    },
+    {
+      "id": "gt2-2-s44",
+      "tur": "senaryo",
+      "durum": "Kat hizmetlerinde stajyersin, 214 numaralı odayı hazırlıyorsun. Banyodaki kartta ‘Havlunuzu askıya asarsanız değiştirilmez, yere bırakırsanız değiştirilir’ yazıyor. Konuk bütün havluları düzgünce askıya asmış.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Daha temiz olsun diye asılı havluları da değiştiririm.",
+        "Kartı odadan kaldırır, her gün yeni havlu bırakırım.",
+        "Konuğu arayıp havluları değiştireyim mi diye sorarım.",
+        "Otelin standardına uyar, asılı havluları değiştirmem."
+      ],
+      "dogru": 3,
+      "aciklama": "Çevre dostu işletmede havlu kartı bir standarttır: askıdaki havlu değiştirilmez. Konuk tercihini havluyu asarak zaten belirtmiştir; değiştirmek suyu, deterjanı ve enerjiyi boşa harcar, konuğun tercihini de yok sayar."
+    },
+    {
+      "id": "gt2-2-s45",
+      "tur": "senaryo",
+      "durum": "Bir millî parkta doğa yürüyüşü turunda rehbere yardım eden stajyersin; rehber grubun en önünde yürüyor. Arkada kalan bir konuğun, yol kenarındaki çiçeklerden koparıp çantasına koymaya hazırlandığını görüyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Kuralı nazikçe hatırlatır, rehbere haber veririm.",
+        "Tek çiçekten zarar gelmez diye ses çıkarmam.",
+        "Grubun önünde konuğu yüksek sesle, sertçe uyarırım.",
+        "Hatıra olsun diye ben de bir çiçek koparırım."
+      ],
+      "dogru": 0,
+      "aciklama": "Ekoturizmde temel kural bitkilere ve yaban hayatına zarar vermemektir. Kurala uymayan konuğa kırıcı olmadan hatırlatılır ve rehbere bildirilir. Susmak doğayı, konuğu grubun önünde azarlamak ise konuğu korumaz."
+    },
+    {
+      "id": "gt2-2-s46",
+      "tur": "senaryo",
+      "durum": "Akşam evde telefonuna bakarken staj yaptığın otel hakkında yeni yazılmış bir yorum görüyorsun. Konuk, dün senin de çalıştığın vardiyada odasının geç hazırlandığını yazmış ve otele düşük puan vermiş.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Kendi hesabımdan yorumun altına açıklama yazarım.",
+        "Yorumu amirime gösterir, cevabı yetkiliye bırakırım.",
+        "Arkadaşlarımdan otele yüksek puan vermelerini isterim.",
+        "Konuk zaten gitti diye yorumu görmezden gelirim."
+      ],
+      "dogru": 1,
+      "aciklama": "Çevrim içi yorumları işletme adına yalnız yetkili kişi yanıtlar; çalışan gördüğü yorumu amirine iletir. Kişisel hesaptan tartışmak oteli zor durumda bırakır, sahte puan istemek dürüst değildir, görmezden gelmek ise sorunun tekrarlanmasına yol açar."
+    },
+    {
+      "id": "gt2-2-s47",
+      "tur": "senaryo",
+      "durum": "Acentenin tur ekibinde stajyersin. Biletleri hazırlamak için müzeye gruptan yarım saat önce geldin. Kapıda ‘Bugün teknik nedenle ziyarete kapalıyız’ yazısını görüyorsun. Grup rehberle birlikte otelde kahvaltıda; otobüs yirmi dakika sonra yola çıkacak.",
+      "soru": "İlk adımın ne olur?",
+      "secenekler": [
+        "Gruba müzenin kapalı olduğunu söyler, serbest zaman veririm.",
+        "Grup gelince kendisi görsün diye kapıda beklerim.",
+        "Durumu hemen rehbere ve acenteye telefonla bildiririm.",
+        "Otobüsü kendim başka bir müzeye yönlendiririm."
+      ],
+      "dogru": 2,
+      "aciklama": "Beklenmedik sorunda kararı yetkili verir; stajyerin işi durumu hemen bildirmektir. Erken haber alan rehber ve acente yedek planı devreye sokar: program değiştirilir, grup kapalı kapıyla karşılaşmaz."
+    },
+    {
+      "id": "gt2-2-s48",
+      "tur": "senaryo",
+      "durum": "Acentede stajyersin; danışmanın bilet seçeneklerini ekranda sana gösterdi ve telefona bakmak için kalktı. Müşteri en ucuz bileti işaret edip ‘Bu çok uygun, iki büyük bavulumuz var, bunu alalım’ diyor. Ekranda bu bilette bavulun ücrete dâhil olmadığı yazıyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Satış kaçmasın diye bu konuyu hiç açmam.",
+        "Bagajın büyük olasılıkla dâhil olduğunu söylerim.",
+        "Havalimanında öğrenir diye düşünür, beklerim.",
+        "Fiyata bagajın dâhil olmadığını açıkça söylerim."
+      ],
+      "dogru": 3,
+      "aciklama": "Düşük maliyetli hava yollarında bagaj gibi hizmetler ayrıca ücretlendirilir; fiyata nelerin dâhil olmadığı satıştan önce söylenir. Turistik ürün önceden denenemez; konuk verilen bilgiye güvenir. Gizlenen bilgi havalimanında sürprize, sonra şikâyete dönüşür."
+    }
+  ]
+}

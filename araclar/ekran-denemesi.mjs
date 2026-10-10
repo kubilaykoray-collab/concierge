@@ -180,7 +180,7 @@ try {
   await sayfa.type(".arama input", "pasaport");
   await cek("sozluk-arama");
   await dogrula(sayfa.$$eval(".etiketler .hap", (h) => h.length >= 3), "sözlükte ders filtresi var");
-  await dogrula(sayfa.$$eval(".sozluk-satiri", (s) => s.length >= 5 && s.length < 20), "aramada pasaport sonuçları");
+  await dogrula(sayfa.$$eval(".sozluk-satiri", (s) => s.length >= 5 && s.length < 60), "aramada pasaport sonuçları");
   await tikla(".sozluk-satiri");
   await cek("sozluk-ayrinti");
   await dogrula(var_(".cekmece"), "kavram ayrıntısı açıldı");

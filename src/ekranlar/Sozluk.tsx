@@ -2,9 +2,12 @@ import { useMemo, useState } from "react";
 import { KavramGovdesi, romen, Simge } from "../bilesenler";
 import { ara } from "../cekirdek/arama";
 import { useIlerleme } from "../depo";
-import { DERS_LISTESI, kavramBul, KAVRAMLAR } from "../veri";
+import { dersBul, DERS_LISTESI, kavramBul, KAVRAMLAR } from "../veri";
 
-const SIRALI = [...KAVRAMLAR].sort((a, b) => a.terim.localeCompare(b.terim, "tr"));
+const arsivMi = (ders: string) => (dersBul(ders)?.arsiv ? 1 : 0);
+// Aynı terim birkaç derste geçebilir: güncel müfredat önce, arşiv sonra gelir.
+const SIRALI = [...KAVRAMLAR].sort((a, b) => a.terim.localeCompare(b.terim, "tr") || arsivMi(a.unite.ders) - arsivMi(b.unite.ders));
+const yer = (ders: string, no: number) => `${dersBul(ders)?.kisaAd ?? ders} · ${romen(no)}`;
 // Bin satırı birden çizmek yavaş telefonu yorar; liste parça parça açılır.
 const SAYFA = 120;
 
@@ -52,6 +55,7 @@ export function Sozluk({ secili }: { secili?: string }) {
                 <div className="satir-govde">
                   <strong>{k.terim}</strong>
                   <span>{k.ingilizce}</span>
+                  <span className="sozluk-yer">{yer(k.unite.ders, k.unite.no)}</span>
                 </div>
                 {ilerleme.kartlar[k.id] && <span className="nokta" title="Öğrenildi" />}
               </a>

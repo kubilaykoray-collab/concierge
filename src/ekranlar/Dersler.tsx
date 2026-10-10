@@ -103,7 +103,8 @@ export function UniteEkrani({ anahtar }: { anahtar: string }) {
 
       <details className="kazanimlar">
         <summary>Bu ünitenin sonunda neler yapabileceksin?</summary>
-        <ul>{unite.kazanimlar.map((k) => <li key={k}>{k}</li>)}</ul>
+        {/* Programda aynı kazanım birkaç konuya yazılabiliyor; ekranda bir kez gösterilir. */}
+        <ul>{[...new Set(unite.kazanimlar)].map((k) => <li key={k}>{k}</li>)}</ul>
       </details>
 
       <h3 className="bolum-basligi">Ders yolu</h3>

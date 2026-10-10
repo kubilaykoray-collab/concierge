@@ -1429,6 +1429,17 @@ button {
 }
 
 .sozluk-satiri .satir-govde span { font: italic 0.92rem var(--serif); }
+/* Aynı terim birkaç derste geçebilir; satırın hangi dersten geldiği küçük etiketle ayırt edilir. */
+.sozluk-satiri .satir-govde .sozluk-yer {
+  font-family: inherit;
+  font-size: 0.68rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-top: 2px;
+}
 
 .nokta {
   flex: none;

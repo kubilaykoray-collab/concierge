@@ -52,7 +52,9 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["simge.svg", "apple-touch-icon.png"],
-      workbox: { globPatterns: ["**/*.{js,css,html,svg,png,webmanifest,woff2,webp}"] },
+      // İçerik paketin içinde geldiği için ana betik büyür (üç dersin tamamı ≈ 3,4 MB); varsayılan 2 MB sınırı aşılırsa
+      // betik ön belleğe alınmaz ve uygulama internetsiz açılmaz. Sınır bilerek yüksek tutulur.
+      workbox: { globPatterns: ["**/*.{js,css,html,svg,png,webmanifest,woff2,webp}"], maximumFileSizeToCacheInBytes: 8 * 1024 * 1024 },
       manifest: {
         name: "CONCIERGE — Hospitality Academy",
         short_name: "CONCIERGE",

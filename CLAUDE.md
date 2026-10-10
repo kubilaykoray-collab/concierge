@@ -123,6 +123,10 @@ Her aşamanın sonunda öğretmene kısa rapor: ne yapıldı, neyi onaylaması g
 - `GENEL TURIZM/` — yıllık plan (2025–2026), öğretmenin hazırladığı fasiküller, haritalar, grafikler, UNESCO notları
 - `GENEL TURIZM.pdf` — ders kitabı (**yalnız kapsam / sıra için; metin kopyalanmaz**)
 - `GENEL TURIZM CALISMA NOTU FINAL.pdf`, haftalık notlar — öğretmenin kendi notları (kullanılabilir)
+- `yeni-kitaplar/` — 2026-2027 kitapları (meslek.meb.gov.tr'den indirildi): `osh9.pdf`, `gt9.pdf`, `mga-program.pdf` ve birim birim
+  metinleri (`osh9-birim-N.txt`, `gt9-birim-N.txt`). Mesleki Gelişim'in kitabı yok, yalnız öğretim programı var.
+
+Ajanların taslak ve parça dosyaları proje kökündeki `taslak/` klasöründe durur (git dışı; `kaynak/` yazmaya kapalıdır).
 
 ## 8. Çalışma biçimi
 

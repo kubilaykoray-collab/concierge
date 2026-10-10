@@ -110,6 +110,17 @@ bıraktı. Aşağıdakiler o yetkiyle verilen kararlardır; öğretmen sonradan 
 - **Kurum adı değiştiyse** güncel ad ile kitaptaki eski ad birlikte verilir (Dünya Turizm Örgütü: UN Tourism / UNWTO). (gt-2-055)
 - **Kitapta olmayıp öğretmen notunda olan konular** (iç / gelen / giden turizm, Schengen, e-Vize, seyahat sigortası, gümrük) içerikte kalır.
 - Turizmin ayırt edici özelliklerine **mevsimlik olma** eklendi. (gt-3-034)
+- **Kalan 15 ünitenin yazımında verilen kararlar (9–10 Ekim 2026; öğretmen "tam yetki ve kontrol için onay veriyorum" dedi):**
+  aynı dersin iki biriminde aynı adlı kart olmaz, sonraki birimdeki kart konuya özgü adla yazılır ("Pas anahtarı güvenliği", "Acente
+  rezervasyon memuru"); farklı derslerde aynı terim olabilir ama tanımlar çelişmez · atık kutusu rengi yazılmaz (kitap metninde renk kodu
+  yok, kurumdan kuruma değişir) · bez renk kodunda yalnız kırmızı = tuvalet ve sarı = lavabo / banyo kesin yazılır, mavi / yeşil "işletmeye
+  göre değişir" · bulunan eşya "genellikle 90 gün" (öğretmenin FINAL notu; kitap 6 ay / 1 yıl der) · gençlik kulübü "genellikle 11–18",
+  çocuk kulübü "genellikle 12 yaşına kadar" (öğretmen notu; sınav notunda çocuk 0–11 de geçiyor) · çalışma süresi rakamları (45 saat, 11
+  saat, gece 7,5 saat) kitapta geçtiği için "yetişkin çalışanlar için" kaydıyla yazılır · çocuk yalnız kayıt formunda yazılı veliye /
+  yetkili kişiye teslim edilir · double = tek büyük yatak, twin = iki ayrı yatak (kitap ve uluslararası kullanım; öğretmenin eski notu
+  farklı) · B ve C grubu acente Genel Turizm 2'de yazılmadı (kitabın o bölümünde yok, öğretmen notları tutarsız); Otelcilik 4'te kitaptaki
+  biçimiyle var · Mesleki Gelişim'de kanun adı / numarası dışında oran, tutar, süre, ceza yazılmaz; finans örneklerindeki rakamlar yuvarlak
+  ve zamandan bağımsızdır · Yeşil Yıldız, Mavi Bayrak, Yeşil Anahtar yalnız ne olduklarıyla anlatılır (ölçüt, sayı, yıl yok).
 - **2026-2027 ilk beş ünitenin denetiminde verilen kararlar (9 Ekim 2026):** öğretmenin sözlüğündeki tanım kitapla ya da güncel bilgiyle
   tam örtüşmüyorsa tanım aynen kalır, fark `sektor` notunda "ders kitabında … diye geçer; …" biçiminde açıklanır (1883 demir yolu, MÖ 4000
   tekerlek, lisanslı acente, portör muayenesi, enfeksiyon hastalığı, üniforma "belirlediği tip") · aynı terim iki birimde farklı tanımla

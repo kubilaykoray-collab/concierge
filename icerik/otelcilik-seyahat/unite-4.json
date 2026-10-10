@@ -1,0 +1,2547 @@
+{
+  "ders": "otelcilik-seyahat",
+  "sinif": 9,
+  "unite": 4,
+  "baslik": "Seyahat Acenteliği Hizmetleri",
+  "onay": true,
+  "kazanimlar": [
+    "Seyahat acentelerinin organizasyon yapısını açıklar; seyahat acentelerinde çalışan personelin sorumluluklarını sıralar.",
+    "Seyahat acentelerinin operasyonel süreçlerini açıklar; seyahat acentelerini yasal, yapısal ve fonksiyonel olarak sınıflandırır.",
+    "Seyahat acenteliğinin hukuki çerçevesini açıklar.",
+    "Seyahat acentelerinin iş birliği yaptığı kurum / kuruluşlarla ilişkilerini açıklar.",
+    "Seyahat formalitelerini açıklar."
+  ],
+  "soz": "Konuk bir tatil satın alır; acente ona verdiği sözün arkasında durur.",
+  "dersler": [
+    {
+      "baslik": "Tatilin Arkasındaki Köprü",
+      "ilk": "os-4-001"
+    },
+    {
+      "baslik": "Acentenin Bölümleri",
+      "ilk": "os-4-004"
+    },
+    {
+      "baslik": "Satışın Verdiği Sözü Kim Tutar?",
+      "ilk": "os-4-008"
+    },
+    {
+      "baslik": "Masanın Bu Tarafındakiler",
+      "ilk": "os-4-010"
+    },
+    {
+      "baslik": "Bilgi, Bilet, Vize: Kim Bakar?",
+      "ilk": "os-4-014"
+    },
+    {
+      "baslik": "Sahadaki Yüzler",
+      "ilk": "os-4-020"
+    },
+    {
+      "baslik": "Bir Tatil Fikri Nasıl Tura Dönüşür?",
+      "ilk": "os-4-024"
+    },
+    {
+      "baslik": "Satıştan Sahaya, Sahadan Ankete",
+      "ilk": "os-4-027"
+    },
+    {
+      "baslik": "A, B, C: Kim Neye Yetkili?",
+      "ilk": "os-4-030"
+    },
+    {
+      "baslik": "Gelen, Giden, İçeride Gezen",
+      "ilk": "os-4-034"
+    },
+    {
+      "baslik": "Toptancı mı, Perakendeci mi?",
+      "ilk": "os-4-037"
+    },
+    {
+      "baslik": "Yeriniz Ayrıldı mı?",
+      "ilk": "os-4-041"
+    },
+    {
+      "baslik": "Oda Var mı, Yok mu?",
+      "ilk": "os-4-046"
+    },
+    {
+      "baslik": "Yolun Dili",
+      "ilk": "os-4-052"
+    },
+    {
+      "baslik": "Fiyatın ve Ekranın Arkası",
+      "ilk": "os-4-056"
+    },
+    {
+      "baslik": "Turu Kim Üretir, Kim Satar?",
+      "ilk": "os-4-062"
+    },
+    {
+      "baslik": "Acente Açmak İçin Ne Gerekir?",
+      "ilk": "os-4-066"
+    },
+    {
+      "baslik": "TÜRSAB Ne İş Yapar?",
+      "ilk": "os-4-069"
+    },
+    {
+      "baslik": "Acenteyi Bağlayan Diğer Kurallar",
+      "ilk": "os-4-073"
+    },
+    {
+      "baslik": "Bir Turun Arkasında Kaç İşletme Var?",
+      "ilk": "os-4-078"
+    },
+    {
+      "baslik": "Devlet Tarafı",
+      "ilk": "os-4-085"
+    },
+    {
+      "baslik": "Kısaltmalar Ormanı",
+      "ilk": "os-4-089"
+    },
+    {
+      "baslik": "Sınırdan Geçmeden Önce",
+      "ilk": "os-4-095"
+    },
+    {
+      "baslik": "Vize: Amacın Ne?",
+      "ilk": "os-4-097"
+    },
+    {
+      "baslik": "Başvuru Dosyası",
+      "ilk": "os-4-104"
+    },
+    {
+      "baslik": "Dört Renk, Dört Pasaport",
+      "ilk": "os-4-110"
+    },
+    {
+      "baslik": "Pasaport Nasıl Çıkarılır?",
+      "ilk": "os-4-115"
+    },
+    {
+      "baslik": "Ya Yolda Bir Şey Olursa?",
+      "ilk": "os-4-118"
+    }
+  ],
+  "kavramlar": [
+    {
+      "id": "os-4-001",
+      "konu": "4.1",
+      "terim": "Seyahat acentesi",
+      "ingilizce": "Travel agency",
+      "tanim": "Turistlere bilgi veren, tur ve paket tur hazırlayan, konaklama, ulaştırma, gezi, spor ve eğlence hizmetlerini sağlayıp satan, kâr amaçlı ticari kuruluştur.",
+      "ornek": "Cumartesi 11.00, İzmir'de bir acente: dört kişilik bir aile Kapadokya'ya gitmek ister; görevli uçuşu, oteli ve balon turunu tek masada, tek görüşmede ayarlar.",
+      "sektor": "Tanım 1618 sayılı Kanun'a dayanır. Acente, hizmeti üreten otel ve hava yolu ile tatile çıkacak kişi arasında köprüdür: konuk onlarca işletmeyle tek tek uğraşmaz, güvendiği tek bir muhatapla konuşur.",
+      "iliskili": [
+        "os-4-002",
+        "os-4-003",
+        "os-4-066"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-002",
+      "konu": "4.1",
+      "terim": "Seyahat acentesinin hizmetleri",
+      "ingilizce": "Travel agency services",
+      "tanim": "Operasyon yürütme, biletleme, vize işlemleri, araç kiralama, bilgi verme ve turistik ürün satışı, bir acentenin konuğuna sunduğu altı temel iştir.",
+      "ornek": "Pazartesi 10.00: aynı acentede bir görevli Roma uçuşu için bilet keser, yan masadaki arkadaşı bir konuğun vize dosyasını hazırlar, operasyon ise akşamki havalimanı transferini planlar.",
+      "sektor": "Acenteye gelen konuk çoğu zaman tek bir iş için gelir, ama ihtiyacı birden fazladır: bilet alan kişiye otel, otel alan kişiye transfer gerekir. İyi acenteci bu ihtiyacı konuk söylemeden görür. Pasaport düzenleme ise acentenin işi değildir; pasaportu devlet, nüfus müdürlüğü çıkarır.",
+      "iliskili": [
+        "os-4-001",
+        "os-4-016",
+        "os-4-017"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-003",
+      "konu": "4.1",
+      "terim": "Acentenin organizasyon yapısı",
+      "ingilizce": "Organisational structure of a travel agency",
+      "tanim": "Bir işletmede kimin hangi işi yapacağını, kimin kime bağlı olduğunu ve bölümlerin birbiriyle nasıl çalışacağını gösteren düzendir.",
+      "ornek": "Orta ölçekli bir acentenin şemasında en üstte genel müdür, altında genel müdür yardımcısı, onun altında operasyon, satış, vize ve muhasebe sorumluları ile onlara bağlı personel yer alır.",
+      "sektor": "Küçük (butik) acentede satış ve operasyonu çoğu zaman aynı kişiler yürütür; acente büyüdükçe iş tanımları netleşir ve uzmanlaşma artar. Büyük ölçekli acentede ürün planlama ve satın alma, operasyon, satış ve pazarlama, finans ve muhasebe, müşteri ilişkileri ve insan kaynakları ayrı departmanlardır.",
+      "iliskili": [
+        "os-4-001",
+        "os-4-004",
+        "os-4-010"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-004",
+      "konu": "4.1",
+      "terim": "Operasyon departmanı",
+      "ingilizce": "Operations department",
+      "tanim": "Satılmış turun transfer, konaklama, rehberlik ve gezi gibi hizmetlerini sahada aksamadan yürüten bölümdür.",
+      "ornek": "Gece 02.30, Antalya Havalimanı: uçak bir saat gecikir; operasyon transfer aracının saatini değiştirir ve otele geç giriş olacağını bildirir.",
+      "sektor": "Konuk broşürü unutur, sahada yaşadığını hatırlar. Büyük ölçekli acentede ayrı bir departmandır ve genel müdüre bağlı çalışır; turist rehberi, otel rehberi ve transfer elemanı bu işin sahadaki yüzleridir.",
+      "iliskili": [
+        "os-4-005",
+        "os-4-028",
+        "os-4-012"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-005",
+      "konu": "4.1",
+      "terim": "Rezervasyon bölümü",
+      "ingilizce": "Reservations department",
+      "tanim": "Turda kullanılacak otel odalarını ve uçak, otobüs gibi araçlardaki yerleri istenen tarih ve özelliklerde ayırtan bölümdür.",
+      "ornek": "Salı 09.15: rezervasyon görevlisi, cuma günkü Pamukkale turu için oteli arar ve grubun odalarının hazır olduğunu teyit ettirir.",
+      "sektor": "Ayırtılan her yer operasyona bildirilir; bildirilmeyen rezervasyon sahada sürpriz demektir. Tur tarihi yaklaştıkça yerler yeniden teyit edilir.",
+      "iliskili": [
+        "os-4-004",
+        "os-4-015",
+        "os-4-041"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-006",
+      "konu": "4.1",
+      "terim": "Satış ve pazarlama bölümü",
+      "ingilizce": "Sales and marketing department",
+      "tanim": "Acentenin ürünlerini hedef kitleye tanıtan ve satışını gerçekleştiren bölümdür.",
+      "ornek": "Mart ayında bir acente yaz turlarını sosyal medyada duyurur; arayan konuklara satış temsilcileri bütçelerine uygun seçenekleri anlatır.",
+      "sektor": "Satış konuğa söz verir; o sözün tutulabilmesi için neyin satıldığı operasyona eksiksiz aktarılmalıdır. Hazırlanan tur satılamazsa en iyi program da kâğıt üzerinde kalır.",
+      "iliskili": [
+        "os-4-013",
+        "os-4-009",
+        "os-4-004"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-007",
+      "konu": "4.1",
+      "terim": "Muhasebe bölümü",
+      "ingilizce": "Accounts department",
+      "tanim": "Acentenin gelir ve giderlerini kaydeden, otel ve ulaştırma firması gibi iş ortaklarına yapılacak ödemeleri takip eden bölümdür.",
+      "ornek": "Ay sonunda muhasebe elemanı, o ay çalışılan otellerin faturalarını kontrol eder ve ödeme günlerini takvime işler.",
+      "sektor": "Büyük acentelerde finans ve muhasebe adıyla ayrı bir departmandır. Ödemesini zamanında yapan acenteye otel yoğun sezonda da oda ayırır; iş ortakları arasındaki güven burada sınanır.",
+      "iliskili": [
+        "os-4-003",
+        "os-4-080"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-008",
+      "konu": "4.1.1",
+      "terim": "Bölümler arası iş birliği",
+      "ingilizce": "Interdepartmental co-operation",
+      "tanim": "Acentedeki bölümlerin birbirinden kopuk değil, bilgiyi zamanında paylaşarak tek bir ekip gibi çalışmasıdır.",
+      "ornek": "Satış bölümü bir gruba vejetaryen menü sözü verir; bunu aynı gün operasyona yazar, operasyon da restorana bildirir. Konuk masaya oturduğunda yemeği hazırdır.",
+      "sektor": "Bölümlerin uzmanlığı kadar aralarındaki bilgi akışı da acentenin rekabet gücünü belirler. İş birliği güçlü olduğunda operasyondaki aksaklıklar ve konuk şikâyetleri azalır.",
+      "iliskili": [
+        "os-4-009",
+        "os-4-004",
+        "os-4-006"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-009",
+      "konu": "4.1.1",
+      "terim": "Satış vaadi",
+      "ingilizce": "Sales promise",
+      "tanim": "Konuğa satış sırasında söylenen ya da yazılan ve tur boyunca yerine getirilmesi gereken sözdür.",
+      "ornek": "Broşürde 'deniz manzaralı oda' yazıyorsa konuk kapıyı açtığında denizi görmeyi bekler; otoparka bakan oda, verilen sözün tutulmaması demektir.",
+      "sektor": "Satışın verdiği sözü sahada operasyon tutar. Tutulamayacak söz satış anında konuğu sevindirir, tatilde şikâyete döner; bu yüzden emin olunmayan şey vaat edilmez, önce sorulur.",
+      "iliskili": [
+        "os-4-008",
+        "os-4-006",
+        "os-4-028"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-010",
+      "konu": "4.1.2",
+      "terim": "İş tanımı",
+      "ingilizce": "Job description",
+      "tanim": "Bir çalışanın hangi işleri yapacağını ve nelerden sorumlu olduğunu yazılı olarak belirten açıklamadır.",
+      "ornek": "İşe yeni başlayan rezervasyon memuruna ilk gün görevlerinin yazılı olduğu belge verilir: hangi kayıtları tutacağı ve kime rapor vereceği bellidir.",
+      "sektor": "Acentedeki mesleklerin görev ve sorumlulukları Mesleki Yeterlilik Kurumunun (MYK) meslek standartlarında tanımlanmıştır. İş tanımı net olunca 'Bu benim işim değildi' tartışması çıkmaz; iş sahipsiz kalmaz.",
+      "iliskili": [
+        "os-4-003",
+        "os-4-011",
+        "os-4-023"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-011",
+      "konu": "4.1.2",
+      "terim": "Seyahat acentesi yöneticisi",
+      "ingilizce": "Travel agency manager",
+      "tanim": "Acentenin bütün faaliyetlerini yürüten, çalışanları yöneten, satışları denetleyen ve bütçeyi takip eden kişidir.",
+      "ornek": "Pazartesi 08.45: yönetici haftalık toplantıda o hafta çıkacak turları, eksik rezervasyonları ve gelen bir konuk şikâyetini ekibiyle gözden geçirir.",
+      "sektor": "Küçük acentede unvanı acente müdürü, orta ve büyük acentede genel müdürdür; işlerin bir bölümünü genel müdür yardımcısına devreder. Operasyon bittikten sonraki işlemlerin tamamlanmasından da o sorumludur.",
+      "iliskili": [
+        "os-4-003",
+        "os-4-010",
+        "os-4-012"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-012",
+      "konu": "4.1.2",
+      "terim": "Ürün planlama ve operasyon sorumlusu",
+      "ingilizce": "Product planning and operations officer",
+      "tanim": "Acentenin konuklara sunacağı turu tasarlayan, pazarlanmasını ve satıldığı biçimde uygulanmasını sağlayan kişidir.",
+      "ornek": "Kış başında Karadeniz yayla turunu planlar: güzergâhı çizer, otellerle görüşür; yazın tur çıktığında programın söz verildiği gibi yürüdüğünü takip eder.",
+      "sektor": "Ürünü kâğıtta kuran da sahada yürüten de aynı sorumluluk zincirindedir. Sahadaki ekip (rehber, otel rehberi, transfer elemanı) onun planına göre hareket eder.",
+      "iliskili": [
+        "os-4-004",
+        "os-4-025",
+        "os-4-018"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-013",
+      "konu": "4.1.2",
+      "terim": "Seyahat acentesi satış görevlisi",
+      "ingilizce": "Travel sales consultant",
+      "tanim": "Acentenin her türlü ürününü yerli ve yabancı konuklara tanıtan ve satan kişidir.",
+      "ornek": "Saat 14.00: balayı için gelen çifte satış görevlisi önce bütçelerini ve beklentilerini sorar, sonra üç seçenek sunar.",
+      "sektor": "Şemalarda satış temsilcisi olarak da geçer. İyi satış en pahalı ürünü değil, doğru ürünü satmaktır: memnun dönen konuk ertesi yıl yine aynı masaya oturur.",
+      "iliskili": [
+        "os-4-006",
+        "os-4-009",
+        "os-4-043"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-014",
+      "konu": "4.1.2",
+      "terim": "Enformasyon memuru",
+      "ingilizce": "Information officer",
+      "tanim": "Konuklara seyahat, vize, gümrük, döviz ve gidilecek yer hakkında doğru bilgi veren acente görevlisidir.",
+      "ornek": "Bir konuk 'Bu ülkeye kimlikle girilir mi?' diye sorar; enformasyon memuru ezberden cevaplamaz, güncel kuralı resmî kaynaktan kontrol edip öyle söyler.",
+      "sektor": "Küçük acentenin şemasında da orta ölçekli acentenin şemasında da yer alan bir görevdir. Yanlış bilgi, sınır kapısından geri dönen bir konuk demektir; bu yüzden bilmediğini tahmin etmez.",
+      "iliskili": [
+        "os-4-017",
+        "os-4-095",
+        "os-4-096"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-015",
+      "konu": "4.1.2",
+      "terim": "Acente rezervasyon memuru",
+      "ingilizce": "Agency reservations clerk",
+      "tanim": "Konaklama, ulaştırma ve yemek için gereken yerleri ayırtan ve kayıtlarını tutan görevlidir.",
+      "ornek": "Saat 16.40: memur otelden gelen onay e-postasını dosyaya ekler ve oda sayısını tur listesiyle karşılaştırır.",
+      "sektor": "Tek bir tarih ya da isim hatası, sahada kapıda kalan konuk demektir. İyi rezervasyon memuru her kaydı iki kez okur; sözlü onayla yetinmez, yazılı teyit ister.",
+      "iliskili": [
+        "os-4-005",
+        "os-4-041",
+        "os-4-044"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-016",
+      "konu": "4.1.2",
+      "terim": "Bilet personeli",
+      "ingilizce": "Ticketing agent",
+      "tanim": "Uçak, otobüs, tren ve gemi gibi ulaştırma araçlarının biletlerini konuk adına düzenleyen acente görevlisidir.",
+      "ornek": "Bilet personeli konuğun adını ve soyadını pasaportuna bakarak harf harf yazar, ekrandaki kaydı konuğa bir kez de sesli okur.",
+      "sektor": "Biletteki ad, kimlik ya da pasaporttaki adla aynı olmalıdır; küçük bir yazım hatası yolcuya havalimanında sorun çıkarır. Rezervasyon sistemlerini kullanmayı bilmek bu görevin temel becerisidir.",
+      "iliskili": [
+        "os-4-042",
+        "os-4-058",
+        "os-4-002"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-017",
+      "konu": "4.1.2",
+      "terim": "Vize sorumlusu",
+      "ingilizce": "Visa officer",
+      "tanim": "Yurt dışı seyahatlerinde konuk adına vize başvurusunun evrakını hazırlayan ve süreci takip eden görevlidir.",
+      "ornek": "Vize sorumlusu konuğa gereken belgelerin listesini verir, eksik banka dökümünü fark eder ve randevu gününden önce tamamlatır.",
+      "sektor": "Acentenin sunduğu vize danışmanlığı ve başvuru takibi hizmetine sektörde 'visa handling' denir. Vizeyi acente değil, gidilecek ülkenin konsolosluğu verir; bu yüzden konuğa 'Vizeniz kesin çıkar' sözü verilmez.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-108",
+        "os-4-106"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-018",
+      "konu": "4.1.2",
+      "terim": "Tur sorumlusu",
+      "ingilizce": "Tour co-ordinator",
+      "tanim": "Satılan turun dosyasını hazırlayıp rehbere, şoföre ve otele gereken bilgilerin ulaşmasını sağlayan görevlidir.",
+      "ornek": "Perşembe 17.00: tur sorumlusu ertesi sabah çıkacak Efes turunun katılımcı listesini, kalkış noktalarını ve saatlerini rehbere teslim eder.",
+      "sektor": "Dosyada kimin, ne zaman, nereden alınacağı ve nerede kalacağı yazar. Dosyadaki tek yanlış saat, sahada bütün bir grubun beklemesi demektir.",
+      "iliskili": [
+        "os-4-012",
+        "os-4-054",
+        "os-4-020"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-019",
+      "konu": "4.1.2",
+      "terim": "MICE sorumlusu",
+      "ingilizce": "MICE co-ordinator",
+      "tanim": "Toplantı, teşvik gezisi, konferans ve sergi gibi iş amaçlı etkinliklerin organizasyonunu yürüten acente görevlisidir.",
+      "ornek": "Bir firma Antalya'da üç günlük bayi toplantısı ister; MICE sorumlusu salonu, konaklamayı, transferleri ve gala yemeğini tek programda toplar.",
+      "sektor": "MICE; Meetings, Incentives, Conferences, Exhibitions sözcüklerinin baş harfleridir. Bu etkinliklerde konuk tatilci değil, iş insanıdır: dakiklik ve teknik hazırlık her şeyden önce gelir.",
+      "iliskili": [
+        "os-4-061",
+        "os-4-003"
+      ],
+      "kontrol": null,
+      "gorsel": "kongre"
+    },
+    {
+      "id": "os-4-020",
+      "konu": "4.1.2",
+      "terim": "Profesyonel turist rehberi",
+      "ingilizce": "Professional tourist guide",
+      "tanim": "Bakanlıkça yetkilendirilmiş olarak yerli ve yabancı konuklara tarihî, kültürel ve doğal değerleri doğru bilgiyle tanıtan ve gezi programını yöneten uzman kişidir.",
+      "ornek": "Sabah 09.30, Efes Antik Kenti: rehber grubunu Celsus Kütüphanesi'nin önünde toplar, anlatımını yapar ve eserlere dokunulmaması gerektiğini hatırlatır.",
+      "sektor": "6326 sayılı Turist Rehberliği Meslek Kanunu'na göre rehberlik odasına kayıtlı çalışır. Kültür varlıklarının korunmasına özen göstermek de görevidir. Konuk ülkeyi rehberin gözünden tanır.",
+      "iliskili": [
+        "os-4-089",
+        "os-4-054",
+        "os-4-023"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-021",
+      "konu": "4.1.2",
+      "terim": "Otel rehberi",
+      "ingilizce": "Hotel representative",
+      "tanim": "Acentenin konuklarını otelde karşılayan, konaklama boyunca sorularını yanıtlayan ve sorunlarını otelle birlikte çözen acente görevlisidir.",
+      "ornek": "Sabah 10.00, lobi: otel rehberi yeni gelen konuklara bilgilendirme toplantısı yapar; dönüş transfer saatlerini ve ek turları anlatır.",
+      "sektor": "Konuğun oteldeki 'acentesi'dir. Sorunu konuk adına resepsiyonla tartışarak değil, resepsiyonla birlikte çalışarak çözer; çözemediğini operasyona bildirir.",
+      "iliskili": [
+        "os-4-022",
+        "os-4-034",
+        "os-4-004"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-022",
+      "konu": "4.1.2",
+      "terim": "Transfer elemanı",
+      "ingilizce": "Transfer representative",
+      "tanim": "Konukları havalimanı, otel ve gezi noktaları arasında karşılayan, araca yönlendiren ve yol boyunca onlara eşlik eden görevlidir.",
+      "ornek": "Gece 01.15, havalimanı gelen yolcu çıkışı: transfer elemanı elinde acentenin tabelasıyla bekler, listesindeki konukları tek tek işaretleyip araca alır.",
+      "sektor": "Sektörde transferman da denir; orta ölçekli acentelerde havalimanındaki işleri havalimanı operasyon sorumlusu yönetir. Ders kitabına göre bu görevde çalışmak için Transfer Elemanı Kimlik Kartı gerekir. Konuğun Türkiye'de gördüğü ilk yüz çoğu zaman odur; listede eksik ya da fazla kişi varsa kendi başına karar vermez, operasyonu arar.",
+      "iliskili": [
+        "os-4-055",
+        "os-4-021",
+        "os-4-004"
+      ],
+      "kontrol": null,
+      "gorsel": "terminal"
+    },
+    {
+      "id": "os-4-023",
+      "konu": "4.1.2",
+      "terim": "Meslek etiği",
+      "ingilizce": "Professional ethics",
+      "tanim": "Bir mesleği yaparken uyulması gereken dürüstlük, doğruluk, gizlilik ve sorumluluk gibi ilkelerin bütünüdür.",
+      "ornek": "Rehber, programda yazan köy pazarını 'Zaman kalmadı' diyerek atlayıp grubu yalnız komisyon aldığı mağazaya götürürse konuğun hakkını çiğnemiş olur.",
+      "sektor": "Hizmet kalitesini yalnız mesleki bilgi değil, iletişim becerisi ve etik duruş da belirler. Konuğun pasaport bilgisini izinsiz paylaşmamak gizlilik ilkesidir. Etik dışı tek bir davranış acentenin adını, hatta ülkenin turizm imajını zedeler.",
+      "iliskili": [
+        "os-4-077",
+        "os-4-083",
+        "os-4-071"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-024",
+      "konu": "4.2",
+      "terim": "Operasyonel süreç",
+      "ingilizce": "Operational process",
+      "tanim": "Bir seyahat fikrinin doğmasından konuğun evine dönmesine ve seyahatin değerlendirilmesine kadar acentede yürütülen işlerin bütünüdür.",
+      "ornek": "Bir Ege turu ocakta planlanır, şubatta oteller ve otobüs firmasıyla anlaşılır, martta satışa çıkar, mayısta yapılır; haziranda konukların görüşleri değerlendirilir.",
+      "sektor": "Beş aşaması vardır: planlama ve geliştirme, tedarik ve sözleşme, satış–pazarlama–rezervasyon, turun gerçekleşmesi ve satış sonrası değerlendirme. Arka plandaki düzen iyi işlerse konuk yalnız rahat bir tatil görür ve acenteye bağlanır.",
+      "iliskili": [
+        "os-4-025",
+        "os-4-026",
+        "os-4-028"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-025",
+      "konu": "4.2",
+      "terim": "Seyahatin planlanması ve geliştirilmesi",
+      "ingilizce": "Travel planning and product development",
+      "tanim": "Turun nereye, ne zaman, kimler için ve hangi hizmetlerle yapılacağının araştırılıp tasarlandığı ilk aşamadır.",
+      "ornek": "Ürün planlama sorumlusu, lise gezileri için iki günlük bir Çanakkale programı tasarlar: şehitlik ziyareti, müze, konaklama ve yemek molaları saat saat belirlenir.",
+      "sektor": "Kötü planlanan tur sahada düzelmez. Mesafeler, müze kapanış saatleri ve mevsim bu aşamada hesaba katılmazsa sonraki dört aşama da aksar.",
+      "iliskili": [
+        "os-4-024",
+        "os-4-012",
+        "os-4-026"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-026",
+      "konu": "4.2",
+      "terim": "Tedarik süreci ve sözleşme",
+      "ingilizce": "Procurement and contracting",
+      "tanim": "Tasarlanan tur için gereken oda, koltuk, yemek ve rehberlik gibi hizmetlerin işletmelerden sağlanması ve yazılı anlaşmaya bağlanmasıdır.",
+      "ornek": "Acente, yaz sezonu için Bodrum'daki bir otelle oda fiyatını, tarihleri ve iptal koşullarını yazan bir sözleşme imzalar.",
+      "sektor": "Sürecin ikinci aşamasıdır. Hizmeti sağlayan otel, hava yolu, restoran gibi işletmelere tedarikçi denir. Sözlü anlaşma yoğun sezonda unutulur; yazılı sözleşme hem acenteyi hem konuğu korur.",
+      "iliskili": [
+        "os-4-025",
+        "os-4-079",
+        "os-4-057"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-027",
+      "konu": "4.2",
+      "terim": "Satış, pazarlama ve rezervasyon aşaması",
+      "ingilizce": "Sales, marketing and booking stage",
+      "tanim": "Hazırlanan ürünün tanıtıldığı, konuğa satıldığı ve konuk adına yerlerin kayda geçirildiği aşamadır.",
+      "ornek": "Tur internet sitesinde yayımlanır; arayan konuğun adı, kişi sayısı ve ödeme bilgisi kaydedilir, yeri ayrılır.",
+      "sektor": "Sürecin üçüncü aşamasıdır. Kayıttaki her bilgi sonraki aşamada operasyonun elindeki tek kaynaktır; eksik yazılan özel istek, sahada unutulmuş istek olur.",
+      "iliskili": [
+        "os-4-024",
+        "os-4-041",
+        "os-4-006"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-028",
+      "konu": "4.2",
+      "terim": "Saha operasyonu",
+      "ingilizce": "Field operations",
+      "tanim": "Turun fiilen gerçekleştiği; karşılama, transfer, konaklama, rehberlik ve gezilerin uygulandığı aşamadır.",
+      "ornek": "Sabah 07.30: otobüs otelin önündedir, rehber listeyi kontrol eder, operasyon öğle yemeği yenecek restoranı arayıp kişi sayısını doğrular.",
+      "sektor": "Sürecin dördüncü aşaması ve konuğun gördüğü tek kısımdır. Aylarca süren hazırlık burada birkaç günde sınanır; aksaklık hemen operasyona bildirilir, saklanmaz.",
+      "iliskili": [
+        "os-4-004",
+        "os-4-024",
+        "os-4-029"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-029",
+      "konu": "4.2",
+      "terim": "Satış sonrası değerlendirme",
+      "ingilizce": "Post-sale evaluation",
+      "tanim": "Seyahat bittikten sonra konuklardan geri bildirim alınıp turun güçlü ve zayıf yönlerinin incelendiği son aşamadır.",
+      "ornek": "Tur dönüşü yapılan ankette konukların çoğu öğle yemeği molasını kısa bulur; acente bir sonraki turda molayı uzatır.",
+      "sektor": "Sürecin beşinci aşamasıdır ve bir sonraki turun planlamasını besler. Şikâyet, ücretsiz bir danışmanlıktır: dinleyen acente aynı hatayı ikinci kez yapmaz.",
+      "iliskili": [
+        "os-4-024",
+        "os-4-028",
+        "os-4-025"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-030",
+      "konu": "4.2.1",
+      "terim": "Seyahat acentelerinin sınıflandırılması",
+      "ingilizce": "Classification of travel agencies",
+      "tanim": "Acentelerin yasal, fonksiyonel ve yapısal olmak üzere üç ayrı ölçüte göre gruplara ayrılmasıdır.",
+      "ornek": "Aynı acente yasal olarak A grubu, fonksiyonel olarak karşılayıcı, yapısal olarak perakendeci olabilir.",
+      "sektor": "Yasal: A, B, C grubu. Fonksiyonel: karşılayıcı (incoming), yurt dışı gönderici (outgoing), yurt içi gönderici (ingoing). Yapısal: toptancı, perakendeci, zincir. Üç ölçüt birbirinin yerine geçmez; acenteye üç ayrı pencereden bakar.",
+      "iliskili": [
+        "os-4-031",
+        "os-4-034",
+        "os-4-037"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-031",
+      "konu": "4.2.1",
+      "terim": "A grubu seyahat acentesi",
+      "ingilizce": "Group A travel agency",
+      "tanim": "Paket tur düzenleme, biletleme ve transfer dâhil bütün acentelik faaliyetlerini yapmaya yetkili, en geniş kapsamlı acente grubudur.",
+      "ornek": "Almanya'dan gelen bir grubu karşılayan, aynı hafta Türk konuklarını Balkan turuna gönderen acente A grubu olmak zorundadır.",
+      "sektor": "Türkiye'de tur operatörü işlevini de A grubu acenteler yerine getirir; bunun için ayrı bir hukuki düzenleme yoktur. Yetki geniş olduğu için sorumluluk da geniştir.",
+      "iliskili": [
+        "os-4-032",
+        "os-4-033",
+        "os-4-062"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-032",
+      "konu": "4.2.1",
+      "terim": "B grubu seyahat acentesi",
+      "ingilizce": "Group B travel agency",
+      "tanim": "Uluslararası kara, deniz ve hava ulaştırma araçlarının biletlerini ve A grubu acentelerin düzenlediği turların biletlerini satmaya yetkili acente grubudur.",
+      "ornek": "Bir B grubu acente, konuğuna Atina uçak biletini keser ve A grubu bir acentenin hazırladığı Yunan Adaları turunu satar; ama o turu kendisi düzenleyemez.",
+      "sektor": "Kendi adına tur düzenleme yetkisi yoktur. Sınavda en çok karıştırılan nokta: B grubu, C grubunun değil A grubunun turlarının biletini satar.",
+      "iliskili": [
+        "os-4-031",
+        "os-4-033",
+        "os-4-030"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-033",
+      "konu": "4.2.1",
+      "terim": "C grubu seyahat acentesi",
+      "ingilizce": "Group C travel agency",
+      "tanim": "Yalnızca Türk vatandaşları için yurt içi turlar düzenleyip satmaya yetkili acente grubudur.",
+      "ornek": "Bir C grubu acente, Ankara'dan kalkan hafta sonu Safranbolu–Amasra turunu düzenler; yurt dışı turu düzenleyemez.",
+      "sektor": "Üç grubun en dar yetkilisidir. Konuk, acentenin belge grubuna bakarak ondan hangi hizmeti alabileceğini anlayabilir; acente de yetkisini aşan işi satmaz.",
+      "iliskili": [
+        "os-4-031",
+        "os-4-032",
+        "os-4-036"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-034",
+      "konu": "4.2.1",
+      "terim": "Karşılayıcı (incoming) acente",
+      "ingilizce": "Incoming (inbound) agency",
+      "tanim": "Yurt dışındaki tur operatörlerinin gönderdiği konukları Türkiye'de karşılayan ve seyahatleri boyunca onlarla ilgilenen acentedir.",
+      "ornek": "İngiltere'den Dalaman'a inen grubu havalimanında karşılayıp Marmaris'teki otele götüren, tatil boyunca sorunlarıyla ilgilenen acente karşılayıcıdır.",
+      "sektor": "Tur operatörünün Türkiye'deki temsilcisi ve konuğun buradaki muhatabıdır; havalimanı–otel transferlerini o düzenler. Operatörün gözünde Türkiye'nin kalitesi, bu acentenin kalitesi kadardır.",
+      "iliskili": [
+        "os-4-035",
+        "os-4-036",
+        "os-4-055"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-035",
+      "konu": "4.2.1",
+      "terim": "Yurt dışı gönderici (outgoing) acente",
+      "ingilizce": "Outgoing (outbound) agency",
+      "tanim": "Yerli konukları başka ülkelere gönderen, yurt dışı turlar düzenleyen acentedir.",
+      "ornek": "İstanbul'daki bir acente, bayram tatili için Prag–Viyana–Budapeşte turu hazırlar ve katılacak konukların vize dosyalarını takip eder.",
+      "sektor": "Vize, pasaport ve gümrük işlemleri de işin içine girdiği için yapısı daha karmaşıktır; küçük çaplı bir tur operatörü gibi çalışır.",
+      "iliskili": [
+        "os-4-034",
+        "os-4-036",
+        "os-4-017"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-036",
+      "konu": "4.2.1",
+      "terim": "Yurt içi gönderici (ingoing) acente",
+      "ingilizce": "Domestic (ingoing) agency",
+      "tanim": "Ülkede yaşayan kişiler için yurt içinde turlar düzenleyen acentedir.",
+      "ornek": "İzmir'den kalkan otobüslü Kapadokya turunda konuklar, güzergâh üzerindeki Uşak ve Afyonkarahisar'dan da tura katılabilir.",
+      "sektor": "Konaklama, yeme içme, ulaşım ve rehberlik hizmetini sağlar; konuğu güzergâhta kendisine en yakın noktadan alır, gerekirse transfer düzenler. 'Incoming' ile karıştırılmamalıdır: incoming yabancı konuğu karşılar, ingoing yerli konuğu yurt içinde gezdirir.",
+      "iliskili": [
+        "os-4-034",
+        "os-4-035",
+        "os-4-033"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-037",
+      "konu": "4.2.1",
+      "terim": "Toptancı seyahat acentesi",
+      "ingilizce": "Wholesale travel agency",
+      "tanim": "Otel, hava yolu, transfer gibi tedarikçilerden büyük miktarda hizmet satın alıp bunları perakendeci acentelere satan acentedir.",
+      "ornek": "Bir toptancı, yaz için bir otelden çok sayıda geceleme satın alır ve bu odaları küçük acentelere dağıtır.",
+      "sektor": "Çok alan ucuza alır: yüksek hacim birim maliyeti düşürür. Son tüketiciyle değil, başka acentelerle çalışır; buna işletmeden işletmeye satış, yani B2B (business-to-business) denir.",
+      "iliskili": [
+        "os-4-038",
+        "os-4-040",
+        "os-4-056"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-038",
+      "konu": "4.2.1",
+      "terim": "Perakendeci seyahat acentesi",
+      "ingilizce": "Retail travel agency",
+      "tanim": "Tur, konaklama, ulaşım ve ek hizmetleri doğrudan son tüketiciye, yani konuğun kendisine satan acentedir.",
+      "ornek": "Mahalledeki acenteye giren emekli çift, vitrindeki Karadeniz turunu sorar; görevli onlara programı anlatır ve satışı yapar.",
+      "sektor": "Türkiye'de en yaygın acente türüdür ve genellikle komisyon karşılığı çalışır. Gücü konuk ilişkisindedir: danışmanlık yapar, kişinin ihtiyacına göre ürün seçer.",
+      "iliskili": [
+        "os-4-037",
+        "os-4-039",
+        "os-4-040"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-039",
+      "konu": "4.2.1",
+      "terim": "Komisyon",
+      "ingilizce": "Commission",
+      "tanim": "Acentenin, satışına aracılık ettiği ürün ya da hizmetin bedeli üzerinden aldığı paydır.",
+      "ornek": "Acente bir otelin odasını konuğa satar; otel, satış bedelinin önceden anlaşılan bir bölümünü acenteye bırakır.",
+      "sektor": "Perakendeci acentenin temel geliridir. Komisyon gizli bir kazanç değil, sözleşmeyle belirlenmiş aracılık ücretidir; konuğu yalnız yüksek komisyon veren yere yönlendirmek ise etik değildir.",
+      "iliskili": [
+        "os-4-038",
+        "os-4-056",
+        "os-4-064"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-040",
+      "konu": "4.2.1",
+      "terim": "Zincir seyahat acentesi",
+      "ingilizce": "Travel agency chain",
+      "tanim": "Birden çok şubesi bulunan, yurt içinde ve yurt dışında faaliyet gösterebilen acentedir.",
+      "ornek": "Aynı tabelayı taşıyan acentenin Ankara, İzmir ve Antalya şubelerinde konuk aynı turu aynı fiyat ve aynı koşullarla bulur.",
+      "sektor": "Toptancı ya da perakendeci işlevi görebilir; onu ayıran şube ağıdır. İki avantajı vardır: standartlaşma (her şubede aynı hizmet) ve ölçek avantajı (toplu alım, ortak tanıtım). Asıl sınavı merkezden kalite kontrolüdür.",
+      "iliskili": [
+        "os-4-037",
+        "os-4-038",
+        "os-4-030"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-041",
+      "konu": "4.2.2",
+      "terim": "Rezervasyon (booking)",
+      "ingilizce": "Booking (reservation)",
+      "tanim": "Konuk için uçak, otel, tur ya da başka bir hizmetin önceden ayrılmasıdır.",
+      "ornek": "Ağustos tatili için mayısta otel odası ayırtan konuğun kaydı bir rezervasyon numarasıyla saklanır.",
+      "sektor": "Genellikle bir rezervasyon numarası ya da PNR ile takip edilir. Acentede 'booking' sözcüğü her gün duyulur; overbooking, opsiyon ve no-show gibi pek çok terim onun üzerine kuruludur.",
+      "iliskili": [
+        "os-4-042",
+        "os-4-043",
+        "os-4-044"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-042",
+      "konu": "4.2.2",
+      "terim": "PNR",
+      "ingilizce": "PNR (Passenger Name Record)",
+      "tanim": "Hava yolu rezervasyonunda yolcunun adı, uçuşu ve rotası gibi bilgilerin saklandığı kayıt ve bu kayda ulaşmayı sağlayan rezervasyon kodudur.",
+      "ornek": "Konuk havalimanındaki kiosk cihazına biletindeki kodu ve soyadını yazar; uçuş bilgileri ekrana gelir.",
+      "sektor": "Ders kitabına göre harf ve rakamlardan oluşan altı haneli bir koddur. Konuk bilet değişikliği için aradığında acentecinin ilk sorusu budur: 'PNR numaranız nedir?'",
+      "iliskili": [
+        "os-4-041",
+        "os-4-016",
+        "os-4-058"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-043",
+      "konu": "4.2.2",
+      "terim": "Opsiyon",
+      "ingilizce": "Option (option date)",
+      "tanim": "Kesinleşmemiş bir rezervasyonda, ödemenin yapılması için tanınan son tarih ya da süredir.",
+      "ornek": "Satış görevlisi 'Yerinizi cuma 17.00'ye kadar tutabiliyorum efendim' der; konuk o saate kadar ödeme yapmazsa yer başkasına satılır.",
+      "sektor": "Opsiyon tarihi konuğa açıkça söylenir. Süreyi uzatmak için yeri ayıran otelin ya da hava yolunun onayı gerekir; görevli kendi başına söz vermez.",
+      "iliskili": [
+        "os-4-041",
+        "os-4-044",
+        "os-4-013"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-044",
+      "konu": "4.2.2",
+      "terim": "Konfirmasyon",
+      "ingilizce": "Confirmation",
+      "tanim": "Rezervasyonun kesinleştiğinin, hizmeti verecek işletme tarafından yazılı olarak onaylanmasıdır.",
+      "ornek": "Otel, acentenin gönderdiği rezervasyon talebine 'Onaylanmıştır' yanıtını ve bir onay numarasını e-postayla yollar.",
+      "sektor": "Sektörde 'konfirme almak' denir. Onayı gelmemiş rezervasyon, yapılmamış rezervasyon gibidir; konuğa 'Yeriniz hazır' demeden önce yazılı onay beklenir.",
+      "iliskili": [
+        "os-4-041",
+        "os-4-043",
+        "os-4-045"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "os-4-045",
+      "konu": "4.2.2",
+      "terim": "Voucher",
+      "ingilizce": "Voucher",
+      "tanim": "Konuğun bir hizmeti satın aldığını kanıtlayan; üzerinde konaklama, transfer ya da tur ayrıntılarının yazdığı hizmet belgesidir.",
+      "ornek": "Konuk otele vardığında resepsiyona acentenin verdiği voucherı gösterir; görevli tarihleri ve oda tipini belgeden kontrol eder.",
+      "sektor": "Hizmet çeki de denir. Konuk için 'bu hizmeti satın aldım' belgesidir; otel de konuğu bu belgeyle tanır. Üzerindeki bilgi rezervasyonla aynı olmalıdır; fark varsa konukla tartışılmaz, acente aranır.",
+      "iliskili": [
+        "os-4-041",
+        "os-4-044",
+        "os-4-080"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-046",
+      "konu": "4.2.2",
+      "terim": "Overbooking",
+      "ingilizce": "Overbooking",
+      "tanim": "Bir işletmenin, bazı rezervasyonların iptal olacağını hesaplayarak kapasitesinden fazla rezervasyon kabul etmesidir.",
+      "ornek": "Bir otel her gün birkaç iptal olduğunu bildiği için oda sayısından fazla rezervasyon alır; o gün herkes gelirse birkaç konuğa oda kalmaz.",
+      "sektor": "Amaç odanın ya da koltuğun boş kalmamasıdır. Açıkta kalan konuk çoğunlukla aynı ya da daha üst sınıf bir tesise yerleştirilir; acente görevlisi durumu hemen operasyona bildirir.",
+      "iliskili": [
+        "os-4-048",
+        "os-4-047",
+        "os-4-041"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-047",
+      "konu": "4.2.2",
+      "terim": "Stop-sale",
+      "ingilizce": "Stop-sale",
+      "tanim": "Tedarikçinin belirli bir dönem için satışı geçici olarak durdurması ve bunu acentelere bildirmesidir.",
+      "ornek": "Bir otel bayram haftası için dolduğunu görünce acentelere 'Şu tarihler arasında satış durdurulmuştur' mesajı gönderir.",
+      "sektor": "Mesajı görmeden satış yapan acente, olmayan bir odayı satmış olur. Bu yüzden satıştan önce güncel durum her seferinde sistemden kontrol edilir.",
+      "iliskili": [
+        "os-4-046",
+        "os-4-057",
+        "os-4-041"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-048",
+      "konu": "4.2.2",
+      "terim": "No-show",
+      "ingilizce": "No-show",
+      "tanim": "Rezervasyonu olduğu hâlde konuğun, iptal ettirmeden hizmetin verileceği yere gelmemesi durumudur.",
+      "ornek": "Konuk 20.00 uçuşuna bilet almıştır; haber vermeden havalimanına gelmez, koltuğu boş gider.",
+      "sektor": "Genellikle ücret iadesi yapılmaz, çünkü yer başkasına satılamamıştır. Vize gecikmesi ya da hastalık herkesin başına gelebilir; asıl hata bunun işletmeye zamanında bildirilmemesidir.",
+      "iliskili": [
+        "os-4-049",
+        "os-4-050",
+        "os-4-051"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-049",
+      "konu": "4.2.2",
+      "terim": "Go-show",
+      "ingilizce": "Go-show",
+      "tanim": "Rezervasyonu olmadığı hâlde hizmet almak üzere doğrudan gelen yolcu ya da konuktur.",
+      "ornek": "Sabah 06.00, havalimanı bankosu: rezervasyonu olmayan bir yolcu, boş koltuk çıkar umuduyla uçuşun check-in sırasında bekler.",
+      "sektor": "No-show'un tersidir. Otelde rezervasyonsuz gelen konuğa walk-in denir. Acente, son dakika satışını hizmeti verecek işletmeye bildirmezse konuk sahada go-show gibi görünür; bu yüzden her satış aynı gün teyit ettirilir.",
+      "iliskili": [
+        "os-4-048",
+        "os-4-044",
+        "os-4-046"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "os-4-050",
+      "konu": "4.2.2",
+      "terim": "Son dakika satışı",
+      "ingilizce": "Last-minute sale",
+      "tanim": "Dolmayan yerlerin, hizmet tarihine çok az kala indirimli fiyatla satışa sunulmasıdır.",
+      "ornek": "Cuma günü çıkacak turda iki konuğun vizesi yetişmez; acente boşalan iki yeri çarşamba günü indirimli olarak duyurur.",
+      "sektor": "Sektörde 'last minute' diye anılır. Boş giden koltuğun ve boş kalan odanın geliri bir daha geri gelmez; son dakika satışı bu kaybı azaltır.",
+      "iliskili": [
+        "os-4-048",
+        "os-4-065",
+        "os-4-041"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-051",
+      "konu": "4.2.2",
+      "terim": "İptal koşulları",
+      "ingilizce": "Cancellation policy",
+      "tanim": "Rezervasyonun hangi tarihe kadar ücretsiz iptal edilebileceğini ve sonrasında ne kadar kesinti yapılacağını belirleyen kurallardır.",
+      "ornek": "Satış görevlisi sözleşmeyi imzalatmadan önce 'Şu tarihten sonra iptalde kesinti uygulanır' diyerek ilgili maddeyi konuğa gösterir.",
+      "sektor": "Koşullar otelden otele, turdan tura değişir. Satış anında açıkça söylenmeyen iptal koşulu, sonradan en sık şikâyet konusu olan başlıklardandır.",
+      "iliskili": [
+        "os-4-048",
+        "os-4-043",
+        "os-4-074"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "os-4-052",
+      "konu": "4.2.2",
+      "terim": "Charter",
+      "ingilizce": "Charter flight",
+      "tanim": "Belirli bir grup ya da acente için kiralanan tarifesiz uçuştur.",
+      "ornek": "Yaz sezonunda bir tur operatörü, konuklarını her cumartesi Düsseldorf'tan Antalya'ya kiraladığı uçakla getirir.",
+      "sektor": "Genellikle paket turlarda kullanılır. Uçağın tamamı kiralandığı için boş kalan her koltuk kiralayanın zararıdır.",
+      "iliskili": [
+        "os-4-062",
+        "os-4-063",
+        "os-4-065"
+      ],
+      "kontrol": null,
+      "gorsel": "ucak"
+    },
+    {
+      "id": "os-4-053",
+      "konu": "4.2.2",
+      "terim": "Stopover",
+      "ingilizce": "Stopover",
+      "tanim": "Uzun yolculuklarda varış noktasına ulaşmadan önce aktarma noktasında verilen ara duraktır.",
+      "ornek": "İstanbul'dan Tokyo'ya giden konuk, yolculuğunu Doha'da bölerek iki uçuş arasında şehirde bir gece geçirir.",
+      "sektor": "Biletleme ve konaklama planlamasında önemlidir: ara durakta otel, transfer, hatta vize gerekebilir. Acente aktarma süresini ve o ülkenin giriş kurallarını konuğa önceden söyler.",
+      "iliskili": [
+        "os-4-101",
+        "os-4-054",
+        "os-4-016"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-054",
+      "konu": "4.2.2",
+      "terim": "Itinerary",
+      "ingilizce": "Itinerary",
+      "tanim": "Tur ya da seyahat boyunca izlenecek güzergâhı, saatleri ve hizmetlerin sırasını gösteren programdır.",
+      "ornek": "Programda '2. gün: 08.00 kahvaltı, 09.00 Göreme Açık Hava Müzesi, 13.00 öğle yemeği, 15.00 çömlek atölyesi' yazar.",
+      "sektor": "Türkçesi güzergâh ya da tur programıdır. Konuk sabah kaçta hazır olacağını buradan öğrenir; rehberin, şoförün ve otelin de ortak planıdır. Programda yazan yer gerekçesiz atlanmaz.",
+      "iliskili": [
+        "os-4-018",
+        "os-4-020",
+        "os-4-063"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-055",
+      "konu": "4.2.2",
+      "terim": "Transfer",
+      "ingilizce": "Transfer",
+      "tanim": "Konuğun havalimanı, otel ve gezi noktaları arasında acentenin düzenlediği araçla taşınmasıdır.",
+      "ornek": "Uçaktan inen konuğu çıkışta acentenin görevlisi karşılar ve bavullarıyla birlikte minibüsle oteline götürür.",
+      "sektor": "Özellikle karşılayıcı acentelerin düzenlediği bir hizmettir. Tatilin ilk ve son anısıdır: geç gelen araç, çok iyi geçen bir haftayı gölgeleyebilir.",
+      "iliskili": [
+        "os-4-022",
+        "os-4-034",
+        "os-4-082"
+      ],
+      "kontrol": null,
+      "gorsel": "valizler"
+    },
+    {
+      "id": "os-4-056",
+      "konu": "4.2.2",
+      "terim": "Net fiyat",
+      "ingilizce": "Net rate",
+      "tanim": "Tedarikçinin acenteye verdiği, acentenin kazancı eklenmemiş fiyattır.",
+      "ornek": "Otel acenteye bir odayı net fiyatla verir; acente bu fiyatın üzerine kendi payını ekleyerek satış fiyatını belirler.",
+      "sektor": "Net fiyat ticari bir sırdır; konuğa ya da rakip acenteye söylenmez. Komisyonlu çalışmada ise satış fiyatı bellidir ve acente bu fiyatın üzerinden komisyon alır.",
+      "iliskili": [
+        "os-4-039",
+        "os-4-037",
+        "os-4-057"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-057",
+      "konu": "4.2.2",
+      "terim": "Kontenjan (allotment)",
+      "ingilizce": "Allotment",
+      "tanim": "Otelin ya da hava yolunun, belirli bir dönem için belirli sayıda oda ya da koltuğu bir acenteye ayırmasıdır.",
+      "ornek": "Bir otel yaz sezonu için her gece belirli sayıda odasını bir tur operatörüne ayırır; operatör bu odaları kendi konuklarına satar.",
+      "sektor": "Sektörde 'allotman' diye de söylenir. Kullanılmayacak odalar belirlenen tarihe kadar otele geri bildirilir; garantili kontenjanda ise satılamayan odanın bedeli yine ödenir.",
+      "iliskili": [
+        "os-4-026",
+        "os-4-065",
+        "os-4-047"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-058",
+      "konu": "4.2.2",
+      "terim": "Bilgisayarlı rezervasyon sistemi (CRS)",
+      "ingilizce": "Computerised reservation system (CRS)",
+      "tanim": "Acentenin uçuş, otel ve benzeri hizmetlerde boş yer sorup anında rezervasyon yapmasını sağlayan bilgisayar sistemidir.",
+      "ornek": "Bilet personeli ekrana tarih ve güzergâhı yazar; sistem birkaç saniyede uygun uçuşları ve fiyatları listeler.",
+      "sektor": "Telefonla tek tek yer sorma dönemini bitirmiştir. Sisteme girilen her harf kayda dönüşür; yanlış yazılan ad, yanlış kesilmiş bilet demektir.",
+      "iliskili": [
+        "os-4-059",
+        "os-4-042",
+        "os-4-016"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-059",
+      "konu": "4.2.2",
+      "terim": "GDS",
+      "ingilizce": "GDS (Global Distribution System)",
+      "tanim": "Hava yollarını, otelleri, araç kiralama şirketlerini ve acenteleri birbirine bağlayan küresel rezervasyon ağıdır.",
+      "ornek": "Acente görevlisi tek ekrandan hem Londra uçuşunu hem oradaki oteli hem de kiralık aracı sorgulayıp ayırtır.",
+      "sektor": "Türkçesi küresel dağıtım sistemidir; en bilinenleri Amadeus, Sabre ve Travelport'tur. Biletleme alanında çalışmak isteyen birinin öğreneceği ilk araçlardandır.",
+      "iliskili": [
+        "os-4-058",
+        "os-4-042",
+        "os-4-093"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "os-4-060",
+      "konu": "4.2.2",
+      "terim": "Fam trip",
+      "ingilizce": "Familiarisation trip (fam trip)",
+      "tanim": "Bir bölgeyi ve oradaki tesisleri acente çalışanlarına tanıtmak için düzenlenen tanıtım gezisidir.",
+      "ornek": "Yeni açılan bir otel, sezon öncesinde acentelerin satış görevlilerini iki günlüğüne ağırlar ve odalarını, restoranlarını gezdirir.",
+      "sektor": "Mantığı basittir: satış görevlisi görmediği oteli anlatamaz, gördüğünü içtenlikle satar.",
+      "iliskili": [
+        "os-4-061",
+        "os-4-013"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "os-4-061",
+      "konu": "4.2.2",
+      "terim": "Teşvik gezisi (incentive)",
+      "ingilizce": "Incentive travel",
+      "tanim": "Şirketlerin, çalışanlarını ya da bayilerini ödüllendirmek ve daha verimli çalışmaya özendirmek için düzenlettiği gezidir.",
+      "ornek": "Bir sigorta şirketi, yılın en başarılı satış ekibini üç günlüğüne Kapadokya'ya gönderir.",
+      "sektor": "MICE'ın 'I' harfidir. Parayı tatile giden kişi değil, şirket öder. Fam trip ile karıştırılmamalıdır: biri çalışanı ödüllendirir, öteki bölgeyi acentelere tanıtır.",
+      "iliskili": [
+        "os-4-019",
+        "os-4-060"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "os-4-062",
+      "konu": "4.2.3",
+      "terim": "Tur operatörü",
+      "ingilizce": "Tour operator",
+      "tanim": "Ulaşım, konaklama, rehberlik ve etkinlikleri talep oluşmadan önce bir araya getirip paket hâlinde satışa sunan işletmedir.",
+      "ornek": "Bir tur operatörü kış aylarında, gelecek yaz için otellerden oda, hava yollarından koltuk ayırır ve bunları tek fiyatlı tatil paketlerine dönüştürür.",
+      "sektor": "Paket turun 'üreticisi', yani toptancısıdır. Türkiye'de hukuken ayrı bir tur operatörü statüsü yoktur; 1618 sayılı Kanun çerçevesinde bu işlevi A grubu acenteler yerine getirir.",
+      "iliskili": [
+        "os-4-063",
+        "os-4-064",
+        "os-4-031"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-063",
+      "konu": "4.2.3",
+      "terim": "Paket tur",
+      "ingilizce": "Package tour",
+      "tanim": "Ulaşım, konaklama ve rehberlik gibi birden çok hizmetin bir araya getirilip tek fiyatla satıldığı hazır seyahat ürünüdür.",
+      "ornek": "Uçak bileti, dört gece otel, kahvaltı, transfer ve rehberli şehir turu tek fiyatla 'Paris Turu' adıyla satılır.",
+      "sektor": "Konuk her hizmeti ayrı ayrı aramaz, tek sözleşmeyle hepsini alır. Paket turda hizmetin eksik verilmesine karşı konuğu koruyan özel kurallar ve zorunlu sigorta vardır.",
+      "iliskili": [
+        "os-4-062",
+        "os-4-068",
+        "os-4-074"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-064",
+      "konu": "4.2.3",
+      "terim": "Üretici – aracı ayrımı",
+      "ingilizce": "Producer versus intermediary",
+      "tanim": "Tur operatörünün paket turu oluşturan taraf, seyahat acentesinin ise bu hazır ürünü konuğa ulaştıran satış noktası olmasıdır.",
+      "ornek": "Operatör bir Ege turunu hazırlayıp fiyatını belirler; mahalledeki acente bu turu vitrine koyar, konuğa satar ve anlaşılan komisyonu alır.",
+      "sektor": "Operatör toptancı / üretici, acente perakendeci / aracıdır. Operatör maliyetin üzerine kâr payı ekleyerek, acente komisyonla kazanır. Operatör katalog ve reklama büyük bütçe ayırır; acente çoğu zaman operatörün hazır broşürünü kullanır.",
+      "iliskili": [
+        "os-4-062",
+        "os-4-039",
+        "os-4-065"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-065",
+      "konu": "4.2.3",
+      "terim": "Finansal risk",
+      "ingilizce": "Financial risk",
+      "tanim": "Önceden satın alınan oda ya da koltuğun satılamaması durumunda doğan zarar ihtimalidir.",
+      "ornek": "Operatör yaz için garantili ayırttığı odaların bir kısmını satamaz; boş kalan odaların bedelini yine de otele öder.",
+      "sektor": "Tur operatörü talep oluşmadan önce kapasite satın aldığı ve kontenjan garantisi verdiği için riski üstlenir. Seyahat acentesi ise ürünün sahibi değildir; konuğun talebine göre mevcut ürünlerden seçip sattığı için satılamayan yerden zarar etmez.",
+      "iliskili": [
+        "os-4-062",
+        "os-4-064",
+        "os-4-050"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-066",
+      "konu": "4.3",
+      "terim": "1618 sayılı Kanun",
+      "ingilizce": "Law No. 1618 (Travel Agencies Act)",
+      "tanim": "Türkiye'de seyahat acentelerinin kuruluş şartlarını, çalışma esaslarını ve TÜRSAB ile ilişkilerini düzenleyen temel kanundur.",
+      "ornek": "Bir girişimci acente açmak istediğinde ilk bakacağı metin budur: hangi belgeyi kimden alacağı ve hangi grupta çalışabileceği burada yazar.",
+      "sektor": "Tam adı Seyahat Acentaları ve Seyahat Acentaları Birliği Kanunu'dur; 1972'de yürürlüğe girmiştir. Amaç sektörün disiplin içinde çalışması ve tüketicinin korunmasıdır. Mevzuatı bilen acenteci hem konuğunu hem kendini korur.",
+      "iliskili": [
+        "os-4-067",
+        "os-4-069",
+        "os-4-073"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-067",
+      "konu": "4.3",
+      "terim": "Seyahat acentesi işletme belgesi",
+      "ingilizce": "Travel agency operating licence",
+      "tanim": "Bir işletmenin seyahat acenteliği yapabilmesi için Kültür ve Turizm Bakanlığından alması zorunlu olan resmî izin belgesidir.",
+      "ornek": "Konuk, internette gördüğü acentenin belge numarasını sorar; görevli numarayı söyler ve belgenin ofiste asılı olduğunu gösterir.",
+      "sektor": "Ders kitabına göre acente iki şartla işe başlar: Bakanlıktan işletme belgesini alır ve TÜRSAB'a üye olur. Belgeyi TÜRSAB değil, Bakanlık verir. Belgesiz tur satan kişi kaçak çalışıyordur; konuğun başına bir şey gelirse arkasında duracak kimse yoktur.",
+      "iliskili": [
+        "os-4-066",
+        "os-4-070",
+        "os-4-086"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-068",
+      "konu": "4.3",
+      "terim": "Zorunlu paket tur sigortası",
+      "ingilizce": "Compulsory package tour insurance",
+      "tanim": "Acentenin, paket turda söz verdiği hizmetin eksik verilmesi ya da hiç verilmemesi riskine karşı konuklarını güvenceye almak için yaptırmak zorunda olduğu sigortadır.",
+      "ornek": "Acente paket turdaki hizmeti eksik ya da hiç veremezse, konuğun uğradığı zarara karşı bu sigorta devreye girer.",
+      "sektor": "6502 sayılı Tüketicinin Korunması Hakkında Kanun'la uyumlu bir yükümlülüktür. Seyahat sağlık sigortasıyla karıştırılmamalıdır: paket tur sigortasını konuk değil, acente yaptırır.",
+      "iliskili": [
+        "os-4-063",
+        "os-4-076",
+        "os-4-118"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-069",
+      "konu": "4.3.1",
+      "terim": "TÜRSAB",
+      "ingilizce": "Association of Turkish Travel Agencies (TÜRSAB)",
+      "tanim": "Türkiye'de seyahat acenteliği mesleğinin kurumsal ve hukuki temsilcisi olan Türkiye Seyahat Acentaları Birliğidir.",
+      "ornek": "Acentenin internet sitesindeki belge numarası ve TÜRSAB üyeliği, konuğa karşısındakinin kayıtlı bir acente olduğunu gösterir.",
+      "sektor": "1972'de yürürlüğe giren 1618 sayılı Kanun'la kurulmuştur. Kanun onu 'kamu kurumu niteliğinde meslek kuruluşu' olarak tanımlar; sektörde hem düzenleyici hem denetleyici bir rolü vardır. Gerektiğinde devlete danışmanlık yapar, pazar araştırması yürütür ve tanıtıma destek verir.",
+      "iliskili": [
+        "os-4-066",
+        "os-4-070",
+        "os-4-071"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-070",
+      "konu": "4.3.1",
+      "terim": "Zorunlu üyelik",
+      "ingilizce": "Compulsory membership",
+      "tanim": "Seyahat acenteliği yapmak isteyen her işletmenin, işletme belgesini aldıktan sonra TÜRSAB'a üye olmak zorunda olmasıdır.",
+      "ornek": "Yeni kurulan bir acente Bakanlıktan belgesini alır, ardından TÜRSAB üyeliğini tamamlar; satışa ondan sonra başlar.",
+      "sektor": "Ders kitabına göre üyelik isteğe bağlı değil, hukuki bir zorunluluktur. Amaç kayıt dışı faaliyeti önlemek ve herkesin aynı standartlara uymasını sağlamaktır.",
+      "iliskili": [
+        "os-4-069",
+        "os-4-067",
+        "os-4-072"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-071",
+      "konu": "4.3.1",
+      "terim": "Mesleki disiplin ve etik denetim",
+      "ingilizce": "Professional discipline and ethical oversight",
+      "tanim": "TÜRSAB'ın, üye acentelerin meslek ilkelerine uygun davranıp davranmadığını izlemesi ve etik dışı uygulamaları denetlemesidir.",
+      "ornek": "Bir konuk, acentenin programda yazan geziyi yapmadığını belirterek TÜRSAB'a şikâyette bulunur; birlik şikâyeti değerlendirir.",
+      "sektor": "Tüketici şikâyetlerini değerlendirmek birliğin yasal görevlerindendir. Zorunlu sigorta ve paket tur kurallarına uyulmasını takip ederek sektörde güven ortamını korur.",
+      "iliskili": [
+        "os-4-069",
+        "os-4-023",
+        "os-4-072"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-072",
+      "konu": "4.3.1",
+      "terim": "Haksız rekabet",
+      "ingilizce": "Unfair competition",
+      "tanim": "Bir işletmenin dürüstlük kurallarına aykırı yollarla rakiplerinin önüne geçmeye çalışmasıdır.",
+      "ornek": "Belgesi olmayan bir kişi sosyal medyada çok ucuza tur satar; ne sigorta yaptırır ne kurallara uyar, dürüst çalışan acentelerin konuğunu elinden alır.",
+      "sektor": "Haksız rekabeti önlemek TÜRSAB'ın görevleri arasındadır. Kurala uyan acentenin maliyeti vardır; kuralsız çalışan hem konuğu riske atar hem dürüst işletmeye zarar verir.",
+      "iliskili": [
+        "os-4-071",
+        "os-4-070",
+        "os-4-067"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-073",
+      "konu": "4.3.2",
+      "terim": "Seyahat Acentaları Yönetmeliği",
+      "ingilizce": "Travel Agencies Regulation",
+      "tanim": "1618 sayılı Kanun'un nasıl uygulanacağını ayrıntılı olarak gösteren yönetmeliktir.",
+      "ornek": "Kanun 'acente işletme belgesi alır' der; belgenin hangi şartlarla ve nasıl alınacağının ayrıntısı yönetmelikte yazar.",
+      "sektor": "Kanun genel kuralı koyar, yönetmelik uygulamayı anlatır. Acenteyi bağlayan başka yönetmelikler de vardır: Seyahat Acentaları Birliği Yönetmeliği, Turizm Amaçlı Sportif Faaliyet Yönetmeliği ve turizm işletmelerinin Bakanlıkla, birbirleriyle ve müşterileriyle ilişkilerini düzenleyen yönetmelik bunlardandır.",
+      "iliskili": [
+        "os-4-066",
+        "os-4-074",
+        "os-4-075"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-074",
+      "konu": "4.3.2",
+      "terim": "Paket Tur Sözleşmeleri Yönetmeliği",
+      "ingilizce": "Package Tour Contracts Regulation",
+      "tanim": "Turu satan acente ile turu satın alan tüketici arasındaki paket tur sözleşmesinin kurallarını belirleyen yönetmeliktir.",
+      "ornek": "Konuk tur sözleşmesini imzalamadan önce programı, fiyata dâhil hizmetleri ve iptal koşullarını yazılı olarak görür.",
+      "sektor": "Söz uçar, sözleşme kalır. Konuğa imzalatılan sözleşme bir formalite değil, iki tarafın da hakkını koruyan belgedir; satış görevlisi sözleşmeyi konuğa okutmadan imzalatmaz.",
+      "iliskili": [
+        "os-4-063",
+        "os-4-076",
+        "os-4-051"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-075",
+      "konu": "4.3.2",
+      "terim": "Mesafeli sözleşme",
+      "ingilizce": "Distance contract",
+      "tanim": "Satıcı ile tüketicinin yüz yüze gelmeden, internet ya da telefon gibi araçlarla kurduğu sözleşmedir.",
+      "ornek": "Konuk gece 23.00'te evinden, acentenin internet sitesi üzerinden bir hizmet satın alır ve onayını ekrandaki kutuyu işaretleyerek verir.",
+      "sektor": "Kuralları Mesafeli Sözleşmeler Yönetmeliği ile belirlenir; ders kitabı bu yönetmeliği acentelerin tabi olduğu mevzuat arasında sayar. İnternet üzerinden satışı ayrıca 6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun düzenler. Konuğa bilgi, satın almadan önce açık ve eksiksiz verilir.",
+      "iliskili": [
+        "os-4-074",
+        "os-4-076",
+        "os-4-077"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-076",
+      "konu": "4.3.2",
+      "terim": "Tüketicinin Korunması Hakkında Kanun",
+      "ingilizce": "Consumer Protection Act (Law No. 6502)",
+      "tanim": "Mal ya da hizmet satın alan tüketicinin haklarını koruyan 6502 sayılı kanundur.",
+      "ornek": "Broşürde beş yıldızlı otel yazdığı hâlde daha alt sınıf bir otele yerleştirilen konuk, hakkını bu kanuna dayanarak arar.",
+      "sektor": "Acentenin konuğu aynı zamanda bir tüketicidir. Zorunlu paket tur sigortası bu kanunla uyumlu bir yükümlülüktür. Acente ayrıca bir ticari işletme olarak 6102 sayılı Türk Ticaret Kanunu'na da tabidir.",
+      "iliskili": [
+        "os-4-068",
+        "os-4-074",
+        "os-4-071"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-077",
+      "konu": "4.3.2",
+      "terim": "Kişisel Verilerin Korunması Kanunu (KVKK)",
+      "ingilizce": "Personal Data Protection Act (Law No. 6698)",
+      "tanim": "Kişilerin ad, kimlik numarası, pasaport bilgisi gibi verilerinin nasıl toplanacağını, saklanacağını ve korunacağını düzenleyen 6698 sayılı kanundur.",
+      "ornek": "Vize dosyası için alınan pasaport fotokopisi yalnız başvuru için kullanılır; masada açıkta bırakılmaz, mesajlaşma gruplarında paylaşılmaz.",
+      "sektor": "Acente her gün pasaport, kimlik, banka dökümü gibi hassas belgelerle çalışır. Konuğun bilgisini izinsiz paylaşmak hem gizlilik ilkesine hem de kanuna aykırıdır.",
+      "iliskili": [
+        "os-4-023",
+        "os-4-108",
+        "os-4-075"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-078",
+      "konu": "4.4",
+      "terim": "Paydaş",
+      "ingilizce": "Stakeholder",
+      "tanim": "Bir işletmenin çalışmalarından etkilenen ya da onu etkileyen kişi, kurum ve işletmelerin her biridir.",
+      "ornek": "Bir kültür turunun paydaşları konuk, acente, otel, otobüs firması, rehber, müze ve gidilen kasabanın esnafıdır.",
+      "sektor": "Acente, turizm ürününü oluşturan farklı hizmetleri bir araya getiren bir orkestra şefi gibidir. Başlıca paydaşları Kültür ve Turizm Bakanlığı, mülki idare amirlikleri ve belediyeler, TÜRSAB, konaklama ve ulaştırma işletmeleri ile sigorta şirketleridir.",
+      "iliskili": [
+        "os-4-079",
+        "os-4-085"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-079",
+      "konu": "4.4.1",
+      "terim": "Hizmet satın alınan işletmeler",
+      "ingilizce": "Service suppliers",
+      "tanim": "Acentenin turunu oluşturmak için hizmet aldığı konaklama, yiyecek içecek, ulaştırma ve alışveriş işletmeleridir.",
+      "ornek": "İki günlük Gaziantep turu için acente bir otelle, iki restoranla, bir otobüs firmasıyla ve Bakırcılar Çarşısı'ndaki bir atölyeyle anlaşır.",
+      "sektor": "Dört temel işletme türü vardır. Dikkat: otel ve otobüs firması hizmet sağlayıcıdır; Bakanlık, TÜRSAB ve konsolosluk ise ilişkili kurumdur. Sınavda bu iki grup birbirine karıştırılır.",
+      "iliskili": [
+        "os-4-080",
+        "os-4-082",
+        "os-4-085"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-080",
+      "konu": "4.4.1",
+      "terim": "Konaklama işletmeleriyle iş birliği",
+      "ingilizce": "Co-operation with accommodation providers",
+      "tanim": "Acentenin, konuklarının kalacağı otel, tatil köyü ve pansiyon gibi tesislerle yaptığı anlaşmalara dayanan çalışma ilişkisidir.",
+      "ornek": "Acente, sezon başında Kuşadası'ndaki bir otelle fiyat ve oda sayısı üzerinde anlaşır; sezon boyunca konuklarını o otele gönderir.",
+      "sektor": "Paket turun en büyük parçası çoğu zaman konaklamadır. Otel acenteye oda, acente otele konuk getirir; iki taraf da birbirine muhtaçtır. Otelde staj yapan öğrenci, voucherla gelen konuğu bu ilişkinin sonucu olarak karşılar.",
+      "iliskili": [
+        "os-4-079",
+        "os-4-045",
+        "os-4-057"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-081",
+      "konu": "4.4.1",
+      "terim": "Yiyecek içecek işletmeleriyle iş birliği",
+      "ingilizce": "Co-operation with food and beverage outlets",
+      "tanim": "Acentenin, tur sırasında grubun yemek yiyeceği restoran ve benzeri işletmelerle önceden yaptığı anlaşmadır.",
+      "ornek": "Saat 12.30, Hatay turu: grup restorana vardığında masalar kurulmuş, menü hazırdır; çünkü acente günü, saati ve kişi sayısını önceden bildirmiştir.",
+      "sektor": "Anlaşmalı restoran kalabalık gruba hazırlıklıdır, acente de kalitesinden emindir. Alerji ve özel beslenme istekleri restorana önceden yazılı bildirilir.",
+      "iliskili": [
+        "os-4-079",
+        "os-4-008"
+      ],
+      "kontrol": null,
+      "gorsel": "restoran"
+    },
+    {
+      "id": "os-4-082",
+      "konu": "4.4.1",
+      "terim": "Ulaştırma işletmeleriyle iş birliği",
+      "ingilizce": "Co-operation with transport providers",
+      "tanim": "Acentenin, konuklarını taşıyacak hava yolu, otobüs, gemi ve araç kiralama firmalarıyla kurduğu çalışma ilişkisidir.",
+      "ornek": "Acente, okul gezisi için bir otobüs firmasından araç kiralar; yola çıkmadan önce aracın ve firmanın belgelerini kontrol eder.",
+      "sektor": "Araç kiralık da olsa konuk karşısında acenteyi görür ve hesabı ondan sorar. Bu yüzden yalnız fiyata değil, firmanın belgelerine, sigortasına ve güvenliğe verdiği öneme de bakılır.",
+      "iliskili": [
+        "os-4-079",
+        "os-4-087",
+        "os-4-055"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-083",
+      "konu": "4.4.1",
+      "terim": "Alışveriş işletmeleriyle iş birliği",
+      "ingilizce": "Co-operation with shopping outlets",
+      "tanim": "Acentenin, tur programında konukların uğrayacağı hediyelik eşya, halı, deri, kuyum gibi mağazalarla kurduğu ilişkidir.",
+      "ornek": "Kapadokya turunda grup bir çömlek atölyesine uğrar; usta çarkta nasıl çalıştığını gösterir, isteyen alışveriş yapar.",
+      "sektor": "Alışveriş, turun doğal bir parçasıdır ve yöre esnafına kazandırır. Etik sınır şudur: konuk alışverişe zorlanmaz, programdaki bir ziyaret komisyon için iptal edilmez.",
+      "iliskili": [
+        "os-4-079",
+        "os-4-023",
+        "os-4-039"
+      ],
+      "kontrol": null,
+      "gorsel": "carsi"
+    },
+    {
+      "id": "os-4-084",
+      "konu": "4.4.1",
+      "terim": "Sigorta şirketleriyle iş birliği",
+      "ingilizce": "Co-operation with insurance companies",
+      "tanim": "Acentenin, zorunlu sigortalarını yaptırmak ve konuklarına seyahat sigortası sunmak için sigorta şirketleriyle çalışmasıdır.",
+      "ornek": "Yurt dışı turu satan görevli, konuğun vize dosyasına eklenecek seyahat sağlık sigortası poliçesini anlaşmalı sigorta şirketinden düzenletir.",
+      "sektor": "Ders kitabı sigorta şirketlerini acentenin başlıca paydaşları arasında sayar. Poliçenin neyi kapsadığını konuğa doğru anlatmak görevlinin işidir; kapsamda olmayan şey için söz verilmez.",
+      "iliskili": [
+        "os-4-118",
+        "os-4-068",
+        "os-4-119"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-085",
+      "konu": "4.4.2",
+      "terim": "İlişkili kurum ve kuruluşlar",
+      "ingilizce": "Related institutions and organisations",
+      "tanim": "Acentenin hizmet satın almadığı, ama izin, denetim, temsil ve iş birliği için muhatap olduğu kamu kurumları, meslek örgütleri ve uluslararası kuruluşlardır.",
+      "ornek": "Acente belgesi için Bakanlıkla, üyeliği için TÜRSAB'la, rehber bulmak için rehber odasıyla, bilet satışı için IATA'yla ilişki kurar.",
+      "sektor": "Üç grupta düşünülür: kamu kurumları (bakanlıklar, valilik, belediye), meslek örgütleri ve sivil toplum kuruluşları (TÜRSAB, TUREB, TÜROB, TÜROFED), uluslararası kuruluşlar (UN Tourism, IATA, UFTAA).",
+      "iliskili": [
+        "os-4-079",
+        "os-4-086",
+        "os-4-093"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-086",
+      "konu": "4.4.2",
+      "terim": "Kültür ve Turizm Bakanlığı",
+      "ingilizce": "Ministry of Culture and Tourism",
+      "tanim": "Seyahat acentelerine işletme belgesi veren ve onları denetleyen en üst kamu otoritesidir.",
+      "ornek": "Bakanlık denetçileri bir acenteyi ziyaret eder; belgesini ve sattığı turların kurallara uygunluğunu inceler.",
+      "sektor": "Acentenin kuruluşundan denetimine kadar ilk muhatabıdır; sürdürülebilir turizm standartlarını da o belirler. Denetime her gün hazır olan acente, konuğuna da her gün hazırdır.",
+      "iliskili": [
+        "os-4-067",
+        "os-4-085",
+        "os-4-087"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-087",
+      "konu": "4.4.2",
+      "terim": "Ulaştırma ve Altyapı Bakanlığı",
+      "ingilizce": "Ministry of Transport and Infrastructure",
+      "tanim": "Kara yolu yolcu taşımacılığı ve havacılık güvenliği standartlarını belirleyen, acentelerin uyum sağlaması gereken bakanlıktır.",
+      "ornek": "Acente tur için otobüs kiralarken firmanın yolcu taşımaya yetkili olduğunu gösteren yetki belgesini sorar.",
+      "sektor": "Ders kitabı kara yolu taşımacılığında örnek olarak D2 yetki belgesini anar. Yetki belgesi olmayan araçla yola çıkmak hem kurala aykırıdır hem konuğu riske atar; bedelini acente öder.",
+      "iliskili": [
+        "os-4-082",
+        "os-4-086",
+        "os-4-088"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-088",
+      "konu": "4.4.2",
+      "terim": "Yerel yönetimler",
+      "ingilizce": "Local authorities",
+      "tanim": "Acentenin bölgesel tanıtım, çevre düzeni ve yerel etkinlik izinleri konusunda iş birliği yaptığı belediyeler ve valiliklerdir.",
+      "ornek": "Bir acente, belediyenin düzenlediği kiraz festivali için özel tur hazırlar; otobüslerin park yeri ve program belediyeyle birlikte planlanır.",
+      "sektor": "Valilik ve kaymakamlık gibi mülki idare amirlikleri de acentenin paydaşıdır. Yerel yönetimle iyi ilişki, festival ve etkinlik turlarında işleri kolaylaştırır.",
+      "iliskili": [
+        "os-4-085",
+        "os-4-086",
+        "os-4-078"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-089",
+      "konu": "4.4.2",
+      "terim": "TUREB",
+      "ingilizce": "Union of Tourist Guides (TUREB)",
+      "tanim": "Rehber odalarının bağlı olduğu, turist rehberlerini temsil eden Turist Rehberleri Birliğidir.",
+      "ornek": "Acente, Japonca bilen bir rehbere ihtiyaç duyar; bölgedeki rehber odasına başvurarak belgeli bir rehber bulur.",
+      "sektor": "Acenteler nitelikli tur için profesyonel rehberi buradan temin eder ve rehber odalarıyla sürekli iletişimdedir. Belgesiz kişiye rehberlik yaptırmak acenteyi de sorumlu duruma düşürür.",
+      "iliskili": [
+        "os-4-020",
+        "os-4-085",
+        "os-4-090"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-090",
+      "konu": "4.4.2",
+      "terim": "TÜROB",
+      "ingilizce": "Hotel Association of Türkiye (TÜROB)",
+      "tanim": "Konaklama sektörünün profesyonelleşmesi ve uluslararası standartlara ulaşması için çalışan Türkiye Otelciler Birliğidir.",
+      "ornek": "Sezon öncesinde TÜROB yetkilileri, otellerin ortak sorunlarını ve beklentilerini kamuoyuyla paylaşır.",
+      "sektor": "Bir sivil toplum kuruluşudur. Acentenin en önemli iş ortağı otellerdir; otelcilerin örgütünü tanımak, masanın öbür tarafını tanımaktır.",
+      "iliskili": [
+        "os-4-091",
+        "os-4-080",
+        "os-4-085"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-091",
+      "konu": "4.4.2",
+      "terim": "TÜROFED",
+      "ingilizce": "Turkish Hoteliers Federation (TÜROFED)",
+      "tanim": "Turizmin gelişmesi ve Türkiye'nin dünya turizmindeki rekabet gücünün artması için kamu ve özel sektörle iş birliği yapan Türkiye Otelciler Federasyonudur.",
+      "ornek": "TÜROFED temsilcileri uluslararası bir turizm fuarında Türkiye'nin konaklama sektörünü tanıtır.",
+      "sektor": "Sürdürülebilirlik, kalite, istihdam ve dijital dönüşüm alanlarında çalışır. Adı TÜROB ile karıştırılır: biri birlik, öteki federasyondur.",
+      "iliskili": [
+        "os-4-090",
+        "os-4-085"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-092",
+      "konu": "4.4.2",
+      "terim": "UN Tourism (Dünya Turizm Örgütü)",
+      "ingilizce": "UN Tourism (World Tourism Organization)",
+      "tanim": "Küresel turizm politikalarını ve turizmde etik ilkeleri izleyen, Birleşmiş Milletlere bağlı uluslararası kuruluştur.",
+      "ornek": "Acentelerin ve bakanlıkların kullandığı 'turist' ve 'ziyaretçi' tanımları bu kuruluşun tanımlarına dayanır.",
+      "sektor": "Eski kısaltması UNWTO'dur; ders kitabında iki ad da geçer. Tur operatörünün tanımı da kitapta bu kuruluşa dayandırılır. Acente için referans kurumdur: ortak dil ve ortak etik ilkeler buradan gelir.",
+      "iliskili": [
+        "os-4-093",
+        "os-4-094",
+        "os-4-085"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-093",
+      "konu": "4.4.2",
+      "terim": "IATA",
+      "ingilizce": "International Air Transport Association (IATA)",
+      "tanim": "Hava yolu şirketlerini bir araya getiren ve uçak bileti satan acentelerin yetkilendirilmesini yöneten Uluslararası Hava Taşımacılığı Birliğidir.",
+      "ornek": "Bir acente uçak biletini kendi adına kesebilmek için IATA'dan yetki alır.",
+      "sektor": "Yetkilendirmeye akreditasyon denir. Acentelerin sattığı biletlerin bedelini hava yollarına aktaran ödeme sistemi BSP'yi (Billing and Settlement Plan) de IATA yönetir. Ulusal bir örgüt olan TÜRSAB ile karıştırılmamalıdır.",
+      "iliskili": [
+        "os-4-016",
+        "os-4-059",
+        "os-4-094"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-094",
+      "konu": "4.4.2",
+      "terim": "UFTAA",
+      "ingilizce": "United Federation of Travel Agents' Associations (UFTAA)",
+      "tanim": "Ülkelerin seyahat acenteleri birliklerini dünya ölçeğinde bir araya getiren federasyondur.",
+      "ornek": "Farklı ülkelerin acente birlikleri UFTAA çatısı altında bir araya gelerek ortak sorunları konuşur ve iş bağlantıları kurar.",
+      "sektor": "Acenteleri uluslararası düzeyde temsil eder ve küresel iş ağları sağlar. Üç uluslararası kuruluş şöyle ayrılır: UN Tourism politika ve etik, IATA hava yolu ve bilet, UFTAA acente birlikleri.",
+      "iliskili": [
+        "os-4-092",
+        "os-4-093",
+        "os-4-069"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-095",
+      "konu": "4.5",
+      "terim": "Seyahat formaliteleri",
+      "ingilizce": "Travel formalities",
+      "tanim": "Uluslararası seyahatte güvenlik ve düzen için yolcunun yerine getirmek zorunda olduğu pasaport, vize ve sağlık belgesi gibi resmî işlemlerdir.",
+      "ornek": "Yurt dışı turuna yazılan konuğa acente ilk gün bir liste verir: pasaport süresi, vize, sigorta ve gerekiyorsa aşı belgesi.",
+      "sektor": "İki tarafı da korur: yolcu güvenle seyahat eder, gidilen ülke sınırını ve halk sağlığını denetler. Tek eksik belge bütün tatili iptal ettirebilir; bu yüzden kontrol tur gününe bırakılmaz.",
+      "iliskili": [
+        "os-4-110",
+        "os-4-097",
+        "os-4-096"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-096",
+      "konu": "4.5",
+      "terim": "Gümrük",
+      "ingilizce": "Customs",
+      "tanim": "Ülkeye giren ve çıkan eşya ile paranın sınır kapılarında, havalimanlarında ve limanlarda denetlendiği resmî birimdir.",
+      "ornek": "Yurt dışından dönen yolcu bavulunu aldıktan sonra gümrük kontrolünden geçer; beyan edeceği eşyası varsa ilgili bankoya gider.",
+      "sektor": "Yurt dışı gönderici acentelerin konuklarına bilgi verdiği konulardandır. Belirli sınırın üzerindeki para ya da eşya beyan edilir; sınırlar değişebildiği için görevli tahmin yürütmez, güncel kuralı resmî kaynaktan kontrol eder.",
+      "iliskili": [
+        "os-4-095",
+        "os-4-014",
+        "os-4-035"
+      ],
+      "kontrol": null,
+      "gorsel": "bavullar"
+    },
+    {
+      "id": "os-4-097",
+      "konu": "4.5.1",
+      "terim": "Vize",
+      "ingilizce": "Visa",
+      "tanim": "Bir devletin, sınırlarından içeri girecek yabancıya verdiği; seyahatin amacını ve kalış süresini belirleyen resmî izindir.",
+      "ornek": "Konuğun pasaportundaki vize etiketinde hangi tarihler arasında ve kaç gün kalabileceği yazar; süre dolmadan ülkeden çıkması gerekir.",
+      "sektor": "Ülkeler vizeyi kamu güvenliğini sağlamak ve göçü yönetmek için uygular. Vize türü seyahatin amacına göre seçilir; acente başvuruya yardım eder ama kararı o ülkenin makamları verir.",
+      "iliskili": [
+        "os-4-098",
+        "os-4-106",
+        "os-4-017"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-098",
+      "konu": "4.5.1",
+      "terim": "Turistik vize",
+      "ingilizce": "Tourist visa",
+      "tanim": "Yabancı bir ülkeye gezi ve tatil amacıyla gitmek için alınan vizedir.",
+      "ornek": "Yılbaşında Viyana'ya gidecek aile, tur tarihinden haftalar önce turistik vize başvurusu yapar.",
+      "sektor": "Acentelerin tur konukları için en sık hazırladığı başvurudur. Bu vizeyle gidilen ülkede çalışılamaz.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-100",
+        "os-4-104"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-099",
+      "konu": "4.5.1",
+      "terim": "Öğrenci vizesi",
+      "ingilizce": "Student visa",
+      "tanim": "Eğitim görmek amacıyla yurt dışına çıkacak kişilere verilen vizedir.",
+      "ornek": "Yurt dışındaki bir dil okuluna kaydolan öğrenci, okulun kabul yazısıyla öğrenci vizesine başvurur.",
+      "sektor": "Turizm öğrencisi için de gündeme gelebilir: yurt dışında öğrenim görecek kişi turistik vizeyle değil, amacına uygun vizeyle gider.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-100",
+        "os-4-098"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-100",
+      "konu": "4.5.1",
+      "terim": "Çalışma vizesi",
+      "ingilizce": "Work visa",
+      "tanim": "Yurt dışında çalışmak üzere gidecek kişilere verilen vizedir.",
+      "ornek": "Yurt dışındaki bir otelde iş bulan genç aşçı, işverenin gönderdiği belgelerle çalışma vizesine başvurur.",
+      "sektor": "Yurt dışında bir otelde ya da gemide çalışacak turizmci turistik vizeyle gitmez. Yanlış vizeyle çalışmak kişiyi gittiği ülkede zor durumda bırakır.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-098",
+        "os-4-099"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-101",
+      "konu": "4.5.1",
+      "terim": "Transit vize",
+      "ingilizce": "Transit visa",
+      "tanim": "Bir ülkeye giderken başka bir ülkeden geçmek için alınan geçiş vizesidir.",
+      "ornek": "Otobüsle yapılan bir Avrupa turunda güzergâh üç ülkeden geçiyorsa acente her birinin geçiş kuralına ayrı ayrı bakar.",
+      "sektor": "Yalnız varılacak ülkenin değil, yol üzerindeki ülkelerin şartı da kontrol edilir. Aktarmalı uçuşlarda bazı ülkeler havalimanından çıkmayacak yolcudan bile vize isteyebilir.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-053",
+        "os-4-102"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-102",
+      "konu": "4.5.1",
+      "terim": "Kapıda vize",
+      "ingilizce": "Visa on arrival",
+      "tanim": "Önceden başvurmaya gerek kalmadan, ülkeye girişte sınır kapısında ya da havalimanında yetkili memurun verdiği vizedir.",
+      "ornek": "Uçakta dağıtılan bilgi formunu dolduran yolcu, inişte pasaport kontrolünden önce vize bankosuna gider ve vizesini orada alır.",
+      "sektor": "Her ülke bu uygulamayı yapmaz, yapanlar da her vatandaşa yapmaz. Acente 'Kapıda alırsınız' demeden önce güncel kuralı resmî kaynaktan doğrular.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-105",
+        "os-4-101"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-103",
+      "konu": "4.5.1",
+      "terim": "Resmî görev vizesi",
+      "ingilizce": "Official visa",
+      "tanim": "Devletin verdiği bir görevle yurt dışına gidecek kişilere verilen vizedir.",
+      "ornek": "Uluslararası bir toplantıya ülkesi adına katılacak bir kamu görevlisi, görevlendirme yazısıyla bu vizeye başvurur.",
+      "sektor": "Süresi görevin süresine göre belirlenir. Vize türlerini akılda tutmanın yolu amaca bakmaktır: gezi, öğrenim, çalışma, geçiş, görev.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-113",
+        "os-4-098"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-104",
+      "konu": "4.5.1",
+      "terim": "Schengen vizesi",
+      "ingilizce": "Schengen visa",
+      "tanim": "Aralarındaki sınır kontrollerini kaldırmış olan Avrupa ülkelerinin oluşturduğu Schengen Bölgesi'ne girmek için alınan ortak vizedir.",
+      "ornek": "Paris–Amsterdam–Brüksel turuna katılan konuk, üç ülke için üç ayrı vize değil, tek bir Schengen vizesi alır.",
+      "sektor": "Başvuruda bölgenin tamamında geçerli bir seyahat sağlık sigortası istenir; acente dosyayı hazırlarken poliçeyi de ekler. Bölgeye üye ülkeler zamanla değiştiği için güncel liste resmî kaynaktan kontrol edilir.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-118",
+        "os-4-108"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-105",
+      "konu": "4.5.1",
+      "terim": "e-Vize",
+      "ingilizce": "e-Visa",
+      "tanim": "Konsolosluğa gitmeden, internet üzerinden başvurularak alınan elektronik vizedir.",
+      "ornek": "Konuk evindeki bilgisayardan başvuru formunu doldurur, ücreti kartla öder; onay belgesi e-postasına gelir.",
+      "sektor": "Konsoloslukta sıra beklemeyi ortadan kaldırır. Her ülke her vatandaşa e-vize vermez; acente güncel kuralı kontrol eder ve konuğu yalnız resmî başvuru sitesine yönlendirir.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-102",
+        "os-4-106"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "os-4-106",
+      "konu": "4.5.1",
+      "terim": "Konsolosluk",
+      "ingilizce": "Consulate",
+      "tanim": "Bir devletin başka bir ülkedeki, kendi vatandaşlarının işlemlerini yürüten ve yabancıların vize başvurularını karara bağlayan temsilciliğidir.",
+      "ornek": "Yurt dışı turunda pasaportunu kaybeden konuğu rehber, o şehirdeki Türk konsolosluğuna yönlendirir.",
+      "sektor": "Vize için hangi belgelerin isteneceğini gidilecek ülkenin konsolosluğu belirler. Yurt dışında başı derde giren vatandaşın başvuracağı yer de kendi ülkesinin konsolosluğudur.",
+      "iliskili": [
+        "os-4-097",
+        "os-4-107",
+        "os-4-108"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-107",
+      "konu": "4.5.1",
+      "terim": "Vize başvuru merkezi",
+      "ingilizce": "Visa application centre",
+      "tanim": "Konsolosluk adına başvuru evrakını ve biyometrik verileri teslim alan yetkili aracı kurumdur.",
+      "ornek": "Konuk randevu saatinde başvuru merkezine gider; görevli evrakını kontrol eder, biyometrik kaydını alır ve dosyayı konsolosluğa iletir.",
+      "sektor": "Aracı kurum yalnız evrakı toplar; vize kararını konsolosluk verir. Başvuru aracı kurum üzerinden ya da doğrudan konsolosluğa yapılır; evrak güncel ve eksiksiz, pasaport yıpranmamış olmalıdır.",
+      "iliskili": [
+        "os-4-106",
+        "os-4-108",
+        "os-4-109"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-108",
+      "konu": "4.5.1",
+      "terim": "Vize başvuru belgeleri",
+      "ingilizce": "Visa application documents",
+      "tanim": "Konsolosluğun vize başvurusunda istediği; pasaport, başvuru formu, fotoğraf, sigorta, rezervasyon, mali durum ve meslek belgelerinden oluşan dosyadır.",
+      "ornek": "Vize sorumlusu konuğun dosyasını son kez sayar: pasaport, imzalı form, fotoğraf, sigorta poliçesi, uçak ve otel rezervasyonu, banka dökümü, iş yeri yazısı, nüfus kayıt örneği.",
+      "sektor": "İstenen belgeler vizenin amacına ve ülkeye göre değişir; pasaportun seyahat bittikten sonra da bir süre geçerli olması beklenir. Eksik ya da gerçeğe aykırı belge ret nedenidir; acente konuğun belgesini 'düzeltmez', gerçeğe aykırı evrak hazırlamaz.",
+      "iliskili": [
+        "os-4-017",
+        "os-4-109",
+        "os-4-118"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-109",
+      "konu": "4.5.1",
+      "terim": "Biyometrik fotoğraf",
+      "ingilizce": "Biometric photograph",
+      "tanim": "Kişinin yüz hatlarının net biçimde tanınabilmesi için belirli ölçü ve kurallara göre çekilen resmî belge fotoğrafıdır.",
+      "ornek": "Fotoğrafçı konuğa 'Başınızı dik tutun, objektife bakın, ağzınız kapalı olsun' der; arka fon düz ve açık renklidir.",
+      "sektor": "Hem pasaport hem vize başvurusunda istenir ve yakın zamanda çekilmiş olmalıdır. Kurala uymayan fotoğraf başvurunun geri çevrilmesine yol açabilir; küçük ayrıntı büyük gecikme demektir.",
+      "iliskili": [
+        "os-4-108",
+        "os-4-115",
+        "os-4-110"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-110",
+      "konu": "4.5.1",
+      "terim": "Pasaport",
+      "ingilizce": "Passport",
+      "tanim": "Yetkili makamlarca düzenlenen, kişinin yabancı bir ülkede kimliğini ve uyruğunu kanıtlayan temel seyahat belgesidir.",
+      "ornek": "Havalimanında görevli memur konuğun pasaportunu kontrol eder ve çıkış işlemini yapar; konuk ancak bundan sonra uçağa geçer.",
+      "sektor": "Türkiye'de pasaport işlemleri 5682 sayılı Pasaport Kanunu'na dayanır; günümüz pasaportları yüksek güvenlikli, biyometrik belgelerdir. Otelde yabancı konuğun kaydı pasaport bilgileriyle yapılır.",
+      "iliskili": [
+        "os-4-111",
+        "os-4-115",
+        "os-4-097"
+      ],
+      "kontrol": null,
+      "gorsel": "pasaport"
+    },
+    {
+      "id": "os-4-111",
+      "konu": "4.5.1",
+      "terim": "Umuma mahsus pasaport",
+      "ingilizce": "Ordinary passport",
+      "tanim": "Bordo kapaklı olan, resmî bir görevi ya da özel bir hakkı bulunmayan bütün vatandaşların alabildiği en yaygın pasaporttur.",
+      "ornek": "Yaz tatilinde ailesiyle Yunan adalarına gidecek bir lise öğrencisi bordo pasaport çıkarır.",
+      "sektor": "Gezi, iş ve eğitim amacıyla kullanılır. Acentelerin vize işlemi yaptığı konukların çoğu bu pasaportu taşır; alırken harç ve defter bedeli ödenir.",
+      "iliskili": [
+        "os-4-110",
+        "os-4-112",
+        "os-4-116"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-112",
+      "konu": "4.5.1",
+      "terim": "Hususi damgalı pasaport",
+      "ingilizce": "Special passport",
+      "tanim": "Yeşil kapaklı olan, belirli derecedeki devlet memurlarına, emeklilerine ve kanunda sayılan yakınlarına verilen pasaporttur.",
+      "ornek": "Yüksek dereceli bir devlet memuru, hak kazandığı yeşil pasaportla birçok ülkeye vize başvurusu yapmadan gidebilir.",
+      "sektor": "Sahibine birçok ülkeye vizesiz girme kolaylığı sağlar; harçtan muaftır, yalnız defter bedeli ödenir. Acente aynı turdaki konukların pasaport türüne göre vize ihtiyacını ayrı ayrı kontrol eder.",
+      "iliskili": [
+        "os-4-111",
+        "os-4-113",
+        "os-4-114"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-113",
+      "konu": "4.5.1",
+      "terim": "Hizmet damgalı pasaport",
+      "ingilizce": "Service passport",
+      "tanim": "Gri kapaklı olan, devlet adına yurt dışında resmî görev yapacak kişilere yalnız görev süresiyle sınırlı olarak verilen pasaporttur.",
+      "ornek": "Erasmus+ projesiyle İtalya'ya gidecek turizm lisesi öğrencileri ve öğretmenleri için okul, gri pasaport işlemlerini başlatır.",
+      "sektor": "Turistik amaçla kullanılamaz ve görev bitince iade edilir. Yeşil pasaportla karıştırılır: yeşil pasaport kişinin memuriyet durumuna, gri pasaport verilen göreve bağlıdır.",
+      "iliskili": [
+        "os-4-112",
+        "os-4-117",
+        "os-4-103"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-114",
+      "konu": "4.5.1",
+      "terim": "Diplomatik pasaport",
+      "ingilizce": "Diplomatic passport",
+      "tanim": "Siyah kapaklı olan, Dışişleri Bakanlığının diplomatlara ve devlet adına görev yapan üst düzey yetkililere verdiği pasaporttur.",
+      "ornek": "Yurt dışına atanan bir büyükelçi göreve diplomatik pasaportla gider.",
+      "sektor": "Veren makam Dışişleri Bakanlığıdır. Renk – tür eşleşmesi sık sorulur: bordo – umuma mahsus, yeşil – hususi damgalı, gri – hizmet damgalı, siyah – diplomatik.",
+      "iliskili": [
+        "os-4-111",
+        "os-4-112",
+        "os-4-113"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-115",
+      "konu": "4.5.1",
+      "terim": "Pasaport başvurusu",
+      "ingilizce": "Passport application",
+      "tanim": "Randevu alınarak nüfus müdürlüğüne şahsen yapılan; kimlik, biyometrik fotoğraf ve ödeme bilgisiyle tamamlanan resmî işlemdir.",
+      "ornek": "Öğrenci e-Devlet'ten randevu alır; randevu günü kimlik kartı ve fotoğrafıyla ilçe nüfus müdürlüğüne gider, yanında annesi de bulunur.",
+      "sektor": "Randevu 199 numaralı telefon hattından, internetten ya da e-Devlet üzerinden alınır. Kimlik olarak nüfus cüzdanı, T.C. kimlik kartı ya da geçici kimlik belgesi kabul edilir; sürücü belgesi kabul edilmez. Ergin olmayanların başvurusunda anne ya da baba hazır bulunur; bulunamıyorsa yazılı izin, yani muvafakat belgesi gerekir.",
+      "iliskili": [
+        "os-4-110",
+        "os-4-116",
+        "os-4-109"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-116",
+      "konu": "4.5.1",
+      "terim": "Pasaport harcı ve defter bedeli",
+      "ingilizce": "Passport fee and booklet charge",
+      "tanim": "Bir pasaport çıkarılırken devlete ödenen harç ile pasaport defterinin kendi ücreti olan defter bedelinden oluşan iki ayrı ödemedir.",
+      "ornek": "Üniversite öğrencisi öğrenci belgesini gösterir; harç ödemez, yalnız defter bedelini yatırır.",
+      "sektor": "Harç pasaportun süresine göre artar; tutarlar her yıl güncellendiği için ezberlenmez, resmî siteden bakılır. Hususi ve hizmet damgalı pasaportlar harçtan muaftır; öğrenci olduğunu belgeleyenler de belirli bir yaşa kadar harç ödemez.",
+      "iliskili": [
+        "os-4-115",
+        "os-4-111",
+        "os-4-112"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-117",
+      "konu": "4.5.1",
+      "terim": "Hizmet damgalı pasaport talep formu",
+      "ingilizce": "Service passport request form",
+      "tanim": "Görevlendirilen kişiye gri pasaport verilmesi için çalıştığı kurumun düzenleyip onayladığı resmî formdur.",
+      "ornek": "Okul müdürlüğü, proje için görevlendirilen öğretmenin kimlik, unvan ve görev tarihlerini forma yazar; form imzalanıp mühürlendikten sonra nüfus müdürlüğüne götürülür.",
+      "sektor": "Dijital ortamda doldurulup yazıcıdan çıkarılır; ön ve arka yüzü tek yaprakta, ıslak imzalı ve mühürlü olmalıdır. Kitaptaki forma göre düzenlendiği tarihten itibaren 60 gün geçerlidir. Resmî formda günlük konuşma dili kullanılmaz; tek hata evrakın geri dönmesine yol açar.",
+      "iliskili": [
+        "os-4-113",
+        "os-4-115"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-118",
+      "konu": "4.5.2",
+      "terim": "Seyahat sağlık sigortası",
+      "ingilizce": "Travel health insurance",
+      "tanim": "Yolculuk sırasında ortaya çıkan acil sağlık giderlerini ve poliçede yazan diğer beklenmedik masrafları karşılayan sigortadır.",
+      "ornek": "Roma'da ayağını burkan konuk hastaneye gider; tedavi masrafı, yanındaki poliçe kapsamında sigorta şirketince karşılanır.",
+      "sektor": "Seyahat sigortası da denir; yurt içi ve yurt dışı seyahatler için yapılabilir. Schengen vizesi başvurusunda istenen belgelerdendir. Acentenin yaptırdığı zorunlu paket tur sigortasından farklıdır: bu sigorta yolcunun kendi sağlığını ve eşyasını korur.",
+      "iliskili": [
+        "os-4-119",
+        "os-4-120",
+        "os-4-104"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-119",
+      "konu": "4.5.2",
+      "terim": "Sigorta poliçesi",
+      "ingilizce": "Insurance policy",
+      "tanim": "Sigortanın neyi, hangi tarihler arasında ve hangi koşullarla karşıladığını gösteren yazılı sözleşmedir.",
+      "ornek": "Satış görevlisi konuğa poliçeyi verirken tarihleri gösterir: 'Sigortanız gidiş gününüzde başlıyor, dönüş gününüzde bitiyor efendim.'",
+      "sektor": "Üç şeye bakılır: kapsam, seyahatin ilk gününden son gününe kadar bütün süreyi içermesi ve teminatlar. Tarihi bir gün eksik yazılmış poliçe vize başvurusunda sorun çıkarabilir.",
+      "iliskili": [
+        "os-4-118",
+        "os-4-120",
+        "os-4-084"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-120",
+      "konu": "4.5.2",
+      "terim": "Teminat",
+      "ingilizce": "Cover",
+      "tanim": "Sigorta şirketinin, poliçede yazan bir durum gerçekleştiğinde karşılamayı üstlendiği güvencedir.",
+      "ornek": "Konuk Uludağ'da kayak yapacaktır; görevli poliçeyi açar, kış sporlarının kapsamda olup olmadığına bakar ve gerekiyorsa ek teminat önerir.",
+      "sektor": "Temel teminatlara istenirse ek teminatlar eklenir. Görevli poliçede yazmayan bir şeyi 'Sigorta karşılar' diye söylemez; emin değilse sigorta şirketine sorar.",
+      "iliskili": [
+        "os-4-119",
+        "os-4-118"
+      ],
+      "kontrol": null
+    }
+  ],
+  "sorular": [
+    {
+      "id": "os-4-s01",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdakilerden hangisi bir seyahat acentesinin altı temel hizmetinden biri değildir?",
+      "secenekler": [
+        "Bilet düzenleme işlemleri",
+        "Pasaport düzenleme",
+        "Vize başvurusu işlemleri",
+        "Gezi için araç kiralama"
+      ],
+      "dogru": 1,
+      "aciklama": "Acentenin temel işleri operasyon, biletleme, vize işlemleri, araç kiralama, bilgi verme ve turistik ürün satışıdır. Pasaportu acente değil, devletin yetkili makamları düzenler."
+    },
+    {
+      "id": "os-4-s02",
+      "tur": "coktan-secmeli",
+      "soru": "Satılmış bir turun transfer, konaklama, rehberlik ve gezi hizmetlerini sahada yürüten bölüm hangisidir?",
+      "secenekler": [
+        "Rezervasyon",
+        "Muhasebe",
+        "Satış ve pazarlama",
+        "Operasyon"
+      ],
+      "dogru": 3,
+      "aciklama": "Operasyon departmanı satılan turu sahada uygular. Rezervasyon yerleri ayırtır, satış ürünü konuğa ulaştırır, muhasebe ödemeleri takip eder."
+    },
+    {
+      "id": "os-4-s03",
+      "tur": "coktan-secmeli",
+      "soru": "Acentenin broşüründe 'deniz manzaralı oda' yazıyor. Bu ifade acente için ne anlama gelir?",
+      "secenekler": [
+        "Tur boyunca tutulması gereken bir sözdür.",
+        "Otelin isterse değiştirebileceği bir öneridir.",
+        "Yalnız yüksek sezonda geçerli olan bir dilektir.",
+        "Konuğu bağlamayan, süs amaçlı bir reklam cümlesidir."
+      ],
+      "dogru": 0,
+      "aciklama": "Satış sırasında konuğa söylenen ya da yazılan her şey satış vaadidir; sahada operasyon tarafından yerine getirilmesi gerekir. Tutulmayan söz şikâyete dönüşür."
+    },
+    {
+      "id": "os-4-s04",
+      "tur": "coktan-secmeli",
+      "soru": "Konuklara vize, gümrük, döviz ve gidilecek yer hakkında bilgi veren acente görevlisi hangisidir?",
+      "secenekler": [
+        "Bilet düzenleyen personel",
+        "Tur dosyası sorumlusu",
+        "Enformasyon memuru",
+        "Otelde karşılayan rehber"
+      ],
+      "dogru": 2,
+      "aciklama": "Enformasyon memurunun işi konuğa doğru bilgi vermektir. Bilet personeli bilet düzenler, tur sorumlusu tur dosyasını hazırlar, otel rehberi konuklarla otelde ilgilenir."
+    },
+    {
+      "id": "os-4-s05",
+      "tur": "dogru-yanlis",
+      "soru": "Vize sorumlusu, evrakı eksiksiz olan konuğa vizesinin kesin çıkacağı sözünü verebilir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Vizeyi acente değil, gidilecek ülkenin konsolosluğu verir. Acente yalnız başvuruyu hazırlar ve takip eder; sonucu garanti edemez."
+    },
+    {
+      "id": "os-4-s06",
+      "tur": "coktan-secmeli",
+      "soru": "Bir rehber, programda yazan köy pazarını 'Zaman kalmadı' diyerek atlıyor ve grubu yalnız komisyon aldığı mağazaya götürüyor. Bu davranış en çok hangisine aykırıdır?",
+      "secenekler": [
+        "Ölçek avantajı",
+        "Standartlaşma",
+        "Uzmanlaşma",
+        "Meslek etiği"
+      ],
+      "dogru": 3,
+      "aciklama": "Programda söz verilen ziyareti kişisel kazanç için iptal etmek dürüstlük ilkesini çiğner. Meslek etiği dürüstlük, doğruluk, gizlilik ve sorumluluk ilkelerini kapsar."
+    },
+    {
+      "id": "os-4-s07",
+      "tur": "coktan-secmeli",
+      "soru": "Acentenin operasyonel sürecindeki beş aşamadan ilki hangisidir?",
+      "secenekler": [
+        "Tedarik süreci ve sözleşmenin hazırlanması",
+        "Seyahatin planlanması ve geliştirilmesi",
+        "Turun gerçekleşmesi ve saha operasyonu",
+        "Satış sonrası konuk değerlendirmesi"
+      ],
+      "dogru": 1,
+      "aciklama": "Süreç planlamayla başlar; ardından tedarik ve sözleşme, satış–pazarlama–rezervasyon, saha operasyonu ve satış sonrası değerlendirme gelir."
+    },
+    {
+      "id": "os-4-s08",
+      "tur": "coktan-secmeli",
+      "soru": "Yalnızca Türk vatandaşları için yurt içi turlar düzenlemeye yetkili acente grubu hangisidir?",
+      "secenekler": [
+        "A grubu",
+        "B grubu",
+        "C grubu",
+        "Zincir acente"
+      ],
+      "dogru": 2,
+      "aciklama": "C grubu en dar yetkili gruptur: yalnız Türk vatandaşları için yurt içi tur düzenler. Zincir acente yasal bir grup değil, yapısal bir türdür."
+    },
+    {
+      "id": "os-4-s09",
+      "tur": "coktan-secmeli",
+      "soru": "B grubu bir seyahat acentesi aşağıdakilerden hangisini yapabilir?",
+      "secenekler": [
+        "A grubu acentenin düzenlediği turun biletini satar.",
+        "Kendi adına yurt dışı paket turu düzenleyip satar.",
+        "Yabancı konuklar için kendi yurt içi turunu düzenler.",
+        "C grubu acentenin turlarını kendi adıyla yeniden düzenler."
+      ],
+      "dogru": 0,
+      "aciklama": "B grubu acente uluslararası kara, deniz ve hava yolu biletleri ile A grubu acentelerin düzenlediği turların biletlerini satar; kendi adına tur düzenleyemez."
+    },
+    {
+      "id": "os-4-s10",
+      "tur": "dogru-yanlis",
+      "soru": "A grubu seyahat acenteleri, paket tur düzenleme ve biletleme dâhil bütün acentelik faaliyetlerini yapmaya yetkilidir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "A grubu en geniş kapsamlı gruptur. Türkiye'de tur operatörü işlevini de A grubu acenteler yerine getirir."
+    },
+    {
+      "id": "os-4-s11",
+      "tur": "coktan-secmeli",
+      "soru": "İngiltere'deki bir tur operatörünün gönderdiği konukları Dalaman'da karşılayıp tatilleri boyunca onlarla ilgilenen acente, fonksiyonel sınıflandırmada hangi türe girer?",
+      "secenekler": [
+        "Yurt dışı gönderici (outgoing)",
+        "Karşılayıcı (incoming)",
+        "Yurt içi gönderici (ingoing)",
+        "Perakendeci"
+      ],
+      "dogru": 1,
+      "aciklama": "Yurt dışından gelen konuğu karşılayan ve operatörü Türkiye'de temsil eden acente karşılayıcıdır. Perakendeci, fonksiyonel değil yapısal bir türdür."
+    },
+    {
+      "id": "os-4-s12",
+      "tur": "coktan-secmeli",
+      "soru": "Toptancı seyahat acentesini ötekilerden ayıran özellik hangisidir?",
+      "secenekler": [
+        "Yalnızca tek bir şubeyle hizmet verir, büyümez.",
+        "Doğrudan son tüketiciye danışmanlık yaparak satar.",
+        "Yalnız yurt içinde, Türk vatandaşlarına tur düzenler.",
+        "Hizmeti toplu alıp başka acentelere satar."
+      ],
+      "dogru": 3,
+      "aciklama": "Toptancı acente tedarikçilerden büyük miktarda hizmet alır ve bunu perakendeci acentelere satar (B2B). Yüksek hacim birim maliyeti düşürür."
+    },
+    {
+      "id": "os-4-s13",
+      "tur": "coktan-secmeli",
+      "soru": "PNR aşağıdakilerden hangisidir?",
+      "secenekler": [
+        "Yolcu bilgilerinin saklandığı hava yolu rezervasyon kaydı",
+        "Otelin belirli bir dönem için satışı durdurduğunu acentelere bildiren mesaj",
+        "Rezervasyonda ödeme yapılması için tanınan en son tarih ya da süre",
+        "Hizmetin satın alındığını gösteren, konaklama ayrıntılarının yazılı olduğu belge"
+      ],
+      "dogru": 0,
+      "aciklama": "PNR (Passenger Name Record), hava yolu rezervasyonunda yolcunun adı, uçuşu ve rotasının saklandığı kayıt ve ona ulaşmayı sağlayan koddur. Öteki şıklar sırasıyla stop-sale, opsiyon ve voucherı anlatır."
+    },
+    {
+      "id": "os-4-s14",
+      "tur": "coktan-secmeli",
+      "soru": "Kesinleşmemiş bir rezervasyonda ödemenin yapılması için tanınan son tarih ya da süreye ne denir?",
+      "secenekler": [
+        "Stopover",
+        "Voucher",
+        "Opsiyon",
+        "Charter"
+      ],
+      "dogru": 2,
+      "aciklama": "Opsiyon süresi dolduğunda ödeme yapılmamışsa yer başkasına satılabilir. Stopover ara durak, voucher hizmet belgesi, charter kiralık tarifesiz uçuştur."
+    },
+    {
+      "id": "os-4-s15",
+      "tur": "coktan-secmeli",
+      "soru": "Rezervasyonu olan konuk, iptal ettirmeden uçuşuna gelmiyor. Bu durumun adı nedir?",
+      "secenekler": [
+        "Go-show",
+        "Overbooking",
+        "Stop-sale",
+        "No-show"
+      ],
+      "dogru": 3,
+      "aciklama": "No-show, rezervasyonu olan konuğun haber vermeden gelmemesidir; genellikle ücret iadesi yapılmaz. Go-show ise rezervasyonsuz gelen konuktur."
+    },
+    {
+      "id": "os-4-s16",
+      "tur": "coktan-secmeli",
+      "soru": "Bir otelin, bazı rezervasyonların iptal olacağını hesaplayarak kapasitesinden fazla rezervasyon almasına ne denir?",
+      "secenekler": [
+        "Stop-sale",
+        "Overbooking",
+        "Son dakika satışı",
+        "Kontenjan"
+      ],
+      "dogru": 1,
+      "aciklama": "Overbooking kapasiteden fazla rezervasyon kabul etmektir. Stop-sale satışın durdurulması, son dakika satışı boş yerin indirimle satılması, kontenjan ise acenteye ayrılan yer sayısıdır."
+    },
+    {
+      "id": "os-4-s17",
+      "tur": "coktan-secmeli",
+      "soru": "Konuğun otele girişte resepsiyona gösterdiği, hizmeti satın aldığını kanıtlayan belge hangisidir?",
+      "secenekler": [
+        "Itinerary",
+        "Muvafakat belgesi",
+        "Voucher",
+        "İşletme belgesi"
+      ],
+      "dogru": 2,
+      "aciklama": "Voucher (hizmet çeki) üzerinde konaklama, transfer ya da tur ayrıntıları yazar. Itinerary tur programıdır; öteki iki belge konaklamayla ilgili değildir."
+    },
+    {
+      "id": "os-4-s18",
+      "tur": "dogru-yanlis",
+      "soru": "Charter, hava yolunun yıl boyunca aynı gün ve saatlerde yaptığı tarifeli uçuştur.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Charter, belirli bir grup ya da acente için kiralanan tarifesiz uçuştur; genellikle paket turlarda kullanılır."
+    },
+    {
+      "id": "os-4-s19",
+      "tur": "coktan-secmeli",
+      "soru": "Amadeus ve Sabre gibi, hava yollarını, otelleri ve acenteleri birbirine bağlayan küresel rezervasyon ağlarının ortak adı nedir?",
+      "secenekler": [
+        "GDS",
+        "BSP",
+        "PNR",
+        "MICE"
+      ],
+      "dogru": 0,
+      "aciklama": "GDS (Global Distribution System) küresel dağıtım sistemidir. BSP IATA'nın ödeme sistemi, PNR yolcu rezervasyon kaydı, MICE iş amaçlı etkinliklerin ortak adıdır."
+    },
+    {
+      "id": "os-4-s20",
+      "tur": "coktan-secmeli",
+      "soru": "Yaz için önceden ayırtılan odalar satılamazsa zararı kim üstlenir?",
+      "secenekler": [
+        "Seyahat acentesi; çünkü satıştan komisyon alan odur.",
+        "Tur operatörü; çünkü yerleri önceden satın almıştır.",
+        "Turist rehberi; çünkü tur programını sahada o yönetir.",
+        "Enformasyon memuru; çünkü konuğa bilgiyi o vermiştir."
+      ],
+      "dogru": 1,
+      "aciklama": "Tur operatörü talep oluşmadan önce kapasite satın alır ve kontenjan garantisi verir; satılamayan yer onun zararıdır. Acente ürünün sahibi olmadığı için bu riski taşımaz."
+    },
+    {
+      "id": "os-4-s21",
+      "tur": "coktan-secmeli",
+      "soru": "Türkiye'de seyahat acentesi işletme belgesini hangi kurum verir?",
+      "secenekler": [
+        "Türkiye Seyahat Acentaları Birliği",
+        "Hava Taşımacılığı Birliği (IATA)",
+        "Acentenin bağlı olduğu belediye",
+        "Kültür ve Turizm Bakanlığı"
+      ],
+      "dogru": 3,
+      "aciklama": "İşletme belgesini Kültür ve Turizm Bakanlığı verir. Acente belgeyi aldıktan sonra TÜRSAB'a üye olur; belgeyi TÜRSAB vermez."
+    },
+    {
+      "id": "os-4-s22",
+      "tur": "coktan-secmeli",
+      "soru": "1618 sayılı Kanun TÜRSAB'ı nasıl tanımlar?",
+      "secenekler": [
+        "Kamu kurumu niteliğinde meslek kuruluşu",
+        "Gönüllü üyelikle çalışan bir turizm derneği",
+        "Bakanlığa bağlı çalışan bir genel müdürlük",
+        "Uluslararası acente birlikleri federasyonu"
+      ],
+      "dogru": 0,
+      "aciklama": "TÜRSAB kanunla kurulmuş, kamu kurumu niteliğinde bir meslek kuruluşudur; bu yüzden sektörde hem düzenleyici hem denetleyici rolü vardır."
+    },
+    {
+      "id": "os-4-s23",
+      "tur": "dogru-yanlis",
+      "soru": "Ders kitabına göre seyahat acenteliği yapmak isteyen bir işletme, işletme belgesini aldıktan sonra TÜRSAB'a üye olmak zorundadır.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Acente iki şartla faaliyete başlar: Bakanlıktan işletme belgesi alır ve TÜRSAB'a üye olur. Amaç kayıt dışı faaliyeti önlemek ve ortak standardı korumaktır."
+    },
+    {
+      "id": "os-4-s24",
+      "tur": "coktan-secmeli",
+      "soru": "Acentenin, paket turda söz verdiği hizmeti eksik vermesi ya da hiç vermemesi riskine karşı yaptırmak zorunda olduğu sigorta hangisidir?",
+      "secenekler": [
+        "Seyahat sağlık sigortası",
+        "İş yeri yangın sigortası",
+        "Zorunlu paket tur sigortası",
+        "Kiralık araç kasko sigortası"
+      ],
+      "dogru": 2,
+      "aciklama": "Zorunlu paket tur sigortasını acente yaptırır ve konuğu acentenin taahhüdünü yerine getirmemesine karşı korur. Seyahat sağlık sigortası ise yolcunun sağlık giderlerini karşılar."
+    },
+    {
+      "id": "os-4-s25",
+      "tur": "coktan-secmeli",
+      "soru": "Bir görevlinin, konuğun pasaport fotokopisini izinsiz olarak bir mesajlaşma grubunda paylaşması öncelikle hangi kanuna aykırıdır?",
+      "secenekler": [
+        "1618 sayılı Seyahat Acentaları Kanunu",
+        "5682 sayılı Pasaport Kanunu",
+        "6326 sayılı Turist Rehberliği Meslek Kanunu",
+        "Kişisel Verilerin Korunması Kanunu (6698)"
+      ],
+      "dogru": 3,
+      "aciklama": "Pasaport bilgisi kişisel veridir; toplanması, saklanması ve paylaşılması 6698 sayılı Kişisel Verilerin Korunması Kanunu'na tabidir. Aynı davranış gizlilik ilkesine de aykırıdır."
+    },
+    {
+      "id": "os-4-s26",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdakilerden hangisi acentenin 'hizmet satın aldığı işletme'dir?",
+      "secenekler": [
+        "TÜRSAB",
+        "Otobüs firması",
+        "Konsolosluk",
+        "Kültür ve Turizm Bakanlığı"
+      ],
+      "dogru": 1,
+      "aciklama": "Acente konaklama, yiyecek içecek, ulaştırma ve alışveriş işletmelerinden hizmet satın alır. Bakanlık, TÜRSAB ve konsolosluk hizmet sağlayıcı değil, ilişkili kurumdur."
+    },
+    {
+      "id": "os-4-s27",
+      "tur": "coktan-secmeli",
+      "soru": "Uçak bileti satan acentelerin akreditasyonunu ve ödeme sistemini (BSP) yöneten uluslararası kuruluş hangisidir?",
+      "secenekler": [
+        "UFTAA",
+        "TUREB",
+        "IATA",
+        "UN Tourism"
+      ],
+      "dogru": 2,
+      "aciklama": "IATA, Uluslararası Hava Taşımacılığı Birliğidir. UFTAA acente birliklerinin federasyonu, TUREB rehberlerin birliği, UN Tourism ise Dünya Turizm Örgütüdür."
+    },
+    {
+      "id": "os-4-s28",
+      "tur": "coktan-secmeli",
+      "soru": "Yurt dışındaki bir otelde iş bulan genç bir aşçı hangi vizeye başvurmalıdır?",
+      "secenekler": [
+        "Çalışma vizesi",
+        "Turistik (gezi) vizesi",
+        "Transit (geçiş) vizesi",
+        "Öğrenci (eğitim) vizesi"
+      ],
+      "dogru": 0,
+      "aciklama": "Vize türü seyahatin amacına göre seçilir. Turistik vizeyle gidilen ülkede çalışılamaz; çalışmak için çalışma vizesi gerekir."
+    },
+    {
+      "id": "os-4-s29",
+      "tur": "coktan-secmeli",
+      "soru": "Bir vize başvurusunda kararı kim verir?",
+      "secenekler": [
+        "Başvuruyu hazırlayan seyahat acentesi",
+        "Gidilecek ülkenin konsolosluğu",
+        "Evrakı teslim alan vize başvuru merkezi",
+        "Başvuranın bağlı olduğu nüfus müdürlüğü"
+      ],
+      "dogru": 1,
+      "aciklama": "Acente evrakı hazırlar, başvuru merkezi teslim alır; vizeyi verip vermemeye gidilecek ülkenin konsolosluğu karar verir."
+    },
+    {
+      "id": "os-4-s30",
+      "tur": "coktan-secmeli",
+      "soru": "Hizmet damgalı pasaportun kapak rengi hangisidir?",
+      "secenekler": [
+        "Bordo kapaklı",
+        "Yeşil kapaklı",
+        "Siyah kapaklı",
+        "Gri kapaklı"
+      ],
+      "dogru": 3,
+      "aciklama": "Bordo umuma mahsus, yeşil hususi damgalı, gri hizmet damgalı, siyah diplomatik pasaporttur."
+    },
+    {
+      "id": "os-4-s31",
+      "tur": "dogru-yanlis",
+      "soru": "Hususi damgalı (yeşil) pasaport yalnız görev süresince geçerlidir, turistik amaçla kullanılamaz ve görev bitince iade edilir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Bu özellikler hizmet damgalı (gri) pasaporta aittir. Yeşil pasaport verilen bir göreve değil, kişinin memuriyet durumuna bağlıdır."
+    },
+    {
+      "id": "os-4-s32",
+      "tur": "coktan-secmeli",
+      "soru": "Türkiye'de pasaport başvurusu nereye yapılır?",
+      "secenekler": [
+        "Nüfus müdürlüğüne",
+        "Belediyeye",
+        "Vize başvuru merkezine",
+        "Kültür ve Turizm Bakanlığına"
+      ],
+      "dogru": 0,
+      "aciklama": "Pasaport başvurusu randevu alınarak nüfus müdürlüğüne şahsen yapılır. Vize başvuru merkezi pasaport değil, vize evrakı teslim alır."
+    },
+    {
+      "id": "os-4-s33",
+      "tur": "dogru-yanlis",
+      "soru": "Seyahat sağlık sigortası poliçesinin, seyahatin ilk gününden son gününe kadar bütün süreyi kapsaması gerekir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Poliçede üç şeye bakılır: kapsam, seyahatin bütün süresini içermesi ve teminatlar. Tarihi eksik poliçe vize başvurusunda da sorun çıkarabilir."
+    },
+    {
+      "id": "os-4-s44",
+      "tur": "coktan-secmeli",
+      "soru": "Birden çok şubesi olan, hizmeti şubeler arasında standart tutan ve toplu alımla ölçek avantajı sağlayan acente türü hangisidir?",
+      "secenekler": [
+        "Karşılayıcı (incoming) acente",
+        "C grubu seyahat acentesi",
+        "Zincir seyahat acentesi",
+        "Yurt içi gönderici acente"
+      ],
+      "dogru": 2,
+      "aciklama": "Zincir acentenin ayırt edici yanı şube ağıdır: standart hizmet ve ölçek avantajı sağlar. Karşılayıcı ve yurt içi gönderici fonksiyonel, C grubu yasal sınıflandırmanın parçasıdır."
+    },
+    {
+      "id": "os-4-s45",
+      "tur": "dogru-yanlis",
+      "soru": "Schengen Bölgesi'nde yer alan ülkelerin her birine girmek için ayrı ayrı vize almak gerekir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Schengen vizesi bölgenin tamamında geçerli ortak bir vizedir; Paris–Amsterdam–Brüksel turunda üç ayrı vize değil tek vize alınır."
+    },
+    {
+      "id": "os-4-s46",
+      "tur": "coktan-secmeli",
+      "soru": "Acentelerin nitelikli tur için belgeli rehber temin ettiği, rehber odalarının bağlı olduğu kuruluş hangisidir?",
+      "secenekler": [
+        "TÜROB",
+        "TUREB",
+        "TÜROFED",
+        "IATA"
+      ],
+      "dogru": 1,
+      "aciklama": "TUREB, rehber odalarının bağlı olduğu ve turist rehberlerini temsil eden birliktir. TÜROB ve TÜROFED otelcileri, IATA ise hava yollarını ve bilet satan acentelerin yetkilendirilmesini ilgilendirir."
+    },
+    {
+      "id": "os-4-s34",
+      "tur": "senaryo",
+      "durum": "Gece 01.30, havalimanı. Transfer elemanına yardım eden stajyersin. Listede on iki konuk var, ama aracın başında on üç kişi bekliyor. Listede adı olmayan konuk 'Ben de bu acentedenim, voucherım telefonumda.' diyor; şoför acele ediyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Yer var diye konuğu araca alır, yola çıkmasını söylerim.",
+        "Listede adı yok diyerek konuğa taksiyle gitmesini söylerim.",
+        "Aracı bekletir, durumu hemen operasyona bildiririm.",
+        "Voucherın fotoğrafına bakar, doğru görünüyorsa kendim onaylarım."
+      ],
+      "dogru": 2,
+      "aciklama": "Listede eksik ya da fazla kişi olduğunda görevli kendi başına karar vermez; operasyonu arar. Konuğu kontrolsüz araca almak da gece yarısı ortada bırakmak da acenteyi zor duruma düşürür; kaydı doğrulayacak olan operasyondur."
+    },
+    {
+      "id": "os-4-s35",
+      "tur": "senaryo",
+      "durum": "Saat 15.00, satış masasında bir görevlinin yanında staj yapıyorsun. Görevli kısa süreliğine ayrıldı. Avrupa turuyla ilgilenen konuk sana dönüp 'Vizem kesin çıkar, değil mi? Çıkmayacaksa hiç yazılmayayım.' diyor.",
+      "soru": "Ne dersin?",
+      "secenekler": [
+        "'Evrakınız tamsa kesin çıkar efendim, merak etmeyin.' derim.",
+        "'Bugüne kadar kimse reddedilmedi, siz de alırsınız.' derim.",
+        "'Vize işlerine ben bakmıyorum, bir bilgim yok.' deyip susarım.",
+        "Kararı konsolosluğun verdiğini söyler, görevliyi çağırırım."
+      ],
+      "dogru": 3,
+      "aciklama": "Vizeyi acente değil konsolosluk verir; 'kesin çıkar' sözü tutulamayacak bir satış vaadidir. Konuğu cevapsız bırakmak da doğru değildir: dürüst bilgi verilir ve vize konusunu bilen görevli çağrılır."
+    },
+    {
+      "id": "os-4-s36",
+      "tur": "senaryo",
+      "durum": "Saat 10.20. Rezervasyon ekranında bir otel için 'bayram haftası stop-sale' mesajı görünüyor. Yanında çalıştığın satış görevlisi telefonda; karşındaki konuk tam o hafta, o oteli istiyor ve 'Geçen yıl da siz ayarlamıştınız.' diyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Konuğu kırmamak için kaydını alır, 'Yeriniz hazır.' diye söz veririm.",
+        "Otelin o hafta satışa kapalı olduğunu söyler, görevliye haber veririm.",
+        "'Belki açılır.' diyerek ödemesini alır, sonrasını otele bırakırım.",
+        "'O otel dolu, yapacak bir şey yok.' diyerek konuğu uğurlar, işime dönerim."
+      ],
+      "dogru": 1,
+      "aciklama": "Stop-sale, otelin o dönem için satışı durdurduğunu gösterir; mesajı görmezden gelip satış yapan acente olmayan odayı satmış olur. Konuk eli boş da gönderilmez: yetkili görevli aynı sınıfta başka bir tesis önerebilir."
+    },
+    {
+      "id": "os-4-s37",
+      "tur": "senaryo",
+      "durum": "Cuma 16.45. Konuğun opsiyonu saat 17.00'de doluyor. Konuk arıyor: 'Maaşım pazartesi yatacak, yerimi pazartesiye kadar tutar mısınız?' Satış görevlisi başka bir konukla görüşüyor, telefon sende.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "'Tabii efendim, pazartesiye kadar yeriniz sizde.' derim.",
+        "'Opsiyon uzamaz, saat beşte yeriniz iptal olacak.' deyip kapatırım.",
+        "Söz vermeden not alır, görevliye sorup konuğu geri ararım.",
+        "Kimseye sormadan sistemde opsiyon tarihini kendim değiştiririm."
+      ],
+      "dogru": 2,
+      "aciklama": "Opsiyonu uzatmak için yeri ayıran otelin ya da hava yolunun onayı gerekir; stajyer kendi başına söz veremez, sistemi de değiştiremez. Konuğu geri çevirmek yerine isteği not alınır ve yetkiliye iletilir."
+    },
+    {
+      "id": "os-4-s38",
+      "tur": "senaryo",
+      "durum": "Saat 11.00, vize bölümü. Yirmi kişilik grubun pasaport fotokopilerini taratıyorsun. Bir çalışma arkadaşın 'Hepsini benim telefonuma, mesajlaşma grubuna at; evden bakarım, daha hızlı olur.' diyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Göndermem; acentenin kullandığı yolu sorumluya sorarım.",
+        "Arkadaşım kıdemli olduğu için fotoğrafları hemen gruba atarım.",
+        "Yalnız ilk sayfaları gönderir, akşam olunca gruptan silerim.",
+        "Konukların adını kapatır, numaraları açık bırakıp gönderirim."
+      ],
+      "dogru": 0,
+      "aciklama": "Pasaport bilgisi kişisel veridir; yalnız başvuru amacıyla ve acentenin belirlediği güvenli yolla işlenir. Kişisel telefona ve mesajlaşma grubuna atılan belge denetimden çıkar; silmek ya da bir kısmını kapatmak riski ortadan kaldırmaz. Emin olunmayan durumda sorumluya sorulur."
+    },
+    {
+      "id": "os-4-s39",
+      "tur": "senaryo",
+      "durum": "Kapadokya turunun ikinci günü, stajyer olarak gruba eşlik ediyorsun. Programda yazan köy pazarı ziyareti yapılmadan otobüs bir mağazaya yöneliyor. İki konuk yanına gelip 'Programda pazar vardı, neden gitmedik?' diye soruyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "'Zaman kalmadı, pazar zaten kapalıydı.' diyerek konuyu kapatırım.",
+        "Nedenini bilmediğimi söyler, durumu operasyona bildiririm.",
+        "Grubun önünde rehbere dönüp neden gitmediğimizin hesabını sorarım.",
+        "Konuklara rehberin komisyon aldığını düşündüğümü anlatırım."
+      ],
+      "dogru": 1,
+      "aciklama": "Programda yazan ziyaret konuğa verilmiş bir sözdür; konuğa bilmediğin bir gerekçe uydurulmaz. Stajyer rehberle grubun önünde tartışmaz, tahminini konuklara da anlatmaz: dürüst davranır ve durumu operasyona iletir."
+    },
+    {
+      "id": "os-4-s40",
+      "tur": "senaryo",
+      "durum": "Saat 14.30, vize masası. Konuk banka dökümünü uzatıp 'Bakiye biraz düşük görünüyor. Siz bilgisayarda rakamı düzeltiverin, kimse anlamaz.' diyor. Vize sorumlusu öğle arasında, dosyaları sen düzenliyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Konuk memnun kalsın diye rakamı düzeltir, dosyaya eklerim.",
+        "Dökümü dosyadan çıkarır, eksik belgeyle başvuruyu gönderirim.",
+        "'Bu yaptığınız sahtecilik!' diyerek konuğu herkesin içinde azarlarım.",
+        "Kibarca reddeder, durumu vize sorumlusuna bildiririm."
+      ],
+      "dogru": 3,
+      "aciklama": "Gerçeğe aykırı belge hem ret nedenidir hem acenteyi sorumlu duruma düşürür; acente konuğun belgesini 'düzeltmez'. Belgeyi eksik bırakmak ya da konukla tartışmak da çözüm değildir: istek nazikçe reddedilir ve sorumluya haber verilir."
+    },
+    {
+      "id": "os-4-s41",
+      "tur": "senaryo",
+      "durum": "Perşembe 18.10. Cumartesi sabahı çıkacak İtalya turundan bir konuk arıyor: 'Vizem yetişmedi, eşimle ben gelemiyoruz.' Operasyon sorumlusu toplantıda, mesajı sen aldın.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Bilgiyi hemen operasyon sorumlusuna yazılı olarak iletirim.",
+        "Yarın sabah nasılsa görüşürüz diye not alır, mesaiden çıkarım.",
+        "Konuğa paranın tamamının iade edileceğini kendim söylerim.",
+        "Otele ve hava yoluna iptali kimseye sormadan kendim bildiririm."
+      ],
+      "dogru": 0,
+      "aciklama": "Zamanında bildirilen iptal no-show'u önler ve boşalan yerlerin son dakika satışına çıkmasına fırsat verir; her saat önemlidir. İade ve iptal işlemleri ise sözleşmedeki koşullara göre yetkili tarafından yapılır; stajyer ne söz verir ne tek başına işlem yapar."
+    },
+    {
+      "id": "os-4-s42",
+      "tur": "senaryo",
+      "durum": "Saat 17.20, biletleme masası. Yarın sabah uçacak bir konuğun biletini dosyaya koyarken soyadının pasaporttakinden bir harf farklı yazıldığını görüyorsun. Bileti kesen görevli az önce çıktı.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Tek harf fark eder mi diyerek bileti dosyaya koyar, işime bakarım.",
+        "Hava yolu sistemine girip soyadını kendi bildiğim gibi düzeltirim.",
+        "Farkı hemen sorumluya bildirir, belgeleri gösteririm.",
+        "Konuğu arayıp sorunu havalimanında çözmesini söylerim."
+      ],
+      "dogru": 2,
+      "aciklama": "Biletteki ad pasaporttaki adla aynı olmalıdır; küçük bir yazım hatası yolcuya havalimanında sorun çıkarır. Düzeltme hava yolunun kurallarına göre yetkili personelce yapılır; görmezden gelmek ya da sorunu konuğa bırakmak hatayı büyütür."
+    },
+    {
+      "id": "os-4-s43",
+      "tur": "senaryo",
+      "durum": "Saat 12.15. Kayak tatiline gidecek konuk poliçesini alırken soruyor: 'Kayak yaparken sakatlanırsam bu sigorta karşılar, değil mi?' Poliçede kış sporlarının yazıp yazmadığını bilmiyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "'Tabii efendim, seyahat sigortası her şeyi karşılar.' derim.",
+        "'Sanmıyorum, kayak genelde kapsam dışıdır.' diye tahmin yürütürüm.",
+        "'Orasını sigorta şirketine sorarsınız.' diyerek poliçeyi teslim ederim.",
+        "Poliçeye bakar, emin olamazsam yetkiliye sorarım."
+      ],
+      "dogru": 3,
+      "aciklama": "Sigorta yalnız poliçede yazan teminatları karşılar. Görevli poliçede yazmayan bir şeyi 'karşılar' diye söylemez, tahmin de yürütmez; emin değilse sigorta şirketine ya da yetkiliye sorar ve gerekiyorsa ek teminat önerilir."
+    },
+    {
+      "id": "os-4-s47",
+      "tur": "senaryo",
+      "durum": "Saat 14.10, otelin ön büro masasında stajyersin. Bir acentenin gönderdiği konuk voucherını uzatıyor: iki kişilik deniz manzaralı oda yazıyor, ama sistemde aynı isme standart oda kaydı var. Konuk yorgun ve sabırsız.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Sistemde standart oda göründüğü için konuğa o odayı verir, voucherın hatalı olduğunu söylerim.",
+        "Amirime sormadan voucherdaki oda tipini kendim tahsis eder, sistem kaydını değiştiririm.",
+        "Konuğa, farkı acenteyle kendisinin çözmesi gerektiğini söyleyip lobide beklemesini rica ederim.",
+        "Farkı amirime bildirir, acenteyle teyit edilirken konuğa durumu nazikçe anlatırım."
+      ],
+      "dogru": 3,
+      "aciklama": "Voucher ile rezervasyon arasında fark varsa konukla tartışılmaz ve kayıt tek başına değiştirilmez; fark yetkili amire bildirilir, acenteyle teyit edilir. Konuğa süreç nazikçe anlatılır, bekleme rahatsızlığı azaltılır."
+    }
+  ]
+}
