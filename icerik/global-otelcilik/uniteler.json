@@ -1,0 +1,42 @@
+{
+  "ders": "global-otelcilik",
+  "sinif": 9,
+  "dersAdi": "Global Otelcilik",
+  "kisaAd": "Global",
+  "sira": 4,
+  "kaynak": "MEB müfredatı dışı ek ders: dünya otelcilik okullarının (EHL, Cornell Nolan, HK PolyU SHTM, Les Roches, Glion) ve sektör kuruluşlarının (UN Tourism, Forbes Travel Guide, Les Clefs d'Or, AHLEI) açık kaynaklarındaki genel kabul görmüş bilgi, 9. sınıf düzeyinde ve kendi cümlemizle. Kitap yoktur; her kart sektör terimidir.",
+  "uniteler": [
+    {
+      "unite": 1,
+      "baslik": "Otelciliğin Evrensel Dili",
+      "konular": [
+        { "no": "1.1", "baslik": "Konuk Yolculuğu", "kazanim": "Konuğun rezervasyondan ayrılış sonrasına uzanan yolculuğunun adımlarını ve her adımda otelin rolünü açıklar." },
+        { "no": "1.2", "baslik": "Otelin Ölçütleri", "kazanim": "Doluluk, ortalama oda fiyatı ve RevPAR gibi dünyada ortak kullanılan temel otel ölçütlerini tanımlar." },
+        { "no": "1.3", "baslik": "Dağıtım ve Gelir", "kazanim": "Otelin odasını dünyaya hangi kanallarla sattığını ve gelir yönetiminin mantığını açıklar." },
+        { "no": "1.4", "baslik": "Markalar, Zincirler ve Dereceler", "kazanim": "Uluslararası otel zincirlerinin, marka standartlarının ve dünyadaki derecelendirme sistemlerinin işleyişini açıklar." },
+        { "no": "1.5", "baslik": "Uluslararası Unvanlar ve Kuruluşlar", "kazanim": "Dünya otelciliğinde kullanılan unvanları ve sektörü yönlendiren uluslararası kuruluşları tanır." }
+      ]
+    },
+    {
+      "unite": 2,
+      "baslik": "Lüks Hizmet ve Konuk Deneyimi",
+      "konular": [
+        { "no": "2.1", "baslik": "Hizmet Standardı Nedir", "kazanim": "Dünya lüks otelciliğinde hizmet standardı kavramını ve standartların neden yazılı olduğunu açıklar." },
+        { "no": "2.2", "baslik": "Öngörülü ve Kişiye Özel Hizmet", "kazanim": "Konuğun söylemeden önce ihtiyacını fark etmenin ve hizmeti kişiye göre uyarlamanın yollarını açıklar." },
+        { "no": "2.3", "baslik": "Hizmet Telafisi ve Yetkilendirme", "kazanim": "Hata olduğunda konuğu yeniden kazanmanın adımlarını ve çalışanın karar yetkisinin önemini açıklar." },
+        { "no": "2.4", "baslik": "Kültürel Zekâ ve Küresel Görgü", "kazanim": "Farklı kültürlerden konuklara hizmet ederken dikkat edilecek görgü ve iletişim ilkelerini uygular." },
+        { "no": "2.5", "baslik": "Deneyim Tasarımı", "kazanim": "Konuğun hatırlayacağı anların nasıl tasarlandığını ve ölçüldüğünü açıklar." }
+      ]
+    },
+    {
+      "unite": 3,
+      "baslik": "Dünyada Turizm Eğitimi ve Kariyer",
+      "konular": [
+        { "no": "3.1", "baslik": "Dünyanın Otelcilik Okulları", "kazanim": "Dünyanın önde gelen otelcilik ve turizm okullarını ve onların eğitim anlayışını tanır." },
+        { "no": "3.2", "baslik": "Kariyer Yolları", "kazanim": "Otelcilik ve turizmde stajyerlikten üst yönetime uzanan kariyer yollarını ve departmanlar arası geçişleri açıklar." },
+        { "no": "3.3", "baslik": "Profesyonelin Becerileri", "kazanim": "Dünya otelciliğinde aranan beceri ve tutumları kendi gelişim planıyla ilişkilendirir." },
+        { "no": "3.4", "baslik": "Sürdürülebilir ve Geleceğin Otelciliği", "kazanim": "Dünya otelciliğinde sürdürülebilirlik ve teknoloji eğilimlerinin mesleğe etkisini yorumlar." }
+      ]
+    }
+  ]
+}

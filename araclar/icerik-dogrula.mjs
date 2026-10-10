@@ -91,7 +91,8 @@ function uniteDogrula(yol, u, plan, hatalar, uyarilar, gorseller) {
 
   const soruIdleri = new Set();
   for (const s of sorular) {
-    if (!new RegExp(`^${onEk}s\\d{2}$`).test(s.id ?? "")) hata(`soru id biçimi hatalı: ${s.id}`);
+    // İki hane 99 soruya yeter; büyük birimlerde (ör. Türkiye'nin turistik merkezleri) üç hane kullanılır.
+    if (!new RegExp(`^${onEk}s\\d{2,3}$`).test(s.id ?? "")) hata(`soru id biçimi hatalı: ${s.id}`);
     if (soruIdleri.has(s.id)) hata(`soru id tekrar ediyor: ${s.id}`);
     soruIdleri.add(s.id);
     if (!SORU_TURLERI.includes(s.tur)) hata(`${s.id}: bilinmeyen tur "${s.tur}"`);

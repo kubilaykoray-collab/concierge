@@ -4,6 +4,7 @@ import { ara, duzle } from "./arama";
 import { dersleriBol, uniteleriKur } from "./icerik";
 import { BOS, dersBitti, oku, oyunBitti, rutbe, seri, tekrarCevabi, testBitti, vakaCevabi } from "./ilerleme";
 import { bugun, cevapla, gunEkle, vadesiGelenler, yeniKart } from "./leitner";
+import { rozetler } from "./rozetler";
 import type { Kavram, Plan, Soru, UniteDosyasi } from "./tipler";
 
 const kavram = (n: number, ek: Partial<Kavram> = {}): Kavram => ({
@@ -146,6 +147,39 @@ describe("arama", () => {
     expect(ara(liste, "gezilerin").map((k) => k.terim)).toEqual(["Turizm"]);
     expect(ara(liste, "")).toHaveLength(3);
     expect(ara(liste, "zzz")).toEqual([]);
+  });
+});
+
+describe("rozetler", () => {
+  const GUN = "2026-10-08";
+  const UNITELER = [{ anahtar: "o/1", dersler: ["o/1/1", "o/1/2"] }];
+
+  it("boş kayıtta hiç rozet yok, hepsi sıfırdan başlar", () => {
+    const r = rozetler(BOS, GUN, UNITELER);
+    expect(r.length).toBeGreaterThan(10);
+    expect(r.every((x) => !x.kazanildi && x.oran === 0)).toBe(true);
+  });
+
+  it("ilk ders, seri, sertifika, ünite ve vaka rozetleri kazanılır", () => {
+    let d = dersBitti(BOS, "o/1/1", ["a", "b"], GUN);
+    d = dersBitti(d, "o/1/2", ["c"], "2026-10-09");
+    d = { ...d, gunler: ["2026-10-07", "2026-10-08", "2026-10-09"] };
+    d = testBitti(d, "o/1", 80, "2026-10-09");
+    for (let i = 0; i < 10; i++) d = vakaCevabi(d, `v${i}`, true, "2026-10-09");
+    const r = Object.fromEntries(rozetler(d, "2026-10-09", UNITELER).map((x) => [x.id, x]));
+    expect(r["ilk-gun"].kazanildi).toBe(true);
+    expect(r["uc-gun"].kazanildi).toBe(true);
+    expect(r["bir-hafta"].kazanildi).toBe(false);
+    expect(r["bir-hafta"].oran).toBeCloseTo(3 / 7);
+    expect(r["ilk-sertifika"].kazanildi).toBe(true);
+    expect(r["unite-tamam"].kazanildi).toBe(true);
+    expect(r["vaka-cozucu"].kazanildi).toBe(true);
+    expect(r["yuz-kart"].oran).toBeCloseTo(0.03);
+  });
+
+  it("yayından kalkan kartlar sayılmaz", () => {
+    const d = dersBitti(BOS, "o/1/1", ["a", "eski"], GUN);
+    expect(rozetler(d, GUN, UNITELER, (id) => id !== "eski").find((x) => x.id === "yuz-kart")?.oran).toBeCloseTo(0.01);
   });
 });
 

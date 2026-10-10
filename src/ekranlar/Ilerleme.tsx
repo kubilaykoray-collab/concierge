@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Cubuk, Madalyon, Simge } from "../bilesenler";
 import { rutbe, RUTBELER, seri, type Ilerleme as IlerlemeTipi } from "../cekirdek/ilerleme";
 import { bugun, SON_KUTU } from "../cekirdek/leitner";
+import { rozetler } from "../cekirdek/rozetler";
 import { guncelle, sifirla, useIlerleme } from "../depo";
 import { kavramBul, KAVRAMLAR, UNITELER } from "../veri";
 
@@ -19,6 +20,7 @@ export function Ilerleme() {
   const kartlar = Object.entries(ilerleme.kartlar).filter(([id]) => kavramBul(id));
   const kutular = [1, 2, 3, 4, 5].map((n) => kartlar.filter(([, k]) => k.kutu === n).length);
   const enCok = Math.max(1, ...kutular);
+  const rozetListesi = rozetler(ilerleme, bugun(), UNITELER.map((u) => ({ anahtar: u.anahtar, dersler: u.dersler.map((d) => d.anahtar) })), (id) => kavramBul(id) !== undefined);
 
   return (
     <>
@@ -46,6 +48,18 @@ export function Ilerleme() {
           </li>
         ))}
       </ol>
+
+      <h3 className="bolum-basligi">Rozetler · {rozetListesi.filter((r) => r.kazanildi).length}/{rozetListesi.length}</h3>
+      <div className="rozetler">
+        {rozetListesi.map((r) => (
+          <div key={r.id} className={r.kazanildi ? "rozet rozet-kazanildi" : "rozet"}>
+            <span className="rozet-simge"><Simge ad={r.kazanildi ? "yildiz" : "kilit"} boyut={18} /></span>
+            <strong>{r.ad}</strong>
+            <small>{r.aciklama}</small>
+            {!r.kazanildi && r.oran > 0 && <Cubuk oran={r.oran} />}
+          </div>
+        ))}
+      </div>
 
       <h3 className="bolum-basligi">Hafıza kutuları</h3>
       <div className="kagit kutular-karti">

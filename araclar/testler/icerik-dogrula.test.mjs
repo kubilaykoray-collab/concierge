@@ -71,6 +71,11 @@ hataBekle("senaryo sorusunda durum yok", (u) => { u.sorular[0].tur = "senaryo"; 
 hataBekle("senaryo olmayan soruda durum var", (u) => { u.sorular[0].durum = "Lobi kalabalık."; }, /durum alanı/);
 hataBekle("künyesi olmayan görsel", (u) => { u.kavramlar[0].gorsel = "yok-boyle"; }, /gorseller\.json içinde yok/);
 hataBekle("kitapDisi false yazılmış", (u) => { u.kavramlar[0].kitapDisi = false; }, /kitapDisi yalnız true/);
+test("üç haneli soru id'si kabul edilir", () => {
+  const { hatalar } = denetle((u) => { u.sorular[0].id = "od-1-s100"; });
+  assert.deepEqual(hatalar, []);
+});
+hataBekle("dört haneli soru id'si", (u) => { u.sorular[0].id = "od-1-s1000"; }, /soru id biçimi/);
 test("künyeli görsel ve sektör terimi kabul edilir", () => {
   const { hatalar } = denetle((u) => { u.kavramlar[0].gorsel = "kumsal"; u.kavramlar[0].kitapDisi = true; });
   assert.deepEqual(hatalar, []);

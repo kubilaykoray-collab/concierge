@@ -12,8 +12,8 @@ export function Kunye() {
       </header>
       <div className="kagit bilgi">
         <p>
-          Kartlardaki fotoğraflar Creative Commons Atıf 2.0 (CC BY 2.0) lisansıyla paylaşılmış çalışmalardır. Her biri kırpılıp küçültülerek
-          kullanılmıştır. Fotoğrafçılara teşekkür ederiz.
+          Kartlardaki fotoğraflar Creative Commons lisanslarıyla (CC0 ya da CC BY) açık paylaşılmış çalışmalardır; ders kitabından görsel
+          alınmamıştır. Her biri kırpılıp küçültülerek kullanılmıştır. Fotoğrafçılara teşekkür ederiz.
         </p>
       </div>
       <div className="kunye-listesi">

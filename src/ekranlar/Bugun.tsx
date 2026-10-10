@@ -1,9 +1,20 @@
 import { Cubuk, dakika, Simge } from "../bilesenler";
 import { rutbe, seri } from "../cekirdek/ilerleme";
 import { bugun, USTA_KUTU, vadesiGelenler } from "../cekirdek/leitner";
+import { rozetler } from "../cekirdek/rozetler";
 import { DERS_CIZIMI, KoseSusu, OtelCizimi } from "../cizimler";
 import { useIlerleme } from "../depo";
-import { DERS_LISTESI, DERSLER, GUNCEL_KAVRAMLAR as KAVRAMLAR, GUNCEL_UNITELER as UNITELER, kavramBul } from "../veri";
+import { DERS_LISTESI, DERSLER, gorselAdresi, GUNCEL_KAVRAMLAR as KAVRAMLAR, GUNCEL_UNITELER as UNITELER, kavramBul } from "../veri";
+
+// Günün yeri: Türkiye'nin turistik merkezlerinden, tercihen fotoğraflı bir kart. Keşfetme isteği uyandırmak için.
+function gununYeri(gun: string) {
+  const yerler = KAVRAMLAR.filter((k) => k.unite.ders === "genel-turizm-2026" && k.unite.no === 3 && /^3\.[23]/.test(k.konu));
+  if (yerler.length === 0) return undefined;
+  const fotografli = yerler.filter((k) => k.gorsel);
+  const havuz = fotografli.length >= 10 ? fotografli : yerler;
+  const sayi = [...gun].reduce((t, h) => (t * 41 + h.charCodeAt(0)) % 99989, 13);
+  return havuz[sayi % havuz.length];
+}
 
 const AYLAR = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
 const GUNLER = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
@@ -38,7 +49,12 @@ export function Bugun() {
   const gunSerisi = seri(ilerleme.gunler, gun);
   const kavram = gununKavrami(gun);
   const vaka = gununVakasi(gun);
+  const yer = gununYeri(gun);
   const yeni = ogrenilen === 0;
+  const bugunCalisti = ilerleme.gunler.includes(gun);
+  const rozetListesi = rozetler(ilerleme, gun, UNITELER.map((u) => ({ anahtar: u.anahtar, dersler: u.dersler.map((d) => d.anahtar) })), (id) => guncelKimlikler.has(id));
+  const kazanilanRozet = rozetListesi.filter((r) => r.kazanildi).length;
+  const siradakiRozet = rozetListesi.filter((r) => !r.kazanildi).sort((a, b) => b.oran - a.oran)[0];
 
   return (
     <>
@@ -54,6 +70,12 @@ export function Bugun() {
         <p className="ust-etiket">{GUNLER[simdi.getDay()]} · {simdi.getDate()} {AYLAR[simdi.getMonth()]}</p>
         <h1>{yeni ? "Hoş geldin, meslektaş." : gunSerisi > 1 ? `${gunSerisi} gündür buradasın.` : "Tekrar hoş geldin."}</h1>
         <p className="vitrin-alt">{yeni ? "Otelciliğin dilini ilk dersten itibaren bir profesyonel gibi öğreneceksin." : r.soz}</p>
+        {!yeni && (
+          <p className="vitrin-not">
+            <Simge ad={bugunCalisti ? "tik" : "alev"} boyut={15} />
+            {bugunCalisti ? "Bugünkü çalışman tamam; fazlası bonus." : gunSerisi > 0 ? `${gunSerisi} günlük serini korumak için bugün bir ders yeter.` : "Bugün bir dersle yeniden başla; seri yeniden sayılır."}
+          </p>
+        )}
         <a className="rutbe-seridi" href="#/ilerleme">
           <div>
             <span className="ust-etiket">Unvanın</span>
@@ -65,6 +87,14 @@ export function Bugun() {
           </div>
         </a>
       </header>
+
+      {yeni && (
+        <section className="nasil" aria-label="Nasıl çalışır">
+          <div className="nasil-adim"><span>1</span><strong>Öğren</strong><small>3–5 dakikalık dersler, her kartta bir kavram</small></div>
+          <div className="nasil-adim"><span>2</span><strong>Hatırla</strong><small>Unutmak üzereyken uygulama sana sorar</small></div>
+          <div className="nasil-adim"><span>3</span><strong>Sına</strong><small>Vakalarda kararı sen ver, testle sertifika al</small></div>
+        </section>
+      )}
 
       {vadeli.length > 0 && (
         <a className="one-cikan" href="#/tekrar">
@@ -98,9 +128,32 @@ export function Bugun() {
 
       <section className="sayilar">
         <div><Simge ad="alev" /><strong>{gunSerisi}</strong><span>gün seri</span></div>
-        <div><Simge ad="kitap" /><strong>{ogrenilen}<small>/{KAVRAMLAR.length}</small></strong><span>öğrenilen</span></div>
+        <div><Simge ad="kitap" /><strong>{ogrenilen}</strong><span>öğrenilen</span></div>
         <div><Simge ad="yildiz" /><strong>{usta}</strong><span>ustalaşılan</span></div>
       </section>
+
+      <a className="rozet-seridi" href="#/ilerleme">
+        <Simge ad="anahtarlar" boyut={22} />
+        <div className="satir-govde">
+          <strong>Rozetler · {kazanilanRozet}/{rozetListesi.length}</strong>
+          {siradakiRozet && <span>Sıradaki: {siradakiRozet.ad} · {siradakiRozet.aciklama}</span>}
+        </div>
+        <Simge ad="ok" boyut={18} />
+      </a>
+
+      {yer && (
+        <section>
+          <h3 className="bolum-basligi">Günün yeri</h3>
+          <a className="gunun-yeri" href={`#/sozluk/${yer.id}`}>
+            {yer.gorsel && <img src={gorselAdresi(yer.gorsel)} alt="" loading="lazy" width={720} height={446} />}
+            <div className="gunun-yeri-govde">
+              <span className="ust-etiket">Türkiye'yi keşfet</span>
+              <h4>{yer.terim}</h4>
+              <p>{yer.tanim}</p>
+            </div>
+          </a>
+        </section>
+      )}
 
       <section>
         <h3 className="bolum-basligi">Dersler</h3>

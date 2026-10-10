@@ -606,6 +606,114 @@ button {
   border-left: 3px solid var(--altin);
 }
 
+/* Vitrindeki günlük dürtü: seriyi koru ya da bugün tamam */
+.vitrin-not {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding: 8px 14px;
+  border-radius: 99px;
+  background: rgb(205 174 116 / 14%);
+  color: #e8d9b8;
+  font-size: 0.84rem;
+}
+
+/* Yeni öğrenci için üç adım: öğren, hatırla, sına */
+.nasil {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px !important;
+}
+
+.nasil-adim {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 12px;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+}
+
+.nasil-adim span {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--altin);
+  color: #152238;
+  font: 700 0.82rem var(--serif);
+  margin-bottom: 4px;
+}
+
+.nasil-adim strong { font: 600 1.02rem var(--serif); }
+.nasil-adim small { font-size: 0.74rem; color: var(--soluk); line-height: 1.35; }
+
+.rozet-seridi {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+  color: var(--altin-yazi);
+}
+
+.rozet-seridi strong { color: var(--murekkep); }
+.rozet-seridi span { font-size: 0.82rem; color: var(--soluk); }
+
+.rozetler {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.rozet {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+  color: var(--soluk);
+}
+
+.rozet strong { font: 600 1rem var(--serif); color: var(--murekkep); }
+.rozet small { font-size: 0.76rem; line-height: 1.35; }
+.rozet .cubuk { margin-top: 6px; }
+
+.rozet-simge {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--cizgi);
+  margin-bottom: 4px;
+}
+
+.rozet-kazanildi { border-color: var(--altin); }
+.rozet-kazanildi .rozet-simge { background: var(--altin); border-color: var(--altin); color: #152238; }
+
+/* Günün yeri: fotoğraf üstte, metin altta */
+.gunun-yeri {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+}
+
+.gunun-yeri img { width: 100%; height: auto; aspect-ratio: 720 / 446; object-fit: cover; display: block; }
+.gunun-yeri-govde { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px 18px; }
+.gunun-yeri h4 { font-size: 1.3rem; }
+.gunun-yeri p { color: var(--soluk); font-size: 0.95rem; }
+
 .gunun-kavrami h4 { font-size: 1.3rem; }
 .gunun-kavrami p:last-child { color: var(--soluk); font-size: 0.95rem; margin-top: 4px; }
 

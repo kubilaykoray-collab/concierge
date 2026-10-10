@@ -18,6 +18,14 @@ Takvim (2026-2027): 1. hafta 14–18 Eylül; 10. hafta (16–20 Kasım) ara tati
 7–9. hafta 2. birim. Genel Turizm (taslak): 3. hafta 1.3 · 4. hafta 1.4 · 5. hafta 1.5 · 6. hafta 1.5.2 ve ölçme. Mesleki Gelişim: resmî plan yok.
 İçerik önceliği öğretmenin o hafta işlediği konudur.
 
+**Öğretmenin vizyonu (10 Ekim 2026, bağlayıcı):** hedef, "global çapta uygunluğu olan, keşfetmeye heves ettirecek görsel ve bilgisel
+içeriklere sahip master seviye bir uygulama". Ölçütler: (1) MEB kitaplarındaki **her** kavram, bilgi ve yer eksiksiz sistemde olur;
+(2) buna global sektör bilgisi eklenir (Cornell, EHL, HK PolyU gibi okulların açık kaynaklarındaki bilgi, 9. sınıf düzeyinde, kendi
+cümlemizle; `kitapDisi` / ayrı global ders); (3) görseller stok ya da yapay zekâ üretimi olabilir, MEB kitabından görsel alınmaz, telif
+riski sıfır; (4) içerik ve mizanpaj EHL kalitesinde; (5) 9. sınıf öğrencisiyle empati: uygulamada kalmayı ve öğrenmeye devam etmeyi
+sağlayacak motivasyon unsurları; (6) her işte araştırma, karar, plan, uygulama ve kontrol Claude'da; süreç sonunda öğretmene baştan
+sona rapor. Öğretmenin aklına gelmeyen ama fark edilen ayrıntılar raporlanır.
+
 **Yetki (8 Ekim 2026):** öğretmen içerik kararlarını, onayı ve yayını Claude'a bıraktı ("tam yetki ve onay sende"). İçerik bağımsız
 denetimden (`icerik-denetci`) geçtikten sonra `onay: true` yapılıp yayınlanabilir; verilen her karar ve onay öğretmene raporlanır.
 Öğretmen bir kararı değiştirirse onun sözü geçer.

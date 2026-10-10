@@ -203,9 +203,12 @@ try {
   // 8. İlerleme ve karanlık tema
   await git("/ilerleme");
   await cek("ilerleme", true);
+  await dogrula(sayfa.$$eval(".rozet", (r) => r.length >= 10 && r.some((x) => x.classList.contains("rozet-kazanildi"))), "rozetler görünüyor ve en az biri kazanılmış");
   await sayfa.evaluate(() => [...document.querySelectorAll(".parca")].find((p) => p.textContent === "Karanlık").click());
   await git("/");
   await cek("karanlik-bugun", true);
+  await dogrula(var_(".gunun-yeri"), "günün yeri kartı");
+  await dogrula(var_(".rozet-seridi"), "rozet şeridi");
   await git("/ders/mesleki-gelisim/1/3");
   await cek("karanlik-kavram-karti");
   await tikla(".alt-eylem .dugme");
