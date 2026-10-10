@@ -1,0 +1,1519 @@
+{
+  "ders": "global-otelcilik",
+  "sinif": 9,
+  "unite": 6,
+  "baslik": "Pazarlama, Marka ve Dijital Otelcilik",
+  "onay": true,
+  "kazanimlar": [
+    "Hedef kitle, konumlandırma ve değer önerisi gibi pazarlama kavramlarını otel örnekleriyle açıklar.",
+    "Web sitesi, sosyal medya, yorum siteleri ve çevrim içi itibar yönetiminin otel için işleyişini açıklar.",
+    "Satış tekniklerini, ek satışı ve sadakat programlarını konuk değerine saygılı biçimde uygular.",
+    "Otelcilikte veri kullanımı, otomasyon ve kişisel verilerin korunması ilkelerini açıklar."
+  ],
+  "soz": "Pazarlama konuğa verilen bir sözdür; veri ise o sözün emanetidir.",
+  "dersler": [
+    {
+      "baslik": "Bir Otel, Dört Karar",
+      "ilk": "go-6-001"
+    },
+    {
+      "baslik": "Herkese Satan Kimseye Satamaz",
+      "ilk": "go-6-006"
+    },
+    {
+      "baslik": "Hayalî Konuk Elif",
+      "ilk": "go-6-011"
+    },
+    {
+      "baslik": "Otelin Kimliği ve Sözü",
+      "ilk": "go-6-014"
+    },
+    {
+      "baslik": "Tahmin Değil Bilgi",
+      "ilk": "go-6-017"
+    },
+    {
+      "baslik": "Dijital Vitrin",
+      "ilk": "go-6-021"
+    },
+    {
+      "baslik": "Otel Adına Paylaşmak",
+      "ilk": "go-6-025"
+    },
+    {
+      "baslik": "Yıldızlar, Yorumlar, Kriz",
+      "ilk": "go-6-028"
+    },
+    {
+      "baslik": "Gerçeği Göster, İzin İste",
+      "ilk": "go-6-033"
+    },
+    {
+      "baslik": "Konuk Nerede Vazgeçer?",
+      "ilk": "go-6-037"
+    },
+    {
+      "baslik": "Satış mı, Hizmet mi?",
+      "ilk": "go-6-040"
+    },
+    {
+      "baslik": "Sadık Konuk, Güvenilir Tavsiye",
+      "ilk": "go-6-045"
+    },
+    {
+      "baslik": "Şirketler ve Kalabalıklar",
+      "ilk": "go-6-048"
+    },
+    {
+      "baslik": "Otelin Elindeki Emanet",
+      "ilk": "go-6-051"
+    },
+    {
+      "baslik": "Veri Konuğundur",
+      "ilk": "go-6-055"
+    },
+    {
+      "baslik": "Az Veri, Kısa Süre",
+      "ilk": "go-6-058"
+    },
+    {
+      "baslik": "Kilit, Kod ve Dolandırıcı",
+      "ilk": "go-6-061"
+    },
+    {
+      "baslik": "Gece 02.00'de Cevap Veren",
+      "ilk": "go-6-065"
+    },
+    {
+      "baslik": "Yazılım Önerir, İnsan Karar Verir",
+      "ilk": "go-6-067"
+    }
+  ],
+  "kavramlar": [
+    {
+      "id": "go-6-001",
+      "konu": "6.1",
+      "terim": "Otelde pazarlama karması (4P)",
+      "ingilizce": "Marketing mix (the 4Ps)",
+      "tanim": "Bir otelin ürün, fiyat, yer ve tutundurma kararlarını birbirine uyduran dört parçalı pazarlama çerçevesidir.",
+      "ornek": "Bodrum'da yeni açılan 12 odalı butik otel dört kararı aynı hikâyeye bağlar: sakin bir ürün, orta-üst fiyat, kendi sitesi ile iki aracı platform ve fotoğraf ağırlıklı tanıtım.",
+      "sektor": "Dünyada pazarlama dersleri bu dört parçayla başlar. Biri ötekilerle çelişirse konuk güvenmez: lüks fotoğraf, çok ucuz fiyat ve özensiz site yan yana durmaz. Hizmet sektöründe bu çerçeveye çoğu zaman insan, süreç ve fiziksel ortam da eklenir; çünkü çalışanın her davranışı da konuğun gördüğü ürünün parçasıdır.",
+      "iliskili": [
+        "go-6-002",
+        "go-6-003",
+        "go-6-005"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-002",
+      "konu": "6.1",
+      "terim": "Otel ürünü",
+      "ingilizce": "Hotel product",
+      "tanim": "Konuğun satın aldığı odanın, hizmetin, yemeğin, konumun ve atmosferin bütünüdür.",
+      "ornek": "Antalya'daki bir resortta konuk yalnız yatak almaz; karşılayan görevliyi, kahvaltıyı, plajı ve havuz başındaki huzuru da satın alır.",
+      "sektor": "Otel ürünü dokunulup rafa konamayan, yaşanarak anlaşılan bir üründür; bu yüzden çalışanın davranışı ürünün parçasıdır. Tanıtımda söylenenle yaşananın farkı güveni kırar.",
+      "iliskili": [
+        "go-6-001",
+        "go-6-016"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-003",
+      "konu": "6.1",
+      "terim": "Otelde fiyat kararı",
+      "ingilizce": "Pricing",
+      "tanim": "Odanın hangi bedelle ve hangi koşullarla sunulacağını belirleyen, aynı zamanda konuğa otelin değeri hakkında mesaj veren karardır.",
+      "ornek": "İstanbul'da şehir merkezindeki bir otel fuar haftasında odayı daha yüksek ve iptal koşulları net bir fiyatla sunar; sade bir pansiyonun yanında aynı fiyatı isteyemez.",
+      "sektor": "Fiyat yalnız bir sayı değil, konumlandırmanın işaretidir: lüks bir otelin çok düşük fiyatı kaliteden şüphe uyandırır. Fiyatı gelir müdürü yönetir; sen konuğa kalemleri açık ve doğru anlatırsın.",
+      "iliskili": [
+        "go-6-001",
+        "go-6-043"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-004",
+      "konu": "6.1",
+      "terim": "Otelde yer: konum ve satış kanalları",
+      "ingilizce": "Place (location and distribution)",
+      "tanim": "Konuğun oteli bulduğu ve rezervasyon yaptığı yerlerin, yani otelin konumu ile satış kanallarının toplamıdır.",
+      "ornek": "Kapadokya'daki taş otel kendi sitesinde, iki aracı platformda ve yerel acentelerde görünür; konuk hangisinden bakarsa baksın aynı bilgiyi görmelidir.",
+      "sektor": "Pazarlamada yer hem haritadaki adres hem de dağıtım kanallarıdır; Ünite 1'de gördüğün kanallar burada pazarlamanın aracı olur. Kanallar arasında farklı bilgi vermek itibar kaybettirir.",
+      "iliskili": [
+        "go-6-001",
+        "go-6-021"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-005",
+      "konu": "6.1",
+      "terim": "Tutundurma (tanıtım ve iletişim)",
+      "ingilizce": "Promotion",
+      "tanim": "Otelin varlığını duyurmak ve konuğu rezervasyona yönlendirmek için yapılan reklam, tanıtım, sosyal medya ve satış çalışmalarının tümüdür.",
+      "ornek": "Kuşadası'ndaki otel mart ayında erken rezervasyon e-postası gönderir, sosyal medyada yeni kahvaltı salonunu gösterir ve turizm fuarında stant açar.",
+      "sektor": "Pazarlamanın en görünen parçasıdır, ama zayıf ürünü kurtarmaz: kötü hizmeti reklamla gizleyemezsin, çünkü ilk yorumu yazan konuk olur. En iyi tanıtım, memnun ayrılan konuktur.",
+      "iliskili": [
+        "go-6-001",
+        "go-6-047"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-006",
+      "konu": "6.1",
+      "terim": "Otelin hedef kitlesi",
+      "ingilizce": "Hotel target audience",
+      "tanim": "Bir otelin ürününü öncelikle sunmaya karar verdiği, benzer ihtiyaç ve alışkanlıkları olan konuk grubudur.",
+      "ornek": "Alanya'daki bir aile resortu çocuk kulübünü, sığ havuzu ve açık büfe kahvaltıyı öne çıkarır; tek başına gelen iş seyahatçisini öncelikli hedef almaz.",
+      "sektor": "Herkese hitap etmeye çalışan otel kimseye tam hitap edemez. Hedef kitle belli olunca oda tasarımından menüye, reklam dilinden personelin yaklaşımına kadar her karar kolaylaşır.",
+      "iliskili": [
+        "go-6-007",
+        "go-6-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-007",
+      "konu": "6.1",
+      "terim": "Pazar bölümlemesi",
+      "ingilizce": "Market segmentation",
+      "tanim": "Konukları seyahat amacına, yaşına, bütçesine ya da seyahat biçimine göre benzer gruplara ayırma işidir.",
+      "ornek": "İstanbul'daki bir otelin satış ekibi konukları hafta içi iş seyahatçileri, hafta sonu çiftler ve yaz aylarındaki yabancı turist grupları olarak üç bölüme ayırır.",
+      "sektor": "Aynı oda farklı bölüme farklı yoldan satılır: hafta içi şirket anlaşmasıyla, hafta sonu kampanyayla. Hangi bölümün otele ne kazandırdığı ayrı ayrı izlenir.",
+      "iliskili": [
+        "go-6-006",
+        "go-6-008",
+        "go-6-009"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-008",
+      "konu": "6.1",
+      "terim": "İş seyahati segmenti",
+      "ingilizce": "Business travel segment",
+      "tanim": "Çalışmak, toplantıya ya da fuara katılmak için seyahat eden ve masrafını çoğunlukla işverenin karşıladığı konuk grubudur.",
+      "ornek": "Pazartesi akşamı İzmir'deki otele gelen bir yazılım şirketi çalışanı sabah erken kahvaltı, hızlı check-out ve sağlam internet bekler.",
+      "sektor": "Hafta içi dolulukta güvence olan bu konuk çoğu zaman fiyattan çok kolaylığa bakar. Hız, sessizlik ve çalışma masası onun için çoğunlukla lüksten önemlidir.",
+      "iliskili": [
+        "go-6-007",
+        "go-6-009",
+        "go-6-048"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-009",
+      "konu": "6.1",
+      "terim": "Tatil segmenti",
+      "ingilizce": "Leisure travel segment",
+      "tanim": "Dinlenmek, gezmek ya da eğlenmek için kendi bütçesiyle seyahat eden konuk grubudur.",
+      "ornek": "Temmuzda Marmaris'e gelen bir çift iki hafta kalır; plaja yakın bir oda, manzara ve akşam eğlencesi arar.",
+      "sektor": "Tatilci fiyata ve deneyime duyarlıdır, tarihlerini çoğu zaman okul tatili ve bayramlara göre seçer. Hafta sonu ve yaz talebinin büyük bölümü bu gruptan gelir; yaşadığını çoğu zaman yorumla paylaşır.",
+      "iliskili": [
+        "go-6-007",
+        "go-6-008",
+        "go-6-010"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-010",
+      "konu": "6.1",
+      "terim": "Aile segmenti",
+      "ingilizce": "Family travel segment",
+      "tanim": "Çocuklarıyla birlikte seyahat eden, oda, yemek ve güvenlik ihtiyaçları farklı olan konuk grubudur.",
+      "ornek": "Bayram tatilinde Bolu'daki bir otele iki çocuklu bir aile gelir; yan yana odalar, çocuk menüsü ve güvenli bir oyun alanı ister.",
+      "sektor": "Kararı çoğu zaman ebeveynler verir ama çocuğun mutluluğu yorumu da etkiler. Çocuk yatağı, mama sandalyesi ve çocuk kulübü gibi küçük hizmetler büyük fark yaratır.",
+      "iliskili": [
+        "go-6-007",
+        "go-6-009"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-011",
+      "konu": "6.1",
+      "terim": "Konuk kişiliği (persona)",
+      "ingilizce": "Guest persona",
+      "tanim": "Hedef konuk grubunu temsil eden, adı, işi ve beklentileri olan kurgusal bir konuk betimlemesidir.",
+      "ornek": "Satış ekibi tahtaya 'Elif, mühendis, iki çocuklu; hafta sonu kaçamağı arıyor, çocuk dostu otel ve ücretsiz iptal istiyor' diye bir betimleme yazar ve kampanya metnini ona göre hazırlar.",
+      "sektor": "Persona ekibe 'bu mesajı kim okuyacak?' sorusunu somut bir yüzle sorduran araçtır. Gerçek bir kişi değildir; gerçek konukların ortak özelliklerinden yazılır ve hiçbir kimlik bilgisi içermez.",
+      "iliskili": [
+        "go-6-006",
+        "go-6-012"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-012",
+      "konu": "6.1",
+      "terim": "Konumlandırma",
+      "ingilizce": "Positioning",
+      "tanim": "Otelin hedef konukların zihninde rakiplerden ayrı ve belirgin bir yer edinmesini sağlayan çalışmadır.",
+      "ornek": "Bodrum'da bir otel 'yetişkinlere özel, sessiz, sahile sıfır' diye konumlanır; çocuklu aileler başka otellere yönelir.",
+      "sektor": "İyi konumlandırma otelin kime ne söylediğini netleştirir. Konum sözle değil uygulamayla kurulur: sessizlik vaat eden otelde gece yüksek sesli müzik çalıyorsa konum çöker.",
+      "iliskili": [
+        "go-6-011",
+        "go-6-013"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-013",
+      "konu": "6.1",
+      "terim": "Otelin değer önerisi",
+      "ingilizce": "Hotel value proposition",
+      "tanim": "Konuğa 'neden bu oteli seçmeliyim?' sorusunun kısa ve inandırıcı cevabını veren, otelin sunduğu yararın açık anlatımıdır.",
+      "ornek": "Kapadokya'daki mağara otel sitesinin ilk satırına 'Tarihî taş odada uyanın, balon manzaralı terasta kahvaltı edin' cümlesini koyar.",
+      "sektor": "Değer önerisi konuğa verilmiş bir sözdür ve yorumlarda sınanır. Çalışan olarak bu cümleyi bilmek, konuğa aynı şeyi söyleyebilmek ve onu gerçekten yaşatabilmektir.",
+      "iliskili": [
+        "go-6-012",
+        "go-6-015"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-014",
+      "konu": "6.1",
+      "terim": "Otel marka kimliği",
+      "ingilizce": "Brand identity",
+      "tanim": "Otelin adı, logosu, renkleri, dili ve davranış biçimi gibi onu başkalarından ayıran işaretlerin bütünüdür.",
+      "ornek": "Ege kıyısındaki bir otelde beyaz-mavi renkler, kısa ve samimi yazışma dili ve açık renk personel üniforması aynı kimliğin parçalarıdır.",
+      "sektor": "Kimlik sitede, tabelada, e-postada ve resepsiyondaki tonda tutarlı olmalıdır. Zincir otellerde kimlik markadan, bağımsız otelde çoğu zaman sahibinin hikâyesinden gelir.",
+      "iliskili": [
+        "go-6-015",
+        "go-6-016"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-015",
+      "konu": "6.1",
+      "terim": "Marka vaadi",
+      "ingilizce": "Brand promise",
+      "tanim": "Otelin konuğa 'bizi seçerseniz bunu yaşarsınız' diye verdiği ve her konaklamada tutmayı üstlendiği sözdür.",
+      "ornek": "'Her konuk adıyla karşılanır' diyen otelde resepsiyonist kimliğe bakar bakmaz konuğa adıyla hitap eder.",
+      "sektor": "Marka vaadi sloganda değil, çalışanın davranışında yaşar. Vaat tutulursa güven doğar; tutulmazsa en iyi reklam bile işe yaramaz.",
+      "iliskili": [
+        "go-6-014",
+        "go-6-013"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-016",
+      "konu": "6.1",
+      "terim": "Marka deneyimi",
+      "ingilizce": "Brand experience",
+      "tanim": "Konuğun otelle kurduğu bütün temaslardan aklında kalan, markaya ilişkin toplam izlenim ve duygudur.",
+      "ornek": "İstanbul'daki bir otelin sitesini, karşılama içeceğini, odanın kokusunu ve çıkıştaki teşekkür mesajını konuk birlikte 'o otel' olarak hatırlar.",
+      "sektor": "Marka standardı kâğıt üstündeki kuraldır; marka deneyimi o kuralın konuğun hissine dönüşmüş hâlidir. Stajyer dâhil herkes bu deneyimin parçasıdır.",
+      "iliskili": [
+        "go-6-014",
+        "go-6-015"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "lobi"
+    },
+    {
+      "id": "go-6-017",
+      "konu": "6.1",
+      "terim": "Otelde pazar araştırması",
+      "ingilizce": "Hotel market research",
+      "tanim": "Konukların ne istediğini, rakiplerin ne yaptığını ve talebin nasıl değiştiğini düzenli bilgi toplayarak öğrenme çalışmasıdır.",
+      "ornek": "Mart ayında Antalya'daki bir resort geçen yazın konuklarına kısa bir anket gönderir ve yorum sitelerindeki sözcükleri okur; 'çocuk havuzu küçük' şikâyeti öne çıkar.",
+      "sektor": "Tahminle değil bilgiyle karar vermeyi sağlar. Konuk anketi, yorum okuma ve rezervasyon verisi en ucuz araştırma yollarıdır; ankette kişisel bilgi yalnız gerektiği kadar istenir.",
+      "iliskili": [
+        "go-6-018",
+        "go-6-006"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-018",
+      "konu": "6.1",
+      "terim": "Rakip analizi",
+      "ingilizce": "Competitor analysis",
+      "tanim": "Benzer konuğa hizmet veren otellerin ürününü, fiyatını, kanallarını ve yorumlarını inceleyip kendi otelle karşılaştırma işidir.",
+      "ornek": "Fethiye'deki bir otelin satış ekibi her ay üç komşu otelin kahvaltı saatini, fiyatını ve yorum puanını tabloya yazar; kendi kahvaltısının erken bittiğini görür.",
+      "sektor": "Amaç rakibi taklit etmek değil, kendi ayrımını görmektir. Bilgi yalnız herkese açık kaynaklardan toplanır; rakip adına sahte yorum yazmak ya da gizli bilgi almaya çalışmak etik dışıdır.",
+      "iliskili": [
+        "go-6-017",
+        "go-6-012"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-019",
+      "konu": "6.1",
+      "terim": "Yüksek sezon ve düşük sezon",
+      "ingilizce": "High season and low season",
+      "tanim": "Talebin ve fiyatların yıl içinde yükseldiği dönem yüksek sezon, düştüğü dönem düşük sezondur.",
+      "ornek": "Bodrum'daki sahil oteli temmuzda tamamen doludur; kasımda bazı bölümlerini kapatır, fiyatı düşürür ve hafta sonu paketleri satar.",
+      "sektor": "Sezon pazarlamanın takvimini belirler: yüksek sezon için erken rezervasyon, düşük sezon için paket ve kampanya hazırlanır. Şehir otellerinde sezon fuar ve iş seyahati takvimine göre değişir.",
+      "iliskili": [
+        "go-6-020",
+        "go-6-044"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-020",
+      "konu": "6.1",
+      "terim": "Otel paketi",
+      "ingilizce": "Hotel package",
+      "tanim": "Konaklamaya kahvaltı, spa ya da etkinlik gibi hizmetleri ekleyip tek fiyata sunan birleşik tekliftir.",
+      "ornek": "Kasım ayında Bursa'daki bir termal otel iki gece konaklama, kahvaltı ve termal havuz girişini tek bir 'Hafta Sonu Yenilenme' paketinde satar.",
+      "sektor": "Paket, doğrudan indirim yapmadan konuğa değer ekler ve düşük sezonda talep yaratmaya yardım eder. İçeriği ve toplam fiyatı açık yazılmalıdır; konuk neyin dâhil olduğunu yanlış anlarsa şikâyet doğar.",
+      "iliskili": [
+        "go-6-019",
+        "go-6-043"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-021",
+      "konu": "6.2",
+      "terim": "Otel internet sitesi",
+      "ingilizce": "Hotel website",
+      "tanim": "Otelin kendi adına işlettiği, konuğun oteli tanıyıp rezervasyon yapabildiği resmî internet sayfasıdır.",
+      "ornek": "Akşam 21.00'de Eskişehir'deki bir çift telefonundan otelin sitesini açar; odaları, fiyatı ve boş tarihleri iki dakikada görüp rezervasyona geçer.",
+      "sektor": "Telefonda yavaş açılan ya da bilgisi eski olan site konuğu rakibe gönderir. Doğrudan rezervasyonda aracıya komisyon ödenmediği için site otel için çok değerli bir satış kanalıdır; yine de siteyi güncel tutmak ve duyurmak emek ister.",
+      "iliskili": [
+        "go-6-022",
+        "go-6-023"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-bilgisayar-masasi"
+    },
+    {
+      "id": "go-6-022",
+      "konu": "6.2",
+      "terim": "Rezervasyon motoru",
+      "ingilizce": "Booking engine",
+      "tanim": "Otel sitesinde konuğun boş tarihleri görüp odayı seçerek ödemeye kadar ilerleyebildiği rezervasyon yazılımıdır.",
+      "ornek": "Konuk sitede 'Temmuz, iki yetişkin, bir çocuk' yazar; motor uygun odaları fiyatlarıyla sıralar, konuk birini seçip kartıyla öder.",
+      "sektor": "Motor çoğu zaman PMS ve kanal yöneticisine bağlıdır; satılan oda böylece her yerde hemen satışa kapanır. Adımı çok olan ya da hata veren motor konuğu rezervasyondan vazgeçirir.",
+      "iliskili": [
+        "go-6-021",
+        "go-6-037"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-023",
+      "konu": "6.2",
+      "terim": "Arama motoru görünürlüğü (SEO)",
+      "ingilizce": "Search engine optimisation (SEO)",
+      "tanim": "Otel sitesinin arama sonuçlarında reklam parası ödenmeden üst sıralarda çıkması için yapılan çalışmalardır.",
+      "ornek": "Pamukkale yakınındaki bir otel sitesinde 'Pamukkale'ye yakın, termal havuzlu otel' gibi konuğun gerçekten aradığı sözcükleri doğru bilgiyle kullanır.",
+      "sektor": "Konuk çoğu zaman önce arar, sonra seçer; sonuçlarda görünmeyen otel hiç düşünülmez. SEO yanıltıcı sözcüklerle değil, doğru ve güncel bilgi ile hızlı açılan site ile güçlenir.",
+      "iliskili": [
+        "go-6-021",
+        "go-6-024"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-024",
+      "konu": "6.2",
+      "terim": "Harita ve yerel arama kaydı",
+      "ingilizce": "Local search listing",
+      "tanim": "Otelin harita uygulamalarında ve arama sonuçlarında adres, telefon, fotoğraf ve puanla görünen işletme sayfasıdır.",
+      "ornek": "Konuk telefondaki harita uygulamasına 'Kaş otel' yazar; otelin kaydında doğru telefon, güncel fotoğraflar ve yorum puanı yer alır.",
+      "sektor": "Konuk yoldayken ya da şehirdeyken en hızlı bu sayfaya bakar. Yanlış telefon ya da eski adres kapıdan dönen konuk demektir; kaydı güncel tutmak küçük ama değerli bir iştir.",
+      "iliskili": [
+        "go-6-023",
+        "go-6-028"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-025",
+      "konu": "6.2",
+      "terim": "Otelin sosyal medya içeriği",
+      "ingilizce": "Hotel social media content",
+      "tanim": "Bir otelin kendi hesaplarında paylaştığı, konuğa otelin havasını gösteren fotoğraf, video ve yazılardır.",
+      "ornek": "Sabah 07.30'da Bodrum'daki otelin hesabı, şefin yeni kahvaltı tabaklarını gösteren kısa bir video paylaşır; yorumlara hesabı yöneten sorumlu yanıt verir.",
+      "sektor": "İçerik gerçeği yansıtmalıdır; olmayan bir manzarayı paylaşmak şikâyet getirir. Hesap otel adına konuşur, bu yüzden paylaşımı yetkili kişi yapar; stajyer olarak otel hesabına kendi başına bir şey yazmaz, fikrini amirine iletirsin.",
+      "iliskili": [
+        "go-6-026",
+        "go-6-034"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-akilli-telefon"
+    },
+    {
+      "id": "go-6-026",
+      "konu": "6.2",
+      "terim": "Etkileyici iş birliği (influencer)",
+      "ingilizce": "Influencer collaboration",
+      "tanim": "Otelin, sosyal medyada takipçisi olan bir kişiyle konaklama ya da ödeme karşılığı tanıtım yapmak üzere anlaşmasıdır.",
+      "ornek": "Ayvalık'taki bir otel, seyahat içeriği üreten bir hesap sahibine iki gece konaklama verir; karşılığında hesap sahibi otelle ilgili paylaşım yapar.",
+      "sektor": "İş birliği oteli yeni kitlelere gösterebilir; ama takipçinin güveni paylaşımın dürüstlüğüne bağlıdır. Takipçi sayısı tek ölçüt değildir; hesap sahibinin kitlesinin otelin hedef kitlesine uyup uymadığına bakılır ve anlaşmayı pazarlama yöneticisi yapar.",
+      "iliskili": [
+        "go-6-025",
+        "go-6-027"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-027",
+      "konu": "6.2",
+      "terim": "İş birliğinin açıkça belirtilmesi",
+      "ingilizce": "Sponsored content disclosure",
+      "tanim": "Karşılığı alınmış bir paylaşımın reklam ya da iş birliği olduğunun takipçiye açıkça söylenmesidir.",
+      "ornek": "Hesap sahibi paylaşımına 'iş birliği' ibaresini ekler; otel bu ibarenin yazılmasını anlaşmaya şart koymuştur.",
+      "sektor": "Türkiye'de ticari reklamlara kurallar getiren düzenlemeler vardır ve birçok ülkede de aynı ilke geçerlidir: izleyici reklamı reklam olarak bilmelidir. Gizli reklam güveni kırar ve hem otel hem de paylaşan kişi için sorun yaratır.",
+      "iliskili": [
+        "go-6-026",
+        "go-6-030"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-028",
+      "konu": "6.2",
+      "terim": "Yorum puanı",
+      "ingilizce": "Review score",
+      "tanim": "Konukların yorum sitelerinde verdiği puanların ortalamasıdır.",
+      "ornek": "İzmir'deki bir otelin puanı bir hafta içinde temizlik şikâyetleri yüzünden düşer ve rezervasyon sayısı yavaşlar.",
+      "sektor": "Konuk karar vermeden önce çoğu zaman puana ve son yorumlara bakar. Puan bütün bölümlerin ortak karnesidir; tek bir kötü gün düzelene kadar sayfada kalabilir.",
+      "iliskili": [
+        "go-6-029",
+        "go-6-030"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-029",
+      "konu": "6.2",
+      "terim": "Olumsuz yoruma yanıt kuralları",
+      "ingilizce": "Rules for responding to negative reviews",
+      "tanim": "Eleştirel bir yoruma saygılı, kısa, çözüm gösteren ve kişisel bilgi vermeyen bir yanıt yazma ilkeleridir.",
+      "ornek": "Yorumda 'resepsiyon ilgisizdi' yazılmış; müdür 'Yaşadığınız için üzgünüz, ekibimizle konuştuk, bir dahaki ziyaretinizde sizi daha iyi ağırlamak isteriz' diye yanıtlar.",
+      "sektor": "Yanıtı yalnız yorumu yazan değil, oteli araştıran herkes okur. Teşekkür et, özür dile, çözümü söyle; tartışma, alay ya da konuğun oda numarası ve tarihi gibi bilgilerini yazma. Yanıtı yetkili yazar; sen yorumu amirine iletirsin.",
+      "iliskili": [
+        "go-6-028",
+        "go-6-032"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-030",
+      "konu": "6.2",
+      "terim": "Sahte yorum",
+      "ingilizce": "Fake review",
+      "tanim": "Gerçek bir konaklamaya dayanmayan ya da karşılığında ödeme veya hediye verilerek yazdırılan yorumdur.",
+      "ornek": "Bir otel çalışanı, otelini öven beş yorumu farklı adlarla siteye yükler ya da rakip otele kötü yorum yazar.",
+      "sektor": "Bu davranış etik dışıdır; yorum siteleri sahte yorumu bulup sayfayı cezalandırabilir ve birçok ülkede hukuki yaptırımı da vardır. Konuk bir gün fark eder, kaybedilen güven geri gelmez. Sahte yorum görürsen amirine bildirirsin.",
+      "iliskili": [
+        "go-6-028",
+        "go-6-031"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-031",
+      "konu": "6.2",
+      "terim": "Yorumu etik biçimde isteme",
+      "ingilizce": "Asking for reviews ethically",
+      "tanim": "Konuğa deneyimini paylaşması için, karşılığında ödül vaat etmeden ve yalnız memnun olanları seçmeden hatırlatma yapmaktır.",
+      "ornek": "Çıkışta resepsiyonist her konuğa QR kodlu bir kart uzatır: 'Deneyiminizi paylaşmak isterseniz bu kod sizi yorum sayfasına götürür.'",
+      "sektor": "Konuk gönüllü ve dürüst yazmalıdır. Yorum karşılığında indirim vermek ya da yalnız memnun konuğa kart uzatmak birçok yorum sitesinin kurallarına aykırıdır ve puanı gerçeğinden uzaklaştırır.",
+      "iliskili": [
+        "go-6-030",
+        "go-6-028"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-qr-kod"
+    },
+    {
+      "id": "go-6-032",
+      "konu": "6.2",
+      "terim": "Sosyal medyada itibar krizi",
+      "ingilizce": "Social media reputation crisis",
+      "tanim": "Bir olayın kısa sürede çok kişiye yayılıp otelin adını olumsuz anılır hâle getirdiği durumdur.",
+      "ornek": "Bir konuk havuz başında yaşadığı olayı video olarak paylaşır; bir günde çok sayıda kişi izler ve otelin hesabına öfkeli yorumlar yağar.",
+      "sektor": "Böyle durumda otelin tek ağızdan, hızlı ve dürüst konuşması gerekir; bunu genel müdür ya da pazarlama yöneticisi yönetir. Çalışan olarak olay hakkında kendi hesabından yazmaz, soru gelirse yetkiliye yönlendirirsin.",
+      "iliskili": [
+        "go-6-029",
+        "go-6-025"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-033",
+      "konu": "6.2",
+      "terim": "Fotoğraf ve görsel dürüstlüğü",
+      "ingilizce": "Honest imagery",
+      "tanim": "Otelin sitede ve sosyal medyada gösterdiği görsellerin odanın, manzaranın ve hizmetin gerçek hâlini yansıtmasıdır.",
+      "ornek": "Sitede 'deniz manzaralı' diye gösterilen odanın gerçekte otoparka bakması, konuğu check-in anında hayal kırıklığına uğratır.",
+      "sektor": "Fotoğraf güzel olabilir ama yanıltıcı olmamalıdır. Yapay zekâyla üretilmiş ya da fazlasıyla düzenlenmiş bir görsel gerçeği değiştiriyorsa dürüst sayılmaz; konuk odaya girdiğinde gördüğü fark yoruma dönüşür.",
+      "iliskili": [
+        "go-6-034",
+        "go-6-015"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-034",
+      "konu": "6.2",
+      "terim": "Konuk fotoğrafı izni",
+      "ingilizce": "Guest photo consent",
+      "tanim": "Otelin, konuğun görüntüsünün olduğu bir fotoğrafı ya da videoyu paylaşmadan önce konuktan izin almasıdır.",
+      "ornek": "Akşam yemeğinde doğum günü kutlaması çekilir; sosyal medya sorumlusu paylaşmadan önce konuktan izin alır.",
+      "sektor": "Konuğun görüntüsü kişisel veridir; izinsiz paylaşım mahremiyeti ve veri koruma ilkelerini zedeler; çocuk görüntülerinde özen daha da önemlidir. Stajyer olarak konuk fotoğrafı çekip paylaşmazsın; güzel bir an gördüysen yetkiliye söylersin.",
+      "iliskili": [
+        "go-6-025",
+        "go-6-056"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-035",
+      "konu": "6.2",
+      "terim": "E-posta bülteni",
+      "ingilizce": "Email newsletter",
+      "tanim": "Otelin kayıtlı konuklara ve abonelere yeni paket, kampanya ve haberleri düzenli e-postayla göndermesidir.",
+      "ornek": "Eylül'de Çeşme'deki otel geçmiş konuklarına 'sonbahar sakinliği' paketini anlatan bir e-posta gönderir.",
+      "sektor": "Pazarlamanın en düşük maliyetli yollarından biridir ve çoğu zaman tekrar konuğu getirir. Yalnız izin vermiş kişilere gönderilir; her e-postada abonelikten çıkma bağlantısı bulunur.",
+      "iliskili": [
+        "go-6-036",
+        "go-6-053"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-036",
+      "konu": "6.2",
+      "terim": "İzinli pazarlama",
+      "ingilizce": "Permission-based marketing",
+      "tanim": "Konuğa tanıtım mesajını yalnız bu iletileri almayı açıkça kabul ettiyse göndermedir.",
+      "ornek": "Rezervasyon formunda 'Kampanyalardan haberdar olmak istiyorum' kutusu boş gelir; konuk kendisi işaretlerse listeye eklenir.",
+      "sektor": "İzin bir kez verilir ama istenirse geri alınır. Rezervasyon için verilen e-posta adresini izinsiz tanıtım listesine eklemek hem konuğu rahatsız eder hem de genellikle veri koruma ve ticari ileti kurallarına aykırıdır.",
+      "iliskili": [
+        "go-6-035",
+        "go-6-056"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-037",
+      "konu": "6.3",
+      "terim": "Satış hunisi",
+      "ingilizce": "Sales funnel",
+      "tanim": "Konuğun oteli fark etmesinden rezervasyon yapmasına kadar geçtiği ve her adımda bir kısmının vazgeçtiği, huni biçimli süreçtir.",
+      "ornek": "Yüz kişi otelin sitesine bakar, yirmisi odaları inceler, ikisi rezervasyon yapar; kayıp en büyük adım, düzeltilecek yeri gösterir.",
+      "sektor": "Satışçı huniyi izleyerek konuğun nerede vazgeçtiğini görür: sitede mi, fiyatta mı, ödemede mi? Amaç her adımı kolaylaştırmaktır, konuğu zorlamak değil.",
+      "iliskili": [
+        "go-6-038",
+        "go-6-022"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-038",
+      "konu": "6.3",
+      "terim": "Konuğun ihtiyacını sorma",
+      "ingilizce": "Needs discovery",
+      "tanim": "Satışa geçmeden önce konuğa neden geldiğini ve neye önem verdiğini soru sorarak anlama adımıdır.",
+      "ornek": "Telefonda rezervasyon görevlisi 'Bu seyahat tatil mi, iş mi? Kimlerle geliyorsunuz?' diye sorar ve yanıta göre sessiz bir oda önerir.",
+      "sektor": "Soru sormadan yapılan satış çoğu zaman yanlış odayı satar. İhtiyacı dinleyen satışçı doğru ürünü önerdiği için güven kazanır.",
+      "iliskili": [
+        "go-6-037",
+        "go-6-039"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-039",
+      "konu": "6.3",
+      "terim": "Ek satış fırsatı anları",
+      "ingilizce": "Upselling moments",
+      "tanim": "Rezervasyon sırasında, varış öncesi e-postada, check-in'de ve konaklama boyunca konuğa değer katacak bir üst oda ya da ek hizmet önerisi sunulabilen zaman dilimleridir.",
+      "ornek": "Rezervasyon görevlisi yıldönümü için gelen çifte 'Odaya çiçek hazırlayabiliriz' der; check-in'de resepsiyonist 'Bugün deniz manzaralı oda müsait' diye önerir.",
+      "sektor": "Her anın en iyi teklifi farklıdır ve konuğun durumuna uymalıdır. Otelcilik ve Seyahat Hizmetleri dersinde gördüğün upselling (daha üst bir oda tipinin fiyat farkıyla önerilmesi) bu anlardan biridir; farklı bir hizmet önermek ise çapraz satıştır. İki durumda da teklif önce konuğa yararı ölçüsüyle yapılır.",
+      "iliskili": [
+        "go-6-040",
+        "go-6-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-resepsiyon-checkin"
+    },
+    {
+      "id": "go-6-040",
+      "konu": "6.3",
+      "terim": "Çapraz satış",
+      "ingilizce": "Cross-selling",
+      "tanim": "Konuğa odasının yanında farklı bir hizmet, örneğin spa, akşam yemeği ya da transfer önermektir.",
+      "ornek": "Resepsiyonist iki gece kalacak çifte 'Bir akşam deniz kenarındaki restoranımızda masa ayırtalım mı?' diye sorar.",
+      "sektor": "Çapraz satış oteli bir hizmetler bütünü olarak gösterir ve konuk parasını otelin dışında değil içinde harcar. İhtiyaca uymayan teklif ise rahatsız eder.",
+      "iliskili": [
+        "go-6-039",
+        "go-6-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-041",
+      "konu": "6.3",
+      "terim": "Konuğa değer katan satış",
+      "ingilizce": "Value-adding selling",
+      "tanim": "Satış önerisinin önce konuğun ihtiyacına yaraması, otelin kazancının da ancak bunun sonucunda gelmesi gerektiğini söyleyen ilkedir.",
+      "ornek": "Bebekle gelen aileye pahalı bir süit yerine yan yana odalar ve bebek yatağı önerilir; çünkü aileye en çok bu yarar sağlar.",
+      "sektor": "Gereksiz şey satan kısa vadede kazanır, uzun vadede yorum ve güven kaybeder. Konuk 'hayır' derse ısrar edilmez; ayırttığı oda aynı güler yüzle verilir.",
+      "iliskili": [
+        "go-6-039",
+        "go-6-042"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-042",
+      "konu": "6.3",
+      "terim": "Aşırı vaat tuzağı",
+      "ingilizce": "Over-promising",
+      "tanim": "Satış sırasında gerçekte karşılanamayacak bir şeyi söyleyerek konuğun beklentisini fazla yükseltmektir.",
+      "ornek": "Telefonda 'Odanız plaja iki adım' deyip yol karşısındaki odayı satan görevli, konuk gelince şikâyetle karşılaşır.",
+      "sektor": "Beklenti ile yaşanan arasındaki fark memnuniyeti belirler. Satışta gerçekçi vaat edip sözünden fazlasını vermek güven kazandırır; emin olmadığın bir özelliği konuğa söz verme, amirine sor.",
+      "iliskili": [
+        "go-6-041",
+        "go-6-043"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-043",
+      "konu": "6.3",
+      "terim": "Fiyat şeffaflığı",
+      "ingilizce": "Price transparency",
+      "tanim": "Konuğun ödeyeceği toplam bedeli, ek ücretler dâhil, rezervasyondan önce açıkça görmesidir.",
+      "ornek": "Sitede düşük görünen oda fiyatı, ödeme adımında ek bir hizmet bedeli eklenince yükselirse konuk kandırıldığını düşünür; baştan toplam fiyat yazılırsa bu şikâyet doğmaz.",
+      "sektor": "Gizli ücret güveni kırar ve yorumlarda sık yazılan öfke nedenlerindendir. Birçok ülkenin tüketici kuralları da fiyatın açık gösterilmesini ister.",
+      "iliskili": [
+        "go-6-003",
+        "go-6-042"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-fatura-fis"
+    },
+    {
+      "id": "go-6-044",
+      "konu": "6.3",
+      "terim": "Erken rezervasyon kampanyası",
+      "ingilizce": "Early booking offer",
+      "tanim": "Konuğun konaklamasından çok önce rezervasyon yapması karşılığında daha uygun fiyat sunulan kampanyadır.",
+      "ornek": "Mart sonuna kadar yapılan yaz rezervasyonlarında fiyat daha uygundur; iptal ve değişiklik koşulları fiyatın yanında açıkça yazılıdır.",
+      "sektor": "Otel erken gelir ve doluluk güvencesi kazanır, konuk daha uygun fiyat bulur. Kampanyanın tarihi, iptal ve değişiklik koşulları söylenmezse sonradan itiraz doğar.",
+      "iliskili": [
+        "go-6-019",
+        "go-6-020"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-045",
+      "konu": "6.3",
+      "terim": "Sadakat programının seviyeleri",
+      "ingilizce": "Loyalty programme tiers",
+      "tanim": "Üyeleri konaklama sayısına ya da harcamasına göre basamaklara ayıran ve üst basamağa daha fazla ayrıcalık tanıyan düzendir.",
+      "ornek": "Bir zincirin programında üye konuk yılda belli sayıda gece kaldıkça 'gümüş', sonra 'altın' basamağa çıkar; altın üye, geç çıkış ve oda yükseltme gibi ayrıcalıklar kazanır.",
+      "sektor": "Basamak adları programdan programa değişir ama mantık aynıdır. Üyenin basamağını otelin sisteminden (çoğu otelde PMS) görüp ayrıcalığını eksiksiz vermek çalışanın işidir; unutulan bir ayrıcalık sadık konuğu en çok kırar.",
+      "iliskili": [
+        "go-6-046",
+        "go-6-047"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-046",
+      "konu": "6.3",
+      "terim": "Tekrar konuk oranı",
+      "ingilizce": "Repeat guest rate",
+      "tanim": "Bir dönemde konaklayan konuklar içinde daha önce de gelmiş olanların payıdır.",
+      "ornek": "Aydın'daki bir termal otelde bu yıl 400 konuktan 100'ü daha önce de geldiyse tekrar konuk oranı %25'tir.",
+      "sektor": "Yeni konuk bulmak reklam ve komisyon harcatır; tekrar konuk pazarlamayı ucuzlatır. Oran düşüyorsa memnuniyette bir sorun olabilir.",
+      "iliskili": [
+        "go-6-045",
+        "go-6-047"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-047",
+      "konu": "6.3",
+      "terim": "Ağızdan ağıza pazarlama",
+      "ingilizce": "Word-of-mouth marketing",
+      "tanim": "Memnun konukların oteli arkadaşlarına, ailesine ve internette başkalarına tavsiye etmesiyle gelen tanıtımdır.",
+      "ornek": "Mardin'deki butik otelde ağırlanan çift dönüşte komşusuna 'Kahvaltı terasını görmelisin' der; komşu aynı otele rezervasyon yapar.",
+      "sektor": "Parayla satın alınamayan, en güvenilir tanıtım yollarından biridir; konuk tavsiyesi çoğu zaman reklamdan daha inandırıcı bulunur. Bu yüzden her çalışanın her konuğa davranışı pazarlama sayılır.",
+      "iliskili": [
+        "go-6-005",
+        "go-6-046"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-048",
+      "konu": "6.3",
+      "terim": "Kurumsal müşteri satışı",
+      "ingilizce": "Corporate account sales",
+      "tanim": "Satış ekibinin şirketlerle görüşüp çalışanlarının seyahatlerinde oteli seçmelerini sağlamaya çalıştığı satış çalışmasıdır.",
+      "ornek": "Ankara'daki bir otelin satış yöneticisi, bir inşaat şirketinin satın alma bölümüyle buluşup şehre gelen mühendisler için fiyatı, toplantı salonunu ve iptal koşullarını konuşur.",
+      "sektor": "Kurumsal anlaşma bu görüşmenin sonucudur. Satışçı şirketin ihtiyacını sorar ve otelin sağlayamayacağı bir şeyi vaat etmez; bu müşteri yıl boyu düzenli gelir getirebilir.",
+      "iliskili": [
+        "go-6-008",
+        "go-6-049"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-sunum"
+    },
+    {
+      "id": "go-6-049",
+      "konu": "6.3",
+      "terim": "Grup satışı",
+      "ingilizce": "Group sales",
+      "tanim": "Düğün, tur grubu, spor takımı ya da şirket toplantısı gibi birçok odayı birlikte tutan kalabalıklara özel koşullarla satış yapmaktır.",
+      "ornek": "Bahar aylarında bir spor kulübü Belek'teki otelde bir haftalık kamp yapar; satış ekibi oda, yemek ve antrenman salonunu tek teklifte sunar.",
+      "sektor": "Tek satışla çok oda dolar ama grubun ihtiyaçları (aynı kat, erken kahvaltı) önceden hazırlık ister. Toplantı ve etkinlik grupları da bu başlık altında satılır.",
+      "iliskili": [
+        "go-6-050",
+        "go-6-048"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-050",
+      "konu": "6.3",
+      "terim": "Grup oda bloğu",
+      "ingilizce": "Room block and cut-off date",
+      "tanim": "Otelin bir grup için belirli sayıda odayı belirli bir tarihe kadar ayırması, o tarihe kadar rezerve edilmeyen odaların satışa geri dönmesidir.",
+      "ornek": "Bir kongre için İzmir'deki otel elli odayı gruba ayırır; son tarih geldiğinde ayrılmayan odalar genel satışa açılır.",
+      "sektor": "Blok hem oteli hem grubu korur: otel odayı boşa tutmaz, grup üyesi odasını güvenceye alır. Son tarih kaçarsa konuk oda bulamaz ya da otel gelir kaybeder.",
+      "iliskili": [
+        "go-6-049",
+        "go-6-048"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-051",
+      "konu": "6.4",
+      "terim": "Konuk verisi türleri",
+      "ingilizce": "Types of guest data",
+      "tanim": "Otelin konuk hakkında topladığı kimlik, iletişim, rezervasyon, ödeme, tercih ve davranış bilgilerinin gruplarıdır.",
+      "ornek": "Bir konuk için ad ve telefon kimlik-iletişim verisidir, 'tüy yastık istemez' notu tercih verisidir, en çok spayı kullanması ise davranış verisidir.",
+      "sektor": "Her veri türünün koruma düzeyi ve tutulma amacı farklıdır. Çalışan olarak bilgi toplamadan önce 'bunu neden istiyorum?' diye sorarsın.",
+      "iliskili": [
+        "go-6-052",
+        "go-6-053"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-052",
+      "konu": "6.4",
+      "terim": "Özel nitelikli kişisel veri",
+      "ingilizce": "Sensitive personal data",
+      "tanim": "Sağlık, din, etnik köken gibi öğrenildiğinde kişiye zarar verebilecek ve bu yüzden daha sıkı korunan kişisel veri türleridir.",
+      "ornek": "Konuk 'glüten alerjim var' dediğinde bu bir sağlık bilgisidir; mutfağa 'glütensiz hazırlanacak' diye kısaca iletilir, tıbbi ayrıntı yayılmaz.",
+      "sektor": "Alerji notu hayat kurtarabilir ama herkesin görmemesi gerekir: yalnız konuyu bilmesi gerekenlere, ihtiyacı kadar iletilir. Yeni bir veri toplamadan önce amirine sorarsın.",
+      "iliskili": [
+        "go-6-051",
+        "go-6-061"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-053",
+      "konu": "6.4",
+      "terim": "Konuk ilişkileri yazılımı (CRM)",
+      "ingilizce": "Customer relationship management (CRM)",
+      "tanim": "Konukların iletişim bilgisini, geçmiş konaklamalarını, tercihlerini ve temaslarını bir arada tutan, ilişkiyi yönetmeye yarayan yazılımdır.",
+      "ornek": "Satış ofisindeki görevli CRM'den 'son iki yılda Kapadokya'da kalan, tanıtım izni vermiş' konukları listeler ve sonbahar paketini yalnız onlara gönderir.",
+      "sektor": "PMS konaklamanın işlemini, CRM ise konukla ilişkiyi tutar; birçok otelde ikisi birbirine bağlıdır. Bağlı sistemde bir yerde yanlış girilen bilgi öbürüne de gider.",
+      "iliskili": [
+        "go-6-051",
+        "go-6-054"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-054",
+      "konu": "6.4",
+      "terim": "Kişiselleştirme ile gizlilik dengesi",
+      "ingilizce": "Personalisation versus privacy",
+      "tanim": "Konuğa özel hizmet sunarken onun hangi bilgisinin ne kadar kullanılacağını sınırda tutma dengesidir.",
+      "ornek": "Doğum günü notu gören görevli odaya pasta bırakır; ama konuğun yaşını ya da harcamalarını başka konuklara söylemez.",
+      "sektor": "Aşırı kişiselleştirme konuğa izlendiği hissini verir; hiç yapılmaması ise soğuk bırakır. İyi otel konuğun kendi verdiği bilgiyi, verilme amacına uygun kullanır.",
+      "iliskili": [
+        "go-6-053",
+        "go-6-057"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-055",
+      "konu": "6.4",
+      "terim": "KVKK ve GDPR'nin ortak ilkeleri",
+      "ingilizce": "Common data protection principles (KVKK and GDPR)",
+      "tanim": "Türkiye'nin 6698 sayılı kanunu (KVKK) ile Avrupa Birliği'nin veri koruma tüzüğünün (GDPR) ortak ilkeleri; verinin hukuka uygun alınması, belirli amaçla kullanılması, gerektiği kadar toplanması ve gereğinden uzun saklanmamasıdır.",
+      "ornek": "Antalya'daki otelin konuk listesinde Türk, Alman ve Rus konuklar vardır; otel hepsine aynı özenle davranır: bilgi gerektiği kadar alınır ve amacı dışında kullanılmaz.",
+      "sektor": "Ayrıntılar ülkeden ülkeye ve uygulamadan uygulamaya değişir; öğrenci olarak ilkeleri bilmen yeter. Hukuki soruları işletmenin sorumlusu yanıtlar, emin olmadığında amirine sorarsın.",
+      "iliskili": [
+        "go-6-056",
+        "go-6-057",
+        "go-6-058"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-056",
+      "konu": "6.4",
+      "terim": "Açık rıza",
+      "ingilizce": "Explicit consent",
+      "tanim": "Konuğun belirli bir konuda, bilgilendirilerek ve özgür iradesiyle verdiği izindir.",
+      "ornek": "Rezervasyon formunda 'Kampanya e-postaları almak istiyorum' kutusunu konuk kendisi işaretler.",
+      "sektor": "Rıza neyin için verildiğini bilerek verilmelidir ve geri alınabilir. Her veri işleme rıza gerektirmez (örneğin konaklama kaydı, yasal bir yükümlülük olduğu için tutulur), ama pazarlama izni ayrıdır ve önceden işaretlenmiş kutu geçerli rıza sayılmaz.",
+      "iliskili": [
+        "go-6-057",
+        "go-6-036"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-057",
+      "konu": "6.4",
+      "terim": "Amaçla sınırlılık",
+      "ingilizce": "Purpose limitation",
+      "tanim": "Bir bilginin yalnız toplanma amacı için kullanılması, başka bir iş için kullanılmamasıdır.",
+      "ornek": "Kimlik bilgisi konuk kaydı için alınmıştır; satış ekibi bu bilgiyi doğum günü kampanyası göndermek için kullanmaz.",
+      "sektor": "Konuk bir bilgiyi bir amaç için verir; başka amaca geçmek için yeniden izin gerekir. Konuğun güvenini bu ilke korur.",
+      "iliskili": [
+        "go-6-056",
+        "go-6-058"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-058",
+      "konu": "6.4",
+      "terim": "Gerektiği kadar veri",
+      "ingilizce": "Data minimisation",
+      "tanim": "Yalnız işin yapılması için gerekli bilginin alınması, fazlasının istenmemesidir.",
+      "ornek": "Oda ayırtmak için ad, tarih ve iletişim bilgisi yeterliyken formda meslek ve gelir sorulması gereksizdir.",
+      "sektor": "Ne kadar az veri tutulursa sızıntıda o kadar az zarar olur. Formu hazırlayan kişi her alan için 'bu bilgiyi neden alıyoruz?' sorusunu yanıtlayabilmelidir.",
+      "iliskili": [
+        "go-6-057",
+        "go-6-059"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-059",
+      "konu": "6.4",
+      "terim": "Verinin saklama süresi",
+      "ingilizce": "Data retention period",
+      "tanim": "Kişisel verinin ne kadar süre tutulup sonra silineceğinin ya da yok edileceğinin belirlenmesidir.",
+      "ornek": "Otel, rezervasyon yapmış ama hiç gelmemiş konukların eski kayıtlarını belirlenen sürenin sonunda siler.",
+      "sektor": "Süre mevzuata ve işletmenin politikasına göre değişir; çalışan rakam ezberlemez, işletmenin kuralını uygular. Gereksiz eski veri hem yük hem risktir.",
+      "iliskili": [
+        "go-6-058",
+        "go-6-060"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-060",
+      "konu": "6.4",
+      "terim": "Konuğun kendi verisi üzerindeki hakları",
+      "ingilizce": "Data subject rights",
+      "tanim": "Kişinin otelin elindeki bilgilerini öğrenme, yanlışsa düzeltme ve belli koşullarda silinmesini isteme haklarıdır.",
+      "ornek": "Eski bir konuk e-postayla 'Bende hangi bilgiler var, adresimi yanlış yazmışsınız' diye sorar; resepsiyonist kendi başına yanıt vermez, talebi sorumluya iletir.",
+      "sektor": "Bu talepler yasal bir süreçtir; çalışan bilgi vermez ya da silmez, talebi doğru kişiye yönlendirir. Hızlı ve saygılı yanıt konuğun güvenini artırır.",
+      "iliskili": [
+        "go-6-059",
+        "go-6-055"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-061",
+      "konu": "6.4",
+      "terim": "Bilmesi gereken kadar erişim",
+      "ingilizce": "Need-to-know access",
+      "tanim": "Bir çalışanın konuk verisine yalnız görevi için gerektiği ölçüde ulaşabilmesidir.",
+      "ornek": "Kat görevlisi sistemde oda durumunu görür ama konuğun kart bilgisini görmez; kart bilgisi yalnız ödemeyle ilgilenen görevlilerin ekranında, o da çoğu zaman kısmen gizli görünür.",
+      "sektor": "Merak ya da şaka için konuk kaydına bakmak da ihlaldir; birçok sistemde kimin neye baktığı kaydedilir. Telefondaki biri bir konuğun otelde kalıp kalmadığını ya da oda numarasını sorarsa bilgi vermezsin; mesajını alıp nöbetçi müdüre iletirsin. Parolanı paylaşmaz, ekranı açık bırakmazsın.",
+      "iliskili": [
+        "go-6-052",
+        "go-6-062"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-062",
+      "konu": "6.4",
+      "terim": "İki adımlı doğrulama",
+      "ingilizce": "Two-step verification",
+      "tanim": "Parolaya ek olarak telefona gelen kod gibi ikinci bir kanıt isteyen giriş korumasıdır.",
+      "ornek": "Satış ofisindeki görevli e-posta hesabına girerken parolanın ardından telefonuna gelen altı haneli kodu da yazar.",
+      "sektor": "Parola çalınsa bile hesabın açılmasını zorlaştırır. Kodu hiç kimseyle, 'bilgi işlemdenim' diyen biriyle bile paylaşmazsın.",
+      "iliskili": [
+        "go-6-061",
+        "go-6-063"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-063",
+      "konu": "6.4",
+      "terim": "Otel adına gönderilen sahte ödeme mesajı",
+      "ingilizce": "Phishing message impersonating a hotel",
+      "tanim": "Otelmiş gibi görünüp konuğu kart bilgisi vermeye ya da sahte bir bağlantıdan ödeme yapmaya çağıran dolandırıcılık mesajıdır.",
+      "ornek": "Konuk rezervasyonundan bir gün sonra mesajla 'Ödemeniz başarısız, hemen bu bağlantıdan yenileyin' yazısı alır ve otele telefon ederek doğrulatır.",
+      "sektor": "Bu tür sahte mesajlara oltalama (phishing) denir; oteller de taklit edilen hedeflerdendir. Kart numarasını düz mesajla istemek güvenli değildir; şüpheli mesajı bildiren konuğa teşekkür eder, durumu amirine iletirsin. Aynı yöntemle çalışanlara da 'parolanı güncelle' diyen sahte iç iletiler gelir: bağlantıya tıklamaz, yanıt vermez, amirine ve bilgi işleme bildirirsin.",
+      "iliskili": [
+        "go-6-062",
+        "go-6-064"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-064",
+      "konu": "6.4",
+      "terim": "Veri ihlali",
+      "ingilizce": "Data breach",
+      "tanim": "Konuk bilgilerinin izinsiz kişilerin eline geçmesi, kaybolması ya da değiştirilmesidir.",
+      "ornek": "Bir çalışan, konuk listesi olan dosyayı yanlışlıkla yabancı birine e-postayla gönderir, fark eder etmez amirine bildirir.",
+      "sektor": "İhlali saklamak durumu büyütür. Bildirimin nasıl ve kimlere yapılacağını işletme mevzuata göre yürütür; çalışanın görevi fark ettiği anda durumu süslemeden amirine söylemektir.",
+      "iliskili": [
+        "go-6-063",
+        "go-6-061"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-065",
+      "konu": "6.4",
+      "terim": "Otel sohbet robotu",
+      "ingilizce": "Hotel chatbot",
+      "tanim": "Otelin internet sitesinde ya da mesajlaşma hattında konuğun sorularını yazılı olarak cevaplayan yapay zekâ ya da kural tabanlı programdır.",
+      "ornek": "Gece 02.00'de bir konuk 'Kahvaltı kaçta başlıyor?' diye yazar; robot saati anında söyler.",
+      "sektor": "Sık sorulan soruları günün her saatinde yanıtlayarak ekibe zaman bırakır. Robot yanlış bilgi verebilir; içeriğini güncel tutmak insanların işidir ve şikâyet ya da acil durumda konuk hemen bir insana aktarılmalıdır.",
+      "iliskili": [
+        "go-6-066",
+        "go-6-069"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-066",
+      "konu": "6.4",
+      "terim": "İnsana devir",
+      "ingilizce": "Human handover",
+      "tanim": "Bir yazılımın ya da robotun çözemediği durumu ayırt edip konuğu bir çalışana yönlendirmesidir.",
+      "ornek": "Sohbet robotuna 'Çocuğum rahatsız, doktor lazım' yazan konuk saniyeler içinde nöbetçi müdüre yönlendirilir ve müdür onu arar.",
+      "sektor": "Devir kolay ve hızlı olmalıdır; konuk aynı şeyi yeniden anlatmak zorunda kalmamalıdır. Acil durumda otomasyon beklenmez: 112 ve nöbetçi müdür hemen devreye girer.",
+      "iliskili": [
+        "go-6-065",
+        "go-6-069"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-067",
+      "konu": "6.4",
+      "terim": "Algoritmik fiyat önerisi",
+      "ingilizce": "Algorithmic price recommendation",
+      "tanim": "Bir yazılımın talebe, tarihe ve rakip fiyatlarına bakarak gelir müdürüne bir oda fiyatı önermesidir.",
+      "ornek": "Yazılım Cuma gecesi için konser nedeniyle yüksek talep görür ve fiyat artışı önerir; gelir müdürü öneriyi inceler, uygunsa onaylar.",
+      "sektor": "Dinamik fiyatlamada kullanılan araçlardan biridir. Yazılım öneri verir, karar insandadır; hatalı veri ya da olağandışı olay yanlış öneri doğurabilir. Konuk fiyat farkını sorarsa fiyatların talebe göre değişebildiğini sakin ve dürüstçe anlatırsın, gerisini amirine bırakırsın.",
+      "iliskili": [
+        "go-6-068",
+        "go-6-069"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-068",
+      "konu": "6.4",
+      "terim": "Yapay zekâ destekli kişisel öneri",
+      "ingilizce": "AI-powered personal recommendation",
+      "tanim": "Konuğun geçmiş tercihlerinden yola çıkarak ona uygun restoran, etkinlik ya da paket öneren yazılım özelliğidir.",
+      "ornek": "Otelin uygulamasına giren çocuklu bir aileye 'Çocuk kulübü açık, akşam yemeği 19.00'da başlıyor' önerisi çıkar; çünkü yazılım rezervasyondan aile olarak geldiklerini bilir.",
+      "sektor": "Öneri konuğa yarıyorsa değerlidir; konuğun bilmediği verilerle yapılıyorsa ürkütücüdür. Hangi verinin kullanıldığı açık söylenmeli, isteyen konuk öneriyi kapatabilmelidir. Öneri yanlış da olabilir; son karar konuğundur.",
+      "iliskili": [
+        "go-6-054",
+        "go-6-067"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-6-069",
+      "konu": "6.4",
+      "terim": "Otomasyonun sınırı",
+      "ingilizce": "Limits of automation",
+      "tanim": "Makinenin hızlı yapabildiği işler ile duygu, yargı ve özel durum gerektirdiği için insana kalan işler arasındaki çizgidir.",
+      "ornek": "Kiosk check-in işlemini hızla yapar; ama bebeğiyle bekleyen annenin telaşını fark edip lobide ona çay ikram edecek kişi çalışandır.",
+      "sektor": "Rutin işleri otomasyon alır; özel durum, şikâyet ve duygu gerektiren işler insana kalır. Geleceğin otelcisi hem teknolojiyi iyi kullanan hem de insanı iyi anlayan kişidir.",
+      "iliskili": [
+        "go-6-066",
+        "go-6-068"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    }
+  ],
+  "sorular": [
+    {
+      "id": "go-6-s01",
+      "tur": "coktan-secmeli",
+      "soru": "Bir otelin ürün, fiyat, yer ve tutundurma kararlarını birlikte ele alan çerçeve hangisidir?",
+      "secenekler": [
+        "Satış hunisi ve konuk yolculuğu",
+        "Pazarlama karması (4P)",
+        "Rakip analizi ve sezon planı",
+        "Marka kimliği ve marka vaadi"
+      ],
+      "dogru": 1,
+      "aciklama": "Dört P, pazarlamanın dört temel kararını (ürün, fiyat, yer, tutundurma) bir arada ve birbirine uyumlu düşünmeyi sağlar. Öteki seçenekler pazarlamanın başka araçlarını anlatır."
+    },
+    {
+      "id": "go-6-s02",
+      "tur": "coktan-secmeli",
+      "soru": "Alanya'daki bir aile resortu çocuk kulübünü ve sığ havuzu öne çıkarıp tek başına gelen iş seyahatçisini öncelikli hedef almıyor. Otelin bu seçtiği konuk grubuna ne ad verilir?",
+      "secenekler": [
+        "Rakip set",
+        "Tekrar konuk",
+        "Dağıtım kanalı",
+        "Hedef kitle"
+      ],
+      "dogru": 3,
+      "aciklama": "Otelin ürününü öncelikle sunmaya karar verdiği benzer ihtiyaçlı konuk grubuna hedef kitle denir; kararlar buna göre verilir."
+    },
+    {
+      "id": "go-6-s03",
+      "tur": "coktan-secmeli",
+      "soru": "İstanbul'daki bir otelin satış ekibi konukları hafta içi iş seyahatçileri, hafta sonu çiftler ve yaz aylarındaki turist grupları diye ayırıyor. Bu çalışmanın adı nedir?",
+      "secenekler": [
+        "Pazar bölümlemesi",
+        "Konumlandırma",
+        "Çapraz satış",
+        "Gelir ve fiyat yönetimi"
+      ],
+      "dogru": 0,
+      "aciklama": "Konukları amacına ve özelliklerine göre benzer gruplara ayırmaya pazar bölümlemesi denir. Böylece her gruba uygun fiyat ve mesaj hazırlanır."
+    },
+    {
+      "id": "go-6-s04",
+      "tur": "coktan-secmeli",
+      "soru": "Satış ekibi 'Elif, mühendis, iki çocuklu, hafta sonu kaçamağı arıyor' diye kurgusal bir konuk betimliyor. Bu betimleme (persona) ne işe yarar?",
+      "secenekler": [
+        "Gerçek bir konuğun kimlik ve iletişim bilgisini kayda geçirerek arşivler",
+        "Rakip otelin yakın dönemdeki fiyatını önceden tahmin etmeye yardım eder",
+        "Hedef konuğu somutlaştırıp mesajı ona göre yazmayı kolaylaştırır",
+        "Konuğa yapılacak indirim tutarını otomatik olarak hesaplayıp faturaya yazar"
+      ],
+      "dogru": 2,
+      "aciklama": "Persona kurgusal bir yüzdür ve ekibe 'bu mesajı kim okuyacak?' sorusunu somut sordurur. Gerçek bir kişi ya da kimlik verisi içermez."
+    },
+    {
+      "id": "go-6-s05",
+      "tur": "coktan-secmeli",
+      "soru": "Bodrum'daki bir otel 'yetişkinlere özel, sessiz' diye konumlanıyor ama geceleri yüksek sesli müzik çalıyor. Bu durum için ne söylenir?",
+      "secenekler": [
+        "Konumlandırma yalnızca reklamla kurulur, bu yüzden zarar görmez",
+        "Konumlandırma sözle değil uygulamayla kurulduğu için bozulur",
+        "Hedef kitle değiştiği için konumlandırma yenilenir",
+        "Rakip analizi yapıldığı için konumlandırma korunur"
+      ],
+      "dogru": 1,
+      "aciklama": "Konum, konuğun yaşadığıyla vaat edilen örtüştüğünde kurulur. Sessizlik vaadi veren otelde gürültü, en iyi reklamı bile geçersiz kılar."
+    },
+    {
+      "id": "go-6-s06",
+      "tur": "coktan-secmeli",
+      "soru": "Konuk otelin sitesinden çıkış mesajına kadar bütün temaslardan aklında kalan toplam izlenime ne denir?",
+      "secenekler": [
+        "Marka standardı",
+        "Oran paritesi",
+        "Hedef kitle",
+        "Marka deneyimi"
+      ],
+      "dogru": 3,
+      "aciklama": "Marka deneyimi, konuğun bütün temaslarından hissettiği toplam izlenimdir. Marka standardı ise kâğıt üstündeki kuraldır."
+    },
+    {
+      "id": "go-6-s07",
+      "tur": "coktan-secmeli",
+      "soru": "Bir termal otel kasım ayında iki gece konaklamayı kahvaltı ve termal havuz girişiyle tek fiyata satıyor. Paketin sade bir indirimden farkı nedir?",
+      "secenekler": [
+        "Doğrudan indirim yapmadan konuğa değer ekler",
+        "Konuğa hiçbir ek hizmet vermeden fiyatı azaltır",
+        "Yalnız yüksek sezonda satılabilir",
+        "İçeriğini konuğa açıklamak gerekmez"
+      ],
+      "dogru": 0,
+      "aciklama": "Paket konaklamaya yeni hizmetler ekleyerek değer katar; bu yüzden doğrudan indirim yapmadan düşük sezonda talep yaratmaya yardım eder. İçeriği açık yazılmalıdır."
+    },
+    {
+      "id": "go-6-s08",
+      "tur": "coktan-secmeli",
+      "soru": "Pamukkale yakınındaki bir otel sitesinde konuğun gerçekten aradığı sözcükleri doğru bilgiyle kullanarak arama sonuçlarında üst sıralara çıkmaya çalışıyor. Bu çalışmaya ne ad verilir?",
+      "secenekler": [
+        "Çapraz satış ve ek satış çalışması",
+        "Yoruma yanıt yazma çalışması",
+        "Arama motoru görünürlüğü (SEO)",
+        "Rakip fiyatlarını izleme çalışması"
+      ],
+      "dogru": 2,
+      "aciklama": "SEO, reklam parası ödemeden arama sonuçlarında görünür olmaya çalışmaktır. Bunun yolu doğru, güncel bilgi ve hızlı açılan sitedir; yanıltıcı sözcükler değil."
+    },
+    {
+      "id": "go-6-s09",
+      "tur": "coktan-secmeli",
+      "soru": "Ayvalık'taki bir otel bir hesap sahibine iki gece konaklama verip karşılığında paylaşım yaptırıyor. Paylaşım için doğru olan hangisidir?",
+      "secenekler": [
+        "Reklam olduğu gizlenir ki paylaşım daha doğal görünsün",
+        "Paylaşımda yalnız olumlu sözler söylenmesi gizlice şart koşulur",
+        "Konukların fotoğrafları izin istenmeden paylaşıma eklenir",
+        "İş birliği olduğu takipçiye açıkça söylenir"
+      ],
+      "dogru": 3,
+      "aciklama": "İzleyici reklamı reklam olarak bilmelidir; gizli reklam güveni kırar. Dürüst belirtme hem otelin hem paylaşanın itibarını korur."
+    },
+    {
+      "id": "go-6-s10",
+      "tur": "coktan-secmeli",
+      "soru": "Yorumda 'resepsiyon ilgisizdi' yazılmış. Otel yönetimi yanıtında hangisini yapmalıdır?",
+      "secenekler": [
+        "Konuğun oda numarasını ve giriş tarihini yazarak olayı kanıtlamaya çalışır",
+        "Teşekkür edip özür diler, çözümü kısaca söyler, kişisel bilgi yazmaz",
+        "Yorumun hatalı olduğunu söyleyip konuğu savunmaya geçirmeye çalışır",
+        "Hiç yanıt vermez, çünkü yanıtı yalnız yorumu yazan konuk okur"
+      ],
+      "dogru": 1,
+      "aciklama": "Yanıtı oteli araştıran herkes okur; sakin, saygılı ve çözüm gösteren yanıt güven verir. Oda numarası ve tarih kişisel bilgidir, yazılmaz."
+    },
+    {
+      "id": "go-6-s11",
+      "tur": "coktan-secmeli",
+      "soru": "Bir otel yorum sitesindeki puanını yükseltmek için yalnız memnun gördüğü konuklara QR kodlu kart veriyor. Bu uygulama için ne söylenir?",
+      "secenekler": [
+        "Konuk gönüllü olduğu için uygulama tamamen doğrudur ve sakıncası yoktur",
+        "Kart yalnız yurt dışından gelen konuklara verilirse sakıncası kalmaz",
+        "Yalnız memnun olanı seçmek puanı çarpıtır; kart herkese verilmelidir",
+        "Kartı alan konuğa ayrıca indirim vermek durumu düzeltmiş olur"
+      ],
+      "dogru": 2,
+      "aciklama": "Etik istemede konuk seçilmez ve karşılığında ödül verilmez. Aksi hâlde puan, gerçek memnuniyeti yansıtmaz ve birçok yorum sitesinin kurallarına aykırı olur."
+    },
+    {
+      "id": "go-6-s12",
+      "tur": "coktan-secmeli",
+      "soru": "Sitede 'deniz manzaralı' diye gösterilen oda gerçekte otoparka bakıyor. Bu durumda ihlal edilen ilke hangisidir?",
+      "secenekler": [
+        "Fotoğraf ve görsel dürüstlüğü",
+        "Fiyatın baştan açıkça gösterilmesi",
+        "Şirketlerle yapılan kurumsal anlaşma",
+        "Gruplar için oda ayırma düzeni"
+      ],
+      "dogru": 0,
+      "aciklama": "Görsellerin odanın gerçek hâlini yansıtması gerekir. Yanıltıcı görsel, konuk odaya girdiğinde yoruma dönüşen bir hayal kırıklığı yaratır."
+    },
+    {
+      "id": "go-6-s13",
+      "tur": "coktan-secmeli",
+      "soru": "İzinli pazarlama ilkesine göre Çeşme'deki bir otel e-posta bültenini kimlere gönderebilir?",
+      "secenekler": [
+        "Rezervasyon için e-postasını vermiş bütün konuklara",
+        "Yalnız bir kez konaklamış olanlara",
+        "Rakip otelin müşteri listesindeki kişilere",
+        "Tanıtım iletisi almayı açıkça kabul etmiş kişilere"
+      ],
+      "dogru": 3,
+      "aciklama": "İzinli pazarlamada mesaj yalnız bu iletileri almayı kabul edenlere gönderilir. Rezervasyon için verilen e-posta, tanıtım izni anlamına gelmez."
+    },
+    {
+      "id": "go-6-s14",
+      "tur": "coktan-secmeli",
+      "soru": "Bir sitede yüz kişi otelin sayfasına bakıyor, yirmisi odaları inceliyor, yalnız ikisi rezervasyon yapıyor. Her adımda bir kısmının vazgeçtiği bu sürece ne ad verilir?",
+      "secenekler": [
+        "Konuk yolculuğu haritası",
+        "Satış hunisi",
+        "Pazar bölümlemesi",
+        "Marka vaadi"
+      ],
+      "dogru": 1,
+      "aciklama": "Satış hunisi, fark etmeden rezervasyona uzanan adımları ve her adımdaki kaybı gösterir. Kaybın büyük olduğu adım düzeltilecek yeri işaret eder."
+    },
+    {
+      "id": "go-6-s15",
+      "tur": "coktan-secmeli",
+      "soru": "Telefonda 'Odanız plaja iki adım' deyip yol karşısındaki odayı satan görevli konuk gelince şikâyetle karşılaşıyor. Bu hataya ne ad verilir?",
+      "secenekler": [
+        "Çapraz satış",
+        "Erken rezervasyon kampanyası",
+        "Aşırı vaat tuzağı",
+        "Konuk profili"
+      ],
+      "dogru": 2,
+      "aciklama": "Gerçekte karşılanamayacak bir şeyi söylemek beklentiyi yükseltir ve yaşanan ile beklenen arasındaki fark memnuniyetsizlik yaratır. Emin olunmayan özellik sözle belirtilmez."
+    },
+    {
+      "id": "go-6-s16",
+      "tur": "coktan-secmeli",
+      "soru": "Aydın'daki bir termal otelde bu yıl 400 konuktan 100'ü daha önce de gelmişse tekrar konuk oranı yüzde kaçtır?",
+      "secenekler": [
+        "%25",
+        "%10",
+        "%40",
+        "%75"
+      ],
+      "dogru": 0,
+      "aciklama": "Tekrar konuk oranı, daha önce gelmiş konukların toplam konuk sayısına bölünmesiyle bulunur: 100'ü 400'e bölünce 0,25, yani %25 çıkar."
+    },
+    {
+      "id": "go-6-s17",
+      "tur": "coktan-secmeli",
+      "soru": "Rezervasyon formunda 'Kampanya e-postaları almak istiyorum' kutusunu konuk kendisi işaretliyor. Bu, veri korumada hangi kavramın örneğidir?",
+      "secenekler": [
+        "Veri ihlali",
+        "Saklama süresi",
+        "Bilmesi gereken kadar erişim",
+        "Açık rıza"
+      ],
+      "dogru": 3,
+      "aciklama": "Açık rıza, konuğun belirli bir konuda bilgilendirilerek ve özgür iradesiyle verdiği izindir. Kutunun önceden işaretli olması rıza sayılmaz."
+    },
+    {
+      "id": "go-6-s18",
+      "tur": "coktan-secmeli",
+      "soru": "Konuk, rezervasyonundan bir gün sonra otelin adıyla 'Ödemeniz başarısız, bu bağlantıdan kartınızı yenileyin' mesajı alıyor. Doğru davranış hangisidir?",
+      "secenekler": [
+        "Hemen bağlantıya tıklayıp kart bilgisini yeniden girerek ödemeyi yenilemek",
+        "Bağlantıya tıklamadan otelin bilinen telefonunu arayıp doğrulatmak",
+        "Mesaja kart numarasını ve güvenlik kodunu yazarak yanıt vermek",
+        "Mesajın ekran görüntüsünü paylaşıp bağlantıyı yakınlarına da iletmek"
+      ],
+      "dogru": 1,
+      "aciklama": "Sahte ödeme mesajları otelmiş gibi görünür. Bağlantıya tıklamadan, otelin bilinen resmî iletişim kanalıyla doğrulamak gerekir."
+    },
+    {
+      "id": "go-6-s19",
+      "tur": "dogru-yanlis",
+      "soru": "Ödeme adımında ortaya çıkan ek ücret, fiyat şeffaflığı ilkesine uygundur.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Fiyat şeffaflığı, konuğun toplam bedeli ek ücretler dâhil rezervasyondan önce görmesidir. Sonradan çıkan ücret güveni kırar."
+    },
+    {
+      "id": "go-6-s20",
+      "tur": "dogru-yanlis",
+      "soru": "Sadakat programında üyenin hangi basamakta olduğunu görüp ayrıcalığını eksiksiz vermek çalışanın işidir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Üyenin ayrıcalığı unutulursa sadık konuk en çok kırılır. Basamak bilgisi genellikle otelin sisteminde görünür."
+    },
+    {
+      "id": "go-6-s21",
+      "tur": "dogru-yanlis",
+      "soru": "Konuk kaydı için alınan kimlik bilgisini, satış ekibi doğum günü kampanyası göndermek için de kullanabilir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Amaçla sınırlılık ilkesine göre bilgi yalnız toplanma amacı için kullanılır. Başka amaç için yeniden izin gerekir."
+    },
+    {
+      "id": "go-6-s22",
+      "tur": "dogru-yanlis",
+      "soru": "Sohbet robotu şikâyet ya da acil durum yazan konuğu hızla bir çalışana aktarmalıdır.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Robotun kapasitesi sınırlıdır; şikâyet, alerji ve acil durumda anlayış ve karar gerekir. Hızlı devir konuğu aynı şeyi yeniden anlatmaktan kurtarır."
+    },
+    {
+      "id": "go-6-s23",
+      "tur": "senaryo",
+      "durum": "Akşam 20.30, havuz başında stajyersin. Bir ailenin çocuğunun doğum günü kutlaması çok güzel; telefonunla çekip otelin sosyal medya hesabında paylaşmak istiyorsun. Hesap, pazarlama yöneticisi tarafından yönetiliyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Videoyu çeker ve kendi hesabımda 'harika otel' diye hemen paylaşırım.",
+        "Yüzleri bulanıklaştırıp videoyu otelin hesabına kendim yüklerim.",
+        "Fikri pazarlama yöneticisine söyler, izin ve paylaşımı ona bırakırım.",
+        "Hesabın şifresini bilen arkadaşımdan videoyu otel adına paylaşmasını isterim."
+      ],
+      "dogru": 2,
+      "aciklama": "Konuğun görüntüsü kişisel veridir ve otel adına paylaşım yetkili kişinin işidir. Bulanıklaştırmak da izin ve yetki sorununu çözmez; doğru yol fikri amire iletmektir."
+    },
+    {
+      "id": "go-6-s24",
+      "tur": "senaryo",
+      "durum": "Sabah 09.30, satış ofisinde stajyersin. Yorum sitesinde 'Resepsiyonist ilgisizdi' diyen yeni bir yorum görüyorsun; yorumda yazılan tarih senin vardiyanla aynı.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Otelin hesabından hemen 'Yorum gerçeği yansıtmıyor' diye yanıt yazarım.",
+        "Arkadaşlarımdan otelle ilgili olumlu yorumlar yazmalarını isterim.",
+        "Yorumu ve olayı amirime anlatır, yanıtı yetkilinin yazmasını beklerim.",
+        "Konuğun adını araştırıp ona kendi hesabımdan özel mesaj atarım."
+      ],
+      "dogru": 2,
+      "aciklama": "Yoruma yanıtı yetkili yazar; kendi hesabından konuğa ulaşmak ya da sahte yorum istemek güveni ve veri kurallarını çiğner. Amirine anlatmak hem dürüst hem çözüm odaklıdır."
+    },
+    {
+      "id": "go-6-s25",
+      "tur": "senaryo",
+      "durum": "Öğleden sonra, satış ofisinde stajyersin. Kıdemli bir çalışan telefonunu uzatıp 'Otelimiz için beş yıldızlı bir yorum yaz, puanı yükseltelim' diyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Kıdemli çalışan istediği için beş yıldızlı yorumu kendi telefonumdan yazarım.",
+        "Nazikçe hayır der, bunun sahte yorum olduğunu belirtip amirime danışırım.",
+        "Arkadaşlarıma yazdırırım, böylece yorumların kimden geldiğini gizlerim.",
+        "Yorumu yazarım ama puanı dörde indirir, daha inandırıcı olmasını sağlarım."
+      ],
+      "dogru": 1,
+      "aciklama": "Gerçek bir konaklamaya dayanmayan yorum sahtedir ve etik dışıdır. Kıdemliye saygıyla ama net biçimde hayır demek ve amire danışmak dürüst yoldur."
+    },
+    {
+      "id": "go-6-s26",
+      "tur": "senaryo",
+      "durum": "Öğle 14.30, resepsiyondasın. Bütçesinin sınırlı olduğunu söyleyen bir ailenin rezervasyonu var ve amirin üst oda satmanı istemişti.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Ayırttıkları odayı güler yüzle verir, uygun bir seçeneği fiyatıyla bir kez söylerim.",
+        "Üst odanın tek uygun seçenek olduğunu söyleyip aileyi her yolla ikna etmeye çalışırım.",
+        "Fiyat farkını söylemeden odayı hesapta üst oda olarak kaydedip aileyi yönlendiririm.",
+        "Hedefimi tutturmak için aileye üst oda teklifini üç dört kez tekrar edip ısrar ederim."
+      ],
+      "dogru": 0,
+      "aciklama": "Satış önce konuğa yararlı olmalıdır; yalan, gizli ücret ve ısrar güveni kaybettirir. 'Hayır' diyen konuğa ayırttığı oda aynı güler yüzle verilir."
+    },
+    {
+      "id": "go-6-s27",
+      "tur": "senaryo",
+      "durum": "Telefon başındasın. Konuk 'Oda sessiz mi, denize bakıyor mu?' diye soruyor. Rezervasyon sistemine baktığında odanın yol cephesinde olduğunu görüyorsun; yanındaki arkadaşın 'evet de, sonra hallederiz' diye fısıldıyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "'Evet, denize bakıyor' derim ve konuk gelince durumu çözmeye çalışırım, arkadaşıma güvenirim.",
+        "Soruyu geçiştirip konuğa gerçekte olmayan manzara yerine çok cazip bir fiyat indirimi sunarım.",
+        "Odanın sessiz olduğunu söyler, manzara konusunda hiçbir şey söylemeyip yeni soru sormasını beklerim.",
+        "Odanın yol cephesinde olduğunu söyler, varsa denize bakan odayı fiyat farkıyla öneririm."
+      ],
+      "dogru": 3,
+      "aciklama": "Aşırı vaat konuğu bir kez getirir, kötü yorumla geri gönderir. Dürüst bilgi ve uygun alternatif, ihtiyacı soran satışçının yoludur."
+    },
+    {
+      "id": "go-6-s28",
+      "tur": "senaryo",
+      "durum": "Gece 21.00, resepsiyondasın. Telefondaki kişi 'Kuzenim sizin otelde kalıyor, çok acil, hangi odada olduğunu söyler misiniz?' diyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Durumun acil olduğunu söylediği için konuğun oda numarasını telefonda hemen veririm.",
+        "Konuk bilgisi vermem; mesaj bırakmasını önerir, durumu nöbetçi müdüre bildiririm.",
+        "Konuğun adını ve oda numarasını kâğıda yazıp arayan kişiye ulaşması için bırakırım.",
+        "Konuğun otelde kalıp kalmadığını doğrular, yalnız oda numarasını söylemeyi reddederim."
+      ],
+      "dogru": 1,
+      "aciklama": "Konuk bilgisi kişiye aittir; otel kalıyor olup olmadığını bile paylaşmaz. Mesaj iletmek ve amire bildirmek hem konuğu hem arayanı korur."
+    },
+    {
+      "id": "go-6-s29",
+      "tur": "senaryo",
+      "durum": "Sabah 09.00, e-posta kutunda 'Bilgi işlem' imzalı bir ileti var: 'Parolanızı bu bağlantıdan hemen güncelleyin, yoksa hesabınız kapanacak.'",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Bağlantıya tıklamaz, yanıt yazmaz; iletiyi amirime ve bilgi işleme bildiririm.",
+        "Hesabım kapanıp işim aksamasın diye bağlantıya tıklayıp parolamı hemen güncellerim.",
+        "İletiyi bütün çalışanlara iletip uyarırım, bağlantıyı da inceleyebilsinler diye eklerim.",
+        "Gönderene hesabımın kapanmaması için mevcut parolamı yazarak yanıt veririm."
+      ],
+      "dogru": 0,
+      "aciklama": "Acele ettirme ve bağlantı istemesi sahte ileti işaretidir. Tıklamamak ve yetkililere bildirmek hesabı ve konuk verisini korur."
+    }
+  ]
+}

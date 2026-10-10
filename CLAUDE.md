@@ -111,6 +111,10 @@ yakın yüz, silah, mayolu insan, siyasetçi / resmî kişi fotoğrafı kullanı
 yeniden gelir; biten dersin kartları aralıklı tekrara (Leitner, 1-2-4-8-16 gün) girer; ünite sonunda test; puanla otel kariyeri
 basamakları (Stajyer → Genel Müdür). Alıştırmalar kartın kendi içeriğinden üretilir, onaysız yeni bilgi eklemez.
 
+**Motivasyon katmanı (10 Ekim 2026):** rozetler (`src/cekirdek/rozetler.ts`, kayıttan hesaplanır), "günün yeri" (fotoğraflı Türkiye kartı),
+"bu hafta sınıfta" (öğretmenin yıllık planı `src/cekirdek/takvim.ts` içinde; yeni hafta planı geldikçe oraya işlenir), seri hatırlatması,
+yeni öğrenciye üç adım, kurulum ipucu, **Keşfet** sekmesi (Türkiye'nin turistik merkezleri bölge bölge, fotoğraflı).
+
 Dersler → Üniteler → **Kavram kartları** (çevir: terim ↔ tanım; Türkçe ↔ İngilizce) · **Tekrar** (bilinmeyen kart daha sık;
 basit Leitner kutuları) · **Test** (ünite sonu, karışık) · **Sözlük** (tüm terimlerde arama) · **İlerleme** (telefonda).
 Sonra: rol canlandırma senaryoları (resepsiyon, rezervasyon, şikâyet) · sektör sözlüğü (ön büro, kat hizmetleri, F&B, acente, havayolu kısaltmaları).
