@@ -479,7 +479,7 @@
     { "id": "mg-1-074", "konu": "1.7", "terim": "SMART hedef", "ingilizce": "SMART goal",
       "tanim": "Spesifik, ölçülebilir, ulaşılabilir, gerçekçi ve zamana bağlı olan hedef.",
       "ornek": "'İngilizcemi geliştireceğim' bir dilektir. 'Dönem sonuna kadar her hafta resepsiyonda kullanılan 10 İngilizce kalıp cümle öğrenip arkadaşımla canlandıracağım' ise SMART bir hedeftir.",
-      "sektor": "Programın anahtar kavramlarından. Adı, beş ölçütün İngilizce baş harflerinden gelir: Specific, Measurable, Achievable, Realistic, Time-bound. Öz değerlendirmede gördüğün eksiği gidermenin yolu böyle bir hedef yazmaktır.",
+      "sektor": "Programın anahtar kavramlarından. Adı, beş ölçütün İngilizce baş harflerinden gelir: Specific, Measurable, Achievable, Realistic, Time-bound. Ders kitaplarında dördüncü harf Relevant (ilgili) diye de açılır; ikisi de hedefin işe ve kişiye uygun olmasını anlatır. Öz değerlendirmede gördüğün eksiği gidermenin yolu böyle bir hedef yazmaktır.",
       "iliskili": ["mg-1-073", "mg-1-075", "mg-1-076", "mg-1-077", "mg-1-078", "mg-1-079"], "kontrol": null },
     { "id": "mg-1-075", "konu": "1.7", "terim": "Spesifik (belirli)", "ingilizce": "Specific",
       "tanim": "Hedefte ne yapılacağının açıkça belli olması.",

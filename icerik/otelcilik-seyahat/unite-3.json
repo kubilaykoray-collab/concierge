@@ -1555,7 +1555,7 @@
     { "id": "os-3-361", "konu": "3.5", "terim": "SMART hedef", "ingilizce": "SMART goal",
       "tanim": "Belirli, ölçülebilir, ulaşılabilir, ilgili ve zamana bağlı olacak biçimde konmuş hedeftir.",
       "ornek": "'Konuklar daha memnun olsun.' bir dilektir; 'Yaz sonuna kadar giriş işlemindeki bekleme şikâyetlerini yarıya indireceğiz.' ise SMART hedeftir.",
-      "sektor": "Ad, İngilizce beş sözcüğün baş harflerinden oluşur: specific (belirli), measurable (ölçülebilir), achievable (ulaşılabilir), relevant (ilgili), time-bound (zamana bağlı). Ölçülemeyen hedefe ulaşılıp ulaşılmadığı bilinemez.",
+      "sektor": "Ad, İngilizce beş sözcüğün baş harflerinden oluşur: specific (belirli), measurable (ölçülebilir), achievable (ulaşılabilir), relevant (ilgili), time-bound (zamana bağlı). Dördüncü harf başka kaynaklarda realistic (gerçekçi) diye de açılır. Ölçülemeyen hedefe ulaşılıp ulaşılmadığı bilinemez.",
       "iliskili": ["os-3-360", "os-3-363", "os-3-362"], "kontrol": null },
     { "id": "os-3-362", "konu": "3.5", "terim": "B planı", "ingilizce": "Contingency plan (plan B)",
       "tanim": "Sistem arızası ya da fazla rezervasyon gibi beklenmedik durumlarda uygulanmak üzere önceden hazırlanan yedek plandır.",
