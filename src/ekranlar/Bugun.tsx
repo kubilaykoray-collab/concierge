@@ -4,7 +4,7 @@ import { rutbe, seri } from "../cekirdek/ilerleme";
 import { bugun, USTA_KUTU, vadesiGelenler } from "../cekirdek/leitner";
 import { rozetler } from "../cekirdek/rozetler";
 import { haftaninKonulari } from "../cekirdek/takvim";
-import { DERS_CIZIMI, KoseSusu, OtelCizimi } from "../cizimler";
+import { Amblem, DERS_CIZIMI, KoseSusu, OtelCizimi } from "../cizimler";
 import { useIlerleme } from "../depo";
 import { DERS_LISTESI, DERSLER, gorselAdresi, GUNCEL_KAVRAMLAR as KAVRAMLAR, GUNCEL_UNITELER as UNITELER, kavramBul } from "../veri";
 
@@ -85,19 +85,19 @@ export function Bugun() {
       <header className="vitrin">
         <OtelCizimi className="vitrin-cizim" />
         <div className="marka">
-          <Simge ad="anahtarlar" boyut={30} />
+          <Amblem className="marka-amblem" boyut={52} />
           <div>
             <strong lang="en">CONCIERGE</strong>
-            <span lang="en">HOSPITALITY ACADEMY</span>
+            <span lang="en">Hospitality Academy</span>
           </div>
         </div>
         <p className="ust-etiket">{GUNLER[simdi.getDay()]} · {simdi.getDate()} {AYLAR[simdi.getMonth()]}</p>
-        <h1>{yeni ? "Hoş geldin, meslektaş." : gunSerisi > 1 ? `${gunSerisi} gündür buradasın.` : "Tekrar hoş geldin."}</h1>
+        <h1>{yeni ? "Hoş geldin, meslektaş." : gunSerisi > 1 ? `${gunSerisi} gündür buradasın.` : "Yeniden hoş geldin."}</h1>
         <p className="vitrin-alt">{yeni ? "Otelciliğin dilini ilk dersten itibaren bir profesyonel gibi öğreneceksin." : r.soz}</p>
         {!yeni && (
           <p className="vitrin-not">
             <Simge ad={bugunCalisti ? "tik" : "alev"} boyut={15} />
-            {bugunCalisti ? "Bugünkü çalışman tamam; fazlası bonus." : gunSerisi > 0 ? `${gunSerisi} günlük serini korumak için bugün bir ders yeter.` : "Bugün bir dersle yeniden başla; seri yeniden sayılır."}
+            {bugunCalisti ? "Bugünkü çalışmanı tamamladın; gerisi bonus." : gunSerisi > 0 ? `${gunSerisi} günlük serini korumak için bugün bir ders yeter.` : "Bugün bir dersle yeniden başla; serin yeniden başlasın."}
           </p>
         )}
         <a className="rutbe-seridi" href="#/ilerleme">
@@ -106,7 +106,7 @@ export function Bugun() {
             <strong>{r.ad}</strong>
           </div>
           <div className="rutbe-sag">
-            <span>{ilerleme.puan} puan{r.sonraki ? ` · ${r.sonraki} için ${r.kalan}` : ""}</span>
+            <span>{ilerleme.puan} puan{r.sonraki ? ` · ${r.sonraki}'a ${r.kalan} kaldı` : " · en üst unvan"}</span>
             <Cubuk oran={r.oran} />
           </div>
         </a>
@@ -114,9 +114,9 @@ export function Bugun() {
 
       {yeni && (
         <section className="nasil" aria-label="Nasıl çalışır">
-          <div className="nasil-adim"><span>1</span><strong>Öğren</strong><small>3–5 dakikalık dersler, her kartta bir kavram</small></div>
-          <div className="nasil-adim"><span>2</span><strong>Hatırla</strong><small>Unutmak üzereyken uygulama sana sorar</small></div>
-          <div className="nasil-adim"><span>3</span><strong>Sına</strong><small>Vakalarda kararı sen ver, testle sertifika al</small></div>
+          <div className="nasil-adim"><span>1</span><strong>Öğren</strong><small>Üç beş dakikalık dersler; her kartta bir kavram</small></div>
+          <div className="nasil-adim"><span>2</span><strong>Hatırla</strong><small>Tam unutmak üzereyken uygulama sana sorar</small></div>
+          <div className="nasil-adim"><span>3</span><strong>Sına</strong><small>Vakalarda kararı sen ver, testte sertifikanı al</small></div>
         </section>
       )}
 
@@ -125,7 +125,7 @@ export function Bugun() {
           <KoseSusu className="kose-susu" />
           <span className="ust-etiket">Günün tekrarı</span>
           <h2>{vadeli.length} kavram seni bekliyor</h2>
-          <p>Unutmaya başlamadan hemen önce hatırlamak, kalıcı öğrenmenin en kısa yolu.</p>
+          <p>Unutmaya başlamadan hemen önce hatırlamak, kalıcı öğrenmenin en kısa yoludur.</p>
           <span className="one-cikan-dugme">Tekrara başla <Simge ad="ok" boyut={18} /></span>
         </a>
       )}
@@ -145,15 +145,15 @@ export function Bugun() {
           <KoseSusu className="kose-susu" />
           <span className="ust-etiket">Bugünlük tamam</span>
           <h2>Bütün dersleri bitirdin</h2>
-          <p>Tekrar günü gelen kart yok. İstersen serbest tekrarla formunu koru.</p>
+          <p>Bugün tekrar günü gelen kart yok. İstersen serbest tekrarla formunu koru.</p>
           <span className="one-cikan-dugme">Serbest tekrar <Simge ad="ok" boyut={18} /></span>
         </a>
       )}
 
       <section className="sayilar">
-        <div><Simge ad="alev" /><strong>{gunSerisi}</strong><span>gün seri</span></div>
-        <div><Simge ad="kitap" /><strong>{ogrenilen}</strong><span>öğrenilen</span></div>
-        <div><Simge ad="yildiz" /><strong>{usta}</strong><span>ustalaşılan</span></div>
+        <div><Simge ad="alev" /><strong>{gunSerisi}</strong><span>günlük seri</span></div>
+        <div><Simge ad="kitap" /><strong>{ogrenilen}</strong><span>öğrenilen kavram</span></div>
+        <div><Simge ad="yildiz" /><strong>{usta}</strong><span>usta kavram</span></div>
       </section>
 
       {buHafta.length > 0 && (
@@ -184,19 +184,19 @@ export function Bugun() {
       <a className="rozet-seridi" href="#/ilerleme">
         <Simge ad="anahtarlar" boyut={22} />
         <div className="satir-govde">
-          <strong>Rozetler · {kazanilanRozet}/{rozetListesi.length}</strong>
-          {siradakiRozet && <span>Sıradaki: {siradakiRozet.ad} · {siradakiRozet.aciklama}</span>}
+          <strong>Rozetlerin · {kazanilanRozet}/{rozetListesi.length}</strong>
+          {siradakiRozet && <span>Sıradaki: {siradakiRozet.ad} — {siradakiRozet.aciklama}</span>}
         </div>
         <Simge ad="ok" boyut={18} />
       </a>
 
       {yer && (
         <section>
-          <h3 className="bolum-basligi">Günün yeri</h3>
+          <h3 className="bolum-basligi">Keşif durağı</h3>
           <a className="gunun-yeri" href={`#/sozluk/${yer.id}`}>
             {yer.gorsel && <img src={gorselAdresi(yer.gorsel)} alt="" loading="lazy" width={720} height={446} />}
             <div className="gunun-yeri-govde">
-              <span className="ust-etiket">Türkiye'yi keşfet</span>
+              <span className="ust-etiket">Bugün Türkiye'den bir yer</span>
               <h4>{yer.terim}</h4>
               <p>{yer.tanim}</p>
             </div>
@@ -205,7 +205,7 @@ export function Bugun() {
       )}
 
       <section>
-        <h3 className="bolum-basligi">Dersler</h3>
+        <h3 className="bolum-basligi">Derslerin</h3>
         <div className="ders-kartlari">
           {DERS_LISTESI.map((d) => {
             const Cizim = DERS_CIZIMI[d.ders] ?? OtelCizimi;
@@ -237,7 +237,7 @@ export function Bugun() {
 
       {kavram && (
         <section>
-          <h3 className="bolum-basligi">Günün kavramı</h3>
+          <h3 className="bolum-basligi">Günün terimi</h3>
           <a className="gunun-kavrami" href={`#/sozluk/${kavram.id}`}>
             <p className="kavram-ingilizce">{kavram.ingilizce}</p>
             <h4>{kavram.terim}</h4>
@@ -245,6 +245,14 @@ export function Bugun() {
           </a>
         </section>
       )}
+
+      <footer className="imza">
+        <Amblem boyut={22} />
+        <p>
+          <span lang="en">CONCIERGE · Hospitality Academy</span>
+          <br />Turizm öğretmeni Koray Kubilay tarafından öğrencileri için hazırlanmıştır.
+        </p>
+      </footer>
     </>
   );
 }

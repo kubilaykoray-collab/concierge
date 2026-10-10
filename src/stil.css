@@ -293,32 +293,53 @@ button {
 .marka {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 34px;
+  gap: 14px;
+  margin-bottom: 30px;
   color: #cdae74;
 }
+
+.marka-amblem { flex: none; }
 
 .marka > div {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }
 
+/* Marka yazısı: harf aralıklı serif; son harfin aralığı sağa taşmasın diye negatif kenar boşluğu */
 .marka strong {
-  font: 600 1.18rem/1 var(--serif);
-  letter-spacing: 0.34em;
+  font: 600 1.42rem/1 var(--serif);
+  letter-spacing: 0.3em;
+  margin-right: -0.3em;
   color: #cdae74;
 }
 
 .marka span {
-  font-size: 0.62rem;
+  font-size: 0.66rem;
   font-weight: 600;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.3em;
+  margin-right: -0.3em;
+  text-transform: uppercase;
   color: #b7bfce;
 }
 
+/* İmza: sayfa sonunda sessiz bir dipnot */
+.imza {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  padding: 18px 4px 6px;
+  border-top: 1px solid var(--cizgi);
+  color: var(--soluk);
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.imza span { letter-spacing: 0.08em; font-weight: 600; }
+
 .vitrin .ust-etiket { color: #cdae74; }
-.vitrin h1 { font-size: 2.35rem; max-width: 11ch; }
+.vitrin h1 { font-size: 2.5rem; line-height: 1.08; max-width: 11ch; letter-spacing: -0.01em; }
 
 .vitrin-alt {
   color: #b7bfce;
