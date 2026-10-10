@@ -78,6 +78,29 @@ export function PusulaCizimi({ className }: { className?: string }) {
   );
 }
 
+// Global Otelcilik için resepsiyon zili: kubbe, düğme, tabla ve yankı halkaları.
+export function ZilCizimi({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 360 170" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <g transform="translate(200 0)" opacity=".9">
+        <path d="M120 120a60 60 0 0 0-120 0z" />
+        <path d="M60 60v-10M52 44h16" />
+        <path d="M46 92a30 30 0 0 1 10-18" opacity=".6" />
+        <path d="M-10 120h140M0 132h120" />
+        <path d="M-6 126q66 8 132 0" opacity=".5" />
+      </g>
+      <g opacity=".35" transform="translate(260 120)">
+        <path d="M-90 0a90 90 0 0 1 180 0" strokeDasharray="2 6" />
+        <path d="M-110 0a110 110 0 0 1 220 0" strokeDasharray="1 7" />
+      </g>
+      <g opacity=".25" strokeDasharray="1 5">
+        <path d="M20 150h150" />
+        <path d="M30 30h60M30 46h40" />
+      </g>
+    </svg>
+  );
+}
+
 // Marka amblemi: ince bir mühür halkası içinde çapraz iki anahtar (concierge geleneğinin simgesi).
 // Anahtar başları (halkalar) altta, dişler üstte: klasik armacılık düzeni. Tek renk, çizgiyle; her zeminde okunur.
 export function Amblem({ className, boyut = 48 }: { className?: string; boyut?: number }) {
@@ -103,7 +126,7 @@ export const DERS_CIZIMI: Record<string, typeof OtelCizimi> = {
   "otelcilik-seyahat": OtelCizimi,
   "genel-turizm-2026": DunyaCizimi,
   "mesleki-gelisim": PusulaCizimi,
-  "global-otelcilik": DunyaCizimi,
+  "global-otelcilik": ZilCizimi,
   "konaklama-seyahat": OtelCizimi,
   "genel-turizm": DunyaCizimi,
 };

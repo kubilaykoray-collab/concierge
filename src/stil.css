@@ -433,11 +433,18 @@ button {
 }
 
 /* Ders kartları (açılış ekranı) ve ders afişi (Dersler ekranı) */
+/* Ders kartları: iki sütun, çizim sağ üstte küçük; sayfa yarı yarıya kısalır */
 .ders-kartlari {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
+
+.ders-kartlari .ders-karti { padding: 16px 14px 14px; gap: 6px; min-height: 150px; justify-content: flex-end; }
+.ders-kartlari .ders-karti-cizim { width: 170px; right: -56px; top: -22px; opacity: 0.24; }
+.ders-kartlari .ders-karti strong { font-size: 1.08rem; max-width: none; margin-bottom: 4px; }
+.ders-kartlari .ders-karti .ust-etiket { font-size: 0.64rem; }
+.ders-kartlari .ders-karti-alt { font-size: 0.76rem; }
 
 .ders-karti,
 .ders-afisi {
@@ -787,10 +794,27 @@ button {
   border-radius: var(--kose);
 }
 
+.gunun-yeri-gorsel { position: relative; }
 .gunun-yeri img { width: 100%; height: auto; aspect-ratio: 720 / 446; object-fit: cover; display: block; }
-.gunun-yeri-govde { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px 18px; }
+
+/* Fotoğrafın altına doğru koyulaşan perde; yer adı fotoğrafın üstünde, dergi kapağı gibi */
+.gunun-yeri-kapak {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 44px 18px 14px;
+  background: linear-gradient(180deg, rgb(16 27 48 / 0%) 0%, rgb(16 27 48 / 78%) 100%);
+  color: #f4eee2;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.gunun-yeri-kapak .ust-etiket { color: #cdae74; }
+.gunun-yeri-kapak h4 { font-size: 1.45rem; line-height: 1.15; color: #f4eee2; text-shadow: 0 1px 8px rgb(0 0 0 / 35%); }
+.gunun-yeri-govde { display: flex; flex-direction: column; gap: 8px; padding: 14px 18px 16px; }
 .gunun-yeri h4 { font-size: 1.3rem; }
 .gunun-yeri p { color: var(--soluk); font-size: 0.95rem; }
+.gunun-yeri-ok { display: inline-flex; align-items: center; gap: 6px; font-size: 0.86rem; font-weight: 700; color: var(--altin-yazi); }
 
 .gunun-kavrami h4 { font-size: 1.3rem; }
 .gunun-kavrami p:last-child { color: var(--soluk); font-size: 0.95rem; margin-top: 4px; }

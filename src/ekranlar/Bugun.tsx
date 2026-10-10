@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Cubuk, dakika, Simge } from "../bilesenler";
+import { Cubuk, dakika, romen, Simge } from "../bilesenler";
 import { rutbe, seri } from "../cekirdek/ilerleme";
 import { bugun, USTA_KUTU, vadesiGelenler } from "../cekirdek/leitner";
 import { rozetler } from "../cekirdek/rozetler";
@@ -152,9 +152,31 @@ export function Bugun() {
 
       <section className="sayilar">
         <div><Simge ad="alev" /><strong>{gunSerisi}</strong><span>günlük seri</span></div>
-        <div><Simge ad="kitap" /><strong>{ogrenilen}</strong><span>öğrenilen kavram</span></div>
-        <div><Simge ad="yildiz" /><strong>{usta}</strong><span>usta kavram</span></div>
+        <div><Simge ad="kitap" /><strong>{ogrenilen}</strong><span>öğrenilen</span></div>
+        <div><Simge ad="yildiz" /><strong>{usta}</strong><span>ustalaşılan</span></div>
       </section>
+
+      {yer && (
+        <section>
+          <h3 className="bolum-basligi">Keşif durağı</h3>
+          <a className="gunun-yeri" href={`#/sozluk/${yer.id}`}>
+            {yer.gorsel && (
+              <div className="gunun-yeri-gorsel">
+                <img src={gorselAdresi(yer.gorsel)} alt="" loading="lazy" width={720} height={446} />
+                <div className="gunun-yeri-kapak">
+                  <span className="ust-etiket">Bugün Türkiye'den bir yer</span>
+                  <h4>{yer.terim}</h4>
+                </div>
+              </div>
+            )}
+            <div className="gunun-yeri-govde">
+              {!yer.gorsel && <><span className="ust-etiket">Bugün Türkiye'den bir yer</span><h4>{yer.terim}</h4></>}
+              <p>{yer.tanim}</p>
+              <span className="gunun-yeri-ok">Kartı aç <Simge ad="ok" boyut={16} /></span>
+            </div>
+          </a>
+        </section>
+      )}
 
       {buHafta.length > 0 && (
         <section className="bu-hafta">
@@ -182,27 +204,13 @@ export function Bugun() {
       )}
 
       <a className="rozet-seridi" href="#/ilerleme">
-        <Simge ad="anahtarlar" boyut={22} />
+        <Amblem boyut={30} />
         <div className="satir-govde">
           <strong>Rozetlerin · {kazanilanRozet}/{rozetListesi.length}</strong>
           {siradakiRozet && <span>Sıradaki: {siradakiRozet.ad} — {siradakiRozet.aciklama}</span>}
         </div>
         <Simge ad="ok" boyut={18} />
       </a>
-
-      {yer && (
-        <section>
-          <h3 className="bolum-basligi">Keşif durağı</h3>
-          <a className="gunun-yeri" href={`#/sozluk/${yer.id}`}>
-            {yer.gorsel && <img src={gorselAdresi(yer.gorsel)} alt="" loading="lazy" width={720} height={446} />}
-            <div className="gunun-yeri-govde">
-              <span className="ust-etiket">Bugün Türkiye'den bir yer</span>
-              <h4>{yer.terim}</h4>
-              <p>{yer.tanim}</p>
-            </div>
-          </a>
-        </section>
-      )}
 
       <section>
         <h3 className="bolum-basligi">Derslerin</h3>
@@ -214,10 +222,10 @@ export function Bugun() {
             return (
               <a key={d.ders} className="ders-karti" href={`#/dersler/${d.ders}`}>
                 <Cizim className="ders-karti-cizim" />
-                <span className="ust-etiket">{d.sinif}. sınıf · {d.uniteler.length} ünite</span>
+                <span className="ust-etiket">{d.uniteler.length} ünite · {toplam} ders</span>
                 <strong>{d.ad}</strong>
                 <Cubuk oran={toplam ? biten / toplam : 0} />
-                <span className="ders-karti-alt">{biten === 0 ? `${toplam} ders seni bekliyor` : `${biten}/${toplam} ders tamamlandı`}</span>
+                <span className="ders-karti-alt">{biten === 0 ? "Henüz başlamadın" : `${biten} ders tamamlandı`}</span>
               </a>
             );
           })}
@@ -228,7 +236,7 @@ export function Bugun() {
         <section>
           <h3 className="bolum-basligi">Günün vakası</h3>
           <a className="gunun-vakasi" href={`#/vaka/${vaka.unite.anahtar}`}>
-            <span className="ust-etiket"><Simge ad="zil" boyut={14} /> {vaka.unite.baslik}</span>
+            <span className="ust-etiket"><Simge ad="zil" boyut={14} /> {DERS_LISTESI.find((d) => d.ders === vaka.unite.ders)?.kisaAd ?? vaka.unite.dersAdi} · Ünite {romen(vaka.unite.no)}</span>
             <p>{vaka.vaka.durum}</p>
             <strong>{vaka.vaka.soru} <Simge ad="ok" boyut={16} /></strong>
           </a>
