@@ -1294,7 +1294,7 @@
     "gt2-3-087"
    ],
    "kontrol": null,
-   "gorsel": "rafting"
+   "gorsel": "ek-koprulu-kanyon"
   },
   {
    "id": "gt2-3-037",
@@ -1309,7 +1309,8 @@
     "gt2-3-029",
     "gt2-3-033"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "kayak"
   },
   {
    "id": "gt2-3-038",
@@ -1371,7 +1372,8 @@
     "gt2-3-042",
     "gt2-3-027"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-perge-nymphaeum"
   },
   {
    "id": "gt2-3-042",
@@ -1402,7 +1404,8 @@
     "gt2-3-064",
     "gt2-3-029"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-termessos"
   },
   {
    "id": "gt2-3-044",
@@ -2462,7 +2465,8 @@
     "gt2-3-116",
     "gt2-3-119"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-canakkale-sehitler-aniti"
   },
   {
    "id": "gt2-3-118",
@@ -2738,7 +2742,8 @@
     "gt2-3-135",
     "gt2-3-137"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-bandirma-vapuru"
   },
   {
    "id": "gt2-3-137",
@@ -2873,7 +2878,8 @@
     "gt2-3-147",
     "gt2-3-143"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-rafting-firtina"
   },
   {
    "id": "gt2-3-146",
@@ -3113,7 +3119,8 @@
     "gt2-3-215",
     "gt2-3-216"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-ordu-boztepe"
   },
   {
    "id": "gt2-3-215",
@@ -3317,7 +3324,7 @@
    "konu": "3.2.2",
    "terim": "Afyonkarahisar Mevlevihanesi",
    "ingilizce": "Afyonkarahisar Mevlevi Lodge",
-   "tanim": "Afyonkarahisar kent merkezinde bulunan, Mevlâna'nın soyundan gelen Sultan Divani'nin şeyhlik yaptığı ve Anadolu'da kurulan ilk Mevlevi merkezlerinden sayılan, bugün müze olarak gezilen yapıdır.",
+   "tanim": "Mevlâna'nın soyundan gelen Sultan Divani'nin şeyhlik yaptığı ve Anadolu'da kurulan ilk Mevlevi merkezlerinden sayılan, Afyonkarahisar kent merkezinde bulunan ve bugün müze olarak gezilen yapıdır.",
    "ornek": "Termal otelde kalan konuklar öğleden sonra 14.00'te şehir turuna çıkar; rehber avluda Mevlevîliği ve Sultan Divani'yi anlatır.",
    "sektor": "Mevlevihane, Mevlevî dervişlerinin eğitim gördüğü ve sema yaptığı yerdir. Termal turizm için gelen konuğa bir kültür durağı eklemek kalış süresini uzatır. Ders kitabı yapıyı Sultan Divani adıyla anar.",
    "iliskili": [
@@ -3557,7 +3564,7 @@
    "konu": "3.2.4",
    "terim": "Giresun Adası",
    "ingilizce": "Giresun Island",
-   "tanim": "Giresun kent merkezinin açıklarında bulunan; üzerinde eski çağlardan kalma yapı kalıntıları olan ve Doğu Karadeniz kıyısında yerleşim görmüş ada olarak bilinen küçük adadır.",
+   "tanim": "Doğu Karadeniz kıyısında yerleşim görmüş ada olarak bilinen; Giresun kent merkezinin açıklarında bulunan ve üzerinde eski çağlardan kalma yapı kalıntıları olan küçük adadır.",
    "ornek": "Mayıs ayındaki şenlikte limandan kalkan tekneler adanın çevresinde tur atar; konuklar adayı ve arkasındaki yeşil yamaçları denizden fotoğraflar.",
    "sektor": "Karadeniz kıyısında ada çok azdır; bu yüzden kent için güçlü bir tanıtım simgesidir. Adaya ulaşım tekneyledir ve hava koşullarına bağlıdır: görevli konuğa söz vermeden önce o günkü sefer durumunu öğrenir.",
    "iliskili": [
@@ -5834,7 +5841,8 @@
     "gt2-3-589",
     "gt2-3-592"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-yayla"
   },
   {
    "id": "gt2-3-591",
@@ -7747,7 +7755,7 @@
     "gt2-3-169"
    ],
    "kontrol": null,
-   "gorsel": "kayak"
+   "gorsel": "ek-palandoken-atlama-kuleleri"
   },
   {
    "id": "gt2-3-179",
@@ -7790,7 +7798,8 @@
     "gt2-3-182",
     "gt2-3-189"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-nemrut-krater-golu"
   },
   {
    "id": "gt2-3-182",
@@ -8105,7 +8114,7 @@
    "konu": "3.3.1",
    "terim": "Yozgat Çamlığı Millî Parkı",
    "ingilizce": "Yozgat Pine Grove National Park",
-   "tanim": "Yozgat şehir merkezinin hemen yanındaki çam ormanını koruyan ve 1958'de ilan edilerek Türkiye'nin ilk millî parkı olan doğal alandır.",
+   "tanim": "Türkiye'nin ilk millî parkı olan; Yozgat şehir merkezinin hemen yanındaki çam ormanını koruyan ve 1958'de ilan edilen doğal alandır.",
    "ornek": "Pazar günü şehirden yürüyerek gelen aileler çam ağaçlarının altında piknik yapar; çocuklar bilgi levhasında 'ilk millî park' yazısını okur.",
    "sektor": "Millî park, doğası devlet tarafından korunan ve kurallara uyarak gezilen alandır. Bozkırın ortasındaki bu orman, Yozgat'tan geçen turlara dinlenme molası ve 'ilk' olma hikâyesi kazandırır.",
    "iliskili": [
@@ -8330,7 +8339,7 @@
    "konu": "3.3.2",
    "terim": "Ardahan Kalesi",
    "ingilizce": "Ardahan Castle",
-   "tanim": "Ardahan şehir merkezinde, Kura Nehri'nin kıyısında yükselen ve şehrin simgesi sayılan tarihî kaledir.",
+   "tanim": "Kura Nehri'nin kıyısında, Ardahan şehir merkezinde yükselen ve şehrin simgesi sayılan tarihî kaledir.",
    "ornek": "Eylül'de Kars'tan gelen grup köprünün üzerinde durur; rehber nehrin öte yakasındaki surları ve burçları gösterir.",
    "sektor": "Ardahan'a gelen konuk çoğu zaman Kars ve Çıldır Gölü'yle birlikte gezer. Küçük illerde tek başına bir kale tur satmaz; komşu illerin değerleriyle aynı rotaya konduğunda ürün olur.",
    "iliskili": [
@@ -8537,7 +8546,8 @@
     "gt2-3-337",
     "gt2-3-338"
    ],
-   "kontrol": null
+   "kontrol": null,
+   "gorsel": "ek-tuz-golu"
   },
   {
    "id": "gt2-3-337",
@@ -8614,7 +8624,7 @@
    "konu": "3.3.1",
    "terim": "Sivas Gök Medrese",
    "ingilizce": "Gök Medrese (Sivas)",
-   "tanim": "Sivas kent merkezinde bulunan; Selçuklu Dönemi'nde yapılmış, iki minareli taç kapısı ve adını aldığı mavi çinileriyle tanınan medresedir.",
+   "tanim": "Selçuklu Dönemi'nde yapılmış, Sivas kent merkezinde bulunan; iki minareli taç kapısı ve adını aldığı mavi çinileriyle tanınan medresedir.",
    "ornek": "Kent meydanındaki Şifaiye, Buruciye ve Çifte Minareli medreseleri gezen grup, kısa bir yürüyüşle Gök Medrese'ye gelir ve kapının taş işçiliğini fotoğraflar.",
    "sektor": "'Gök' sözcüğü burada mavi renk anlamındadır. Tokat'ta ve Amasya'da da aynı adı taşıyan yapılar vardır; programda şehir adıyla birlikte yazılır. Sivas'ın Selçuklu medreseleri birbirine yakındır, yarım günde gezilir.",
    "iliskili": [
@@ -8740,7 +8750,7 @@
    "konu": "3.3.2",
    "terim": "Kars Kalesi",
    "ingilizce": "Kars Castle",
-   "tanim": "Kars kent merkezinde, Kars Çayı'nın kıyısındaki tepede bulunan; koyu renkli taştan yapılmış ve şehrin pek çok yerinden görülen kaledir.",
+   "tanim": "Koyu renkli taştan yapılmış; Kars kent merkezinde, Kars Çayı'nın kıyısındaki tepede bulunan ve şehrin pek çok yerinden görülen kaledir.",
    "ornek": "Bir gün önce trenle gelen konuklar sabah kahvaltıdan sonra kaleye çıkar; karla kaplı şehri ve aşağıdaki taş köprüyü fotoğraflar.",
    "sektor": "Ani'ye gitmeden önce ya da sonra gezilen şehir içi duraktır. Kars'ta kış uzun ve çok soğuktur: görevli konuğa kat kat giyinmesini, kaygan zemine uygun ayakkabı almasını hatırlatır.",
    "iliskili": [
@@ -9144,7 +9154,7 @@
    "konu": "3.3.1",
    "terim": "Karaman Kalesi",
    "ingilizce": "Karaman Castle",
-   "tanim": "Karaman şehir merkezinde bulunan, Karamanoğulları Beyliği'ne başkentlik yapan kentin tarihî kalesidir.",
+   "tanim": "Karamanoğulları Beyliği'ne başkentlik yapmış olan Karaman'ın şehir merkezinde bulunan tarihî kalesidir.",
    "ornek": "Karaman'da öğle arasında kale surlarının altında çay içen konuklar, rehberden beyliğin hikâyesini dinler.",
    "sektor": "Karamanoğulları Anadolu'da bir beylik kurmuş, Karaman bu beyliğe başkentlik yapmıştır. Şehir turunda kale ile medreseler birlikte gezilince konuk Karamanoğulları dönemini bir bütün olarak görür.",
    "iliskili": [
@@ -10693,7 +10703,7 @@
    "konu": "3.3.3",
    "terim": "Gaziantep Kalesi",
    "ingilizce": "Gaziantep Castle",
-   "tanim": "Gaziantep şehir merkezinde bulunan ve eteğinde Gorgo Medusa Cam Eserler Müzesi bulunan tarihî kaledir.",
+   "tanim": "Eteğinde Gorgo Medusa Cam Eserler Müzesi bulunan ve Gaziantep şehir merkezinde yer alan tarihî kaledir.",
    "ornek": "Gaziantep'te öğleden sonra kale surlarına çıkan konuklar şehri izler; sonra eteğindeki müzeye iner.",
    "sektor": "Kale şehir turunun başlangıç noktasıdır; eteğindeki müze ve çarşılar yürüyerek gezilir. Gaziantep'in mutfağı akşam yemeği için ana durak olur.",
    "iliskili": [
@@ -10989,10 +10999,10 @@
    "secenekler": [
     "İran",
     "Gürcistan",
-    "Azerbaycan",
-    "Ermenistan"
+    "Ermenistan",
+    "Azerbaycan"
    ],
-   "dogru": 2,
+   "dogru": 3,
    "aciklama": "Nahçıvan, Azerbaycan'a bağlı özerk cumhuriyettir. Türkiye Azerbaycan'ın ana topraklarıyla değil, Nahçıvan'la sınır komşusudur."
   },
   {
@@ -11191,10 +11201,10 @@
    "secenekler": [
     "Muğla",
     "Denizli",
-    "Aydın",
-    "Manisa"
+    "Manisa",
+    "Aydın"
    ],
-   "dogru": 2,
+   "dogru": 3,
    "aciklama": "Afrodisias Aydın'ın Karacasu ilçesindedir ve UNESCO Dünya Miras Listesi'nde yer alır. Pamukkale'ye yakın olduğu için Denizli ile karıştırılabilir."
   },
   {
@@ -11322,7 +11332,7 @@
    "soru": "Ne yaparsın?",
    "secenekler": [
     "Hatayı işaretler, doğrusunun Aydın olduğunu şefime hemen bildiririm.",
-    "Küçük bir ayrıntı olduğu için dokunmam; konuklar zaten fark etmez.",
+    "Küçük bir ayrıntı olduğu için dokunmam; konuklar zaten fark etmez diye düşünürüm.",
     "Kimseye sormadan dosyayı açar, uygun gördüğüm bütün yerleri değiştiririm.",
     "Arkadaşım izinden dönene kadar broşürü çekmecemde bekletirim."
    ],
@@ -11377,7 +11387,7 @@
    "durum": "Pamukkale'de tur rehberine yardım ediyorsun. Gruptan bir konuk 'Ayakkabımı çıkarmak istemiyorum, ayağım üşür.' diyerek travertenlere ayakkabıyla çıkmaya hazırlanıyor. Rehber grubun önünde, seni duymuyor.",
    "soru": "Ne yaparsın?",
    "secenekler": [
-    "Görmezden gelirim; uyarmak rehberin işidir.",
+    "Görmezden gelirim; uyarmak rehberin işi diye düşünürüm.",
     "Kuralı ve nedenini nazikçe anlatır, rehbere haber veririm.",
     "Yüksek sesle 'Yasak, cezası var!' diye bağırırım.",
     "Bir kereden bir şey olmayacağını söyler, hızlı geçmesini isterim."
@@ -11964,9 +11974,9 @@
    "tur": "coktan-secmeli",
    "soru": "1071'de Sultan Alparslan'ın kazandığı zaferle anılan Malazgirt hangi ilin ilçesidir?",
    "secenekler": [
-    "Erzincan",
-    "Tunceli",
-    "Bingöl",
+    "Van",
+    "Ağrı",
+    "Kars",
     "Muş"
    ],
    "dogru": 3,
@@ -12222,7 +12232,7 @@
    "soru": "Ne yaparsın?",
    "secenekler": [
     "Satışı kaçırmamak için kesin iyileşeceğini söylersin.",
-    "Daha önce giden konukların hepsinin iyileştiğini anlatırsın.",
+    "Daha önce giden konukların büyük bölümünün tamamen iyileştiğini anlatırsın.",
     "Tesisi anlatır, tedavi için hekimine danışmasını önerirsin.",
     "Bu konuda bilgin olmadığını söyleyip telefonu kapatırsın."
    ],
@@ -12857,7 +12867,7 @@
    "soru": "Ne yaparsın?",
    "secenekler": [
     "Konuğun rahatça çekim yapabilmesi için köylünün ambarın yanından biraz uzaklaşmasını rica ederim.",
-    "Hiçbir şey demem; sonuçta konuk geziye ödeme yapmıştır ve istediğini yapabilir.",
+    "Hiçbir şey demem; sonuçta konuk geziye ödeme yapmıştır, istediğini yapabileceğini düşünürüm.",
     "Ambarların turistik alan sayıldığını, bu yüzden hiçbir sorun çıkmayacağını söylerim.",
     "Konuğa ambarın köylünün malı olduğunu, önce izin alınması gerektiğini nazikçe hatırlatırım."
    ],
@@ -12871,7 +12881,7 @@
    "soru": "Ne yaparsın?",
    "secenekler": [
     "Çöplerin sonra bir görevli tarafından toplanacağını söyler, grubun rahatça gitmesini sağlarım.",
-    "Çöplerin parkta bırakılmayacağını söyler, hepsini poşete koyup götürmelerine yardım ederim.",
+    "Çöplerin parkta bırakılmayacağını söyler, bütün atıkları poşete koyup götürmelerine yardım ederim.",
     "Çöpleri vadinin kıyıdaki bir köşesine gömmelerini önerir, böylece görünmeyeceğini söylerim.",
     "Çöp bırakmanın büyük sorun olmadığını, doğanın zamanla kendini temizleyeceğini söylerim."
    ],

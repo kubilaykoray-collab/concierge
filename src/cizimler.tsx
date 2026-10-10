@@ -131,6 +131,8 @@ const UNITE_PIKTOGRAMI: Record<string, PiktogramAdi> = {
   "global-otelcilik/1": "harita",
   "global-otelcilik/2": "konuk",
   "global-otelcilik/3": "parilti",
+  "global-otelcilik/4": "maske",
+  "global-otelcilik/5": "bavul",
   "konaklama-seyahat/1": "damla",
   "konaklama-seyahat/2": "kalkan",
   "konaklama-seyahat/3": "papyon",

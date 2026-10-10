@@ -651,6 +651,20 @@ button {
 .nasil-adim strong { font: 600 1.02rem var(--serif); }
 .nasil-adim small { font-size: 0.74rem; color: var(--soluk); line-height: 1.35; }
 
+.kurulum-ipucu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 12px 14px 16px;
+  border: 1px dashed var(--altin);
+  border-radius: var(--kose);
+  background: var(--kagit);
+}
+
+.kurulum-ipucu strong { color: var(--murekkep); }
+.kurulum-ipucu span { font-size: 0.82rem; color: var(--soluk); }
+.kurulum-ipucu .yuvarlak-dugme { flex: none; }
+
 .rozet-seridi {
   display: flex;
   align-items: center;

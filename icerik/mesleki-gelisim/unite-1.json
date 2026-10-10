@@ -52,7 +52,7 @@
       "sektor": "Programın anahtar kavramlarından. Otelde iş, bilgi doğru kişiye doğru biçimde ulaştığında yürür. Ne söylediğin kadar nasıl söylediğin de mesajdır.",
       "iliskili": ["mg-1-009", "mg-1-002", "mg-1-006"], "kontrol": null, "gorsel": "resepsiyon" },
     { "id": "mg-1-009", "konu": "1.1", "terim": "İletişim bileşenleri", "ingilizce": "Elements of communication",
-      "tanim": "İletişim sürecini oluşturan öğeler: gönderici, mesaj, kanal, alıcı, geri bildirim ve gürültü.",
+      "tanim": "Süreci oluşturan öğeler: gönderici, mesaj, kanal, alıcı, geri bildirim ve gürültü.",
       "ornek": "Saat 11.00, resepsiyon: görevli (gönderici) çıkış saatini (mesaj) yüz yüze (kanal) söyler; misafir (alıcı) 'Saat 12.00, değil mi?' diye sorar (geri bildirim). Lobideki uğultu ise gürültüdür.",
       "sektor": "Bir yanlış anlaşılma yaşandığında 'Zincir nerede koptu?' diye bu öğelere bakılır: mesaj mı açık değildi, kanal mı yanlıştı, geri bildirim mi alınmadı?",
       "iliskili": ["mg-1-001", "mg-1-002", "mg-1-003", "mg-1-004", "mg-1-005", "mg-1-006", "mg-1-007"], "kontrol": null },

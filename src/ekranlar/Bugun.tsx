@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Cubuk, dakika, Simge } from "../bilesenler";
 import { rutbe, seri } from "../cekirdek/ilerleme";
 import { bugun, USTA_KUTU, vadesiGelenler } from "../cekirdek/leitner";
@@ -34,8 +35,21 @@ function gununVakasi(gun: string) {
   return hepsi[sayi % hepsi.length];
 }
 
+// Uygulama tarayıcıda açıksa (ana ekrana kurulmamışsa) kurulum ipucu gösterilir; öğrenci kapatınca bir daha çıkmaz.
+const KURULUM_ANAHTARI = "lobi.kurulum.gizle";
+const kuruluMu = () => {
+  try {
+    return window.matchMedia("(display-mode: standalone)").matches || (navigator as { standalone?: boolean }).standalone === true;
+  } catch {
+    return true;
+  }
+};
+const kurulumGizli = () => { try { return localStorage.getItem(KURULUM_ANAHTARI) === "1"; } catch { return true; } };
+
 export function Bugun() {
   const ilerleme = useIlerleme();
+  const [kurulumIpucu, kurulumIpucuAyarla] = useState(() => !kuruluMu() && !kurulumGizli());
+  const kurulumKapat = () => { try { localStorage.setItem(KURULUM_ANAHTARI, "1"); } catch { /* özel pencere */ } kurulumIpucuAyarla(false); };
   const gun = bugun();
   const simdi = new Date();
   const r = rutbe(ilerleme.puan);
@@ -131,6 +145,16 @@ export function Bugun() {
         <div><Simge ad="kitap" /><strong>{ogrenilen}</strong><span>öğrenilen</span></div>
         <div><Simge ad="yildiz" /><strong>{usta}</strong><span>ustalaşılan</span></div>
       </section>
+
+      {kurulumIpucu && (
+        <div className="kurulum-ipucu">
+          <div className="satir-govde">
+            <strong>Telefonuna kur, internetsiz çalışsın</strong>
+            <span>Android: tarayıcı menüsü ⋮ → "Ana ekrana ekle". iPhone: Safari'de paylaş → "Ana Ekrana Ekle".</span>
+          </div>
+          <button className="yuvarlak-dugme" onClick={kurulumKapat} aria-label="Kapat"><Simge ad="kapat" boyut={18} /></button>
+        </div>
+      )}
 
       <a className="rozet-seridi" href="#/ilerleme">
         <Simge ad="anahtarlar" boyut={22} />

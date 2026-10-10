@@ -1,0 +1,1673 @@
+{
+  "ders": "global-otelcilik",
+  "sinif": 9,
+  "unite": 4,
+  "baslik": "Servis Sanatı ve Dünya Mutfağı",
+  "onay": true,
+  "kazanimlar": [
+    "Uluslararası restoran ve mutfak organizasyonunu, unvanları ve çalışma düzenini açıklar.",
+    "Dünyada kullanılan servis tarzlarını ve masa düzeni ilkelerini uygular.",
+    "Menü türlerini, dünya mutfaklarının temel kavramlarını ve gastronomi turizmini açıklar.",
+    "Beslenme tercihleri, alerjenler ve kültürel hassasiyetler karşısında doğru servisi uygular."
+  ],
+  "soz": "Konuk yemeğin tadını hatırlar, ama onu o masaya oturtan hissi servis kurar.",
+  "dersler": [
+    {
+      "baslik": "Salonun Komutanları",
+      "ilk": "go-4-001"
+    },
+    {
+      "baslik": "Sahibi Olan Masa",
+      "ilk": "go-4-005"
+    },
+    {
+      "baslik": "Mutfakta Rütbeler",
+      "ilk": "go-4-008"
+    },
+    {
+      "baslik": "Ocağın Başında",
+      "ilk": "go-4-011"
+    },
+    {
+      "baslik": "Sipariş Mutfağa Nasıl Gider?",
+      "ilk": "go-4-014"
+    },
+    {
+      "baslik": "Yemek Masaya Nasıl Gelir?",
+      "ilk": "go-4-019"
+    },
+    {
+      "baslik": "Ev Usulünden Tepsiye",
+      "ilk": "go-4-023"
+    },
+    {
+      "baslik": "Masayı Kurmak",
+      "ilk": "go-4-028"
+    },
+    {
+      "baslik": "Sağdan mı, Soldan mı?",
+      "ilk": "go-4-032"
+    },
+    {
+      "baslik": "Menüyü Okumak",
+      "ilk": "go-4-036"
+    },
+    {
+      "baslik": "Restoranın Kişiliği",
+      "ilk": "go-4-040"
+    },
+    {
+      "baslik": "Dünya Sofrasında Dört Durak",
+      "ilk": "go-4-045"
+    },
+    {
+      "baslik": "Yıldızlar ve Şehirler",
+      "ilk": "go-4-049"
+    },
+    {
+      "baslik": "Türk Sofrasının Mirası",
+      "ilk": "go-4-052"
+    },
+    {
+      "baslik": "Tabağını Seçen Konuk",
+      "ilk": "go-4-057"
+    },
+    {
+      "baslik": "Alerji Şaka Değildir",
+      "ilk": "go-4-062"
+    },
+    {
+      "baslik": "Alerjide Sıra ve Acil",
+      "ilk": "go-4-065"
+    },
+    {
+      "baslik": "Her Konuğa Ayrı Masa",
+      "ilk": "go-4-067"
+    },
+    {
+      "baslik": "Hesap, Şikâyet, Hijyen",
+      "ilk": "go-4-071"
+    }
+  ],
+  "kavramlar": [
+    {
+      "id": "go-4-001",
+      "konu": "4.1",
+      "terim": "Restoran müdürü",
+      "ingilizce": "Restaurant manager",
+      "tanim": "Yemek salonunun açılışından kapanışına kadar servisi, ekibi ve konuk memnuniyetini yöneten kişidir.",
+      "ornek": "Cuma akşamı 19.30, Bodrum'da bir otelin restoranı: müdür salonu dolaşır, geç kalan masayı fark eder, mutfakla konuşur ve doğum günü olan masaya tatlı ikramı için garsonu yönlendirir.",
+      "sektor": "Restoran müdürü hem konuğu hem ekibi okur: bir yandan şikâyeti çözer, bir yandan vardiya planını ve stoğu izler. Otelde genellikle yiyecek ve içecek müdürüne bağlı çalışır ve stajyer için kariyer basamağının üst noktalarından biridir.",
+      "iliskili": [
+        "go-4-002",
+        "go-4-003"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "restoran"
+    },
+    {
+      "id": "go-4-002",
+      "konu": "4.1",
+      "terim": "Maître d'hôtel",
+      "ingilizce": "Maître d'hôtel (head waiter)",
+      "tanim": "Büyük ve özenli restoranlarda yemek salonunun akışını yöneten, konukları karşılayıp masalarını belirleyen kıdemli salon sorumlusudur.",
+      "ornek": "Akşam 20.00, İstanbul'da bir otelin fine dining restoranı: maître d' rezervasyon defterine bakar, yıldönümünü kutlayan çifti pencere kenarına alır ve ekibe önceden haber verir.",
+      "sektor": "Unvan işletmeden işletmeye değişir; bazı yerlerde restoran müdürüyle aynı kişidir, bazı yerlerde ondan bir basamak altta çalışır. Konukla ilk ve son göz teması çoğu zaman onunladır; salonun havasını o kurar.",
+      "iliskili": [
+        "go-4-001",
+        "go-4-004"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-003",
+      "konu": "4.1",
+      "terim": "Host (karşılama görevlisi)",
+      "ingilizce": "Host (greeter)",
+      "tanim": "Restoran girişinde konuğu karşılayan, boş masalara bakan ve konuğu masasına götüren görevlidir.",
+      "ornek": "Sabah 08.30, Antalya'da bir resortun kahvaltı salonu: host oda numarasını sorar, listeden doğrular ve bebek arabalı aileyi kolay ulaşılır bir masaya yönlendirir.",
+      "sektor": "Konuğun restorana girince gördüğü ilk yüz hosttur; ilk izlenim burada kurulur. Doğru yerleştirme bekleme süresini kısaltır ve masaların garsonlar arasında dengeli dağılmasını sağlar.",
+      "iliskili": [
+        "go-4-002",
+        "go-4-007"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-004",
+      "konu": "4.1",
+      "terim": "Chef de rang",
+      "ingilizce": "Chef de rang (station head waiter)",
+      "tanim": "Belirli masa grubundan sorumlu olan, siparişi alıp servisi yöneten ve komiyle birlikte çalışan deneyimli garsondur.",
+      "ornek": "Akşam 21.00, Çeşme'de bir otelin restoranı: chef de rang kendi dört masasının siparişini alır, yemekleri sırayla çıkartır ve komiye hangi masanın tabaklarının kaldırılacağını söyler.",
+      "sektor": "Bazı otellerde aynı görev captain (kaptan garson) diye anılır. Klasik düzende komi, demi-chef de rang ve chef de rang basamakları vardır; her işletmede bu adlar kullanılmaz. Chef de rang kendi masalarının memnuniyetini ve gelirini sahiplenen kişidir.",
+      "iliskili": [
+        "go-4-005",
+        "go-4-006",
+        "go-4-007"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-005",
+      "konu": "4.1",
+      "terim": "Garson",
+      "ingilizce": "Waiter (server)",
+      "tanim": "Konuktan siparişi alan, yemeği ve içeceği masaya getiren ve masayı baştan sona takip eden servis görevlisidir.",
+      "ornek": "Öğle 12.30, Kapadokya'da bir otel restoranı: garson masaya gelir, günün çorbasını ve içindekileri kısaca anlatır, konuğa alerjisi olup olmadığını sorar.",
+      "sektor": "Garson restoranın en çok konuşan yüzüdür; menüyü iyi bilen garson önerisiyle satışı artırır. Dünya otelciliğinde cinsiyetten bağımsız olarak çoğu zaman server denir. Gülümsemek, doğru önermek ve konuğu yormadan hizmet etmek işin üç ayağıdır.",
+      "iliskili": [
+        "go-4-004",
+        "go-4-006"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-006",
+      "konu": "4.1",
+      "terim": "Komi (commis de rang)",
+      "ingilizce": "Commis de rang (junior waiter)",
+      "tanim": "Garsona yardım eden, masaları kuran, su ve ekmek servisi yapan ve kirli tabakları toplayan başlangıç düzeyi salon görevlisidir.",
+      "ornek": "Sabah 07.00, kahvaltı salonu: komi büfedeki boşalan tabakları yeniler, biten masaları toplar ve yeni gelecek konuk için kuveri yeniden kurar.",
+      "sektor": "Stajyerler en sık bu görevle başlar. Komi izleyerek öğrenir: konuğun nasıl oturduğunu, garsonun masaya nasıl yaklaştığını görür. Hızlı ama sessiz çalışmak burada öğrenilen ilk beceridir.",
+      "iliskili": [
+        "go-4-005",
+        "go-4-004"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-007",
+      "konu": "4.1",
+      "terim": "Servis bölgesi ve masa numaraları",
+      "ingilizce": "Service station and table numbering",
+      "tanim": "Salonun masa gruplarına ayrılıp her grubun belirli bir garsona verilmesi, masalara ve koltuklara numara verilmesi düzenidir.",
+      "ornek": "Akşam 18.45, Side'de bir otelin restoranı: salon üç bölgeye ayrılmıştır; garson 1-6 numaralı masalara bakar ve sipariş fişine masa numarasını ve koltuk sırasını yazar.",
+      "sektor": "Her masanın bir sahibi olduğunda 'kimse bakmadı' durumu biter. Koltuk numarası da yemeğin doğru kişiye gitmesini sağlar; numaralama sırası işletmeden işletmeye değişir ve ekibin tamamı aynı kuralı bilmelidir.",
+      "iliskili": [
+        "go-4-003",
+        "go-4-015"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-008",
+      "konu": "4.1",
+      "terim": "Mutfak brigadı (brigade de cuisine)",
+      "ingilizce": "Kitchen brigade (brigade de cuisine)",
+      "tanim": "Mutfaktaki işlerin kıdem ve uzmanlık sırasına göre bölümlere ayrıldığı, askerî düzene benzeyen ekip sistemidir.",
+      "ornek": "Sabah 09.00, İstanbul'da büyük bir otelin mutfağı: sıcak kısımda bir ekip, pastanede başka bir ekip çalışır; hepsi aynı şefe bağlıdır ve herkes görevini bilir.",
+      "sektor": "Bu düzeni Fransız şef Auguste Escoffier'in sistemleştirip yaygınlaştırdığı kabul edilir ve dünya mutfaklarına yayılmıştır. Küçük otelde roller birleşir, büyük otelde tam olarak görülür; ama fikir aynıdır: herkesin bir işi vardır ve işler sırayla akar.",
+      "iliskili": [
+        "go-4-009",
+        "go-4-010",
+        "go-4-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-mutfak"
+    },
+    {
+      "id": "go-4-009",
+      "konu": "4.1",
+      "terim": "Executive chef",
+      "ingilizce": "Executive chef (head chef)",
+      "tanim": "Otelin bütün mutfaklarını yöneten, menüden maliyete, alımdan ekip eğitimine kadar her şeyden sorumlu baş aşçıdır.",
+      "ornek": "Sabah 10.00, Bodrum'da bir resort: executive chef yeni sezon menüsünü hazırlar, satın almayla yerel üretici listesini gözden geçirir ve sous chef'lere görev dağıtır.",
+      "sektor": "Executive chef günün büyük kısmını ocak başında değil, masa başında geçirir: planlama, maliyet, ekip ve kalite. Mutfak çalışanı için kariyer hedefidir; yiyecek ve içecek müdürüyle uyum içinde çalışır.",
+      "iliskili": [
+        "go-4-008",
+        "go-4-010"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-010",
+      "konu": "4.1",
+      "terim": "Sous chef",
+      "ingilizce": "Sous chef (deputy head chef)",
+      "tanim": "Executive chef'in yardımcısı olarak mutfağı günlük yöneten, şef yokken onun yerine karar veren aşçıdır.",
+      "ornek": "Akşam 18.30: servis başlamadan sous chef bölüm şeflerini toplar; bugünkü rezervasyon sayısını, özel diyet notlarını ve bitmek üzere olan malzemeleri anlatır.",
+      "sektor": "Servis anında kalite, hız ve düzeni sous chef tutar; mutfağın günlük kaptanıdır. Fransızca 'sous' altında demektir. Mutfakta ilerleyen kişi için çoğu mutfakta executive chef'ten önceki son basamaktır.",
+      "iliskili": [
+        "go-4-009",
+        "go-4-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-011",
+      "konu": "4.1",
+      "terim": "Chef de partie",
+      "ingilizce": "Chef de partie (station chef)",
+      "tanim": "Mutfakta belirli bir bölümün (sos, balık, tatlı gibi) sorumlusu olan ve o bölümde çalışanları yöneten aşçıdır.",
+      "ornek": "Akşam 19.00, ızgara bölümü: sorumlu aşçı bütün siparişleri tek tek sayar, etlerin pişme derecesini kontrol eder ve commis'sine garnitürü hazırlattırır.",
+      "sektor": "Mutfakta uzmanlaşmanın başladığı basamaktır; bir bölümde ustalaşan chef de partie sonra sous chef'e yükselebilir. Klasik düzende bölümün adı görevi söyler (ör. saucier sos, pâtissier tatlı ve pasta hazırlar).",
+      "iliskili": [
+        "go-4-010",
+        "go-4-012"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-012",
+      "konu": "4.1",
+      "terim": "Commis (aşçı yardımcısı)",
+      "ingilizce": "Commis chef (junior cook)",
+      "tanim": "Chef de partie'nin yanında çalışarak mutfağı öğrenen, malzeme hazırlayan ve basit pişirme işlerini yapan başlangıç düzeyi aşçıdır.",
+      "ornek": "Sabah 07.30: commis sebzeleri yıkar, doğrar ve kasalara koyar; chef de partie ona bıçak tutuşunu gösterir.",
+      "sektor": "Aşçılığın ilk basamağıdır. Yaygın yol commis, chef de partie, sous chef, executive chef sırasıyla ilerler. Sabırla ve dikkatle öğrenen commis çoğu zaman farklı bölümlerde çalışarak mutfağın tamamını görür.",
+      "iliskili": [
+        "go-4-011",
+        "go-4-008"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-013",
+      "konu": "4.1",
+      "terim": "Mise en place (servis öncesi hazırlık)",
+      "ingilizce": "Mise en place",
+      "tanim": "Fransızca 'yerli yerine koymak' anlamına gelen, servis başlamadan önce her şeyin hazır ve elinin altında olmasını sağlayan düzenli hazırlıktır.",
+      "ornek": "Akşam 17.30, Antalya'da bir otelin restoranı: servise bir saat var; garson peçeteleri katlar, tuzluk ve biberlikleri doldurur, menüleri kontrol eder. Mutfakta da soslar ve doğranmış sebzeler hazırlanır.",
+      "sektor": "Profesyoneller 'hazırlık servisin yarısıdır' der. Servis anında kaybedilen her dakika konukla geçirilemeyen dakikadır. Hazırlıklı ekip sakin görünür, sakin ekip de konuğa güven verir.",
+      "iliskili": [
+        "go-4-006",
+        "go-4-012"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-014",
+      "konu": "4.1",
+      "terim": "Adisyon",
+      "ingilizce": "Guest check (order slip)",
+      "tanim": "Restoranda masaya ait siparişlerin yazıldığı ve sonunda hesabın çıkarıldığı belgedir.",
+      "ornek": "Öğle 13.00: garson 5 numaralı masanın siparişini adisyona işler; konuk hesap isteyince kalemler yeniden yazılmak zorunda kalmaz, adisyon hazırdır.",
+      "sektor": "Yanlış yazılan tek kalem hem konuğun hem otelin hesabını bozar. Oda hesabına yazdırılan yemeklerde adisyon, ön büro hesabına doğru oda numarasıyla geçmelidir. Adisyondaki not (alerji, çocuk için ayrı tabak gibi) mutfağa da yansır.",
+      "iliskili": [
+        "go-4-015",
+        "go-4-016"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-fatura-fis"
+    },
+    {
+      "id": "go-4-015",
+      "konu": "4.1",
+      "terim": "Sipariş fişi (KOT)",
+      "ingilizce": "Kitchen order ticket (KOT)",
+      "tanim": "Garsonun aldığı siparişin, masa numarası ve notlarıyla birlikte mutfağa iletildiği fiştir.",
+      "ornek": "Akşam 20.15: garson siparişi tablete girer, sıcak kısımdaki yazıcıdan 12 numaralı masanın fişi çıkar; fişte 'fıstık alerjisi' notu kırmızı kalemle işaretlenir.",
+      "sektor": "KOT mutfağın sözlü emir yerine yazılı emir almasını sağlar; karışıklık azalır. Mutfak fişi bölümlere ayırır: soğuk başlangıç, sıcak yemek, tatlı. Eksik not ya da silik yazı, yanlış tabak demektir.",
+      "iliskili": [
+        "go-4-014",
+        "go-4-016",
+        "go-4-017"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-016",
+      "konu": "4.1",
+      "terim": "Restoran sipariş sistemi (POS)",
+      "ingilizce": "Restaurant order system (POS)",
+      "tanim": "Siparişin dokunmatik ekrandan girildiği, mutfağa ve kasaya anında iletildiği, hesabı oluşturan yazılım ve cihaz bütünüdür.",
+      "ornek": "Akşam 21.00, İzmir'de bir şehir oteli: garson siparişi el terminaline girer, mutfak ekranında hemen belirir; hesap istendiğinde kalemler eksiksizdir.",
+      "sektor": "Sistem hangi yemeğin çok satıldığını ve hangi saatin yoğun olduğunu raporlar; şefler menü kararını buna göre verir. Otelde sistem, oda hesabına yazdırma için ön büronun yazılımıyla da bağlanır. Garsonun sistemi hızlı ve doğru kullanması gelir kaybını önler.",
+      "iliskili": [
+        "go-4-015",
+        "go-4-014"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-017",
+      "konu": "4.1",
+      "terim": "Servis penceresi (pass)",
+      "ingilizce": "The pass",
+      "tanim": "Hazır yemeğin mutfaktan çıktığı, kontrol edilip servise verildiği tezgâh ya da pencere hattıdır.",
+      "ornek": "Akşam 20.40: aşçı tabağı pass'e koyar, sous chef tabağın kenarındaki sosu sildirir, sıcaklığı kontrol eder; garson fişle eşleştirip tabağı alır.",
+      "sektor": "Mutfak ile salon arasındaki son kalite kapısıdır. Tabak burada soğursa konuk soğuk yemek yer; bu yüzden sıcak yemek pass'te bekletilmez ve fişle eşleşmeyen tabak götürülmez. Büyük mutfaklarda pass'i ekspeditör denen bir koordinatör yönetir.",
+      "iliskili": [
+        "go-4-015",
+        "go-4-018"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-018",
+      "konu": "4.1",
+      "terim": "Servis akışı",
+      "ingilizce": "Sequence of service",
+      "tanim": "Konuğun karşılanmasından hesabın ödenip uğurlanmasına kadar restoranda izlenen adımlar dizisidir.",
+      "ornek": "Akşam 19.00, Marmaris'te bir otel restoranı: konuk karşılanır, oturtulur, su ve menü gelir, sipariş alınır, yemekler sırayla çıkar, tabaklar toplanır, hesap gelir ve konuk kapıda uğurlanır.",
+      "sektor": "Hizmetin her adımı bir halkadır; bir halka atlanırsa konuk bunu hisseder. Lüks restoranlar akışı yazılı standart hâline getirir (Ünite 2'deki hizmet standardı gibi). Konuk yemeğin tadı kadar bekleme anlarını da hatırlar.",
+      "iliskili": [
+        "go-4-017",
+        "go-4-003"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-019",
+      "konu": "4.2",
+      "terim": "Servis tarzı",
+      "ingilizce": "Style of service",
+      "tanim": "Yemeğin mutfaktan konuğun tabağına hangi yolla ve kimin eliyle ulaştığını belirleyen servis biçimidir.",
+      "ornek": "Aynı otelde sabah kahvaltısı büfeyle, öğle yemeği hazır tabakla, akşam yemeği fine dining salonunda masa başında servis edilir; konuk bir günde üç tarz görür.",
+      "sektor": "Tarz seçimi restoranın konseptini, fiyatını ve gereken personel sayısını belirler. Masa başı servis çok personel ister ve pahalıdır; büfe az personelle çok konuğa ulaşır. Hangi tarzda çalıştığını bilmeyen çalışan doğru davranamaz.",
+      "iliskili": [
+        "go-4-020",
+        "go-4-024",
+        "go-4-026"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-020",
+      "konu": "4.2",
+      "terim": "Fransız servisi",
+      "ingilizce": "French service",
+      "tanim": "Yemeğin konuğun gözü önünde, çoğunlukla masaya getirilen bir servis arabasında tamamlanarak sunulduğu, çok özenli ve zaman alan servis tarzıdır.",
+      "ornek": "Akşam 21.00, İstanbul'da bir otelin fine dining salonu: garson gümüş servis kabını masaya getirir, konuğa gösterir ve yemeği masa başında tamamlayarak tabağa koyar.",
+      "sektor": "Kaynaklara göre bu tarzın adı ve ayrıntıları biraz değişir; ortak fikir, yemeğin son hazırlığının masada ve konuğun gözü önünde yapılmasıdır. En çok eğitimli personel isteyen servislerdendir, bu yüzden lüks restoranlarda görülür.",
+      "iliskili": [
+        "go-4-021",
+        "go-4-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-021",
+      "konu": "4.2",
+      "terim": "Guéridon servisi",
+      "ingilizce": "Guéridon (trolley) service",
+      "tanim": "Yemeğin konuğun masasının yanına getirilen küçük bir servis arabasında dilimlenip hazırlandığı servis tekniğidir.",
+      "ornek": "Akşam 20.30, Ankara'da bir otelin restoranı: garson servis arabasında büyük balığı kılçığından ayırıp konuğun tabağına koyar, salatayı arabada sosla karıştırır.",
+      "sektor": "Gösterisi kadar becerisi de önemlidir: bıçak kullanımı ve temiz çalışma gerekir. Servis arabasında yapılan alevli sunumlara flambé denir; yangın riski taşıdığı için yalnız eğitimli ve yetkili servis personeli yapar, stajyer izler ve öğrenir.",
+      "iliskili": [
+        "go-4-020",
+        "go-4-022"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-022",
+      "konu": "4.2",
+      "terim": "Rus servisi",
+      "ingilizce": "Russian service",
+      "tanim": "Yemeğin mutfakta büyük bir servis tabağına dizildiği, garsonun bu tabaktan her konuğun önündeki boş tabağa çatal-kaşıkla porsiyon koyduğu servis tarzıdır.",
+      "ornek": "Akşam 20.00, Kapadokya'da bir otelin ziyafet salonu: garson, büyük tabaktaki kuzu etini sırayla her konuğun tabağına paylaştırır.",
+      "sektor": "Büyük davetlerde ve resmî yemeklerde görülür. Yemekler aynı anda sıcak çıkabilir ama garsonların eğitimli ve düzenli çalışması gerekir. Kaynaklara göre bu tarz farklı adlarla (ör. gümüş servis) anılabilir.",
+      "iliskili": [
+        "go-4-021",
+        "go-4-023",
+        "go-4-024"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-023",
+      "konu": "4.2",
+      "terim": "İngiliz servisi",
+      "ingilizce": "English service",
+      "tanim": "Yemeğin ev sahibinin masada kendisinin dilimleyip paylaştırdığı, garsonun ise tabakları dağıtıp yardımcı olduğu ev usulü servis tarzıdır.",
+      "ornek": "Pazar öğle yemeği, Bursa'da bir otelin özel yemek odası: büyük kuzu kızartması masaya gelir, ev sahibi dilimleyip tabaklara koyar, garson tabakları konuklara dağıtır.",
+      "sektor": "Otelde nadir görülür; özel davet masasında ev sahibi rolü konuğa verilir. Garsonun işi ev sahibine yardımcı olmak ve rolünü bozmamaktır. Kaynaklara göre bu tarzın adı ve ayrıntıları değişebilir.",
+      "iliskili": [
+        "go-4-022",
+        "go-4-025"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-024",
+      "konu": "4.2",
+      "terim": "Amerikan servisi (tabak servisi)",
+      "ingilizce": "American (plated) service",
+      "tanim": "Yemeğin mutfakta tabağa porsiyonlanıp süslendikten sonra hazır tabakla masaya getirildiği hızlı ve düzenli servis tarzıdır.",
+      "ornek": "Öğle 13.00, İzmir'de bir otelin toplantı yemeği: mutfak iki yüz kişiye aynı anda tabakları hazırlar; garsonlar tabakları kollarında taşıyıp masalara koyar.",
+      "sektor": "Otellerde ve restoranlarda en çok görülen tarzlardandır. Sunum mutfakta belirlendiği için her tabak aynı görünür. Hızlıdır, az personelle yapılabilir; masa başı gösteri sunmaz ve tabağın sıcak çıkması başarının anahtarıdır.",
+      "iliskili": [
+        "go-4-022",
+        "go-4-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-025",
+      "konu": "4.2",
+      "terim": "Aile usulü servis",
+      "ingilizce": "Family-style service",
+      "tanim": "Yemeklerin büyük kaplarda masanın ortasına konduğu ve konukların birbirine uzatarak kendi tabaklarına aldığı paylaşmalı servis türüdür.",
+      "ornek": "Akşam 20.00, Gaziantep'te bir otelin restoranı: masaya büyük bir tepsi kebap, pilav ve salata konur; aile birbirine uzatarak alır.",
+      "sektor": "Sıcak ve paylaşımcı bir hava verir; aile ve grup konuklar sever. Kaplar boşaldıkça yenilemek ve sıcak yemeği küçük çocukların uzanabileceği yere koymamak garsonun işidir.",
+      "iliskili": [
+        "go-4-023",
+        "go-4-026"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "tr-adana-kebap"
+    },
+    {
+      "id": "go-4-026",
+      "konu": "4.2",
+      "terim": "Büfe servisi tarzı",
+      "ingilizce": "Buffet-style service",
+      "tanim": "Yemeklerin bir masada topluca sergilendiği ve konukların istediklerini kendi tabaklarına aldığı self-servis tarzıdır.",
+      "ornek": "Sabah 08.00, Alanya'da bir resort: kahvaltı büfesinde sıcaklar ısıtıcıda, soğuklar buzlu tezgâhta durur; büfe görevlisi boşalan kapları yeniler ve her kaba ayrı maşa koyar.",
+      "sektor": "Garson sayısını azaltır ama büfe ekibini önemli kılar: ayrı maşa, dolu kaplar, temizlik ve yemek adı ile alerjen etiketi gerekir. Konuk kendi servisini yaptığı için bulaşma riski artar; kapların başında bir göz her zaman olmalıdır.",
+      "iliskili": [
+        "go-4-025",
+        "go-4-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-acik-bufe"
+    },
+    {
+      "id": "go-4-027",
+      "konu": "4.2",
+      "terim": "Oda servisi teslimi",
+      "ingilizce": "In-room dining delivery",
+      "tanim": "Odaya verilen siparişin tepside ve eksiksiz biçimde konuğun odasına götürülüp masada kurularak teslim edilmesidir.",
+      "ornek": "Sabah 07.30, 512 numaralı oda: görevli kapıyı vurup 'Oda servisi' der, konuk 'buyurun' deyince girer, kahvaltı tepsisini masaya kurar ve hesabı imzaya sunar.",
+      "sektor": "Konuk burada yalnızdır; tepsi onun restoranıdır. Yemek sıcak, tepsi eksiksiz, sunum düzgün olmalıdır. Konuk izin vermeden içeri girilmez ve boş tepsinin koridorda kalmaması için toplama saati konuğa sorulur.",
+      "iliskili": [
+        "go-4-019",
+        "go-4-024"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-oda-servisi"
+    },
+    {
+      "id": "go-4-028",
+      "konu": "4.2",
+      "terim": "Kuver düzeni",
+      "ingilizce": "Cover (place setting)",
+      "tanim": "Masada her konuk için hazırlanan tabak, çatal-bıçak, bardak ve peçeteden oluşan takımın belirli bir düzenle yerleştirilmesidir.",
+      "ornek": "Akşam 18.00, Beyoğlu'nda bir otelin restoranı: komi her masada dört kuver kurar; tabaklar masa kenarından eşit uzaklıkta, çatal-bıçaklar tabakla aynı hizadadır.",
+      "sektor": "Düzenli kuver konuğa daha servis başlamadan 'burada özen var' der. Eksik ya da kirli bir takım konuk oturduktan sonra fark edilirse dakikalarca bekleme demektir. Takımın içeriği menüye göre değişir: çorba yoksa çorba kaşığı konmaz.",
+      "iliskili": [
+        "go-4-029",
+        "go-4-030",
+        "go-4-031"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-masa-duzeni"
+    },
+    {
+      "id": "go-4-029",
+      "konu": "4.2",
+      "terim": "Çatal-bıçak dizilişi",
+      "ingilizce": "Cutlery layout",
+      "tanim": "Çatalların tabağın soluna, bıçak ve kaşıkların sağına, kullanılacakları sıraya göre dışarıdan içeriye doğru yerleştirilmesidir.",
+      "ornek": "Akşam 19.00, üç çeşit menülü bir masa: solda dışarıdan içeriye salata çatalı ve ana yemek çatalı, sağda çorba kaşığı ve ana yemek bıçağı durur; tatlı çatal-kaşığı tabağın üstünde yatay bekler.",
+      "sektor": "Kural: ilk kullanılacak takım en dıştadır, bıçağın keskin yüzü tabağa bakar. Konuk kafası karışsa bile 'dışarıdan içeriye' kuralını bilir ve rahat eder. Menü değişince takım da değişir; masa menüye göre kurulur.",
+      "iliskili": [
+        "go-4-028",
+        "go-4-030"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-030",
+      "konu": "4.2",
+      "terim": "Bardak yerleşimi",
+      "ingilizce": "Glassware placement (water and soft drinks)",
+      "tanim": "Su ve alkolsüz içecek bardaklarının tabağın sağ üstüne, ana yemek bıçağının hizasına yerleştirilmesidir.",
+      "ornek": "Öğle 12.00: komi su bardağını ana yemek bıçağının ucunun üstüne koyar, meyve suyu bardağını onun hemen yanına.",
+      "sektor": "Bardak konuğun sağ eline yakın durur, çünkü çoğu insan sağ eliyle alır ve uzanırken çatal-bıçağa değmez. Bardak ağızdan değil gövdesinden tutulur, parmak izi bırakmayacak biçimde parlatılır; lekeli bardak servis edilmez.",
+      "iliskili": [
+        "go-4-028",
+        "go-4-029"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-031",
+      "konu": "4.2",
+      "terim": "Peçete",
+      "ingilizce": "Table napkin",
+      "tanim": "Konuğun el ve ağzını silmek için kullandığı, masada tabağın üstüne ya da solunda hazır bekleyen kumaş veya kâğıt mendildir.",
+      "ornek": "Akşam 17.45: komi her tabağın ortasına bez peçeteyi yelpaze biçiminde katlayıp yerleştirir; katlama sırasında peçetenin ağza gelen yüzüne dokunmaz.",
+      "sektor": "Katlama restorana kimlik veren küçük bir imzadır; ama temiz ellerle yapılır. Konuk peçetesini düşürürse beklemeden yenisi getirilir. Bez peçetede temizlik ve ütü, kâğıtta düzgün durmak önemlidir.",
+      "iliskili": [
+        "go-4-028"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-032",
+      "konu": "4.2",
+      "terim": "Servis yönü",
+      "ingilizce": "Direction of service",
+      "tanim": "Yemeğin konuğun hangi tarafından getirileceğini, içeceğin ve kirli tabağın hangi yandan alınacağını belirleyen kuraldır.",
+      "ornek": "Akşam 20.00: garson yemeği konuğun solundan koyar, su sürahisiyle sağdan bardağı doldurur, işi biten tabağı sağdan alır.",
+      "sektor": "Yaygın düzende yemek soldan, içecek sağdan servis edilir, kirli tabak da sağdan alınır; ama işletmeler ve servis tarzları farklı uygulayabilir; işletme standardı esastır. Önemli olan ekibin tamamının aynı kuralı izlemesi ve konuğun önünden uzanıp yemeğini kapatmamasıdır.",
+      "iliskili": [
+        "go-4-033",
+        "go-4-028"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-033",
+      "konu": "4.2",
+      "terim": "Tabak kaldırma",
+      "ingilizce": "Clearing plates",
+      "tanim": "Yenen yemeğin tabaklarının, masadaki herkes bitirdikten sonra sessizce ve hızla masadan alınmasıdır.",
+      "ornek": "Akşam 20.45: masadaki herkesin çatal ve bıçağı tabağa paralel yatıyor; garson tabakları sağdan alır, çatal-bıçakları tabağın üstünde toplar.",
+      "sektor": "Konuk bitirmeden tabak alınırsa 'acele ettiriliyorum' hisseder. Çatal ve bıçağın tabağa paralel durması bitiş işaretidir ve garsonun gözü bunu fark eder. Kirli tabaklar konuğun önünde üst üste yığılmaz, sessizce taşınır.",
+      "iliskili": [
+        "go-4-032",
+        "go-4-018"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-034",
+      "konu": "4.2",
+      "terim": "Protokol masası",
+      "ingilizce": "Protocol (official) table",
+      "tanim": "Resmî ya da önemli konukların yer aldığı, oturma yerleri unvana ve sıraya göre önceden belirlenmiş yemek masasıdır.",
+      "ornek": "Akşam 19.30, Ankara'da bir otelde kaymakamlık yemeği: onur konuğu ev sahibinin sağına oturtulur; yer ve sıra isim kartlarıyla belirlenmiştir.",
+      "sektor": "Protokolde sıra hatası saygısızlık sayılabilir; bu yüzden masa planı davetin sahibiyle önceden kesinleştirilir. Servis genellikle önce onur konuğuna başlar. Resmî kurumların kendi protokol kuralları vardır; otel bu kuralı o kurumdan alır.",
+      "iliskili": [
+        "go-4-028",
+        "go-4-033"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-035",
+      "konu": "4.2",
+      "terim": "Alkolsüz içecek servisi",
+      "ingilizce": "Soft and hot beverage service",
+      "tanim": "Su, meyve suyu, çay ve kahve gibi alkolsüz içeceklerin doğru kapta, doğru sıcaklıkta ve düzgün biçimde masaya sunulmasıdır.",
+      "ornek": "Sabah 08.15, Kuşadası'nda bir otelin kahvaltı salonu: garson çayı ince belli bardakta tabağı ve kaşığıyla getirir, çayı biten konuğa fark ettirmeden yenisini doldurur.",
+      "sektor": "Su ve çay çoğu konuğun ilk ve en sık istediği hizmettir; boş bardak masada bırakılmaz. Sıcak içecekte fincanın kulpu konuğun sağ eline gelecek biçimde konur, tabak ve kaşık yanında olur. Ucuz görünen bu servislerde konuk özeni en çok fark eder.",
+      "iliskili": [
+        "go-4-030",
+        "go-4-027"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-turk-cayi"
+    },
+    {
+      "id": "go-4-036",
+      "konu": "4.3",
+      "terim": "Menü bölümleri ve yemek sırası",
+      "ingilizce": "Menu courses",
+      "tanim": "Bir yemeğin başlangıç, çorba, ana yemek ve tatlı gibi yenme sırasına göre dizilmiş bölümleridir.",
+      "ornek": "Akşam 20.00, İstanbul'da bir otelin restoranı: konuk soğuk başlangıç, çorba, ızgara balık ve tatlı sırasıyla ilerler; garson her bölümden önce uygun takımı masaya koyar.",
+      "sektor": "Sıra mutfağın ritmini belirler: ana yemek başlangıç bitmeden çıkmaz, mutfak bir sonraki bölümü ona göre hazırlar. Bu sırayı bilen garson hangi takımın hazır olacağını önceden öngörür. À la carte menüde konuk bölümleri kendisi seçer.",
+      "iliskili": [
+        "go-4-037",
+        "go-4-038"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-074",
+      "konu": "4.3",
+      "terim": "À la carte menü",
+      "ingilizce": "À la carte menu",
+      "tanim": "Her yemeğin ayrı fiyatla listelendiği ve konuğun bölümleri kendi isteğine göre seçip birleştirdiği menü türüdür.",
+      "ornek": "Akşam 20.15, Kuşadası'nda bir otelin restoranı: konuk soğuk başlangıcı ve ızgara köfteyi seçer, çorba ve tatlı istemez; hesap yalnız seçtiği yemekleri içerir.",
+      "sektor": "Konuğa özgürlük verir ama mutfağın her yemeği siparişe göre ayrı hazırlaması gerekir; bu yüzden hazırlık ve bekleme süresi set menüden uzun olabilir. Garson menüdeki yemeklerin içeriğini, alerjenlerini ve pişme süresini bilmelidir. Set menüyle (prix fixe) karşılaştırılır: orada fiyat sabittir, burada her yemek ayrı yazılır.",
+      "iliskili": [
+        "go-4-036",
+        "go-4-037"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-037",
+      "konu": "4.3",
+      "terim": "Set menü (prix fixe)",
+      "ingilizce": "Set menu (prix fixe)",
+      "tanim": "Birkaç bölümden oluşan yemeklerin tek bir sabit fiyatla ve sınırlı seçenekle sunulduğu menü türüdür.",
+      "ornek": "Akşam 19.30, Antalya'da bir otel: üç çeşit set menüde konuk başlangıçta ve ana yemekte iki seçenek arasından seçer, tatlı sabittir.",
+      "sektor": "Mutfak hazırlığı ve maliyet öngörülebilir olur; konuk da fiyatı baştan bilir. O gün için hazırlanan menüye günün menüsü (menu du jour) denir. Grup yemeklerinde ve toplantı organizasyonlarında çok tercih edilir.",
+      "iliskili": [
+        "go-4-036",
+        "go-4-038"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-038",
+      "konu": "4.3",
+      "terim": "Tadım menüsü",
+      "ingilizce": "Tasting menu",
+      "tanim": "Aşçının küçük porsiyonlarla hazırladığı, çok sayıda tabaktan oluşan ve şefin seçimine dayanan menü türüdür.",
+      "ornek": "Akşam 20.00, İzmir'de bir otelin fine dining restoranı: konuk altı küçük tabaktan oluşan tadım menüsünü seçer; garson her tabağı kısaca açıklar ve yemekler ağır ağır gelir.",
+      "sektor": "Tadım menüsünde yemek bir hikâye gibi anlatılır; garson menüyü iyi bilmezse tabağın değeri kaybolur. Süresi uzundur, bu yüzden rezervasyon ve zamanlama önemlidir. Menü önceden planlandığı için alerji ve diyet bilgisi rezervasyonda alınmalıdır.",
+      "iliskili": [
+        "go-4-037",
+        "go-4-040"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-039",
+      "konu": "4.3",
+      "terim": "Çocuk menüsü",
+      "ingilizce": "Children's menu",
+      "tanim": "Küçük konukların iştahına ve porsiyon ölçüsüne göre hazırlanan, sade ve dengeli yemeklerden oluşan menüdür.",
+      "ornek": "Öğle 12.30, Antalya'da bir tatil köyü: çocuk menüsünde tavuk şiş, pilav, meyve tabağı ve süt vardır; küçük bir kız çocuk menüyü resimlerinden seçer.",
+      "sektor": "Çocuk mutlu olursa aile mutlu olur. Çocuk menüsü çoğunlukla daha az baharatlı ve küçük porsiyondur. Boyama kâğıdı ve kalem gibi küçük ikramlar aile için büyük fark yaratır; çocuğun alerjisi olup olmadığı yine anne babaya sorulur.",
+      "iliskili": [
+        "go-4-036",
+        "go-4-068"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-040",
+      "konu": "4.3",
+      "terim": "Fine dining (üst düzey yemek deneyimi)",
+      "ingilizce": "Fine dining",
+      "tanim": "Yüksek kaliteli malzeme, özenli sunum ve eğitimli servis ekibiyle konuğa uzun ve özel bir yemek deneyimi yaşatan restoran anlayışıdır.",
+      "ornek": "Akşam 20.30, İstanbul Boğazı'ndaki bir otelin restoranı: masa örtülü, servis masa başında, yemekler tek tek açıklanıyor ve ekip konuğun adını biliyor.",
+      "sektor": "Fine dining'de ürün kadar hizmet de satılır; bu yüzden en çok personel emeği isteyen restoran türüdür. Kariyer için çok iyi bir okuldur: ayrıntıya özen, sakin duruş ve sessiz hizmet burada öğrenilir (Ünite 2).",
+      "iliskili": [
+        "go-4-038",
+        "go-4-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-041",
+      "konu": "4.3",
+      "terim": "Fusion mutfak",
+      "ingilizce": "Fusion cuisine",
+      "tanim": "Farklı ülke ya da bölge mutfaklarının teknik ve malzemelerinin tek bir yemekte bilinçli biçimde birleştirildiği mutfak anlayışıdır.",
+      "ornek": "Akşam 19.45, Bodrum'da bir otel: şef sushi pirincini Ege otları ve zeytinyağıyla birleştiren bir tabak sunar; menüde 'Ege-Asya' bölümü açılmıştır.",
+      "sektor": "Fusion yenilik getirir ama her birleşim başarılı olmaz; kaynak mutfakları iyi bilmeden yapılan karışım karmaşaya dönüşür. Adı tanıdık olmadığı için garson yemeği konuğa açıklamak zorundadır.",
+      "iliskili": [
+        "go-4-040",
+        "go-4-042"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-042",
+      "konu": "4.3",
+      "terim": "Çiftlikten sofraya",
+      "ingilizce": "Farm-to-table",
+      "tanim": "Yemekte kullanılan malzemelerin mümkün olduğunca yakındaki üreticiden alınıp mevsiminde kullanıldığı mutfak anlayışıdır.",
+      "ornek": "Sabah 09.00, Ayvalık'ta bir otel: şef komşu köy üreticisinden gelen zeytinyağı, domates ve peyniri günün menüsünde üreticinin adıyla yazar.",
+      "sektor": "Konuk yemeğin hikâyesini sever: kimin yetiştirdiğini bilmek tabağa değer katar. Yerel tedarik küçük üreticiyi güçlendirir ve taşıma mesafesini kısaltır; ama mevsim bitince menünün değişmesi gerekir (Ünite 3'teki yöre ürünüyle tedarik konusuna bağlanır).",
+      "iliskili": [
+        "go-4-043",
+        "go-4-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-043",
+      "konu": "4.3",
+      "terim": "Slow food hareketi",
+      "ingilizce": "Slow food movement",
+      "tanim": "Hızlı ve standart yemeğe karşılık, yöresel, temiz ve adil üretilmiş yemeğin keyifle yenmesini savunan, İtalya'da doğmuş uluslararası harekettir.",
+      "ornek": "Cumartesi 11.00, Alaçatı'da küçük bir otelin kahvaltısı: yöresel otlar, köy peyniri ve ev yapımı reçeller uzun masada sunulur; konuklar acele etmeden oturur.",
+      "sektor": "Slow food, 'fast food'un karşıtı olarak doğdu ve yerel lezzeti korumayı amaçlar. Otel için anlamı: yöresel ürün ve geleneksel yemek, paketlenip satılabilecek bir değerdir. Yavaş şehir (Cittaslow) fikriyle akrabadır.",
+      "iliskili": [
+        "go-4-042",
+        "go-4-044"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-044",
+      "konu": "4.3",
+      "terim": "Street food (sokak yemeği)",
+      "ingilizce": "Street food",
+      "tanim": "Sokakta, tezgâhta ya da küçük araçlarda satılan, çabuk hazırlanan ve ucuz yöresel yiyeceklerin genel adıdır.",
+      "ornek": "Sabah 08.00, İstanbul Eminönü: simitçi sıcak simidi tezgâha dizer; otelin konuğu resepsiyondan 'en güzelini nereden alabilirim?' diye sorar.",
+      "sektor": "Street food bir şehrin gerçek lezzet haritasıdır ve konuklar bunu denemek ister. Otel konuğa hijyen konusunda yol gösterir: kalabalık, temiz ve taze üreten yerler önerilir. Bazı oteller street food konseptini kendi restoranlarına taşır.",
+      "iliskili": [
+        "go-4-043",
+        "go-4-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "tr-simit"
+    },
+    {
+      "id": "go-4-045",
+      "konu": "4.3",
+      "terim": "Akdeniz mutfağı",
+      "ingilizce": "Mediterranean cuisine",
+      "tanim": "Zeytinyağı, sebze, baklagil, balık ve taze otların öne çıktığı, Akdeniz çevresindeki ülkelerin ortak sofra kültürüdür.",
+      "ornek": "Öğle 13.00, Bodrum'da bir otel: zeytinyağlı enginar, ızgara levrek ve otlu salata menüdedir; konuk 'hafif ve taze bir şey istiyorum' demiştir.",
+      "sektor": "Sağlıklı beslenme akımı bu mutfağı sevdiği için turist ilgisi yüksektir. Türkiye'nin Ege ve Akdeniz kıyıları da bu sofra kültürünün içindedir; Ege'nin zeytinyağlıları bunun örneğidir. Yine de ülkeden ülkeye farklı tatlar vardır; hepsi 'aynı yemek' değildir.",
+      "iliskili": [
+        "go-4-046",
+        "go-4-048"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-046",
+      "konu": "4.3",
+      "terim": "Pasta (İtalyan makarnası)",
+      "ingilizce": "Pasta and Italian cuisine",
+      "tanim": "Buğday hamurundan yapılan, spagetti, penne, ravioli gibi onlarca biçimde hazırlanan ve İtalyan mutfağının temelini oluşturan yemektir.",
+      "ornek": "Akşam 19.30, Antalya'da bir otelin İtalyan restoranı: garson domates soslu penne ile kremalı fettuccine arasındaki farkı anlatır.",
+      "sektor": "İtalyan mutfağı dünyada en sevilen mutfaklardandır ve bölgeden bölgeye değişir. İtalyanca 'pasta' makarna demektir, Türkçedeki pasta ile karışmasın. Konuk 'al dente', yani hafif diri pişmiş makarna isteyebilir.",
+      "iliskili": [
+        "go-4-045",
+        "go-4-048"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-047",
+      "konu": "4.3",
+      "terim": "Sushi (Japon mutfağı)",
+      "ingilizce": "Sushi and Japanese cuisine",
+      "tanim": "Sirkeyle tatlandırılmış pirincin balık, deniz ürünü ya da sebzeyle birleştirildiği, Japon mutfağından gelen bir yemektir.",
+      "ornek": "Akşam 20.00, İstanbul'da bir otelin Uzak Doğu restoranı: garson sushi seçeneklerini, çiğ balık içermeyen sebzeli rulo seçeneğini de anlatır.",
+      "sektor": "Çiğ balık taze ve doğru saklanmış malzeme ister; gıda güvenliği ayrı titizlik gerektirir. Japon mutfağı sadelik ve sunumuyla tanınır. Soya, balık ve susam gibi alerjenler içerebileceği için garson içeriği bilmelidir.",
+      "iliskili": [
+        "go-4-046",
+        "go-4-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-048",
+      "konu": "4.3",
+      "terim": "Tapas (İspanyol küçük tabakları)",
+      "ingilizce": "Tapas",
+      "tanim": "İspanya'da küçük tabaklarda sunulan, birkaç farklı lezzetin paylaşılarak tadıldığı atıştırmalık yemeklerdir.",
+      "ornek": "Akşam 21.00, Bodrum'da bir otelin teras restoranı: masaya üç küçük tabak gelir ve konuklar aralarında bölüşür.",
+      "sektor": "Tapas küçük porsiyonlarla paylaşım kültürü yaratır; konuk çok çeşit tadar, otel de menüde esnek davranır. Bizdeki meze kültürüne benzer. Küçük tabak sayısı arttıkça sipariş takibi ve masa düzeni zorlaşır.",
+      "iliskili": [
+        "go-4-045",
+        "go-4-046"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-049",
+      "konu": "4.3",
+      "terim": "Michelin yıldızı",
+      "ingilizce": "Michelin star",
+      "tanim": "Yeme-içme rehberi Michelin'in bir restorana verdiği, mutfağın kalitesini bir, iki ya da üç yıldızla ölçen ödüldür.",
+      "ornek": "Sabah 10.00, Bodrum'da bir otel: restoran müdürü ekibe yıldızlı restoranların temiz mutfak, tutarlı tat ve sakin servis anlayışını anlatır; hedef yıldız değil, her gün aynı kalitedir.",
+      "sektor": "Rehberin kendi anlatımına göre bir yıldız 'uğramaya değer, kaliteli mutfak', iki yıldız 'yoldan sapmaya değer, çok iyi mutfak', üç yıldız 'özel bir yolculuğa değer, olağanüstü mutfak' demektir. Yıldız yalnız restoranın tabağına verilir; bir otelin restoranı da yıldız alabilir.",
+      "iliskili": [
+        "go-4-050",
+        "go-4-040"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-050",
+      "konu": "4.3",
+      "terim": "Bib Gourmand (uygun fiyat ödülü)",
+      "ingilizce": "Bib Gourmand",
+      "tanim": "Michelin Rehberi'nin yıldız olmayan, iyi yemeği makul fiyata sunan restoranlara verdiği ayrı bir ödüldür.",
+      "ornek": "Öğle 13.00, İzmir'de bir otel lokantası: günlük yemekleri ve uygun fiyatıyla hem yerli hem yabancı konuk dolduruyor; müdür 'yıldız şart değil, kalite ve değer şart' diyor.",
+      "sektor": "Adı Michelin'in maskotu Bibendum'dan gelir. Her gün gidilebilecek kaliteli ve uygun fiyatlı yemeği ödüllendirir; yani lüks tek ölçü değildir. Fiyat sınırı şehirden şehre değiştiği için sabit bir rakam yoktur.",
+      "iliskili": [
+        "go-4-049",
+        "go-4-051"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-051",
+      "konu": "4.3",
+      "terim": "UNESCO gastronomi şehirleri (Türkiye)",
+      "ingilizce": "UNESCO Cities of Gastronomy (Türkiye)",
+      "tanim": "Yaratıcı Şehirler Ağı'na mutfak kültürüyle (gastronomi alanında) kabul edilen şehirlerdir; Türkiye'den Gaziantep, Hatay ve Afyonkarahisar bunlar arasındadır.",
+      "ornek": "Cuma akşamı, Gaziantep'te bir otelin lobisi: yabancı konuk 'Burada gastronomi şehri olduğunu duydum, ne yemeliyim?' diye sorar; görevli baklavayı, beyranı ve kebabı anlatıp güvenilir bir lokanta önerir.",
+      "sektor": "Gaziantep baklava, kebap ve Antep fıstığıyla; Hatay künefe ve zengin sofra kültürüyle; Afyonkarahisar kaymak, lokum ve sucukla anılır. Bu unvan turisti şehre yemek için getirir; yöre yemeğini bilen çalışan yalnız otel görevlisi değil, şehrin elçisidir.",
+      "iliskili": [
+        "go-4-050",
+        "go-4-056"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "tr-baklava"
+    },
+    {
+      "id": "go-4-052",
+      "konu": "4.3",
+      "terim": "Türk kahvaltı kültürü",
+      "ingilizce": "Turkish breakfast culture",
+      "tanim": "Peynir, zeytin, yumurta, reçel ve çayın çok sayıda küçük tabakta sofraya serildiği, uzun ve paylaşmalı Türk sabah yemeği geleneğidir.",
+      "ornek": "Pazar sabahı 09.30, Cunda'da bir otelin bahçesi: masaya zeytin, beyaz peynir, domates, salatalık, bal ve kaymak, sahanda yumurta ve demli çay serilir.",
+      "sektor": "Kahvaltı, Türk sofrasının en tanınan öğünlerinden biridir ve yabancı konuk için başlı başına bir deneyimdir. Misafirperver sofranın göstergesi olarak çay boşalmadan yenilenir. Kahvaltı çoğu konuğun otelde yediği en önemli öğündür.",
+      "iliskili": [
+        "go-4-053",
+        "go-4-054"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "ek-turk-kahvaltisi"
+    },
+    {
+      "id": "go-4-053",
+      "konu": "4.3",
+      "terim": "Türk kahvesi geleneği",
+      "ingilizce": "Turkish coffee culture",
+      "tanim": "Çok ince öğütülmüş kahvenin cezvede pişirilip köpüğüyle küçük fincanda sunulduğu, UNESCO somut olmayan kültürel miras listesinde yer alan içecek geleneğidir.",
+      "ornek": "Akşam yemeğinden sonra 21.30, İstanbul'da bir otelin salonu: garson orta şekerli Türk kahvesini yanında bir bardak su ve lokumla getirir.",
+      "sektor": "UNESCO bu geleneği 2013'te listeye aldı. Kahvenin şekerinin nasıl olacağı sorulur (sade, az, orta, şekerli); yanında su ve lokum sunmak yaygındır. Kahvenin sunumu otelin misafirperverliğini gösteren küçük bir imzadır.",
+      "iliskili": [
+        "go-4-052",
+        "go-4-054"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "tr-turk-kahvesi"
+    },
+    {
+      "id": "go-4-054",
+      "konu": "4.3",
+      "terim": "Türk çay kültürü",
+      "ingilizce": "Turkish tea culture",
+      "tanim": "Demlikte demlenen çayın ince belli bardaklarda sunulduğu, UNESCO somut olmayan kültürel miras listesinde yer alan toplumsal ağırlama geleneğidir.",
+      "ornek": "Sabah 08.30, Rize'de bir otelin kahvaltı salonu: garson demliği çaydanlığın üstünde taze tutar, konuğa 'açık mı koyu mu?' diye sorar ve bardağı buna göre doldurur.",
+      "sektor": "Çay kültürü 2022'de Azerbaycan'la ortak başvuruyla UNESCO listesine alındı. Türkiye'de çay selam, misafirperverlik ve sohbet demektir. Otelde çay kahvaltıda ve gün boyu ikram edilir; bardağı boş bırakmamak konuğa verilen değerin işaretidir.",
+      "iliskili": [
+        "go-4-053",
+        "go-4-055"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "tr-cay-bardagi"
+    },
+    {
+      "id": "go-4-055",
+      "konu": "4.3",
+      "terim": "Lavaş ve yufka geleneği",
+      "ingilizce": "Flatbread culture (lavash and yufka)",
+      "tanim": "İnce açılan ekmek hamurunun sacda pişirildiği, birkaç kişinin birlikte hazırlayıp paylaştığı ve UNESCO somut olmayan kültürel miras listesine girmiş ekmek geleneğidir.",
+      "ornek": "Öğle 12.30, Gaziantep'te bir otelin restoranı: kebabın altında ve yanında sıcak lavaş verilir; konuk 'Bu ekmek hep böyle mi yapılır?' diye sorar.",
+      "sektor": "Lavaş ve yufka gibi ince ekmekler, Türkiye'nin de aralarında olduğu birkaç ülkenin ortak başvurusuyla UNESCO listesine alındı. Sofrada yalnız bir yiyecek değil, birlikte emek vermenin ve paylaşmanın kültürü sunulur.",
+      "iliskili": [
+        "go-4-054",
+        "go-4-056"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-075",
+      "konu": "4.3",
+      "terim": "İskender kebap",
+      "ingilizce": "İskender kebab",
+      "tanim": "İnce dilimlenmiş et ile pide parçalarının üzerine domates sosu ve eritilmiş tereyağı dökülerek, yanında yoğurtla sunulan Bursa'ya özgü kebaptır.",
+      "ornek": "Öğle 13.00, Bursa'da bir otelin restoranı: garson tabağı masaya getirir, tereyağını konuğun gözü önünde sıcak sıcak döker ve yoğurdu yanına koyar.",
+      "sektor": "Yabancı konuk yemeğin adını duyunca merak eder; garson Bursa'dan çıktığını, üzerindeki unsurları ve sıcak servis edilmesi gerektiğini anlatabilmelidir. Pide gluten, tereyağı ve yoğurt süt içerdiği için alerjisi olan konuğa mutlaka bu bilgi verilir.",
+      "iliskili": [
+        "go-4-055",
+        "go-4-063"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "ek-iskender-kebap"
+    },
+    {
+      "id": "go-4-076",
+      "konu": "4.3",
+      "terim": "Türk lokumu",
+      "ingilizce": "Turkish delight (lokum)",
+      "tanim": "Nişasta ve şekerle yapılan, fıstık, fındık ya da gül gibi katkılarla çeşitlendirilen, küçük küpler hâlinde sunulan yumuşak Türk tatlısıdır.",
+      "ornek": "Akşam 21.30, Afyonkarahisar'da bir otelin salonu: garson Türk kahvesinin yanında iki lokumu küçük tabakta getirir ve çeşitlerini kısaca anlatır.",
+      "sektor": "Lokum, Türk ikramının tanınan simgelerindendir; kahvenin yanında verildiği gibi hediye kutusunda da satılır. Fıstık, fındık gibi kuruyemişler içerdiği için alerjisi olan konuğa içeriği açıkça söylenir.",
+      "iliskili": [
+        "go-4-053",
+        "go-4-063"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "ek-lokum"
+    },
+    {
+      "id": "go-4-056",
+      "konu": "4.3",
+      "terim": "Yöre ürününde coğrafi işaret",
+      "ingilizce": "Geographical indication on regional food (GI)",
+      "tanim": "Bir ürünün kalitesinin ya da ününün üretildiği yöreden geldiğini gösteren, resmî olarak tescil edilmiş işarettir.",
+      "ornek": "Sabah 10.00, Gaziantep'te bir otelin kahvaltısı: baklava kutusunda 'coğrafi işaret' ibaresi var; garson konuğa bunun ne demek olduğunu anlatır.",
+      "sektor": "Türkiye'de Gaziantep baklavası ve Maraş dondurması gibi pek çok ürün bu işaretle korunur. Otelin orijinal yöre ürünü seçmesi ve doğru anlatması yöreye saygıdır; taklit ürün hem üreticiye hem konuğa haksızlıktır.",
+      "iliskili": [
+        "go-4-051",
+        "go-4-055"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-057",
+      "konu": "4.4",
+      "terim": "Vejetaryen beslenme",
+      "ingilizce": "Vegetarian diet",
+      "tanim": "Et, tavuk ve balık yemeyen, çoğu zaman süt ürünlerini ve yumurtayı tüketen beslenme biçimidir.",
+      "ornek": "Akşam 20.00, Kapadokya'da bir otelin restoranı: konuk 'et yemem ama peynir ve yumurta olur' der; garson menüde et suyu içermeyen yemekleri gösterir.",
+      "sektor": "Vejetaryen yemekte gizli et ürünlerini unutmamak gerekir: et suyuyla yapılan çorba ya da sebze yemeği vejetaryen sayılmaz. Garson 'sebzeli' yemeğin içeriğini mutfaktan öğrenir. Menüde ayrı bir vejetaryen bölüm konuğu rahatlatır.",
+      "iliskili": [
+        "go-4-058",
+        "go-4-062"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "salata"
+    },
+    {
+      "id": "go-4-058",
+      "konu": "4.4",
+      "terim": "Vegan beslenme",
+      "ingilizce": "Vegan diet",
+      "tanim": "Et, balık, süt, yumurta ve bal dahil hiçbir hayvansal ürün tüketilmeyen beslenme biçimidir.",
+      "ornek": "Sabah 08.30, İstanbul'da bir otelin kahvaltısı: vegan konuk için bitkisel süt, zeytin, domates, humus ve ekmek ayrı tabelayla işaretlenmiştir.",
+      "sektor": "Vegan yalnız 'etsiz' demek değildir: tereyağı, yumurta, bal ve süt de yoktur. Kahvaltıda bitkisel süt, tatlıda bitkisel alternatif düşünmek otelin hazırlıklı olduğunu gösterir. Etiket yoksa içerik mutfağa sorulur.",
+      "iliskili": [
+        "go-4-057",
+        "go-4-059"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-059",
+      "konu": "4.4",
+      "terim": "Glutensiz beslenme",
+      "ingilizce": "Gluten-free diet",
+      "tanim": "Buğday, arpa ve çavdarda bulunan gluten proteininden uzak durulan, özellikle çölyak hastaları için zorunlu olan beslenme biçimidir.",
+      "ornek": "Sabah 09.00: çölyak hastası konuk kahvaltıda glutensiz ekmek istiyor; mutfak ekmeği ayrı bir tezgâhta ve ayrı bıçakla hazırlıyor.",
+      "sektor": "Çölyakta gluten bağırsağa zarar verir; bu bir tercih değil sağlık gereğidir. Ekmek ve un dışında bazı soslar, çorbalar ve bulgur pilavı gibi yiyecekler de gluten içerir. Küçük bir kırıntı bile sorun yaratabileceği için tabak ayrı hazırlanır.",
+      "iliskili": [
+        "go-4-058",
+        "go-4-063"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-060",
+      "konu": "4.4",
+      "terim": "Helal gıda",
+      "ingilizce": "Halal food",
+      "tanim": "İslam dininin yemek kurallarına uygun olan, domuz eti ve alkol içermeyen, etin uygun biçimde kesilmiş olduğu yiyecektir.",
+      "ornek": "Öğle 13.00, Antalya'da bir otel: yurtdışından gelen bir aile yemeklerin helal olup olmadığını soruyor; garson cevabı bilmediği için mutfaktan öğrenip geri dönüyor.",
+      "sektor": "Türkiye'de farklı ülkelerden gelen çok sayıda konuk için helal hassasiyeti önemlidir. Et, sos ve tatlıda alkol ya da domuz ürünü olup olmadığı bilinmelidir. Cevap bilinmiyorsa tahminle söylenmez, mutfağa sorulur.",
+      "iliskili": [
+        "go-4-061",
+        "go-4-067"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-061",
+      "konu": "4.4",
+      "terim": "Koşer gıda",
+      "ingilizce": "Kosher food",
+      "tanim": "Yahudi inancının yemek kurallarına uygun hazırlanan, domuzu ve kabuklu deniz ürünlerini dışarıda bırakan, et ile süt ürünlerinin karıştırılmadığı yiyecektir.",
+      "ornek": "Akşam 19.00, İstanbul'da bir otel: konuk koşer yemek istiyor; ön büro isteği yiyecek ve içecek müdürüne iletir, müdür koşer sertifikalı hazır yemek temin edilip edilemeyeceğine bakar.",
+      "sektor": "Koşer hazırlık yalnız menüyle değil mutfak gereçleriyle de ilgilidir; sıradan bir mutfakta tam koşer hizmet vermek zordur. Bu yüzden otel dürüstçe 'yapabiliriz' ya da 'yapamayız' demelidir; yanlış söz konuğun inancına saygısızlıktır.",
+      "iliskili": [
+        "go-4-060",
+        "go-4-067"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-062",
+      "konu": "4.4",
+      "terim": "Alerji, intolerans ve laktozsuz beslenme",
+      "ingilizce": "Food allergy, intolerance and lactose-free diet",
+      "tanim": "Bağışıklık sisteminin bir gıdaya aşırı tepki vermesi alerji, vücudun bir gıdayı sindirememesi intolerans olarak adlandırılır; alerji ağır sonuçlar doğurabildiği için ayırt edilmelidir.",
+      "ornek": "Akşam 20.15: bir konuk 'süt alerjim var' derken öbürü 'laktoz intoleransım var, kahveye laktozsuz süt olur mu?' diye soruyor; garson iki durumu aynı saymaz ve ikisini mutfağa ayrı iletir.",
+      "sektor": "Laktozsuz süt, sütteki şeker olan laktozdan arındırılmıştır ama süt proteini içerir. Bu yüzden laktoz intoleransı olan konuk içebilir, süt alerjisi olan içemez. Garson ayrımı bilir, kararı mutfağa bırakır ve tahminle 'olur' demez.",
+      "iliskili": [
+        "go-4-063",
+        "go-4-057"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-063",
+      "konu": "4.4",
+      "terim": "On dört alerjen (AB listesi)",
+      "ingilizce": "The 14 major allergens (EU list)",
+      "tanim": "Avrupa Birliği kurallarında restoranlarda ve paketli gıdalarda mutlaka belirtilmesi gereken, en sık alerjik tepki yapan on dört gıda grubudur.",
+      "ornek": "Akşam 19.30: menüde tavuklu salatanın yanında 'gluten, yumurta, hardal' yazıyor; hardal alerjisi olan konuk başka bir yemek seçiyor.",
+      "sektor": "Liste: gluten içeren tahıllar, kabuklular, yumurta, balık, yer fıstığı, soya, süt, sert kabuklu yemişler (fındık, ceviz gibi), kereviz, hardal, susam, sülfitler, acı bakla (lupin) ve yumuşakçalar. Hepsini ezberlemek değil, ne olduklarını ve soslarda, çorbalarda gizlenebileceklerini bilmek önemlidir. AB'nin bu kuralı 1169/2011 sayılı tüzükte yer alır. Türkiye'de de alerjenlerin etikette belirtilmesi istenir.",
+      "iliskili": [
+        "go-4-064",
+        "go-4-059"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-064",
+      "konu": "4.4",
+      "terim": "Alerjen bildirimi ve çapraz temas",
+      "ingilizce": "Allergen declaration and cross-contact",
+      "tanim": "Yemeğin alerjen içerdiğinin menüde ya da garsonun ağzından açıkça söylenmesi, alerjen içermeyen yemeğe alerjen bulaşmaması için alınan önlemlerdir.",
+      "ornek": "Öğle 12.45: fıstık alerjisi olan çocuk için mutfak ayrı tahta ve temiz bıçak kullanır; garson tabağı 'alerjili' notuyla alır ve doğrudan çocuğun annesine verir.",
+      "sektor": "Çapraz temas: alerjenin tabağa küçücük bile bulaşması tepki yaratabilir; ayrı gereç, temiz tezgâh ve temiz yağ gerekir. Menü bilgisi yazılı ve güncel olmalıdır. Garson 'sanırım yok' demez; kesin bilgiyi mutfaktan alır.",
+      "iliskili": [
+        "go-4-063",
+        "go-4-065"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-065",
+      "konu": "4.4",
+      "terim": "Alerjik konuğun sipariş akışı",
+      "ingilizce": "Handling an allergy order",
+      "tanim": "Alerjisi olan konuğun siparişinin sorulmasından mutfağa yazılı iletilmesine ve doğru kişiye ulaşmasına kadar izlenen güvenli adımlar dizisidir.",
+      "ornek": "Akşam 20.10: konuk 'fındık alerjim var' der; garson adisyona 'ALERJİ: FINDIK' yazar, şefe sözlü de haber verir, yemeği şef kontrol eder ve garson doğrudan konuğa getirir.",
+      "sektor": "Sıra: sor, yaz, söyle, doğrula, teslim et. Her halkada bir kişinin gözü hatayı yakalar. Konuk 'azıcık olur' dese de alerjide pazarlık yoktur. Hata olursa saklanmaz, hemen amire bildirilir.",
+      "iliskili": [
+        "go-4-064",
+        "go-4-066"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-066",
+      "konu": "4.4",
+      "terim": "Anafilaksi",
+      "ingilizce": "Anaphylaxis",
+      "tanim": "Alerjik tepkinin aniden ve tüm vücudu saran, nefes alma ve dolaşımı bozabilen, yaşamı tehdit eden en ağır biçimidir.",
+      "ornek": "Akşam 21.00: konuk yemekten dakikalar sonra dudaklarının şiştiğini ve nefesinin daraldığını söylüyor; garson yardım ister, amire haber verir ve 112'nin aranmasını sağlar.",
+      "sektor": "Belirtiler: dudak ve yüz şişmesi, nefes darlığı, yaygın kızarıklık, baş dönmesi. Stajyerin görevi müdahale etmek değil; konuğun yanından ayrılmadan yüksek sesle yardım çağırmak, amirin hemen haberdar olmasını ve 112'nin aranmasını sağlamaktır. Müdahaleyi eğitimli kişi yapar.",
+      "iliskili": [
+        "go-4-065",
+        "go-4-062"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-067",
+      "konu": "4.4",
+      "terim": "Yemekte kültürel hassasiyetler",
+      "ingilizce": "Cultural food sensitivities",
+      "tanim": "Konuğun inancından ya da kültüründen gelen, bazı yiyeceklerin yenmemesi, bazı yemek saatlerinin ve yeme biçimlerinin önemli olması gibi alışkanlıklara saygı göstermektir.",
+      "ornek": "Akşam 18.30, Ramazan ayında Bursa'da bir otel: iftar saati yaklaşırken restoran konuklar için su ve hurma hazırlar, iftar vaktinde ilk çorba hızla servis edilir.",
+      "sektor": "Bazı kültürlerde belirli hayvanların eti yenmez, bazı kültürlerde yemek sağ elle yenir, bazı konuklar için yemek saatleri dinî günlere göre değişir. Soru sormak ayıp değil, özendir. Bilmiyorsan kibarca sorarsın; kişiyi ülkesine göre genellemezsin.",
+      "iliskili": [
+        "go-4-060",
+        "go-4-061"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-068",
+      "konu": "4.4",
+      "terim": "Çocuk konuk",
+      "ingilizce": "Child guest",
+      "tanim": "Restoranda ailesiyle yemek yiyen çocuğun güvenli ve rahat edebilmesi için hazırlanan sandalye, tabak, porsiyon ve ilgi hizmetidir.",
+      "ornek": "Sabah 08.45: iki yaşındaki bir çocuk kahvaltıya geliyor; garson mama sandalyesi, kırılmaz kâse ve ılık süt getiriyor, sıcak çayı çocuğun uzanamayacağı yere koyuyor.",
+      "sektor": "Aile otelde yemek ister; çocuk mutlu değilse bütün masa gerginleşir. Mama sandalyesi, kırılmaz tabak ve sıcak yiyecekten uzak oturma burada güvenlik ve nezakettir. Çocuğun alerji bilgisi anne babaya sorulur.",
+      "iliskili": [
+        "go-4-039",
+        "go-4-069"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-069",
+      "konu": "4.4",
+      "terim": "Yaşlı konuk",
+      "ingilizce": "Older guest",
+      "tanim": "Daha yavaş yürüyen, bazen daha zor duyan ya da gören yaşlı konuğun yemekte rahat ve onurlu hizmet almasıdır.",
+      "ornek": "Öğle 12.45: bastonlu yaşlı bir konuk büfeye yönelirken garson tabağı taşımayı önerir, menüyü büyük puntolu getirir ve masayı kapıya yakın, rahat ulaşılır bir yere ayırır.",
+      "sektor": "Yardım teklif edilir, dayatılmaz: 'Yardımcı olabilir miyim?' demek kararı konuğa bırakır. Tuzsuz yemek gibi diyet ihtiyaçları sorulur. Acele ettirmek ya da çocukmuş gibi konuşmak yanlıştır.",
+      "iliskili": [
+        "go-4-068",
+        "go-4-070"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-070",
+      "konu": "4.4",
+      "terim": "Özel gün masası",
+      "ingilizce": "Special occasion table",
+      "tanim": "Doğum günü, yıldönümü, nişan gibi özel bir gün için süslenmiş ve kişiye özel ikramlar eklenmiş masadır.",
+      "ornek": "Akşam 20.00, Antalya'da bir otelin teras restoranı: evlilik yıldönümünü kutlayan çiftin masasına mum ve çiçek konmuştur; garson tatlıyla birlikte küçük bir kart getirir.",
+      "sektor": "Özel gün konuğun hatırlayacağı anı kurar (Ünite 2'deki hatırlanan an). Ön büro ve restoran arasında rezervasyon notu zamanında aktarılır. Bazı konuklar herkesin önünde kutlanmak istemez; sürpriz öncesi sorulur.",
+      "iliskili": [
+        "go-4-069",
+        "go-4-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-071",
+      "konu": "4.4",
+      "terim": "Bahşiş ve servis ücreti farkı",
+      "ingilizce": "Tip and service charge",
+      "tanim": "Konuğun memnuniyetine göre isteğe bağlı verdiği para bahşiştir; hesaba önceden eklenip menüde ya da fişte yazılan ek bedel ise servis ücretidir.",
+      "ornek": "Akşam 21.30: hesapta 'servis ücreti dahildir' yazıyor; konuk garsona ayrıca bahşiş bırakıp bırakmayacağını soruyor, garson 'zorunlu değil, size kalmış' diyor.",
+      "sektor": "Konuk hesabı görmeden bu ücretin farkında olmalıdır; sürpriz ek ücret güveni zedeler, bu yüzden işletmeler ücreti menüde yazar. Dağıtım işletmeden işletmeye değişir (ortak havuz gibi). Bahşiş beklenmez ve istenmez (Ünite 2).",
+      "iliskili": [
+        "go-4-072",
+        "go-4-014"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-072",
+      "konu": "4.4",
+      "terim": "Masada geri bildirim ve şikâyet",
+      "ingilizce": "Table-side feedback and complaints",
+      "tanim": "Yemek geldikten kısa süre sonra konuğa uğrayıp her şeyin yolunda olup olmadığını sormak ve sorun varsa hemen çözmektir.",
+      "ornek": "Akşam 20.30: garson ızgara balık geldikten iki üç dakika sonra masaya uğrar; konuk 'balık biraz soğuk' deyince 'hemen yenisini hazırlatayım' der ve amirine haber verir.",
+      "sektor": "Bu uğrama (check-back), konuk internete şikâyet yazmadan sorunu çözme fırsatıdır (Ünite 1'deki yorum, Ünite 2'deki telafi). Yemek iadesi tartışma değil düzeltme fırsatıdır: yemek tartışmadan yenilenir, sebep amire ve mutfağa not edilir.",
+      "iliskili": [
+        "go-4-071",
+        "go-4-018"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-4-073",
+      "konu": "4.4",
+      "terim": "Servis alanında gıda güvenliği",
+      "ingilizce": "Food safety in the service area",
+      "tanim": "Yemeğin konuğa ulaşana kadar sağlığa zarar vermeyecek biçimde saklanması, taşınması ve sunulması için uyulan kurallardır.",
+      "ornek": "Öğle 12.00: garson ellerini yıkar, saçını toplar; büfede sıcak yemek ısıtıcıda, soğuk salata buzlu tezgâhta tutulur; elinde yara olan komi bandajının üstüne eldiven takar.",
+      "sektor": "Mutfakta HACCP gibi sistemlerle yönetilen güvenlik, serviste garsonun ellerinde sürer: temiz üniforma, el yıkama, tabağın içine parmak değdirmemek, bardağın ağzına dokunmamak. Gıda zehirlenmesi yalnız bir konuğu değil, bütün oteli sarsar; kural şudur: şüphe varsa servis etme, amire söyle.",
+      "iliskili": [
+        "go-4-026",
+        "go-4-072"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    }
+  ],
+  "sorular": [
+    {
+      "id": "go-4-s01",
+      "tur": "coktan-secmeli",
+      "soru": "Garsonun aldığı siparişi masa numarası ve notlarıyla mutfağa ileten fişe ne ad verilir?",
+      "secenekler": [
+        "Teyit mektubu",
+        "Sipariş fişi (KOT)",
+        "Düzeltme fişi",
+        "Konuk tarihçe kartı"
+      ],
+      "dogru": 1,
+      "aciklama": "KOT (kitchen order ticket) mutfağın yazılı emir almasını sağlar; masa numarası ve alerji gibi notlar fişle taşınır. Ötekiler ön büro belgeleridir."
+    },
+    {
+      "id": "go-4-s02",
+      "tur": "coktan-secmeli",
+      "soru": "Büyük ve özenli restoranlarda salonun akışını yöneten, konukları karşılayıp masalarını belirleyen kıdemli görevli kimdir?",
+      "secenekler": [
+        "Komi",
+        "Commis chef",
+        "Sous chef",
+        "Maître d'hôtel"
+      ],
+      "dogru": 3,
+      "aciklama": "Maître d'hôtel salonun akışını ve konukların yerleşimini yönetir. Komi salonda başlangıç düzeyi görevlidir; commis chef (aşçı yardımcısı) ve sous chef mutfak ekibindendir."
+    },
+    {
+      "id": "go-4-s03",
+      "tur": "coktan-secmeli",
+      "soru": "Executive chef mutfakta yokken onun yerine karar veren ve mutfağı günlük yöneten aşçı hangisidir?",
+      "secenekler": [
+        "Sous chef",
+        "Commis",
+        "Chef de partie",
+        "Chef de rang"
+      ],
+      "dogru": 0,
+      "aciklama": "Sous chef executive chef'in yardımcısıdır. Commis başlangıç düzeyindedir, chef de partie tek bir bölümden sorumludur, chef de rang ise salonda çalışan garsondur."
+    },
+    {
+      "id": "go-4-s04",
+      "tur": "coktan-secmeli",
+      "soru": "Servis başlamadan önce her şeyin hazır ve elinin altında olması için yapılan düzenli hazırlığa ne denir?",
+      "secenekler": [
+        "Check-back",
+        "Line-up",
+        "Mise en place",
+        "Turndown"
+      ],
+      "dogru": 2,
+      "aciklama": "Mise en place 'yerli yerine koymak' demektir; hem salonda hem mutfakta servisten önce yapılır. Check-back servis sırasında konuğa uğramaktır, turndown akşam oda hazırlığıdır."
+    },
+    {
+      "id": "go-4-s05",
+      "tur": "coktan-secmeli",
+      "soru": "Yemeğin büyük bir servis tabağına dizildiği ve garsonun bu tabaktan her konuğun tabağına tek tek porsiyon koyduğu servis tarzı hangisidir?",
+      "secenekler": [
+        "Amerikan servisi",
+        "Aile usulü servis",
+        "Büfe servisi",
+        "Rus servisi"
+      ],
+      "dogru": 3,
+      "aciklama": "Rus servisinde porsiyonları garson paylaştırır. Amerikan servisinde tabak mutfakta hazırlanır; aile usulünde ve büfede konuk kendi tabağına kendi alır."
+    },
+    {
+      "id": "go-4-s06",
+      "tur": "coktan-secmeli",
+      "soru": "Yemeklerin masanın ortasına büyük kaplarla konduğu ve konukların birbirine uzatarak kendi tabaklarına aldığı servis hangisidir?",
+      "secenekler": [
+        "Aile usulü servis",
+        "Rus servisi",
+        "Guéridon servisi",
+        "Amerikan servisi"
+      ],
+      "dogru": 0,
+      "aciklama": "Aile usulünde paylaşım konukların elindedir. Rus servisinde porsiyonları garson koyar, guéridon servis arabasında hazırlanır, Amerikan servisinde tabak mutfaktan hazır gelir."
+    },
+    {
+      "id": "go-4-s07",
+      "tur": "dogru-yanlis",
+      "soru": "Çatallar tabağın soluna, bıçak ve kaşıklar sağına yerleştirilir; bıçağın keskin yüzü tabağa bakar.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Standart kuver düzeni budur: çatallar solda, bıçak ve kaşıklar sağda, bıçağın keskin yüzü tabağa dönük. İlk kullanılacak takım en dıştadır."
+    },
+    {
+      "id": "go-4-s08",
+      "tur": "coktan-secmeli",
+      "soru": "Masada birden fazla çatal olduğunda ilk yemekte hangisi kullanılır?",
+      "secenekler": [
+        "Tabağa en yakın çatal",
+        "Tabağın üstünde yatay duran çatal",
+        "Tabağa en uzak, en dıştaki çatal",
+        "Konuğun en kolay uzandığı çatal"
+      ],
+      "dogru": 2,
+      "aciklama": "Takımlar dışarıdan içeriye doğru kullanılır; tabağın üstündeki yatay takım tatlıya aittir. Bu yüzden kuver menüye göre kurulur."
+    },
+    {
+      "id": "go-4-s09",
+      "tur": "coktan-secmeli",
+      "soru": "Yaygın kabul gören düzende yemek ve içecek konuğun hangi yönünden servis edilir?",
+      "secenekler": [
+        "Yemek sağdan, içecek soldan",
+        "Yemek soldan, içecek sağdan",
+        "İkisi de soldan",
+        "İkisi de sağdan"
+      ],
+      "dogru": 1,
+      "aciklama": "Yaygın düzende yemek soldan, içecek ve kirli tabak sağdan alınır. İşletmelerin kendi standardı farklı olabilir; önemli olan ekibin aynı kuralı izlemesidir."
+    },
+    {
+      "id": "go-4-s10",
+      "tur": "dogru-yanlis",
+      "soru": "Masada herkes yemeğini bitirmeden, ilk bitiren konuğun tabağı hemen kaldırılır.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Tabaklar herkes bitirdikten sonra kaldırılır; yoksa kalan konuk acele ettirildiğini hisseder. Çatal ve bıçağın tabağa paralel durması bitiş işaretidir."
+    },
+    {
+      "id": "go-4-s11",
+      "tur": "coktan-secmeli",
+      "soru": "Resmî bir yemekte onur konuğu genellikle nereye oturtulur?",
+      "secenekler": [
+        "Ev sahibinin sağına",
+        "Ev sahibinin soluna",
+        "Servis kapısının yanındaki sandalyeye",
+        "Masanın en kenar ucuna"
+      ],
+      "dogru": 0,
+      "aciklama": "Protokol masasında onur konuğu ev sahibinin sağında yer alır ve servis genellikle ondan başlar. Yer sırası davet sahibiyle önceden kesinleştirilir."
+    },
+    {
+      "id": "go-4-s12",
+      "tur": "coktan-secmeli",
+      "soru": "'Prix fixe' ifadesi hangi menüyü anlatır?",
+      "secenekler": [
+        "Her yemeğin ayrı ayrı fiyatlandığı ve seçildiği menüyü",
+        "Yalnız çocuklar için küçük porsiyonlarla hazırlanan menüyü",
+        "Birkaç bölümü tek sabit fiyatla sunan set menüyü",
+        "Konukların kendi tabaklarını doldurduğu büfe menüsünü"
+      ],
+      "dogru": 2,
+      "aciklama": "Prix fixe sabit fiyatlı set menüdür. Her yemeği ayrı fiyatlandıran menü à la carte'tır; çocuk menüsü ve büfe farklı kavramlardır."
+    },
+    {
+      "id": "go-4-s13",
+      "tur": "coktan-secmeli",
+      "soru": "Malzemelerin mümkün olduğunca yakındaki üreticiden alınıp mevsiminde kullanıldığı mutfak anlayışına ne denir?",
+      "secenekler": [
+        "Fusion mutfak",
+        "Çiftlikten sofraya",
+        "Fine dining",
+        "Street food"
+      ],
+      "dogru": 1,
+      "aciklama": "Çiftlikten sofraya (farm-to-table) yerel ve mevsimlik üretimi öne çıkarır. Fusion farklı mutfakları birleştirir, fine dining özenli servis anlayışıdır, street food sokak yemeğidir."
+    },
+    {
+      "id": "go-4-s14",
+      "tur": "dogru-yanlis",
+      "soru": "Slow food hareketi İtalya'da doğmuştur ve yöresel, temiz üretilmiş yemeğin keyifle yenmesini savunur.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Slow food, fast food'a karşılık İtalya'da doğan bir harekettir; yerel lezzeti ve yavaş, keyifli yemeyi öne çıkarır."
+    },
+    {
+      "id": "go-4-s15",
+      "tur": "dogru-yanlis",
+      "soru": "Michelin yıldızı bir otelin oda ve spa hizmetlerine verilir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Michelin yıldızı restoranın tabağına verilir; otelin odaları ya da spa'sı bu ödülün konusu değildir. Bir otelin restoranı yıldız alabilir."
+    },
+    {
+      "id": "go-4-s16",
+      "tur": "coktan-secmeli",
+      "soru": "Michelin Rehberi'nin yıldız olmayan, iyi yemeği makul fiyata sunan restoranlara verdiği ödül hangisidir?",
+      "secenekler": [
+        "Üç yıldız",
+        "Mavi Bayrak",
+        "Yeşil Anahtar",
+        "Bib Gourmand"
+      ],
+      "dogru": 3,
+      "aciklama": "Bib Gourmand kaliteli ve uygun fiyatlı yemeği ödüllendirir. Üç yıldız en üst derecedir; Mavi Bayrak plajlara, Yeşil Anahtar çevreci otellere verilir."
+    },
+    {
+      "id": "go-4-s17",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdaki şehirlerden hangisi UNESCO gastronomi şehirleri arasında yer alır?",
+      "secenekler": [
+        "Edirne",
+        "Muğla",
+        "Gaziantep",
+        "Nevşehir"
+      ],
+      "dogru": 2,
+      "aciklama": "Türkiye'den Gaziantep, Hatay ve Afyonkarahisar UNESCO Yaratıcı Şehirler Ağı'nda gastronomi dalında yer alır."
+    },
+    {
+      "id": "go-4-s18",
+      "tur": "coktan-secmeli",
+      "soru": "Türk kahvesi servis edilirken konuğa genellikle hangi soru sorulur?",
+      "secenekler": [
+        "Şekerinin nasıl olacağı",
+        "Kaç dakika demleneceği",
+        "Sütlü mü olacağı",
+        "Buzlu mu olacağı"
+      ],
+      "dogru": 0,
+      "aciklama": "Türk kahvesi sade, az, orta ya da şekerli yapılır; bu yüzden şeker tercihi sorulur. Kahve cezvede pişirilir, süt ve buz eklenmez."
+    },
+    {
+      "id": "go-4-s19",
+      "tur": "coktan-secmeli",
+      "soru": "Türk çay kültürü UNESCO listesine hangi ülkeyle ortak başvuruyla girmiştir?",
+      "secenekler": [
+        "Gürcistan",
+        "Azerbaycan",
+        "Kazakistan",
+        "Özbekistan"
+      ],
+      "dogru": 1,
+      "aciklama": "Çay kültürü 2022'de Azerbaycan ve Türkiye'nin ortak başvurusuyla UNESCO somut olmayan kültürel miras listesine alındı."
+    },
+    {
+      "id": "go-4-s20",
+      "tur": "coktan-secmeli",
+      "soru": "Avrupa Birliği kurallarına göre belirtilmesi gereken ana alerjen grubu sayısı kaçtır?",
+      "secenekler": [
+        "Altı",
+        "On",
+        "Yirmi",
+        "On dört"
+      ],
+      "dogru": 3,
+      "aciklama": "AB listesinde on dört alerjen grubu vardır: gluten içeren tahıllar, kabuklular, yumurta, balık, yer fıstığı, soya, süt, sert kabuklu yemişler, kereviz, hardal, susam, sülfitler, acı bakla ve yumuşakçalar."
+    },
+    {
+      "id": "go-4-s21",
+      "tur": "coktan-secmeli",
+      "soru": "Süt alerjisi olan konuğa laktozsuz süt neden verilmez?",
+      "secenekler": [
+        "Laktozsuz sütte de süt proteini bulunur",
+        "Laktozsuz süt yalnız çocuklara verilir",
+        "Laktozsuz süt ısıtılamaz",
+        "Laktozsuz süt çok pahalıdır"
+      ],
+      "dogru": 0,
+      "aciklama": "Alerji süt proteinine karşıdır; laktozsuz süt yalnız sütteki şeker olan laktozu uzaklaştırır, proteini içerir. Laktoz intoleransı olan konuk ise içebilir."
+    },
+    {
+      "id": "go-4-s22",
+      "tur": "coktan-secmeli",
+      "soru": "Hangisi vegan bir konuğa servis edilebilir?",
+      "secenekler": [
+        "Tereyağlı pilav",
+        "Ballı yoğurt",
+        "Zeytinyağlı enginar",
+        "Peynirli omlet"
+      ],
+      "dogru": 2,
+      "aciklama": "Vegan beslenmede süt, yumurta, bal ve tereyağı da dahil hiçbir hayvansal ürün yoktur; zeytinyağlı sebze yemeği bu şartı sağlar. Bilgin yoksa içerik mutfağa sorulur."
+    },
+    {
+      "id": "go-4-s23",
+      "tur": "coktan-secmeli",
+      "soru": "Çölyak hastası bir konuk için hangisi risklidir?",
+      "secenekler": [
+        "Haşlanmış patates",
+        "Sade haşlanmış pirinç",
+        "Sade ızgara balık",
+        "Bulgur pilavı"
+      ],
+      "dogru": 3,
+      "aciklama": "Bulgur buğdaydan yapılır ve gluten içerir. Patates, pirinç ve sade balık doğal olarak gluten taşımaz; yine de hazırlıkta bulaşma olmamalıdır."
+    },
+    {
+      "id": "go-4-s24",
+      "tur": "coktan-secmeli",
+      "soru": "Koşer yemek kurallarıyla ilgili hangisi doğrudur?",
+      "secenekler": [
+        "Domuz eti serbesttir",
+        "Et ile süt ürünleri karıştırılmaz",
+        "Kabuklu deniz ürünleri serbesttir",
+        "Yemekler yalnızca soğuk sunulur"
+      ],
+      "dogru": 1,
+      "aciklama": "Koşer kurallarında et ve süt ürünleri karıştırılmaz; domuz ve kabuklu deniz ürünleri de yenmez. Yemeğin sıcaklığı kuralın konusu değildir."
+    },
+    {
+      "id": "go-4-s25",
+      "tur": "senaryo",
+      "durum": "Akşam 20.00, restoranda garsonun yanında çalışan stajyersin. Masadaki anne, 'Oğlumun fındık alerjisi var ama şu çikolatalı kekten azıcık yese bir şey olmaz' diyor. Kekin içinde ne olduğunu bilmiyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Önce mutfaktan içeriği sorar, alerjiyi yazdırır, garsonuma ve amirime haber veririm.",
+        "Annenin 'bir şey olmaz' sözüne güvenir ve keki küçük bir porsiyon olarak masaya getiririm.",
+        "Kekin üstündeki fındıkları ayıklayıp geri kalanını çocuğa güvenle servis ederim.",
+        "Kekte fındık olmadığını tahmin eder ve 'sanırım güvenli' diyerek keki masaya getiririm."
+      ],
+      "dogru": 0,
+      "aciklama": "Alerjide tahmin ve pazarlık yoktur; çapraz temas ayıklamayla geçmez. Doğru yol içeriği mutfaktan öğrenmek, notu yazılı iletmek ve amire bildirmektir."
+    },
+    {
+      "id": "go-4-s26",
+      "tur": "senaryo",
+      "durum": "Akşam 21.00, salonda çalışırken bir konuk yemeğinden dakikalar sonra elini boğazına götürüyor; dudakları şişmiş ve zor nefes alıyor. Yanında küçük bir çocuk var.",
+      "soru": "İlk yapacağın şey nedir?",
+      "secenekler": [
+        "Konuğa bir bardak su içirir, oturtur ve biraz dinlenmesini söyleyip işime dönerim.",
+        "Yanından ayrılmaz, yüksek sesle yardım ister, amirime haber verir, 112'yi aratırım.",
+        "Konuğu aceleyle odasına çıkarıp yatmasını önerir, ayrıntıları sonra amirime anlatırım.",
+        "Cebimdeki bir alerji ilacını konuğa verir, kendiliğinden geçmesini beklemek için yanında dururum."
+      ],
+      "dogru": 1,
+      "aciklama": "Dudak şişmesi ve nefes darlığı anafilaksi belirtisi olabilir ve yaşamı tehdit eder. Stajyer müdahale etmez; konuğun yanında kalır, yardım ister, amire haber verir ve 112'yi aratır."
+    },
+    {
+      "id": "go-4-s27",
+      "tur": "senaryo",
+      "durum": "Öğle 13.00, dört kişilik bir masaya servis yapıyorsun. Üç konuk yemeğini bitirdi, dördüncüsü hâlâ yiyor. Mutfak yeni siparişleri çıkarmak için masanın boşalmasını bekliyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Biten üç tabağı hemen alır, dördüncü konuğun önünde tek tabak bırakırım.",
+        "Dördüncü konuğun tabağını da kaldırıp masayı hızla boşaltırım.",
+        "Dördüncü konuk bitirene dek bekler, sonra tabakları sağdan sessizce kaldırırım.",
+        "Konuklara mutfağın beklediğini söyleyip yemeği çabuk bitirmelerini rica ederim."
+      ],
+      "dogru": 2,
+      "aciklama": "Tabaklar herkes bitirdikten sonra sessizce alınır; acele ettirmek konuğun yemek keyfini bozar. Mutfaktaki bekleme sorunu konuğa değil, amire ve mutfağa iletilir."
+    },
+    {
+      "id": "go-4-s28",
+      "tur": "senaryo",
+      "durum": "Akşam 20.30, ızgara balığı masaya götürdükten iki dakika sonra uğradığında konuk 'Balık biraz soğuk' diyor. Masadaki diğer konuklar yemeklerini yemeye devam ediyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Balığın az önce pişmiş olduğunu anlatır ve biraz beklerse ısınacağını söylerim.",
+        "Tabağı kimseye söylemeden mikrodalgada ısıtıp aynı tabakla masaya geri getiririm.",
+        "Şefin yemeği böyle sunduğunu belirtir ve yeniden yapılamayacağını açıklarım.",
+        "İçtenlikle özür diler, yeni bir tabak hazırlatır ve durumu amirime bildiririm."
+      ],
+      "dogru": 3,
+      "aciklama": "Check-back konuğun sorunu söylemesini kolaylaştırır; yemek tartışmadan yenilenir, sebep amire ve mutfağa not edilir. Haklı çıkmaya çalışmak ya da gizlice çözmek konuğu kaybettirir."
+    },
+    {
+      "id": "go-4-s29",
+      "tur": "senaryo",
+      "durum": "Sabah 08.00, kahvaltı büfesinde çalışıyorsun. Küçük bir çocuk zeytin kabına elini sokup bir avuç zeytin alıyor; annesi ise başka yöne bakıyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Aileye kibarca maşayı gösterir, kabı hemen yeniler ve olayı amirime bildiririm.",
+        "Çocuğa yüksek sesle kızar ve annesini herkesin önünde uyarırım.",
+        "Kabı olduğu gibi bırakır ve çocuğun başka kaplara dokunmasını beklerim.",
+        "Zeytinlerin üstünü karıştırıp elin değdiği yeri göstermeyecek biçimde düzeltirim."
+      ],
+      "dogru": 0,
+      "aciklama": "Büfede her kabın kendi maşası vardır ve elin değdiği yemek yenilenir; bu gıda güvenliği kuralıdır. Konuğu azarlamadan, kibarca yönlendirmek ve amire bildirmek doğrudur."
+    },
+    {
+      "id": "go-4-s30",
+      "tur": "senaryo",
+      "durum": "Öğle 12.45, bir konuk 'Ben vejetaryenim, mercimek çorbası olur mu?' diye soruyor. Çorbanın nasıl yapıldığını bilmiyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Mercimek bitkisel olduğu için kesinlikle uygundur diyerek siparişi hemen alırım.",
+        "Mutfağa sorar, çorbada et suyu olup olmadığını öğrenir, kesin cevap veririm.",
+        "Çorbayı tadıp içinde et tadı olup olmadığına kendi damağımla karar veririm.",
+        "Menüde etli yemekler arasında yazmadığı için bir sorun çıkmayacağını söylerim."
+      ],
+      "dogru": 1,
+      "aciklama": "Vejetaryen yemekte gizli et suyu sorun olabilir. Bilmediğini tahminle söylemezsin; kesin bilgiyi mutfaktan alırsın."
+    },
+    {
+      "id": "go-4-s31",
+      "tur": "senaryo",
+      "durum": "Akşam 17.00, kaymakamlık yemeği için ziyafet salonunun protokol masasını kuruyorsun. Yer kartlarını dizerken onur konuğunun kartını yanlış yere koyduğunu fark ediyorsun; davet bir saat sonra başlayacak.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Kartları kendi uygun bulduğum sıraya göre değiştirir ve kimseye söylemem.",
+        "Fark edilmez umuduyla bırakır, konuklar gelince yerlerini kendilerinin bulmasını beklerim.",
+        "Hatayı hemen amirime bildirir, masa planını onunla kontrol edip kartları düzeltirim.",
+        "Onur konuğuna kartını elden verir ve istediği yere oturmasını rica ederim."
+      ],
+      "dogru": 2,
+      "aciklama": "Protokolde sıra hatası saygısızlık sayılabilir. Hata fark edilince saklanmaz; amire bildirilir ve masa planı davet sahibiyle belirlenen sıraya göre düzeltilir."
+    },
+    {
+      "id": "go-4-s32",
+      "tur": "senaryo",
+      "durum": "Akşam 21.30, hesabı getirdiğinde konuk 'Servis ücreti neden eklenmiş? Üstelik bahşiş de vereceğim' diyerek itiraz ediyor. Ücret menüde yazılı ve hesapta ayrı kalem olarak görünüyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Bunun kural olduğunu söyler ve konuğun itirazını tartışarak kapatırım.",
+        "Konuğu memnun etmek için servis ücretini kendi kararımla hesaptan silerim.",
+        "Bahşiş vereceği için servis ücretini ödemeyeceğini söyleyip hesabı yeniden yazarım.",
+        "Sakin kalır, hesabı ve menüdeki satırı gösterir, gerekirse amirimi çağırırım."
+      ],
+      "dogru": 3,
+      "aciklama": "Servis ücreti hesaba önceden eklenen bir bedeldir, bahşiş ise isteğe bağlıdır; ikisi aynı şey değildir. Şeffaf anlatmak, yetki sınırında kalmak ve gerekirse amiri çağırmak doğrudur."
+    }
+  ]
+}

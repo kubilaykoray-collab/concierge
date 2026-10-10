@@ -37,6 +37,26 @@
         { "no": "3.3", "baslik": "Profesyonelin Becerileri", "kazanim": "Dünya otelciliğinde aranan beceri ve tutumları kendi gelişim planıyla ilişkilendirir." },
         { "no": "3.4", "baslik": "Sürdürülebilir ve Geleceğin Otelciliği", "kazanim": "Dünya otelciliğinde sürdürülebilirlik ve teknoloji eğilimlerinin mesleğe etkisini yorumlar." }
       ]
+    },
+    {
+      "unite": 4,
+      "baslik": "Servis Sanatı ve Dünya Mutfağı",
+      "konular": [
+        { "no": "4.1", "baslik": "Restoranın Düzeni", "kazanim": "Uluslararası restoran ve mutfak organizasyonunu, unvanları ve çalışma düzenini açıklar." },
+        { "no": "4.2", "baslik": "Servis Tarzları ve Masa Düzeni", "kazanim": "Dünyada kullanılan servis tarzlarını ve masa düzeni ilkelerini uygular." },
+        { "no": "4.3", "baslik": "Menü, Mutfak ve Gastronomi", "kazanim": "Menü türlerini, dünya mutfaklarının temel kavramlarını ve gastronomi turizmini açıklar." },
+        { "no": "4.4", "baslik": "Konuğun Masadaki Deneyimi", "kazanim": "Beslenme tercihleri, alerjenler ve kültürel hassasiyetler karşısında doğru servisi uygular." }
+      ]
+    },
+    {
+      "unite": 5,
+      "baslik": "Etkinlik, Kruvaziyer ve Hava Yolu Dünyası",
+      "konular": [
+        { "no": "5.1", "baslik": "Etkinlik ve MICE Dünyası", "kazanim": "Uluslararası etkinlik ve toplantı sektörünün işleyişini ve unvanlarını açıklar." },
+        { "no": "5.2", "baslik": "Kruvaziyer Otelciliği", "kazanim": "Kruvaziyer gemisinde otelcilik departmanlarını ve çalışma düzenini açıklar." },
+        { "no": "5.3", "baslik": "Hava Yolu ve Havalimanı Hizmetleri", "kazanim": "Hava yolu yolcu hizmetlerinin ve havalimanı işleyişinin temel kavramlarını açıklar." },
+        { "no": "5.4", "baslik": "Destinasyon ve Deneyim Tasarımı", "kazanim": "Destinasyon yönetimi ve deneyim turizminin uluslararası kavramlarını açıklar." }
+      ]
     }
   ]
 }

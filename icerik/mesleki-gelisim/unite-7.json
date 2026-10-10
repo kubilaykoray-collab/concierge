@@ -298,7 +298,7 @@
       "tanim": "Fabrikada üretim yapmak yerine temizlik, taşıma ya da bilgi verme gibi işlerle insanlara doğrudan hizmet eden robottur.",
       "ornek": "Bir otelin lobisinde gece boyunca zemini silen temizlik robotu; restoranda tabakları masanın yanına kadar taşıyan robot.",
       "sektor": "Bazı otel ve restoranlarda temizlik ve taşıma işlerinde kullanılır. Robot taşıma işini yapar; konuğa 'Afiyet olsun' demek ve masadaki eksiği fark etmek yine personelin işidir.",
-      "iliskili": ["mg-7-052", "mg-7-050", "mg-7-011"], "kontrol": null, "kitapDisi": true },
+      "iliskili": ["mg-7-052", "mg-7-050", "mg-7-011"], "kontrol": null, "kitapDisi": true, "gorsel": "ek-otel-servis-robotu" },
     { "id": "mg-7-054", "konu": "7.4", "terim": "3D yazıcı", "ingilizce": "3D printer (additive manufacturing)",
       "tanim": "Bilgisayarda tasarlanan bir nesneyi, malzemeyi katman katman üst üste ekleyerek üreten makinedir.",
       "ornek": "Okulun atölyesinde öğrenciler, kırılan bir makine düğmesinin aynısını bilgisayarda çizip 3D yazıcıdan çıkarır.",
