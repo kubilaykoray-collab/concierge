@@ -236,8 +236,8 @@ button {
   transform: translateX(-50%);
   width: min(100%, 540px);
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
+  grid-template-columns: repeat(5, 1fr);
+  padding: 8px 6px calc(8px + env(safe-area-inset-bottom));
   background: var(--sekme-zemin);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
@@ -880,7 +880,44 @@ button {
   gap: 6px;
 }
 
-.yol,
+/* Keşfet: fotoğraflı yer kartları iki sütun */
+.kesfet-izgara {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.kesfet-kart {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  border-radius: var(--kose);
+  padding-bottom: 10px;
+}
+
+.kesfet-kart img { width: 100%; aspect-ratio: 720 / 446; object-fit: cover; display: block; margin-bottom: 8px; }
+.kesfet-kart strong { font: 600 0.98rem/1.25 var(--serif); padding: 0 12px; color: var(--murekkep); }
+.kesfet-kart span { font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 0 12px; color: var(--soluk); }
+.kesfet-liste { padding: 0 10px 10px; }
+
+/* Bu hafta sınıfta: öğretmenin planındaki konu */
+.bu-hafta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 18px;
+  background: var(--kagit);
+  border: 1px solid var(--altin);
+  border-radius: var(--kose);
+}
+
+.bu-hafta a { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: var(--murekkep); }
+.bu-hafta a strong { font: 600 1.02rem var(--serif); }
+.bu-hafta a span { font-size: 0.8rem; color: var(--soluk); }
+
 /* Büyük birimlerde konu konu katlanan ders yolu */
 .konu-grubu {
   margin-bottom: 10px;
@@ -905,6 +942,7 @@ button {
 .konu-grubu-durum { font-size: 0.8rem; color: var(--soluk); white-space: nowrap; }
 .konu-grubu > .yol { padding: 0 12px 8px; }
 
+.yol,
 .basamaklar {
   list-style: none;
   display: flex;

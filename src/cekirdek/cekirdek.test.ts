@@ -5,6 +5,7 @@ import { dersleriBol, uniteleriKur } from "./icerik";
 import { BOS, dersBitti, oku, oyunBitti, rutbe, seri, tekrarCevabi, testBitti, vakaCevabi } from "./ilerleme";
 import { bugun, cevapla, gunEkle, vadesiGelenler, yeniKart } from "./leitner";
 import { rozetler } from "./rozetler";
+import { haftaNo, haftaninKonulari } from "./takvim";
 import type { Kavram, Plan, Soru, UniteDosyasi } from "./tipler";
 
 const kavram = (n: number, ek: Partial<Kavram> = {}): Kavram => ({
@@ -147,6 +148,23 @@ describe("arama", () => {
     expect(ara(liste, "gezilerin").map((k) => k.terim)).toEqual(["Turizm"]);
     expect(ara(liste, "")).toHaveLength(3);
     expect(ara(liste, "zzz")).toEqual([]);
+  });
+});
+
+describe("takvim", () => {
+  it("hafta numarası pazartesiden pazara sabittir; ilk haftadan önce 0", () => {
+    expect(haftaNo("2026-09-14")).toBe(1);
+    expect(haftaNo("2026-09-20")).toBe(1);
+    expect(haftaNo("2026-09-21")).toBe(2);
+    expect(haftaNo("2026-10-10")).toBe(4);
+    expect(haftaNo("2026-09-01")).toBe(0);
+  });
+
+  it("haftanın konuları plandan gelir; tatilde ve plan dışında boş", () => {
+    expect(haftaninKonulari("2026-10-13").map((k) => k.konu)).toEqual(["1.3", "1.5"]);
+    expect(haftaninKonulari("2026-11-18")).toEqual([]);
+    expect(haftaninKonulari("2027-03-01")).toEqual([]);
+    expect(haftaninKonulari("2026-09-01")).toEqual([]);
   });
 });
 

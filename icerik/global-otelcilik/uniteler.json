@@ -57,6 +57,16 @@
         { "no": "5.3", "baslik": "Hava Yolu ve Havalimanı Hizmetleri", "kazanim": "Hava yolu yolcu hizmetlerinin ve havalimanı işleyişinin temel kavramlarını açıklar." },
         { "no": "5.4", "baslik": "Destinasyon ve Deneyim Tasarımı", "kazanim": "Destinasyon yönetimi ve deneyim turizminin uluslararası kavramlarını açıklar." }
       ]
+    },
+    {
+      "unite": 6,
+      "baslik": "Pazarlama, Marka ve Dijital Otelcilik",
+      "konular": [
+        { "no": "6.1", "baslik": "Otel Pazarlamasının Temelleri", "kazanim": "Hedef kitle, konumlandırma ve değer önerisi gibi pazarlama kavramlarını otel örnekleriyle açıklar." },
+        { "no": "6.2", "baslik": "Dijital Pazarlama ve İtibar", "kazanim": "Web sitesi, sosyal medya, yorum siteleri ve çevrim içi itibar yönetiminin otel için işleyişini açıklar." },
+        { "no": "6.3", "baslik": "Satış ve Konuk Sadakati", "kazanim": "Satış tekniklerini, ek satışı ve sadakat programlarını konuk değerine saygılı biçimde uygular." },
+        { "no": "6.4", "baslik": "Veri, Teknoloji ve Gizlilik", "kazanim": "Otelcilikte veri kullanımı, otomasyon ve kişisel verilerin korunması ilkelerini açıklar." }
+      ]
     }
   ]
 }

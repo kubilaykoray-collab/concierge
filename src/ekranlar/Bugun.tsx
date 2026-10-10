@@ -3,6 +3,7 @@ import { Cubuk, dakika, Simge } from "../bilesenler";
 import { rutbe, seri } from "../cekirdek/ilerleme";
 import { bugun, USTA_KUTU, vadesiGelenler } from "../cekirdek/leitner";
 import { rozetler } from "../cekirdek/rozetler";
+import { haftaninKonulari } from "../cekirdek/takvim";
 import { DERS_CIZIMI, KoseSusu, OtelCizimi } from "../cizimler";
 import { useIlerleme } from "../depo";
 import { DERS_LISTESI, DERSLER, gorselAdresi, GUNCEL_KAVRAMLAR as KAVRAMLAR, GUNCEL_UNITELER as UNITELER, kavramBul } from "../veri";
@@ -69,6 +70,15 @@ export function Bugun() {
   const rozetListesi = rozetler(ilerleme, gun, UNITELER.map((u) => ({ anahtar: u.anahtar, dersler: u.dersler.map((d) => d.anahtar) })), (id) => guncelKimlikler.has(id));
   const kazanilanRozet = rozetListesi.filter((r) => r.kazanildi).length;
   const siradakiRozet = rozetListesi.filter((r) => !r.kazanildi).sort((a, b) => b.oran - a.oran)[0];
+  // Bu hafta sınıfta: öğretmenin planındaki konunun ilk bitmemiş dersi.
+  const buHafta = haftaninKonulari(gun).flatMap(({ ders, konu }) => {
+    const unite = UNITELER.find((u) => u.ders === ders && u.konular.some((k) => konu === k.no || konu.startsWith(k.no + ".")));
+    if (!unite) return [];
+    const anaKonu = unite.konular.find((k) => konu === k.no || konu.startsWith(k.no + "."))!;
+    const konuDersleri = unite.dersler.filter((d) => d.konu === anaKonu.no);
+    const dersParcasi = konuDersleri.find((d) => !ilerleme.dersler[d.anahtar]) ?? konuDersleri[0];
+    return dersParcasi ? [{ unite, anaKonu, dersParcasi, biten: konuDersleri.filter((d) => ilerleme.dersler[d.anahtar]).length, toplam: konuDersleri.length }] : [];
+  });
 
   return (
     <>
@@ -145,6 +155,21 @@ export function Bugun() {
         <div><Simge ad="kitap" /><strong>{ogrenilen}</strong><span>öğrenilen</span></div>
         <div><Simge ad="yildiz" /><strong>{usta}</strong><span>ustalaşılan</span></div>
       </section>
+
+      {buHafta.length > 0 && (
+        <section className="bu-hafta">
+          <span className="ust-etiket">Bu hafta sınıfta</span>
+          {buHafta.map((h) => (
+            <a key={h.unite.anahtar + h.anaKonu.no} href={`#/ders/${h.dersParcasi.anahtar}`}>
+              <div className="satir-govde">
+                <strong>{h.anaKonu.no} · {h.anaKonu.baslik}</strong>
+                <span>{h.unite.dersAdi} · {h.biten}/{h.toplam} ders · sıradaki: {h.dersParcasi.baslik}</span>
+              </div>
+              <Simge ad="ok" boyut={18} />
+            </a>
+          ))}
+        </section>
+      )}
 
       {kurulumIpucu && (
         <div className="kurulum-ipucu">

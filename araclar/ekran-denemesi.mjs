@@ -209,6 +209,12 @@ try {
   await cek("karanlik-bugun", true);
   await dogrula(var_(".gunun-yeri"), "günün yeri kartı");
   await dogrula(var_(".rozet-seridi"), "rozet şeridi");
+  await git("/kesfet");
+  await cek("kesfet", true);
+  await dogrula(sayfa.$$eval(".kesfet-kart", (k) => k.length >= 20), "keşfette fotoğraflı yerler");
+  await sayfa.evaluate(() => [...document.querySelectorAll(".etiketler .hap")].find((p) => p.textContent === "Ege").click());
+  await bekle(250);
+  await dogrula(sayfa.$$eval(".kesfet-kart span", (s) => s.every((x) => x.textContent === "Ege")), "bölge süzgeci çalışıyor");
   await git("/ders/mesleki-gelisim/1/3");
   await cek("karanlik-kavram-karti");
   await tikla(".alt-eylem .dugme");

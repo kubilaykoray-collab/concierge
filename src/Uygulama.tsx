@@ -5,6 +5,7 @@ import { Bugun } from "./ekranlar/Bugun";
 import { Ders } from "./ekranlar/Ders";
 import { Dersler, UniteEkrani } from "./ekranlar/Dersler";
 import { Ilerleme } from "./ekranlar/Ilerleme";
+import { Kesfet } from "./ekranlar/Kesfet";
 import { Kunye } from "./ekranlar/Kunye";
 import { Oyun } from "./ekranlar/Oyun";
 import { Sozluk } from "./ekranlar/Sozluk";
@@ -15,6 +16,7 @@ import { Test } from "./ekranlar/Test";
 const SEKMELER: { yol: string; ad: string; simge: SimgeAdi }[] = [
   { yol: "", ad: "Bugün", simge: "zil" },
   { yol: "dersler", ad: "Dersler", simge: "kitap" },
+  { yol: "kesfet", ad: "Keşfet", simge: "harita" },
   { yol: "sozluk", ad: "Sözlük", simge: "ara" },
   { yol: "ilerleme", ad: "İlerleme", simge: "yildiz" },
 ];
@@ -47,7 +49,7 @@ function Ekran() {
   if (bolum === "oyun") return <Oyun key={yol.join("/")} uniteAnahtari={uniteAnahtari} />;
   if (bolum === "vaka") return <Vaka key={yol.join("/")} uniteAnahtari={uniteAnahtari} />;
 
-  const BILINEN = ["dersler", "unite", "sozluk", "ilerleme", "kunye"];
+  const BILINEN = ["dersler", "unite", "kesfet", "sozluk", "ilerleme", "kunye"];
   const sekme = bolum === "unite" ? "dersler" : bolum === "kunye" ? "ilerleme" : BILINEN.includes(bolum) ? bolum : "";
   return (
     <div className="kabuk">
@@ -55,6 +57,7 @@ function Ekran() {
         {sekme === "" && <Bugun />}
         {bolum === "dersler" && <Dersler secili={a} />}
         {bolum === "unite" && <UniteEkrani anahtar={uniteAnahtari} />}
+        {bolum === "kesfet" && <Kesfet />}
         {bolum === "sozluk" && <Sozluk secili={a} />}
         {bolum === "ilerleme" && <Ilerleme />}
         {bolum === "kunye" && <Kunye />}
