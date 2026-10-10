@@ -82,6 +82,7 @@ export const DERS_CIZIMI: Record<string, typeof OtelCizimi> = {
   "otelcilik-seyahat": OtelCizimi,
   "genel-turizm-2026": DunyaCizimi,
   "mesleki-gelisim": PusulaCizimi,
+  "global-otelcilik": DunyaCizimi,
   "konaklama-seyahat": OtelCizimi,
   "genel-turizm": DunyaCizimi,
 };
@@ -127,6 +128,9 @@ const UNITE_PIKTOGRAMI: Record<string, PiktogramAdi> = {
   "mesleki-gelisim/8": "pusula",
   "mesleki-gelisim/9": "harita",
   "mesleki-gelisim/10": "bina",
+  "global-otelcilik/1": "harita",
+  "global-otelcilik/2": "konuk",
+  "global-otelcilik/3": "parilti",
   "konaklama-seyahat/1": "damla",
   "konaklama-seyahat/2": "kalkan",
   "konaklama-seyahat/3": "papyon",

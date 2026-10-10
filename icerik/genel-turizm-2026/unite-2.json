@@ -167,7 +167,8 @@
         "gt2-2-005",
         "gt2-2-006"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-lobi"
     },
     {
       "id": "gt2-2-004",
@@ -197,7 +198,8 @@
         "gt2-2-020",
         "gt2-2-022"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-kamp-cadiri"
     },
     {
       "id": "gt2-2-006",
@@ -335,7 +337,8 @@
         "gt2-2-013",
         "gt2-2-006"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-sertifika-cercevesi"
     },
     {
       "id": "gt2-2-015",
@@ -344,14 +347,14 @@
       "ingilizce": "Sultan Han (Seljuk caravanserai)",
       "tanim": "Aksaray–Konya yolu üzerinde bulunan, Selçuklu döneminde kervanların güvenle gecelemesi için yapılmış büyük kervansaraydır.",
       "ornek": "Bugün Aksaray’dan Konya’ya giden bir tur otobüsü Sultanhanı’nda mola verir; rehber yüksek taş duvarları ve anıtsal kapıyı gösterip yapının yüzyıllar önce kervanları ağırladığını anlatır.",
-      "sektor": "Kervansaraylar yolcuya barınma, yemek ve güvenliği belli bir düzen içinde sunan ilk yapılar sayılır; bugünkü otelciliğin tarihsel temelidir. Barışta pazar yeri, savaşta kale gibi de kullanılmışlardır.",
+      "sektor": "Kervansaraylar yolcuya barınma, yemek ve güvenliği belli bir düzen içinde sunan ilk yapılar sayılır; bugünkü otelciliğin tarihsel temelidir. Ders kitabına göre kervansaraylar 11. yüzyıldan itibaren Selçuklular döneminde yaygınlaştı; önce askerî savunma için düşünüldü, zamanla artan ticaret ve dinî ihtiyaçları karşılamak üzere genişletildi.",
       "iliskili": [
         "gt2-2-006",
         "gt2-2-003",
         "gt2-2-060"
       ],
       "kontrol": null,
-      "gorsel": "kervan"
+      "gorsel": "sektor-kervansaray-avlusu"
     },
     {
       "id": "gt2-2-016",
@@ -398,7 +401,8 @@
         "gt2-2-006",
         "gt2-2-016"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-butik-otel-odasi"
     },
     {
       "id": "gt2-2-019",
@@ -443,7 +447,8 @@
         "gt2-2-020",
         "gt2-2-022"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-hostel-yatakhane"
     },
     {
       "id": "gt2-2-022",
@@ -474,7 +479,8 @@
         "gt2-2-020",
         "gt2-2-006"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-suit"
     },
     {
       "id": "gt2-2-024",
@@ -489,7 +495,8 @@
         "gt2-2-009",
         "gt2-2-090"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-spa"
     },
     {
       "id": "gt2-2-025",
@@ -552,6 +559,11 @@
       ],
       "kontrol": null
     },
+    { "id": "gt2-2-127", "konu": "2.1", "terim": "Aracılık", "ingilizce": "Intermediation",
+      "tanim": "İki taraf arasında bir hizmetin ya da ürünün sunulmasını sağlayan faaliyettir.",
+      "ornek": "Pazartesi sabahı, Eskişehir’deki bir acente müşterisi için Antalya’daki otelden oda ayırtır ve uçak koltuğu alır; oteli de uçağı da kendisi üretmemiştir.",
+      "sektor": "Seyahat acentesi, hizmeti üreten otel, havayolu gibi işletmelerle turist arasında komisyon karşılığında aracılık eden perakendeci işletmedir. Aracı olduğu için verdiği bilginin doğru olması çok önemlidir: yanlış bilgi hem konuğu hem hizmeti üreten işletmeyi zor durumda bırakır.",
+      "iliskili": ["gt2-2-027", "gt2-2-028", "gt2-2-031"], "kontrol": null },
     {
       "id": "gt2-2-029",
       "konu": "2.1",
@@ -598,6 +610,11 @@
       ],
       "kontrol": null
     },
+    { "id": "gt2-2-128", "konu": "2.1", "terim": "Seyahat işletmesinde rezervasyon", "ingilizce": "Reservation (booking)",
+      "tanim": "Konaklama, uçuş ya da tur gibi bir turizm hizmetinden yararlanmak için önceden yer ayırtma işlemidir.",
+      "ornek": "Salı öğleden sonra, acente: bir çift temmuz ayı için bir haftalık tatil ister; danışman uygun otel odasını ve uçuş koltuğunu adlarına ayırtır, rezervasyon bilgilerini yazılı olarak verir.",
+      "sektor": "Rezervasyon, hizmetin kullanılmadan önce satın alınması demektir: ad, tarih ve kişi sayısı yanlış girilirse konuk yolculuğa çıkamayabilir. İnternet üzerinden yapılan rezervasyon aynı işin çevrim içi hâlidir.",
+      "iliskili": ["gt2-2-113", "gt2-2-032", "gt2-2-036"], "kontrol": null },
     {
       "id": "gt2-2-032",
       "konu": "2.1",
@@ -611,7 +628,8 @@
         "gt2-2-033",
         "gt2-2-039"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-pasaport-bilet"
     },
     {
       "id": "gt2-2-033",
@@ -626,7 +644,8 @@
         "gt2-2-032",
         "gt2-2-035"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "pasaport"
     },
     {
       "id": "gt2-2-034",
@@ -718,7 +737,8 @@
         "gt2-2-040",
         "gt2-2-032"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-havalimani-terminali"
     },
     {
       "id": "gt2-2-040",
@@ -749,8 +769,14 @@
         "gt2-2-032"
       ],
       "kontrol": null,
-      "kitapDisi": true
+      "kitapDisi": true,
+      "gorsel": "sektor-ucak-kabini"
     },
+    { "id": "gt2-2-129", "konu": "2.1", "terim": "Bagaj", "ingilizce": "Baggage (luggage)",
+      "tanim": "Yolculuk sırasında yanda taşınan kişisel eşyaların tümüdür.",
+      "ornek": "Sabah 07.00, havalimanı: yolcu büyük valizini check-in bankosunda teslim eder, küçük çantasını yanında kabine götürür.",
+      "sektor": "Bagaj hakkı havayoluna ve bilet türüne göre değişir; düşük maliyetli hava yollarında ücrete dâhil olmayabilir, bu yüzden satış sırasında açıkça söylenir. Otelde bagajı bellboy taşır; konuğun eşyası işletmeye emanettir.",
+      "iliskili": ["gt2-2-041", "gt2-2-032", "gt2-2-038"], "kontrol": null, "gorsel": "valizler" },
     {
       "id": "gt2-2-042",
       "konu": "2.1",
@@ -764,7 +790,8 @@
         "gt2-2-043",
         "gt2-2-034"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-tur-otobusu"
     },
     {
       "id": "gt2-2-043",
@@ -794,7 +821,8 @@
         "gt2-2-045",
         "gt2-2-055"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-kruvaziyer-gemisi"
     },
     {
       "id": "gt2-2-045",
@@ -841,7 +869,8 @@
         "gt2-2-037",
         "gt2-2-035"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-tren-istasyonu"
     },
     {
       "id": "gt2-2-048",
@@ -856,7 +885,8 @@
         "gt2-2-049",
         "gt2-2-050"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-tren-peronu"
     },
     {
       "id": "gt2-2-049",
@@ -1037,7 +1067,8 @@
         "gt2-2-059",
         "gt2-2-015"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "kolezyum"
     },
     {
       "id": "gt2-2-061",
@@ -1100,6 +1131,11 @@
       ],
       "kontrol": null
     },
+    { "id": "gt2-2-130", "konu": "2.1", "terim": "Belediye belgeli ve Bakanlık belgeli işletme", "ingilizce": "Municipality-licensed and Ministry-licensed establishment",
+      "tanim": "Yiyecek içecek işletmelerinin hukuki durumuna göre ayrımıdır: işletme ya belediyeye bağlı (belediye belgeli) ya da Bakanlığa bağlı (turizm işletme belgeli) olur.",
+      "ornek": "Bir yiyecek içecek işletmesini tanıtan formda hukuki durum başlığı altında iki kutucuk vardır: ‘Belediye Belgeli’ ve ‘Turizm İşletme Belgeli (Bakanlık)’; uygun olan işaretlenir.",
+      "sektor": "Ders kitabı bu ayrımı yalnız hukuki durum başlığı altında verir. Hukuki durum; büyüklük (kuver), konum ve servis şekliyle birlikte bir yiyecek içecek işletmesini tanımlayan dört ölçütten biridir.",
+      "iliskili": ["gt2-2-064", "gt2-2-065", "gt2-2-063"], "kontrol": null },
     {
       "id": "gt2-2-065",
       "konu": "2.1",
@@ -1113,7 +1149,8 @@
         "gt2-2-064",
         "gt2-2-066"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-masa-duzeni"
     },
     {
       "id": "gt2-2-066",
@@ -1158,7 +1195,8 @@
         "gt2-2-066",
         "gt2-2-069"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-acik-bufe"
     },
     {
       "id": "gt2-2-069",
@@ -1612,7 +1650,8 @@
         "gt2-2-095",
         "gt2-2-102"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-gunes-paneli"
     },
     {
       "id": "gt2-2-098",
@@ -1734,7 +1773,8 @@
         "gt2-2-107",
         "gt2-2-059"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-vr-gozlugu"
     },
     {
       "id": "gt2-2-106",
@@ -1824,7 +1864,8 @@
         "gt2-2-113",
         "gt2-2-115"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-akilli-telefon"
     },
     {
       "id": "gt2-2-112",
@@ -1854,7 +1895,8 @@
         "gt2-2-112",
         "gt2-2-114"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-bilgisayar-masasi"
     },
     {
       "id": "gt2-2-114",
@@ -1870,8 +1912,14 @@
         "gt2-2-111"
       ],
       "kontrol": null,
-      "kitapDisi": true
+      "kitapDisi": true,
+      "gorsel": "sektor-qr-kod"
     },
+    { "id": "gt2-2-131", "konu": "2.2.3", "terim": "Turizmde POS cihazı", "ingilizce": "POS terminal (card payment device)",
+      "tanim": "Müşterinin kredi ya da banka kartıyla ödeme yapmasını sağlayan elektronik cihazdır.",
+      "ornek": "Akşam 21.30, restoran: konuk hesabı isteyince garson POS cihazını masaya getirir; konuk kartını okutur, şifresini girer ve fişini alır.",
+      "sektor": "Birçok turist yanında nakit yerine kart taşır; POS cihazı olmayan işletme bu konukları kaybeder. Görevli tutarı doğru girer ve fişi konuğa verir; kartı konuğun gözü önünde kullanmak güveni korur.",
+      "iliskili": ["gt2-2-113", "gt2-2-114", "gt2-2-111"], "kontrol": null },
     {
       "id": "gt2-2-115",
       "konu": "2.2.3",
@@ -1962,6 +2010,11 @@
       ],
       "kontrol": null
     },
+    { "id": "gt2-2-132", "konu": "2.2.3", "terim": "Biyometrik veri", "ingilizce": "Biometric data",
+      "tanim": "Bir kişiyi tanımlamaya yarayan parmak izi, yüz tanıma gibi biyolojik özelliklerden elde edilen verilerdir.",
+      "ornek": "Sabah 06.00, havalimanı: yolcu pasaportunu otomatik kapıda okutur, kamera yüzüne bakar ve kapı açılır.",
+      "sektor": "Dijital turizmde kimlik doğrulamayı hızlandırır; konuk sırada beklemeden geçer. Biyometrik veri kişiye özel ve değiştirilemez olduğu için çok hassastır: bu bilgiler yetkisiz kişilerle paylaşılmaz.",
+      "iliskili": ["gt2-2-111", "gt2-2-114", "gt2-2-120"], "kontrol": null },
     {
       "id": "gt2-2-121",
       "konu": "2.2.4",
@@ -2022,6 +2075,11 @@
       ],
       "kontrol": null
     },
+    { "id": "gt2-2-133", "konu": "2.2.4", "terim": "Uluslararası Uzay İstasyonu", "ingilizce": "International Space Station (ISS)",
+      "tanim": "Dünya’nın yörüngesinde dolaşan, astronotların bilimsel deneyler yapmak için bir süre yaşadığı büyük uzay laboratuvarıdır.",
+      "ornek": "Alper Gezeravcı 2024’teki görevinde bu istasyona ulaştı ve Türkiye adına bilimsel deneyler yaptı.",
+      "sektor": "Ders kitabı istasyonu Gezeravcı’nın görevi bağlamında anar. Bu görev bilimsel bir görevdir, turistik gezi değildir; uzay turizmini anlamak için bilimsel görevli astronotla uzayı deneyimlemek isteyen turisti ayırt etmek gerekir.",
+      "iliskili": ["gt2-2-124", "gt2-2-121", "gt2-2-125"], "kontrol": null },
     {
       "id": "gt2-2-125",
       "konu": "2.2.4",
@@ -2662,6 +2720,10 @@
       ],
       "dogru": 3,
       "aciklama": "Düşük maliyetli hava yollarında bagaj gibi hizmetler ayrıca ücretlendirilir; fiyata nelerin dâhil olmadığı satıştan önce söylenir. Turistik ürün önceden denenemez; konuk verilen bilgiye güvenir. Gizlenen bilgi havalimanında sürprize, sonra şikâyete dönüşür."
-    }
+    },
+    {"id":"gt2-2-s49","tur":"coktan-secmeli","soru":"Seyahat acentesi için ‘aracılık’ ne demektir?","secenekler":["Otel ve uçak hizmetini kendi imkânlarıyla üretmek","Turistlerden ücret almadan rehberlik yapmak","Hizmeti üretenle turisti komisyon karşılığı buluşturmak","Yalnız yurt dışı turlarına bilet kesmek"],"dogru":2,"aciklama":"Acente oteli, uçağı ya da turu kendisi üretmez; hizmeti üreten işletme ile turist arasında komisyon karşılığında aracılık eder. Bu yüzden perakendeci olarak anılır."},
+    {"id":"gt2-2-s50","tur":"coktan-secmeli","soru":"Aşağıdakilerden hangisi biyometrik veridir?","secenekler":["Parmak izi","Rezervasyon numarası","Pasaport seri numarası","Doğum tarihi"],"dogru":0,"aciklama":"Biyometrik veri, kişiyi tanımlayan parmak izi ve yüz tanıma gibi biyolojik verilerdir. Rezervasyon numarası, seri numarası ve doğum tarihi biyolojik özellik değil, kayıt bilgisidir."},
+    {"id":"gt2-2-s51","tur":"dogru-yanlis","soru":"Bir yiyecek içecek işletmesinin belediye belgeli ya da Bakanlık belgeli olması, işletmenin büyüklüğüne göre yapılan bir sınıflandırmadır.","secenekler":["Doğru","Yanlış"],"dogru":1,"aciklama":"Belediye ya da Bakanlık belgeli olmak işletmenin hukuki durumunu gösterir. Büyüklük ayrı bir ölçüttür ve kuver sayısına bakılarak belirlenir."},
+    {"id":"gt2-2-s52","tur":"coktan-secmeli","soru":"Alper Gezeravcı’nın görevi sırasında ulaştığı, Dünya’nın yörüngesindeki bilimsel araştırma yapısı hangisidir?","secenekler":["Yörünge altı turizm kapsülü","Uzay simülasyon ve eğitim merkezi","Dünya gözlem uydusu ve kontrol merkezi","Uluslararası Uzay İstasyonu"],"dogru":3,"aciklama":"Gezeravcı, Uluslararası Uzay İstasyonu’na ulaşan ilk Türk vatandaşı oldu ve orada Türkiye adına bilimsel deneyler yaptı. Simülasyon merkezi Dünya’da, yörünge altı kapsülü ise kısa turistik uçuşlar içindir."}
   ]
 }

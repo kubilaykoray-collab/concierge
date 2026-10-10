@@ -1,0 +1,1639 @@
+{
+  "ders": "global-otelcilik",
+  "sinif": 9,
+  "unite": 2,
+  "baslik": "Lüks Hizmet ve Konuk Deneyimi",
+  "onay": true,
+  "kazanimlar": [
+    "Dünya lüks otelciliğinde hizmet standardı kavramını ve standartların neden yazılı olduğunu açıklar.",
+    "Konuğun söylemeden önce ihtiyacını fark etmenin ve hizmeti kişiye göre uyarlamanın yollarını açıklar.",
+    "Hata olduğunda konuğu yeniden kazanmanın adımlarını ve çalışanın karar yetkisinin önemini açıklar.",
+    "Farklı kültürlerden konuklara hizmet ederken dikkat edilecek görgü ve iletişim ilkelerini uygular.",
+    "Konuğun hatırlayacağı anların nasıl tasarlandığını ve ölçüldüğünü açıklar."
+  ],
+  "soz": "Lüks, konuk istemeden önce fark etmek ve hata olunca ilk sen koşmaktır.",
+  "dersler": [
+    {
+      "baslik": "Yazılı Söz",
+      "ilk": "go-2-001"
+    },
+    {
+      "baslik": "Gizli Denetçi Kapıda",
+      "ilk": "go-2-004"
+    },
+    {
+      "baslik": "Cebindeki Kart",
+      "ilk": "go-2-009"
+    },
+    {
+      "baslik": "Konuk Söylemeden Önce",
+      "ilk": "go-2-014"
+    },
+    {
+      "baslik": "Seni Tanıyorlar",
+      "ilk": "go-2-019"
+    },
+    {
+      "baslik": "Görünmeyen Hizmet",
+      "ilk": "go-2-022"
+    },
+    {
+      "baslik": "Wow'un Sırrı",
+      "ilk": "go-2-026"
+    },
+    {
+      "baslik": "Hata Olunca",
+      "ilk": "go-2-028"
+    },
+    {
+      "baslik": "Dinle, Anla, Özür Dile",
+      "ilk": "go-2-032"
+    },
+    {
+      "baslik": "Kim Karar Verir?",
+      "ilk": "go-2-036"
+    },
+    {
+      "baslik": "Dünya Lobide",
+      "ilk": "go-2-041"
+    },
+    {
+      "baslik": "Selam, El, Jest",
+      "ilk": "go-2-044"
+    },
+    {
+      "baslik": "Tabakta ve Takvimde İnanç",
+      "ilk": "go-2-048"
+    },
+    {
+      "baslik": "Herkesin Dili, Herkese Yer",
+      "ilk": "go-2-051"
+    },
+    {
+      "baslik": "Oda Değil, Anı Satmak",
+      "ilk": "go-2-055"
+    },
+    {
+      "baslik": "Üç Saniyelik Sınav",
+      "ilk": "go-2-058"
+    },
+    {
+      "baslik": "Son Akılda Kalır",
+      "ilk": "go-2-061"
+    },
+    {
+      "baslik": "Söz Verirken Dikkat",
+      "ilk": "go-2-065"
+    },
+    {
+      "baslik": "Konuğa Kulak Vermek",
+      "ilk": "go-2-067"
+    }
+  ],
+  "kavramlar": [
+    {
+      "id": "go-2-001",
+      "konu": "2.1",
+      "terim": "Lüks hizmet standardı",
+      "ingilizce": "Luxury service standard",
+      "tanim": "Bir hizmetin her konuğa, her gün ve her çalışan tarafından aynı kalitede verilmesi için önceden yazılmış, ölçülebilir beklentidir.",
+      "ornek": "Sabah 08.00, İstanbul'da uluslararası bir zincirin oteli: stajyer, kapı görevlisinin her gelen arabaya aynı adımlarla yaklaştığını fark eder; kapıyı açar, göz teması kurar, 'Hoş geldiniz' der, bavulu bellboya devreder. Bu bir alışkanlık değil, yazılı standarttır.",
+      "sektor": "Lüks otelde iyi hizmet şansa bırakılmaz. Standart yazılı olmasaydı hizmet, o gün kimin vardiyada olduğuna bağlı kalırdı. Dünya zincirleri bu yüzden en küçük davranışı bile yazar, öğretir ve ölçer; stajyer için iş, bu standartları ezberlemekle değil, nedenini anlamakla başlar.",
+      "iliskili": [
+        "go-2-002",
+        "go-2-009",
+        "go-2-003"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "luks-otel"
+    },
+    {
+      "id": "go-2-002",
+      "konu": "2.1",
+      "terim": "Standart işletim prosedürü (SOP)",
+      "ingilizce": "Standard operating procedure (SOP)",
+      "tanim": "Bir işin adım adım nasıl yapılacağını, hangi sırayla ve hangi ölçüde yapılacağını anlatan yazılı talimattır.",
+      "ornek": "Saat 14.00, Antalya'da bir resort: kat görevlisinin elindeki SOP, odaya girişten çıkışa kadar on iki adımı sıralar; stajyer ilk hafta listeye bakarak çalışır, ikinci hafta ezbere.",
+      "sektor": "SOP, 'bana kimse söylemedi' mazeretini ortadan kaldırır. Yeni çalışan ilk günden doğru yapar, denetçi neyi ölçeceğini bilir, hata olduğunda hangi adımın atlandığı görülür. Dünya zincirlerinde her departmanın kendi SOP dosyası vardır.",
+      "iliskili": [
+        "go-2-001",
+        "go-2-004",
+        "go-2-003"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-003",
+      "konu": "2.1",
+      "terim": "Tutarlılık",
+      "ingilizce": "Consistency",
+      "tanim": "Konuğun hangi gün gelirse gelsin, hangi çalışana denk gelirse gelsin aynı kalitede hizmet almasıdır.",
+      "ornek": "Konuk mart ayında Bodrum'daki otelde kaldı, ağustosta aynı zincirin İzmir'deki oteline gitti; ikisinde de aynı karşılama cümlesini duydu ve aynı özenle uğurlandı. 'Bu zincire güveniyorum' dedi.",
+      "sektor": "Lüks, bir kez mükemmel olmak değil, her seferinde iyi olmaktır. Tutarsız otel konuğa kumar oynatır: 'Bu sefer iyi çıkar mı?' Zincir markaların değeri, dünyanın her yerinde aynı deneyimi vaat edebilmelerinden gelir; bunu sağlayan şey yazılı standart ve günlük eğitimdir.",
+      "iliskili": [
+        "go-2-001",
+        "go-2-002",
+        "go-2-007"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-004",
+      "konu": "2.1",
+      "terim": "Ölçülebilir davranış",
+      "ingilizce": "Measurable behaviour",
+      "tanim": "'Yapıldı mı, yapılmadı mı?' sorusuna evet ya da hayır diye cevap verilebilen, bu yüzden denetlenebilen hizmet davranışıdır.",
+      "ornek": "Denetçinin listesinde 'Personel güler yüzlüydü' yazmaz; 'Karşılamada göz teması kuruldu', 'Konuğa adıyla hitap edildi', 'Telefon üç çalışta açıldı' yazar. Stajyer bu listeyi görünce 'iyi hizmet' sözünün nasıl somutlaştığını anlar.",
+      "sektor": "Ölçülemeyen şey yönetilemez. Lüks otelcilik 'nazik olun' gibi belirsiz öğütleri davranışa çevirir; böylece eğitim verilebilir, denetlenebilir ve eksik düzeltilebilir. Forbes gibi derecelendirme kuruluşlarının çok maddelik listeleri bu mantıkla yazılır.",
+      "iliskili": [
+        "go-2-002",
+        "go-2-006",
+        "go-2-005"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-005",
+      "konu": "2.1",
+      "terim": "Telefonu üç çalışta açma",
+      "ingilizce": "Answering within three rings",
+      "tanim": "Çalan telefonun bekletilmeden, genellikle en geç üçüncü çalışta ve otelin belirlediği karşılama cümlesiyle açılmasıdır.",
+      "ornek": "Saat 11.00, rezervasyon ofisi: telefon çalar çalmaz stajyer elindeki dosyayı bırakır, ikinci çalışta açar ve 'Günaydın, rezervasyon, ben Elif, nasıl yardımcı olabilirim?' der.",
+      "sektor": "Dünya lüks otelciliğinde telefon standardı en kolay ölçülen davranışlardan biridir: telefon kaç çalışta açıldı, karşılama cümlesi söylendi mi, konuk bekletildi mi. Konuk için her çalış 'Burada kimse yok mu?' sorusudur; hızlı açılan telefon, konuğun oteli görmeden edindiği ilk izlenimdir.",
+      "iliskili": [
+        "go-2-004",
+        "go-2-006",
+        "go-2-024"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "telefonlar"
+    },
+    {
+      "id": "go-2-006",
+      "konu": "2.1",
+      "terim": "Forbes hizmet standartları",
+      "ingilizce": "Forbes Travel Guide service standards",
+      "tanim": "Lüks otelleri yıldızla derecelendiren Forbes Travel Guide'ın, hizmeti çok sayıda ölçütle değerlendirdiği ve ölçülebilir davranışlara dayandığı standartlar bütünüdür.",
+      "ornek": "Stajyer, genel müdürün duvarındaki yıldız sertifikasının nasıl alındığını sorar; amiri anlatır: kimliğini söylemeyen bir denetçi otelde kaldı, karşılamadan uğurlamaya her davranışı listesiyle karşılaştırdı.",
+      "sektor": "Bu tür derecelendirmelerde binanın ve eşyanın yanında çalışanın davranışı da puanlanır; yani yalnız mermer değil, insan da ölçülür. Ölçütlerin mantığı bellidir: göz teması, isimle hitap, hızlı telefon, öngörülü hizmet. Otelde çalışan herkes, o gün denetçinin gelebileceğini bilerek çalışır.",
+      "iliskili": [
+        "go-2-004",
+        "go-2-007",
+        "go-2-008"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-007",
+      "konu": "2.1",
+      "terim": "Anonim denetçi",
+      "ingilizce": "Anonymous inspector",
+      "tanim": "Kim olduğunu söylemeden sıradan bir konuk gibi otelde kalan ve hizmeti bir ölçüt listesine göre puanlayan değerlendiricidir.",
+      "ornek": "Perşembe 15.00, resepsiyon: tek başına giriş yapan, çok soru soran ve her şeyi dikkatle izleyen konuğun denetçi olup olmadığını kimse bilmez; stajyer ona da herkese davrandığı gibi davranır.",
+      "sektor": "Denetçinin kimliği gizlidir, çünkü otelin 'denetçi günü' değil 'her günkü' halini görmek ister. Bu yüzden lüks otelde hizmetin tek güvencesi, her konuğa aynı özenle davranmaktır; kimin denetçi olduğunu tahmin etmeye çalışmak işe yaramaz.",
+      "iliskili": [
+        "go-2-006",
+        "go-2-008",
+        "go-2-003"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-008",
+      "konu": "2.1",
+      "terim": "Gizli müşteri denetimi",
+      "ingilizce": "Mystery guest audit",
+      "tanim": "İşletmenin kendi isteğiyle görevlendirdiği bir kişinin konuk gibi davranarak hizmeti deneyip ayrıntılı rapor yazdığı iç denetim yöntemidir.",
+      "ornek": "Ay sonu, genel müdür toplantısı: gizli müşteri raporunda 'Havuz barı siparişi on iki dakikada geldi, garson adımı hiç kullanmadı' yazar; F&B müdürü ekibiyle bir eğitim planlar.",
+      "sektor": "Dış denetimden farkı, raporun otelin kendi isteğiyle yazılmasıdır; amaç ceza değil, eksiği konuk gözüyle görmektir. Dünya zincirleri bu raporları eğitim malzemesi olarak kullanır. Rapor kişiyi değil, standardın nasıl uygulandığını ölçer.",
+      "iliskili": [
+        "go-2-007",
+        "go-2-006",
+        "go-2-002"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-009",
+      "konu": "2.1",
+      "terim": "Hizmet kültürü",
+      "ingilizce": "Service culture",
+      "tanim": "Bir işletmede çalışanların, kimse bakmazken bile konuğu nasıl ağırladığını belirleyen ortak değer ve alışkanlıklar bütünüdür.",
+      "ornek": "Gece 02.00, lobi boş: güvenlik görevlisi yerde gördüğü bir peçeteyi, kameraya değil konuğa saygısından eğilip alır. Stajyer ertesi gün bunu duyar ve kültürün ne olduğunu anlar.",
+      "sektor": "Standart kâğıtta yazar, kültür kalpte taşınır. İkisi birlikte çalışır: standart 'ne yapılacağını', kültür 'neden yapıldığını' söyler. Güçlü hizmet kültürü olan otelde yeni gelen çalışan, kurallardan önce çevresinden öğrenir.",
+      "iliskili": [
+        "go-2-001",
+        "go-2-010",
+        "go-2-013"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-010",
+      "konu": "2.1",
+      "terim": "İnanç kartı",
+      "ingilizce": "Credo card",
+      "tanim": "Bir otel zincirinin hizmet inancını, sloganını ve temel değerlerini özetleyen, çalışanların üniforma cebinde taşıdığı küçük karttır.",
+      "ornek": "İlk staj günü, personel girişi: amir stajyere üniformayla birlikte katlanmış bir kart verir; üstünde otelin konuğa verdiği söz ve çalışanın uyacağı değerler yazılıdır. 'Bunu her gün okuyacaksın' der.",
+      "sektor": "Bu uygulamayla anılan zincirlerden biri Ritz-Carlton'dur; 'Altın Standartlar' adını verdiği değerleri kartla çalışanına taşır ve 'Hanımefendilere ve beyefendilere hizmet eden hanımefendiler ve beyefendileriz' sözüyle özetler. Burada yalnız kartın ne olduğunu anlatmak için örnek verilmiştir. Kart, hizmet kültürünü soyut bir fikir olmaktan çıkarıp her çalışanın cebine koyar.",
+      "iliskili": [
+        "go-2-009",
+        "go-2-011",
+        "go-2-012"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-011",
+      "konu": "2.1",
+      "terim": "Hizmetin üç adımı",
+      "ingilizce": "Three steps of service",
+      "tanim": "Sıcak ve içten karşılama, konuğun ihtiyacını önceden sezip karşılama ve isimle sıcak uğurlama olmak üzere her konuk temasında izlenen üç adımlık düzendir.",
+      "ornek": "Saat 12.30, otel restoranı: garson masaya yaklaşırken gülümser ve 'Hoş geldiniz' der; konuğun menüde vejetaryen yemek aradığını fark edip önerir; kalkarken 'Teşekkürler Ayşe Hanım, akşam yine bekleriz' diye uğurlar.",
+      "sektor": "Ritz-Carlton'ın Altın Standartları'nda 'hizmetin üç adımı' diye yer alan bu düzen, birçok otelin eğitiminde benzer biçimde kullanılır: karşıla, öngör, uğurla. Stajyer için hatırlaması kolay bir pusuladır; hangi departmanda olursa olsun her konuk temasını bu üç adımla kurar.",
+      "iliskili": [
+        "go-2-010",
+        "go-2-014",
+        "go-2-018"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-012",
+      "konu": "2.1",
+      "terim": "Günlük hizmet toplantısı (line-up)",
+      "ingilizce": "Daily line-up",
+      "tanim": "Her vardiya başında ekibin kısa süre ayakta toplanıp günün konuklarını, özel durumları ve bir hizmet değerini konuştuğu toplantıdır.",
+      "ornek": "Sabah 07.45, ön büro arka ofisi: şef on dakika içinde günün VIP gelişlerini, dün yaşanan bir aksaklığı ve 'bugünün değeri'ni anlatır; stajyer de o gün hangi konuğun doğum günü olduğunu öğrenir.",
+      "sektor": "Birçok zincirde günlük rutinin parçasıdır. Standartlar bir kez öğretilip unutulmaz; her gün birkaç dakika tazelenir. Ekip aynı bilgiyle güne başlayınca konuk hangi çalışana rastlarsa rastlasın aynı hizmeti alır.",
+      "iliskili": [
+        "go-2-010",
+        "go-2-003",
+        "go-2-020"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-013",
+      "konu": "2.1",
+      "terim": "Standart ve içtenlik",
+      "ingilizce": "Standards and sincerity",
+      "tanim": "Yazılı standardın ezberlenmiş bir cümle gibi değil, o anki konuğa uygun, sıcak ve doğal biçimde uygulanmasıdır.",
+      "ornek": "İki resepsiyonist aynı karşılama cümlesini söyler: biri ekrana bakarak, hızlıca; öteki başını kaldırıp gülümseyerek. Standart ikisinde de 'yapıldı', ama konuk yalnız ikincisinde karşılandığını hisseder.",
+      "sektor": "Lüks otelcilikte liste davranışı yazar, duyguyu çalışan katar. Robot gibi uygulanan standart, konuğun aklında 'ezberlenmiş nezaket' diye kalır. Dünya otelcilik okulları bu yüzden önce standardı, sonra onun arkasındaki insanı eğitir.",
+      "iliskili": [
+        "go-2-009",
+        "go-2-001",
+        "go-2-017"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-014",
+      "konu": "2.2",
+      "terim": "Öngörülü hizmet",
+      "ingilizce": "Anticipatory service",
+      "tanim": "Konuğun söylemesini beklemeden ihtiyacını fark edip karşılamaya dayanan hizmet anlayışıdır.",
+      "ornek": "Saat 19.00, resort lobisi: konuk elinde bir harita ve telefonla etrafa bakınıyor; stajyer beklemeden yaklaşır, 'Bir yer mi arıyorsunuz? Size yardımcı olayım' der.",
+      "sektor": "İstek üzerine yapılan hizmet beklentiyi karşılar; istenmeden yapılan hizmet beklentiyi aşar. Dünya lüks otelciliğinde konuk 'şunu rica edebilir miyim?' demek zorunda kaldıysa hizmet bir adım geç kalmıştır. Bu beceri konuğu izlemekle başlar.",
+      "iliskili": [
+        "go-2-015",
+        "go-2-019",
+        "go-2-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-015",
+      "konu": "2.2",
+      "terim": "Konuğu okuma",
+      "ingilizce": "Reading guest cues",
+      "tanim": "Konuğun söylemediği ihtiyacını beden dilinden, bakışından, eşyasından ve içinde bulunduğu durumdan anlamaktır.",
+      "ornek": "Saat 23.30, resepsiyon: gece uçuşundan gelen konuk gözlerini ovuşturuyor, küçük çocuğu kucağında uyuyor. Stajyer tanıtım konuşmasını kısa keser, anahtarı verir, 'Kahvaltı saatlerini odanıza not bırakırım' der.",
+      "sektor": "Öngörülü hizmetin ham maddesi gözlemdir. Lüks otel çalışanı konuğa bakar, ekrana değil: elinde bebek arabası olan konuk asansörü, kol saatine bakan konuk hızı, menüyü uzun süre inceleyen konuk bir öneriyi bekliyor olabilir. Doğru okunan konuk, istemeden alır.",
+      "iliskili": [
+        "go-2-014",
+        "go-2-022",
+        "go-2-016"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-016",
+      "konu": "2.2",
+      "terim": "10-5 kuralı",
+      "ingilizce": "The 10 and 5 rule",
+      "tanim": "Yaklaşan konukla yaklaşık üç metre kala göz teması kurup gülümsemeyi, yaklaşık bir buçuk metre kala sözlü selam vermeyi öngören karşılama kuralıdır.",
+      "ornek": "Lobi koridoru, saat 10.00: stajyer çamaşır arabasını iterken karşıdan bir konuk gelir; uzaktan başını kaldırıp gülümser, yanından geçerken 'Günaydın efendim' der ve arabayı kenara çeker.",
+      "sektor": "Adı İngilizce ayak ölçüsünden gelir (10 feet ve 5 feet). Kural, konuğun otelde 'görünmez' hissetmemesi içindir. Lüks otelde her çalışan, departmanı ne olursa olsun karşılama görevlisidir; teknik servisteki usta da, bahçıvan da. Ölçülebilir bir davranış olduğu için eğitimlerde ve denetim listelerinde yer alır.",
+      "iliskili": [
+        "go-2-015",
+        "go-2-017",
+        "go-2-004"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "lobi"
+    },
+    {
+      "id": "go-2-017",
+      "konu": "2.2",
+      "terim": "İsimle hitap standardı",
+      "ingilizce": "Addressing the guest by name",
+      "tanim": "Konuğun adının ilk fırsatta öğrenilip konaklama boyunca doğal ve abartısız biçimde kullanılmasıdır.",
+      "ornek": "Giriş işleminde pasaporttan adı gören resepsiyonist, 'Odanız hazır Mehmet Bey' der; bellboy anahtarı alırken adı duyar ve asansörde 'Buyurun Mehmet Bey' diye devam eder.",
+      "sektor": "Konuk için kendi adı en güzel sestir; adıyla anılan konuk kalabalıktan çıkar, kişi olur. Ölçü doğallıktır: her cümlede ad geçerse yapay olur. İsmin doğru söylenişinden emin olunmazsa sorulur; yanlış söylenen ad, hiç söylenmemesinden kötüdür.",
+      "iliskili": [
+        "go-2-016",
+        "go-2-011",
+        "go-2-013"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "resepsiyon"
+    },
+    {
+      "id": "go-2-018",
+      "konu": "2.2",
+      "terim": "Sıcak uğurlama",
+      "ingilizce": "Fond farewell",
+      "tanim": "Konuğun ayrılırken adıyla ve içten bir dilekle, aceleye getirilmeden uğurlanması; hizmetin üç adımının sonuncusudur.",
+      "ornek": "Saat 11.00, çıkış: kasa işlemi bitince resepsiyonist bankodan çıkıp 'Yolunuz açık olsun Zeynep Hanım, bir dahaki gelişinizde deniz manzaralı odanız yine hazır olur' der; kapı görevlisi aracı çağırmıştır.",
+      "sektor": "Konuk oteli son anıyla hatırlar; soğuk bir fatura teslimi bütün konaklamanın tadını kaçırabilir. Uğurlama, bir sonraki konaklamanın ilk davetidir. Dünya zincirleri bu yüzden çıkış işlemini de karşılama kadar ciddiye alır ve süresini ölçer.",
+      "iliskili": [
+        "go-2-011",
+        "go-2-017",
+        "go-2-061"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "valizler"
+    },
+    {
+      "id": "go-2-019",
+      "konu": "2.2",
+      "terim": "Kişiselleştirme",
+      "ingilizce": "Personalisation",
+      "tanim": "Hizmetin herkese aynı biçimde değil, konuğun bilinen tercihine ve o anki durumuna göre uyarlanmasıdır.",
+      "ornek": "Odaya giren konuk, geçen gelişinde istediği ekstra yastığın hazır olduğunu ve mini bardaki gazlı içeceklerin sevdiği markayla değiştirildiğini görür; kimseye bir şey söylememiştir.",
+      "sektor": "Lüks otelde konuk 'müşteri numarası' değil, tercihleri bilinen bir kişidir. Kişiselleştirme pahalı hediyelerle değil, doğru bilgiyle yapılır: hangi gazeteyi okur, hangi kattan hoşlanmaz, kahvesini nasıl içer. Bu bilgi tek bir çalışanın hafızasında değil, otelin profilinde durur.",
+      "iliskili": [
+        "go-2-020",
+        "go-2-014",
+        "go-2-021"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-020",
+      "konu": "2.2",
+      "terim": "Konuk tercih profili",
+      "ingilizce": "Guest preference profile",
+      "tanim": "Konuğun hoşlandığı ve hoşlanmadığı şeylerin, alerjilerinin ve geçmiş isteklerinin otel sisteminde tutulduğu kişiye özel kayıttır.",
+      "ornek": "Sabah 09.00, ön büro: stajyer günün gelişlerini açar; bir konuğun profilinde 'fındık alerjisi, yüksek kat, sessiz oda, geç çıkış sever' yazar. Oda buna göre seçilir, mutfağa not düşülür.",
+      "sektor": "Bazı zincirlerde profil, aynı zincirin otelleri arasında da paylaşılır: Londra'da kaydedilen tercih Türkiye'deki otelde karşılanabilir. Profil yalnız bilgi değil, bir sözdür: konuk 'beni tanıyorlar' hisseder. Bilgi kişisel olduğu için gizlilikle ve yasalara uygun biçimde korunur, yalnız hizmet için kullanılır.",
+      "iliskili": [
+        "go-2-019",
+        "go-2-021",
+        "go-2-012"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-021",
+      "konu": "2.2",
+      "terim": "Tercih aktarımı",
+      "ingilizce": "Preference handover",
+      "tanim": "Bir çalışanın konukta fark ettiği tercihi kendine saklamayıp profile işlemesi ve ekiple paylaşmasıdır.",
+      "ornek": "Kahvaltıda garson, konuğun her sabah süt yerine yulaf sütü istediğini fark eder; vardiya sonunda profile yazar. Ertesi sabah başka garson masaya yulaf sütüyle gelir.",
+      "sektor": "Kişiselleştirme ekip işidir. Bir çalışanın bildiği ama paylaşmadığı tercih, o çalışan izinli olduğu gün kaybolur. Lüks otelde 'ben biliyordum' yetmez; bilgi sisteme ve vardiya devrine girer. Stajyerin fark ettiği küçük ayrıntı da bu zincirin halkasıdır.",
+      "iliskili": [
+        "go-2-020",
+        "go-2-019",
+        "go-2-023"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-022",
+      "konu": "2.2",
+      "terim": "Sessiz hizmet",
+      "ingilizce": "Unobtrusive service",
+      "tanim": "Konuğu rahatsız etmeden, göze batmadan ve araya girmeden ihtiyacı karşılayan hizmet biçimidir.",
+      "ornek": "Havuz başı, saat 15.00: konuğun boş bardağı, o kitabını okurken sessizce alınır, yerine dolusu bırakılır; garson tek kelime etmeden uzaklaşır.",
+      "sektor": "Lüks, hizmetin görünmez olmasıdır: her şey olur ama kimse konuğun dinlenmesini bölmez. Fazla ilgi de ilgisizlik kadar rahatsız eder. Konuğu okuyan çalışan ne zaman konuşacağını, ne zaman sessiz kalacağını bilir.",
+      "iliskili": [
+        "go-2-015",
+        "go-2-023",
+        "go-2-014"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-023",
+      "konu": "2.2",
+      "terim": "Ayrıntıya özen",
+      "ingilizce": "Attention to detail",
+      "tanim": "Konuğun belki hiç fark etmeyeceği küçük şeylerin bile eksiksiz ve düzgün olmasına gösterilen titizliktir.",
+      "ornek": "Kat görevlisi odayı bitirdi; stajyer son kontrolde tuvalet kâğıdının ucunu katlar, uzaktan kumandayı televizyona paralel koyar, pencereden bakıp perdeyi düzeltir. Konuk bunları tek tek görmez; bütününü hisseder.",
+      "sektor": "Lüks otelde ayrıntı küçük değildir, çünkü konuk lüksü ayrıntıdan okur. Dünya zincirleri 'konuk fark ederse geç kalmışız' der: eğri duran bir tablo, lekeli bir bardak bütün özeni gölgeler. Titizlik bir karakter özelliği değil, öğrenilen bir alışkanlıktır.",
+      "iliskili": [
+        "go-2-022",
+        "go-2-021",
+        "go-2-026"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-024",
+      "konu": "2.2",
+      "terim": "Bekletme süresi standardı",
+      "ingilizce": "Waiting time standard",
+      "tanim": "Konuğun bankoda, telefonda ya da masada ne kadar bekleyebileceğini belirleyen ve geçildiğinde özür gerektiren süre sınırıdır.",
+      "ornek": "Saat 16.00, resepsiyon kuyruğu uzadı: stajyer sıradaki konuklara dönüp 'Birkaç dakika içinde sizinleyim, bu arada su ikram edebilir miyim?' der. Bekleyen konuk artık bekliyor değil, ağırlanıyordur.",
+      "sektor": "Bekleyen konuk için dakika uzundur; hele kimse ona bakmıyorsa. Lüks otelde sürenin kendisi kadar beklerken yapılanlar da ölçülür: göz teması, bilgi verme, ikram. Telefonda bekletme, bagajın odaya ulaşması ve çıkış işlemi için de süre standartları vardır.",
+      "iliskili": [
+        "go-2-005",
+        "go-2-004",
+        "go-2-025"
+      ],
+      "kontrol": null,
+      "kitapDisi": true, "gorsel": "sektor-saat"
+    },
+    {
+      "id": "go-2-025",
+      "konu": "2.2",
+      "terim": "Alternatif sunma",
+      "ingilizce": "Offering an alternative",
+      "tanim": "Konuğun isteği karşılanamadığında 'hayır' demek yerine yapılabilecek en yakın seçeneği önermektir.",
+      "ornek": "Saat 22.10, oda servisi mutfağı kapandı; konuk sıcak çorba istiyor. Stajyer 'Kapalı' demez: 'Mutfak kapandı efendim, ancak size sıcak bir sandviç ve çay hazırlatabilirim, ister misiniz?' der.",
+      "sektor": "Lüks otelcilikte 'hayır' cümlenin sonu değil, başı olmalıdır: 'Bunu yapamıyorum, ama şunu yapabilirim.' Konuk çoğu zaman isteğinin kendisinden çok, çaba görmek ister. Yetkiyi aşan istekler ise amire iletilir; 'yapamam' yerine 'sorup döneceğim' denir.",
+      "iliskili": [
+        "go-2-024",
+        "go-2-014",
+        "go-2-037"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-026",
+      "konu": "2.2",
+      "terim": "'Wow' anı",
+      "ingilizce": "Wow moment",
+      "tanim": "Konuğun beklemediği, küçük ama kişiye özel bir jestle şaşırıp sevindiği ve sonradan anlattığı andır.",
+      "ornek": "Konuk çıkış günü lobide 'Keşke o portakal reçelinden alsaydım' diye mırıldanır; garson duyar, mutfağa koşar. Araç kalkarken konuğun eline küçük bir kavanoz tutuşturulur.",
+      "sektor": "Wow anı pahalı olmak zorunda değildir; tek şartı beklenmedik ve kişisel olmasıdır. Herkese verilen hediye beklenti olur, bir kişiye özel olan hikâye olur. Bazı zincirler çalışanlarına böyle anlar yaratması için küçük bir bütçe ve yetki tanır.",
+      "iliskili": [
+        "go-2-023",
+        "go-2-019",
+        "go-2-062"
+      ],
+      "kontrol": null,
+      "kitapDisi": true, "gorsel": "sektor-karsilama-cicegi"
+    },
+    {
+      "id": "go-2-027",
+      "konu": "2.2",
+      "terim": "Omotenashi",
+      "ingilizce": "Omotenashi (Japanese hospitality)",
+      "tanim": "Konuğun ihtiyacını önceden sezerek, karşılık beklemeden ve gösterişsiz biçimde ağırlamayı anlatan Japon konukseverlik anlayışıdır.",
+      "ornek": "Akşam 19.00, resort resepsiyonu: yolculuktan yeni gelen bir konuk baş ağrısını söylemez ama ışıktan kaçınır. Stajyer bunu fark eder ve sormadan odayı sessiz bir koridora yakın, perdeleri kalın bir kattan seçer.",
+      "sektor": "Kökeni çoğu zaman Japon çay seremonisine dayandırılan bu anlayış, otelcilik okullarında öngörülü hizmetin tanınmış örneklerinden biri olarak anlatılır. Japonya'da bahşiş geleneğinin olmaması da çoğu zaman bu anlayışla ilişkilendirilir. Her kültürün kendi konukseverlik geleneği vardır; Türk misafirperverliği de dünyada aynı saygıyla anılır.",
+      "iliskili": [
+        "go-2-014",
+        "go-2-022",
+        "go-2-047"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-028",
+      "konu": "2.3",
+      "terim": "Hizmet aksaklığı",
+      "ingilizce": "Service failure",
+      "tanim": "Konuğa verilen sözün ya da beklediği standardın yerine getirilemediği her durumdur.",
+      "ornek": "Saat 14.30, resepsiyon: 'Odanız 14.00'te hazır' denen konuk hâlâ lobide bekliyor; kat hizmetlerinden haber gelmemiştir. Konuk şikâyet etmese de ortada bir aksaklık vardır.",
+      "sektor": "Aksaklık her otelde olur; lüks otelin farkı, onu konuktan önce fark etmesidir. Aksaklığı tanımak, telafinin ilk adımıdır: 'konuk bir şey demedi' sözü, sorunun olmadığı anlamına gelmez. Sessizce giden konuk şikâyet eden konuktan daha tehlikelidir.",
+      "iliskili": [
+        "go-2-029",
+        "go-2-035",
+        "go-2-040"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-029",
+      "konu": "2.3",
+      "terim": "Lüks otelde hizmet telafisi",
+      "ingilizce": "Service recovery in luxury hotels",
+      "tanim": "Aksaklık yaşayan konuğun güvenini ve memnuniyetini yeniden kazanmak için hızla, içtenlikle ve planlı biçimde yapılan düzeltmedir.",
+      "ornek": "Odası geç hazırlanan konuğa resepsiyonist özür diler, bekleme süresinde lobide ikram sunar, yetkisi dahilinde odayı bir üst kategoriye alır ve akşam odaya bir not bırakır. Konuk ertesi gün 'Sorun oldu ama iyi ilgilendiler' der.",
+      "sektor": "Dünya otelcilik okullarında telafi, hizmetin kendisi kadar ciddi bir ders konusudur. Hatanın büyüklüğünü çoğu zaman hatanın kendisi değil, sonrasındaki tutum belirler. Telafi tek bir özür değil bir süreçtir: dinle, anla, çöz, takip et; üstelik hızlı olmalıdır, çünkü aynı sorun beş dakikada çözülürse küçük bir aksaklık, bir saatte çözülürse kötü bir anıdır.",
+      "iliskili": [
+        "go-2-028",
+        "go-2-032",
+        "go-2-033"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-030",
+      "konu": "2.3",
+      "terim": "Telafi paradoksu",
+      "ingilizce": "Service recovery paradox",
+      "tanim": "İyi telafi edilen bir aksaklığın, konuğu hiç sorun yaşamamış hâlinden daha memnun ve daha bağlı bırakabilmesi durumudur.",
+      "ornek": "Klima arızası yaşayan konuk, teknik ekibin on dakikada gelmesi, odasının değiştirilmesi ve müdürün bizzat özür dilemesi üzerine çevrim içi yorumuna 'Böyle ilgi görmemiştim' yazar.",
+      "sektor": "Paradoks, hata yapmak için bir bahane değildir; her zaman da gerçekleşmez, araştırmaların sonuçları karışıktır. Ders şudur: aksaklık kaçınılmazdır, telafi ise tamamen otelin elindedir. İyi telafi, en azından konuğu kaybetmemenin en sağlam yoludur.",
+      "iliskili": [
+        "go-2-029",
+        "go-2-031",
+        "go-2-039"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-031",
+      "konu": "2.3",
+      "terim": "Şikâyeti fırsata çevirme",
+      "ingilizce": "Turning complaints into opportunities",
+      "tanim": "Memnuniyetsizlik bildiren konuğu bir saldırı olarak değil, onu kazanmak ve hizmeti düzeltmek için verilmiş bir şans olarak görmektir.",
+      "ornek": "Konuk, kahvaltı salonunun gürültülü olduğunu söyler. Müdür teşekkür eder, konuğa ertesi gün teras masası ayırtır; bir hafta sonra salondaki ses düzeni değiştirilir.",
+      "sektor": "Memnun olmayan konukların birçoğu şikâyet etmez; sessizce gider ve çevresine anlatır. Şikâyet eden konuk ise otele hem ikinci bir şans hem ücretsiz bir denetim raporu verir. Lüks otelcilikte şikâyet, savunulacak değil teşekkür edilecek bir şeydir.",
+      "iliskili": [
+        "go-2-030",
+        "go-2-033",
+        "go-2-070"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-032",
+      "konu": "2.3",
+      "terim": "LEARN şikâyet çözüm modeli",
+      "ingilizce": "LEARN complaint-handling model",
+      "tanim": "Şikâyeti çözmek için dinle (listen), anla (empathise), özür dile (apologise), harekete geç (react) ve bildir (notify) adımlarını sıralayan telafi modelidir.",
+      "ornek": "Konuk gürültüden uyuyamadığını anlatır. Stajyer sözünü kesmeden dinler, 'Uykusuz bir gece gerçekten zor' der, özür diler, sessiz bir odaya geçişi amiriyle ayarlar ve durumu hem profile hem şefine yazar.",
+      "sektor": "Otelcilik eğitiminde yaygın kullanılan bu model, panik anında çalışana bir sıra verir; kaynağa göre adımların sözcükleri biraz değişebilir. Son adım olan 'bildir' çoğu zaman unutulur; oysa yazılmayan aksaklık yarın yeniden olur. Stajyer için en değerli adımlar ilk ikisidir: dinle ve anla.",
+      "iliskili": [
+        "go-2-029",
+        "go-2-033",
+        "go-2-034"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-033",
+      "konu": "2.3",
+      "terim": "HEART şikâyet çözüm modeli",
+      "ingilizce": "HEART complaint-handling model",
+      "tanim": "Şikâyette dinle (hear), anla (empathise), özür dile (apologise), çöz (resolve) ve teşekkür et (thank) adımlarını izleyen telafi modelidir.",
+      "ornek": "Spa randevusu unutulan konuk resepsiyona gelir. Görevli dinler, 'Haklısınız, bu bizim hatamız' der, özür diler, bir saat sonrasına yeni randevu ve ikram ayarlar; sonunda 'Bize söylediğiniz için teşekkür ederim' der.",
+      "sektor": "LEARN ile neredeyse aynı yolu izler; farkı, son adımın teşekkür olmasıdır. Kaynağa göre dördüncü adım 'çöz' (resolve) yerine 'karşılık ver' (respond) diye de geçer. Şikâyet eden konuk otele bir iyilik yapar: sessizce gitmek yerine düzeltme şansı verir. Bunu bir teşekkürle karşılamak, konuğu 'sorun çıkaran' değil 'yardım eden' konumuna koyar.",
+      "iliskili": [
+        "go-2-032",
+        "go-2-029",
+        "go-2-031"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-034",
+      "konu": "2.3",
+      "terim": "İçten özür",
+      "ingilizce": "Sincere apology",
+      "tanim": "Hatayı bahane göstermeden, 'ama' demeden ve suçu başkasına atmadan kabul eden kısa ve samimi özürdür.",
+      "ornek": "Bagajı geç gelen konuğa stajyer 'Bellboy yoğundu, o yüzden' demez; 'Beklettiğimiz için özür dilerim, bagajınız şu anda yolda' der.",
+      "sektor": "Özrün arkasına eklenen bahane, özrü siler: 'Özür dilerim ama bugün çok yoğunuz' cümlesini konuk 'suçlu sizsiniz' diye duyar. Özür, hatanın kimde olduğunu tartışmak değil, konuğun yaşadığını kabul etmektir. Yetkisi olmayan stajyer bile özür dileyebilir; bu hiç kimsenin yetkisini aşmaz.",
+      "iliskili": [
+        "go-2-032",
+        "go-2-033",
+        "go-2-038"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-035",
+      "konu": "2.3",
+      "terim": "Departman ayırmadan sahiplenme",
+      "ingilizce": "Owning a guest problem across departments",
+      "tanim": "Konuğun sorununu 'benim bölümüm değil' demeden üstlenip çözülene kadar takip etmektir.",
+      "ornek": "Restoranda çalışan stajyere konuk 'Odamdaki kasa açılmıyor' der. Stajyer 'Resepsiyona söyleyin' demez; 'Hemen teknik servise ileteyim, oda numaranızı alabilir miyim?' der ve on dakika sonra çözüldüğünü öğrenip konuğa haber verir.",
+      "sektor": "Konuk için otel tek bir bütündür; departman sınırlarını bilmez ve bilmek zorunda değildir. Dünya zincirlerinin hizmet değerleri arasında 'konuğun sorununu sahiplenir ve hemen çözerim' cümlesi yer alır. Sahiplenmek, her şeyi kendin yapmak değil, doğru kişiye ulaştırıp sonucu izlemektir.",
+      "iliskili": [
+        "go-2-028",
+        "go-2-036",
+        "go-2-037"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-036",
+      "konu": "2.3",
+      "terim": "Yetkilendirme",
+      "ingilizce": "Empowerment",
+      "tanim": "Çalışana, konuğun sorununu amirine sormadan belirli bir sınır içinde kendi başına çözme yetkisinin verilmesidir.",
+      "ornek": "Saat 21.00, resepsiyonda şef yok: konuk odasının manzarasından memnun değil. Yetkilendirilmiş resepsiyonist boş olan deniz manzaralı odayı hemen verir; sabah şefine bilgi notu bırakır.",
+      "sektor": "Dünya lüks otelciliğinin en bilinen ilkelerinden biridir; bazı zincirler her çalışanına konuk için belirli bir tutara kadar harcama yetkisi tanır ve bunu sorgulamaz. Mantık basittir: konuk beklerken 'müdüre sormam lazım' demek telafiyi geciktirir. Yetki, güvenle gelir; güven de eğitimle.",
+      "iliskili": [
+        "go-2-037",
+        "go-2-035"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-037",
+      "konu": "2.3",
+      "terim": "Yetki sınırı",
+      "ingilizce": "Limit of authority",
+      "tanim": "Çalışanın kendi başına karar verebileceği alanın nerede bittiğini ve hangi kararın amire taşınacağını belirleyen çizgidir.",
+      "ornek": "Stajyer, çorbası soğuk gelen konuğa yenisini ve bir tatlı ikram edebilir; 'bu gece ücretsiz olsun' diyemez. Konuk ısrar ederse 'Bunu müdürümle hemen görüşüp size döneceğim' der.",
+      "sektor": "Yetkilendirme sınırsız değildir; sınırını bilmeyen çalışan ya korkup hiçbir şey yapmaz ya da tutamayacağı söz verir. İkisi de konuğu kaybettirir. Lüks otelde stajyerin de bir yetkisi vardır: özür dilemek, dinlemek, küçük ikram, hızlı iletmek. Gerisi için doğru cümle 'sorup döneceğim'dir.",
+      "iliskili": [
+        "go-2-036",
+        "go-2-038",
+        "go-2-025"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-038",
+      "konu": "2.3",
+      "terim": "Orantılı telafi",
+      "ingilizce": "Proportionate recovery",
+      "tanim": "Sunulan jestin büyüklüğünün yaşanan sorunun büyüklüğüne uygun olmasıdır.",
+      "ornek": "Kahvesi soğuk gelen konuğa yenisi ve küçük bir tatlı yeter; bütün gece su basan odada kalan konuğa ise oda değişimi, o geceyi ücretsiz yapma ve müdürün özrü gerekir. İkincisine kurabiye vermek alay gibi olur.",
+      "sektor": "Küçük soruna büyük jest otelin bütçesini boşa harcar ve konuğa 'burada bir şeyler ters' hissi verir; büyük soruna küçük jest konuğu daha da kırar. Orantıyı kurmak için çalışan kendi yetki sınırını bilir: sınır içinde kendi karar verir, üstünü amirine taşır.",
+      "iliskili": [
+        "go-2-034",
+        "go-2-037",
+        "go-2-029"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-039",
+      "konu": "2.3",
+      "terim": "Telafi takibi",
+      "ingilizce": "Recovery follow-up",
+      "tanim": "Sorun çözüldükten sonra konuğa yeniden dönüp her şeyin yolunda olup olmadığını sormaktır.",
+      "ornek": "Saat 18.00: öğlen klima arızası giderilen konuğun odası aranır: 'Ayşe Hanım, ben resepsiyondan Can; odanızın sıcaklığı şimdi nasıl?' Konuk, kendisini unutmadıklarını anlar.",
+      "sektor": "Telafi, sorunun çözüldüğü anda değil, konuğun 'çözüldü' dediği anda biter. Takip, otelin konuğu bir sorun numarası olarak değil, kişi olarak gördüğünü gösterir. Konuk unutulduğunu düşünürken aranmak, çoğu zaman en güçlü telafi jestidir.",
+      "iliskili": [
+        "go-2-030",
+        "go-2-032",
+        "go-2-040"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-040",
+      "konu": "2.3",
+      "terim": "Aksaklık kaydı",
+      "ingilizce": "Incident log",
+      "tanim": "Yaşanan her aksaklığın ne olduğu, nasıl çözüldüğü ve konuğa ne sunulduğunun yazıldığı kayıttır.",
+      "ornek": "Gece raporuna stajyer yazar: '23.10, oda 512, sıcak su yok; teknik servis 23.35'te giderdi; konuğa özür ve sabah kahvaltısında ikram; profil güncellendi.'",
+      "sektor": "Yazılmayan aksaklık unutulur ve tekrarlanır; yazılan aksaklık derse dönüşür. Kayıt, bir sonraki vardiyanın konuğu 'dün sorun yaşayan konuk' olarak tanımasını da sağlar; ona ertesi gün bir kez daha özür dilenir. Günlük toplantıda konuşulan aksaklıklar bu kayıttan gelir.",
+      "iliskili": [
+        "go-2-028",
+        "go-2-039",
+        "go-2-067"
+      ],
+      "kontrol": null,
+      "kitapDisi": true, "gorsel": "sektor-planlama-defteri"
+    },
+    {
+      "id": "go-2-041",
+      "konu": "2.4",
+      "terim": "Kültürel zekâ (CQ)",
+      "ingilizce": "Cultural intelligence (CQ)",
+      "tanim": "Farklı kültürlerden insanlarla etkili ve saygılı biçimde çalışabilme becerisidir; istek, bilgi, strateji ve davranış olmak üzere dört parçası vardır.",
+      "ornek": "Stajyer, yeni gelen grubun bazı üyelerinin dinî ya da kültürel nedenle et yemeyebileceğini bilir (bilgi), kahvaltıda ne sunacağını önceden düşünür (strateji), sorarken kibar ve dikkatli davranır (davranış) ve bunu bir yük değil merak olarak görür (istek).",
+      "sektor": "Kavramı bilim dünyasına Earley ve Ang adlı iki araştırmacı kazandırmıştır; otelcilik eğitiminde sık işlenir. Lüks otel lobisi küçük bir dünyadır: aynı sabah farklı ülkelerden konuklar aynı bankoya gelir. Kültürel zekâ, hepsine aynı davranmak değil, her birine uygun davranmaktır.",
+      "iliskili": [
+        "go-2-042",
+        "go-2-043",
+        "go-2-044"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-042",
+      "konu": "2.4",
+      "terim": "Bireyi görme",
+      "ingilizce": "Avoiding stereotypes",
+      "tanim": "Kültür bilgisini bir tahmin olarak kullanıp karşıdaki konuğa yine de tek tek bir kişi gibi davranmaktır.",
+      "ornek": "Stajyer eğitimde 'bazı ülkelerde insanlar kahvaltıyı erken yapar' diye öğrenmiştir; ama o sabah yabancı bir aile geç kalkar ve kahvaltıyı uzun ister. Stajyer şaşırmaz, aileye bakar, öğrendiği genellemeye değil.",
+      "sektor": "Kültür bilgisi haritadır, konuk ise yoldur. 'Şu ülkeden gelenler hep şöyle yapar' diye düşünen çalışan, önündeki kişiyi görmez; konuk da bunu hemen hisseder. Dünya okulları kültürel zekâyı 'genelleme ezberi' değil, 'merak ve gözlem' diye öğretir.",
+      "iliskili": [
+        "go-2-041",
+        "go-2-015",
+        "go-2-053"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-043",
+      "konu": "2.4",
+      "terim": "Doğrudan ve dolaylı iletişim",
+      "ingilizce": "Direct and indirect communication",
+      "tanim": "Bazı kültürlerde isteklerin açıkça söylenmesi, bazılarında ise ima ve nezaketle dolaylı anlatılmasıdır.",
+      "ornek": "Bir konuk 'Oda gürültülü, değiştirin' der; bir başkası 'Oda çok güzel, yalnız sokak biraz hareketli galiba' der. İkincisi de oda değişikliği istiyor olabilir; stajyer tonu ve yüzü okur, nazikçe 'Size daha sessiz bir oda ayarlayabilirim' diye teklif eder.",
+      "sektor": "Dolaylı konuşmaya alışkın bir konuğun 'sorun yok' demesi her zaman sorun olmadığı anlamına gelmez; açıkça şikâyet etmek ona zor gelebilir. Doğrudan konuşan konuk ise kaba değil, kendi alışkanlığında nazik davranıyordur. Bunlar eğilimdir, kural değildir; her kültürde iki tarzda konuşanlar vardır. Çalışan, sözün yanında ses tonunu ve yüzü de okur.",
+      "iliskili": [
+        "go-2-041",
+        "go-2-045",
+        "go-2-052"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-044",
+      "konu": "2.4",
+      "terim": "Uluslararası selamlaşma",
+      "ingilizce": "International greetings",
+      "tanim": "El sıkma, hafif eğilme, yanak öpme ya da yalnız söz ve baş selamı gibi kültüre göre değişen karşılama biçimleridir.",
+      "ornek": "Lobi, saat 15.00: hafifçe eğilerek selam veren konuğa stajyer de hafifçe eğilerek, 'Bonjour' diyen konuğa güler yüzle, el uzatmayan konuğa ise elini uzatmadan baş selamıyla 'Hoş geldiniz' der. Her birinde konuğun kendi seçtiği selamlaşma biçimine uyar.",
+      "sektor": "Otelde güvenli kural: el uzatmayı konuk başlatır, çalışan karşılık verir. Bazı konuklar dinî ya da kültürel nedenle karşı cinsle tokalaşmaz; bu bir reddediş değil, gelenektir. Örneğin Japonya'da kartvizit genellikle iki elle verilir ve alınır, bir an bakılıp özenle saklanır. Konuğun dilinde tek bir 'hoş geldiniz' sözü bile kapıyı açar.",
+      "iliskili": [
+        "go-2-046",
+        "go-2-041",
+        "go-2-045"
+      ],
+      "kontrol": null,
+      "kitapDisi": true, "gorsel": "sektor-el-sikisma"
+    },
+    {
+      "id": "go-2-045",
+      "konu": "2.4",
+      "terim": "Jestlerin anlamı",
+      "ingilizce": "Meaning of gestures",
+      "tanim": "Aynı el ya da beden hareketinin bir ülkede dostça, başka bir ülkede kaba ya da saygısız sayılabilmesidir.",
+      "ornek": "Stajyer konuğa yolu gösterirken işaret parmağı yerine açık elini kullanır; 'tamam' anlamında baş parmak ya da OK işareti yapmaz, çünkü bu işaretler bazı ülkelerde hakaret sayılır. Oturan konuğa ayak tabanını da döndürmez.",
+      "sektor": "Dünya otelciliğinde 'güvenli jest' kuralı vardır: açık el, hafif baş eğme ve gülümseme hemen her kültürde iyi anlaşılır; parmakla gösterme, baş parmak ve OK işareti ise risklidir. Jest yanlış anlaşıldığında konuk bunu söylemez, yalnız soğur. Bu yüzden en az risklisi seçilir.",
+      "iliskili": [
+        "go-2-043",
+        "go-2-044",
+        "go-2-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-046",
+      "konu": "2.4",
+      "terim": "İsim ve unvan kullanımı",
+      "ingilizce": "Names and titles",
+      "tanim": "Konuğa hitap ederken ad-soyad sırasının, 'Bay / Bayan' karşılıklarının ve doktor, profesör gibi unvanların kültüre göre doğru kullanılmasıdır.",
+      "ornek": "Rezervasyonda 'Wang Li' yazan konuğun soyadı, birçok Çince adda olduğu gibi önce yazılmış olabilir; bunu bilen stajyer tahmin yürütmez, nazikçe sorar: 'Size nasıl hitap etmemi istersiniz?' Rezervasyonda 'Dr. Müller' yazan konuğa da kendisi aksini söylemedikçe 'Doktor Müller' der.",
+      "sektor": "Bazı kültürlerde soyadı önce yazılır, bazılarında kadın evlenince soyadını değiştirmez, bazılarında unvanın söylenmemesi saygısızlık sayılır. Emin olunmadığında tahmin etmek yerine sormak kibarlıktır; yanlış isim, hiç isim söylememekten kötüdür. İsmi doğru söylemek lüks hizmetin en ucuz ama en etkili parçasıdır.",
+      "iliskili": [
+        "go-2-044",
+        "go-2-017",
+        "go-2-051"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-047",
+      "konu": "2.4",
+      "terim": "Bahşiş kültürü farkları",
+      "ingilizce": "Tipping cultures",
+      "tanim": "Bahşişin bazı ülkelerde beklenen, bazılarında isteğe bağlı, bazılarında ise alışılmamış ya da yadırganan bir davranış olmasıdır.",
+      "ornek": "Bavulu taşıyan stajyere bir konuk bahşiş uzatır, bir başkası uzatmaz; stajyer hiçbirini beklemez ve kimseye kırgın davranmaz. İkisine de aynı içtenlikle 'İyi tatiller' der.",
+      "sektor": "Bahşiş beklemek, istemek ya da az verene yüz asmak lüks otelde kabul edilmez; hizmet bahşiş için değil, konuk için verilir. Çalışan, bahşiş verilmeyen kültürden gelen konuğu hizmeti beğenmemiş sanmaz. Bazı otellerde bahşiş ortak havuzda toplanıp paylaşılır; kurallarını otel belirler.",
+      "iliskili": [
+        "go-2-027",
+        "go-2-044",
+        "go-2-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true, "gorsel": "sektor-doviz-banknotlar"
+    },
+    {
+      "id": "go-2-048",
+      "konu": "2.4",
+      "terim": "Yemek alışkanlıkları ve kısıtlamalar",
+      "ingilizce": "Dietary habits and restrictions",
+      "tanim": "Konukların dinî, sağlık ya da tercih nedeniyle belirli yiyecekleri yememesi ve mutfağın buna uygun seçenek sunmasıdır.",
+      "ornek": "Kahvaltı salonu, saat 08.30: stajyer, açık büfede helal, vejetaryen ve glütensiz ürünlerin etiketli olduğunu görür. Bir konuk fındık alerjisini söyler; stajyer 'Şefimize hemen soruyorum' deyip mutfağa gider, tahmin yürütmez.",
+      "sektor": "Helal, koşer, vejetaryen, vegan, alerji: lüks otelde bunların her biri bilinir, etiketlenir ve sorulur. Yemekle ilgili soru sormak ayıp değil, özendir; yanlış tabak ise sağlık riski ya da inanç ihlalidir. Alerjide tek güvenli cevap mutfaktan gelir.",
+      "iliskili": [
+        "go-2-049",
+        "go-2-050",
+        "go-2-020"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "restoran"
+    },
+    {
+      "id": "go-2-049",
+      "konu": "2.4",
+      "terim": "Dinî hassasiyetler",
+      "ingilizce": "Religious sensitivities",
+      "tanim": "Konukların ibadet, oruç, giyim ve yiyecek gibi inançtan gelen ihtiyaçlarının bilinip saygıyla karşılanmasıdır.",
+      "ornek": "Konuk, odada kıble yönünü ve en yakın ibadet yerini sorar; stajyer bilmiyorsa uydurmaz, resepsiyondan öğrenip döner. Ramazanda iftar saatine göre restoran düzeni değişir; şabat gününü gözeten bazı konuklar o gün elektronik cihaz kullanmak istemeyebilir, bu yüzden oda anahtarı ve asansör konusunda bir çözüm sormak gerekebilir.",
+      "sektor": "İnanç konusunda hata, konuğun yalnız gününü değil otelle bağını bozar. Lüks otel farklı inançların takvimini ve ihtiyacını önceden bilir; çalışan ise soruyu yargılamadan dinler ve bilmediğini öğrenip söyler. Kendi inancı ne olursa olsun, konuğunkine saygı meslek gereğidir.",
+      "iliskili": [
+        "go-2-048",
+        "go-2-050",
+        "go-2-053"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-050",
+      "konu": "2.4",
+      "terim": "Kültürel takvim",
+      "ingilizce": "Cultural calendar",
+      "tanim": "Farklı ülke ve inançların bayram, oruç ve özel günlerinin otel tarafından önceden bilinip hazırlık yapılmasıdır.",
+      "ornek": "Çin Yeni Yılı haftasında İstanbul'daki şehir oteli lobiye kırmızı fenerler asar ve bu bayramı kutlayan konuklara 'Yeni yılınız kutlu olsun' yazan küçük bir kart bırakır; kapıdan giren konuklar bunu fark edip gülümser.",
+      "sektor": "Konuğun bayramını bilmek, onu kendi evindeymiş gibi hissettirir; bilmemek ise 'burada yabancıyım' duygusu verir. Dünya zincirleri yıl boyunca farklı kültürlerin özel günlerini takip eder; stajyer bunu günlük toplantıda öğrenir ve gelen konuğa küçük bir sözle bile yansıtır.",
+      "iliskili": [
+        "go-2-049",
+        "go-2-048",
+        "go-2-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-051",
+      "konu": "2.4",
+      "terim": "Çok dilli hizmet",
+      "ingilizce": "Multilingual service",
+      "tanim": "Konuğa kendi dilinde ya da ortak bir dilde yardım edebilmek için dil bilen personel, çeviri araçları ve çok dilli yazılı malzeme kullanılmasıdır.",
+      "ornek": "Resepsiyonistin yakasında konuştuğu dillerin küçük bayrakları vardır. Rusça bilen kimse yokken stajyer, çeviri uygulamasını açıp konuğa 'Anlaşabilmemiz için bunu kullanabilir miyiz?' diye sorar.",
+      "sektor": "Konuğun dilinden birkaç sözcük bile ('hoş geldiniz', 'teşekkürler') ilişkiyi değiştirir. Dil yetmediğinde çare bağırmak ya da tekrarlamak değil, araç kullanmak ve dil bilen arkadaşı çağırmaktır. Dünya otelciliğinde yabancı dil, kariyerin kapısını açan ilk anahtardır.",
+      "iliskili": [
+        "go-2-052",
+        "go-2-046",
+        "go-2-053"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-052",
+      "konu": "2.4",
+      "terim": "Konukla sade İngilizce",
+      "ingilizce": "Plain English for guests",
+      "tanim": "Ana dili İngilizce olmayan konukla yavaş, kısa cümlelerle, deyim ve kısaltma kullanmadan konuşmaktır.",
+      "ornek": "Stajyer, ana dili İngilizce olmayan bir konuğa 'Breakfast is from seven to ten, in the restaurant on the ground floor' der; 'grab a bite', 'F&B outlet' gibi deyim ve kısaltma kullanmaz, gerekirse saati kâğıda yazar.",
+      "sektor": "Uluslararası otelde İngilizce ortak dildir ama çoğu konuğun ikinci dilidir. Hızlı ve deyimli İngilizce, konuğu anlamıyormuş gibi hissettirir ve soru sormaktan alıkoyar. Sade konuşmak bilgisizlik değil, ustalıktır.",
+      "iliskili": [
+        "go-2-051",
+        "go-2-043",
+        "go-2-042"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-053",
+      "konu": "2.4",
+      "terim": "Kapsayıcılık",
+      "ingilizce": "Inclusivity",
+      "tanim": "Yaşı, cinsiyeti, engeli, kökeni ya da inancı ne olursa olsun her konuğun kendini eşit derecede hoş karşılanmış hissetmesidir.",
+      "ornek": "Tek başına seyahat eden yaşlı konuk, restoranda pencere kenarına alınır ve 'tek kişilik' diye kenara itilmez; işitme engelli konukla stajyer yüz yüze, yavaş ve gerekirse yazarak konuşur.",
+      "sektor": "Lüks, herkese lüks olduğunda lükstür. Kapsayıcı otel bazı konuklara 'ekstra' bir şey yapmaz; herkesi aynı özenin içine alır. Çalışanın bakışı, ses tonu ve küçük tercihleri, konuğa 'burası benim için de' duygusunu verir ya da alır.",
+      "iliskili": [
+        "go-2-054",
+        "go-2-042",
+        "go-2-049"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-054",
+      "konu": "2.4",
+      "terim": "Erişilebilir hizmet",
+      "ingilizce": "Accessible service",
+      "tanim": "Engelli, yaşlı ya da geçici hareket kısıtı olan konuğun otelin her hizmetinden yardım istemek zorunda kalmadan yararlanabilmesidir.",
+      "ornek": "Tekerlekli sandalyeli konuk giriş yapar: resepsiyonist bankonun alçak bölümüne geçer, anahtarı eğilerek değil göz hizasından verir, asansöre kadar eşlik etmeyi teklif eder ama ısrar etmez.",
+      "sektor": "Erişilebilirlik yalnız rampa ve geniş kapı değildir; çalışanın tutumudur. Yardımı sormak ama dayatmamak, konuğa değil yanındakine konuşmamak, aceleye getirmemek temel kurallardır. Dünya zincirlerinde erişilebilirlik bir hayır işi değil, hizmet standardıdır.",
+      "iliskili": [
+        "go-2-053",
+        "go-2-014",
+        "go-2-058"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-055",
+      "konu": "2.5",
+      "terim": "Deneyim ekonomisi",
+      "ingilizce": "Experience economy",
+      "tanim": "İşletmelerin yalnız ürün ya da hizmet değil, konuğun hatırlayacağı bir yaşantı sattığı ekonomi anlayışıdır.",
+      "ornek": "Kapadokya'da bir butik otel yalnız oda satmaz: sabah balonların kalkışını izlenen teras, taş fırında ekmek yapımı ve köy kahvaltısı birlikte bir yaşantı olarak sunulur; konuk eve 'bir odada kaldım' diye değil, 'şunu yaşadım' diye döner.",
+      "sektor": "Kavramı Pine ve Gilmore adlı iki yazar ortaya attı: ham madde satılır, sonra ürün, sonra hizmet; en değerlisi ise deneyimdir, çünkü hatıra olarak kalır. Bu yüzden birçok otel artık yalnız 'oda satıyoruz' demez; sattığı şey konuğun eve götürdüğü anıdır.",
+      "iliskili": [
+        "go-2-056",
+        "go-2-057",
+        "go-2-062"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-056",
+      "konu": "2.5",
+      "terim": "Konuk deneyimi",
+      "ingilizce": "Guest experience",
+      "tanim": "Konuğun oteli ilk duyduğu andan ayrıldıktan sonra anlattığı ana kadar yaşadığı ve hissettiği her şeyin toplamıdır.",
+      "ornek": "Konuk için deneyim web sitesine girdiği saniye başlar: rezervasyon kolay mıydı, taksici oteli biliyor muydu, kapıda kim karşıladı, oda nasıl kokuyordu, çıkışta ne hissetti. Hepsi tek bir anıya dönüşür.",
+      "sektor": "Deneyim, otelin kontrol ettiği ve etmediği her şeyi kapsar; bu yüzden tek bir departmanın değil herkesin işidir. Lüks otel konuğun ne aldığına değil, ne hissettiğine bakar. Ölçülen, iyileştirilen ve rakiple yarışılan şey artık deneyimdir.",
+      "iliskili": [
+        "go-2-055",
+        "go-2-058",
+        "go-2-059"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-057",
+      "konu": "2.5",
+      "terim": "Deneyim tasarımı",
+      "ingilizce": "Experience design",
+      "tanim": "Konuğun yaşayacağı anların rastlantıya bırakılmayıp önceden düşünülerek planlanması ve sahneye konmasıdır.",
+      "ornek": "Otel, kış konukları için girişte tarçınlı sıcak içecek, odada hazır battaniye ve akşam şöminede müzik dinletisi planlar; her ayrıntı 'konuk soğuktan gelince ne hissetmek ister?' sorusuyla seçilmiştir.",
+      "sektor": "Tiyatro gibi düşünülür: lobi sahnedir, çalışan oyuncudur, konuk hem seyirci hem baş roldür. İyi tasarlanmış deneyim konuğa tasarlanmış gibi gelmez; doğal gelir. Stajyer, bir otelde 'tesadüf' sandığı güzel anların çoğunun önceden düşünüldüğünü öğrenir.",
+      "iliskili": [
+        "go-2-055",
+        "go-2-063",
+        "go-2-058"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-058",
+      "konu": "2.5",
+      "terim": "Temas noktası",
+      "ingilizce": "Touchpoint",
+      "tanim": "Konuğun otelle karşılaştığı ve bir izlenim edindiği her an ya da yerdir; web sitesi, telefon, kapı, oda ve fatura bunlara örnektir.",
+      "ornek": "Stajyer bir günde kaç temas noktasında olduğunu sayar: kapıda karşılama, bagaj taşıma, asansörde sohbet, odayı tanıtma. Her biri konuğun aklında ayrı bir not bırakır.",
+      "sektor": "Konuk oteli bütün olarak değil, temas noktalarının toplamı olarak değerlendirir; tek bir kötü nokta on iyi noktayı gölgeler. Bu yüzden lüks oteller temas noktalarını tek tek listeler ve her birine bir standart yazar. Çalışanın girdiği her temas, bir sınavdır.",
+      "iliskili": [
+        "go-2-056",
+        "go-2-059",
+        "go-2-060"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-059",
+      "konu": "2.5",
+      "terim": "Konuk yolculuğu haritası",
+      "ingilizce": "Guest journey map",
+      "tanim": "Konuğun rezervasyondan ayrılış sonrasına kadar geçtiği her adımın ve her adımda ne hissettiğinin tek bir şema üstünde gösterilmesidir.",
+      "ornek": "Misafir ilişkileri ekibi duvara büyük bir şema asar: 'arama → geliş → giriş → oda → yemek → çıkış → yorum'. Her adımın altına konuğun o anki duygusu ve otelin yapması gerekenler yazılır; girişteki uzun kuyruk haritada kırmızıyla işaretlenir.",
+      "sektor": "Harita, sorunu konuğun gözünden gösterir: departmanlar kendi işini iyi yapabilir ama konuk aradaki boşluklara düşer. Zayıf halkalar bu şemada görünür. Deneyim tasarımı bu haritayla başlar, ölçüm de bu haritayla biter.",
+      "iliskili": [
+        "go-2-058",
+        "go-2-056",
+        "go-2-061"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-060",
+      "konu": "2.5",
+      "terim": "Hizmette gerçek an",
+      "ingilizce": "Moment of truth",
+      "tanim": "Konuğun bir çalışanla ya da hizmetle karşılaşıp otel hakkında kanı edindiği, iyi ya da kötü yönde belirleyici olan kısa andır.",
+      "ornek": "Asansörde stajyerle göz göze gelen konuk, bir 'günaydın' duyup duymamasına göre oteli 'sıcak' ya da 'soğuk' diye etiketler. Bu an üç saniye sürer, etkisi bütün gün kalır.",
+      "sektor": "Kavramı bir hava yolu yöneticisi olan Jan Carlzon yaygınlaştırdı: şirket her gün binlerce kısa karşılaşmada ya kazanılır ya kaybedilir. Lüks otelde her çalışan günde onlarca gerçek an yaşar; büyük yatırımlar bu küçük anlarda kaybedilebilir ya da kazanılabilir.",
+      "iliskili": [
+        "go-2-058",
+        "go-2-061",
+        "go-2-062"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-061",
+      "konu": "2.5",
+      "terim": "Zirve-son kuralı",
+      "ingilizce": "Peak-end rule",
+      "tanim": "İnsanın bir yaşantıyı en yoğun anıyla ve bitişiyle hatırladığını, aradaki ortalamayı ise büyük ölçüde unuttuğunu söyleyen kuraldır.",
+      "ornek": "Beş gün boyunca her şey kusursuz giden konuk, çıkışta faturada yanlış bir kalemle kırk dakika uğraşırsa tatili 'o fatura' diye hatırlar; tersi de olur, sorunlu başlayan tatil güzel bir uğurlamayla kurtulur.",
+      "sektor": "Kuralı psikolog Daniel Kahneman'ın çalışmaları ortaya koydu; dünya otelciliği bunu deneyim tasarımında kullanır: bir tane unutulmaz zirve an yarat ve konaklamayı mutlaka iyi bitir. Çıkış işleminin lüks otelde bu kadar önemsenmesinin nedeni budur.",
+      "iliskili": [
+        "go-2-018",
+        "go-2-062",
+        "go-2-060"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-062",
+      "konu": "2.5",
+      "terim": "Hatırlanan an",
+      "ingilizce": "Memorable moment",
+      "tanim": "Konuğun konaklamadan yıllar sonra bile anlattığı, duygusu güçlü ve kişiye özel olduğu için hafızada kalan andır.",
+      "ornek": "Çocuğunun doğum gününü otelde kutlayan aile, odaya döndüğünde yatağın üstünde havludan yapılmış bir pasta ve çocuğun adıyla yazılmış bir kart bulur. Yıllar sonra bile 'o oteli hatırlıyor musun?' derler.",
+      "sektor": "Konuk otelin halısını, perdesini unutur; ona nasıl hissettirildiğini unutmaz. Hatırlanan an çoğu zaman pahalı değil, kişiseldir ve bir çalışanın dikkatinden doğar. Lüks otel, bu anları şansa bırakmaz; çalışanlarına bunları yaratacak zaman ve yetki verir.",
+      "iliskili": [
+        "go-2-026",
+        "go-2-061",
+        "go-2-065"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-063",
+      "konu": "2.5",
+      "terim": "İmza deneyim",
+      "ingilizce": "Signature experience",
+      "tanim": "Bir otelin ya da zincirin yalnız kendisine özgü, her konuğa yaşattığı ve markasıyla özdeşleşen deneyimdir.",
+      "ornek": "Boğaz kıyısındaki bir otel her konuğu girişte lobide canlı kanun sesiyle ve gül şerbetiyle karşılar; konuklar yıllar sonra 'o şerbet' diye anar. Başka otel bunu kopyalasa bile aynı tadı veremez.",
+      "sektor": "İmza deneyim, otelin 'bizi bizden başkası yapamaz' dediği şeydir; kokusu, ikramı, ritüeli olabilir. Zincirler bunu dünyanın her otelinde aynı yapar ki marka tanınsın. Stajyer, kendi otelinin imza anını bilir ve onu her seferinde aynı özenle sahneler.",
+      "iliskili": [
+        "go-2-057",
+        "go-2-064",
+        "go-2-055"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-064",
+      "konu": "2.5",
+      "terim": "Akşam oda hazırlığı (turndown)",
+      "ingilizce": "Turndown service",
+      "tanim": "Konuk yemekteyken ya da dışarıdayken odaya girilip yatağın açılması, perdelerin kapatılması, ışıkların kısılması ve küçük bir ikram bırakılmasıdır.",
+      "ornek": "Saat 19.30: konuk akşam yemeğindeyken kat görevlisi odaya girer, yatak örtüsünü katlayıp açar, terlikleri yatağın yanına koyar, komodine bir çikolata ve yarınki hava durumu kartını bırakır, ışığı loş bırakır.",
+      "sektor": "Lüks otelin klasik imza deneyimlerinden biridir: konuk odaya döndüğünde 'biri beni düşünmüş' hisseder. Hizmet görünmezdir; konuk görevliyi görmez, yalnız sonucu görür. Çoğu lüks otelde turndown bir SOP ile adım adım yapılır.",
+      "iliskili": [
+        "go-2-063",
+        "go-2-022",
+        "go-2-023"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "otel-odasi"
+    },
+    {
+      "id": "go-2-065",
+      "konu": "2.5",
+      "terim": "Duygusal bağ",
+      "ingilizce": "Emotional connection",
+      "tanim": "Konuğun otele yalnız memnun olduğu için değil, kendini orada tanınmış ve önemsenmiş hissettiği için bağlanmasıdır.",
+      "ornek": "Her yıl aynı resorta gelen aile, kapı görevlisinin çocuklarının adını hatırlamasına fiyattan daha çok değer verir; başka otel indirim yapsa da gitmezler.",
+      "sektor": "Memnun konuk tekrar gelebilir; bağ kurmuş konuk başka yere bakmaz ve oteli çevresine anlatır. Bağ, tesisin büyüklüğüyle değil, insanların dikkatiyle kurulur. Sadakat programları puan verir; duygusal bağ ise hatırlanmakla kurulur.",
+      "iliskili": [
+        "go-2-062",
+        "go-2-019",
+        "go-2-067"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-066",
+      "konu": "2.5",
+      "terim": "Söz verirken beklenti ayarı",
+      "ingilizce": "Setting expectations when promising",
+      "tanim": "Konuğa yerine getirilebilecekten fazlasının vaat edilmemesi ve mümkünse vaat edilenden biraz fazlasının verilmesidir.",
+      "ornek": "Resepsiyonist 'Odanız en geç 15.00'te hazır' der ve 14.30'da arar: 'Odanız hazır, dilerseniz çıkabilirsiniz.' Aynı oda 14.00 diye söz verilip 14.30'da hazır olsaydı konuk yarım saat geç kalındığını düşünürdü.",
+      "sektor": "Memnuniyet, aldığın ile beklediğin arasındaki farktır. Tanıtımda abartılan havuz, gerçekte güzel olsa da hayal kırıklığı yaratır. Dünya otelciliğinde ilke şudur: az söz ver, çok yap. Tutamayacağın sözü hiç vermemek, telafi gerekmemesi için en ucuz yoldur.",
+      "iliskili": [
+        "go-2-025",
+        "go-2-056",
+        "go-2-028"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-067",
+      "konu": "2.5",
+      "terim": "Geri bildirim döngüsü",
+      "ingilizce": "Feedback loop",
+      "tanim": "Konuktan toplanan görüşün ekibe iletilmesi, hizmetin buna göre düzeltilmesi ve sonucun yeniden ölçülmesiyle kapanan çevrimdir.",
+      "ornek": "Anketlerde 'kahvaltı sırası uzun' yorumu birikir; F&B müdürü ikinci bir omlet istasyonu açar; bir ay sonraki anketlerde yorum kaybolur. Döngü kapanmıştır.",
+      "sektor": "Toplanan ama okunmayan anket, konuğun zamanını çalmaktır. Döngünün kıymeti 'ölç' adımında değil, 'düzelt ve yeniden ölç' adımındadır. Lüks oteller konuğa, görüşünün ne değiştirdiğini de söyler; böylece konuk bir dahaki sefere yine yazar.",
+      "iliskili": [
+        "go-2-068",
+        "go-2-069",
+        "go-2-040"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-068",
+      "konu": "2.5",
+      "terim": "Konaklama sonrası anket",
+      "ingilizce": "Post-stay survey",
+      "tanim": "Konuk ayrıldıktan kısa süre sonra e-posta ya da mesajla gönderilen, konaklamanın her adımını puanlatan kısa soru formudur.",
+      "ornek": "Konuk çıkıştan iki gün sonra telefonunda bir mesaj görür: 'Konaklamanızı 0-10 arası puanlar mısınız? Sizi en çok ne mutlu etti?' Üç dakikada doldurur; cevabı ertesi sabah toplantıda okunur.",
+      "sektor": "Anket kısa ve zamanında olmalıdır; uzun anket doldurulmaz, geç gelen anket unutulmuş bir tatili sorar. Soruların çoğu konuk yolculuğunun adımlarını izler ki hangi temas noktasının zayıf olduğu görülsün. Anketlerden çıkan göstergelerden biri, Ünite 1'de görülen net tavsiye puanıdır (NPS). Çalışan adının ankette olumlu geçmesi, lüks otelde bir takdir sebebidir.",
+      "iliskili": [
+        "go-2-067",
+        "go-2-069",
+        "go-2-059"
+      ],
+      "kontrol": null,
+      "kitapDisi": true, "gorsel": "sektor-akilli-telefon"
+    },
+    {
+      "id": "go-2-069",
+      "konu": "2.5",
+      "terim": "Puan ve açık yorum",
+      "ingilizce": "Rating and open comment",
+      "tanim": "Anketlerde konuğun hem sayıyla puan verdiği hem de kendi cümleleriyle neden öyle düşündüğünü yazdığı iki tür geri bildirimdir.",
+      "ornek": "Konuk anketin ilk sorusuna 6 verir, açık kutuya 'Kahvaltıda sıcak yemek çabuk bitti' yazar. Puan sorunun varlığını, yorum ise nerede olduğunu gösterir; F&B müdürü ertesi sabah büfeyi buna göre doldurur.",
+      "sektor": "Puan hızlı karşılaştırma sağlar ama nedeni söylemez; açık yorum nedeni söyler ama saymak zordur. İyi geri bildirim sistemi ikisini birlikte okur. Çalışan için en değerli bilgi çoğu zaman yorumun içindeki küçük ayrıntıdır.",
+      "iliskili": [
+        "go-2-068",
+        "go-2-067",
+        "go-2-070"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-2-070",
+      "konu": "2.5",
+      "terim": "Yorum cevabında hizmet telafisi",
+      "ingilizce": "Service recovery in review responses",
+      "tanim": "Olumsuz çevrim içi yoruma, telafi adımlarını izleyerek, yani teşekkür, özür, çözüm ve yeniden davetle herkesin okuyacağı biçimde yanıt vermektir.",
+      "ornek": "Bir konuk 'Oda temizdi ama kahvaltı geç açıldı' yazmıştır. Müdür ertesi gün yanıtlar: adıyla teşekkür eder, kahvaltı için özür diler, saat düzeninin değiştiğini söyler ve yeniden davet eder. Yanıtı oteli araştıran pek çok aday konuk okur.",
+      "sektor": "Cevap tek bir konuğa değil, o yorumu okuyan herkese yazılır. Savunmaya geçen, kalıp cümle kullanan ya da hiç cevap vermeyen otel aday konukları kaybeder. Yorum, otelin eline geçmiş bir hizmet telafisi fırsatıdır; yönetimin yanıt yazması Ünite 1'de görülen yoruma yanıt kavramıyla birlikte çalışır.",
+      "iliskili": [
+        "go-2-031",
+        "go-2-067",
+        "go-2-068"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    }
+  ],
+  "sorular": [
+    {
+      "id": "go-2-s01",
+      "tur": "coktan-secmeli",
+      "soru": "Bir işin adım adım nasıl yapılacağını anlatan yazılı talimata ne ad verilir?",
+      "secenekler": [
+        "Günlük hizmet toplantısı",
+        "Standart işletim prosedürü",
+        "Gizli müşteri raporu",
+        "Konuk tercih profili"
+      ],
+      "dogru": 1,
+      "aciklama": "SOP, işin adımlarını, sırasını ve ölçüsünü yazar; yeni çalışan ilk günden doğru yapar. Günlük toplantı bilgiyi tazeler, gizli müşteri raporu hizmeti ölçer, tercih profili konuğun isteklerini tutar."
+    },
+    {
+      "id": "go-2-s02",
+      "tur": "coktan-secmeli",
+      "soru": "Bir otel zincirinin hizmet inancını ve değerlerini özetleyen, çalışanların cebinde taşıdığı küçük kart hangisidir?",
+      "secenekler": [
+        "Aksaklık kaydı",
+        "Yolculuk haritası",
+        "İnanç kartı",
+        "Denetim listesi"
+      ],
+      "dogru": 2,
+      "aciklama": "İnanç kartı (credo card) otelin konuğa verdiği sözü ve çalışanın uyacağı değerleri taşır; bu uygulamayla anılan zincirlerden biri Ritz-Carlton'dur. Ötekiler kayıt, şema ve ölçüm araçlarıdır."
+    },
+    {
+      "id": "go-2-s03",
+      "tur": "coktan-secmeli",
+      "soru": "Hizmetin üç adımı sırasıyla hangisidir?",
+      "secenekler": [
+        "Dinleme, özür, takip",
+        "Rezervasyon, giriş, çıkış",
+        "Göz teması, selam, tokalaşma",
+        "Karşılama, öngörme, uğurlama"
+      ],
+      "dogru": 3,
+      "aciklama": "Üç adım: sıcak ve içten karşılama, konuğun ihtiyacını önceden sezip karşılama ve isimle sıcak uğurlama. Dinleme-özür-takip telafi adımlarıdır; rezervasyon-giriş-çıkış konuk yolculuğudur."
+    },
+    {
+      "id": "go-2-s04",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdakilerden hangisi 'ölçülebilir davranış' örneğidir?",
+      "secenekler": [
+        "Personel güler yüzlüdür.",
+        "Telefon üç çalışta açılır.",
+        "Konuk kendini özel hisseder.",
+        "Hizmet sıcak ve içtendir."
+      ],
+      "dogru": 1,
+      "aciklama": "Ölçülebilir davranış, 'yapıldı mı?' sorusuna evet ya da hayır diye cevap verilebilen davranıştır; çalış sayısı sayılabilir. Güler yüz, özel hissetmek ve içtenlik önemli ama tek başına ölçülemeyen ifadelerdir."
+    },
+    {
+      "id": "go-2-s05",
+      "tur": "dogru-yanlis",
+      "soru": "Forbes Travel Guide denetçisi otele kimliğini açıklayarak gelir ve yönetimle birlikte hizmeti puanlar.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Denetçi anonimdir; sıradan bir konuk gibi kalır ve kimseye kim olduğunu söylemez. Amaç otelin 'denetçi günü'nü değil, her günkü hâlini görmektir."
+    },
+    {
+      "id": "go-2-s06",
+      "tur": "coktan-secmeli",
+      "soru": "Konuğun hangi gün gelirse gelsin ve hangi çalışana denk gelirse gelsin aynı kalitede hizmet almasına ne denir?",
+      "secenekler": [
+        "Tutarlılık",
+        "Kişiselleştirme",
+        "Sessiz hizmet",
+        "Yetkilendirme"
+      ],
+      "dogru": 0,
+      "aciklama": "Tutarlılık, lüksün 'bir kez mükemmel' değil 'her seferinde iyi' olmasıdır. Kişiselleştirme hizmeti konuğa göre uyarlar, sessiz hizmet göze batmadan çalışır, yetkilendirme çalışana karar yetkisi verir."
+    },
+    {
+      "id": "go-2-s07",
+      "tur": "coktan-secmeli",
+      "soru": "10-5 kuralına göre çalışan, yaklaşan konuğa yaklaşık bir buçuk metre kala ne yapar?",
+      "secenekler": [
+        "Yolundan çekilip arkasını döner",
+        "Elini uzatıp tokalaşır",
+        "Sözlü olarak selam verir",
+        "Adını sorup profile yazar"
+      ],
+      "dogru": 2,
+      "aciklama": "Kural iki aşamalıdır: yaklaşık üç metrede göz teması ve gülümseme, yaklaşık bir buçuk metrede sözlü selam. Tokalaşmayı konuk başlatır; isim sormak karşılama kuralı değil, tanışma adımıdır."
+    },
+    {
+      "id": "go-2-s08",
+      "tur": "coktan-secmeli",
+      "soru": "Konuk, mutfak kapandıktan sonra oda servisinden sıcak çorba istiyor. 'Alternatif sunma' ilkesine uygun cevap hangisidir?",
+      "secenekler": [
+        "'Mutfak kapandı efendim, yarın sabah kahvaltıda size çorba hazırlarız.'",
+        "'Mutfak kapalı, ama sıcak sandviç ve çay hazırlatabilirim.'",
+        "'Şefi evinden çağırıp çorbayı özel olarak yaptırmasını isteyeyim.'",
+        "'Dışarıdan bir restorana sipariş verip odaya getirtmenizi öneririm.'"
+      ],
+      "dogru": 1,
+      "aciklama": "İlke, 'hayır' yerine yapılabilecek en yakın seçeneği önermektir. Yalnız reddetmek konuğu boş bırakır, şefi uyandırmak yetki ve mantık dışıdır, konuğu dışarıya yönlendirmek sorumluluğu atmaktır."
+    },
+    {
+      "id": "go-2-s09",
+      "tur": "dogru-yanlis",
+      "soru": "Sessiz hizmet, konuğu rahatsız etmeden ve araya girmeden ihtiyacı karşılamayı anlatır.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Sessiz hizmette her şey olur ama kimse konuğun dinlenmesini bölmez; boş bardak konuk kitabını okurken fark ettirmeden değişir. Fazla ilgi de ilgisizlik kadar rahatsız eder."
+    },
+    {
+      "id": "go-2-s10",
+      "tur": "coktan-secmeli",
+      "soru": "Karşılık beklemeden, gösterişsiz ve konuğun ihtiyacını önceden sezerek ağırlamayı anlatan Japon konukseverlik anlayışı hangisidir?",
+      "secenekler": [
+        "Kültürel zekâ",
+        "Deneyim ekonomisi",
+        "Omotenashi",
+        "Telafi paradoksu"
+      ],
+      "dogru": 2,
+      "aciklama": "Omotenashi, kökeni çoğu zaman Japon çay seremonisine dayandırılan anlayıştır; Japonya'da bahşiş geleneğinin olmaması da çoğu zaman bununla ilişkilendirilir. Kültürel zekâ bir beceri, deneyim ekonomisi bir ekonomi anlayışı, telafi paradoksu bir hata-sonrası durumdur."
+    },
+    {
+      "id": "go-2-s11",
+      "tur": "coktan-secmeli",
+      "soru": "Bir çalışanın konukta fark ettiği tercihi profile yazıp ekiple paylaşmasına ne denir?",
+      "secenekler": [
+        "Tercih aktarımı",
+        "Konuğu okuma",
+        "İmza deneyim",
+        "Gizli müşteri denetimi"
+      ],
+      "dogru": 0,
+      "aciklama": "Tercih aktarımı, kişiselleştirmeyi ekip işi yapar; paylaşılmayan bilgi çalışan izinliyken kaybolur. Konuğu okuma tercihi fark etme aşamasıdır; imza deneyim ve gizli müşteri denetimi başka kavramlardır."
+    },
+    {
+      "id": "go-2-s12",
+      "tur": "coktan-secmeli",
+      "soru": "LEARN modelinin son adımı olan 'bildir' (notify) ne anlama gelir?",
+      "secenekler": [
+        "Konuğa oteli şikâyet edebileceği kurumu söylemek",
+        "Aksaklığı amire ve kayda yazarak iletmek",
+        "Konuğu diğer konuklara duyurmak",
+        "Basına açıklama yapmak"
+      ],
+      "dogru": 1,
+      "aciklama": "Bildirmek, yaşanan aksaklığı kayda geçirmek ve amire iletmektir; yazılmayan aksaklık yarın yeniden olur. Öteki şıklar sorunu çözmez, konuğun mahremiyetini ve otelin güvenini zedeler."
+    },
+    {
+      "id": "go-2-s13",
+      "tur": "coktan-secmeli",
+      "soru": "HEART modelini LEARN modelinden ayıran son adım hangisidir?",
+      "secenekler": [
+        "Dinlemek",
+        "Özür dilemek",
+        "Teşekkür etmek",
+        "Harekete geçmek"
+      ],
+      "dogru": 2,
+      "aciklama": "HEART, 'teşekkür et' ile biter: şikâyet eden konuk otele düzeltme şansı vermiştir. Dinlemek ve özür dilemek iki modelde de vardır; harekete geçmek LEARN'ün dördüncü adımıdır."
+    },
+    {
+      "id": "go-2-s14",
+      "tur": "coktan-secmeli",
+      "soru": "Çalışana, konuğun sorununu amirine sormadan belirli bir sınır içinde çözme yetkisi verilmesine ne denir?",
+      "secenekler": [
+        "Yetkilendirme",
+        "Sahiplenme",
+        "Tutarlılık",
+        "Takip"
+      ],
+      "dogru": 0,
+      "aciklama": "Yetkilendirme, 'müdüre sormam lazım' bekleyişini kaldırır; bazı zincirler çalışanına belirli bir tutara kadar harcama yetkisi tanır. Sahiplenme sorunu üstlenmek, takip sonradan dönmek, tutarlılık aynı kaliteyi korumaktır."
+    },
+    {
+      "id": "go-2-s15",
+      "tur": "dogru-yanlis",
+      "soru": "Telafi paradoksu, hata yapmanın konuğu her zaman daha memnun bıraktığını gösterir; bu yüzden küçük hatalar sorun değildir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Paradoks her zaman gerçekleşmez ve hata için bahane değildir; yalnız iyi telafi edilen bazı aksaklıkların konuğu daha bağlı bırakabildiğini söyler. Aksaklık kaçınılmazdır, telafi ise otelin elindedir."
+    },
+    {
+      "id": "go-2-s16",
+      "tur": "coktan-secmeli",
+      "soru": "Hangi özür 'içten özür' tanımına uyar?",
+      "secenekler": [
+        "'Özür dilerim ama bugün çok yoğunuz.'",
+        "'Kat hizmetleri geç kalmış, kusura bakmayın.'",
+        "'Beklettiğimiz için özür dilerim, bagajınız yolda.'",
+        "'Bu tür şeyler her otelde olur efendim.'"
+      ],
+      "dogru": 2,
+      "aciklama": "İçten özür bahane göstermez, 'ama' demez ve suçu başkasına atmaz. İlk şık bahaneyle siler, ikincisi başka departmanı suçlar, dördüncüsü sorunu küçümser."
+    },
+    {
+      "id": "go-2-s17",
+      "tur": "coktan-secmeli",
+      "soru": "Kültürel zekânın dört parçası hangi şıkta doğru verilmiştir?",
+      "secenekler": [
+        "Dinleme, özür, çözüm, teşekkür",
+        "Karşılama, öngörme, uğurlama, takip",
+        "İstek, bilgi, strateji, davranış",
+        "Göz teması, selam, isim, mesafe"
+      ],
+      "dogru": 2,
+      "aciklama": "Kültürel zekâ istek (merak), bilgi, strateji (planlama) ve davranış (uyarlama) parçalarından oluşur. Birinci şık HEART modelidir, ikincisi hizmetin üç adımıyla karışıktır, dördüncüsü karşılama davranışlarıdır."
+    },
+    {
+      "id": "go-2-s18",
+      "tur": "coktan-secmeli",
+      "soru": "Dolaylı konuşmaya alışkın bir konuğun 'Oda çok güzel, yalnız sokak biraz hareketli galiba' demesi ne anlama gelebilir?",
+      "secenekler": [
+        "Odadan tamamen memnundur",
+        "Sokağı gezmek istemektedir",
+        "Nazikçe oda değişikliği istemektedir",
+        "Otelin konumunu övmektedir"
+      ],
+      "dogru": 2,
+      "aciklama": "Dolaylı konuşmaya alışkın konuk şikâyeti çoğu zaman ima ile söyler; 'biraz hareketli' sözü gürültüden rahatsızlık ve değişiklik isteğidir. Çalışan sözün yanında tonu da okur ve teklif eder."
+    },
+    {
+      "id": "go-2-s19",
+      "tur": "coktan-secmeli",
+      "soru": "Otelde bir konuğa yolu gösterirken en güvenli jest hangisidir?",
+      "secenekler": [
+        "İşaret parmağıyla göstermek",
+        "Baş parmağı kaldırmak",
+        "OK işareti yapmak",
+        "Açık elle yönü göstermek"
+      ],
+      "dogru": 3,
+      "aciklama": "Açık el, hafif baş eğme ve gülümseme hemen her kültürde iyi anlaşılır. Parmakla gösterme, baş parmak ve OK işareti bazı ülkelerde kaba ya da hakaret sayılır; yanlış anlayan konuk söylemez, yalnız soğur."
+    },
+    {
+      "id": "go-2-s20",
+      "tur": "dogru-yanlis",
+      "soru": "Bahşiş bazı ülkelerde beklenir, bazılarında alışılmış değildir; bu yüzden konuğun bahşiş vermemesi tek başına hizmeti beğenmediği anlamına gelmez.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Bahşiş kültürden kültüre değişir; örneğin Japonya'da bahşiş geleneği yoktur, bahşiş vermeyen konuk memnuniyetsiz sayılmaz. Lüks otelde hizmet bahşiş için değil, konuk için verilir."
+    },
+    {
+      "id": "go-2-s21",
+      "tur": "coktan-secmeli",
+      "soru": "Erişilebilir hizmette tekerlekli sandalyeli konuğa karşı doğru tutum hangisidir?",
+      "secenekler": [
+        "Yardımı sormak ama dayatmamak",
+        "Sandalyeyi hemen itmeye başlamak",
+        "Yanındaki kişiye hitap etmek",
+        "İşlemi hızlıca bitirip göndermek"
+      ],
+      "dogru": 0,
+      "aciklama": "Yardım sorulur, ısrar edilmez; konuğa doğrudan ve göz hizasından konuşulur, aceleye getirilmez. Sormadan itmek ve yanındakine konuşmak konuğu yok sayar."
+    },
+    {
+      "id": "go-2-s22",
+      "tur": "coktan-secmeli",
+      "soru": "Zirve-son kuralına göre konuk bir konaklamayı en çok neyle hatırlar?",
+      "secenekler": [
+        "En yoğun anı ve bitişiyle",
+        "Ödediği toplam ücretle",
+        "Kaldığı gün sayısıyla",
+        "Odanın metrekaresiyle"
+      ],
+      "dogru": 0,
+      "aciklama": "Kahneman'ın çalışmalarına dayanan kural, insanın bir yaşantıyı en yoğun anı ve sonuyla hatırladığını söyler; aradaki ortalama unutulur. Lüks otelin çıkış işlemini bu kadar önemsemesinin nedeni budur."
+    },
+    {
+      "id": "go-2-s23",
+      "tur": "coktan-secmeli",
+      "soru": "Konuğun rezervasyondan ayrılış sonrasına kadar geçtiği adımların ve her adımdaki duygusunun tek şemada gösterilmesine ne denir?",
+      "secenekler": [
+        "Temas noktası",
+        "Konuk yolculuğu haritası",
+        "Geri bildirim döngüsü",
+        "Net tavsiye puanı"
+      ],
+      "dogru": 1,
+      "aciklama": "Harita, departmanlar arasındaki boşlukları konuğun gözünden gösterir. Temas noktası haritadaki tek bir andır; geri bildirim döngüsü ölç-düzelt-yeniden ölç çevrimi, NPS tek bir sayıdır."
+    },
+    {
+      "id": "go-2-s24",
+      "tur": "coktan-secmeli",
+      "soru": "Olumsuz bir çevrim içi yoruma verilen cevap asıl kime yazılır?",
+      "secenekler": [
+        "Yalnız yorumu yazan konuğa",
+        "Otelin genel müdürüne",
+        "Seyahat sitesinin yöneticilerine",
+        "Yorumu okuyan bütün aday konuklara"
+      ],
+      "dogru": 3,
+      "aciklama": "Cevabı yorumu yazan tek konuk değil, oteli araştıran pek çok aday konuk okur; bu yüzden savunmaya geçmeden, kişiye özel ve çözüm odaklı yazılır. Kalıp cümle ya da sessizlik aday konukları kaybettirir."
+    },
+    {
+      "id": "go-2-s25",
+      "tur": "senaryo",
+      "durum": "Stajının ilk haftası, saat 10.00. Kat ofisinden lobiye doğru çamaşır arabasını itiyorsun. Koridorun öbür ucundan bir konuk sana doğru yürüyor; seni henüz görmedi.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Arabayı iterken başımı önüme eğer, konuk geçene kadar bekler, sonra yoluma devam ederim.",
+        "Uzaktan göz teması kurup gülümser, yaklaşınca 'Günaydın efendim' deyip arabayı kenara çekerim.",
+        "Konuk bir şey sorarsa cevap vermek için dururum, sormazsa işime bakarım.",
+        "Arabayı bırakıp konuğun yanına koşar, bir isteği olup olmadığını uzun uzun sorarım."
+      ],
+      "dogru": 1,
+      "aciklama": "10-5 kuralı: uzaktan göz teması ve gülümseme, yaklaşınca sözlü selam. Lüks otelde her çalışan, departmanı ne olursa olsun karşılama görevlisidir. Başını eğmek konuğu görünmez hissettirir, konuğun sormasını beklemek geç kalmaktır, koşup uzun uzun sormak ise sessiz hizmeti bozar."
+    },
+    {
+      "id": "go-2-s26",
+      "tur": "senaryo",
+      "durum": "Saat 15.00, resepsiyondasın. Giriş yapan konuk, odasının deniz manzaralı olmadığını fark edip sinirleniyor: 'Ben deniz manzarası için para ödedim!' Rezervasyonda böyle bir not yok; şefin öğle yemeğinde.",
+      "soru": "İlk adımın ne olur?",
+      "secenekler": [
+        "Rezervasyonu ekrana çevirip 'Burada deniz manzarası yazmıyor' diye gösteririm.",
+        "Sözünü kesmeden dinler, 'Anlıyorum, hemen ne yapabileceğimize bakıyorum' deyip şefime ulaşırım.",
+        "'Bu gece ücretsiz olsun' diyerek konuğu hemen sakinleştiririm.",
+        "Konuğu lobide bekletip şefim dönene kadar başka konuklarla ilgilenirim."
+      ],
+      "dogru": 1,
+      "aciklama": "LEARN'ün ilk adımları dinlemek ve anlamaktır; sonra yetki sınırı içinde hareket edilir ve amire bildirilir. Ekranı gösterip haklı çıkmaya çalışmak tartışma başlatır, ücretsiz gece sözü stajyerin yetkisini aşar, bekletmek ise telafide hızı yok eder."
+    },
+    {
+      "id": "go-2-s27",
+      "tur": "senaryo",
+      "durum": "Akşam 20.00, restoranda servise yardım ediyorsun. Bir konuğun siparişi yanlış geldi; konuk 'Önemli değil, bunu yerim' diyor ama yüzü asık. Garson başka masayla meşgul.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Özür diler, doğru yemeği öncelikli olarak mutfağa iletir ve garsona haber veririm.",
+        "'Mutfak karıştırmış, benim suçum değil' deyip tabağı masada bırakırım.",
+        "Konuk 'önemli değil' dediği için konuyu kapatır, servise devam ederim.",
+        "Tabağı alıp konuğa sormadan ücretsiz tatlı sözü veririm."
+      ],
+      "dogru": 0,
+      "aciklama": "Konuğun 'önemli değil' demesi aksaklığın olmadığı anlamına gelmez; sessiz giden konuk daha tehlikelidir. Sorunu sahiplenmek, özür dilemek ve hızlı iletmek stajyerin yetkisi içindedir. Suçu mutfağa atmak özrü siler; ücretsiz tatlı sözü yetki sınırını aşabilir, önce garsona ve şefe sorulur."
+    },
+    {
+      "id": "go-2-s28",
+      "tur": "senaryo",
+      "durum": "Saat 12.30, lobidesin. Yurt dışından bir iş grubu geldi; grup lideri sana doğru yaklaşıp hafifçe eğiliyor ve iki eliyle kartvizitini uzatıyor. El uzatmıyor.",
+      "soru": "Nasıl davranırsın?",
+      "secenekler": [
+        "Hemen elimi uzatıp sıkıca tokalaşır, kartı tek elimle cebime koyarım.",
+        "Kartı alıp hemen arkasına oda numaralarını yazarım.",
+        "Kartı almadan 'Resepsiyona verin lütfen' der, grubu bankoya yönlendiririm.",
+        "Hafifçe eğilerek selam verir, kartı iki elimle alıp bir an bakar, sonra özenle saklarım."
+      ],
+      "dogru": 3,
+      "aciklama": "Selamlaşmayı konuk başlatır; el uzatmayan konuğa el uzatılmaz, kendi selamına benzer biçimde karşılık verilir. Kartviziti iki elle alıp bakmak, Japonya'da olduğu gibi kartvizite önem veren kültürlerde saygıdır; tek elle cebe atmak ya da üstüne yazmak saygısızlık sayılabilir. Konuğu bankoya yönlendirmek de karşılamayı reddetmektir."
+    },
+    {
+      "id": "go-2-s29",
+      "tur": "senaryo",
+      "durum": "Kahvaltı salonu, saat 08.30. Bir konuk sana 'Bu börekte et var mı? Ben domuz eti yemiyorum' diye soruyor. Börek sana peynirli gibi görünüyor ama emin değilsin; şef mutfakta.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "'Hemen şefimize soruyorum' deyip mutfağa gider, kesin bilgiyle dönerim.",
+        "'Bilmiyorum, siz bir bakın' deyip konuğu kendi hâline bırakırım.",
+        "Görünüşüne bakıp 'Peynirli, rahat yiyebilirsiniz' derim.",
+        "Konuğa böreği hiç yememesini, başka bir şey seçmesini söylerim."
+      ],
+      "dogru": 0,
+      "aciklama": "Yemek kısıtlaması ister inançtan ister alerjiden gelsin, tek güvenli cevap mutfaktan gelir; tahminle verilen 'yiyebilirsiniz' bir inanç ihlaline ya da sağlık sorununa yol açabilir. Konuğu kendi hâline bırakmak ya da yasaklamak sorusunu cevapsız bırakır."
+    },
+    {
+      "id": "go-2-s30",
+      "tur": "senaryo",
+      "durum": "Saat 11.00, çıkış saati. Bir konuk faturada tanımadığı bir mini bar kalemi görüp itiraz ediyor; sıra uzuyor, konuk uçağına yetişmek için acele ediyor. Şefin yanında ama başka konukla ilgileniyor.",
+      "soru": "Hangisi doğru davranıştır?",
+      "secenekler": [
+        "'Sistemde yazıyorsa konuk almıştır, lütfen ödemeyi yapın' deyip ödemeyi isterim.",
+        "Kalemi kendi yetkimle hemen silip konuğu yolcu etmeye çalışırım.",
+        "Konuğa kat hizmetlerini arayıp kalemi kendisinin sormasını söylerim.",
+        "Özür diler, kalemi şefime iletir, bu arada konuğun aracı için kapıya haber veririm."
+      ],
+      "dogru": 3,
+      "aciklama": "Zirve-son kuralı: çıkıştaki kötü bir an bütün konaklamayı gölgeler, bu yüzden hızlı ve sahiplenerek davranılır. Fatura kalemini silmek stajyerin yetkisi dışındadır; ödemede ısrar tartışma yaratır; konuğu kat hizmetlerine yönlendirmek sorumluluğu atmaktır. Doğru yol: özür, amire iletme ve beklerken konuğun yolunu kolaylaştırma."
+    },
+    {
+      "id": "go-2-s31",
+      "tur": "senaryo",
+      "durum": "Saat 17.00, misafir ilişkileri masasındasın. Günlük toplantıda bir konuğun bugün doğum günü olduğunu öğrendin. Konuk henüz odaya çıkmadı; bütçen küçük bir jestle sınırlı.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Lobide herkesin önünde yüksek sesle doğum gününü kutlar, alkış başlatırım.",
+        "Oteldeki en pahalı pastayı sipariş edip faturayı sonra düşünürüm.",
+        "Bütçe küçük olduğu için bir şey yapmam, 'nasılsa fark etmez' derim.",
+        "Amirime haber verip odaya adıyla yazılmış küçük bir kart ve küçük bir ikram hazırlatırım."
+      ],
+      "dogru": 3,
+      "aciklama": "Wow anı ve hatırlanan an pahalı değil, kişisel ve beklenmedik olmalıdır; adıyla yazılmış bir kart bunu sağlar. Herkesin önünde kutlamak konuğun mahremiyetini bozabilir, hiçbir şey yapmamak fırsatı kaçırır, pahalı pasta yetki sınırını aşar. Jesti amire bildirip profile işlemek de tercih aktarımıdır."
+    },
+    {
+      "id": "go-2-s32",
+      "tur": "senaryo",
+      "durum": "Saat 21.00, ön büro arka ofisi. Sosyal medyaya bakan görevliyle birliktesin. Bir seyahat sitesinde konuk 'Oda temiz, ama havuz kapalıydı, kimse haber vermedi; bir daha gelmem' yazmış. Görevli senden cevap taslağı istiyor.",
+      "soru": "Hangi taslağı yazarsın?",
+      "secenekler": [
+        "Havuz bakımının sitede duyurulduğunu söyleyip konuğu suçlayan bir taslak yazarım.",
+        "Olumsuz yoruma cevap vermemeyi, yalnız iyi yorumlara teşekkür etmeyi öneririm.",
+        "Bakımın her otelde olağan olduğunu söyleyen kısa bir taslak yazarım.",
+        "Teşekkür eden, bahanesiz özür dileyen ve yeniden davet eden bir taslak yazarım."
+      ],
+      "dogru": 3,
+      "aciklama": "Cevap, yorumu okuyan bütün aday konuklara yazılır: teşekkür, bahanesiz özür ve yeniden davet. Konuğu suçlamak ya da sorunu küçümsemek savunmaya geçmektir; olumsuz yorumu cevapsız bırakmak ise aday konuklara 'umursamıyorlar' der. Şikâyet, otelin eline geçmiş bir telafi fırsatıdır."
+    }
+  ]
+}

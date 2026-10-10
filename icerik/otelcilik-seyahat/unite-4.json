@@ -114,6 +114,10 @@
       "ilk": "os-4-104"
     },
     {
+      "baslik": "Dosyada Hangi Kâğıtlar Olmalı?",
+      "ilk": "os-4-124"
+    },
+    {
       "baslik": "Dört Renk, Dört Pasaport",
       "ilk": "os-4-110"
     },
@@ -164,7 +168,7 @@
       "ingilizce": "Organisational structure of a travel agency",
       "tanim": "Bir işletmede kimin hangi işi yapacağını, kimin kime bağlı olduğunu ve bölümlerin birbiriyle nasıl çalışacağını gösteren düzendir.",
       "ornek": "Orta ölçekli bir acentenin şemasında en üstte genel müdür, altında genel müdür yardımcısı, onun altında operasyon, satış, vize ve muhasebe sorumluları ile onlara bağlı personel yer alır.",
-      "sektor": "Küçük (butik) acentede satış ve operasyonu çoğu zaman aynı kişiler yürütür; acente büyüdükçe iş tanımları netleşir ve uzmanlaşma artar. Büyük ölçekli acentede ürün planlama ve satın alma, operasyon, satış ve pazarlama, finans ve muhasebe, müşteri ilişkileri ve insan kaynakları ayrı departmanlardır.",
+      "sektor": "Küçük (butik) acentede satış ve operasyonu çoğu zaman aynı kişiler yürütür; acente büyüdükçe iş tanımları netleşir ve uzmanlaşma artar. Büyük ölçekli acentede ürün planlama ve satın alma, operasyon, satış ve pazarlama, finans ve muhasebe, müşteri ilişkileri ve insan kaynakları ayrı departmanlardır. Ders kitabındaki büyük ölçekli şemanın en üstünde yönetim kurulu ve CEO / genel müdür yer alır; altında ürün planlama ve satın alma, operasyon, satış ve pazarlama, finans ve muhasebe, müşteri ilişkileri (CRM) ve insan kaynakları bulunur. CRM, müşteri ilişkileri yönetimi demektir: konuğun tercihlerini kaydeder ve satıştan sonra da ilişkiyi sürdürür.",
       "iliskili": [
         "os-4-001",
         "os-4-004",
@@ -229,7 +233,8 @@
         "os-4-003",
         "os-4-080"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-fatura-fis"
     },
     {
       "id": "os-4-008",
@@ -364,7 +369,8 @@
         "os-4-058",
         "os-4-002"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-pasaport-bilet"
     },
     {
       "id": "os-4-017",
@@ -423,6 +429,22 @@
         "os-4-089",
         "os-4-054",
         "os-4-023"
+      ],
+      "kontrol": null,
+      "gorsel": "sektor-tur-grubu"
+    },
+    {
+      "id": "os-4-121",
+      "konu": "4.1.2",
+      "terim": "Rehber kokartı",
+      "ingilizce": "Tourist guide badge (guide licence card)",
+      "tanim": "Kültür ve Turizm Bakanlığı tarafından verilen, kişinin profesyonel turist rehberi olarak çalışmaya yetkili olduğunu gösteren belgedir.",
+      "ornek": "Sabah 08.45, otel lobisi: rehber yakasındaki kokartıyla tur otobüsüne binecek grubun karşısına çıkar ve kendini tanıtır.",
+      "sektor": "Ders kitabına göre profesyonel turist rehberi, rehberlik odasına kayıtlıdır ve Bakanlığın verdiği kokartla yetkilendirilmiştir. Acente rehber bulurken kokart sahibi olup olmadığına bakar; kokartsız kişiye rehberlik yaptırmak hem acenteyi hem konuğu riske sokar.",
+      "iliskili": [
+        "os-4-020",
+        "os-4-089",
+        "os-4-086"
       ],
       "kontrol": null
     },
@@ -924,7 +946,8 @@
         "os-4-054",
         "os-4-016"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-havalimani-terminali"
     },
     {
       "id": "os-4-054",
@@ -939,7 +962,8 @@
         "os-4-020",
         "os-4-063"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-harita-pusula"
     },
     {
       "id": "os-4-055",
@@ -1000,7 +1024,8 @@
         "os-4-042",
         "os-4-016"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-bilgisayar-masasi"
     },
     {
       "id": "os-4-059",
@@ -1136,7 +1161,8 @@
         "os-4-070",
         "os-4-086"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-sertifika-cercevesi"
     },
     {
       "id": "os-4-068",
@@ -1240,6 +1266,21 @@
         "os-4-063",
         "os-4-076",
         "os-4-051"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-122",
+      "konu": "4.3.2",
+      "terim": "Acentenin tabi olduğu diğer yönetmelikler",
+      "ingilizce": "Other regulations governing travel agencies",
+      "tanim": "Acenteyi 1618 sayılı Kanun ve paket tur kurallarının yanında bağlayan; birliği, turizm amaçlı sportif faaliyetleri ve turizm işletmelerinin ilişkilerini düzenleyen yönetmeliklerdir.",
+      "ornek": "Bir acente rafting turu satacağı zaman yalnız paket tur kurallarına değil, turizm amaçlı sportif faaliyetleri düzenleyen yönetmeliğe de uyduğundan emin olur.",
+      "sektor": "Üç yönetmelik bu kartın konusudur: Seyahat Acentaları Birliği Yönetmeliği, Turizm Amaçlı Sportif Faaliyet Yönetmeliği ve Turizm İşletmelerinin Bakanlıkla Birbirleriyle ve Müşterileriyle İlişkileri Hakkında Yönetmelik. Ders kitabı acentenin tabi olduğu mevzuatı uzun bir liste olarak verir: bir ana kanun, birkaç yönetmelik ve ticaret, tüketici ile veri güvenliği kanunları. Acente çalışanı hepsini ezbere bilmez; ama satışını yaptığı ürünün hangi kurala bağlı olduğunu ve nerede arayacağını bilir.",
+      "iliskili": [
+        "os-4-073",
+        "os-4-074",
+        "os-4-076"
       ],
       "kontrol": null
     },
@@ -1360,7 +1401,8 @@
         "os-4-087",
         "os-4-055"
       ],
-      "kontrol": null
+      "kontrol": null,
+      "gorsel": "sektor-tur-otobusu"
     },
     {
       "id": "os-4-083",
@@ -1445,7 +1487,7 @@
       "ingilizce": "Local authorities",
       "tanim": "Acentenin bölgesel tanıtım, çevre düzeni ve yerel etkinlik izinleri konusunda iş birliği yaptığı belediyeler ve valiliklerdir.",
       "ornek": "Bir acente, belediyenin düzenlediği kiraz festivali için özel tur hazırlar; otobüslerin park yeri ve program belediyeyle birlikte planlanır.",
-      "sektor": "Valilik ve kaymakamlık gibi mülki idare amirlikleri de acentenin paydaşıdır. Yerel yönetimle iyi ilişki, festival ve etkinlik turlarında işleri kolaylaştırır.",
+      "sektor": "Valilik ve kaymakamlık gibi mülki idare amirlikleri de acentenin paydaşıdır. Yerel yönetimle iyi ilişki, festival ve etkinlik turlarında işleri kolaylaştırır. Ders kitabı başlıca kurumlar arasında 'mülki idare amirlikleri ve belediyeleri' sayar; mülki idare amirlikleri il ve ilçede devleti temsil eden valilik ve kaymakamlıklardır, yerel etkinlik izinleri ve bölgesel tanıtım konularında acenteyle iş birliği yapılır.",
       "iliskili": [
         "os-4-085",
         "os-4-086",
@@ -1740,6 +1782,21 @@
       "kontrol": null
     },
     {
+      "id": "os-4-123",
+      "konu": "4.5.1",
+      "terim": "Vize başvuru aracı kurumları",
+      "ingilizce": "Visa application service providers (VFS Global, iDATA, BLS)",
+      "tanim": "Bazı ülkelerin konsolosluklarına yapılan vize başvurularında evrakı ve biyometrik veriyi konsolosluk adına toplayan, VFS Global, iDATA ve BLS gibi özel şirketlerdir.",
+      "ornek": "Bir konuk İspanya turuna katılacaktır; acente görevlisi başvurunun konsolosluğun çalıştığı aracı kurumdan randevu alınarak yapılacağını söyler.",
+      "sektor": "Bu kurumlar yalnız başvuruyu alır, vize kararını konsolosluk verir. Hangi ülkenin hangi kurumla çalıştığı ve hangi ek ücreti istediği ülkeye göre değişir; acente başvuru öncesi bunu ilgili konsolosluğun resmî sitesinden doğrular.",
+      "iliskili": [
+        "os-4-107",
+        "os-4-106",
+        "os-4-108"
+      ],
+      "kontrol": null
+    },
+    {
       "id": "os-4-108",
       "konu": "4.5.1",
       "terim": "Vize başvuru belgeleri",
@@ -1749,6 +1806,21 @@
       "sektor": "İstenen belgeler vizenin amacına ve ülkeye göre değişir; pasaportun seyahat bittikten sonra da bir süre geçerli olması beklenir. Eksik ya da gerçeğe aykırı belge ret nedenidir; acente konuğun belgesini 'düzeltmez', gerçeğe aykırı evrak hazırlamaz.",
       "iliskili": [
         "os-4-017",
+        "os-4-109",
+        "os-4-118"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-124",
+      "konu": "4.5.1",
+      "terim": "Vizenin temel gerekleri",
+      "ingilizce": "Core visa requirements",
+      "tanim": "Konsolosluğun vize başvurusunda genellikle istediği pasaport, form, fotoğraf, sigorta, mali durum, rezervasyon ve meslek belgelerinin kitaptaki ayrıntılı listesidir.",
+      "ornek": "Vize sorumlusu konuğun dosyasını kitaptaki listeye göre kontrol eder: pasaportun boş sayfası var, fotoğraf ölçüye uygun, banka dökümü imzalı ve kaşeli, sigorta tüm Schengen ülkelerini kapsıyor.",
+      "sektor": "Ders kitabına göre pasaport seyahat bitiminden sonra en az 3-6 ay daha geçerli olmalı ve en az 2 boş sayfası bulunmalıdır. Başvuru formu konsolosluğun ya da aracı kurumun (VFS Global, iDATA, BLS) sitesinden doldurulup imzalanır. Biyometrik fotoğraf 35x45 mm boyutunda, arka fonu beyaz, son 6 ayda çekilmiş 2 adettir. Sigorta tüm Schengen ülkelerinde geçerli ve teminatlıdır. Mali durum için son 3 aya ait imzalı, kaşeli banka hesap dökümü istenir. Uçak ve otel rezervasyonları eklenir. Mesleki belgeler çalışanlarda maaş bordrosu, SGK işe giriş bildirgesi ve izin belgesi; şirket sahiplerinde vergi levhası ve imza sirküleridir. Tam vukuatlı nüfus kayıt örneği e-Devlet'ten barkodlu alınabilir. Her ülkenin ortak istediği belgeler arasında ikametgâh belgesi ve evlilerde aile cüzdanı da sayılır. Liste ülkeye ve vize amacına göre değişebilir.",
+      "iliskili": [
+        "os-4-108",
         "os-4-109",
         "os-4-118"
       ],
@@ -1807,7 +1879,7 @@
       "ingilizce": "Special passport",
       "tanim": "Yeşil kapaklı olan, belirli derecedeki devlet memurlarına, emeklilerine ve kanunda sayılan yakınlarına verilen pasaporttur.",
       "ornek": "Yüksek dereceli bir devlet memuru, hak kazandığı yeşil pasaportla birçok ülkeye vize başvurusu yapmadan gidebilir.",
-      "sektor": "Sahibine birçok ülkeye vizesiz girme kolaylığı sağlar; harçtan muaftır, yalnız defter bedeli ödenir. Acente aynı turdaki konukların pasaport türüne göre vize ihtiyacını ayrı ayrı kontrol eder.",
+      "sektor": "Sahibine birçok ülkeye vizesiz girme kolaylığı sağlar; harçtan muaftır, yalnız defter bedeli ödenir. Acente aynı turdaki konukların pasaport türüne göre vize ihtiyacını ayrı ayrı kontrol eder. Ders kitabına göre yeşil pasaport 160'tan fazla ülkeye (Schengen dâhil) vizesiz seyahat imkânı verir ve 10 yıl geçerlidir.",
       "iliskili": [
         "os-4-111",
         "os-4-113",
@@ -1867,7 +1939,7 @@
       "ingilizce": "Passport fee and booklet charge",
       "tanim": "Bir pasaport çıkarılırken devlete ödenen harç ile pasaport defterinin kendi ücreti olan defter bedelinden oluşan iki ayrı ödemedir.",
       "ornek": "Üniversite öğrencisi öğrenci belgesini gösterir; harç ödemez, yalnız defter bedelini yatırır.",
-      "sektor": "Harç pasaportun süresine göre artar; tutarlar her yıl güncellendiği için ezberlenmez, resmî siteden bakılır. Hususi ve hizmet damgalı pasaportlar harçtan muaftır; öğrenci olduğunu belgeleyenler de belirli bir yaşa kadar harç ödemez.",
+      "sektor": "Harç pasaportun süresine göre artar; tutarlar her yıl güncellendiği için ezberlenmez, resmî siteden bakılır. Hususi ve hizmet damgalı pasaportlar harçtan muaftır; öğrenci olduğunu belgeleyenler de belirli bir yaşa kadar harç ödemez. Ders kitabına göre öğrenci olduğunu belgeleyenlere 25 yaşını doldurana kadar harç alınmaz, yalnız pasaport defter bedeli ödenir.",
       "iliskili": [
         "os-4-115",
         "os-4-111",
@@ -1929,6 +2001,37 @@
       "sektor": "Temel teminatlara istenirse ek teminatlar eklenir. Görevli poliçede yazmayan bir şeyi 'Sigorta karşılar' diye söylemez; emin değilse sigorta şirketine sorar.",
       "iliskili": [
         "os-4-119",
+        "os-4-118"
+      ],
+      "kontrol": null
+    },
+    {
+      "id": "os-4-125",
+      "konu": "4.5.2",
+      "terim": "Döviz beyan formu",
+      "ingilizce": "Currency declaration form",
+      "tanim": "Yolcunun sınırı geçerken yanında taşıdığı, belirli sınırı aşan döviz ve nakit parayı gümrüğe bildirdiği formdur.",
+      "ornek": "Yurt dışına çıkacak bir iş insanı yanındaki nakit tutar sınırı aştığı için havalimanında gümrük görevlisine formu doldurur.",
+      "sektor": "Ders kitabı döviz beyan formlarını, uluslararası seyahatlerde bulundurulması gereken temel belgeler arasında sayar. Eksik ya da yanlış beyan ciddi yaptırım doğurabilir; sınırlar değişebildiği için acente tutar tahmin etmez, güncel kuralı resmî kaynaktan doğrular ve konuğu önceden bilgilendirir.",
+      "iliskili": [
+        "os-4-096",
+        "os-4-095",
+        "os-4-118"
+      ],
+      "kontrol": null,
+      "gorsel": "sektor-doviz-banknotlar"
+    },
+    {
+      "id": "os-4-126",
+      "konu": "4.5.2",
+      "terim": "Vekâletname ve seyahat izin belgesi",
+      "ingilizce": "Power of attorney and travel consent letter",
+      "tanim": "Kişinin kendi adına işlem yapması için başkasına verdiği yazılı yetki ile reşit olmayan yolcuya yasal temsilcisinin yazılı izin verdiğini gösteren belgelerdir.",
+      "ornek": "Bir anne kızının yalnız yapacağı yurt dışı geziyi acenteye bildirir; acente görevlisi, gidilecek ülke ve havayolunun istediği yazılı izin belgesini önceden hazırlamasını söyler.",
+      "sektor": "Ders kitabı bu belgeleri uluslararası seyahatte bulundurulması gereken belgeler arasında sayar. Bu belgeler çoğu zaman noterde düzenlenir; hangi durumda hangisinin istendiği ülkeye ve taşıyıcıya göre değişir. Acente konuğa 'bir şey olmaz' demez, belgeyi resmî kaynaktan doğrulayıp yolculuktan önce tamamlatır.",
+      "iliskili": [
+        "os-4-125",
+        "os-4-115",
         "os-4-118"
       ],
       "kontrol": null
@@ -2542,6 +2645,45 @@
       ],
       "dogru": 3,
       "aciklama": "Voucher ile rezervasyon arasında fark varsa konukla tartışılmaz ve kayıt tek başına değiştirilmez; fark yetkili amire bildirilir, acenteyle teyit edilir. Konuğa süreç nazikçe anlatılır, bekleme rahatsızlığı azaltılır."
+    },
+    {
+      "id": "os-4-s48",
+      "tur": "coktan-secmeli",
+      "soru": "Profesyonel turist rehberine çalışma yetkisini gösteren kokartı hangi kurum verir?",
+      "secenekler": [
+        "Seyahat Acentaları Birliği (TÜRSAB)",
+        "Turist Rehberleri Birliği (TUREB)",
+        "Kültür ve Turizm Bakanlığı",
+        "Ulaştırma ve Altyapı Bakanlığı"
+      ],
+      "dogru": 2,
+      "aciklama": "Kokart, profesyonel turist rehberinin yetkisini gösterir ve Kültür ve Turizm Bakanlığınca verilir. Rehber ayrıca rehberlik odasına kayıtlı olmalıdır; TUREB odaların bağlı olduğu birliktir, kokart vermez."
+    },
+    {
+      "id": "os-4-s49",
+      "tur": "coktan-secmeli",
+      "soru": "VFS Global, iDATA ve BLS gibi kuruluşlar vize sürecinde ne iş yapar?",
+      "secenekler": [
+        "Başvuruyu inceleyip vize kararını kendisi verir",
+        "Pasaport defterini basar ve başvuru sahibine teslim eder",
+        "Seyahat sağlık sigortası poliçesini düzenleyip satar",
+        "Konsolosluk adına evrakı ve biyometrik veriyi toplar"
+      ],
+      "dogru": 3,
+      "aciklama": "Bu aracı kurumlar konsolosluk adına evrakı ve biyometrik veriyi toplar; vize kararını yalnız konsolosluk verir."
+    },
+    {
+      "id": "os-4-s50",
+      "tur": "coktan-secmeli",
+      "soru": "Ders kitabına göre vize başvurusunda mali durumu göstermek için hangi belge istenir?",
+      "secenekler": [
+        "İmzalı ve kaşeli banka hesap dökümü",
+        "Aile cüzdanı ile tam vukuatlı nüfus kayıt örneği",
+        "Biyometrik fotoğraf ile imzalanmış başvuru formu",
+        "Uçak bileti ve otel rezervasyon bilgileri"
+      ],
+      "dogru": 0,
+      "aciklama": "Finansal durum belgesi olarak seyahat masraflarını karşılayacak bakiyeyi gösteren, imzalı ve kaşeli banka hesap dökümü istenir. Diğer şıklar da dosyada bulunur ama mali durumu göstermez."
     }
   ]
 }

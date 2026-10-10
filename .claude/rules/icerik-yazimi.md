@@ -91,6 +91,9 @@ bıraktı. Aşağıdakiler o yetkiyle verilen kararlardır; öğretmen sonradan 
 - **Kaynağa göre değişen ya da eskiyen rakam yazılmaz:** yaş aralıkları (gençlik / orta yaş / üçüncü yaş turizmi), tesis başına en az
   oda sayıları, kuver büyüklük sınıfları, yatak başına personel oranı, Schengen ülke sayısı, kafile kişi sayısı, tartışmalı açılış
   yılları. Kart rakamsız da doğru ve öğretici olmalı. Kesin ve değişmeyen yıllar (ör. 1841, 1923) yazılabilir.
+- **Güncelleme (10 Ekim 2026, öğretmen: "MEB kitaplarındaki tüm kavram, bilgi vs. her şey eksiksiz yer alacak"):** kitapta geçen rakam
+  artık dışarıda bırakılmaz; `sektor` ya da `tanim` içinde "ders kitabına göre …" kaydıyla yazılır. Soru olarak yalnız öğretmenin sınav
+  notunda da geçiyorsa sorulur. Kitap dışı kaynaklardan gelen ve değişen rakam (istatistik, ücret, oran) yine yazılmaz.
 - **İstisna — öğretmenin sınav notunda vurguladığı rakam yazılır** (8 Ekim 2026, otelcilik dersi yazılırken): öğretmenin kendi çalışma /
   sınav notunda ya da quiz dosyasında açıkça geçen ve sınavda sorduğu rakam (ör. bulunan eşyanın bekleme süresi, gençlik kulübü yaş
   aralığı, telefonu kaçıncı çalışta açma) karta "genellikle" kaydıyla yazılır ve sorusu sorulabilir. Kitapla öğretmen notu aynı rakamda

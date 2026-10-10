@@ -1,0 +1,1653 @@
+{
+  "ders": "global-otelcilik",
+  "sinif": 9,
+  "unite": 3,
+  "baslik": "Dünyada Turizm Eğitimi ve Kariyer",
+  "onay": true,
+  "kazanimlar": [
+    "Dünyanın önde gelen otelcilik ve turizm okullarını ve onların eğitim anlayışını tanır.",
+    "Otelcilik ve turizmde stajyerlikten üst yönetime uzanan kariyer yollarını ve departmanlar arası geçişleri açıklar.",
+    "Dünya otelciliğinde aranan beceri ve tutumları kendi gelişim planıyla ilişkilendirir.",
+    "Dünya otelciliğinde sürdürülebilirlik ve teknoloji eğilimlerinin mesleğe etkisini yorumlar."
+  ],
+  "soz": "Bu meslekte merdiven vardır; ama her basamağı sahada öğrenen çıkar.",
+  "dersler": [
+    {
+      "baslik": "Önce Hizmet, Sonra Yönetim",
+      "ilk": "go-3-001"
+    },
+    {
+      "baslik": "Üç Kıtadan Üç Okul",
+      "ilk": "go-3-005"
+    },
+    {
+      "baslik": "Alplerden Lahey'e",
+      "ilk": "go-3-008"
+    },
+    {
+      "baslik": "Sınıftan Otele",
+      "ilk": "go-3-011"
+    },
+    {
+      "baslik": "Senin Yolun Nereye?",
+      "ilk": "go-3-015"
+    },
+    {
+      "baslik": "Merdivenin Basamakları",
+      "ilk": "go-3-019"
+    },
+    {
+      "baslik": "Basamak Atlatan Rotalar",
+      "ilk": "go-3-024"
+    },
+    {
+      "baslik": "Bavulunu Hazırla",
+      "ilk": "go-3-028"
+    },
+    {
+      "baslik": "Otelin Dışındaki Kapılar",
+      "ilk": "go-3-030"
+    },
+    {
+      "baslik": "Komşu Meslekler",
+      "ilk": "go-3-033"
+    },
+    {
+      "baslik": "Mülakat Kapısından Önce",
+      "ilk": "go-3-036"
+    },
+    {
+      "baslik": "Beceri Çantası",
+      "ilk": "go-3-040"
+    },
+    {
+      "baslik": "Zor Günün Becerileri",
+      "ilk": "go-3-044"
+    },
+    {
+      "baslik": "Görünmeyen Güç",
+      "ilk": "go-3-047"
+    },
+    {
+      "baslik": "Hatadan Öğrenmek",
+      "ilk": "go-3-050"
+    },
+    {
+      "baslik": "Öğrenmenin Sonu Yok",
+      "ilk": "go-3-054"
+    },
+    {
+      "baslik": "Doğaya Saygılı Otel",
+      "ilk": "go-3-057"
+    },
+    {
+      "baslik": "Su, Enerji ve Yöre",
+      "ilk": "go-3-061"
+    },
+    {
+      "baslik": "Dijital Konuk, İnsan Kalbi",
+      "ilk": "go-3-065"
+    },
+    {
+      "baslik": "Teknoloji Gelse de",
+      "ilk": "go-3-068"
+    }
+  ],
+  "kavramlar": [
+    {
+      "id": "go-3-001",
+      "konu": "3.1",
+      "terim": "Otelcilik okulu",
+      "ingilizce": "Hospitality school",
+      "tanim": "Otel, restoran ve turizm işletmelerinde çalışacak kişileri hem derste hem uygulamada yetiştiren eğitim kurumudur.",
+      "ornek": "Mayıs ayında Antalya'daki bir resortun insan kaynakları görevlisi, yaz stajına gelen öğrencilere ilk hafta restoranda, ikinci hafta kat hizmetlerinde çalışacaklarını anlatır.",
+      "sektor": "Dünyadaki otelcilik okullarının ortak özelliği, sınıfta öğrenileni gerçek işletmede denemektir. Sektör bu yüzden mezunun işi hem kuramdan hem sahadan bildiğini bekler; senin okulundaki staj da aynı mantığın parçasıdır.",
+      "iliskili": [
+        "go-3-002",
+        "go-3-003",
+        "go-3-004"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-002",
+      "konu": "3.1",
+      "terim": "Uygulamalı eğitim",
+      "ingilizce": "Hands-on learning",
+      "tanim": "Öğrencinin bilgiyi yalnız dinleyerek değil, işi bizzat yaparak öğrendiği eğitim biçimidir.",
+      "ornek": "Salı sabahı okulun uygulama mutfağında öğrenci kahvaltı büfesini sunum kurallarına göre kurar; yanlış dizdiği tabağı şefi görmeden önce kendisi düzeltir.",
+      "sektor": "Otelcilikte hata konuğun önünde görünür. Uygulamalı eğitim, hatayı konuk yokken yapıp düzeltmeyi sağlar; bu yüzden dünyadaki otelcilik okullarında eğitimin önemli bir bölümü atölye ve stajdır.",
+      "iliskili": [
+        "go-3-001",
+        "go-3-003",
+        "go-3-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-mutfak"
+    },
+    {
+      "id": "go-3-003",
+      "konu": "3.1",
+      "terim": "Önce hizmet etmeyi öğrenme",
+      "ingilizce": "Learning to serve before leading",
+      "tanim": "Yönetici olmak isteyen kişinin önce servis, oda temizliği ya da resepsiyon gibi işleri kendi eliyle yapması gerektiğini savunan eğitim anlayışıdır.",
+      "ornek": "İstanbul'daki bir şehir otelinde stajyer ilk ayını kahvaltı servisinde geçirir; ileride müdür olmak istese de önce tepsi taşımayı ve konuğun çay isteğini fark etmeyi öğrenir.",
+      "sektor": "Lozan'daki EHL gibi okullar eğitimin başında mutfak ve servis gibi uygulamalara yer verir. Ekibinin yaptığı işi bilen yönetici gerçekçi istekte bulunur ve ekibinin saygısını kazanır.",
+      "iliskili": [
+        "go-3-002",
+        "go-3-005",
+        "go-3-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-004",
+      "konu": "3.1",
+      "terim": "Uygulama oteli",
+      "ingilizce": "Teaching hotel",
+      "tanim": "Bir okulun öğrencileri yetiştirmek için sahip olduğu ya da işlettiği, gerçek konuk ağırlayan oteldir.",
+      "ornek": "Cumartesi öğleden sonra bir turizm okulunun uygulama otelinde öğrenci, gelen gerçek konuğun kaydını öğretmeninin gözetiminde yapar.",
+      "sektor": "Cornell (Statler Otel) ve Hong Kong PolyU (Hotel ICON) bu fikrin bilinen örnekleridir: otel hem sınıf hem laboratuvardır. Öğrenci gerçek konukla çalıştığı için işe başlamadan önce yoğunluğu ve şikâyeti nasıl karşılayacağını görür.",
+      "iliskili": [
+        "go-3-002",
+        "go-3-006",
+        "go-3-007"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "lobi"
+    },
+    {
+      "id": "go-3-005",
+      "konu": "3.1",
+      "terim": "Lozan Otelcilik Okulu (EHL)",
+      "ingilizce": "EHL Hospitality Business School",
+      "tanim": "İsviçre'nin Lozan kentinde bulunan, uygulamalı eğitimi ve staj düzeniyle tanınan uluslararası bir otelcilik ve işletme okuludur.",
+      "ornek": "Antalya'daki bir resortun müdürü, yeni yönetici adayının özgeçmişinden EHL'de okurken mutfak ve servis uygulamalarında da çalıştığını okur ve ona önce saha görevi verir.",
+      "sektor": "Okulun anlayışı 'önce operasyonu bil, sonra yönet' çizgisindedir; stajın bir bölümü sahada, bir bölümü yönetim görevinde yapılır. Dünya otelciliğinde okulun adı tanıdıktır, ama iş her zaman sahadaki performansla kazanılır.",
+      "iliskili": [
+        "go-3-003",
+        "go-3-011",
+        "go-3-012"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-006",
+      "konu": "3.1",
+      "terim": "Cornell Nolan Otelcilik Okulu",
+      "ingilizce": "Nolan School of Hotel Administration, Cornell University",
+      "tanim": "ABD'de Cornell Üniversitesi içinde otelcilik yönetimini üniversite düzeyinde öğreten ve bu alanda araştırma yapan okuldur.",
+      "ornek": "İzmir'de bir otelin satış müdürü, bu okulun herkese açık araştırma yazılarından birini okur ve fiyat toplantısında ekibine özetler.",
+      "sektor": "Kampüsteki Statler Otel, öğrencilerin hem çalışıp hem öğrendiği bir uygulama otelidir. Okulda yetişenler kararlarını yalnız sezgiyle değil araştırma ve veriyle de desteklemeyi öğrenir.",
+      "iliskili": [
+        "go-3-004",
+        "go-3-007",
+        "go-3-005"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-007",
+      "konu": "3.1",
+      "terim": "Hong Kong PolyU Otel ve Turizm Yönetimi Okulu",
+      "ingilizce": "School of Hotel and Tourism Management, The Hong Kong Polytechnic University",
+      "tanim": "Asya'da, Hong Kong'daki Politeknik Üniversitesi içinde otelcilik ve turizm yönetimi eğitimi veren ve bu alanda araştırma yapan okuldur.",
+      "ornek": "İstanbul'daki bir otelin eğitim sorumlusu, Asyalı konuk gruplarını daha iyi ağırlamak için Asya turizmi üzerine yazılmış bir akademik özeti ekibiyle paylaşır.",
+      "sektor": "Okul, kendi sahip olduğu Hotel ICON adlı otelle bilinir; otel hem eğitim hem araştırma aracıdır. Asya turizmini anlamak isteyenlerin başvurduğu kaynaklar arasında bu okulun çalışmaları da vardır.",
+      "iliskili": [
+        "go-3-004",
+        "go-3-006",
+        "go-3-005"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-008",
+      "konu": "3.1",
+      "terim": "Les Roches Otelcilik Okulu",
+      "ingilizce": "Les Roches",
+      "tanim": "İsviçre'nin Alp bölgesinde kurulu, birden fazla ülkede yerleşkesi bulunan ve uygulamalı otelcilik eğitimi veren özel bir okuldur.",
+      "ornek": "Kapadokya'da bir butik otelin müdürü, yeni gelen ön büro görevlisinin Les Roches'ta okuduğunu özgeçmişinden görür ve ondan yabancı konuklarla yazışmaları üstlenmesini ister.",
+      "sektor": "Öğrencileri birçok ülkeden gelir; derslerin yanında uygulama ve staj da programın içindedir. Bu çok kültürlü ortam, otelcilikte sık karşılaşacağın konuk çeşitliliğine erkenden alıştırır.",
+      "iliskili": [
+        "go-3-009",
+        "go-3-005",
+        "go-3-010"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-009",
+      "konu": "3.1",
+      "terim": "Glion Yüksek Eğitim Enstitüsü",
+      "ingilizce": "Glion Institute of Higher Education",
+      "tanim": "İsviçre'de Montreux yakınında kurulu, lüks otelcilik ve hizmet yönetimi alanlarıyla tanınan bir yüksek öğretim okuludur.",
+      "ornek": "Bodrum'daki bir otelde işe yeni başlayan yönetici adayı, Glion'da okuduğunu anlatır; şef ona önce kat hizmetleri turu yaptırır ve işi sahada görmesini ister.",
+      "sektor": "Okul lüks otelcilik ve hizmet yönetimi alanlarına odaklanır; derslerin yanında uygulama ve staj da programın içindedir. 'İşi yaparak öğren' anlayışının bir başka örneğidir. Lüks hizmette ayrıntıya dikkat, mezundan en çok beklenen özelliklerdendir.",
+      "iliskili": [
+        "go-3-008",
+        "go-3-003",
+        "go-3-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-010",
+      "konu": "3.1",
+      "terim": "Hotelschool The Hague (Lahey Otelcilik Okulu)",
+      "ingilizce": "Hotelschool The Hague",
+      "tanim": "Hollanda'da Lahey ve Amsterdam'da yerleşkeleri bulunan, otelcilik yönetimine odaklanan uygulamalı bilimler okuludur.",
+      "ornek": "Antalya'da meslek lisesinde okuyan bir öğrenci, Avrupa'daki otelcilik okullarının internet sitelerine bakar ve Hotelschool The Hague'in hangi programları sunduğunu, ileride yurt dışında lisans için bir seçenek olarak not eder.",
+      "sektor": "Dünya otelciliğinde otelcilik okulu yalnız İsviçre'de aranmaz; Hollanda gibi başka ülkelerdeki okullar da yönetimi uygulamayla birleştirir. Birçok ülkeden gelen öğrencileriyle bu okullar sektöre uluslararası bir tanışıklık ağı kazandırır.",
+      "iliskili": [
+        "go-3-008",
+        "go-3-014",
+        "go-3-005"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-011",
+      "konu": "3.1",
+      "terim": "Operasyon stajı",
+      "ingilizce": "Operational internship",
+      "tanim": "Öğrencinin ön büro, kat hizmetleri, mutfak ya da servis gibi sahadaki işleri bir otelde bizzat yaptığı staj türüdür.",
+      "ornek": "Haziran'da Fethiye'deki bir tatil köyünde stajyer sabah resepsiyonda anahtar teslim eder, öğleden sonra restoranda masa kurar.",
+      "sektor": "Dünya otelcilik okulları ilk stajı çoğunlukla bu türden ister; çünkü yöneticilik, işi yapanın zorluklarını bilmekle başlar. Bu stajda öğrendiğin saha bilgisi sonraki her kararın temelidir.",
+      "iliskili": [
+        "go-3-012",
+        "go-3-003",
+        "go-3-013"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "resepsiyon"
+    },
+    {
+      "id": "go-3-012",
+      "konu": "3.1",
+      "terim": "Yönetim stajı",
+      "ingilizce": "Management internship",
+      "tanim": "Öğrencinin bir bölümü yöneterek ya da yönetime destek vererek planlama ve ekip yönetimi işlerine yaklaştığı ikinci aşama stajdır.",
+      "ornek": "Kuşadası'ndaki bir otelde lisans öğrencisi, ön büro müdürünün yanında vardiya çizelgesi hazırlar ve haftalık doluluk raporunu sunar.",
+      "sektor": "Bazı okullarda bu staj otelcilik dışındaki bir sektörde de yapılabilir; çünkü otelde öğrenilen yönetim becerileri başka alanlarda da geçerlidir. Bu esneklik mezuna yeni kariyer kapıları açar.",
+      "iliskili": [
+        "go-3-011",
+        "go-3-019",
+        "go-3-033"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-013",
+      "konu": "3.1",
+      "terim": "İşletmede mesleki eğitim",
+      "ingilizce": "Work-based vocational training",
+      "tanim": "Meslek lisesi öğrencilerinin eğitimlerinin bir bölümünü okulda değil, gerçek bir işletmede iş yaparak tamamladıkları eğitim düzenidir.",
+      "ornek": "Meslek lisesi öğrencisi Elif, eğitim yılının bir bölümünü Alanya'daki bir otelin kat hizmetlerinde geçirir; kalan zamanda okulda ders görür.",
+      "sektor": "Dünyanın birçok ülkesinde meslek eğitimi okul ve işletmenin birlikte yürüttüğü bir düzendir. Öğrenci gerçek iş disiplinini görür ve bazen aynı işletmede çalışmaya devam etme fırsatı bulur.",
+      "iliskili": [
+        "go-3-015",
+        "go-3-011",
+        "go-3-020"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-014",
+      "konu": "3.1",
+      "terim": "Uluslararası öğrenci değişimi",
+      "ingilizce": "International student exchange",
+      "tanim": "Öğrencinin eğitiminin ya da stajının bir bölümünü başka bir ülkede yapmasına olanak veren programlardır.",
+      "ornek": "Ankara'da meslek lisesi öğrencisi Ayşe, Erasmus+ duyurusunu okulunun panosunda görür ve sorumlu öğretmenine yurt dışında staj için başvuru koşullarını sorar.",
+      "sektor": "Erasmus+, Avrupa Birliği'nin eğitim, gençlik ve spor alanındaki programıdır; kapsamındaki hareketlilik desteği, Türkiye'deki meslek lisesi ve üniversite öğrencilerine yurt dışında öğrenim ya da staj fırsatı sunabilir. Katılım koşulları ve kontenjanlar her dönem okulun sorumlu öğretmeninden öğrenilir. Başka ülkede öğrenmek dil, kültür ve iş yapma biçimi konusunda çok şey öğretir.",
+      "iliskili": [
+        "go-3-013",
+        "go-3-028",
+        "go-3-010"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-015",
+      "konu": "3.1",
+      "terim": "Turizm meslek lisesi",
+      "ingilizce": "Vocational high school for tourism",
+      "tanim": "Ortaöğretimde öğrenciye genel kültür derslerinin yanında otelcilik ve seyahat alanında meslek dersleri ve işletme eğitimi veren okul türüdür.",
+      "ornek": "9. sınıftaki Mert bu yıl Genel Turizm ile Otelcilik ve Seyahat Hizmetleri derslerini alıyor; öğretmeni ona ileride hangi alanlarda ilerleyebileceğini anlatır.",
+      "sektor": "Dünya otelciliğinde de çalışmaya başlamanın bir kapısıdır: lisede aldığın temel hizmet bilgisi, yabancı dil ve staj deneyimi seni ilk işe hazırlar. İstersen okula devam edip yükseköğretime de geçebilirsin.",
+      "iliskili": [
+        "go-3-016",
+        "go-3-017",
+        "go-3-013"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-016",
+      "konu": "3.1",
+      "terim": "Önlisans (meslek yüksekokulu)",
+      "ingilizce": "Associate degree",
+      "tanim": "Liseden sonra genellikle iki yıl süren, uygulama ağırlıklı yükseköğretim programıdır; turizmde ön büro, aşçılık, seyahat gibi dalları vardır.",
+      "ornek": "Lise ikinci sınıftaki Zeynep, yakınındaki meslek yüksekokulunun otel hizmetleri bölümünü ve oradaki uygulama derslerini inceler.",
+      "sektor": "Önlisans çoğu zaman sahada çalışmaya daha hızlı geçmeyi sağlar; mezun bir alanda uzmanlaşıp süpervizör basamağına yönelebilir. Dersle uygulamayı birleştirdiği için dünyadaki uygulamalı otelcilik okullarının mantığına benzer.",
+      "iliskili": [
+        "go-3-015",
+        "go-3-017",
+        "go-3-018"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-017",
+      "konu": "3.1",
+      "terim": "Turizm fakültesi (lisans)",
+      "ingilizce": "Tourism faculty (bachelor's degree)",
+      "tanim": "Üniversitede genellikle dört yıl süren, turizm ve otel işletmeciliğini planlama, yönetim ve araştırma boyutuyla öğreten lisans eğitimidir.",
+      "ornek": "Üniversite ikinci sınıf öğrencisi Can, gelir yönetimi dersinde 100 odalı bir otelin doluluğunu ve oda başına gelirini hesaplar.",
+      "sektor": "Lisans diploması, zincirlerin yönetici adayı programlarına başvurmayı kolaylaştırır; markalı otel şirketleri otelcilik ya da işletme lisansı olan adayları tercih edebilir. Yine de sahayı bilmeyen yönetici zorlanır; bu yüzden çoğu fakültede staj da vardır.",
+      "iliskili": [
+        "go-3-016",
+        "go-3-018",
+        "go-3-024"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-018",
+      "konu": "3.1",
+      "terim": "Dikey geçiş",
+      "ingilizce": "Transfer from associate to bachelor's degree",
+      "tanim": "Önlisans mezununun belirli koşulları sağlayarak lisans programına geçip eğitimine devam edebilmesidir.",
+      "ornek": "Önlisansı bitiren Selin, çalışırken lisans eğitimine geçmek için dikey geçiş koşullarını üniversitenin öğrenci işlerinden öğrenir.",
+      "sektor": "Bu yol, meslek lisesinden üst yönetime uzanan yolu kapatmaz: lise, önlisans ve lisans basamakları art arda gidilebilir. Dünya otelciliğinde de çalışıp sonra okumak, okuyup sonra çalışmak yaygındır.",
+      "iliskili": [
+        "go-3-016",
+        "go-3-017",
+        "go-3-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-019",
+      "konu": "3.2",
+      "terim": "Kariyer merdiveni",
+      "ingilizce": "Career ladder",
+      "tanim": "Bir çalışanın stajyerlikten başlayıp süpervizörlük, bölüm yöneticiliği ve genel müdürlük gibi daha sorumlu görevlere ilerlediği basamaklar dizisidir.",
+      "ornek": "Marmaris'te bir tatil köyünün genel müdürü, yeni stajyerlere kariyerine çocuk kulübü ekibinde başladığını anlatır ve her basamakta ne öğrendiğini sıralar.",
+      "sektor": "Dünya otelciliğinde yükselme çoğunlukla sahadan gelir: ön büro, kat hizmetleri ya da yiyecek-içecek bölümünden yükselenler genel müdürlüğe kadar çıkabilir. Her basamakta işin bir yönünü öğrenirsin; basamak atlamak yerine her basamağa sağlam basmak kalıcı yükselmenin yoludur.",
+      "iliskili": [
+        "go-3-020",
+        "go-3-021",
+        "go-3-023"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-020",
+      "konu": "3.2",
+      "terim": "Stajyer",
+      "ingilizce": "Intern",
+      "tanim": "Mesleği öğrenmek için belirli bir süre, deneyimli çalışanların gözetiminde bir işletmede çalışan kişidir.",
+      "ornek": "Sabah 07.00, Bodrum'daki otelin resepsiyonunda stajyer Deniz çıkış listesini hazırlar ve ön büro şefinin gözetiminde bir konuğun hesabını kapatmaya yardım eder.",
+      "sektor": "Zincirler genç yeteneği çoğu zaman stajda fark eder. İyi bir stajyer işin yalnız görünen yüzünü değil, gece vardiyasını ve arka tarafını da öğrenir; referansı da sonraki iş başvurularında onunla gelir.",
+      "iliskili": [
+        "go-3-019",
+        "go-3-021",
+        "go-3-011"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-021",
+      "konu": "3.2",
+      "terim": "Giriş seviyesi görev",
+      "ingilizce": "Entry-level position",
+      "tanim": "Mesleğe yeni başlayanın, uzun deneyim aranmadan alınabildiği resepsiyon görevlisi, oda görevi ya da servis yardımcılığı gibi ilk iş pozisyonudur.",
+      "ornek": "Antalya'da bir otelin ilanında 'ön büro görevlisi, deneyim şart değildir' yazar; meslek lisesinden yeni mezun Burak bu ilana başvurur.",
+      "sektor": "Giriş görevi engel değil, kapıdır. Burada vardiya düzenini, konuk türlerini ve bölümlerin birbirine nasıl bağlandığını öğrenirsin; bu temel sonraki basamakların hepsinde işine yarar.",
+      "iliskili": [
+        "go-3-020",
+        "go-3-022",
+        "go-3-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "karsilama-bankosu"
+    },
+    {
+      "id": "go-3-022",
+      "konu": "3.2",
+      "terim": "Süpervizör",
+      "ingilizce": "Supervisor",
+      "tanim": "Bir vardiyada ya da küçük bir ekipte işin akışını izleyen, görev dağıtan ve sorun çıkınca ilk başvurulan kişidir.",
+      "ornek": "Gece 02.00'de ön büroda vardiya süpervizörü asansörün arızalandığını fark eder, teknik servisi arar ve bagaj görevlisinden konuklara merdivende yardım etmesini ister.",
+      "sektor": "Yöneticiliğin ilk basamağıdır: artık yalnız kendi işinden değil ekibin işinden de sorumlusun. Bu aşamada terfi, iyi çalışmaktan çok başkalarının da iyi çalışmasını sağlamakla ilgili hâle gelir.",
+      "iliskili": [
+        "go-3-021",
+        "go-3-023",
+        "go-3-043"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-023",
+      "konu": "3.2",
+      "terim": "Bölüm yöneticisi",
+      "ingilizce": "Head of department",
+      "tanim": "Ön büro, kat hizmetleri, mutfak ya da satış gibi bir bölümün bütün işleyişinden, bütçesinden ve ekibinden sorumlu yöneticidir.",
+      "ornek": "İstanbul'da bir otelin kat hizmetleri müdürü, haftalık doluluk raporuna bakarak yarın kaç oda görevlisinin çalışacağını belirler.",
+      "sektor": "Bu basamakta konuktan çok ekibi ve rakamları yönetirsin. Bölüm yöneticisi genellikle genel müdüre bağlıdır; dünya otelciliğinde genel müdür adayları çoğunlukla önce bir bölümü başarıyla yönetmiş kişilerdir.",
+      "iliskili": [
+        "go-3-022",
+        "go-3-019",
+        "go-3-025"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-024",
+      "konu": "3.2",
+      "terim": "Yönetici adayı programı",
+      "ingilizce": "Management trainee programme",
+      "tanim": "Büyük otel gruplarının yeni mezunları ya da başarılı çalışanları kısa sürelerle birkaç bölümde çalıştırarak yönetici olarak yetiştirdiği düzenli eğitim programıdır.",
+      "ornek": "İstanbul'daki bir zincirin yönetici adayı programına katılan Ece, sırayla ön büro, yiyecek-içecek ve satış bölümlerinde birkaç ay çalışır.",
+      "sektor": "Bu programlar adayı bölümlerde döndürür; aday her bölümde işi öğrenir ve bir bölümün ötekini nasıl etkilediğini görür. Böylece yönetici olunca bütünü düşünebilir. Programın adı ve süresi zincirden zincire değişir.",
+      "iliskili": [
+        "go-3-025",
+        "go-3-026",
+        "go-3-017"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-025",
+      "konu": "3.2",
+      "terim": "Çapraz eğitim",
+      "ingilizce": "Cross-training",
+      "tanim": "Bir çalışanın kendi bölümünün yanında başka bir bölümün işlerini de öğrenmesidir.",
+      "ornek": "Pazar sabahı kahvaltı yoğunluğunda ön büro görevlisi, çapraz eğitimde öğrendiği gibi restoranda masa toplamaya yardım eder.",
+      "sektor": "Çapraz eğitimli çalışan, otel yoğunken ya da ekip eksikken boşluğu doldurur. Kariyer açısından yeni bölümlere geçişin ve terfinin kapısını açar; çünkü genel müdür bütün bölümleri anlayan kişidir.",
+      "iliskili": [
+        "go-3-026",
+        "go-3-024",
+        "go-3-023"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-026",
+      "konu": "3.2",
+      "terim": "Departmanlar arası geçiş",
+      "ingilizce": "Cross-departmental move",
+      "tanim": "Çalışanın bir bölümde edindiği deneyimle başka bir bölüme, örneğin ön bürodan satışa ya da kat hizmetlerinden yiyecek-içeceğe geçmesidir.",
+      "ornek": "Ön büroda iki yıl çalışan Kerem, gelir yönetimi ekibine geçmek istediğini müdürüne söyler; müdürü onu bir haftalığına gelir müdürünün yanına verir.",
+      "sektor": "Büyük zincirler çalışanın bölüm değiştirmesine açıktır, çünkü iyi bir çalışanı kaybetmek yerine otelin içinde tutmayı yeğler. Geçiş istiyorsan önce amirinle konuş ve deneme fırsatı iste; sessizce ayrılırsan güven sarsılır.",
+      "iliskili": [
+        "go-3-025",
+        "go-3-024",
+        "go-3-027"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-027",
+      "konu": "3.2",
+      "terim": "Zincir içi transfer",
+      "ingilizce": "Internal transfer within a group",
+      "tanim": "Bir otel zincirinde çalışanın, aynı zincire ait başka bir şehirdeki ya da ülkedeki otele aynı veya daha üst görevle geçmesidir.",
+      "ornek": "İzmir'de bir zincir otelde çalışan görevli, aynı zincirin Dubai'deki otelinde açılan pozisyona iç başvuru yapar.",
+      "sektor": "Büyük zincirlerin çekici yanlarından biri budur: işveren değiştirmeden şehir, hatta ülke değiştirebilirsin. Birçok zincir boş kadroyu önce kendi çalışanlarına duyurur; bu yüzden hem performansın hem iyi ilişkilerin önemlidir.",
+      "iliskili": [
+        "go-3-026",
+        "go-3-028",
+        "go-3-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-028",
+      "konu": "3.2",
+      "terim": "Yurt dışında çalışma",
+      "ingilizce": "Working abroad",
+      "tanim": "Başka bir ülkenin otelinde, o ülkenin çalışma izni kurallarına uyarak iş yapmaktır.",
+      "ornek": "Antalya'da üç yaz sezonu çalışan Hasan, Almancası ve İngilizcesiyle Avusturya'daki bir kış otelinde sezonluk iş için başvurur.",
+      "sektor": "Otelcilik dünyada en kolay taşınabilen mesleklerden biridir; çünkü işin dili ortaktır. Ama çalışma izni, resmî sözleşme ve sigorta olmadan çalışmak mağduriyete yol açar; iş ilanını okulun, resmî kurumun ya da tanınmış bir firmanın kanalından doğrula.",
+      "iliskili": [
+        "go-3-029",
+        "go-3-027",
+        "go-3-042"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-029",
+      "konu": "3.2",
+      "terim": "Sezonluk çalışma",
+      "ingilizce": "Seasonal work",
+      "tanim": "Yalnız turizmin yoğun olduğu aylarda, örneğin yazın kıyı otellerinde ya da kışın kayak merkezlerinde yapılan geçici işlerdir.",
+      "ornek": "Haziran'dan Eylül'e Kemer'deki bir tatil köyünde garsonluk yapan öğrenci, okullar açılınca derslerine döner.",
+      "sektor": "Sezonluk çalışma, ilk deneyimi kazanmanın hızlı yollarındandır: kısa sürede çok konuk ve çok iş görürsün. Yazın kıyıda, kışın dağda çalışarak yılı iki sezonla geçirenler vardır; ama sözleşme ve sigortayı baştan netleştirmek gerekir.",
+      "iliskili": [
+        "go-3-028",
+        "go-3-021",
+        "go-3-020"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-030",
+      "konu": "3.2",
+      "terim": "Kruvaziyer kariyeri",
+      "ingilizce": "Cruise ship career",
+      "tanim": "Yolcu gemilerinde otel hizmeti, yiyecek-içecek ya da eğlence alanında çalışarak mesleği sürdürmektir.",
+      "ornek": "İstanbul'da bir kruvaziyer şirketinin işe alım gününde öğrenci, ön büro ve restoran stajında kazandığı deneyimi anlatır.",
+      "sektor": "Gemi yüzen bir oteldir: kabin hizmetleri, restoran, ön büro ve eğlence ekipleri vardır. Aylarca gemide yaşar ve farklı ülkelerden mürettebatla çalışırsın; otelcilik bilgin doğrudan işe yarar, ama uzun süre evden uzak kalmak da bir gerçektir.",
+      "iliskili": [
+        "go-3-031",
+        "go-3-028",
+        "go-3-032"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "kruvaziyer"
+    },
+    {
+      "id": "go-3-031",
+      "konu": "3.2",
+      "terim": "Havayolu kariyeri",
+      "ingilizce": "Airline career",
+      "tanim": "Otelcilikte edinilen hizmet becerilerinin kabin ekibi, yer hizmetleri ve yolcu ilişkileri gibi havayolu görevlerinde kullanıldığı kariyer yoludur.",
+      "ornek": "Sabah 05.30'da Sabiha Gökçen Havalimanı'nda yer hizmetleri görevlisi, geç kalmış bir yolcuyu sakin ve nazik biçimde bilet kontrolüne yönlendirir.",
+      "sektor": "Konuk hizmetinin temeli aynıdır: sakin kal, dinle, çözüm sun. Ön büroda öğrendiğin iletişim ve stres yönetimi becerisi havalimanında ve uçak kabininde de aranır; havayolları genellikle dil bilgisine ve kıyafet standartlarına dikkat eder.",
+      "iliskili": [
+        "go-3-030",
+        "go-3-041",
+        "go-3-042"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "ucak"
+    },
+    {
+      "id": "go-3-032",
+      "konu": "3.2",
+      "terim": "Etkinlik yönetimi",
+      "ingilizce": "Event management",
+      "tanim": "Toplantı, kongre ve düğün gibi organizasyonları planlayıp bütçeleyerek uygulamaya koyma işidir.",
+      "ornek": "Cumartesi akşamı İstanbul'da bir otelin balo salonunda yapılan düğünde etkinlik koordinatörü salon düzenini, yemek zamanını ve müzik saatini aynı çizelgede yönetir.",
+      "sektor": "Otelin geliri yalnız odadan gelmez; toplantı ve düğünler de önemli bir gelir kaynağıdır. Etkinlik yönetimi otelin içinde de, bağımsız firmalarda da kariyer olarak açılır; ayrıntıya dikkat ve zaman planı ana beceridir.",
+      "iliskili": [
+        "go-3-030",
+        "go-3-046",
+        "go-3-043"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "kongre"
+    },
+    {
+      "id": "go-3-033",
+      "konu": "3.2",
+      "terim": "Lüks perakende",
+      "ingilizce": "Luxury retail",
+      "tanim": "Pahalı moda, mücevher ve saat gibi ürünlerin satıldığı mağazalarda müşteriye otel kalitesinde kişisel ilgiyle hizmet verme alanıdır.",
+      "ornek": "İstanbul'da lüks bir mağazada satış danışmanı, müşteriyi kapıda adıyla karşılar; bu alışkanlığı otel resepsiyonunda edinmiştir.",
+      "sektor": "Lüks markalar otelcilik okulu mezunlarını da aday olarak değerlendirebilir; çünkü ince hizmet, sabır ve kişiye özel ilgi iki alanda da aynıdır. Otelcilik eğitiminin yalnız otelle sınırlı kalmadığını gösteren güzel bir örnektir.",
+      "iliskili": [
+        "go-3-034",
+        "go-3-035",
+        "go-3-031"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-034",
+      "konu": "3.2",
+      "terim": "Gastronomi",
+      "ingilizce": "Gastronomy",
+      "tanim": "Yemeğin yapımını, kültürünü, sunumunu ve içecekle uyumunu bütün yönleriyle inceleyen alandır.",
+      "ornek": "Gaziantep'te aşçılık okuyan öğrenci, bir otelin lokantasında yöresel baklavanın hazırlanışını öğrenir ve menüde sunum şekli önerir.",
+      "sektor": "Otelin yiyecek-içecek bölümü büyük bir kariyer alanıdır: aşçı, şef, restoran müdürü ya da kendi işletmenin sahibi olabilirsin. Gastronomi turizmi ilgi gördüğü için yöresel mutfağı iyi bilen çalışan avantaj kazanır.",
+      "iliskili": [
+        "go-3-033",
+        "go-3-035",
+        "go-3-063"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "restoran"
+    },
+    {
+      "id": "go-3-035",
+      "konu": "3.2",
+      "terim": "Otelcilikte girişimcilik",
+      "ingilizce": "Hospitality entrepreneurship",
+      "tanim": "Kendi işini kurmak; örneğin küçük bir pansiyon, butik otel, kafe ya da seyahat acentesi açmaktır.",
+      "ornek": "Kaş'ta on yıl otellerde çalışan Murat, biriktirdiği deneyimle sekiz odalı bir pansiyon açar ve resepsiyonu da kendisi yürütür.",
+      "sektor": "Girişim sahadaki deneyimle güçlenir: temizliği, konuk şikâyetini ve satış kanallarını bilen sahip kolay kolay yanılmaz. Ama kira, vergi ve kredi gibi konularda uzmanlardan danışmanlık almak gerekir.",
+      "iliskili": [
+        "go-3-033",
+        "go-3-034",
+        "go-3-019"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-036",
+      "konu": "3.2",
+      "terim": "Kariyer portfolyosu",
+      "ingilizce": "Career portfolio",
+      "tanim": "Kişinin eğitim, staj, sertifika, proje ve referanslarını kanıtlarıyla bir arada topladığı dosyadır.",
+      "ornek": "Meslek lisesi son sınıf öğrencisi Aslı, staj defterini, aldığı sertifikaları ve okuldaki etkinlik organizasyonundan fotoğrafları tek bir dosyada toplar.",
+      "sektor": "Mülakatta 'yapabilirim' demekle 'yaptım, işte kanıtı' demek farklı etki bırakır. Portfolyoyu staja başladığın gün tutmaya başla; konuk bilgisi ve işletmenin iç belgeleri portfolyoya girmez.",
+      "iliskili": [
+        "go-3-037",
+        "go-3-038",
+        "go-3-055"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-037",
+      "konu": "3.2",
+      "terim": "Özgeçmiş (CV)",
+      "ingilizce": "Curriculum vitae (CV)",
+      "tanim": "Kişinin eğitimini, deneyimini ve becerilerini işverene kısa ve düzenli sunan, genellikle bir iki sayfalık belgedir.",
+      "ornek": "Mart ayında yaz stajı arayan öğrenci, özgeçmişine 'İngilizce: orta düzey' ve 'resepsiyon stajı' bilgilerini yazar; yazım hatası olmasın diye öğretmenine okutur.",
+      "sektor": "İşe alımcı özgeçmişe çok kısa bakar; ilk yarım sayfa seni anlatmalıdır. Dil bilgisini dürüstçe yaz, çünkü mülakatta o dilde konuşturulabilirsin.",
+      "iliskili": [
+        "go-3-036",
+        "go-3-039",
+        "go-3-038"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-038",
+      "konu": "3.2",
+      "terim": "Referans",
+      "ingilizce": "Reference",
+      "tanim": "Önceki bir amirin ya da öğretmenin adayın çalışma tarzı hakkında işverene verdiği olumlu görüştür.",
+      "ornek": "Staj bittikten sonra Elif, ön büro şefine 'Sizi referans olarak gösterebilir miyim?' diye sorar; şef kabul eder ve iletişim bilgisini verir.",
+      "sektor": "Otelcilik küçük bir dünyadır: müdürler birbirini tanır ve işe almadan önce arar. Bu yüzden kimseyi izinsiz referans gösterme; stajda iyi bir ad bırakmak ileride sana geri döner.",
+      "iliskili": [
+        "go-3-037",
+        "go-3-039",
+        "go-3-053"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-039",
+      "konu": "3.2",
+      "terim": "İş mülakatı",
+      "ingilizce": "Job interview",
+      "tanim": "İşverenin adayla yüz yüze ya da çevrim içi konuşarak onun işe uygunluğunu ve tutumunu değerlendirdiği görüşmedir.",
+      "ornek": "Salı sabahı 10.00'da bir otelin insan kaynakları ofisinde aday ön büro görevliliği için kendini tanıtır ve zor bir konuk durumunu nasıl çözdüğünü anlatır.",
+      "sektor": "Otelcilik mülakatlarında çoğu zaman 'zor bir konuk gelirse ne yaparsın?' gibi gerçek durum soruları sorulur. Dürüst, sakin ve örnekle cevap ver; zamanında gel, otelin bilgilerini önceden oku ve sen de bir soru sor.",
+      "iliskili": [
+        "go-3-037",
+        "go-3-038",
+        "go-3-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-040",
+      "konu": "3.3",
+      "terim": "Yumuşak beceriler",
+      "ingilizce": "Soft skills",
+      "tanim": "İletişim, takım çalışması ve duygusal denge gibi bir meslekte kişiyi başarılı kılan, ama sertifikayla ölçülmesi zor olan insani becerilerdir.",
+      "ornek": "Yoğun bir cuma akşamı iki ön büro görevlisi aynı kuralları biliyor; konuğu sakinleştiren ve ekip arkadaşına yardım eden görevli yumuşak becerisiyle öne çıkar.",
+      "sektor": "Teknik beceri, örneğin bir programı kullanmak, öğretilebilir ve zamanla herkesçe bilinir. Dünya otelciliğinde farkı çoğu zaman yumuşak beceri yaratır; çünkü konuk sistemi değil, seni hatırlar.",
+      "iliskili": [
+        "go-3-041",
+        "go-3-047",
+        "go-3-043"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-041",
+      "konu": "3.3",
+      "terim": "Konukla etkili iletişim",
+      "ingilizce": "Effective guest communication",
+      "tanim": "Konuğu ve ekip arkadaşını dikkatle dinleyip ne istediklerini anlayarak açık, kibar ve doğru biçimde yanıt verme becerisidir.",
+      "ornek": "Sabah 08.30'da kahvaltı salonunda konuk 'Çay biraz soğuk' der; garson onu sözünü kesmeden dinler, özür diler ve sıcak çayı getirir.",
+      "sektor": "Konuk şikâyetlerinin çoğu bir iletişim kopukluğundan çıkar. Önce dinle, sonra özetle, sonra çöz. Ses tonun ve göz temasın, söylediğin kelimeler kadar etkilidir.",
+      "iliskili": [
+        "go-3-040",
+        "go-3-047",
+        "go-3-042"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-042",
+      "konu": "3.3",
+      "terim": "Yabancı dil",
+      "ingilizce": "Foreign language skills",
+      "tanim": "Konuğun anadiliyle ya da ortak bir dille konuşup yazarak onu rahat ettiren, iş yaşamında kullanılabilen dil bilgisidir.",
+      "ornek": "Antalya'da bir ön büro görevlisi Rus bir ailenin 'bebek yatağı' isteğini birkaç Rusça kelimeyle anlar, sonra İngilizceyle teyit eder.",
+      "sektor": "İngilizce otelciliğin ortak dilidir; Almanca, Rusça, Arapça ya da İspanyolca gibi ikinci bir dil seni daha değerli kılar. Dil bilmek yalnız konuşmak değil, konuğun kültürüne saygıyla yaklaşmaktır.",
+      "iliskili": [
+        "go-3-041",
+        "go-3-028",
+        "go-3-031"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-043",
+      "konu": "3.3",
+      "terim": "Takım çalışması",
+      "ingilizce": "Teamwork",
+      "tanim": "Farklı bölümlerden insanların ortak bir hedef için görevlerini paylaşarak ve birbirine destek olarak çalışmasıdır.",
+      "ornek": "Bir grup erken varınca ön büro, kat hizmetleri ve teknik servis birlikte çalışır; üç oda yarım saatte hazırlanır ve konuklar beklemez.",
+      "sektor": "Konuk oteli tek bir bütün olarak yaşar; bir halka koparsa bütün deneyim bozulur. İyi ekipler sorun çıkınca suçlu aramaz, birlikte çözmeyi öğrenir.",
+      "iliskili": [
+        "go-3-040",
+        "go-3-022",
+        "go-3-044"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-044",
+      "konu": "3.3",
+      "terim": "Problem çözme",
+      "ingilizce": "Problem solving",
+      "tanim": "Beklenmedik bir sorunla karşılaşınca sakin kalıp durumu anlamak, çözümleri düşünmek ve yetkili kişiyle birlikte uygulamaktır.",
+      "ornek": "Akşam 19.00'da restoranda iki masa aynı saate rezerve edilmiş; garson durumu şefine bildirir, konuklardan özür diler ve on dakikada ikinci masayı hazırlar.",
+      "sektor": "Otelde sorun kaçınılmazdır; konuk otelin hatasız olmasını değil, sorunu nasıl çözdüğünü hatırlar. Çözümü bulamazsan susmak yerine amirine hızlıca söyle; bu da problem çözmenin bir parçasıdır.",
+      "iliskili": [
+        "go-3-043",
+        "go-3-045",
+        "go-3-046"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-045",
+      "konu": "3.3",
+      "terim": "Dayanıklılık",
+      "ingilizce": "Resilience",
+      "tanim": "Yoğun tempo, yorgunluk ya da zor bir konukla karşılaşıldığında sakin kalarak toparlanabilme gücüdür.",
+      "ornek": "Ağustos'ta Bodrum'daki otelde ön büro görevlisi, öğleden sonra zor bir konukla yaşadığı tartışmanın ardından kısa bir nefes alır ve sonraki konuğu güler yüzle karşılar.",
+      "sektor": "Otelcilikte vardiya, bayram ve tatil günlerinde çalışmak olağandır. Dayanıklı çalışan eleştiriyi kişisel almaz, dinlenmeyi ihmal etmez; zorlandığında yardım istemek de gücün bir parçasıdır.",
+      "iliskili": [
+        "go-3-044",
+        "go-3-069",
+        "go-3-047"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-046",
+      "konu": "3.3",
+      "terim": "Vardiyada zaman yönetimi",
+      "ingilizce": "Shift time management",
+      "tanim": "İşleri önem ve aciliyetine göre sıralayıp belirlenen sürede bitirebilme becerisidir.",
+      "ornek": "Sabah 07.00 vardiyasında oda görevlisi önce çıkış yapan odaları temizleyecek şekilde listesini yapar; öğleden sonra gelen konuklar hazır odayı bekler durumda kalmaz.",
+      "sektor": "Otelde zaman, konuk memnuniyetinin parçasıdır: giriş saatinde hazır olmayan oda kötü bir yoruma dönüşebilir. Zamana saygı ayrıca güvenilirlik göstergesidir; vardiyaya zamanında gelen ve işini zamanında bitiren çalışan öne çıkar.",
+      "iliskili": [
+        "go-3-044",
+        "go-3-032",
+        "go-3-056"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-saat"
+    },
+    {
+      "id": "go-3-047",
+      "konu": "3.3",
+      "terim": "Konuk karşısında duygusal zekâ",
+      "ingilizce": "Emotional intelligence in guest service",
+      "tanim": "Kendi duygularını fark edip yönetebilmek ve karşındakinin ne hissettiğini anlayarak ona göre davranabilmektir.",
+      "ornek": "Uçuşu iptal olan konuk gece yarısı resepsiyona öfkeyle gelir; görevli konuğun yorgun ve endişeli olduğunu fark eder, tartışmak yerine önce ona oturacak yer ve su sunar.",
+      "sektor": "Konuk öfkeli gelse bile sorun çoğu zaman senden değil, yaşadığı durumdandır. Duygusal zekâsı yüksek çalışan tartışmayı büyütmez ve kendi öfkesini yönetir; bu beceri yöneticilik basamaklarında giderek daha önemli olur.",
+      "iliskili": [
+        "go-3-040",
+        "go-3-041",
+        "go-3-045"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-048",
+      "konu": "3.3",
+      "terim": "Görünüm ve duruş",
+      "ingilizce": "Personal presentation",
+      "tanim": "Üniformanın düzgünlüğü, kişisel bakım, dik duruş ve güler yüzle konuğa kendini sunuş biçimidir.",
+      "ornek": "Sabah 08.00 vardiyasından önce ön büro görevlisi aynada isim kartını, saçını ve ayakkabılarını kontrol eder, sonra omuzlarını dikleştirip resepsiyona geçer.",
+      "sektor": "Konuk sözden önce görüntüyü fark eder; düzenli görünüm 'bu otel ayrıntıya özen gösteriyor' mesajı verir. Standartlar kıyafet ve bakımla ilgilidir, kimsenin yüzüyle ya da bedeniyle ilgili değildir; kuralları işe başlarken öğren.",
+      "iliskili": [
+        "go-3-040",
+        "go-3-041",
+        "go-3-049"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-049",
+      "konu": "3.3",
+      "terim": "Teknoloji okuryazarlığı",
+      "ingilizce": "Digital literacy",
+      "tanim": "Otelde kullanılan bilgisayar programlarını, mobil uygulamaları ve çevrim içi araçları güvenle kullanıp yeni olanları öğrenebilme becerisidir.",
+      "ornek": "Sabah 09.00'da ön büroda stajyer, otel yönetim sisteminde konuk kaydını açar ve çift rezervasyon uyarısını fark edip müdürüne bildirir.",
+      "sektor": "Yazılımlar değişir; öğrenme hızı değişmez. Yeni sistemi korkmadan öğrenen çalışan her zincirde işe yarar. Bilgisayarda hızlı olmak yetmez, konuk verisini korumayı da bilmek gerekir.",
+      "iliskili": [
+        "go-3-067",
+        "go-3-065",
+        "go-3-066"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-bilgisayar-masasi"
+    },
+    {
+      "id": "go-3-050",
+      "konu": "3.3",
+      "terim": "Büyüme zihniyeti",
+      "ingilizce": "Growth mindset",
+      "tanim": "Yeteneğin doğuştan sabit olmadığını, çalışarak ve hatalarından öğrenerek gelişeceğini kabul eden düşünme biçimidir.",
+      "ornek": "Staj ilk gününde yanlış oda anahtarını veren Zeynep, 'Ben bu işe yatkın değilmişim' demek yerine 'Bir dahaki sefere listeyi iki kez kontrol edeceğim' der.",
+      "sektor": "Otelcilikte kimse hatasız başlamaz. Büyüme zihniyetli stajyer hatayı saklamaz, amirine söyler ve öğrenir; bu tutum amirinin ona görev verme güvenini artırır.",
+      "iliskili": [
+        "go-3-051",
+        "go-3-054",
+        "go-3-052"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-051",
+      "konu": "3.3",
+      "terim": "Geri bildirim alma",
+      "ingilizce": "Receiving feedback",
+      "tanim": "Amirden, ekip arkadaşından ya da konuktan gelen eleştiri ve önerileri savunmaya geçmeden dinleyip gelişme fırsatına çevirme becerisidir.",
+      "ornek": "Staj sonunda ön büro şefi 'Telefonda biraz daha yavaş konuş' deyince stajyer teşekkür eder, bir örnek ister ve ertesi gün yavaş konuşmayı dener.",
+      "sektor": "Dünya otelciliğinde geri bildirim yaşamın parçasıdır: konuk anketleri, gizli denetçiler ve amirler sürekli değerlendirme yapar. 'Teşekkürler, uygulayacağım' diyen çalışan hem gelişir hem de yükselmeye aday olur.",
+      "iliskili": [
+        "go-3-050",
+        "go-3-052",
+        "go-3-041"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-052",
+      "konu": "3.3",
+      "terim": "Mentor (yol gösterici)",
+      "ingilizce": "Mentor",
+      "tanim": "Meslekte deneyimli olup yeni başlayan birine yol gösteren, bilgisini ve tecrübesini paylaşan kişidir.",
+      "ornek": "Bursa'daki bir otelde yaz stajı yapan Ali, ön büro şefi Hatice'ye ayda bir kahve içip kariyer planını danışır.",
+      "sektor": "İyi bir mentor sana işin yazılı olmayan kurallarını ve fırsatların nereden çıktığını anlatır. Okulundaki öğretmenin, stajdaki şefin ya da sektörden tanıdığın deneyimli biri mentorun olabilir. Mentor aramak utanılacak değil, akıllıca bir iştir.",
+      "iliskili": [
+        "go-3-050",
+        "go-3-053",
+        "go-3-051"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-053",
+      "konu": "3.3",
+      "terim": "Ağ kurma",
+      "ingilizce": "Networking",
+      "tanim": "Meslekte tanıştığın insanlarla düzenli ve samimi ilişki kurarak bilgi ve fırsat paylaşmandır.",
+      "ornek": "Okulun düzenlediği kariyer gününde öğrenci, konuşmacı otel müdürüne soru sorar ve aynı gün teşekkür e-postası gönderir.",
+      "sektor": "Bazı işler duyum yoluyla bulunur: bir müdür boş kadroyu önce tanıdığı iyi çalışanlara söyler. Ağ kurmak torpil değil, iyi çalıştığını insanlara göstermektir; okulların mezun ağları ve stajdaki ekibin de senin ağındır.",
+      "iliskili": [
+        "go-3-052",
+        "go-3-038",
+        "go-3-036"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-el-sikisma"
+    },
+    {
+      "id": "go-3-054",
+      "konu": "3.3",
+      "terim": "Sürekli öğrenme",
+      "ingilizce": "Lifelong learning",
+      "tanim": "Eğitimin okulla bitmediğini, meslek boyunca yeni bilgi ve beceri öğrenmeye devam edilmesi gerektiğini ifade eden yaklaşımdır.",
+      "ornek": "Beş yıldır ön büroda çalışan Mehmet, her yıl bir yabancı dil kursuna yazılır ve çevrim içi bir gelir yönetimi eğitimine katılır.",
+      "sektor": "Otelcilik hızla değişir: yeni sistemler, yeni konuk beklentileri, yeni yasalar çıkar. Üst düzey yöneticiler bile eğitim almaya devam eder; öğrenmeyi bırakan çalışan olduğu yerde kalır.",
+      "iliskili": [
+        "go-3-055",
+        "go-3-056",
+        "go-3-050"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-055",
+      "konu": "3.3",
+      "terim": "Sertifika",
+      "ingilizce": "Certificate",
+      "tanim": "Bir konuda eğitim aldığını ya da bilgisini sınavla kanıtladığını gösteren belgedir.",
+      "ornek": "Bir turizm öğrencisi ilk yardım kursundan aldığı sertifikayı staj dosyasına ekler.",
+      "sektor": "Sertifika tek başına iş getirmez, ama mülakatta kanıt olur. Türkiye'de Mesleki Yeterlilik Kurumu'nun yetkilendirdiği kuruluşların verdiği mesleki yeterlilik belgesi, yabancı dil sınav sertifikaları ve ilk yardım ya da hijyen eğitimleri yaygın örneklerdir. Güvenilir olup olmadığını öğretmenine danış.",
+      "iliskili": [
+        "go-3-054",
+        "go-3-036",
+        "go-3-056"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-sertifika-cercevesi"
+    },
+    {
+      "id": "go-3-056",
+      "konu": "3.3",
+      "terim": "Kişisel gelişim planı",
+      "ingilizce": "Personal development plan",
+      "tanim": "Kişinin güçlü ve zayıf yönlerini yazıp ulaşmak istediği hedefleri ve bunlar için atacağı adımları takvime bağladığı yazılı plandır.",
+      "ornek": "9. sınıfta Selin 'İngilizcemi konuşma düzeyine çıkarmak' hedefini yazar; her hafta iki konuşma çalışması ve yaz stajında yabancı bir konukla sohbet etmeyi planlar.",
+      "sektor": "Plan yazmak, kariyerini rastlantıya bırakmamaktır. Birçok zincir yöneticileriyle yıllık gelişim görüşmesi yapar; planı hazır olan çalışan oraya net hedeflerle gider. Hedefi ölçülebilir yaz: 'İngilizce çalışacağım' yerine 'Her hafta iki konuşma çalışması yapacağım' de.",
+      "iliskili": [
+        "go-3-054",
+        "go-3-055",
+        "go-3-046"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-planlama-defteri"
+    },
+    {
+      "id": "go-3-057",
+      "konu": "3.4",
+      "terim": "Sürdürülebilir otelcilik",
+      "ingilizce": "Sustainable hospitality",
+      "tanim": "Otelin bugünkü konuğu ağırlarken doğaya, yerel halka ve kültüre zarar vermeden gelecek kuşakların da turizmden yararlanabilmesini amaçlayan işletme anlayışıdır.",
+      "ornek": "Marmaris'te bir otelin müdürü toplantıda 'Bu yıl çöpümüzü, suyumuzu ve çalışanlarımızın yaşamını nasıl iyileştirdik?' sorusunu gündeme getirir.",
+      "sektor": "Konuklar çevreye duyarlı otelleri tercih edebiliyor; enerji ve su tasarrufu da işletme giderini düşürür. Bu yüzden sürdürülebilirlik hem etik hem ekonomik bir karardır.",
+      "iliskili": [
+        "go-3-058",
+        "go-3-060",
+        "go-3-061"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-058",
+      "konu": "3.4",
+      "terim": "GSTC ölçütleri",
+      "ingilizce": "GSTC Criteria",
+      "tanim": "Küresel Sürdürülebilir Turizm Konseyi'nin, otellerin ve turizm işletmelerinin sürdürülebilir olup olmadığını ölçmek için oluşturduğu uluslararası ortak ölçütlerdir.",
+      "ornek": "Antalya'da bir otel, bu ölçütlere dayanan bir belge için denetim ister; denetçi atık kayıtlarına, çalışan sözleşmelerine ve yerel halkla işbirliğine bakar.",
+      "sektor": "Ölçütler dört ana başlıkta toplanır: sürdürülebilir yönetim, yerel halka ekonomik ve toplumsal yarar, kültürel mirasa saygı ve çevreyi koruma. GSTC otellere doğrudan belge vermez; ölçütlere dayanan programlar ve bağımsız belgelendirme kuruluşları verir. Böylece dünyanın her yerinde 'sürdürülebilir' sözü aynı ölçüye bağlanır.",
+      "iliskili": [
+        "go-3-057",
+        "go-3-059",
+        "go-3-064"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-059",
+      "konu": "3.4",
+      "terim": "Çevre belgeleri",
+      "ingilizce": "Environmental labels (eco-labels)",
+      "tanim": "Bir otelin ya da plajın çevreye duyarlı işletildiğini bağımsız bir kurumun belgelediği işaretlerdir.",
+      "ornek": "Bodrum'daki bir otelin girişinde Yeşil Anahtar işareti durur; resepsiyondaki görevli merak eden konuğa bu işaretin ne olduğunu kısaca açıklar.",
+      "sektor": "Yeşil Anahtar, çevreye duyarlı işletilen konaklama tesislerine verilen uluslararası bir çevre etiketidir; Yeşil Yıldız, Türkiye'de Kültür ve Turizm Bakanlığı'nın çevreye duyarlı konaklama tesislerine verdiği belgedir; Mavi Bayrak ise plajlar, marinalar ve turizm tekneleri için verilen uluslararası bir çevre işaretidir. Ölçütlerini belgeyi veren kurumdan öğren; burada yalnız adlarını bil.",
+      "iliskili": [
+        "go-3-058",
+        "go-3-057",
+        "go-3-060"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-060",
+      "konu": "3.4",
+      "terim": "Atık yönetimi ve sıfır atık",
+      "ingilizce": "Waste management and zero waste",
+      "tanim": "Otelde oluşan çöpü azaltmak, ayırmak ve yeniden kullanıma ya da geri dönüşüme kazandırmak için yapılan düzenin bütünüdür.",
+      "ornek": "Mutfakta artan sebzeler atılmak yerine ertesi günkü çorbaya ayrılır; cam, kâğıt ve plastik de ayrı kutulara atılır.",
+      "sektor": "Otelde çöpün büyük kısmı mutfaktan ve ambalajdan çıkar; gıda israfını azaltmak hem doğayı hem işletmenin kasasını korur. Türkiye'de Sıfır Atık çalışmaları kapsamında birçok işletme bu konuda düzen kurmuştur; çalışan olarak ayrıştırma talimatlarını uygulamak senin payındır.",
+      "iliskili": [
+        "go-3-057",
+        "go-3-063",
+        "go-3-062"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-geri-donusum"
+    },
+    {
+      "id": "go-3-061",
+      "konu": "3.4",
+      "terim": "Otelde enerji verimliliği",
+      "ingilizce": "Hotel energy efficiency",
+      "tanim": "Aynı hizmeti daha az elektrik, yakıt ve ısı harcayarak sunma çabasıdır.",
+      "ornek": "Konuk odadan çıkıp kartını çekince ışıklar ve klima otomatik kapanır; kat görevlisi boş odada kalan ışığı da açık bırakmaz.",
+      "sektor": "Klima, aydınlatma ve sıcak su otelin başlıca enerji kalemleridir; tasarruf giderleri düşürür ve karbon ayak izini azaltır. Bazı oteller çatıya güneş paneli kurarak elektriğinin bir bölümünü kendisi üretir; yine de en ucuz enerji harcanmayan enerjidir. Çalışanın küçük alışkanlıkları, örneğin boş odada ışığı kapatmak, toplamda büyük fark yaratır.",
+      "iliskili": [
+        "go-3-057",
+        "go-3-062",
+        "go-3-058"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-gunes-paneli"
+    },
+    {
+      "id": "go-3-062",
+      "konu": "3.4",
+      "terim": "Su ve çamaşır tasarrufu",
+      "ingilizce": "Water and linen saving",
+      "tanim": "Duş, temizlik ve çamaşırhane gibi alanlarda suyu azaltmak için yapılan uygulamalardır; konuğun havlusunu her gün değiştirmeyi isteğe bırakması buna örnektir.",
+      "ornek": "Banyoda 'Havlunuzu askıda bırakırsanız yeniden kullanırım' yazan karta uyan kat görevlisi, askıdaki havluyu değiştirmez.",
+      "sektor": "Kuraklık riski taşıyan yerlerde su, turizmin en değerli kaynaklarındandır. Konuğa tasarruf seçeneği sunmak onu suçlu hissettirmeden işbirliği yapmasını sağlar; çalışan olarak konuğun tercihini sessizce uygulamak profesyonelliktir.",
+      "iliskili": [
+        "go-3-061",
+        "go-3-060",
+        "go-3-057"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-banyo-havlu"
+    },
+    {
+      "id": "go-3-063",
+      "konu": "3.4",
+      "terim": "Yöre ürünüyle tedarik",
+      "ingilizce": "Local sourcing for hotels",
+      "tanim": "Otelin gıda, süs eşyası ve hizmet gibi ihtiyaçlarını mümkün olduğunca çevresindeki üreticilerden ve esnaftan karşılamasıdır.",
+      "ornek": "Ege'de bir otel, kahvaltı için zeytin, peynir ve balı aynı ilçedeki üreticilerden alır ve konuğa 'Bu bal bu köyden' diye anlatır.",
+      "sektor": "Yerel ürün taze olur, taşıma azalır ve para yöredeki insanlarda kalır. Konuk gittiği yerin lezzetini tadınca tatilini daha iyi hatırlar; yalnız kalite ve hijyen şartlarını da karşılaması gerekir.",
+      "iliskili": [
+        "go-3-064",
+        "go-3-034",
+        "go-3-060"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-064",
+      "konu": "3.4",
+      "terim": "Toplulukla ilişki",
+      "ingilizce": "Community engagement",
+      "tanim": "Otelin bulunduğu yörenin insanlarıyla iş, eğitim ve sosyal konularda iyi ilişki kurup onlara fayda sağlamasıdır.",
+      "ornek": "Kapadokya'daki bir otel, köyden gençleri yaz stajına alır ve yöresel el sanatı yapan kadınların ürünlerini lobide sergiler.",
+      "sektor": "Yerel halk turizmden yarar görmezse turizme desteği azalır. Yöreden çalışan alan, çevresiyle konuşan otel yöreyi korur ve daha rahat çalışır; senin gibi bir genç için de kendi yöresinde iş bulma fırsatı demektir.",
+      "iliskili": [
+        "go-3-063",
+        "go-3-058",
+        "go-3-057"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-065",
+      "konu": "3.4",
+      "terim": "Mobil anahtar",
+      "ingilizce": "Mobile key",
+      "tanim": "Oda kapısını plastik kart yerine konuğun telefonuna gönderilen dijital bir anahtarla açma sistemidir.",
+      "ornek": "İzmir'deki bir otelde konuğa varışından önce odası ve dijital anahtarı gönderilir; konuk resepsiyona uğramadan odasına çıkar.",
+      "sektor": "Hızlı ve temassız giriş sağlar, kart masrafını azaltır. Ama pili bitmiş telefonu olan ya da teknolojiye yabancı konuk için resepsiyon yine hazır olmalıdır; teknoloji hizmeti değiştirir, konuğa ilgiyi kaldırmaz.",
+      "iliskili": [
+        "go-3-049",
+        "go-3-068",
+        "go-3-067"
+      ],
+      "kontrol": null,
+      "kitapDisi": true,
+      "gorsel": "sektor-akilli-telefon"
+    },
+    {
+      "id": "go-3-066",
+      "konu": "3.4",
+      "terim": "Yapay zekâ destekli konuk hizmeti",
+      "ingilizce": "AI-assisted guest service",
+      "tanim": "Konuk sorularını sohbet robotlarıyla yanıtlamak ya da konuk tercihlerini çözümleyerek öneri sunmak gibi, hizmeti yapay zekâ araçlarıyla desteklemektir.",
+      "ornek": "Gece 02.00'de konuk otelin uygulamasına 'Kahvaltı kaçta başlıyor?' yazar ve sohbet robotu anında yanıtlar; konuk 'Yumurta alerjim var' yazınca robot konuyu bir çalışana yönlendirir.",
+      "sektor": "Yapay zekâ sık sorulan soruları hızla yanıtlayarak çalışana daha önemli işlere zaman bırakır. Alerji, şikâyet ve duygusal durum gibi hassas konularda karar yine insanındır; araç yanılabilir, çıktısını kontrol etmek senin görevindir.",
+      "iliskili": [
+        "go-3-049",
+        "go-3-068",
+        "go-3-067"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-067",
+      "konu": "3.4",
+      "terim": "Konuk bilgisi gizliliği",
+      "ingilizce": "Guest data privacy",
+      "tanim": "Konuğun adı, kimliği, iletişim bilgisi ve tercihleri gibi kişisel verilerinin yalnız gerektiği kadar tutulması ve yetkisiz kişilere verilmemesidir.",
+      "ornek": "Telefonda biri 'Kuzeniyim, kimin hangi odada kaldığını söyler misiniz?' diye sorar; görevli oda numarasını ya da konuk adını söylemez, konuğa haber vermeyi önerir.",
+      "sektor": "Türkiye'de 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK), Avrupa'da ise GDPR konuk verilerini korur. Konuk bilgisini izinsiz paylaşmak konuğun güvenliğini tehlikeye atar ve işletmeye ağır sorumluluk getirir; otelde gördüğün konuk fotoğraflarını da paylaşma.",
+      "iliskili": [
+        "go-3-049",
+        "go-3-065",
+        "go-3-066"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-068",
+      "konu": "3.4",
+      "terim": "İnsan dokunuşu",
+      "ingilizce": "Human touch",
+      "tanim": "Teknoloji ne kadar gelişirse gelişsin, konuğa sıcaklık ve kişisel ilgi gösteren insani hizmetin değerini anlatan kavramdır.",
+      "ornek": "Sabah çıkış işleminde self check-out cihazını kullanmakta zorlanan yaşlı çifte görevli yanlarına gider, cihazı birlikte çalıştırır ve yolculuklarına iyi dilekler diler.",
+      "sektor": "Teknoloji yayıldıkça insanın sıcaklığı daha ayırt edici olur: robot kahve getirebilir ama konuğun gözüne bakıp 'Nasıldı?' diye soramaz. İyi otel işlemi teknolojiye, ilgiyi insana bırakır.",
+      "iliskili": [
+        "go-3-065",
+        "go-3-066",
+        "go-3-070"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-069",
+      "konu": "3.4",
+      "terim": "Çalışan refahı",
+      "ingilizce": "Employee wellbeing",
+      "tanim": "Çalışanın bedensel, ruhsal ve sosyal olarak iyi olması için işletmenin dinlenme, adil çizelge, güvenli ortam ve saygılı davranış sağlamasıdır.",
+      "ornek": "Sıcak yemek veren personel yemekhanesi, vardiya çizelgesinin iki hafta önceden asılması ve haftalık izin günlerinin planlanması otelin çalışanına verdiği değeri gösterir.",
+      "sektor": "Yorgun ve mutsuz çalışan, konuğu mutlu edemez. Çalışanını değerli gören otel onu elinde tutar. Sen de dinlenmeyi, yasal izin haklarını ve gerekirse yardım istemeyi öğren; tükenmişlik ciddi bir sorundur.",
+      "iliskili": [
+        "go-3-045",
+        "go-3-070",
+        "go-3-068"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    },
+    {
+      "id": "go-3-070",
+      "konu": "3.4",
+      "terim": "Hizmet zihniyeti",
+      "ingilizce": "Service mindset",
+      "tanim": "İşi yalnız görev saymak yerine, karşısındakine fayda sağlamaktan gurur duyan ve bunu içtenlikle yapan düşünme biçimidir.",
+      "ornek": "Bayram sabahı vardiyadaki kat görevlisi, tek başına kalan yaşlı konuğun odasına bir bardak çay bırakır ve 'Bayramınız kutlu olsun' der.",
+      "sektor": "İngilizcede otelcilik ve ağırlama anlamında 'hospitality' sözcüğü kullanılır; ana fikir insanı ağırlamaktır. Teknoloji, zincirler ve unvanlar değişir; hizmet zihniyeti kariyerinin en sağlam sermayesidir.",
+      "iliskili": [
+        "go-3-068",
+        "go-3-069",
+        "go-3-040"
+      ],
+      "kontrol": null,
+      "kitapDisi": true
+    }
+  ],
+  "sorular": [
+    {
+      "id": "go-3-s01",
+      "tur": "coktan-secmeli",
+      "soru": "Uygulamalı eğitim için aşağıdakilerden hangisi doğrudur?",
+      "secenekler": [
+        "Öğrenci bilgiyi işi bizzat yaparak öğrenir.",
+        "Öğrenci yalnızca yazılı sınavla değerlendirilir.",
+        "Öğrenci eğitimi tümüyle çevrim içi izler.",
+        "Öğrenci yalnızca başkasının işini izler."
+      ],
+      "dogru": 0,
+      "aciklama": "Uygulamalı eğitimde öğrenci bilgiyi dinlemekle kalmaz, işi kendi elleriyle yapar; böylece hatayı konuk yokken yapıp düzeltme fırsatı bulur."
+    },
+    {
+      "id": "go-3-s02",
+      "tur": "coktan-secmeli",
+      "soru": "'Önce hizmet etmeyi öğren' anlayışını benimseyen bir okulda yönetici adayından ilk olarak ne beklenir?",
+      "secenekler": [
+        "Yalnızca bütçe tablolarını hazırlayıp sunması",
+        "Servis, mutfak ya da oda işlerini bizzat yapması",
+        "Yalnızca genel müdürün toplantılarına katılması",
+        "Yalnızca konuk şikâyetlerini yazıya dökmesi"
+      ],
+      "dogru": 1,
+      "aciklama": "Bu anlayışa göre yönetici olmak isteyen kişi önce sahadaki işleri kendi eliyle yapar; böylece ekibinin işini bilir ve gerçekçi istekte bulunur."
+    },
+    {
+      "id": "go-3-s03",
+      "tur": "coktan-secmeli",
+      "soru": "Uygulama oteli için aşağıdakilerden hangisi doğrudur?",
+      "secenekler": [
+        "Konuk kabul etmez; yalnızca ders için kurulmuş bir sahnedir.",
+        "Yalnızca yabancı öğrencilerin kaldığı bir yurttur.",
+        "Okula bağlıdır; öğrenciler gerçek konuğa hizmet eder.",
+        "Personeli yalnızca mezun yöneticilerden oluşur."
+      ],
+      "dogru": 2,
+      "aciklama": "Uygulama oteli gerçek konuk ağırlayan bir oteldir; öğrenciler burada işi öğretmenlerinin gözetiminde, canlı bir ortamda öğrenir."
+    },
+    {
+      "id": "go-3-s04",
+      "tur": "coktan-secmeli",
+      "soru": "Lozan Otelcilik Okulu (EHL) hangi ülkede bulunur?",
+      "secenekler": [
+        "Hollanda",
+        "ABD",
+        "Almanya",
+        "İsviçre"
+      ],
+      "dogru": 3,
+      "aciklama": "EHL İsviçre'nin Lozan kentindedir. Hollanda'daki okul Hotelschool The Hague, ABD'deki okul ise Cornell'in Nolan Okulu'dur."
+    },
+    {
+      "id": "go-3-s05",
+      "tur": "dogru-yanlis",
+      "soru": "Operasyon stajında öğrenci ön büro, kat hizmetleri, mutfak ya da servis gibi sahadaki işleri yapar.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Operasyon stajı sahada çalışılan stajdır; planlama ve ekip yönetimine yaklaşılan staj ise yönetim stajıdır."
+    },
+    {
+      "id": "go-3-s06",
+      "tur": "coktan-secmeli",
+      "soru": "Hotel ICON adlı eğitim ve araştırma oteli hangi okula aittir?",
+      "secenekler": [
+        "Hong Kong PolyU",
+        "Lahey'deki Hotelschool The Hague",
+        "İsviçre'deki Les Roches",
+        "Lozan'daki EHL"
+      ],
+      "dogru": 0,
+      "aciklama": "Hotel ICON, Hong Kong PolyU Otel ve Turizm Yönetimi Okulu'nun hem eğitim hem araştırma için kullandığı oteldir."
+    },
+    {
+      "id": "go-3-s07",
+      "tur": "coktan-secmeli",
+      "soru": "Cornell'in otelcilik okulunun kampüsündeki Statler Otel öğrenciler için ne sağlar?",
+      "secenekler": [
+        "Yalnızca yabancı dil kursu",
+        "Gerçek bir otelde çalışarak öğrenme imkânı",
+        "Yalnızca çevrim içi sınav merkezi",
+        "Yurt dışı stajın yerine geçen sanal gezi"
+      ],
+      "dogru": 1,
+      "aciklama": "Statler Otel bir uygulama oteli olarak öğrencilerin hem çalışıp hem öğrendiği gerçek bir işletmedir."
+    },
+    {
+      "id": "go-3-s08",
+      "tur": "coktan-secmeli",
+      "soru": "İsviçre'de Montreux yakınında bulunan ve lüks otelcilik ile hizmet yönetimi alanlarıyla tanınan okul hangisidir?",
+      "secenekler": [
+        "Hotelschool The Hague",
+        "Hong Kong PolyU SHTM",
+        "Glion Yüksek Eğitim Enstitüsü",
+        "Cornell Nolan Otelcilik Okulu"
+      ],
+      "dogru": 2,
+      "aciklama": "Glion Yüksek Eğitim Enstitüsü İsviçre'de Montreux yakınındadır ve lüks otelcilik ile hizmet yönetimi alanlarıyla tanınır; Hotelschool The Hague Hollanda'da, PolyU Hong Kong'da, Cornell ise ABD'dedir."
+    },
+    {
+      "id": "go-3-s09",
+      "tur": "coktan-secmeli",
+      "soru": "Lahey ve Amsterdam'da yerleşkeleri bulunan otelcilik okulu hangisidir?",
+      "secenekler": [
+        "EHL",
+        "Les Roches",
+        "Glion Yüksek Eğitim Enstitüsü",
+        "Hotelschool The Hague"
+      ],
+      "dogru": 3,
+      "aciklama": "Hotelschool The Hague Hollanda'dadır; EHL, Les Roches ve Glion ise İsviçre merkezli okullardır."
+    },
+    {
+      "id": "go-3-s10",
+      "tur": "coktan-secmeli",
+      "soru": "Operasyon stajı ile yönetim stajı arasındaki fark hangisidir?",
+      "secenekler": [
+        "Birinde sahadaki işler, ötekinde planlama ve ekip yönetimi öğrenilir.",
+        "Operasyon stajında bütçe hazırlanır; yönetim stajında oda temizlenir.",
+        "İkisi de yalnızca ofiste evrak düzenleme ve dosyalama işidir.",
+        "Operasyon stajı yurt dışında, yönetim stajı Türkiye'de yapılır."
+      ],
+      "dogru": 0,
+      "aciklama": "Operasyon stajında öğrenci sahadaki işleri yapar; yönetim stajında bir bölümün planlama ve ekip yönetimi işlerine yaklaşır."
+    },
+    {
+      "id": "go-3-s11",
+      "tur": "coktan-secmeli",
+      "soru": "İşletmede mesleki eğitim nedir?",
+      "secenekler": [
+        "Bir işletmeyi satın almak için alınan kurs",
+        "Eğitimin bir bölümünün gerçek bir işletmede yapılması",
+        "Öğrencinin okula hiç gitmeden çalışması",
+        "Yalnızca yaz tatilinde yapılan gezi programı"
+      ],
+      "dogru": 1,
+      "aciklama": "Meslek lisesi öğrencisi eğitiminin bir bölümünü okulda değil, gerçek bir işletmede iş yaparak geçirir."
+    },
+    {
+      "id": "go-3-s12",
+      "tur": "coktan-secmeli",
+      "soru": "Önlisans mezununun turizm fakültesinde lisans eğitimine devam edebilmesi hangi kavramla anılır?",
+      "secenekler": [
+        "Çapraz eğitim",
+        "Zincir içi transfer",
+        "Dikey geçiş",
+        "Departmanlar arası geçiş"
+      ],
+      "dogru": 2,
+      "aciklama": "Önlisans mezununun koşulları sağlayarak lisansa geçmesine dikey geçiş denir; diğer kavramlar iş yaşamındaki hareketleri anlatır."
+    },
+    {
+      "id": "go-3-s13",
+      "tur": "coktan-secmeli",
+      "soru": "Bir vardiyada ekibin iş akışını izleyen, görev dağıtan ve sorun çıkınca ilk başvurulan kişi kariyer merdiveninde hangi basamaktadır?",
+      "secenekler": [
+        "Stajyer",
+        "Genel müdür",
+        "Bölüm yöneticisi",
+        "Süpervizör"
+      ],
+      "dogru": 3,
+      "aciklama": "Süpervizör vardiyayı ya da küçük bir ekibi yönetir; bölüm yöneticisi ise bütün bir bölümün işleyişinden ve bütçesinden sorumludur."
+    },
+    {
+      "id": "go-3-s14",
+      "tur": "coktan-secmeli",
+      "soru": "Yönetici adayı programının temel fikri hangisidir?",
+      "secenekler": [
+        "Adayı bölümlerde döndürüp bütünü görmesini sağlamak",
+        "Adayı yıllarca tek bölümde çalışmaya bırakmak",
+        "Yeni mezunlara yalnız yabancı dil dersi vermek",
+        "Konuklara sadakat puanı dağıtmak"
+      ],
+      "dogru": 0,
+      "aciklama": "Aday birkaç bölümde kısa sürelerle çalışarak otelin bütününü görür ve yönetici olarak yetişir."
+    },
+    {
+      "id": "go-3-s15",
+      "tur": "coktan-secmeli",
+      "soru": "Çapraz eğitimin çalışana kariyer açısından en önemli katkısı nedir?",
+      "secenekler": [
+        "Tatil günlerini otomatik olarak artırması",
+        "Yeni bölümlere geçişin ve terfinin kapısını açması",
+        "Yabancı dil gereksinimini ortadan kaldırması",
+        "Staj zorunluluğunu bütünüyle sona erdirmesi"
+      ],
+      "dogru": 1,
+      "aciklama": "Çapraz eğitimli çalışan birden fazla bölümü bilir; bu yüzden hem yeni bölümlere geçebilir hem de yöneticilik için daha güçlü bir aday olur."
+    },
+    {
+      "id": "go-3-s16",
+      "tur": "dogru-yanlis",
+      "soru": "Sezonluk bir işe başlamadan önce sözleşme ve sigorta konusunun baştan netleştirilmesi gerekir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 0,
+      "aciklama": "Belirsiz sözleşme ve sigortasız çalışma sezonluk işlerde karşılaşılabilen ciddi sorunlardır; bu yüzden baştan netleştirilmelidir."
+    },
+    {
+      "id": "go-3-s17",
+      "tur": "coktan-secmeli",
+      "soru": "Yurt dışında otel işi için başvuran biri aşağıdakilerden hangisini yapmalıdır?",
+      "secenekler": [
+        "Aracıya peşin ücret ödeyip pasaportunu ona emanet bırakmalı",
+        "Sigortasız ve sözleşmesiz biçimde sezonun başlamasını beklemeli",
+        "İlanı doğrulayıp sözleşme ve çalışma iznini baştan netleştirmeli",
+        "Çalışma iznini ülkeye vardıktan sonra düşünmeli"
+      ],
+      "dogru": 2,
+      "aciklama": "Yurt dışında çalışmak çalışma izni, resmî sözleşme ve sigorta gerektirir; iş ilanı okulun, resmî kurumun ya da tanınmış bir firmanın kanalından doğrulanmalıdır."
+    },
+    {
+      "id": "go-3-s18",
+      "tur": "coktan-secmeli",
+      "soru": "Aşağıdakilerden hangisi yumuşak beceriye örnektir?",
+      "secenekler": [
+        "Kasa programında günlük raporu almak",
+        "Anahtar kart makinesini ayarlamak",
+        "Fiyat listesini ezbere bilmek",
+        "Öfkeli bir konuğu dinleyip sakinleştirmek"
+      ],
+      "dogru": 3,
+      "aciklama": "Yumuşak beceriler iletişim ve duygusal denge gibi insani becerilerdir; program kullanmak ve makine ayarlamak teknik becerilerdir."
+    },
+    {
+      "id": "go-3-s19",
+      "tur": "coktan-secmeli",
+      "soru": "Büyüme zihniyetli bir stajyer ilk gün bir hata yapınca ne yapar?",
+      "secenekler": [
+        "Amirine söyler, nasıl düzelteceğini öğrenir",
+        "Hatayı kimseye söylemeden unutmaya çalışır",
+        "Bu mesleğe yatkın olmadığına karar verir",
+        "Hatayı yanındaki arkadaşına yükler"
+      ],
+      "dogru": 0,
+      "aciklama": "Büyüme zihniyeti hatayı öğrenme fırsatı olarak görür; hatayı saklamak güveni azaltır, amire söyleyip öğrenmek güveni artırır."
+    },
+    {
+      "id": "go-3-s20",
+      "tur": "dogru-yanlis",
+      "soru": "GSTC, otellere doğrudan sürdürülebilirlik belgesi veren kuruluştur.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "GSTC ölçütleri belirler; belgeyi bu ölçütlere göre denetleyen bağımsız kuruluşlar verir."
+    },
+    {
+      "id": "go-3-s21",
+      "tur": "coktan-secmeli",
+      "soru": "GSTC ölçütlerinin ana başlıklarından biri hangisidir?",
+      "secenekler": [
+        "Dağıtım kanallarını çeşitlendirme",
+        "Çevreyi koruma",
+        "Marka standardını yaygınlaştırma",
+        "Sadakat puanı toplama"
+      ],
+      "dogru": 1,
+      "aciklama": "GSTC ölçütleri sürdürülebilir yönetim, yerel halka yarar, kültürel mirasa saygı ve çevreyi koruma başlıklarında toplanır."
+    },
+    {
+      "id": "go-3-s22",
+      "tur": "coktan-secmeli",
+      "soru": "Mavi Bayrak, kartta anlatıldığına göre hangi tür yerler için verilen uluslararası bir işarettir?",
+      "secenekler": [
+        "Havalimanı terminalleri ve yolcu salonları",
+        "Kayak pistleri ve dağ otelleri",
+        "Plajlar, marinalar ve turizm tekneleri",
+        "Müzeler ve tarihî ören yerleri"
+      ],
+      "dogru": 2,
+      "aciklama": "Mavi Bayrak plajlar, marinalar ve turizm tekneleri için verilen uluslararası bir çevre işaretidir; Yeşil Anahtar ve Yeşil Yıldız ise konaklama tesisleri içindir."
+    },
+    {
+      "id": "go-3-s23",
+      "tur": "coktan-secmeli",
+      "soru": "Konuğun adı, kimliği ve tercihleri gibi kişisel bilgilerini koruyan Türkiye'deki kanun hangisidir?",
+      "secenekler": [
+        "GSTC",
+        "Yeşil Yıldız",
+        "Mavi Bayrak",
+        "KVKK"
+      ],
+      "dogru": 3,
+      "aciklama": "Kişisel Verilerin Korunması Kanunu (KVKK) kişisel verilerin korunmasını düzenler; diğerleri sürdürülebilirlik ölçütü ya da çevre işaretidir."
+    },
+    {
+      "id": "go-3-s24",
+      "tur": "dogru-yanlis",
+      "soru": "Mobil anahtar kullanan bir otelde konuğun insan ilgisine ihtiyacı kalmadığı için resepsiyon gereksizdir.",
+      "secenekler": [
+        "Doğru",
+        "Yanlış"
+      ],
+      "dogru": 1,
+      "aciklama": "Pili bitmiş telefonu olan ya da teknolojiye yabancı konuk için resepsiyon hazır olmalıdır; teknoloji hizmeti değiştirir ama insan ilgisini kaldırmaz."
+    },
+    {
+      "id": "go-3-s25",
+      "tur": "senaryo",
+      "durum": "Yaz stajının ilk haftasındasın ve Bodrum'daki otelin kat hizmetlerine verilmişsin. Arkadaşların resepsiyonda çalışıyor; sen yatak yapıyor ve havlu taşıyorsun. Akşam kendi kendine 'Ben boşuna okuyorum' diye düşünmeye başladın.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Süpervizöre 'Burada işim bitti, resepsiyona geçmek istiyorum' derim.",
+        "Süpervizöre bu bölümde ne öğrenmem gerektiğini sorarım.",
+        "Beklentiyi düşürmek için işi yarım yamalak yaparım.",
+        "Resepsiyondaki arkadaşımla izin almadan yer değiştiririm."
+      ],
+      "dogru": 1,
+      "aciklama": "Kat hizmetleri otelin temelidir; 'önce hizmet etmeyi öğren' anlayışına göre sahadaki işi bilmek yönetici olmanın ilk adımıdır. Süpervizörle konuşup bölümde ne öğreneceğini sormak doğru yoldur; işi savsaklamak ya da izinsiz yer değiştirmek güveni kaybettirir."
+    },
+    {
+      "id": "go-3-s26",
+      "tur": "senaryo",
+      "durum": "Bir otelin insan kaynakları ofisinde ilk iş mülakatındasın. Görevli 'Bir hata yaptığın ve bundan ders çıkardığın bir durumu anlat' diyor. Aklına stajda yanlış oda anahtarını verdiğin gün geliyor ama bunu söylemekten çekiniyorsun.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Hiç hata yapmadığımı, her işi baştan doğru yaptığımı söylerim.",
+        "Başka bir arkadaşımın hatasını kendi hatam gibi anlatırım.",
+        "Soruyu cevaplamayıp konuyu değiştirmeye çalışırım.",
+        "Anahtar olayını kısaca anlatır, ne öğrendiğimi söylerim."
+      ],
+      "dogru": 3,
+      "aciklama": "Mülakatta aranan, hatasız olmak değil, hatadan ders çıkaran büyüme zihniyetidir. Dürüst bir örnek ve çıkarılan ders güven verir; 'hiç hata yapmadım' demek ise inandırıcı olmaz."
+    },
+    {
+      "id": "go-3-s27",
+      "tur": "senaryo",
+      "durum": "Staj yaptığın otelde ön büro şefi, bir konukla telefonda hızlı ve kısa konuştuğunu ekibin önünde söylüyor. Yüzün kızarıyor ve kendini savunmak istiyorsun.",
+      "soru": "Hangisi doğru davranıştır?",
+      "secenekler": [
+        "Dinler, teşekkür eder, ertesi gün bir düzeltme denerim.",
+        "Şefe 'Ben hep böyle konuşurum' diyerek karşılık veririm.",
+        "Ertesi gün işi bırakıp stajı yarıda keserim.",
+        "Şefin yanlış anladığını arkadaşlarımla konuşurum."
+      ],
+      "dogru": 0,
+      "aciklama": "Geri bildirimi savunmaya geçmeden dinlemek gelişmenin ilk adımıdır. Teşekkür edip denemek amirin sana güvenini artırır; savunma, küsme ya da arkadan konuşma ise gelişimi durdurur."
+    },
+    {
+      "id": "go-3-s28",
+      "tur": "senaryo",
+      "durum": "Sosyal medyada tanımadığın biri yurt dışında yüksek maaşlı bir otel işi önerisiyle yazıyor. 'Yerin kapanmasın, pasaport fotoğrafını ve ilk ödemeyi hemen gönder' diyor. Heyecanlısın ama içinde bir huzursuzluk var.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Fırsat kaçmasın diye ilk ödemeyi hemen gönderirim.",
+        "Pasaport fotoğrafını hemen gönderip parayı sonra konuşmayı denerim.",
+        "Ailemle ve öğretmenimle paylaşıp teklifi resmî yoldan doğrulatırım.",
+        "Aynı teklifi arkadaşlarıma iletip hep birlikte para göndeririz."
+      ],
+      "dogru": 2,
+      "aciklama": "Peşin para, kimlik belgesi isteme ve acele ettirme dolandırıcılık işaretleridir. İş ilanı okul, resmî kurum ya da tanınmış bir firma kanalından doğrulanır; çalışma izni ve sözleşme baştan netleşmelidir."
+    },
+    {
+      "id": "go-3-s29",
+      "tur": "senaryo",
+      "durum": "Gece 23.00'te resepsiyonda staj yapıyorsun. Telefondaki kişi 'Kuzeniyim, 312 numaralı odada kalan kişiye acil bir haber vereceğim, hangi odada olduğunu doğrular mısın?' diyor.",
+      "soru": "İlk adımın ne olur?",
+      "secenekler": [
+        "Oda numarasını doğrulayıp konuğun adını da kendiliğimden söylerim.",
+        "Bilgi vermem; arayanın adını alıp nöbetçi müdüre haber veririm.",
+        "Arayanın adını sormadan çağrıyı doğrudan konuğun odasına aktarırım.",
+        "Telefonu hiçbir açıklama yapmadan kapatıp işime dönerim."
+      ],
+      "dogru": 1,
+      "aciklama": "Konuğun kalıp kalmadığını ya da hangi odada olduğunu söylemek kişisel verinin paylaşılmasıdır ve konuğu tehlikeye atabilir. Arayanın bilgisini alıp nöbetçi müdüre bildirmek hem konuğu korur hem de acil haberin ulaşmasını sağlar."
+    },
+    {
+      "id": "go-3-s30",
+      "tur": "senaryo",
+      "durum": "Mutfakta stajyersin. Şef, artan sebzelerin ayrılıp ertesi günkü çorbaya kullanılmasını ve cam ile plastiğin ayrı kutulara atılmasını istedi. Yanındaki çalışan 'Kimse bakmıyor, hepsini tek çöpe at' diyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Çalışana uyup bütün atığı tek çöpe atarım.",
+        "Ayrıştırmanın zahmetli olduğunu söyleyip bırakırım.",
+        "Çalışanı herkesin önünde uyarıp ceza istemeye giderim.",
+        "Talimatı uygular, zorlanırsam şefe söylerim."
+      ],
+      "dogru": 3,
+      "aciklama": "Sürdürülebilirlik kuralları kimse bakmasa da uygulanır; çünkü amaç denetimden kaçmak değil, israfı azaltmaktır. Talimatı uygulamak ve sorun yaşarsan amirine söylemek hem doğru hem sakin bir yoldur."
+    },
+    {
+      "id": "go-3-s31",
+      "tur": "senaryo",
+      "durum": "Sabah 10.00'da çıkış saatinde self çıkış cihazının ekranı donuyor. Yaşlı bir konuk uçağına yetişmeye çalışırken telaşla cihazın başında bekliyor.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Konuğa eşlik eder, çıkışını resepsiyonda yaptırır, arızayı bildiririm.",
+        "Konuğun cihazı yeniden denemesini söyleyip kendi işime geri dönerim.",
+        "Cihaz bozuk olduğu için konuğa daha sonra tekrar gelmesini söylerim.",
+        "Arızayı kendim onarmaya çalışırken konuğu bir kenarda beklemeye alırım."
+      ],
+      "dogru": 0,
+      "aciklama": "Teknoloji işlemi hızlandırır ama konuk takıldığında insan dokunuşu devreye girer. Konuğa eşlik edip çıkışını resepsiyonda yaptırmak ve arızayı amire bildirmek hizmeti sürdürür; konuğu beklemeye bırakmak ya da geri çevirmek hizmeti bozar."
+    },
+    {
+      "id": "go-3-s32",
+      "tur": "senaryo",
+      "durum": "Yoğun yaz sezonunda arka arkaya altı gündür çalışıyorsun, çok yorgunsun ve iki konuğa gereksiz sert cevap verdiğini fark ettin. İş yerinde kimseye bir şey söylemedin.",
+      "soru": "Ne yaparsın?",
+      "secenekler": [
+        "Hiçbir şey olmamış gibi aynı tempoda çalışmaya devam ederim.",
+        "İşi kimseye haber vermeden bırakıp eve gitmeye karar veririm.",
+        "Yorgunluğumu amirime anlatıp izin ve vardiya için yardım isterim.",
+        "Konuklara daha az bakarak sert cevap vermekten kaçınmaya çalışırım."
+      ],
+      "dogru": 2,
+      "aciklama": "Çalışan refahı işletmenin ve çalışanın ortak sorumluluğudur; yorgunluk hizmeti bozar. Durumu amire açıkça anlatıp çözüm aramak profesyonelce davranıştır; yok saymak ya da habersiz ayrılmak sorunu büyütür."
+    }
+  ]
+}
