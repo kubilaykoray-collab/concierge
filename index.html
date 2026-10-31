@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#152238" />
+    <meta name="description" content="Otelcilik ve turizm kavramlarını ders ders öğren, vakalarla dene, kendini sına." />
+    <meta name="author" content="Koray Kubilay" />
+    <meta name="copyright" content="© 2026 Koray Kubilay. Tüm hakları saklıdır." />
+    <meta name="robots" content="noai, noimageai" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="CONCIERGE" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./assets/playfair-display-latin-wght-normal-BOwq7MWX.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./assets/inter-latin-wght-normal-Dx4kXJAl.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Türkçe harfler (ş, ğ, ı, İ) latin-ext alt kümesinden gelir; ön yüklenmezse ilk boyamada sistem fontuyla çıkıp değişiyordu (E-4, 18 Ekim 2026) -->
+    <link rel="preload" href="./assets/playfair-display-latin-ext-wght-normal-CT1r92Rl.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./assets/inter-latin-ext-wght-normal-DO1Apj_S.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <title>CONCIERGE — Hospitality Academy</title>
+    <style>.acilis{text-align:center;color:#e6cf9a;background:linear-gradient(#0b1424,#142138 55%,#1a2a47);place-content:center;gap:8px;min-height:100dvh;font-family:Georgia,Times New Roman,serif;display:grid}.acilis svg{width:72px;height:72px;margin:0 auto 6px}.acilis strong{letter-spacing:.34em;margin-right:-.34em;font-size:1.9rem;font-weight:500}.acilis span{letter-spacing:.32em;text-transform:uppercase;color:#cdae74e6;margin-right:-.32em;font:600 .6rem/1 system-ui,sans-serif}.acilis p{color:#f1eadb;max-width:28ch;margin:14px auto 0;font:400 .95rem/1.45 system-ui,sans-serif}.acilis button{color:#152238;cursor:pointer;background:#cdae74;border:0;border-radius:12px;justify-self:center;min-height:44px;padding:0 22px;font:600 .95rem/1 system-ui,sans-serif}</style>
+    <script>
+      // React yüklenmeden önce çalışır; ağ çağrısı yok.
+      (function () {
+        // Kayıtlı tema ilk boyamadan önce atanır: karanlık temada açık renkli sayfa bir an parlamasın.
+        // Anahtar src/depo.ts'teki ANAHTAR'dır (derlemede oradan alınıp buraya yazılır); kayıt yoksa ya da okunamazsa "oto".
+        var tema = "oto";
+        try {
+          var kayit = JSON.parse(localStorage.getItem("lobi.ilerleme.v1") || "null");
+          if (kayit && (kayit.tema === "koyu" || kayit.tema === "acik")) tema = kayit.tema;
+        } catch (e) {}
+        document.documentElement.setAttribute("data-tema", tema);
+
+        // Zayıf bağlantıda uygulama parçası gelmezse perde sonsuza dek kalmasın: yeniden deneme düğmesi çıkar
+        // (iPhone ana ekran uygulamasında sayfayı yenileme hareketi yoktur). Uygulama açılınca perde zaten kalkmıştır.
+        setTimeout(function () {
+          var perde = document.querySelector(".acilis");
+          if (!perde) return;
+          perde.insertAdjacentHTML("beforeend", '<p>Bağlantı yavaş görünüyor. Biraz daha bekleyebilir ya da yeniden deneyebilirsin.</p><button type="button" onclick="location.reload()">Yeniden dene</button>');
+        }, 12000);
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-D2yGmDMF.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-hePW80VL.js">
+    <link rel="modulepreload" crossorigin href="./assets/react-CnLdV24q.js">
+    <link rel="modulepreload" crossorigin href="./assets/icerik-DAmJKirA.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-CQs9V0XO.css">
+  <link rel="manifest" href="./manifest.webmanifest"></head>
+  <body>
+    <div id="kok"><div class="acilis"><svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="32" r="30.4" stroke="#D6B97C" stroke-width="1.1"/><circle cx="32" cy="32" r="26.6" stroke="#D6B97C" stroke-width=".55" opacity=".7"/><g fill="#D6B97C" fill-rule="evenodd"><path transform="translate(32 31) rotate(-28)" d="M-1.1-17a1.1 1.1 0 0 1 2.2 0V9.2h-2.2zM-1.1-15H-6.3V-13.1H-3.7V-11.5H-7V-9.3H-1.1zM-2.1 9.1h4.2v1.3h-4.2zM0 10.4a5.2 5.2 0 1 0 .01 0zM0 12.3a3.3 3.3 0 1 1-.01 0z"/><path transform="translate(32 31) rotate(28) scale(-1 1)" d="M-1.1-17a1.1 1.1 0 0 1 2.2 0V9.2h-2.2zM-1.1-15H-6.3V-13.1H-3.7V-11.5H-7V-9.3H-1.1zM-2.1 9.1h4.2v1.3h-4.2zM0 10.4a5.2 5.2 0 1 0 .01 0zM0 12.3a3.3 3.3 0 1 1-.01 0z"/></g></svg><strong>CONCIERGE</strong><span lang="en">Hospitality Academy</span></div></div>
+    <noscript>CONCIERGE çalışmak için JavaScript ister. Tarayıcı ayarlarından JavaScript’i açıp sayfayı yenile.</noscript>
+  </body>
+</html>
