@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sekme simgesi: 16–32 px için sadeleştirilmiş amblem (tek kalın halka, büyük anahtarlar). Uygulama simgesi simge.svg'dir. © 2026 Koray Kubilay -->
+  <defs>
+    <linearGradient id="z" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c2d4b"/><stop offset="1" stop-color="#0e1828"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F2E3B8"/><stop offset=".5" stop-color="#D6B97C"/><stop offset="1" stop-color="#B8934A"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#z)"/>
+  <circle cx="256" cy="256" r="212" fill="none" stroke="url(#a)" stroke-width="26"/>
+  <g fill="url(#a)" fill-rule="evenodd">
+    <path transform="translate(256 252) rotate(-28) scale(9.6)" d="M-1.1-17a1.1 1.1 0 0 1 2.2 0V9.2h-2.2zM-1.1-15H-6.3V-13.1H-3.7V-11.5H-7V-9.3H-1.1zM-2.1 9.1h4.2v1.3h-4.2zM0 10.4a5.2 5.2 0 1 0 .01 0zM0 12.3a3.3 3.3 0 1 1-.01 0z"/>
+    <path transform="translate(256 252) rotate(28) scale(-9.6 9.6)" d="M-1.1-17a1.1 1.1 0 0 1 2.2 0V9.2h-2.2zM-1.1-15H-6.3V-13.1H-3.7V-11.5H-7V-9.3H-1.1zM-2.1 9.1h4.2v1.3h-4.2zM0 10.4a5.2 5.2 0 1 0 .01 0zM0 12.3a3.3 3.3 0 1 1-.01 0z"/>
+  </g>
+</svg>
